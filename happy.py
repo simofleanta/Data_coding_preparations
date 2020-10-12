@@ -22,6 +22,10 @@ plt.show()
 Scatter = sns.lmplot(data=df, x='Explained_by_Log_GDP_per_capita', y='Social_support',
                  fit_reg=False)
 
+vis=sns.boxplot(data=df, x='Freedom_to_make_life_choices',y='Regional_indicator', palette='Reds')
+plt.show()
+
+
 #rownumbers
 
 Row_numbers, Column_numbers = df.shape
@@ -63,11 +67,11 @@ fig.show()
 #--------------------------------SouthEastAsia-----------------------------------------------
 
 
-SouthEast_Asia=df[df.Regional_indicator=='SouthEast_Asia']
+SouthEast_Asia=df[df.Regional_indicator=='Purples']
 print(SouthEast_Asia)
 
 plt.figure(figsize=(5,5))
-sns.heatmap(SouthEast_Asia.corr(), cmap='Blues')
+sns.heatmap(SouthEast_Asia.corr())
 plt.show()
 
 sns.pairplot(SouthEast_Asia, vars=['Freedom_to_make_life_choices','Logged_GDP_perCapita'])
@@ -79,7 +83,7 @@ Central_and_Eastern_Europe=df[df.Regional_indicator=='Central_and_Eastern_Europe
 print(Central_and_Eastern_Europe)
 
 plt.figure(figsize=(5,5))
-sns.heatmap(Central_and_Eastern_Europe.corr(), cmap='Blues')
+sns.heatmap(Central_and_Eastern_Europe.corr(), cmap='YlOrBr')
 plt.show()
 
 sns.pairplot(Central_and_Eastern_Europe, vars=['Freedom_to_make_life_choices','Logged_GDP_perCapita'])
