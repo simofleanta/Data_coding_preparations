@@ -1,4 +1,4 @@
-#extract column
+"""#extract column
 cnt=df['cnt']
 print(cnt.head(3))
 
@@ -44,7 +44,8 @@ plt.show()
 
 season = sns.lmplot(data=df, x='season', y='cnt',
                  fit_reg=False)
-plt.show()
+plt.show()"""
+
 
 
 
