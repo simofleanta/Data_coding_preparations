@@ -31,11 +31,13 @@ print("The number of parameters for happiness =",Column_numbers)
 
 
 
-vissual2 = sns.lmplot(data=df, x='Regional_indicator', y='Freedom_to_make_life_choices',
-                 fit_reg=False)
-
+vis4= sns.boxplot(data=df, x="Freedom_to_make_life_choices", y="Regional_indicator", palette='Blues')
 plt.show()
 
+fig = px.pie(df, values='Social_support', names='Regional_indicator', title='Social Support regionWise',height=550)
+fig.show()
+
+#check for null values#all is fine
 print(df.isnull().sum())
 
 
