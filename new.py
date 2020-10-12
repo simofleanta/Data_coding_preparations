@@ -1,51 +1,31 @@
-"""#extract column
-cnt=df['cnt']
-print(cnt.head(3))
+import pandas as pd
+import seaborn as sns 
+from pandas import DataFrame
+import matplotlib.pyplot as plt
+import plotly.express as px
+import numpy as np
+#open the file
+happy=pd.read_csv('2020.csv')
+print(happy.columns)
+df=DataFrame(happy)
 
+print(df.head(3))
 
-#heatmap
-plt.figure(figsize=(10,5))
-sns.heatmap(df.corr(),cmap='Blues')
-plt.show()
+values=df['Healthy_life_expectancy']
+names=df['Regional_indicator']
 
-#pairplot
-vissual3 = sns.pairplot(df, vars=['registered','cnt'])
-plt.show()
+fig=px.pie(df,
+values=values,
+names=names,
+title='Health_expectancy_regionwise')
 
-#violin
-sns.violinplot(x=df["season"], y=df["cnt"], palette="Blues")
-plt.show()
+fig.update_traces(
 
-sns.violinplot(x=df["mnth"], y=df["casual"], palette="Blues")
-plt.show()
+textposition='inside',
+textinfo='percent + label'
+)
 
-#boxplots
-vis4= sns.boxplot(data=df, x="season", y="registered", palette='Blues')
-plt.show()
-
-vis4= sns.boxplot(data=df, x="mnth", y="registered", palette='Blues')
-plt.show()
-
-vis4= sns.boxplot(data=df, x="mnth", y="casual", palette='Blues')
-plt.show()
-
-#distplot
-vis1 = sns.distplot(df["cnt"])
-plt.show()
-
-#implot-scatterdot
-vissual2 = sns.lmplot(data=df, x='mnth', y='casual',
-                 fit_reg=False)
-plt.show()
-
-vissual2 = sns.lmplot(data=df, x='mnth', y='cnt',
-                 fit_reg=False)
-plt.show()
-
-season = sns.lmplot(data=df, x='season', y='cnt',
-                 fit_reg=False)
-plt.show()"""
-
+fig.show()
 
 
 
