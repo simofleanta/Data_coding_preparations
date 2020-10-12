@@ -34,7 +34,7 @@ print("The number of parameters for happiness =",Column_numbers)
 vis4= sns.boxplot(data=df, x="Freedom_to_make_life_choices", y="Regional_indicator", palette='Blues')
 plt.show()
 
-fig = px.pie(df, values='Social_support', names='Regional_indicator', title='Social Support regionWise',height=550)
+fig = px.pie(df, values='Social_support', names='Regional_indicator', title='Social Support regionWise',height=550, palette='Blues')
 fig.show()
 
 #check for null values#all is fine
