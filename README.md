@@ -2,9 +2,8 @@
 Data visualization on various themes on world dev
 #https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html
 
-Globally
+
 ![Freedom to take decisions on WestEu](https://user-images.githubusercontent.com/47668423/95775814-62c27800-0cc3-11eb-8b73-1f7d229cbebb.png)
-Globally
 ![Social_support regionwise](https://user-images.githubusercontent.com/47668423/95775823-6a821c80-0cc3-11eb-9acb-81cf8e2a4c0c.png)
 ![happy WestEu](https://user-images.githubusercontent.com/47668423/95775835-71109400-0cc3-11eb-9430-51e0fa85a632.png)
 ![freedom of choice](https://user-images.githubusercontent.com/47668423/95775840-74a41b00-0cc3-11eb-86f0-b646fe4ac5b7.png)
