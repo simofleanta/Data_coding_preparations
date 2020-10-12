@@ -18,6 +18,12 @@ Row_numbers, Column_numbers = df.shape
 print("The number of countries in the dataset =",Row_numbers)
 print("The number of parameters for happiness =",Column_numbers)
 
+sns.violinplot(x=df["Social_support"], y=df["Country_name"], color='purple')
+plt.show()
+
+
+
+
 """In order to obtain charts more global regions will be extracted"""
 #--------------------------WestEu-----------------------#
 
@@ -32,13 +38,22 @@ Scatter = sns.lmplot(data=WestEu, x='Explained_by_Log_GDP_per_capita', y='Health
 plt.show()
 
 #violinchart
-sns.violinplot(x=WestEu["Social_support"], y=WestEu["Country_name"], color='purple')
+sns.violinplot(x=WestEu["Social_support"], y=df["Country_name"], color='purple')
 plt.show()
 
 #heatmap
 plt.figure(figsize=(5,5))
 sns.heatmap(WestEu.corr(), cmap='Blues')
 plt.show()
+
+#pieChart
+fig = px.pie(WestEu, values='Freedom_to_make_life_choices', names='Country_name', title='Region-wise economy',height=550)
+fig.show()
+
+#barchart
+fig = px.bar(WestEu, x='Country_name', y='Freedom_to_make_life_choices',color='Freedom_to_make_life_choices',height=800)
+fig.update_layout(title='Freedoom',titlefont_size=20)
+fig.show()
 
 #--------------------------------CentralEastEu---------------------------
 
@@ -48,6 +63,8 @@ print(CentralEastEu)
 plt.figure(figsize=(5,5))
 sns.heatmap(CentralEastEu.corr(), cmap='Blues')
 plt.show()
+
+
 
 
 
