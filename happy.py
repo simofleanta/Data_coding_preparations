@@ -34,6 +34,10 @@ print("The number of parameters for happiness =",Column_numbers)
 vissual2 = sns.lmplot(data=df, x='Regional_indicator', y='Freedom_to_make_life_choices',
                  fit_reg=False)
 
+plt.show()
+
+print(df.isnull().sum())
+
 
 """fig = px.bar(df, x='Regional_indicator', y='Freedom_to_make_life_choices',color='Freedom_to_make_life_choices',height=800)
 fig.update_layout(title='Countries in descending order of Freedom_to_make_life_choices',titlefont_size=20)
