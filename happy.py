@@ -51,13 +51,13 @@ plt.show()
 
 #pieChart
 
-"""fig = px.pie(WestEu, values='Freedom_to_make_life_choices', names='Country_name', title='Region-wise economy',height=550)
+fig = px.pie(WestEu, values='Freedom_to_make_life_choices', names='Country_name', title='Region-wise economy',height=550)
 fig.show()
 
 #barchart
 fig = px.bar(WestEu, x='Country_name', y='Freedom_to_make_life_choices',color='Freedom_to_make_life_choices',height=800)
 fig.update_layout(title='Freedoom',titlefont_size=20)
-fig.show()"""
+fig.show()
 
 
 #--------------------------------SouthEastAsia-----------------------------------------------
