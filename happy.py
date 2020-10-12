@@ -12,6 +12,13 @@ print(happy.columns)
 df=DataFrame(happy)
 print(df.head(3))
 
+
+sns.violinplot(x=df["Freedom_to_make_life_choices"], y=df["Regional_indicator"], color='purple')
+plt.show()
+
+Scatter = sns.lmplot(data=df, x='Explained_by_Log_GDP_per_capita', y='Social_support',
+                 fit_reg=False)
+
 #rownumbers
 
 Row_numbers, Column_numbers = df.shape
@@ -41,7 +48,9 @@ plt.figure(figsize=(5,5))
 sns.heatmap(WestEu.corr(), cmap='Blues')
 plt.show()
 
+
 #pieChart
+
 fig = px.pie(WestEu, values='Freedom_to_make_life_choices', names='Country_name', title='Region-wise economy',height=550)
 fig.show()
 
@@ -50,14 +59,7 @@ fig = px.bar(WestEu, x='Country_name', y='Freedom_to_make_life_choices',color='F
 fig.update_layout(title='Freedoom',titlefont_size=20)
 fig.show()
 
-#--------------------------------CentralEastEu---------------------------
 
-CentralEastEu=df[df.Regional_indicator=='Central_and_Eastern_Europe']
-print(CentralEastEu)
-
-plt.figure(figsize=(5,5))
-sns.heatmap(CentralEastEu.corr(), cmap='Blues')
-plt.show()
 
 
 
