@@ -18,11 +18,6 @@ Row_numbers, Column_numbers = df.shape
 print("The number of countries in the dataset =",Row_numbers)
 print("The number of parameters for happiness =",Column_numbers)
 
-sns.violinplot(x=df["Social_support"], y=df["Country_name"], color='purple')
-plt.show()
-
-
-
 
 """In order to obtain charts more global regions will be extracted"""
 #--------------------------WestEu-----------------------#
@@ -38,7 +33,7 @@ Scatter = sns.lmplot(data=WestEu, x='Explained_by_Log_GDP_per_capita', y='Health
 plt.show()
 
 #violinchart
-sns.violinplot(x=WestEu["Social_support"], y=df["Country_name"], color='purple')
+sns.violinplot(x=WestEu["Social_support"], y=WestEu["Country_name"], color='purple')
 plt.show()
 
 #heatmap
