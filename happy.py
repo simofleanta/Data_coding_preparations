@@ -16,6 +16,9 @@ print(df.head(3))
 sns.violinplot(x=df["Freedom_to_make_life_choices"], y=df["Regional_indicator"], color='purple')
 plt.show()
 
+sns.pairplot(df, vars=['Freedom_to_make_life_choices','Logged_GDP_perCapita'])
+plt.show()
+
 Scatter = sns.lmplot(data=df, x='Explained_by_Log_GDP_per_capita', y='Social_support',
                  fit_reg=False)
 
@@ -35,12 +38,7 @@ WestEu=df[df.Regional_indicator=='Western_Europe']
 print(WestEu)
 
 #chart it scatter
-Scatter = sns.lmplot(data=WestEu, x='Explained_by_Log_GDP_per_capita', y='Healthy_life_expectancy',
-                 fit_reg=False)
-plt.show()
-
-#violinchart
-sns.violinplot(x=WestEu["Social_support"], y=WestEu["Country_name"], color='purple')
+sns.pairplot(WestEu, vars=['Freedom_to_make_life_choices','Logged_GDP_perCapita'])
 plt.show()
 
 #heatmap
@@ -49,15 +47,43 @@ sns.heatmap(WestEu.corr(), cmap='Blues')
 plt.show()
 
 
+
+
 #pieChart
 
-fig = px.pie(WestEu, values='Freedom_to_make_life_choices', names='Country_name', title='Region-wise economy',height=550)
+"""fig = px.pie(WestEu, values='Freedom_to_make_life_choices', names='Country_name', title='Region-wise economy',height=550)
 fig.show()
 
 #barchart
 fig = px.bar(WestEu, x='Country_name', y='Freedom_to_make_life_choices',color='Freedom_to_make_life_choices',height=800)
 fig.update_layout(title='Freedoom',titlefont_size=20)
-fig.show()
+fig.show()"""
+
+
+#--------------------------------SouthEastAsia-----------------------------------------------
+
+
+SouthEast_Asia=df[df.Regional_indicator=='SouthEast_Asia']
+print(SouthEast_Asia)
+
+plt.figure(figsize=(5,5))
+sns.heatmap(SouthEast_Asia.corr(), cmap='Blues')
+plt.show()
+
+sns.pairplot(SouthEast_Asia, vars=['Freedom_to_make_life_choices','Logged_GDP_perCapita'])
+plt.show()
+
+#--------------------------------CentralEast-----------------------------------------------
+
+Central_and_Eastern_Europe=df[df.Regional_indicator=='Central_and_Eastern_Europe']
+print(Central_and_Eastern_Europe)
+
+plt.figure(figsize=(5,5))
+sns.heatmap(Central_and_Eastern_Europe.corr(), cmap='Blues')
+plt.show()
+
+sns.pairplot(Central_and_Eastern_Europe, vars=['Freedom_to_make_life_choices','Logged_GDP_perCapita'])
+plt.show()
 
 
 
