@@ -4,6 +4,7 @@ import seaborn as sns
 from pandas import DataFrame
 import matplotlib.pyplot as plt
 import plotly.express as px
+import plotly
 
 
 #open the file
@@ -66,6 +67,8 @@ title='Happiness_overview',
 
 #setting a layout(optional task)
 
+
+
 fig.update_layout(
     title_font_size=42,
     title_font_family='Arial'
@@ -73,6 +76,30 @@ fig.update_layout(
 
 fig.show()
 
+#perception on generosity treemap
+
+Country=WestEu['Country_name']
+Generosity=WestEu['Generosity']
+
+fig=px.treemap(WestEu,
+path=[Country],
+values=Generosity,
+color=Generosity,
+color_continuous_scale='RdYlBu',
+title='Perception_on_generosity',
+hover_name=Generosity
+  
+)
+
+#setting a layout(optional task)
+
+fig.update_layout(
+    title_font_size=42,
+    title_font_family='Arial'
+)
+
+plotly.offline.plot(fig, filename='Generosity perception in Central Eu')
+fig.show()
 
 
 
@@ -81,10 +108,6 @@ fig.show()
 fig = px.pie(WestEu, values='Freedom_to_make_life_choices', names='Country_name', title='Region-wise economy',height=550)
 fig.show()
 
-#barchart
-fig = px.bar(WestEu, x='Country_name', y='Freedom_to_make_life_choices',color='Freedom_to_make_life_choices',height=800)
-fig.update_layout(title='Freedoom',titlefont_size=20)
-fig.show()
 
 
 #--------------------------------SouthEastAsia-----------------------------------------------
@@ -113,7 +136,6 @@ sns.pairplot(Central_and_Eastern_Europe, vars=['Freedom_to_make_life_choices','L
 plt.show()
 
 #merge data sets 
-#treemap
 
 
 
