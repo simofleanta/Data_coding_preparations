@@ -11,6 +11,9 @@ Data visualization on various themes on world dev
 ![generosity perceptions regional](https://user-images.githubusercontent.com/47668423/95775852-7e2d8300-0cc3-11eb-8b76-5b1c2620f200.png)
 ![red box](https://user-images.githubusercontent.com/47668423/95778892-54775a80-0cc9-11eb-9b3c-226836530399.png)
 ![tree RdBu](https://user-images.githubusercontent.com/47668423/95838838-8ed10e00-0d42-11eb-948c-c8fedb0ed2fc.png)
+![Generosity in WE](https://user-images.githubusercontent.com/47668423/95844293-0a35be00-0d49-11eb-9c86-984a251b5eb2.png)
+![central eu](https://user-images.githubusercontent.com/47668423/95844329-16ba1680-0d49-11eb-84b4-0b72b44a24a2.png)
+
 
 
 
