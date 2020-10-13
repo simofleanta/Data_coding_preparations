@@ -13,8 +13,9 @@ Data visualization on various themes on world dev
 ![tree RdBu](https://user-images.githubusercontent.com/47668423/95838838-8ed10e00-0d42-11eb-948c-c8fedb0ed2fc.png)
 ![Generosity in WE](https://user-images.githubusercontent.com/47668423/95844293-0a35be00-0d49-11eb-9c86-984a251b5eb2.png)
 ![central eu](https://user-images.githubusercontent.com/47668423/95844329-16ba1680-0d49-11eb-84b4-0b72b44a24a2.png)
-![Generosity WE](https://user-images.githubusercontent.com/47668423/95847269-cba20280-0d4c-11eb-8a30-544e10d4d002.png)
-![HE ex](https://user-images.githubusercontent.com/47668423/95847292-d2307a00-0d4c-11eb-97f5-4b9754320b6e.png)
+![Korruption](https://user-images.githubusercontent.com/47668423/95879351-8f839780-0d76-11eb-9389-f6ff21215dbd.png)
+
+
 
 
 
