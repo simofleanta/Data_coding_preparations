@@ -10,5 +10,7 @@ Data visualization on various themes on world dev
 ![Gen turned around](https://user-images.githubusercontent.com/47668423/95775844-7837a200-0cc3-11eb-8efa-503ef1e12cbf.png)
 ![generosity perceptions regional](https://user-images.githubusercontent.com/47668423/95775852-7e2d8300-0cc3-11eb-8b76-5b1c2620f200.png)
 ![red box](https://user-images.githubusercontent.com/47668423/95778892-54775a80-0cc9-11eb-9b3c-226836530399.png)
+![tree RdBu](https://user-images.githubusercontent.com/47668423/95838838-8ed10e00-0d42-11eb-948c-c8fedb0ed2fc.png)
+
 
 
