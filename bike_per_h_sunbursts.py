@@ -20,12 +20,12 @@ print(df.head(3))
 
 
 #sunburst season and weekday
-"""fig = px.sunburst(df, path=['County'], values='Voters',
-                  color='Voters', hover_data=['Voters'],
-                  color_continuous_scale='dense',
+fig = px.sunburst(df, path=['weekday','mnth','season'], values='cnt',
+                  color='cnt', hover_data=['cnt'],
+                  color_continuous_scale='peach',
                   maxdepth=2,
-                  color_continuous_midpoint=np.average(df['Voters'], weights=df['Voters']))
+                  color_continuous_midpoint=np.average(df['cnt'], weights=df['cnt']))
 
-plotly.offline.plot(fig, filename='sun')
+plotly.offline.plot(fig, filename='bikes on a day')
 
-fig.show()"""
+fig.show()
