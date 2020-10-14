@@ -40,6 +40,8 @@ fig.show()"""
 #scatter
 
 cdu=df[df.party=='Christlich.Demokratische.Union.Deutschlands']
+afd=df[df.party=='Alternative.fÃ¼r.Deutschland']
+B=df[df.state=='Berlin']
 
 
 """fig = px.scatter(cdu, x="state", y="votes_second_vote", color="votes_second_vote",
@@ -49,14 +51,23 @@ plotly.offline.plot(fig, filename='votes_S')
 
 fig.show()"""
 
-B=df[df.state=='Berlin']
 
-fig = px.scatter(B, x="party", y="votes_second_vote", color="votes_second_vote",
+fig = px.scatter(afd, x="state", y="votes_second_vote", color="votes_second_vote",
                  size='votes_second_vote', hover_data=['votes_second_vote'])
+
+plotly.offline.plot(fig, filename='votes_afd')
+
+fig.show()
+
+
+
+"""fig = px.scatter(B, x="party", y="votes_second_vote", color="votes_second_vote",
+                 size='votes_first_vote', hover_data=['votes_first_vote'],
+                 color_continuous_scale='Tealgrn')
 
 plotly.offline.plot(fig, filename='votes_S')
 
-fig.show()
+fig.show()"""
 
 
 
