@@ -39,16 +39,37 @@ fig.show()"""
 
 #elections overall g
 
-g=pd.read_csv('2017_german_election_party.csv')
-print(g.columns)
-df=DataFrame(g)
+de=pd.read_csv('2017_german_election_overall.csv')
+print(de.columns)
+df=DataFrame(de)
 
 print(df.head(3))
+print(df.columns)
 
-area=df['area_name']
+area=df['area_names']
 state=df['state']
-party=df['party']
-votes1=df['votes_first_vote']
-votes2=df['votes_second_vote']
-area_id=['area_id']
+registered_voters=df['registered.voters']
+valid_votes1=df['valid_first_votes']
+invalid_second_votes=df['invalid_second_votes']
+valid_votes2=df['valid_second_votes']
+total_votes=df['total_votes']
+
+fig = go.Figure(data=go.Heatmap(                   
+                   x=state,
+                   y=valid_votes2,
+                   z=registered_voters,
+                   colorscale='RdBu'))
+
+fig.update_layout(
+    title='Presence of Votes in Germany 2017',
+    xaxis_nticks=18)
+
+
+plotly.offline.plot(fig, filename='votes_overall')
+
+fig.show()
+
+
+
+
 
