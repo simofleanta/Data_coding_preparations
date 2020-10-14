@@ -1,0 +1,8 @@
+![invalid second votes](https://user-images.githubusercontent.com/47668423/96020959-13a94e00-0e4f-11eb-8323-45e885a3a977.png)
+![vote presence g](https://user-images.githubusercontent.com/47668423/96020965-14da7b00-0e4f-11eb-8fcf-49f5252ab74d.png)
+![all parties](https://user-images.githubusercontent.com/47668423/96020966-14da7b00-0e4f-11eb-9940-b3aee6234ca7.png)
+![Berlin Elecctions](https://user-images.githubusercontent.com/47668423/96020969-15731180-0e4f-11eb-9d76-ba5ec9e695db.png)
+![Berlin Parties votes](https://user-images.githubusercontent.com/47668423/96020971-15731180-0e4f-11eb-9afe-997905586883.png)
+![cdu in states](https://user-images.githubusercontent.com/47668423/96020973-160ba800-0e4f-11eb-90f3-7c9fcab42039.png)
+![edited el](https://user-images.githubusercontent.com/47668423/96020975-160ba800-0e4f-11eb-8a86-1276e3a8b50e.png)
+![invalid first votes(23)](https://user-images.githubusercontent.com/47668423/96020976-16a43e80-0e4f-11eb-853e-a10404765f67.png)

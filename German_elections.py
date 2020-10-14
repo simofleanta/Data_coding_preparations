@@ -22,7 +22,7 @@ votes1=df['votes_first_vote']
 votes2=df['votes_second_vote']
 area_id=['area_id']
 
-"""fig = go.Figure(data=go.Heatmap(
+fig = go.Figure(data=go.Heatmap(
                    z=votes2,
                    x=state,
                    y=party,
@@ -131,11 +131,11 @@ fig.update_layout(
     xaxis_nticks=18)
 
 
-plotly.offline.plot(fig, filename='votes_overall')"""
+plotly.offline.plot(fig, filename='votes_overall')
 
 
 
-"""fig = go.Figure(data=go.Scatter(
+fig = go.Figure(data=go.Scatter(
     x=party,
     y=['votes_second_vote'],
     mode='markers',
@@ -144,11 +144,9 @@ plotly.offline.plot(fig, filename='votes_overall')"""
 ))
 plotly.offline.plot(fig, filename='votes_overall')
 
-fig.show()"""
+fig.show()
 
-cdu=df[df.party=='Christlich.Demokratische.Union.Deutschlands']
-afd=df[df.party=='Alternative.fÃ¼r.Deutschland']
-B=df[df.state=='Berlin']
+
 
 
 
