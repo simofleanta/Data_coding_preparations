@@ -9,7 +9,7 @@ import plotly
 
 
 #open the file
-"""g=pd.read_csv('2017_german_election_party.csv')
+g=pd.read_csv('2017_german_election_party.csv')
 print(g.columns)
 df=DataFrame(g)
 
@@ -22,7 +22,7 @@ votes1=df['votes_first_vote']
 votes2=df['votes_second_vote']
 area_id=['area_id']
 
-fig = go.Figure(data=go.Heatmap(
+"""fig = go.Figure(data=go.Heatmap(
                    z=votes2,
                    x=state,
                    y=party,
@@ -37,9 +37,44 @@ plotly.offline.plot(fig, filename='votes_g')
 
 fig.show()"""
 
+#scatter
+
+cdu=df[df.party=='Christlich.Demokratische.Union.Deutschlands']
+
+
+"""fig = px.scatter(cdu, x="state", y="votes_second_vote", color="votes_second_vote",
+                 size='votes_second_vote', hover_data=['votes_second_vote'])
+
+plotly.offline.plot(fig, filename='votes_S')
+
+fig.show()"""
+
+B=df[df.state=='Berlin']
+
+fig = px.scatter(B, x="party", y="votes_second_vote", color="votes_second_vote",
+                 size='votes_second_vote', hover_data=['votes_second_vote'])
+
+plotly.offline.plot(fig, filename='votes_S')
+
+fig.show()
+
+
+
+
+"""fig = px.scatter(df, x="party", y="votes_second_vote", color="votes_second_vote",
+                 size='votes_second_vote', hover_data=['votes_second_vote'])
+
+plotly.offline.plot(fig, filename='votes_S')
+
+fig.show()"""
+
+
+
+
+
 #elections overall g
 
-de=pd.read_csv('2017_german_election_overall.csv')
+"""de=pd.read_csv('2017_german_election_overall.csv')
 print(de.columns)
 df=DataFrame(de)
 
@@ -51,6 +86,7 @@ state=df['state']
 registered_voters=df['registered.voters']
 valid_votes1=df['valid_first_votes']
 invalid_second_votes=df['invalid_second_votes']
+invalid_first_votes=df['invalid_first_votes']
 valid_votes2=df['valid_second_votes']
 total_votes=df['total_votes']
 
@@ -68,6 +104,47 @@ fig.update_layout(
 plotly.offline.plot(fig, filename='votes_overall')
 
 fig.show()
+
+
+#invalid second
+fig = go.Figure(data=go.Heatmap(                   
+                   x=state,
+                   y=invalid_second_votes,
+                   z=registered_voters,
+                   colorscale='Teal'))
+
+fig.update_layout(
+    title='Invalid second Votes in Germany 2017',
+    xaxis_nticks=18)
+
+
+plotly.offline.plot(fig, filename='votes_overall')
+
+fig.show()
+
+#invalid first
+
+fig = go.Figure(data=go.Heatmap(                   
+                   x=state,
+                   y=invalid_first_votes,
+                   z=registered_voters,
+                   colorscale='Tealgrn'))
+
+fig.update_layout(
+    title='Invalid first Votes in Germany 2017',
+    xaxis_nticks=18)
+
+
+plotly.offline.plot(fig, filename='votes_overall')"""
+
+
+
+
+
+
+
+
+
 
 
 
