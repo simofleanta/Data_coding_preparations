@@ -22,7 +22,7 @@ votes1=df['votes_first_vote']
 votes2=df['votes_second_vote']
 area_id=['area_id']
 
-"""fig = go.Figure(data=go.Heatmap(
+fig = go.Figure(data=go.Heatmap(
                    z=votes2,
                    x=state,
                    y=party,
@@ -35,7 +35,7 @@ fig.update_layout(
 
 plotly.offline.plot(fig, filename='votes_g')
 
-fig.show()"""
+fig.show()
 
 #scatter
 
@@ -43,49 +43,34 @@ cdu=df[df.party=='Christlich.Demokratische.Union.Deutschlands']
 afd=df[df.party=='Alternative.fÃ¼r.Deutschland']
 B=df[df.state=='Berlin']
 
-
-"""fig = px.scatter(cdu, x="state", y="votes_second_vote", color="votes_second_vote",
-                 size='votes_second_vote', hover_data=['votes_second_vote'])
+fig = px.scatter(cdu, x="state", y="votes_second_vote", color="votes_second_vote",
+                 size='votes_second_vote', hover_data=['votes_second_vote'],
+                 color_continuous_scale='Teal')
 
 plotly.offline.plot(fig, filename='votes_S')
-
-fig.show()"""
-
-
-fig = px.scatter(afd, x="state", y="votes_second_vote", color="votes_second_vote",
-                 size='votes_second_vote', hover_data=['votes_second_vote'])
-
-plotly.offline.plot(fig, filename='votes_afd')
 
 fig.show()
 
 
-
-"""fig = px.scatter(B, x="party", y="votes_second_vote", color="votes_second_vote",
+fig = px.scatter(B, x="party", y="votes_second_vote", color="votes_second_vote",
                  size='votes_first_vote', hover_data=['votes_first_vote'],
                  color_continuous_scale='Tealgrn')
 
 plotly.offline.plot(fig, filename='votes_S')
 
-fig.show()"""
+fig.show()
 
 
-
-
-"""fig = px.scatter(df, x="party", y="votes_second_vote", color="votes_second_vote",
+fig = px.scatter(df, x="party", y="votes_second_vote", color="votes_second_vote",
                  size='votes_second_vote', hover_data=['votes_second_vote'])
 
 plotly.offline.plot(fig, filename='votes_S')
 
-fig.show()"""
-
-
-
-
+fig.show()
 
 #elections overall g
 
-"""de=pd.read_csv('2017_german_election_overall.csv')
+de=pd.read_csv('2017_german_election_overall.csv')
 print(de.columns)
 df=DataFrame(de)
 
@@ -146,7 +131,7 @@ fig.update_layout(
     xaxis_nticks=18)
 
 
-plotly.offline.plot(fig, filename='votes_overall')"""
+plotly.offline.plot(fig, filename='votes_overall')
 
 
 
