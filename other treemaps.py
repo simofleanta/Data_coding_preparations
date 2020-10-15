@@ -24,7 +24,7 @@ recovered=df['recovered']
 dates=df['date']
 
 
-Thueringen=df[df.state=='Thueringen']
+"""Thueringen=df[df.state=='Thueringen']
 print(Thueringen)
 
 
@@ -39,18 +39,18 @@ fig.update_layout(
     xaxis_nticks=18)
 
 
-plotly.offline.plot(fig, filename='recovered')
+plotly.offline.plot(fig, filename='recovered')"""
 
 
 fig = go.Figure(data=go.Heatmap(                   
                    x=dates,
-                   y=deaths,
-                   z=cases,
+                   y=state,
+                   z=deaths,
                    colorscale='RdBu'))
 
 fig.update_layout(
     title='Deaths per date 2020',
-    xaxis_nticks=18)
+    xaxis_nticks=36)
 
 
 plotly.offline.plot(fig, filename='recovered')
