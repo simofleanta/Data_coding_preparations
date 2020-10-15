@@ -1,0 +1,5 @@
+![deaths and recovered](https://user-images.githubusercontent.com/47668423/96122725-38a2cd00-0ef2-11eb-968a-deeb26094765.png)
+![Deaths_violin](https://user-images.githubusercontent.com/47668423/96122728-393b6380-0ef2-11eb-946c-6c5398170e37.png)
+![Figure_1](https://user-images.githubusercontent.com/47668423/96122729-393b6380-0ef2-11eb-9fd1-addac479e760.png)
+![Recovered violin](https://user-images.githubusercontent.com/47668423/96122731-39d3fa00-0ef2-11eb-8c9b-491570bd0863.png)
+![recovered_states](https://user-images.githubusercontent.com/47668423/96122737-3b052700-0ef2-11eb-81ee-5292762b86a1.png)

@@ -14,8 +14,6 @@ print(c.columns)
 df=DataFrame(c)
 
 
-
-
 state=df['state']
 county=df['county']
 age_g=df['age_group']
