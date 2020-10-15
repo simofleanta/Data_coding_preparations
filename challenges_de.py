@@ -29,10 +29,10 @@ Thueringen=df[df.state=='Thueringen']
 print(Thueringen)
 
 
-"""fig = go.Figure(data=go.Heatmap(                   
+fig = go.Figure(data=go.Heatmap(                   
                    x=state,
                    y=recovered,
-                   z=county,
+                   z=deaths,
                    colorscale='Tealgrn'))
 
 fig.update_layout(
@@ -40,7 +40,14 @@ fig.update_layout(
     xaxis_nticks=18)
 
 
-plotly.offline.plot(fig, filename='recovered')"""
+plotly.offline.plot(fig, filename='recovered')
+
+
+
+
+
+
+
 
 
 
