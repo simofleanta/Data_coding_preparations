@@ -24,7 +24,7 @@ recovered=df['recovered']
 dates=df['date']
 
 
-"""Thueringen=df[df.state=='Thueringen']
+Thueringen=df[df.state=='Thueringen']
 print(Thueringen)
 
 
@@ -39,7 +39,7 @@ fig.update_layout(
     xaxis_nticks=18)
 
 
-plotly.offline.plot(fig, filename='recovered')"""
+plotly.offline.plot(fig, filename='recovered')
 
 
 fig = go.Figure(data=go.Heatmap(                   
