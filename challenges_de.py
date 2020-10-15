@@ -43,10 +43,33 @@ fig.update_layout(
 plotly.offline.plot(fig, filename='recovered')
 
 
+fig=px.treemap(df,
+path=[state],
+values=recovered,
+color=recovered,
+color_continuous_scale='Blues',
+title='Recovered in DE',
+hover_name=recovered
+  
+)
 
+fig.update_layout(
+    title_font_size=42,
+    title_font_family='Arial'
+)
 
+plotly.offline.plot(fig, filename='Recovered')
 
+#Thueringen
 
+sns.violinplot(x=df["age_group"], y=Thueringen["cases"], color='purple')
+plt.show()
+
+sns.violinplot(x=df["age_group"], y=Thueringen["recovered"], color='purple')
+plt.show()
+
+sns.violinplot(x=df["age_group"], y=Thueringen["deaths"], color='purple')
+plt.show()
 
 
 
