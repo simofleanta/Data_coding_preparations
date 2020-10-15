@@ -43,10 +43,5 @@ fig.update_layout(
 plotly.offline.plot(fig, filename='recovered')"""
 
 
-fig = px.scatter(Thueringen, x="age_group", y="recovered", color="gender",
-                 size='gender', hover_data=['recovered'])
 
-plotly.offline.plot(fig, filename='cov')
-
-fig.show()
 
