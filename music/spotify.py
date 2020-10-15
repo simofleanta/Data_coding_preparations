@@ -74,23 +74,19 @@ plotly.offline.plot(fig, filename='m')"""
 
 plotly.offline.plot(fig, filename='m')"""
 
-"""fig = go.Figure(data=go.Heatmap(
-                   x=year,
+fig = go.Figure(data=go.Heatmap(
+                   x=instrumentalness,
                    y=acousticness,
-                   z=instrumentalness,
+                   z=year,
                    colorscale='Magma'))
 
 fig.update_layout(
     title='evolution of acoutic music',
     xaxis_nticks=18)
 
-plotly.offline.plot(fig, filename='m')"""
-
-fig = px.scatter(df, x="year", y="energy", color="speechiness",
-                 size='popularity', hover_data=['popularity'],
-                 color_continuous_scale='RdBu', title='We love energic music')
-
 plotly.offline.plot(fig, filename='m')
+
+
 
 
 
