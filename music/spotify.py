@@ -32,14 +32,14 @@ danceability=df['danceability']
 
 # in 2020 music with a shorter duration have a higher popularity
 
-"""fig = px.scatter(df, x="year", y="popularity", color="popularity",
+fig = px.scatter(df, x="year", y="popularity", color="popularity",
                  size='duration_ms', hover_data=['popularity'],
                  color_continuous_scale='RdBu')
 
-plotly.offline.plot(fig, filename='m')"""
+plotly.offline.plot(fig, filename='m')
 
 #the more we increase in years the less people liked liveness
-"""fig = go.Figure(data=go.Heatmap(
+fig = go.Figure(data=go.Heatmap(
                    x=year,
                    y=popularity,
                    z=liveness,
@@ -50,11 +50,11 @@ fig.update_layout(
     xaxis_nticks=18)
 
 
-plotly.offline.plot(fig, filename='m')"""
+plotly.offline.plot(fig, filename='m')
 
 #why
 
-"""fig = go.Figure(data=go.Heatmap(
+fig = go.Figure(data=go.Heatmap(
                    x=year,
                    y=liveness,
                    z=duration_ms,
@@ -65,14 +65,14 @@ fig.update_layout(
     xaxis_nticks=18)
 
 
-plotly.offline.plot(fig, filename='m')"""
+plotly.offline.plot(fig, filename='m')
 
-"""fig = px.sunburst(df, path=['year', 'popularity'], values='tempo',
+fig = px.sunburst(df, path=['year', 'popularity'], values='tempo',
                   color='liveness', hover_data=['liveness'],
                   color_continuous_scale='blues',
                   color_continuous_midpoint=np.average(df['liveness'], weights=df['liveness']))
 
-plotly.offline.plot(fig, filename='m')"""
+plotly.offline.plot(fig, filename='m')
 
 fig = go.Figure(data=go.Heatmap(
                    x=instrumentalness,
