@@ -13,5 +13,40 @@ c=pd.read_csv('covid_de.csv')
 print(c.columns)
 df=DataFrame(c)
 
-print(df.head(3))
+
+
+
+state=df['state']
+county=df['county']
+age_g=df['age_group']
+gender=df['gender']
+cases=df['cases']
+deaths=df['deaths']
+recovered=df['recovered']
+
+
+Thueringen=df[df.state=='Thueringen']
+print(Thueringen)
+
+
+"""fig = go.Figure(data=go.Heatmap(                   
+                   x=state,
+                   y=recovered,
+                   z=county,
+                   colorscale='Tealgrn'))
+
+fig.update_layout(
+    title='Recovered_Germany 2020',
+    xaxis_nticks=18)
+
+
+plotly.offline.plot(fig, filename='recovered')"""
+
+
+fig = px.scatter(Thueringen, x="age_group", y="recovered", color="gender",
+                 size='gender', hover_data=['recovered'])
+
+plotly.offline.plot(fig, filename='cov')
+
+fig.show()
 
