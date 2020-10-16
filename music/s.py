@@ -14,7 +14,7 @@ df=DataFrame(s)
 
 print(df.head(3))
 
-"""year=df['year']
+artists=df['artists']
 popularity=df['popularity']
 duration_ms=df['duration_ms']
 acousticness=df['acousticness']
@@ -26,4 +26,6 @@ loudness=df['loudness']
 speechiness=df['speechiness']
 valence=df['valence']
 tempo=df['tempo']
-danceability=df['danceability']"""
+danceability=df['danceability']
+count=df['count']
+
