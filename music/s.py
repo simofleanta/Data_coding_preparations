@@ -29,3 +29,8 @@ tempo=df['tempo']
 danceability=df['danceability']
 count=df['count']
 
+
+
+sns.violinplot(x=df["popularity"], y=df["artists"], color='purple')
+plt.show()
+
