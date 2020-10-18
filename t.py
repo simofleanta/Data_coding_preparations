@@ -20,12 +20,21 @@ Close=df['Close']
 Open=df['Open']
 Volume=df['Volume']
 
+#scater
+
+"""fig = px.scatter(df, x="Date", y="Close", color="Volume",
+                 size='Open', hover_data=['Close'],
+                 color_continuous_scale='RdBu')
+
+plotly.offline.plot(fig, filename='m')"""
 
 
-"""fig = go.Figure(data=go.Heatmap(
+
+#heat
+fig = go.Figure(data=go.Heatmap(
                    z=Open,
-                   x=Close,
-                   y=Date,
+                   x=Date,
+                   y=Volume,
                    colorscale='Viridis'))
 
 fig.update_layout(
@@ -33,10 +42,10 @@ fig.update_layout(
     xaxis_nticks=36)
 
 
-plotly.offline.plot(fig, filename='te')"""
+plotly.offline.plot(fig, filename='te')
 
 
-
+#sun
 """fig = px.sunburst(df, path=['Date','Volume'], values='Close',
                   color='Open', hover_data=['Close'],
                   color_continuous_scale='blues',
