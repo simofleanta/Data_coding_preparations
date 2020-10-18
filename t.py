@@ -22,11 +22,11 @@ Volume=df['Volume']
 
 #scater
 
-"""fig = px.scatter(df, x="Date", y="Close", color="Volume",
+fig = px.scatter(df, x="Date", y="Close", color="Volume",
                  size='Open', hover_data=['Close'],
                  color_continuous_scale='RdBu')
 
-plotly.offline.plot(fig, filename='m')"""
+plotly.offline.plot(fig, filename='m')
 
 
 
@@ -35,23 +35,23 @@ fig = go.Figure(data=go.Heatmap(
                    z=Open,
                    x=Date,
                    y=Volume,
-                   colorscale='Viridis'))
+                   colorscale='agsunset'))
 
 fig.update_layout(
     title='Tsls',
-    xaxis_nticks=36)
+    xaxis_nticks=40)
 
 
 plotly.offline.plot(fig, filename='te')
 
 
 #sun
-"""fig = px.sunburst(df, path=['Date','Volume'], values='Close',
+fig = px.sunburst(df, path=['Date','Volume'], values='Close',
                   color='Open', hover_data=['Close'],
                   color_continuous_scale='blues',
                   color_continuous_midpoint=np.average(df['Close'], weights=df['Close']))
 
-plotly.offline.plot(fig, filename='ts')"""
+plotly.offline.plot(fig, filename='ts')
 
 
 
