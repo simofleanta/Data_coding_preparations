@@ -17,7 +17,7 @@ print(df.head(3))
 
 
 #Family barchart in WE
-"""WE=df[df.Region =='Western Europe']
+WE=df[df.Region =='Western Europe']
 Country=WE['Country']
 print(WE)
 
@@ -27,11 +27,11 @@ Family_c=WE_fam.sort_values(by='Family',ascending=False,axis=0)
 print(Family_c)
 
 fig = px.bar(Family_c, x="Family", y=Family_c.index, color='Family',color_continuous_scale='Blues',title="Family on regions")
-plotly.offline.plot(fig, filename='hap')"""
+plotly.offline.plot(fig, filename='hap')
 
 #Family barchart in CE
 
-"""CE=df[df.Region =='Central and Eastern Europe']
+CE=df[df.Region =='Central and Eastern Europe']
 Country=CE['Country']
 print(CE)
 
@@ -41,11 +41,11 @@ Family_central=CE_fam.sort_values(by='Family',ascending=False,axis=0)
 print(Family_central)
 
 fig = px.bar(Family_central, x="Family", y=Family_central.index, color='Family',color_continuous_scale='Blues',title="Family in the Central Eastern")
-plotly.offline.plot(fig, filename='hap')"""
+plotly.offline.plot(fig, filename='hap')
 
 #Australia and New Zealand GDP
 
-"""AZ=df[df.Region =='Australia and New Zealand']
+AZ=df[df.Region =='Australia and New Zealand']
 Country=AZ['Country']
 
 
@@ -55,11 +55,11 @@ gdp_az=AZ_gdp.sort_values(by='Economy (GDP per Capita)',ascending=False,axis=0)
 print(gdp_az)
 
 fig = px.bar(gdp_az, x="Economy (GDP per Capita)", y=gdp_az.index, color='Economy (GDP per Capita)',color_continuous_scale='Blues',title="Family in the Australia NZ")
-plotly.offline.plot(fig, filename='hap')"""
+plotly.offline.plot(fig, filename='hap')
 
 #WE GDP GROUPBY
 
-"""WE=df[df.Region =='Western Europe']
+WE=df[df.Region =='Western Europe']
 Country=WE['Country']
 
 WE_gdp=WE.groupby(['Country'])['Economy (GDP per Capita)'].mean()
@@ -82,7 +82,7 @@ gdp_central=CE_gdp.sort_values(by='Economy (GDP per Capita)',ascending=False,axi
 print(gdp_central)
 
 fig = px.bar(gdp_central, x="Economy (GDP per Capita)", y=gdp_central.index, color='Economy (GDP per Capita)',color_continuous_scale='Blues',title="GDP mean in different countries")
-plotly.offline.plot(fig, filename='hap')"""
+plotly.offline.plot(fig, filename='hap')
 
 #gdp per regions
 
