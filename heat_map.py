@@ -18,6 +18,7 @@ print(df.head(3))
 #create a mini dataset from where to take desired columns to create corrs through heatmaps
 generosity=df[['Generosity','Family','Happiness Rank']].copy()
 freedom=df[['Freedom','Happiness Score','Generosity']].copy()
+freedom2=df[['Freedom','Trust (Government Corruption)','Economy (GDP per Capita)']].copy()
 
 heat1=generosity.corr()
 plt.figure(figsize=(10,6))
@@ -47,6 +48,32 @@ fig = go.Figure(data=go.Heatmap(
 
 fig.update_layout(
     title='Correlation on freedom dataset',
+    xaxis_nticks=40)
+
+
+#Correlation oN GDP and Trust'
+
+WE=df[df.Region =='Western Europe']
+freedom2=WE
+data=freedom2
+
+Score=freedom2['Happiness Score']
+free=freedom2['Freedom']
+Reg=freedom2['Region']
+Country=freedom2['Country']
+gdp=freedom2['Economy (GDP per Capita)']
+T=freedom2['Trust (Government Corruption)']
+
+data1=freedom2
+
+fig = go.Figure(data=go.Heatmap(
+                   z=gdp,
+                   x=Country,
+                   y=T,
+                   colorscale='ice'))
+
+fig.update_layout(
+    title='Correlation oN GDP and Trust',
     xaxis_nticks=40)
 
 
