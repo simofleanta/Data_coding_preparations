@@ -29,7 +29,7 @@ plt.figure(figsize=(10,6))
 sns.heatmap(heat1,annot=True, cmap='Blues')
 
 
-
+#heatmap on freedom dataset but fromm WE region
 
 WE=df[df.Region =='Western Europe']
 freedom=WE
@@ -50,7 +50,7 @@ fig.update_layout(
     xaxis_nticks=40)
 
 
-plotly.offline.plot(fig, filename='te')
+plotly.offline.plot(fig, filename='happy')
 
 
 
