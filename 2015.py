@@ -55,12 +55,12 @@ WE=df[df.Region =='Western Europe']
 data=WE
 Country=WE['Country']
 
-size = [20, 40, 60, 80, 100, 80, 60, 40, 20, 40]
+size = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100,110,120,130]
 fig = go.Figure(data=[go.Scatter(
     x=Country, y=rank,
     mode='markers',
     marker=dict(size=size,
-    color=[120, 125, 130, 135, 140, 145],
+    color=[110, 120, 130, 140, 150, 160,170, 180, 190, 200, 210, 220,230],
         sizemode='area',
         sizeref=2.*max(size)/(40.**2),
         sizemin=4,
