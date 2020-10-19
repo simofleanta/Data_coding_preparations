@@ -94,6 +94,15 @@ plotly.offline.plot(fig, filename='hap')
 fig = px.bar(df, x="Region", y="Freedom", color="Freedom", title="Freedom")
 plotly.offline.plot(fig, filename='hap')
 
+fig = px.bar(df, x="Region", y="Happiness Score", color="Happiness Score",color_continuous_scale='Blues', title="Happiness Score")
+plotly.offline.plot(fig, filename='hap')
+
+fig = px.bar(df, x="Region", y="Happiness Rank", color="Happiness Score",color_continuous_scale='Blues', title="Happiness Score")
+plotly.offline.plot(fig, filename='hap')
+
+fig = px.bar(df, x="Region", y="Trust (Government Corruption)", color="Happiness Score",color_continuous_scale='Blues', title="Happiness Score")
+plotly.offline.plot(fig, filename='hap')
+
 #barchart on freedom WE #wide format
 
 WE=df[df.Region =='Western Europe']
@@ -109,6 +118,58 @@ plotly.offline.plot(fig, filename='hap')
 fig = px.bar(WE, x="Country", y=["Freedom","Generosity","Standard Error"],barmode='stack', color='Standard Error',color_continuous_scale='Blues',title="Freedom")
 
 plotly.offline.plot(fig, filename='hap')
+
+WE=df[df.Region =='Western Europe']
+Country=WE['Country']
+data=df
+
+#groupping by country in WE Region-barchart
+WE=df[df.Region =='Western Europe']
+Country=WE['Country']
+print(WE)
+
+WE_fam=WE.groupby(['Country'])['Family'].mean()
+WE_fam=pd.DataFrame(data=WE_fam)
+Family_c=WE_fam.sort_values(by='Family',ascending=False,axis=0)
+print(Family_c)
+
+fig = px.bar(Family_c, x="Family", y=Family_c.index, color='Family',color_continuous_scale='Blues',title="Family on regions")
+
+plotly.offline.plot(fig, filename='hap')
+
+#barplot on regions grouped by Family
+
+regions_fam=df.groupby(['Region'])['Family'].mean()
+regions_fam=pd.DataFrame(data=regions_fam)
+Family=regions_fam.sort_values(by='Family',ascending=False,axis=0)
+
+fig = px.bar(Family, x="Family", y=Family.index, color='Family',color_continuous_scale='Blues',title="Family on regions")
+
+plotly.offline.plot(fig, filename='hap')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
