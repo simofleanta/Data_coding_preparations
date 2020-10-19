@@ -89,6 +89,39 @@ fig = px.sunburst(dfS, path=['Region','Happiness Rank','Country'], values='Happi
 
 plotly.offline.plot(fig, filename='hap')
 
+#barchart on freedom per region
+
+fig = px.bar(df, x="Region", y="Freedom", color="Freedom", title="Freedom")
+plotly.offline.plot(fig, filename='hap')
+
+#barchart on freedom WE #wide format
+
+WE=df[df.Region =='Western Europe']
+Country=WE['Country']
+data=df
+
+fig = px.bar(df, x="Region", y=["Freedom","Generosity"], color='Freedom',color_continuous_scale='Blues',barmode='group',title="Freedom")
+
+plotly.offline.plot(fig, filename='hap')
+
+#stack chart on freedom SE and generosity
+
+fig = px.bar(WE, x="Country", y=["Freedom","Generosity","Standard Error"],barmode='stack', color='Standard Error',color_continuous_scale='Blues',title="Freedom")
+
+plotly.offline.plot(fig, filename='hap')
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
