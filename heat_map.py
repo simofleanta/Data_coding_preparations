@@ -22,16 +22,34 @@ freedom=df[['Freedom','Happiness Score','Generosity']].copy()
 heat1=generosity.corr()
 plt.figure(figsize=(10,6))
 sns.heatmap(heat1,annot=True, cmap='winter_r')
-plt.show()
+
 
 heat2=generosity.corr()
 plt.figure(figsize=(10,6))
 sns.heatmap(heat1,annot=True, cmap='Blues')
 
 
-plt.figure(figsize=(10,6))
-sns.pairplot(heat1)
 
+
+freedom=df[['Region','Freedom','Happiness Score','Generosity']].copy()
+data=freedom
+Score=freedom['Happiness Score']
+free=freedom['Freedom']
+gen=freedom['Generosity']
+Reg=freedom['Region']
+
+fig = go.Figure(data=go.Heatmap(
+                   z=Score,
+                   x=Reg,
+                   y=free,
+                   colorscale='agsunset'))
+
+fig.update_layout(
+    title='Correlation on freedom dataset',
+    xaxis_nticks=40)
+
+
+plotly.offline.plot(fig, filename='te')
 
 
 
