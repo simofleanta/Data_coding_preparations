@@ -59,7 +59,7 @@ plotly.offline.plot(fig, filename='hap')"""
 
 #WE GDP GROUPBY
 
-WE=df[df.Region =='Western Europe']
+"""WE=df[df.Region =='Western Europe']
 Country=WE['Country']
 
 WE_gdp=WE.groupby(['Country'])['Economy (GDP per Capita)'].mean()
@@ -82,7 +82,19 @@ gdp_central=CE_gdp.sort_values(by='Economy (GDP per Capita)',ascending=False,axi
 print(gdp_central)
 
 fig = px.bar(gdp_central, x="Economy (GDP per Capita)", y=gdp_central.index, color='Economy (GDP per Capita)',color_continuous_scale='Blues',title="GDP mean in different countries")
+plotly.offline.plot(fig, filename='hap')"""
+
+#gdp per regions
+
+df_gdp=df.groupby(['Region'])['Economy (GDP per Capita)'].mean()
+df_gdp=pd.DataFrame(data=df_gdp)
+gdp_df=df_gdp.sort_values(by='Economy (GDP per Capita)',ascending=False,axis=0)
+print(gdp_df)
+
+fig = px.bar(gdp_df, x="Economy (GDP per Capita)", y=gdp_df.index, color='Economy (GDP per Capita)',color_continuous_scale='RdBu',title="GDP mean in different countries")
 plotly.offline.plot(fig, filename='hap')
+
+
 
 
 
