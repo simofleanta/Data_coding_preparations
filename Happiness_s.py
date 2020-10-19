@@ -37,7 +37,7 @@ plotly.offline.plot(fig, filename='hap')"""
 
 #happiness/rank WE
 
-WE=df[df.Region =='Western Europe']
+"""WE=df[df.Region =='Western Europe']
 Country=WE['Country']
 print(WE)
 
@@ -47,19 +47,19 @@ Happiness_rank=WE_happiness.sort_values(by='Happiness Rank',ascending=False,axis
 print(Happiness_rank)
 
 fig = px.bar(Happiness_rank, x="Happiness Rank", y=Happiness_rank.index, color='Happiness Rank',color_continuous_scale='Sunset',title="Happiness rank in different regions")
-plotly.offline.plot(fig, filename='hap')
+plotly.offline.plot(fig, filename='hap')"""
 
 # bubble chart rank in WE
 
 WE=df[df.Region =='Western Europe']
-Rank=df['"Happiness Rank']
-Rank=Rank.index
-data=Happiness_rank
+Rank=df['Happiness Rank']
+h=Rank.index
+data=Rank
 Country=WE['Country']
 
 size = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100,110,120,130]
 fig = go.Figure(data=[go.Scatter(
-    x=Rank, y=Rank.index,
+    x=Country, y=h,
     mode='markers',
     marker=dict(size=size,
     color=[110, 120, 130, 140, 150, 160,170, 180, 190, 200, 210, 220,230],
