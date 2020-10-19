@@ -43,19 +43,39 @@ print(Family_central)
 fig = px.bar(Family_central, x="Family", y=Family_central.index, color='Family',color_continuous_scale='Blues',title="Family in the Central Eastern")
 plotly.offline.plot(fig, filename='hap')"""
 
-#Australia and New Zealand family
+#Australia and New Zealand GDP
 
-AZ=df[df.Region =='Australia and New Zealand']
+"""AZ=df[df.Region =='Australia and New Zealand']
 Country=AZ['Country']
-print(AZ)
 
-AZ_fam=AZ.groupby(['Country'])['Family'].mean()
-AZ_fam=pd.DataFrame(data=AZ_fam)
-Family_az=AZ_fam.sort_values(by='Family',ascending=False,axis=0)
-print(Family_az)
 
-fig = px.bar(Family_az, x="Family", y=Family_az.index, color='Family',color_continuous_scale='Blues',title="Family in the Australia NZ")
+AZ_gdp=AZ.groupby(['Country'])['Economy (GDP per Capita)'].mean()
+AZ_gdp=pd.DataFrame(data=AZ_gdp)
+gdp_az=AZ_gdp.sort_values(by='Economy (GDP per Capita)',ascending=False,axis=0)
+print(gdp_az)
+
+fig = px.bar(gdp_az, x="Economy (GDP per Capita)", y=gdp_az.index, color='Economy (GDP per Capita)',color_continuous_scale='Blues',title="Family in the Australia NZ")
+plotly.offline.plot(fig, filename='hap')"""
+
+#WE GDP GROUPBY
+
+WE=df[df.Region =='Western Europe']
+Country=WE['Country']
+
+WE_gdp=WE.groupby(['Country'])['Economy (GDP per Capita)'].mean()
+WE_gdp=pd.DataFrame(data=WE_gdp)
+gdp_c=WE_gdp.sort_values(by='Economy (GDP per Capita)',ascending=False,axis=0)
+print(gdp_c)
+
+fig = px.bar(gdp_c, x="Economy (GDP per Capita)", y=gdp_c.index, color='Economy (GDP per Capita)',color_continuous_scale='Blues',title="GDP mean in different countries")
 plotly.offline.plot(fig, filename='hap')
+
+
+
+
+
+
+
 
 
 
