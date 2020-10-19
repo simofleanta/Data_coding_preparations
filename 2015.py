@@ -33,11 +33,6 @@ Region=df['Region']
 Country=df['Country']
 Scores=df['Happiness Score']
 
-fig = px.scatter(df, x="Region", y="Happiness Rank", color="Happiness Score",
-                 size='Family', hover_data=['Happiness Score'],
-                 color_continuous_scale='RdBu')
-
-plotly.offline.plot(fig, filename='m')
 
 """fig=px.treemap(df,
 path=[Region],
@@ -54,18 +49,35 @@ fig.update_layout(
 )
 plotly.offline.plot(fig, filename='Happyness Rank')"""
 
-#heatmap on scores and rank
-"""fig = go.Figure(data=go.Heatmap(
-                   z=rank,
-                   x=Region,
-                   y=Score,
-                   colorscale='agsunset'))
+#bubblechart on scores and rank
 
-fig.update_layout(
-    title='Score',
-    xaxis_nticks=20)
+WE=df[df.Region =='Western Europe']
+data=WE
+Country=WE['Country']
+
+size = [20, 40, 60, 80, 100, 80, 60, 40, 20, 40]
+fig = go.Figure(data=[go.Scatter(
+    x=Country, y=rank,
+    mode='markers',
+    marker=dict(size=size,
+    color=[120, 125, 130, 135, 140, 145],
+        sizemode='area',
+        sizeref=2.*max(size)/(40.**2),
+        sizemin=4,
+        showscale=True)
+    )
+])
+
+plotly.offline.plot(fig, filename='m')
 
 
-plotly.offline.plot(fig, filename='Scor')"""
+
+# Scatter on happiness scores and rank based on global region with bubbles size on family
+
+"""fig = px.scatter(df, x="Region", y="Happiness Rank", color="Happiness Score",
+                 size='Family', hover_data=['Happiness Score'],
+                 color_continuous_scale='RdBu')
+
+plotly.offline.plot(fig, filename='m')"""
 
 
