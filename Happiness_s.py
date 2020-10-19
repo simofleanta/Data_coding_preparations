@@ -73,6 +73,5 @@ fig = go.Figure(data=[go.Scatter(
 plotly.offline.plot(fig, filename='m')
 
 
-"""#creating new datasets comprising of below mentioned columns
-x1=y1_df[['Generosity','Family','Score']].copy()
-x2=y2_df[['Generosity','Social support','Score']].copy()"""
+
+
