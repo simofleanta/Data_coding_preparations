@@ -31,18 +31,19 @@ sns.heatmap(heat1,annot=True, cmap='Blues')
 
 
 
-freedom=df[['Region','Freedom','Happiness Score','Generosity']].copy()
-data=freedom
+WE=df[df.Region =='Western Europe']
+freedom=WE
 Score=freedom['Happiness Score']
 free=freedom['Freedom']
 gen=freedom['Generosity']
 Reg=freedom['Region']
+Country=freedom['Country']
 
 fig = go.Figure(data=go.Heatmap(
                    z=Score,
-                   x=Reg,
+                   x=Country,
                    y=free,
-                   colorscale='agsunset'))
+                   colorscale='ice'))
 
 fig.update_layout(
     title='Correlation on freedom dataset',
