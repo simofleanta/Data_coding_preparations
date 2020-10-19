@@ -16,8 +16,8 @@ df=DataFrame(h)
 print(df.head(3))
 
 
-#groupping by country in WE Region-barchart
-WE=df[df.Region =='Western Europe']
+#Family barchart in WE
+"""WE=df[df.Region =='Western Europe']
 Country=WE['Country']
 print(WE)
 
@@ -27,5 +27,22 @@ Family_c=WE_fam.sort_values(by='Family',ascending=False,axis=0)
 print(Family_c)
 
 fig = px.bar(Family_c, x="Family", y=Family_c.index, color='Family',color_continuous_scale='Blues',title="Family on regions")
+plotly.offline.plot(fig, filename='hap')"""
 
+#Family barchart in CE
+
+CE=df[df.Region =='Central and Eastern Europe']
+Country=CE['Country']
+print(CE)
+
+CE_fam=CE.groupby(['Country'])['Family'].mean()
+CE_fam=pd.DataFrame(data=CE_fam)
+Family_central=CE_fam.sort_values(by='Family',ascending=False,axis=0)
+print(Family_central)
+
+fig = px.bar(Family_central, x="Family", y=Family_central.index, color='Family',color_continuous_scale='Blues',title="Family in the Central Eastern")
 plotly.offline.plot(fig, filename='hap')
+
+
+
+
