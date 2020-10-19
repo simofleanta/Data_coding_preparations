@@ -21,17 +21,17 @@ freedom=df[['Freedom','Happiness Score','Generosity']].copy()
 
 heat1=generosity.corr()
 plt.figure(figsize=(10,6))
-sns.heatmap(heat1,annot=True, cmap='RdPu')
+sns.heatmap(heat1,annot=True, cmap='winter_r')
 plt.show()
 
 heat2=generosity.corr()
 plt.figure(figsize=(10,6))
 sns.heatmap(heat1,annot=True, cmap='Blues')
-plt.show()
+
 
 plt.figure(figsize=(10,6))
 sns.pairplot(heat1)
-plt.show()
+
 
 
 
