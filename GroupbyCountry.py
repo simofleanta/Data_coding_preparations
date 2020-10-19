@@ -70,6 +70,20 @@ print(gdp_c)
 fig = px.bar(gdp_c, x="Economy (GDP per Capita)", y=gdp_c.index, color='Economy (GDP per Capita)',color_continuous_scale='Blues',title="GDP mean in different countries")
 plotly.offline.plot(fig, filename='hap')
 
+#CE GDP
+
+CE=df[df.Region =='Central and Eastern Europe']
+Country=CE['Country']
+
+
+CE_gdp=CE.groupby(['Country'])['Economy (GDP per Capita)'].mean()
+CE_gdp=pd.DataFrame(data=CE_gdp)
+gdp_central=CE_gdp.sort_values(by='Economy (GDP per Capita)',ascending=False,axis=0)
+print(gdp_central)
+
+fig = px.bar(gdp_central, x="Economy (GDP per Capita)", y=gdp_central.index, color='Economy (GDP per Capita)',color_continuous_scale='Blues',title="GDP mean in different countries")
+plotly.offline.plot(fig, filename='hap')
+
 
 
 
