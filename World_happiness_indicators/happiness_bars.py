@@ -24,7 +24,7 @@ happy=hap.sort_values(by='Perceptions_of_corruption',ascending=False,axis=0)
 print(happy)
 
 fig = px.bar(happy, x="Perceptions_of_corruption", y=happy.index, color='Perceptions_of_corruption',color_continuous_scale='Teal',title="Perception of corruption in Western EU")
-"""plotly.offline.plot(fig, filename='happy')"""
+plotly.offline.plot(fig, filename='happy')
 
 #------------------------------------Central and Eastern EU------------------------
 
