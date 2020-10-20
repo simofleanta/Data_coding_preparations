@@ -34,7 +34,6 @@ fig.update_layout(
 
 plotly.offline.plot(fig, filename='bike')
 
-fig.show()
 
 #on windy weather biker day
 
@@ -43,6 +42,7 @@ weekday=df['weekday']
 season=df['season']
 windspeed=df['windspeed']
 mnth=df['mnth']
+cnt=df['cnt']
 
 fig = go.Figure(data=go.Heatmap(
                    z=registered,
@@ -57,5 +57,30 @@ fig.update_layout(
 
 plotly.offline.plot(fig, filename='bike')
 
-fig.show()
+
+bike_d=df.groupby(['season'])['cnt'].mean()
+days=pd.DataFrame(data=bike_d)
+bike_season=days.sort_values(by='cnt',ascending=False,axis=0)
+print(bike_season)
+data=bike_season.index
+h=bike_season.index
+
+
+
+
+fig = go.Figure(data=go.Heatmap(
+                   z=cnt,
+                   x=season,
+                   y=h,
+                   colorscale='ice'))
+
+fig.update_layout(
+    title='Correlation on freedom dataset',
+    xaxis_nticks=40)
+
+plotly.offline.plot(fig, filename='bike')
+
+
+
+
 
