@@ -16,6 +16,9 @@ Other indicators across countries and global regions
 ![generosity CE](https://user-images.githubusercontent.com/47668423/96617420-e56eb700-1303-11eb-87a7-fe81c2775ca1.png)
 ![generosity WE](https://user-images.githubusercontent.com/47668423/96617422-e6074d80-1303-11eb-9fe2-74485d4f45e7.png)
 
+![newplot (1)](https://user-images.githubusercontent.com/47668423/96618177-e6541880-1304-11eb-98d9-ed8b5e471681.png)
+![Perception of gen per gdp](https://user-images.githubusercontent.com/47668423/96618191-e9e79f80-1304-11eb-97eb-3813deb891fb.png)
+![plotly corr gdp generosity](https://user-images.githubusercontent.com/47668423/96618205-ef44ea00-1304-11eb-8839-6c65f669d911.png)
 
 
 ![corr_WEstEU](https://user-images.githubusercontent.com/47668423/96617463-f1f30f80-1303-11eb-8e09-209fa09a020e.png)
