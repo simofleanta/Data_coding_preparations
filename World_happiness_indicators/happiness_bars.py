@@ -16,12 +16,12 @@ print(df.head(3))
 
 #extract global region
 WestEu=df[df.Regional_indicator=='Western_Europe']
-print(WestEu)
+#print(WestEu)
 
 h=WestEu.groupby(['Country_name'])['Perceptions_of_corruption'].mean()
 hap=pd.DataFrame(data=h)
 happy_corr=hap.sort_values(by='Perceptions_of_corruption',ascending=False,axis=0)
-print(happy_corr)
+#print(happy_corr)
 
 fig = px.bar(happy_corr, x="Perceptions_of_corruption", y=happy_corr.index, color='Perceptions_of_corruption',color_continuous_scale='Teal',title="Perception of corruption in West EU")
 """plotly.offline.plot(fig, filename='happy')"""
@@ -53,9 +53,15 @@ fig = px.bar(happyCE, x="Perceptions_of_corruption", y=happyCE.index, color='Per
 h=Central_and_Eastern_Europe.groupby(['Country_name'])['Generosity'].mean()
 hap=pd.DataFrame(data=h)
 happy_gen=hap.sort_values(by='Generosity',ascending=False,axis=0)
-print(happy_gen)
+#print(happy_gen)
 
 fig = px.bar(happy_gen, x="Generosity", y=happy_gen.index, color='Generosity',color_continuous_scale='Teal',title="Perception of generosity in Central and Eastern EU")
-plotly.offline.plot(fig, filename='happy')
+"""plotly.offline.plot(fig, filename='happy')"""
 
+
+# regions
+
+fig = px.bar(df, x="Regional_indicator", y=["Generosity","Logged_GDP_perCapita"],barmode='stack', color='Logged_GDP_perCapita',color_continuous_scale='Blues',
+title="Perception of generosity based on logged GDP per Capita")
+plotly.offline.plot(fig, filename='hap')
 
