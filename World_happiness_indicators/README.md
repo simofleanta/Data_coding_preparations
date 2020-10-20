@@ -1,21 +1,28 @@
-# World_development
+#World_development
 Data visualization on various themes on world dev
-#https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html
+My notebook on happiness indicators 2019
+
+Correlation heatmaps
+
+![Figure_1](https://user-images.githubusercontent.com/47668423/96617164-9163d280-1303-11eb-8843-4a4c37e03afe.png)
+![gdp_gener](https://user-images.githubusercontent.com/47668423/96617167-91fc6900-1303-11eb-9faa-f624fcd887a2.png)
+![gdp_generosity_CE](https://user-images.githubusercontent.com/47668423/96617169-9294ff80-1303-11eb-89f6-b8a0d121870c.png)
+
+Other indicators across countries and global regions
+
+![corruption 2020 we](https://user-images.githubusercontent.com/47668423/96617392-ddaf1280-1303-11eb-8f67-bd3312605d70.png)
+![CE_Corrruption](https://user-images.githubusercontent.com/47668423/96617400-de47a900-1303-11eb-937b-640bff0b30f2.png)
+
+![generosity CE](https://user-images.githubusercontent.com/47668423/96617420-e56eb700-1303-11eb-87a7-fe81c2775ca1.png)
+![generosity WE](https://user-images.githubusercontent.com/47668423/96617422-e6074d80-1303-11eb-9fe2-74485d4f45e7.png)
+
+![newplot (1)](https://user-images.githubusercontent.com/47668423/96618177-e6541880-1304-11eb-98d9-ed8b5e471681.png)
+![Perception of gen per gdp](https://user-images.githubusercontent.com/47668423/96618191-e9e79f80-1304-11eb-97eb-3813deb891fb.png)
+![plotly corr gdp generosity](https://user-images.githubusercontent.com/47668423/96618205-ef44ea00-1304-11eb-8839-6c65f669d911.png)
 
 
-![Freedom to take decisions on WestEu](https://user-images.githubusercontent.com/47668423/95775814-62c27800-0cc3-11eb-8b73-1f7d229cbebb.png)
-![Social_support regionwise](https://user-images.githubusercontent.com/47668423/95775823-6a821c80-0cc3-11eb-9acb-81cf8e2a4c0c.png)
-![happy WestEu](https://user-images.githubusercontent.com/47668423/95775835-71109400-0cc3-11eb-9430-51e0fa85a632.png)
-![freedom of choice](https://user-images.githubusercontent.com/47668423/95775840-74a41b00-0cc3-11eb-86f0-b646fe4ac5b7.png)
-![Gen turned around](https://user-images.githubusercontent.com/47668423/95775844-7837a200-0cc3-11eb-8efa-503ef1e12cbf.png)
-![generosity perceptions regional](https://user-images.githubusercontent.com/47668423/95775852-7e2d8300-0cc3-11eb-8b76-5b1c2620f200.png)
-![red box](https://user-images.githubusercontent.com/47668423/95778892-54775a80-0cc9-11eb-9b3c-226836530399.png)
-![tree RdBu](https://user-images.githubusercontent.com/47668423/95838838-8ed10e00-0d42-11eb-948c-c8fedb0ed2fc.png)
-![Generosity in WE](https://user-images.githubusercontent.com/47668423/95844293-0a35be00-0d49-11eb-9c86-984a251b5eb2.png)
-![central eu](https://user-images.githubusercontent.com/47668423/95844329-16ba1680-0d49-11eb-84b4-0b72b44a24a2.png)
-![Korruption](https://user-images.githubusercontent.com/47668423/95879351-8f839780-0d76-11eb-9389-f6ff21215dbd.png)
-
-
+![corr_WEstEU](https://user-images.githubusercontent.com/47668423/96617463-f1f30f80-1303-11eb-8e09-209fa09a020e.png)
+![corr gen CE](https://user-images.githubusercontent.com/47668423/96617478-f7505a00-1303-11eb-9e6b-23814583375f.png)
 
 
 
