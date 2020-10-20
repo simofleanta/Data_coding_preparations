@@ -27,7 +27,7 @@ print(gdp_region)
 plotly.offline.plot(fig, filename='hap')"""
 
 
-freedom=df['Freedom']
+"""freedom=df['Freedom']
 gdps=df['Economy (GDP per Capita)']
 trust=df['Trust (Government Corruption)']
 rank=df['Happiness Rank']
@@ -49,7 +49,37 @@ fig = go.Figure(data=[go.Scatter(
     )
 ])
 
+plotly.offline.plot(fig, filename='m')"""
+
+CE=df[df.Region =='Central and Eastern Europe']
+Country=CE['Country']
+print(CE)
+
+region_free=CE.groupby(['Region'])['Freedom'].mean()
+free_r=pd.DataFrame(data=region_free)
+free_region=free_r.sort_values(by='Freedom',ascending=False,axis=0)
+print(free_region)
+
+Countrys=CE['Country']
+data=CE
+j=free_region.index
+size = [10, 20, 30, 40, 50, 100,110,120,130]
+fig = go.Figure(data=[go.Scatter(
+    x=Countrys, y=j,
+    mode='markers',
+    marker=dict(size=size,
+    color=[110, 120, 130, 140, 150, 160,170, 18, 220,230],
+        sizemode='area',
+        sizeref=2.*max(size)/(40.**2),
+        sizemin=4,
+        showscale=True)
+    )
+])
+
 plotly.offline.plot(fig, filename='m')
+
+
+
 
 
 
