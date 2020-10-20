@@ -17,7 +17,6 @@ print(df.head(3))
 #extract global region
 WestEu=df[df.Regional_indicator=='Western_Europe']
 print(WestEu)
-#treemap
 
 
 #heatmap matplotlib
