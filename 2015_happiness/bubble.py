@@ -23,11 +23,11 @@ gdp_r=pd.DataFrame(data=region_gdp)
 gdp_region=gdp_r.sort_values(by='Economy (GDP per Capita)',ascending=False,axis=0)
 print(gdp_region)
 
-"""fig = px.bar(gdp_region, x="Economy (GDP per Capita)", y=gdp_region.index, color='Economy (GDP per Capita)',color_continuous_scale='Sunset',title="Happiness rank in different regions")
-plotly.offline.plot(fig, filename='hap')"""
+fig = px.bar(gdp_region, x="Economy (GDP per Capita)", y=gdp_region.index, color='Economy (GDP per Capita)',color_continuous_scale='Sunset',title="Happiness rank in different regions")
+plotly.offline.plot(fig, filename='hap')
 
 
-"""freedom=df['Freedom']
+freedom=df['Freedom']
 gdps=df['Economy (GDP per Capita)']
 trust=df['Trust (Government Corruption)']
 rank=df['Happiness Rank']
@@ -49,7 +49,7 @@ fig = go.Figure(data=[go.Scatter(
     )
 ])
 
-plotly.offline.plot(fig, filename='m')"""
+plotly.offline.plot(fig, filename='m')
 
 CE=df[df.Region =='Central and Eastern Europe']
 Country=CE['Country']
