@@ -69,24 +69,30 @@ title="Perception of generosity based on logged GDP per Capita")
 
 #heatmap
 
-regions=df[['Regional_indicator','Generosity','Logged_GDP_perCapita']].copy()
+regions=WestEu[['Regional_indicator','Country_name','Generosity','Logged_GDP_perCapita','Freedom_to_make_life_choices']].copy()
 
 Regions=regions['Regional_indicator']
 Generosity=regions['Generosity']
 Logged_GDP=regions['Logged_GDP_perCapita']
+Freedom_to_make_life_choices=regions['Freedom_to_make_life_choices']
+Country_name=regions['Country_name']
+
 
 
 fig = go.Figure(data=go.Heatmap(
                    z=Generosity,
-                   x=Regions,
+                   x=Country_name,
                    y=Logged_GDP,
                    colorscale='Blues'))
 
 fig.update_layout(
+    
     title='Correlation on Generosity and logged gdp per regions',
     xaxis_nticks=40)
 
 plotly.offline.plot(fig, filename='bike')
+
+#the higher the gdp the lower perception of generosity (higher y, lower z)
 
 
 
