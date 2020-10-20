@@ -19,8 +19,7 @@ registered=df['registered']
 weekday=df['weekday']
 season=df['season']
 
-
-"""bike_d=df.groupby(['season'])['cnt'].mean()
+bike_d=df.groupby(['season'])['cnt'].mean()
 days=pd.DataFrame(data=bike_d)
 bike_season=days.sort_values(by='cnt',ascending=False,axis=0)
 print(bike_season)
@@ -30,13 +29,7 @@ plotly.offline.plot(fig, filename='bike')
 
 fig = px.bar(df, x="season", y=["cnt","windspeed"],barmode='stack', color='windspeed',color_continuous_scale='Blues',title="bike")
 
-plotly.offline.plot(fig, filename='hap')"""
+plotly.offline.plot(fig, filename='hap')
 
 
-bike_w=df.groupby(['windspeed'])['cnt'].mean()
-days=pd.DataFrame(data=bike_w)
-bike_windspeed=days.sort_values(by='cnt',ascending=False,axis=0)
-print(bike_windspeed)
 
-fig = px.bar(bike_windspeed, x="windspeed", y=bike_windspeed.index, color='cnt',color_continuous_scale='Teal',title="Counting bikes_season")
-plotly.offline.plot(fig, filename='bike')
