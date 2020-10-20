@@ -64,8 +64,10 @@ fig = px.bar(happy_gen, x="Generosity", y=happy_gen.index, color='Generosity',co
 
 fig = px.bar(df, x="Regional_indicator", y=["Generosity","Logged_GDP_perCapita"],barmode='stack', color='Logged_GDP_perCapita',color_continuous_scale='Blues',
 title="Perception of generosity based on logged GDP per Capita")
-plotly.offline.plot(fig, filename='hap')
+"""plotly.offline.plot(fig, filename='hap')"""
 
+
+#heatmap
 
 regions=df[['Regional_indicator','Generosity','Logged_GDP_perCapita']].copy()
 
