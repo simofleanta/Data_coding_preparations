@@ -6,5 +6,8 @@
 
 ![121528375_706176190252671_1239476964787332183_n_edited](https://user-images.githubusercontent.com/47668423/96022099-a8607b80-0e50-11eb-9d88-0b9246adc2c8.jpg)
 
+![bikes_season](https://user-images.githubusercontent.com/47668423/96587869-2c988000-12e3-11eb-86d0-77fdf69595b2.png)
+![high_speed_high_bikes](https://user-images.githubusercontent.com/47668423/96587873-2dc9ad00-12e3-11eb-9ae2-64b3bf6e7102.png)
+
 
 
