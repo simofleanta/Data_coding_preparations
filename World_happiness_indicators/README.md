@@ -16,7 +16,7 @@ Other indicators across countries and global regions
 ![generosity CE](https://user-images.githubusercontent.com/47668423/96617420-e56eb700-1303-11eb-87a7-fe81c2775ca1.png)
 ![generosity WE](https://user-images.githubusercontent.com/47668423/96617422-e6074d80-1303-11eb-9fe2-74485d4f45e7.png)
 
-![high_speed_high_bikes](https://user-images.githubusercontent.com/47668423/96617441-ea336b00-1303-11eb-948f-1a4dffec600f.png)
+
 
 ![corr_WEstEU](https://user-images.githubusercontent.com/47668423/96617463-f1f30f80-1303-11eb-8e09-209fa09a020e.png)
 ![corr gen CE](https://user-images.githubusercontent.com/47668423/96617478-f7505a00-1303-11eb-9e6b-23814583375f.png)
