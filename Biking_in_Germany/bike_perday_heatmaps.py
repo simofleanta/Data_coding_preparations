@@ -66,8 +66,6 @@ data=bike_season.index
 h=bike_season.index
 
 
-
-
 fig = go.Figure(data=go.Heatmap(
                    z=cnt,
                    x=season,
@@ -81,6 +79,25 @@ fig.update_layout(
 plotly.offline.plot(fig, filename='bike')
 
 
+#see if bike cnt is bigger when windspeed is big
+#heatmap on windspeed cnt and season
+bike=df[['season','mnth','windspeed','cnt']].copy()
 
+seadon=bike['season']
+mnth=bike['mnth']
+windspeed=bike['windspeed']
+cnt=bike['cnt']
+
+fig = go.Figure(data=go.Heatmap(
+                   z=windspeed,
+                   x=mnth,
+                   y=cnt,
+                   colorscale='ice'))
+
+fig.update_layout(
+    title='Correlation on freedom dataset',
+    xaxis_nticks=40)
+
+plotly.offline.plot(fig, filename='bike')
 
 
