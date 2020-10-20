@@ -3,6 +3,7 @@ import seaborn as sns
 from pandas import DataFrame
 import matplotlib.pyplot as plt
 import plotly.express as px
+import plotly.graph_objects as go
 import numpy as np
 import plotly
 
@@ -64,4 +65,26 @@ fig = px.bar(happy_gen, x="Generosity", y=happy_gen.index, color='Generosity',co
 fig = px.bar(df, x="Regional_indicator", y=["Generosity","Logged_GDP_perCapita"],barmode='stack', color='Logged_GDP_perCapita',color_continuous_scale='Blues',
 title="Perception of generosity based on logged GDP per Capita")
 plotly.offline.plot(fig, filename='hap')
+
+
+regions=df[['Regional_indicator','Generosity','Logged_GDP_perCapita']].copy()
+
+Regions=regions['Regional_indicator']
+Generosity=regions['Generosity']
+Logged_GDP=regions['Logged_GDP_perCapita']
+
+
+fig = go.Figure(data=go.Heatmap(
+                   z=Generosity,
+                   x=Regions,
+                   y=Logged_GDP,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    title='Correlation on Generosity and logged gdp per regions',
+    xaxis_nticks=40)
+
+plotly.offline.plot(fig, filename='bike')
+
+
 
