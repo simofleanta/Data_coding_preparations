@@ -15,7 +15,7 @@ df=DataFrame(s)
 print(df.head(3))
 
 genres=df['genres']
-popularity=df['popularity']
+
 duration_ms=df['duration_ms']
 acousticness=df['acousticness']
 key=df['key']
@@ -29,7 +29,19 @@ tempo=df['tempo']
 danceability=df['danceability']
 
 
-fig = px.scatter(df, x="genres", y="popularity", color="liveness",
+genres_pop=df.groupby(['genres'])['popularity)'].mean()
+print(genres_pop)
+
+
+
+
+
+
+
+
+
+
+"""fig = px.scatter(df, x="genres", y="popularity", color="liveness",
                  size='duration_ms', hover_data=['popularity'],
                  color_continuous_scale='RdBu')
 
@@ -61,7 +73,7 @@ fig.update_layout(
     title_font_family='Arial'
 )
 
-plotly.offline.plot(fig, filename='Music perception')
+plotly.offline.plot(fig, filename='Music perception')"""
 
 
 
