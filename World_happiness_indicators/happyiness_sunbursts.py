@@ -44,30 +44,6 @@ plt.show()
 
 
 
-#---------------------------------------------------------
-#perception on generosity treemap
-
-Country=WestEu['Country_name']
-Generosity=WestEu['Generosity']
-
-fig=px.treemap(WestEu,
-path=[Country],
-values=Generosity,
-color=Generosity,
-color_continuous_scale='RdYlBu',
-title='Perception_on_generosity',
-hover_name=Generosity
-  
-)
-
-fig.update_layout(
-    title_font_size=42,
-    title_font_family='Arial'
-)
-
-plotly.offline.plot(fig, filename='Generosity perception in Central Eu')
-fig.show()
-
 #--------------------------------------------------------------------------------------------
 #SUNBURST - Freedom_to_make_life_choices
 
@@ -80,6 +56,7 @@ plotly.offline.plot(fig, filename='sun')
 
 fig.show()
 
+#df
 #SUNBURST - Perceptions_of_corruption
 
 fig = px.sunburst(df, path=['Regional_indicator','Country_name'], values='Perceptions_of_corruption',
