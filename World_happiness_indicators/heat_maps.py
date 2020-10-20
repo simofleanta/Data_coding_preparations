@@ -44,6 +44,26 @@ Economy=economy_generosity['Logged_GDP_perCapita']
 plt.figure(figsize=(5,5))
 sns.heatmap(economy_generosity.corr(), cmap='Purples_r')
 plt.show()
+#--------------------------------SouthEastAsia-----------------------------------------------
+
+SouthEast_Asia=df[df.Regional_indicator=='Purples']
+SouthEast_Asia=happy
+print(SouthEast_Asia)
+
+plt.figure(figsize=(5,5))
+sns.heatmap(SouthEast_Asia.corr(), cmap='gist_heat_r')
+plt.show()
+
+#--------------------------------CentralEast-----------------------------------------------
+
+Central_and_Eastern_Europe=df[df.Regional_indicator=='Central_and_Eastern_Europe']
+Central_and_Eastern_Europe=economy_generosity
+
+plt.figure(figsize=(5,5))
+sns.heatmap(Central_and_Eastern_Europe.corr(), cmap='YlOrBr')
+plt.show()
+
+
 
 
 

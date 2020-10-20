@@ -38,9 +38,7 @@ plt.show()
 WestEu=df[df.Regional_indicator=='Western_Europe']
 print(WestEu)
 
-#chart it scatter
-sns.pairplot(WestEu, vars=['Freedom_to_make_life_choices','Logged_GDP_perCapita'])
-plt.show()
+
 
 
 
@@ -54,7 +52,6 @@ fig = px.sunburst(df, path=['Regional_indicator','Country_name'], values='Freedo
 
 plotly.offline.plot(fig, filename='sun')
 
-fig.show()
 
 #df
 #SUNBURST - Perceptions_of_corruption
@@ -66,7 +63,7 @@ fig = px.sunburst(df, path=['Regional_indicator','Country_name'], values='Percep
 
 plotly.offline.plot(fig, filename='sun')
 
-fig.show()
+
 
 #SUNBURST - Logged_GDP_perCapita
 
@@ -77,7 +74,7 @@ fig = px.sunburst(df, path=['Regional_indicator','Country_name'], values='Logged
 
 plotly.offline.plot(fig, filename='sun')
 
-fig.show()
+
 
 #SUNBURST - Healthy_life_expectancy
 
@@ -88,7 +85,7 @@ fig = px.sunburst(df, path=['Regional_indicator','Country_name'], values='Health
 
 plotly.offline.plot(fig, filename='sun')
 
-fig.show()
+
 
 
 #--------------------------------SouthEastAsia-----------------------------------------------
@@ -97,24 +94,16 @@ fig.show()
 SouthEast_Asia=df[df.Regional_indicator=='Purples']
 print(SouthEast_Asia)
 
-plt.figure(figsize=(5,5))
-sns.heatmap(SouthEast_Asia.corr())
-plt.show()
 
-sns.pairplot(SouthEast_Asia, vars=['Freedom_to_make_life_choices','Logged_GDP_perCapita'])
-plt.show()
+
 
 #--------------------------------CentralEast-----------------------------------------------
 
 Central_and_Eastern_Europe=df[df.Regional_indicator=='Central_and_Eastern_Europe']
 print(Central_and_Eastern_Europe)
 
-plt.figure(figsize=(5,5))
-sns.heatmap(Central_and_Eastern_Europe.corr(), cmap='YlOrBr')
-plt.show()
 
-sns.pairplot(Central_and_Eastern_Europe, vars=['Freedom_to_make_life_choices','Logged_GDP_perCapita'])
-plt.show()
+
 
 
 
