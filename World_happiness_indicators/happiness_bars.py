@@ -53,7 +53,7 @@ fig = px.bar(happyCE, x="Perceptions_of_corruption", y=happyCE.index, color='Per
 h=Central_and_Eastern_Europe.groupby(['Country_name'])['Generosity'].mean()
 hap=pd.DataFrame(data=h)
 happy_gen=hap.sort_values(by='Generosity',ascending=False,axis=0)
-#print(happy_gen)
+print(happy_gen)
 
 fig = px.bar(happy_gen, x="Generosity", y=happy_gen.index, color='Generosity',color_continuous_scale='Teal',title="Perception of generosity in Central and Eastern EU")
 plotly.offline.plot(fig, filename='happy')
