@@ -52,8 +52,17 @@ plotly.offline.plot(fig, filename='hap')
 # bubble chart rank in WE
 
 WE=df[df.Region =='Western Europe']
+Country=WE['Country']
+print(WE)
+
+WE_happiness=WE.groupby(['Country'])['Happiness Rank'].mean()
+WE_happiness=pd.DataFrame(data=WE_happiness)
+Happiness_rank=WE_happiness.sort_values(by='Happiness Rank',ascending=False,axis=0)
+print(Happiness_rank)
+
+WE=df[df.Region =='Western Europe']
 Rank=df['Happiness Rank']
-h=Rank.index
+h=Happiness_rank.index
 data=Rank
 Country=WE['Country']
 
