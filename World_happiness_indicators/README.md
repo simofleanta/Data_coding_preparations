@@ -24,6 +24,9 @@ Other indicators across countries and global regions
 ![corr_WEstEU](https://user-images.githubusercontent.com/47668423/96617463-f1f30f80-1303-11eb-8e09-209fa09a020e.png)
 ![corr gen CE](https://user-images.githubusercontent.com/47668423/96617478-f7505a00-1303-11eb-9e6b-23814583375f.png)
 
+![freedom_sunburst](https://user-images.githubusercontent.com/47668423/96619078-046e4880-1306-11eb-85a3-500602ef3d4a.png)
+
+
 
 
 
