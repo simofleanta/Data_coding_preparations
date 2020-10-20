@@ -100,4 +100,16 @@ fig.update_layout(
 
 plotly.offline.plot(fig, filename='bike')
 
+fig = go.Figure(data=go.Heatmap(
+                   z=windspeed,
+                   x=season,
+                   y=cnt,
+                   colorscale='ice'))
+
+fig.update_layout(
+    title='Correlation on freedom dataset',
+    xaxis_nticks=40)
+
+plotly.offline.plot(fig, filename='bike')
+
 
