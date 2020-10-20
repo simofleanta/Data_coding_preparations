@@ -42,31 +42,8 @@ print(WestEu)
 sns.pairplot(WestEu, vars=['Freedom_to_make_life_choices','Logged_GDP_perCapita'])
 plt.show()
 
-#heatmap
-plt.figure(figsize=(5,5))
-sns.heatmap(WestEu.corr(), cmap='Blues')
-plt.show()
 
-#treemap
 
-Country=WestEu['Country_name']
-Health=WestEu['Healthy_life_expectancy']
-
-fig=px.treemap(WestEu,
-path=[Country],
-values=Health,
-color=Health,
-color_continuous_scale='RdBu',
-title='Happiness_overview',
-  
-)
-
-fig.update_layout(
-    title_font_size=42,
-    title_font_family='Arial'
-)
-plotly.offline.plot(fig, filename='Healthy_life_expectancy in West Eu')
-fig.show()
 #---------------------------------------------------------
 #perception on generosity treemap
 
