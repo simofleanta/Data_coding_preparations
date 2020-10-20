@@ -24,21 +24,16 @@ happy_corr=hap.sort_values(by='Perceptions_of_corruption',ascending=False,axis=0
 print(happy_corr)
 
 fig = px.bar(happy_corr, x="Perceptions_of_corruption", y=happy_corr.index, color='Perceptions_of_corruption',color_continuous_scale='Teal',title="Perception of corruption in West EU")
-plotly.offline.plot(fig, filename='happy')
+"""plotly.offline.plot(fig, filename='happy')"""
 
 
 h=WestEu.groupby(['Country_name'])['Generosity'].mean()
 hap=pd.DataFrame(data=h)
 happy=hap.sort_values(by='Generosity',ascending=False,axis=0)
-print(happy)
+
 
 fig = px.bar(happy, x="Generosity", y=happy.index, color='Generosity',color_continuous_scale='Teal',title="Generosity in Western EU")
-plotly.offline.plot(fig, filename='happy')
-
-
-
-
-
+"""plotly.offline.plot(fig, filename='happy')"""
 
 
 
@@ -53,5 +48,14 @@ happyCE=hap.sort_values(by='Perceptions_of_corruption',ascending=False,axis=0)
 
 fig = px.bar(happyCE, x="Perceptions_of_corruption", y=happyCE.index, color='Perceptions_of_corruption',color_continuous_scale='Teal',title="Perception of corruption in Central and Eastern EU")
 """plotly.offline.plot(fig, filename='happy')"""
+
+
+h=Central_and_Eastern_Europe.groupby(['Country_name'])['Generosity'].mean()
+hap=pd.DataFrame(data=h)
+happy_gen=hap.sort_values(by='Generosity',ascending=False,axis=0)
+#print(happy_gen)
+
+fig = px.bar(happy_gen, x="Generosity", y=happy_gen.index, color='Generosity',color_continuous_scale='Teal',title="Perception of generosity in Central and Eastern EU")
+plotly.offline.plot(fig, filename='happy')
 
 
