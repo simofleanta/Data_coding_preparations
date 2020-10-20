@@ -104,7 +104,7 @@ fig = go.Figure(data=go.Heatmap(
                    z=windspeed,
                    x=season,
                    y=cnt,
-                   colorscale='ice'))
+                   colorscale='Blues'))
 
 fig.update_layout(
     title='Correlation on freedom dataset',
