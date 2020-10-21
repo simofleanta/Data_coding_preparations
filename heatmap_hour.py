@@ -27,6 +27,9 @@ Windspeed=df['windspeed']
 Yr=df['yr']
 Cnt=df['cnt']
 
+#The later it is the higher number of bikes are registered
+#Summer has the most registered bikes 
+#the same trend goes for count
 
 fig = go.Figure(data=go.Heatmap(
                    z=Registered,
@@ -39,5 +42,16 @@ fig.update_layout(
     title='Bikes per hour season',
     xaxis_nticks=40)
 
-plotly.offline.plot(fig, filename='bike')
 
+fig = go.Figure(data=go.Heatmap(
+                   z=Cnt,
+                   x=Hr,
+                   y=Season,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Bikes per hour season',
+    xaxis_nticks=40)
+
+plotly.offline.plot(fig, filename='bike')
