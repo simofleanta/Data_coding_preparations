@@ -13,105 +13,37 @@ biked=pd.read_csv('bike_sharing_daily.csv')
 print(biked.columns)
 df=DataFrame(biked)
 
-print(df.head(3))
 
-registered=df['registered']
-weekday=df['weekday']
-season=df['season']
+def fixing_datatypes(df):
+    """Fixing the datatypes""" 
+    df['dteday'] = df['dteday'].astype('datetime64')
+    df.loc[:,'season':'mnth'] = df.loc[:,'season':'mnth'].astype('category')
+    df[['holiday','workingday']] = df[['holiday','workingday']].astype('bool')
+    df[['weekday','weathersit']] = df[['weekday','weathersit']].astype('category')
 
-#bikes per day season
+   
+    mapping_season = {1:"1_Winter", 2:"2_Spring", 3:"3_Summer", 4:"4_Fall" }
+    mapping_weekdays = {0:"Sunday", 1:"Monday", 2:"Tuesday", 3:"Wednesday", 
+                        4:"Thursday", 5:"Friday", 6:"Saturday"}
+    mapping_weather = {1:"good", 2:"medium", 3:"poor", 4:"very_poor" }
+    
+    df["season"] = df.season.map(mapping_season)
+    df["weekday"] = df.weekday.map(mapping_weekdays)
+    df["weathersit"] = df.weathersit.map(mapping_weather)
 
-fig = go.Figure(data=go.Heatmap(
-                   z=registered,
-                   x=weekday,
-                   y=season,
-                   colorscale='Viridis'))
+    return df
+    
+    df_daily = fixing_datatypes(df_daily)
 
-fig.update_layout(
-    title='Registered bikes per day',
-    xaxis_nticks=36)
-
-
-plotly.offline.plot(fig, filename='bike')
-
-
-#on windy weather biker day
-
-registered=df['registered']
-weekday=df['weekday']
-season=df['season']
-windspeed=df['windspeed']
-mnth=df['mnth']
-cnt=df['cnt']
-
-fig = go.Figure(data=go.Heatmap(
-                   z=registered,
-                   x=windspeed,
-                   y=season,
-                   colorscale='blues'))
-
-fig.update_layout(
-    title='Registered bikes per day',
-    xaxis_nticks=36)
+df=fixing_datatypes(df)
+print(df.head(2))
 
 
-plotly.offline.plot(fig, filename='bike')
-
-
-bike_d=df.groupby(['season'])['cnt'].mean()
-days=pd.DataFrame(data=bike_d)
-bike_season=days.sort_values(by='cnt',ascending=False,axis=0)
-print(bike_season)
-data=bike_season.index
-h=bike_season.index
-
-
-fig = go.Figure(data=go.Heatmap(
-                   z=cnt,
-                   x=season,
-                   y=h,
-                   colorscale='ice'))
-
-fig.update_layout(
-    title='Correlation on freedom dataset',
-    xaxis_nticks=40)
-
-plotly.offline.plot(fig, filename='bike')
-
-
-#see if bike cnt is bigger when windspeed is big
-#heatmap on windspeed cnt and season
-bike=df[['season','mnth','windspeed','cnt']].copy()
-
-seadon=bike['season']
-mnth=bike['mnth']
-windspeed=bike['windspeed']
-cnt=bike['cnt']
-
-fig = go.Figure(data=go.Heatmap(
-                   z=windspeed,
-                   x=mnth,
-                   y=cnt,
-                   colorscale='ice'))
-
-fig.update_layout(
-    title='Correlation on freedom dataset',
-    xaxis_nticks=40)
-
-plotly.offline.plot(fig, filename='bike')
-
-"""fig = go.Figure(data=go.Heatmap(
-                   z=windspeed,
-                   x=season,
-                   y=cnt,
-                   colorscale='Blues'))
-
-fig.update_layout(
-    title='Correlation on freedom dataset',
-    xaxis_nticks=40)
-
-plotly.offline.plot(fig, filename='bike')"""
-
-
-
-
+e=df.groupby('weekday')['cnt'].mean()
+print(e)
+ef=df.groupby('workingday')['cnt'].mean()
+print(ef)
+efg=df.groupby('weathersit')['cnt'].mean()
+print(efg)
+efgh=df.groupby('dteday')['cnt'].mean()
+print(efgh)
