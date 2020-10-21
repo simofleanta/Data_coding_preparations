@@ -26,6 +26,7 @@ Mnth=df['mnth']
 Windspeed=df['windspeed']
 Yr=df['yr']
 Cnt=df['cnt']
+Workingday=df['workingday']
 
 #The later it is the higher number of bikes are registered
 #Summer has the most registered bikes 
@@ -69,17 +70,18 @@ fig.update_layout(
     title='Bikes count per hour weekday',
     xaxis_nticks=40)
 
-#cnt registered
+#More bikes counted at h 17 on working days
+#on non working day at 13 h 
 
 fig = go.Figure(data=go.Heatmap(
                    z=Cnt,
                    x=Hr,
-                   y=Registered,
+                   y=Workingday,
                    colorscale='Blues'))
 
 fig.update_layout(
     
-    title='Bikes count per hour weekday',
+    title='Bikes count per weeking day in certain hours',
     xaxis_nticks=40)
 
 plotly.offline.plot(fig, filename='bike')
