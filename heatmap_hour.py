@@ -39,10 +39,10 @@ fig = go.Figure(data=go.Heatmap(
 
 fig.update_layout(
     
-    title='Bikes per hour season',
+    title='Bikes registered per hour season',
     xaxis_nticks=40)
 
-
+#bikes count with season
 fig = go.Figure(data=go.Heatmap(
                    z=Cnt,
                    x=Hr,
@@ -51,7 +51,23 @@ fig = go.Figure(data=go.Heatmap(
 
 fig.update_layout(
     
-    title='Bikes per hour season',
+    title='Bikes count per hour season',
+    xaxis_nticks=40)
+
+
+#the upper trend is valid here too
+#in all scenarios bike concentretion falls oh h 07:00-19:00(midd-day)
+#concentration fades on days Thursday and Sunday
+fig = go.Figure(data=go.Heatmap(
+                   z=Cnt,
+                   x=Hr,
+                   y=Weekday,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Bikes count per hour weekday',
     xaxis_nticks=40)
 
 plotly.offline.plot(fig, filename='bike')
+
