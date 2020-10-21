@@ -1,6 +1,0 @@
-![we love it loud](https://user-images.githubusercontent.com/47668423/96188063-5b5ad300-0f3e-11eb-8263-d50e42b97f08.png)
-![newplot (31)](https://user-images.githubusercontent.com/47668423/96188065-5c8c0000-0f3e-11eb-911a-6bbb70d4a133.png)
-![newplot (32)](https://user-images.githubusercontent.com/47668423/96188068-5c8c0000-0f3e-11eb-9264-12d14a4a26d9.png)
-![popularity and instrumentalness](https://user-images.githubusercontent.com/47668423/96188069-5d249680-0f3e-11eb-9be6-6f179db3d76b.png)
-![popularity by duration in years](https://user-images.githubusercontent.com/47668423/96188070-5dbd2d00-0f3e-11eb-8e94-1022911cebe5.png)
-![we love it loud (2)](https://user-images.githubusercontent.com/47668423/96188072-5dbd2d00-0f3e-11eb-96ca-608fee926d9b.png)
