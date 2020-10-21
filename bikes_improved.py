@@ -148,8 +148,41 @@ fig.update_layout(
     title='Bikes count per Season',
     xaxis_nticks=40)
 
-plotly.offline.plot(fig, filename='bike')
+#plotly.offline.plot(fig, filename='bike')
 
+#--------------------------------------------------------------------------
+#treemaps
+
+fig=px.treemap(df,
+path=[Season],
+values=Hr,
+color=Cnt,
+color_continuous_scale='Teal',
+title='Bikes count on season',
+  
+)
+
+fig.update_layout(
+    title_font_size=42,
+    title_font_family='Arial'
+)
+#plotly.offline.plot(fig, filename='bike')
+
+
+fig=px.treemap(df,
+path=[Weekday],
+values=Cnt,
+color=Hr,
+color_continuous_scale='Blues',
+title='Bikes count at certain hours in weekdays',
+  
+)
+
+fig.update_layout(
+    title_font_size=25,
+    title_font_family='Arial'
+)
+plotly.offline.plot(fig, filename='bike')
 
 
 
