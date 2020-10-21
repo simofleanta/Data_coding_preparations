@@ -94,16 +94,16 @@ fig.update_layout(
 #treemaps
 
 fig=px.treemap(df,
-path=[Artist_Name],
-values=Loudness_DB,
+path=[Genre],
+values=Beat_Per_Minute,
 color=Popularity,
-color_continuous_scale='Teal',
-title='Bikes count on season',
+color_continuous_scale='Blues',
+title='Popularity of Beats per minute based on genres ',
   
 )
 
 fig.update_layout(
-    title_font_size=42,
+    title_font_size=25,
     title_font_family='Arial'
 )
 plotly.offline.plot(fig, filename='bike')
