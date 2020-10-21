@@ -2,7 +2,10 @@ import pandas as pd
 import seaborn as sns 
 from pandas import DataFrame
 import matplotlib.pyplot as plt
-import stats
+import plotly.express as px
+import plotly.graph_objects as go
+import numpy as np
+import plotly
  
 #open the file
 bikes=pd.read_csv('bikes_h.csv')
@@ -14,4 +17,27 @@ print(df.head(3))
 #extract column
 cnt=df['cnt']
 print(cnt.head(3))
+
+Registered=df['registered']
+Weekday=df['weekday']
+Season=df['season']
+Hr=df['hr']
+Mnth=df['mnth']
+Windspeed=df['windspeed']
+Yr=df['yr']
+Cnt=df['cnt']
+
+
+fig = go.Figure(data=go.Heatmap(
+                   z=Registered,
+                   x=Hr,
+                   y=Season,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Bikes per hour season',
+    xaxis_nticks=40)
+
+plotly.offline.plot(fig, filename='bike')
 
