@@ -86,16 +86,6 @@ fig.update_layout(
 
 
 
-fig = go.Figure(data=go.Heatmap(
-                   z=Cnt,
-                   x=Workingday,
-                   y=Workingday,
-                   colorscale='Blues'))
 
-fig.update_layout(
-    
-    title='Bikes count per weeking day in certain hours',
-    xaxis_nticks=40)
 
-plotly.offline.plot(fig, filename='bike')
 
