@@ -11,32 +11,36 @@ import plotly
 s=pd.read_csv('Spotify50.csv')
 print(s.columns)
 df=DataFrame(s)
+print(df.head(3))
+
+print(df.groupby('Genre').size())
+print(df.groupby('Artist_Name').size())
 
 
-#no missing_v
-m=missing_v=df.isnull().sum()
-print(m)
-vc=df['Loudness_DB'].value_counts()
-print(vc)
 
-#check dtypes
-types=df.dtypes
-print(types)
+fig3 = px.bar(df, x="Popularity", y="Genre",barmode='stack', color='Popularity', color_continuous_scale='Blues', title="Spotify genres popularity")
+#plotly.offline.plot(fig3, filename='bike')
 
-#function to fix dtatypes
 
-def fixing_datatypes(df):
-    """Fixing the datatypes"""
-    df[['Genre']] = df[['Genre']].astype('category')
+#mean pop genres
+spot=df.groupby(['Genre'])['Popularity'].mean()
+s=pd.DataFrame(data=spot)
+spotify_genres=s.sort_values(by='Popularity',ascending=False,axis=0)
+#print(spotify_genres)
 
-    Genres_map={1:"Canadian_Pop",2:"Reggaeton_flow",3:"Dance_Pop",4:"Pop",5:"Dfw_rap",6:"Trap_music",7:"Country_rap",8:"Electro_Pop",9:"Reggaeton",10:"Panamanian_Pop",
-    11:"Latin",12:"Dfw_rap",13:"Escape_room",14:"Pop house",15:"Australian_Pop",16:"Edm",17:"Atl_hip_hop",18:"big_room",19:"Panamanian_Pop",20:"Brostep"}
+fig = px.bar(spotify_genres, x="Popularity", y=spotify_genres.index, color='Popularity',color_continuous_scale='Blues',title="Mean popularity on spotify genres")
+#plotly.offline.plot(fig, filename='bike')
 
-    df["Genre"] = df.Genre.map(Genres_map)
 
-    return df
-    genre_cat = fixing_datatypes(genre_cat)
-    df=fixing_datatypes(df)
+#mean pop Loudness
+spot=df.groupby(['Genre'])['Loudness_DB'].mean()
+s=pd.DataFrame(data=spot)
+genres_lodness=s.sort_values(by='Loudness_DB',ascending=False,axis=0)
 
+fig = px.bar(genres_lodness, x="Loudness_DB", y=genres_lodness.index, color='Loudness_DB',color_continuous_scale='Blues',title="Mean loudness on spotify genres")
+plotly.offline.plot(fig, filename='bike')
     
+    
+
+
 
