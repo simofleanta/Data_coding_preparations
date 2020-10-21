@@ -1,16 +1,7 @@
-
-![bike heatmaps](https://user-images.githubusercontent.com/47668423/95985137-818c5000-0e24-11eb-91da-6b1d1c375308.png)
-![bike per day on windy days](https://user-images.githubusercontent.com/47668423/95985142-83561380-0e24-11eb-875f-3036e39e37d7.png)
-
-![working_day_bikes](https://user-images.githubusercontent.com/47668423/95996573-1b5af980-0e33-11eb-88b3-a0915f1ff614.png)
-
-![121528375_706176190252671_1239476964787332183_n_edited](https://user-images.githubusercontent.com/47668423/96022099-a8607b80-0e50-11eb-9d88-0b9246adc2c8.jpg)
-
-![bikes_season](https://user-images.githubusercontent.com/47668423/96587869-2c988000-12e3-11eb-86d0-77fdf69595b2.png)
-
-![high_speed_high_bikes](https://user-images.githubusercontent.com/47668423/96587873-2dc9ad00-12e3-11eb-9ae2-64b3bf6e7102.png)
-
-![newplot (1)](https://user-images.githubusercontent.com/47668423/96588203-a4ff4100-12e3-11eb-98af-49d1aea1c308.png)
-
-
-
+![weekday](https://user-images.githubusercontent.com/47668423/96721850-fa535500-13ac-11eb-8888-1c10876e8f40.png)
+![bikes_grouped](https://user-images.githubusercontent.com/47668423/96721852-faebeb80-13ac-11eb-82ba-eabcada28f2e.png)
+![month](https://user-images.githubusercontent.com/47668423/96721853-fb848200-13ac-11eb-9ce4-bfd47bba8ade.png)
+![newplot (1)](https://user-images.githubusercontent.com/47668423/96721855-fb848200-13ac-11eb-875d-06e157e3cfd7.png)
+![season](https://user-images.githubusercontent.com/47668423/96721856-fc1d1880-13ac-11eb-91f3-a04f9c0e7748.png)
+![tag group](https://user-images.githubusercontent.com/47668423/96721857-fcb5af00-13ac-11eb-95d7-4fbd7e0f09c8.png)
+![weathersit](https://user-images.githubusercontent.com/47668423/96721859-fcb5af00-13ac-11eb-9460-71fa866ec164.png)
