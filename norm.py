@@ -108,9 +108,47 @@ fig.update_layout(
     title='Bikes count per weekday',
     xaxis_nticks=40)
 
+#plotly.offline.plot(fig, filename='bike')
+
+
+fig = go.Figure(data=go.Heatmap(
+                   z=Cnt,
+                   x=Hr,
+                   y=Mnth,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Bikes count per Month',
+    xaxis_nticks=40)
+
+#plotly.offline.plot(fig, filename='bike')
+
+fig = go.Figure(data=go.Heatmap(
+                   z=Cnt,
+                   x=Hr,
+                   y=Mnth,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Bikes count per Month',
+    xaxis_nticks=40)
+
+#plotly.offline.plot(fig, filename='bike')
+
+fig = go.Figure(data=go.Heatmap(
+                   z=Cnt,
+                   x=Hr,
+                   y=Season,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Bikes count per Season',
+    xaxis_nticks=40)
+
 plotly.offline.plot(fig, filename='bike')
-
-
 
 
 
