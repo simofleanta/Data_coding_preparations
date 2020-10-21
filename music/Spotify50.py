@@ -110,7 +110,7 @@ fig.update_layout(
     title='Correlation between Loudness and BPM by track name',
     xaxis_nticks=40)
 
-plotly.offline.plot(fig0, filename='bike')
+#plotly.offline.plot(fig0, filename='bike')
 
 
 
