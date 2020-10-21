@@ -59,8 +59,7 @@ print(efg)
 efgh=df.groupby('dteday')['cnt'].mean()
 print(efgh)
 
-#performing charts 
-
+#performing bar charts 
 
 fig = px.bar(df, x="hr", y=["cnt","workingday"],barmode='group', color='workingday',title="bikes count per hour grouped on working day")
 #plotly.offline.plot(fig, filename='bike')
@@ -69,7 +68,48 @@ fig1 = px.bar(df, x="hr", y=["cnt","weekday"],barmode='group', color='weekday',t
 fig2 = px.bar(df, x="hr", y=["cnt","weathersit"],barmode='group', color='weathersit',title="bike per hour grouped on weekdays")
 #plotly.offline.plot(fig2, filename='bike')
 fig3 = px.bar(df, x="hr", y=["cnt","mnth"],barmode='group', color='mnth',title="bike per hour grouped on weekdays")
-plotly.offline.plot(fig3, filename='bike')
+#plotly.offline.plot(fig3, filename='bike')
+
+#performing heat charts 
+
+Registered=df['registered']
+Weekday=df['weekday']
+Season=df['season']
+Hr=df['hr']
+Mnth=df['mnth']
+Windspeed=df['windspeed']
+Yr=df['yr']
+Cnt=df['cnt']
+Workingday=df['workingday']
+weathersit=df['weathersit']
+
+
+fig0 = go.Figure(data=go.Heatmap(
+                   z=Cnt,
+                   x=Hr,
+                   y=weathersit,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Bikes registered per hour season',
+    xaxis_nticks=40)
+
+#plotly.offline.plot(fig0, filename='bike')
+
+fig = go.Figure(data=go.Heatmap(
+                   z=Cnt,
+                   x=Hr,
+                   y=Weekday,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Bikes count per weekday',
+    xaxis_nticks=40)
+
+plotly.offline.plot(fig, filename='bike')
+
 
 
 
