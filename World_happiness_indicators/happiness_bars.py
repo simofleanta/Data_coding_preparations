@@ -48,7 +48,7 @@ happyCE=hap.sort_values(by='Perceptions_of_corruption',ascending=False,axis=0)
 
 
 fig = px.bar(happyCE, x="Perceptions_of_corruption", y=happyCE.index, color='Perceptions_of_corruption',color_continuous_scale='Teal',title="Perception of corruption in Central and Eastern EU")
-"""plotly.offline.plot(fig, filename='happy')"""
+plotly.offline.plot(fig, filename='happy')
 
 
 h=Central_and_Eastern_Europe.groupby(['Country_name'])['Generosity'].mean()

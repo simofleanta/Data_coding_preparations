@@ -29,10 +29,20 @@ Yr=df['yr']
 Cnt=df['cnt']
 Workingday=df['workingday']
 
-h=df.groupby(['weekday'])['cnt'].mean()
-hap=pd.DataFrame(data=h)
+hour=df.groupby(['mnth'])['cnt'].mean()
+hap=pd.DataFrame(data=hour)
 bike_h=hap.sort_values(by='cnt',ascending=False,axis=0)
 
 
 fig = px.bar(bike_h, x="cnt", y=bike_h.index, color='cnt',color_continuous_scale='Blues',title="Count bikes/h on weekdays")
-plotly.offline.plot(fig, filename='bike')
+
+
+
+fig1 = px.bar(df, x="hr", y=["cnt","weekday"],barmode='group', color='weekday',color_continuous_scale='viridis',title="bike per hour grouped on weekdays")
+
+plotly.offline.plot(fig1, filename='bike')
+
+
+fig1 = px.bar(df, x="hr", y=["cnt","workingday"],barmode='group', color='workingday',color_continuous_scale='Blues',title="bikes count per hour grouped on working day")
+
+"""plotly.offline.plot(fig1, filename='bike')"""
