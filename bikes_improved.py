@@ -62,13 +62,13 @@ print(efgh)
 #performing bar charts 
 
 fig = px.bar(df, x="hr", y=["cnt","workingday"],barmode='group', color='workingday',title="bikes count per hour grouped on working day")
-#plotly.offline.plot(fig, filename='bike')
+plotly.offline.plot(fig, filename='bike')
 fig1 = px.bar(df, x="hr", y=["cnt","weekday"],barmode='group', color='weekday',title="bike per hour grouped on weekdays")
-#plotly.offline.plot(fig1, filename='bike')
+plotly.offline.plot(fig1, filename='bike')
 fig2 = px.bar(df, x="hr", y=["cnt","weathersit"],barmode='group', color='weathersit',title="bike per hour grouped on weekdays")
-#plotly.offline.plot(fig2, filename='bike')
+plotly.offline.plot(fig2, filename='bike')
 fig3 = px.bar(df, x="hr", y=["cnt","mnth"],barmode='group', color='mnth',title="bike per hour grouped on weekdays")
-#plotly.offline.plot(fig3, filename='bike')
+plotly.offline.plot(fig3, filename='bike')
 
 #performing heat charts 
 
@@ -95,7 +95,7 @@ fig.update_layout(
     title='Bikes registered per hour season',
     xaxis_nticks=40)
 
-#plotly.offline.plot(fig0, filename='bike')
+plotly.offline.plot(fig0, filename='bike')
 
 fig = go.Figure(data=go.Heatmap(
                    z=Cnt,
@@ -108,7 +108,7 @@ fig.update_layout(
     title='Bikes count per weekday',
     xaxis_nticks=40)
 
-#plotly.offline.plot(fig, filename='bike')
+plotly.offline.plot(fig, filename='bike')
 
 
 fig = go.Figure(data=go.Heatmap(
@@ -122,7 +122,7 @@ fig.update_layout(
     title='Bikes count per Month',
     xaxis_nticks=40)
 
-#plotly.offline.plot(fig, filename='bike')
+plotly.offline.plot(fig, filename='bike')
 
 fig = go.Figure(data=go.Heatmap(
                    z=Cnt,
@@ -135,7 +135,7 @@ fig.update_layout(
     title='Bikes count per Month',
     xaxis_nticks=40)
 
-#plotly.offline.plot(fig, filename='bike')
+plotly.offline.plot(fig, filename='bike')
 
 fig = go.Figure(data=go.Heatmap(
                    z=Cnt,
@@ -148,7 +148,7 @@ fig.update_layout(
     title='Bikes count per Season',
     xaxis_nticks=40)
 
-#plotly.offline.plot(fig, filename='bike')
+plotly.offline.plot(fig, filename='bike')
 
 #--------------------------------------------------------------------------
 #treemaps
@@ -166,7 +166,7 @@ fig.update_layout(
     title_font_size=42,
     title_font_family='Arial'
 )
-#plotly.offline.plot(fig, filename='bike')
+plotly.offline.plot(fig, filename='bike')
 
 
 fig=px.treemap(df,
