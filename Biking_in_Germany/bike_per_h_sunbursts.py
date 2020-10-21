@@ -28,5 +28,4 @@ fig = px.sunburst(df, path=['weekday','mnth','season'], values='cnt',
 
 plotly.offline.plot(fig, filename='bikes on a day')
 
-fig.show()
 
