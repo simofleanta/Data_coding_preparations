@@ -59,6 +59,35 @@ fig.update_layout(
 
 #plotly.offline.plot(fig, filename='votes')
 
+fig = go.Figure(data=go.Heatmap(
+                   z=votes_first_vote,
+                   x=state,
+                   y=party,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Votes in German 1st votes 2017 heatmap',
+    xaxis_nticks=40)
+
+#plotly.offline.plot(fig, filename='votes')
+
+
+fig = go.Figure(data=go.Heatmap(
+                   z=votes_first_vote,
+                   x=area_name,
+                   y=party,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Votes in German 1st votes 2017 heatmap',
+    xaxis_nticks=35,
+    yaxis_nticks=30)
+
+plotly.offline.plot(fig, filename='votes')
+
+
 
 #extract party and chart
 
@@ -75,7 +104,8 @@ voteSecondVote=CDU['votes_second_vote']
 
 fig = px.scatter(CDU, x="state", y="votes_second_vote", color="votes_second_vote",
                  size='votes_second_vote', hover_data=['votes_second_vote'],
-                 color_continuous_scale='Blues')
+                 color_continuous_scale='Blues',
+                 title='CDU accross DE')
 
 #plotly.offline.plot(fig, filename='votes')
 
@@ -103,7 +133,7 @@ fig = px.bar(CDU, x="state", y=["votes_second_vote","votes_first_vote"],barmode=
 title="CDU 1st and 2nd votes performance across states in Germany")
 #plotly.offline.plot(fig, filename='hap')
 
-# extract party
+# extract party and scatter 
 
 AFD=df[df.party=='Alternative.für.Deutschland']
 
@@ -112,10 +142,10 @@ fig = px.scatter(AFD, x="state", y="votes_second_vote", color="votes_second_vote
                  color_continuous_scale='Blues',
                  title='AFD across states')
 
-plotly.offline.plot(fig, filename='votes')
+#plotly.offline.plot(fig, filename='votes')
 
 
-#fig3 = px.bar(AFD, x="state", y=["state","votes_second_vote"],barmode='group', color='state',title="AFD grouped")
+fig3 = px.bar(AFD, x="state", y=["state","votes_second_vote"],barmode='group', color='state',title="AFD grouped")
 #plotly.offline.plot(fig3, filename='bike')
 
 
