@@ -60,7 +60,7 @@ fig.update_layout(
 #plotly.offline.plot(fig, filename='votes')
 
 
-#extract party
+#extract party and chart
 
 
 CDU=df[df.party=='Christlich.Demokratische.Union.Deutschlands']
@@ -73,6 +73,7 @@ State=CDU['state']
 Party=CDU['party']
 voteSecondVote=CDU['votes_second_vote']
 
+#bar charts
 v=CDU.groupby(['state'])['votes_second_vote'].mean()
 el=pd.DataFrame(data=v)
 Votes=el.sort_values(by='votes_second_vote',ascending=False,axis=0)
@@ -81,18 +82,29 @@ print(Votes)
 fig = px.bar(Votes, x="votes_second_vote", y=Votes.index, color='votes_second_vote',color_continuous_scale='Blues',title="CDU 2nd votes")
 #plotly.offline.plot(fig, filename='bike')
 
-
 v=CDU.groupby(['state'])['votes_first_vote'].mean()
 el=pd.DataFrame(data=v)
 cduVotes=el.sort_values(by='votes_first_vote',ascending=False,axis=0)
-print(cduVotes)
+#print(cduVotes)
 
-ig = px.bar(cduVotes, x="votes_first_vote", y=cduVotes.index, color='votes_first_vote',color_continuous_scale='Blues',title="CDU 1st votes")
+fig = px.bar(cduVotes, x="votes_first_vote", y=cduVotes.index, color='votes_first_vote',color_continuous_scale='Blues',title="CDU 1st votes")
 #plotly.offline.plot(fig, filename='bike')
-
 
 fig = px.bar(CDU, x="state", y=["votes_second_vote","votes_first_vote"],barmode='stack', color='votes_first_vote',color_continuous_scale='Blues',
 title="CDU 1st and 2nd votes performance across states in Germany")
 #plotly.offline.plot(fig, filename='hap')
+
+# extract party
+
+AFD=df[df.party=='Alternative.für.Deutschland']
+
+#fig3 = px.bar(AFD, x="state", y=["state","votes_second_vote"],barmode='group', color='state',title="AFD grouped")
+#plotly.offline.plot(fig3, filename='bike')
+
+
+fig4 = px.bar(CDU, x="state", y=["state","votes_second_vote"],barmode='group', color='state',title="CDU grouped")
+plotly.offline.plot(fig4, filename='bike')
+
+
 
 
