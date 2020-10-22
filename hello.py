@@ -85,7 +85,7 @@ fig.update_layout(
     xaxis_nticks=35,
     yaxis_nticks=30)
 
-plotly.offline.plot(fig, filename='votes')
+#plotly.offline.plot(fig, filename='votes')
 
 
 
