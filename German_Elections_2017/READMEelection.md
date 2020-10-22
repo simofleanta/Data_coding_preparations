@@ -1,3 +1,9 @@
+Data from kaggle.com
+My notebook contains the blue charts over German Elections in 2017
+the rest of charts are just juggling with colors and data
+
+
+
 ![CDU 2nd votes](https://user-images.githubusercontent.com/47668423/96881109-39051000-147e-11eb-9c4d-89950511c5e5.png)
 ![CDU_Scatter_blue](https://user-images.githubusercontent.com/47668423/96881119-3aced380-147e-11eb-820c-168b93b18588.png)
 ![Figure_1](https://user-images.githubusercontent.com/47668423/96881123-3c000080-147e-11eb-865f-bbf14cc6dc32.png)
