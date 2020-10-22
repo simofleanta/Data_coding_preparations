@@ -10,8 +10,10 @@ import plotly
 
 #open the file
 g=pd.read_csv('2017_german_election_party.csv')
+h=pd.read_csv('2017_german_election_overall.csv')
 #print(g.columns)
 df=DataFrame(g)
+valid=DataFrame(h)
 
 #check dtypes
 types=df.dtypes
@@ -116,7 +118,7 @@ fig = px.scatter(CDU, x="state", y="votes_second_vote", color="votes_second_vote
 v=CDU.groupby(['state'])['votes_second_vote'].mean()
 el=pd.DataFrame(data=v)
 Votes=el.sort_values(by='votes_second_vote',ascending=False,axis=0)
-print(Votes)
+#print(Votes)
 
 fig = px.bar(Votes, x="votes_second_vote", y=Votes.index, color='votes_second_vote',color_continuous_scale='Blues',title="CDU 2nd votes")
 #plotly.offline.plot(fig, filename='bike')
@@ -151,6 +153,52 @@ fig3 = px.bar(AFD, x="state", y=["state","votes_second_vote"],barmode='group', c
 
 fig4 = px.bar(CDU, x="state", y=["state","votes_second_vote"],barmode='group', color='state',title="CDU grouped")
 #plotly.offline.plot(fig4, filename='bike')
+
+#------------------------------------------------------------------------------------------------
+print(valid.columns)
+
+valid_first_votes=valid['valid_first_votes']
+valid_second_votes=valid['valid_second_votes']
+Area_name=valid['area_names']
+invalid_first_votes=valid['invalid_first_votes']
+State=valid['state']
+registered=valid['registered.voters']
+invalid_second_votes=valid['invalid_second_votes']
+total_votes=valid['total_votes']
+
+fig = go.Figure(data=go.Heatmap(
+                   z=total_votes,
+                   x=Area_name,
+                   y=State,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Votes in German 1st votes 2017 heatmap',
+    xaxis_nticks=35,
+    yaxis_nticks=30)
+
+#plotly.offline.plot(fig, filename='votes')
+
+fig = px.scatter(valid, x="state", y="total_votes", color="total_votes",
+                 size='valid_second_votes', hover_data=['valid_second_votes'],
+                 color_continuous_scale='Blues',
+                 title='Votes across states')
+
+#plotly.offline.plot(fig, filename='votes')
+
+fig = px.scatter(valid, x="state", y="total_votes", color="total_votes",
+                 size='invalid_second_votes', hover_data=['invalid_second_votes'],
+                 color_continuous_scale='Blues',
+                 title='Invalid Votes across states')
+
+#plotly.offline.plot(fig, filename='votes')
+
+sns.violinplot(x=valid["state"], y=valid["total_votes"], palette="Blues")
+plt.show()
+
+
+
 
 
 
