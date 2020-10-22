@@ -67,11 +67,20 @@ CDU=df[df.party=='Christlich.Demokratische.Union.Deutschlands']
 print(CDU)
 
 area_id=CDU['area_id']
-area_name=CDU['area_name']
+Area_name=CDU['area_name']
 votes_first_vote=CDU['votes_first_vote']
 State=CDU['state']
 Party=CDU['party']
 voteSecondVote=CDU['votes_second_vote']
+
+fig = px.scatter(CDU, x="state", y="votes_second_vote", color="votes_second_vote",
+                 size='votes_second_vote', hover_data=['votes_second_vote'],
+                 color_continuous_scale='Blues')
+
+#plotly.offline.plot(fig, filename='votes')
+
+
+
 
 #bar charts
 v=CDU.groupby(['state'])['votes_second_vote'].mean()
@@ -98,12 +107,20 @@ title="CDU 1st and 2nd votes performance across states in Germany")
 
 AFD=df[df.party=='Alternative.für.Deutschland']
 
+fig = px.scatter(AFD, x="state", y="votes_second_vote", color="votes_second_vote",
+                 size='votes_second_vote', hover_data=['votes_second_vote'],
+                 color_continuous_scale='Blues',
+                 title='AFD across states')
+
+plotly.offline.plot(fig, filename='votes')
+
+
 #fig3 = px.bar(AFD, x="state", y=["state","votes_second_vote"],barmode='group', color='state',title="AFD grouped")
 #plotly.offline.plot(fig3, filename='bike')
 
 
 fig4 = px.bar(CDU, x="state", y=["state","votes_second_vote"],barmode='group', color='state',title="CDU grouped")
-plotly.offline.plot(fig4, filename='bike')
+#plotly.offline.plot(fig4, filename='bike')
 
 
 
