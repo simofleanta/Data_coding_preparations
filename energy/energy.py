@@ -7,7 +7,8 @@ import plotly.graph_objects as go
 import numpy as np
 import sklearn.preprocessing
 from sklearn.metrics import r2_score
-import time
+import plotly.io as pio
+import datetime
 import plotly
 
 #NORMALIZE DATA BEFORE ANALYSIS  using numpy :D
@@ -70,9 +71,33 @@ plt.title('AEP hourly power consumption data - AFTER NORMALIZATION:)')
 import plotly.express as px
 df = px.data.tips()
 fig = px.density_heatmap(df_norm, x="Datetime", y="AEP_MW", nbinsx=20, nbinsy=20, color_continuous_scale="YlOrRd",title='2d histograms on hourly energy consumption 2004-2018 :)')
-plotly.offline.plot(fig, filename='bikes on a day')
+#plotly.offline.plot(fig, filename='bikes on a day')
 
 
 
+######scatter groupby 
 
 
+
+subject=df_norm['Datetime']
+score =df_norm['AEP_MW']
+
+data = [dict(
+  type = 'scatter',
+  x = subject,
+  y = score,
+  mode = 'markers',
+  transforms = [dict(
+    type = 'groupby',
+    groups = subject,
+    styles = [
+        dict(target = 'Moe', value = dict(marker = dict(color = 'blue'))),
+        dict(target = 'Larry', value = dict(marker = dict(color = 'red'))),
+        dict(target = 'Curly', value = dict(marker = dict(color = 'black')))
+    ]
+  )]
+)]
+
+fig_dict = dict(data=data)
+#pio.show(fig_dict, validate=False)
+plotly.offline.plot(fig_dict, validate=False)
