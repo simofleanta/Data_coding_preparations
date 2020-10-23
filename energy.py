@@ -9,6 +9,13 @@ import sklearn.preprocessing
 from sklearn.metrics import r2_score
 import plotly
 
+#NORMALIZE DATA BEFORE ANALYSIS  using numpy :D
+#print(en)
+#normalizing data using lamda
+#en=en.apply(lambda x: (x - x.min(axis=0))/(x.max(axis=0) - x.min(axis=0)))
+#en=df['AEP_MW']
+#date=df['Datetime']
+#NORMALIZE DATA BEFORE ANALYSIS  using sklearn :D
 
 #open the file
 g=pd.read_csv('AEP_hourly.csv')
@@ -33,17 +40,7 @@ df.plot(figsize=(16,4),legend=True)
 plt.title('AEP hourly power consumption data - BEFORE NORMALIZATION')
 #plt.show()
 
-#NORMALIZE DATA BEFORE ANALYSIS  using numpy :D
-en=df['AEP_MW']
-date=df['Datetime']
-#print(en)
 
-#normalizing data using lamda
-#en=en.apply(lambda x: (x - x.min(axis=0))/(x.max(axis=0) - x.min(axis=0)))
-
-#try charts
-en=df['AEP_MW']
-date=df['Datetime']
 
 def normalize_data(df):
     scaler = sklearn.preprocessing.MinMaxScaler()
@@ -52,6 +49,15 @@ def normalize_data(df):
 
 df_norm = normalize_data(df)
 df_norm.shape
+print(df_norm.head(3))
+
+
+df.plot(figsize=(16,4),legend=True)
+
+plt.title('AEP hourly power consumption data - AFTER NORMALIZATION:)')
+plt.show()
+
+
 
 
 
