@@ -7,6 +7,7 @@ import plotly.graph_objects as go
 import numpy as np
 import sklearn.preprocessing
 from sklearn.metrics import r2_score
+import time
 import plotly
 
 #NORMALIZE DATA BEFORE ANALYSIS  using numpy :D
@@ -30,6 +31,11 @@ missing_v=df.isnull().sum()
 #print(missing_v)
 vc=df['Datetime'].value_counts()
 
+#datetime
+#df = pd.read_csv(df, index_col='Datetime', parse_dates=['Datetime'])
+#df.head()
+
+
 
 #group AEP_MW by datetime :)
 e=df.groupby('Datetime')['AEP_MW'].mean()
@@ -48,18 +54,23 @@ def normalize_data(df):
     return df
 
 df_norm = normalize_data(df)
-df_norm.shape
+
+shape=df_norm.shape
+print(shape)
 print(df_norm.head(3))
 
 
 df.plot(figsize=(16,4),legend=True)
 
 plt.title('AEP hourly power consumption data - AFTER NORMALIZATION:)')
-plt.show()
+#plt.show()
 
+#chart 2d histograms on hourly energy consumption 2004-2018 :)
 
-
-
+import plotly.express as px
+df = px.data.tips()
+fig = px.density_heatmap(df_norm, x="Datetime", y="AEP_MW", nbinsx=20, nbinsy=20, color_continuous_scale="YlOrRd",title='2d histograms on hourly energy consumption 2004-2018 :)')
+plotly.offline.plot(fig, filename='bikes on a day')
 
 
 
