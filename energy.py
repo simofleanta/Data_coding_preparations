@@ -32,3 +32,8 @@ plt.title('AEP hourly power consumption data - BEFORE NORMALIZATION')
 #plt.show()
 
 #NORMALIZE DATA BEFORE ANALYSIS  using numpy :D
+en=df['AEP_MW']
+#print(en)
+#en=en.apply(lambda x: (x - x.min(axis=0))/(x.max(axis=0) - x.min(axis=0)))
+
+
