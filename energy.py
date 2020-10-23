@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
-import sklearn
+import sklearn.preprocessing
+from sklearn.metrics import r2_score
 import plotly
 
 
@@ -36,6 +37,8 @@ plt.title('AEP hourly power consumption data - BEFORE NORMALIZATION')
 en=df['AEP_MW']
 date=df['Datetime']
 #print(en)
+
+#normalizing data using lamda
 #en=en.apply(lambda x: (x - x.min(axis=0))/(x.max(axis=0) - x.min(axis=0)))
 
 #try charts
