@@ -7,8 +7,10 @@ import plotly.graph_objects as go
 import numpy as np
 import sklearn.preprocessing
 from sklearn.metrics import r2_score
+from scipy import stats
 import plotly.io as pio
 import datetime
+import time
 import plotly
 
 #NORMALIZE DATA BEFORE ANALYSIS  using numpy :D
@@ -75,34 +77,7 @@ fig = px.density_heatmap(df_norm, x="Datetime", y="AEP_MW", nbinsx=20, nbinsy=20
 
 
 
-######scatter groupby 
 
 
 
-subject=df_norm['Datetime']
-score =df_norm['AEP_MW']
-
-data = [dict(
-  type = 'scatter',
-  x = subject,
-  y = score,
-  mode = 'markers',
-  transforms = [dict(
-    type = 'groupby',
-    groups = subject,
-    styles = [
-        dict(target = 'Moe', value = dict(marker = dict(color = 'blue'))),
-        dict(target = 'Larry', value = dict(marker = dict(color = 'red'))),
-        dict(target = 'Curly', value = dict(marker = dict(color = 'black')))
-    ]
-  )]
-)]
-
-fig_dict = dict(data=data)
-#pio.show(fig_dict, validate=False)
-#plotly.offline.plot(fig_dict, validate=False)
-
-
-sns.violinplot(x=df_norm["Datetime"], y=df_norm["AEP_MW"], palette="Blues")
-plt.show()
 
