@@ -29,7 +29,3 @@ shape=df_norm.shape
 #print(shape)
 #print(df_norm.head(3))
 
-df = px.data.tips()
-fig = px.density_heatmap(df_norm, x="city", y="annual_consume", nbinsx=20, nbinsy=20, color_continuous_scale="YlOrRd",title='2d histograms on hourly energy consumption 2004-2018 :)')
-
-plotly.offline.plot(fig, filename='bikes on a day')
