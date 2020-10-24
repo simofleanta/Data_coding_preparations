@@ -100,5 +100,9 @@ data = [dict(
 
 fig_dict = dict(data=data)
 #pio.show(fig_dict, validate=False)
-plotly.offline.plot(fig_dict, validate=False)
+#plotly.offline.plot(fig_dict, validate=False)
+
+
+sns.violinplot(x=df_norm["Datetime"], y=df_norm["AEP_MW"], palette="Blues")
+plt.show()
 
