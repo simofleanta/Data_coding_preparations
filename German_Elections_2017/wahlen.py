@@ -199,6 +199,13 @@ plt.show()
 
 
 
+import plotly.express as px
+df = px.data.tips()
+fig = px.density_heatmap(valid, x="state", y="total_votes", nbinsx=20, nbinsy=20, color_continuous_scale="YlOrRd",title='2d histograms on total votes in diff states')
+#plotly.offline.plot(fig, filename='bikes on a day')
+
+
+
 
 
 
