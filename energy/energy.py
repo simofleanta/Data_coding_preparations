@@ -57,8 +57,8 @@ def normalize_data(df):
 df_norm = normalize_data(df)
 
 shape=df_norm.shape
-print(shape)
-print(df_norm.head(3))
+#print(shape)
+#print(df_norm.head(3))
 
 
 df.plot(figsize=(16,4),legend=True)
