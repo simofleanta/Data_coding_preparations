@@ -51,21 +51,6 @@ product_distribution(x=x.index, y=x.values, yaxis="Count", xaxis="Products")
 
 
 """
-#no missing_v
-
-date=df['Date']
-print(date)
-
-
-
-efgh=df.groupby('itemDescription')['Member_number'].mean()
-print(efgh)
-df_g=df
-import plotly.express as px
-df = px.data.tips()
-fig = px.density_heatmap(df_g, x="itemDescription", y="Member_number", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='2d histograms on hourly energy consumption 2004-2018 :)')
-#plotly.offline.plot(fig, filename='bikes on a day')
-
 m=df_g['Member_number']
 d=df_g['Date']
 item=df_g['itemDescription']
