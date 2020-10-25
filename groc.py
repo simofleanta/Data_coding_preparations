@@ -34,20 +34,13 @@ def product_distribution(x,y,name=None,xaxis=None,yaxis=None):
         yaxis_title=yaxis
     )
     
-    plotly.offline.plot(fig, filename='bike')
+    #plotly.offline.plot(fig, filename='bike')
 
 x = df['itemDescription'].value_counts()
 x = x.sort_values(ascending = False) 
 x = x[:15]
 
 product_distribution(x=x.index, y=x.values, yaxis="Count", xaxis="Products")
-
-
-
-
-
-
-
 
 
 """
@@ -81,3 +74,5 @@ plotly.offline.plot(fig, filename='bike') """
 
 
 
+
+    
