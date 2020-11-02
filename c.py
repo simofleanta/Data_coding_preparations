@@ -36,20 +36,24 @@ season_cat=df.season=pd.Categorical(df['season'], ordered=True)
 types=df.dtypes
 #print(types)
 
-
+#mean count
 m=df.cnt.mean()
 #print(m)
+
+#groupings by
 n=df.groupby('weekday',).cnt.mean()
 #print(n)
 P=df.groupby('mnth').cnt.mean()
 #print(P)
 P=df.groupby('season').cnt.mean()
 #print(P)
-#mean on a certain weekday
+
+#mean on a certain category
 q=df[df.workingday==1].cnt.mean()
 print(q)
 s=df[df.season==1].cnt.mean()
 print(s)
+
 
 
 
