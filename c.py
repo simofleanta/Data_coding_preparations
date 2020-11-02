@@ -44,8 +44,7 @@ print(sums)
 means=df.groupby('AREA').INCOME.mean()
 print(means)
 
-xs=df.groupby('AREA', 'HHID').INCOME.mean()
-print(xs)
+
 
 
 
