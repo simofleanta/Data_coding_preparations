@@ -9,7 +9,9 @@ import plotly.graph_objects as go
 import numpy as np
 import plotly
 
-c=pd.read_csv('bikes_h.csv')
+c=pd.read_csv('c.csv')
 print(c.columns)
 df=DataFrame(c)
+
+
 
