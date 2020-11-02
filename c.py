@@ -20,9 +20,6 @@ print(df)
 missing_v=df.isnull().sum()
 vc=df['TIME'].value_counts()
 print(vc)
-#check dtypes
-types=df.dtypes
-print(types)
 
 # create Stats
 pasta=df['PASTA']
@@ -43,6 +40,18 @@ print(df.describe())
 print(df['AREA'].count())
 print(df['HHID'].count())
 print(df['AGE'].count())
+
+#check dtypes
+types=df.dtypes
+print(types)
+#change area in cat
+area_cat=df.AREA=pd.Categorical(df['AREA'], ordered=True)
+print(area_cat)
+time_cat=df.TIME=pd.Categorical(df['TIME'], ordered=True)
+print(time_cat)
+#check dtypes after change
+types=df.dtypes
+print(types)
 
 
 
