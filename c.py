@@ -11,7 +11,7 @@ import plotly
 import statistics
 
 c=pd.read_csv('c.csv')
-print(c.columns)
+#print(c.columns)
 df=DataFrame(c.head(3))
 #print(df)
 
@@ -23,22 +23,17 @@ vc=df['TIME'].value_counts()
 types=df.dtypes
 #print(types)
 
-group_pasta_time=df.groupby('TIME')['PASTA'].mean()
-#print(group_pasta_time)
+#Stats
+pasta=df['PASTA']
+#print(statistics.mean(pasta))
+print(statistics.stdev(pasta))
 
+#grouping by
 group_pasta_hhid=df.groupby('HHID')['PASTA'].mean()
 #print(group_pasta_hhid)
 
-group_pasta_area=df.groupby('AREA')['PASTA'].mean()
-#print(group_pasta_area)
-
-#stats
-#stdev
-pasta=df['PASTA']
-print(statistics.stdev(pasta))
-#mean
-pasta=df['PASTA']
-print(statistics.mean(pasta))
+group_income_area=df.groupby('AREA')['INCOME', 'HHID'].mean()
+#print(group_income_area)
 
 
 
