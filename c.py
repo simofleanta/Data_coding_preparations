@@ -21,29 +21,10 @@ missing_v=df.isnull().sum()
 vc=df['TIME'].value_counts()
 print(vc)
 
-# create Stats
-pasta=df['PASTA']
-#print(statistics.mean(pasta))
-print(statistics.stdev(pasta))
-
-#grouping by
-group_pasta_hhid=df.groupby('HHID')['PASTA'].mean()
-print(group_pasta_hhid)
-
-group_income_area=df.groupby('AREA')['INCOME', 'HHID'].mean()
-print(group_income_area)
-
-#make sense of data
-
-print(df.mean())
-print(df.describe())
-print(df['AREA'].count())
-print(df['HHID'].count())
-print(df['AGE'].count())
-
-#check dtypes
+#check dtypes before change
 types=df.dtypes
 print(types)
+
 #change area in cat
 area_cat=df.AREA=pd.Categorical(df['AREA'], ordered=True)
 print(area_cat)
@@ -53,5 +34,13 @@ print(time_cat)
 types=df.dtypes
 print(types)
 
+
+time=df['TIME']
+print(time)
+
+# create Stats
+pasta=df['PASTA']
+#print(statistics.mean(pasta))
+#print(statistics.stdev(pasta))
 
 
