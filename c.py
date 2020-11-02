@@ -36,8 +36,13 @@ print(group_pasta_hhid)
 group_income_area=df.groupby('AREA')['INCOME', 'HHID'].mean()
 print(group_income_area)
 
+#make sense of data
 
-
+print(df.mean())
+print(df.describe())
+print(df['AREA'].count())
+print(df['HHID'].count())
+print(df['AGE'].count())
 
 
 
