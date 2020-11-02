@@ -7,6 +7,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 import plotly
+import scipy
 import statistics
 import stats
 
@@ -59,6 +60,16 @@ x=df.groupby(['cars_names'], as_index=False)[['carb']].mean().tail(4)
 f=['mean','max','min','count', 'std','var']
 x=df.groupby(['cars_names'], as_index=False)[['carb']].agg(f)
 #print(x.reset_index())
+
+x=df[['mpg','hp','wt']]
+sns.pairplot(x)
+plt.show()
+
+mpg=df['mpg']
+hp=df['hp']
+qsec=df['qsec']
+wt=df['wt']
+
 
 
 
