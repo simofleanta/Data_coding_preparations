@@ -11,7 +11,15 @@ import plotly
 
 c=pd.read_csv('c.csv')
 print(c.columns)
-df=DataFrame(c)
+df=DataFrame(c.head(3))
+print(df)
+
+#no missing_v
+missing_v=df.isnull().sum()
+vc=df['TIME'].value_counts()
+print(vc)
+
+
 
 
 
