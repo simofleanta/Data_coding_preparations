@@ -49,12 +49,14 @@ d=df.agg(['mean','max','min','var','count'])
 g=df.groupby('cyl').mean()
 #print(g)
 x=df.groupby(['cars_names'])[['cyl']]
-print(x.mean())
+#print(x.mean())
+
+# group by with 2 columns and tail(4)
+x=df.groupby(['cars_names'], as_index=False)[['carb']].mean().tail(4)
+#print(x)
 
 
-#
-x=df.groupby(['cars_names'])[['carb']]
-print(x.mean())
+
 
 
 
