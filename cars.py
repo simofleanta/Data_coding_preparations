@@ -1,4 +1,3 @@
-#What is the correct mean and standard deviation of the quantity of pasta purchased by time unit by household?
 
 import pandas as pd
 import seaborn as sns 
@@ -40,11 +39,11 @@ s=df.std()
 mean=df.mean()
 #print(mean)
 
-""" Agreggate"""
+""" Agreggate column"""
 d=df.agg(['mean','max','min','var','count'])
 #print(d)
 
-"""group by 2 columns """
+"""groupby 2 columns """
 
 g=df.groupby('cyl').mean()
 #print(g)
@@ -57,9 +56,10 @@ x=df.groupby(['cars_names'], as_index=False)[['carb']].mean().tail(4)
 
 """aggegate 2 columns"""
 
-f=['mean','max','min','count']
+f=['mean','max','min','count', 'std','var']
 x=df.groupby(['cars_names'], as_index=False)[['carb']].agg(f)
 print(x.reset_index())
+
 
 
 
