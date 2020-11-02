@@ -1,0 +1,15 @@
+#What is the correct mean and standard deviation of the quantity of pasta purchased by time unit by household?
+
+import pandas as pd
+import seaborn as sns 
+from pandas import DataFrame
+import matplotlib.pyplot as plt
+import plotly.express as px
+import plotly.graph_objects as go
+import numpy as np
+import plotly
+
+c=pd.read_csv('bikes_h.csv')
+print(c.columns)
+df=DataFrame(c)
+
