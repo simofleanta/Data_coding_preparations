@@ -30,6 +30,8 @@ mnth_cat=df.mnth=pd.Categorical(df['mnth'], ordered=True)
 #print(mnth_cat)
 weekday_cat=df.weekday=pd.Categorical(df['weekday'], ordered=True)
 #print(weekday_cat)
+workingday_cat=df.workingday=pd.Categorical(df['workingday'], ordered=True)
+season_cat=df.season=pd.Categorical(df['season'], ordered=True)
 #check dtypes after change
 types=df.dtypes
 #print(types)
@@ -37,13 +39,17 @@ types=df.dtypes
 
 m=df.cnt.mean()
 #print(m)
-n=df.groupby('weekday').cnt.mean()
-print(n)
+n=df.groupby('weekday',).cnt.mean()
+#print(n)
 P=df.groupby('mnth').cnt.mean()
 #print(P)
 P=df.groupby('season').cnt.mean()
 #print(P)
-
+#mean on a certain weekday
+q=df[df.workingday==1].cnt.mean()
+print(q)
+s=df[df.season==1].cnt.mean()
+print(s)
 
 
 
