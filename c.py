@@ -55,6 +55,17 @@ x=df.groupby(['cars_names'])[['cyl']]
 x=df.groupby(['cars_names'], as_index=False)[['carb']].mean().tail(4)
 #print(x)
 
+"""aggegate 2 columns"""
+
+f=['mean','max','min','count']
+x=df.groupby(['cars_names'], as_index=False)[['carb']].agg(f)
+print(x.reset_index())
+
+
+
+
+
+
 
 
 
