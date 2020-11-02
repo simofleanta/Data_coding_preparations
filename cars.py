@@ -13,7 +13,7 @@ import stats
 
 c=pd.read_csv('cars_csv.csv')
 #print(c.columns)
-df=DataFrame(c.head(3))
+df=DataFrame(c.head(20))
 #print(df.head(10))
 
 #df.describe()
@@ -25,7 +25,7 @@ df=DataFrame(c.head(3))
 #Min/max on separate columns
 mpg=df.mpg
 s=mpg.max()
-#print(s)
+print(s)
 
 wt=df.wt
 f=wt.min()
@@ -48,7 +48,7 @@ d=df.agg(['mean','max','min','var','count'])
 g=df.groupby('cyl').mean()
 #print(g)
 x=df.groupby(['cars_names'])[['cyl']]
-#print(x.mean())
+print(x.mean())
 
 # group by with 2 columns and tail(4)
 x=df.groupby(['cars_names'], as_index=False)[['carb']].mean().tail(4)
@@ -57,8 +57,9 @@ x=df.groupby(['cars_names'], as_index=False)[['carb']].mean().tail(4)
 """aggegate 2 columns"""
 
 f=['mean','max','min','count', 'std','var']
-x=df.groupby(['cars_names'], as_index=False)[['carb']].agg(f)
+x=df.groupby(['cars_names'], as_index=False)[['mpg']].agg(f)
 print(x.reset_index())
+
 
 
 
