@@ -10,6 +10,7 @@ import plotly
 import statistics
 import stats
 
+#What is the correct mean and standard deviation of the quantity of pasta purchased by time unit by household?
 
 c=pd.read_csv('c.csv')
 #print(c.columns)
@@ -18,6 +19,25 @@ print(df.head(100))
 
 x=df.groupby(['AREA'])[['PASTA']]
 print(x.mean())
+
+f=['mean', 'std']
+x=df.groupby(['TIME'], as_index=False)[['HHID']].agg(f)
+print(x.reset_index())
+
+
+#What is the average income of households living in area 4?
+
+paris=df[df.AREA=='Paris'].mean()
+print(paris)
+paris=df
+
+x=paris.groupby(['INCOME'])[['HHID']]
+print(x.mean())
+
+
+
+
+
 
 
 
