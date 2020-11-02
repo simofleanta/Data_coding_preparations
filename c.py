@@ -11,55 +11,14 @@ import plotly
 import statistics
 import stats
 
-#open file
-c=pd.read_csv('day.csv')
+
+c=pd.read_csv('cars_csv.csv')
 #print(c.columns)
 df=DataFrame(c.head(3))
-#print(df.head(10))
+print(df.head(10))
 
-#check missing_v
-missing_v=df.isnull().sum()
-vc=df['cnt'].value_counts()
-#print(vc)
-
-#check dtypes before change
-types=df.dtypes
-#print(types)
-
-#change area in cat
-mnth_cat=df.mnth=pd.Categorical(df['mnth'], ordered=True)
-#print(mnth_cat)
-weekday_cat=df.weekday=pd.Categorical(df['weekday'], ordered=True)
-#print(weekday_cat)
-workingday_cat=df.workingday=pd.Categorical(df['workingday'], ordered=True)
-season_cat=df.season=pd.Categorical(df['season'], ordered=True)
-#check dtypes after change
-types=df.dtypes
-#print(types)
-
-#mean count
-m=df.cnt.mean()
-#print(m)
-
-#groupings by
-n=df.groupby('weekday',).cnt.mean()
-#print(n)
-P=df.groupby('mnth').cnt.mean()
-#print(P)
-P=df.groupby('season').cnt.mean()
-#print(P)
-
-#mean on a certain category
-q=df[df.workingday==1].cnt.mean()
-print(q)
-s=df[df.season==1].cnt.mean()
-print(s)
-
-#max
-Px=df.groupby('weekday').cnt.agg(['count','max','min','mean'])
-print(Px)
-
-
+df.describe()
+df.sum()
 
 
 
