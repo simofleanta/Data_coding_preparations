@@ -19,6 +19,10 @@ missing_v=df.isnull().sum()
 vc=df['TIME'].value_counts()
 print(vc)
 
+#check dtypes
+types=df.dtypes
+print(types)
+
 
 
 
