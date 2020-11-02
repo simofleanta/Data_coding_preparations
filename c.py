@@ -38,11 +38,13 @@ print(x)
 
 #What is the correlation between the purchases of pasta and the exposures?
 
-x=df['HHID','PASTA','EXPOS'].copy()
+x=df[['HHID','PASTA','EXPOS']].copy()
+print(x)
 
 plt.figure(figsize=(10,5))
 sns.heatmap(x.corr(),cmap='Blues')
-plt.show()
+
+
 
 
 
