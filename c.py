@@ -13,8 +13,11 @@ import stats
 
 c=pd.read_csv('c.csv')
 #print(c.columns)
-df=DataFrame(c.head(20))
-print(df.head(20))
+df=DataFrame(c.head(100))
+print(df.head(100))
+
+x=df.groupby(['AREA'])[['PASTA']]
+print(x.mean())
 
 
 
