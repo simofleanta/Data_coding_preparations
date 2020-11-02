@@ -21,30 +21,28 @@ x=df.groupby(['AREA'])[['PASTA']]
 print(x.mean())
 
 
-
 f=['mean', 'std']
 x=df.groupby(['TIME'], as_index=False)[['HHID']].agg(f)
 print(x.reset_index())
 
 
-#What is the average income of households living in area 4?$filter?
+#What is the average income of households living in area 4?
 
-paris=df[df.AREA=='Paris'].mean()
-print(paris)
+f=df.groupby('AREA').mean()
+print(f)
 
-paris=df
+#OR--
+hhid=df.HHID=pd.Categorical(df['HHID'], ordered=True)
+x=df.groupby('HHID').mean()
+print(x)
 
-x=df.groupby(['AREA'])[['INCOME']]
-print(x.mean())
-
-#
-sums=df.groupby('AREA').INCOME.sum()
-print(sums)
-
-means=df.groupby('AREA').INCOME.mean()
-print(means)
+#What is the correlation between the purchases of pasta and the exposures?
 
 
+
+plt.figure(figsize=(10,5))
+sns.heatmap(df.corr(),cmap='Blues')
+plt.show()
 
 
 
