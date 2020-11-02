@@ -10,30 +10,31 @@ import numpy as np
 import plotly
 import statistics
 
+#open file
 c=pd.read_csv('c.csv')
-#print(c.columns)
+print(c.columns)
 df=DataFrame(c.head(3))
-#print(df)
+print(df)
 
-#no missing_v
+#check missing_v
 missing_v=df.isnull().sum()
 vc=df['TIME'].value_counts()
-#print(vc)
+print(vc)
 #check dtypes
 types=df.dtypes
-#print(types)
+print(types)
 
-#Stats
+# create Stats
 pasta=df['PASTA']
 #print(statistics.mean(pasta))
 print(statistics.stdev(pasta))
 
 #grouping by
 group_pasta_hhid=df.groupby('HHID')['PASTA'].mean()
-#print(group_pasta_hhid)
+print(group_pasta_hhid)
 
 group_income_area=df.groupby('AREA')['INCOME', 'HHID'].mean()
-#print(group_income_area)
+print(group_income_area)
 
 
 
