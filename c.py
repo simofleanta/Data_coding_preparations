@@ -9,6 +9,7 @@ import plotly.graph_objects as go
 import numpy as np
 import plotly
 import statistics
+import stats
 
 #open file
 c=pd.read_csv('day.csv')
@@ -53,6 +54,12 @@ q=df[df.workingday==1].cnt.mean()
 print(q)
 s=df[df.season==1].cnt.mean()
 print(s)
+
+#max
+Px=df.groupby('weekday').cnt.agg(['count','max','min','mean'])
+print(Px)
+
+
 
 
 
