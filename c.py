@@ -20,19 +20,37 @@ print(df.head(100))
 x=df.groupby(['AREA'])[['PASTA']]
 print(x.mean())
 
+
+
 f=['mean', 'std']
 x=df.groupby(['TIME'], as_index=False)[['HHID']].agg(f)
 print(x.reset_index())
 
 
-#What is the average income of households living in area 4?
+#What is the average income of households living in area 4?$filter?
 
 paris=df[df.AREA=='Paris'].mean()
 print(paris)
+
 paris=df
 
-x=paris.groupby(['INCOME'])[['HHID']]
+x=df.groupby(['AREA'])[['INCOME']]
 print(x.mean())
+
+#
+sums=df.groupby('AREA').INCOME.sum()
+print(sums)
+
+means=df.groupby('AREA').INCOME.mean()
+print(means)
+
+xs=df.groupby('AREA', 'HHID').INCOME.mean()
+print(xs)
+
+
+
+
+
 
 
 

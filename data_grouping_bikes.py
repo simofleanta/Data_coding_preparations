@@ -62,6 +62,6 @@ print(df.head(10))
 
 
 f=['mean','max','min','count', 'std','var']
-x=df.groupby(['weekday'], as_index=False)[['cnt']].agg(f)
-print(x.reset_index())
+x=df.groupby(['mnth'], as_index=False)[['cnt']].agg(f)
+print(x.reset_index.head())
 

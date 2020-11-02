@@ -24,7 +24,7 @@ df=DataFrame(c.head(20))
 
 #Min/max on separate columns
 mpg=df.mpg
-s=mpg.max()
+s=mpg.count()
 print(s)
 
 wt=df.wt
@@ -48,7 +48,7 @@ d=df.agg(['mean','max','min','var','count'])
 g=df.groupby('cyl').mean()
 #print(g)
 x=df.groupby(['cars_names'])[['cyl']]
-print(x.mean())
+#print(x.mean())
 
 # group by with 2 columns and tail(4)
 x=df.groupby(['cars_names'], as_index=False)[['carb']].mean().tail(4)
@@ -57,8 +57,8 @@ x=df.groupby(['cars_names'], as_index=False)[['carb']].mean().tail(4)
 """aggegate 2 columns"""
 
 f=['mean','max','min','count', 'std','var']
-x=df.groupby(['cars_names'], as_index=False)[['mpg']].agg(f)
-print(x.reset_index())
+x=df.groupby(['cars_names'], as_index=False)[['carb']].agg(f)
+#print(x.reset_index())
 
 
 
