@@ -59,5 +59,9 @@ c=pd.read_csv('day.csv')
 df=DataFrame(c.head(3))
 print(df.head(10))
 
-df['mnth'].sum()
+
+
+f=['mean','max','min','count', 'std','var']
+x=df.groupby(['weekday'], as_index=False)[['cnt']].agg(f)
+print(x.reset_index())
 
