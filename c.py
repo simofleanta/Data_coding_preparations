@@ -14,7 +14,7 @@ import statistics
 c=pd.read_csv('c.csv')
 print(c.columns)
 df=DataFrame(c.head(3))
-print(df)
+print(df.head(50))
 
 #check missing_v
 missing_v=df.isnull().sum()
@@ -35,12 +35,14 @@ types=df.dtypes
 print(types)
 
 
-time=df['TIME']
-print(time)
+pasta=df['AREA'].mean()
+print(pasta)
 
-# create Stats
-pasta=df['PASTA']
-#print(statistics.mean(pasta))
-#print(statistics.stdev(pasta))
+
+
+
+
+
+
 
 
