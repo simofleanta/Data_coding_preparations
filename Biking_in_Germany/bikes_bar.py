@@ -6,6 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 import plotly
+import statistics
 
 
 #open the file
@@ -30,6 +31,9 @@ plotly.offline.plot(fig, filename='bike')
 fig = px.bar(df, x="season", y=["cnt","windspeed"],barmode='stack', color='windspeed',color_continuous_scale='Blues',title="bike")
 
 plotly.offline.plot(fig, filename='hap')
+
+
+
 
 
 
