@@ -20,7 +20,7 @@ df=DataFrame(c.head(20))
 #df.describe()
 #df.sum()
 #df.mean()
-#df.max()
+df.max()
 
 
 #Min/max on separate columns
