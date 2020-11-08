@@ -18,6 +18,25 @@ df=DataFrame(c.head(100))
 correlation=df.corr(method='pearson')
 #print(correlation)
 
+company=df['company']
+price=df['px']
+
+fig=px.treemap(df,
+path=[company],
+values=price,
+color=price,
+color_continuous_scale='Blues',
+title='Electrica treemap',
+  
+)
+
+fig.update_layout(
+    title_font_size=42,
+    title_font_family='Arial'
+)
+#plotly.offline.plot(fig, filename='Healthy_life_expectancy in West Eu')
+
+
 """Groupings and agg"""
 
 x=df.groupby(['yr'])[['px']]
@@ -46,7 +65,6 @@ snp=df[df.company=='SNP']
 sng=df[df.company=='SNG']
 tlv=df[df.company=='TLV']
 year=df['yr']
-company=df['company']
 px=df['px']
 
 ELec=El.corr(method='pearson')
@@ -61,7 +79,7 @@ Tlv=tlv.corr(method='pearson')
 #print(Tlv)
 
 
-
+  
 
 
 
