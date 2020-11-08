@@ -15,7 +15,7 @@ df=DataFrame(c.head(100))
 #print(df.head(100))
 
 x=df.groupby(['yr'])[['px']]
-print(x.mean())
+#print(x.mean())
 
 y=df.groupby(['company'])[['px']].mean()
 #print(y)
@@ -28,10 +28,19 @@ El=df.groupby(['px']).mean()
 
 #Aggregate
 operations=['mean', 'std','sum','min','max']
-x=df.groupby(['company'], as_index=False)[['px']].agg(operations)
-print(x.reset_index())
+sd=df.groupby(['company','yr'], as_index=False)[['px']].agg(operations)
+#print(sd.reset_index())
 
 
+y=df.groupby(['company'])[['px']].mean()
+#print(y)
+
+
+#tables 
+import plotly.figure_factory as ff
+
+df=sd
+print(df)
 
 
 
