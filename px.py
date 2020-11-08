@@ -12,7 +12,7 @@ import stats
 c=pd.read_csv('heatmap_px.csv')
 #print(c.columns)
 df=DataFrame(c.head(100))
-print(df.head(100))
+#print(df.head(100))
 
 #corr year px
 correlation=df.corr(method='pearson')
@@ -47,6 +47,7 @@ sng=df[df.company=='SNG']
 tlv=df[df.company=='TLV']
 year=df['yr']
 company=df['company']
+px=df['px']
 
 ELec=El.corr(method='pearson')
 brd_generale=brd.corr(method='pearson')
@@ -58,8 +59,13 @@ Tlv=tlv.corr(method='pearson')
 #print(Snp)
 #print(Sng)
 #print(Tlv)
-sns.pairplot(ELec)
-plt.show()
+
+
+
+
+
+
+
 
 
 
