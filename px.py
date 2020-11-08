@@ -81,6 +81,25 @@ Tlv=tlv.corr(method='pearson')
 df=sd
 print(df)
 
+fig = go.Figure(data=go.Heatmap(
+                   z=price,
+                   x=company,
+                   y=year,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Correlation companies in the years',
+    xaxis_nticks=40)
+plotly.offline.plot(fig, filename='msci')
+
+
+
+
+
+
+
+
 
 
   
