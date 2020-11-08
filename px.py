@@ -10,13 +10,13 @@ import statistics
 import stats
 
 c=pd.read_csv('heatmap_px.csv')
-#print(c.columns)
+print(c.columns)
 df=DataFrame(c.head(100))
-#print(df.head(100))
+print(df.head(100))
 
 #corr year px
 correlation=df.corr(method='pearson')
-#print(correlation)
+print(correlation)
 
 company=df['company']
 price=df['px']
@@ -34,27 +34,27 @@ fig.update_layout(
     title_font_size=42,
     title_font_family='Arial'
 )
-#plotly.offline.plot(fig, filename='Healthy_life_expectancy in West Eu')
+plotly.offline.plot(fig, filename='Healthy_life_expectancy in West Eu')
 
 
 """Groupings and agg"""
 
 x=df.groupby(['yr'])[['px']]
-#print(x.mean())
+print(x.mean())
 
 y=df.groupby(['company'])[['px']].mean()
-#print(y)
+print(y)
 
 El=df.groupby(['px']).mean()
-#print(El)
+print(El)
 
 y=df.groupby(['company'])[['px']].mean()
-#print(y)
+print(y)
 
 #Aggregate
 operations=['mean', 'std','sum','min','max']
 sd=df.groupby(['company','yr'], as_index=False)[['px']].agg(operations)
-#print(sd.reset_index())
+print(sd.reset_index())
 
 
 """correlations Pearson for companies"""
@@ -93,6 +93,21 @@ fig.update_layout(
     xaxis_nticks=40)
 plotly.offline.plot(fig, filename='msci')
 
+
+
+
+fig = go.Figure(data=go.Heatmap(
+                   z=price,
+                   x=tlv,
+                   y=year,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Correlation TLV in the years',
+    xaxis_nticks=40)
+
+plotly.offline.plot(fig, filename='msci')
 
 
 
