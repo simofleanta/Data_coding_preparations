@@ -78,12 +78,8 @@ Tlv=tlv.corr(method='pearson')
 #print(Sng)
 #print(Tlv)
 
-#operating with aggregations 
 df=sd
 print(df)
-#corrs
-correlations=df.corr(method='pearson')
-print(correlations)
 
 
 
