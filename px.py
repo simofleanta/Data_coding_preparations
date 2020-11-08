@@ -12,7 +12,11 @@ import stats
 c=pd.read_csv('heatmap_px.csv')
 #print(c.columns)
 df=DataFrame(c.head(100))
-#print(df.head(100))
+print(df.head(100))
+
+#corr year px
+correlation=df.corr(method='pearson')
+#print(correlation)
 
 x=df.groupby(['yr'])[['px']]
 #print(x.mean())
@@ -22,6 +26,10 @@ y=df.groupby(['company'])[['px']].mean()
 
 El=df[df.company=='EL']
 #print(El)
+
+electrica=El.corr(method='pearson')
+print(electrica)
+
 
 El=df.groupby(['px']).mean()
 #print(El)
@@ -40,7 +48,11 @@ y=df.groupby(['company'])[['px']].mean()
 import plotly.figure_factory as ff
 
 df=sd
-print(df)
+
+c=df.corr(method='pearson')
+
+
+
 
 
 
