@@ -15,9 +15,21 @@ df=DataFrame(c.head(100))
 #print(df.head(100))
 
 x=df.groupby(['yr'])[['px']]
-print(x.mean())
+#print(x.mean())
 
 y=df.groupby(['company'])[['px']].mean()
-print(y)
+#print(y)
 
-z=
+El=df[df.company=='EL']
+#print(El)
+
+El=df.groupby(['px']).mean()
+#print(El)
+
+#Aggregate
+operations=['mean', 'std','sum','min','max']
+x=df.groupby(['company'], as_index=False)[['px']].agg(operations)
+print(x.reset_index())
+
+
+
