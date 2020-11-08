@@ -78,6 +78,11 @@ Tlv=tlv.corr(method='pearson')
 #print(Sng)
 #print(Tlv)
 
+df=sd
+print(df)
+correlations=df.corr(method='pearson')
+print(correlations)
+
 
   
 
