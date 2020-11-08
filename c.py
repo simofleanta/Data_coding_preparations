@@ -11,6 +11,8 @@ import statistics
 import stats
 
 #What is the correct mean and standard deviation of the quantity of pasta purchased by time unit by household?
+#What is the correlation between the purchases of pasta and the exposures?
+#What is the average income of households living in area 4?
 
 c=pd.read_csv('c.csv')
 #print(c.columns)
@@ -26,7 +28,7 @@ x=df.groupby(['TIME'], as_index=False)[['HHID']].agg(f)
 print(x.reset_index())
 
 
-#What is the average income of households living in area 4?
+
 
 f=df.groupby('AREA').mean()
 print(f)
@@ -36,7 +38,7 @@ hhid=df.HHID=pd.Categorical(df['HHID'], ordered=True)
 x=df.groupby('HHID').mean()
 print(x)
 
-#What is the correlation between the purchases of pasta and the exposures?
+
 
 x=df[['HHID','PASTA','EXPOS']].copy()
 print(x)
