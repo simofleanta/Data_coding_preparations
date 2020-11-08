@@ -1,0 +1,1 @@
+At the end of the year 2018, the separated vat tax law was passed in the parlament. Let's watch the price evolution of listed companies, following the passing of the fiscal law in December 2018.  
