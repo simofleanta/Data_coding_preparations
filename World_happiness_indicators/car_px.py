@@ -14,4 +14,8 @@ import stats
 cars=pd.read_csv('CarPrice.csv')
 print(cars.columns)
 df=DataFrame(cars)
-print(df.head(3))
+print(df.head(100))
+
+x=df.groupby(['fueltype']).mean()
+print(x)
+
