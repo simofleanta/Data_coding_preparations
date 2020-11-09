@@ -3,8 +3,11 @@ import seaborn as sns
 from pandas import DataFrame
 import matplotlib.pyplot as plt
 import plotly.express as px
+import plotly.graph_objects as go
 import numpy as np
 import plotly
+import statistics
+import stats
 
 
 #open the file
