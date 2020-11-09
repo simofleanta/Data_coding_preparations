@@ -16,6 +16,8 @@ print(cars.columns)
 df=DataFrame(cars)
 print(df.head(100))
 
-x=df.groupby(['fueltype']).mean()
-print(x)
+x=df.groupby(['doornumber'])[['price']]
+print(x.mean())
+x=df.groupby(['doornumber'])[['price']]
+print(x.mean())
 
