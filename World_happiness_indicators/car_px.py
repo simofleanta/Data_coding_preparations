@@ -20,4 +20,10 @@ x=df.groupby(['doornumber'])[['price']]
 print(x.mean())
 y=df.groupby(['CarName'])[['horsepower']]
 print(y.mean())
+z=df.groupby(['doornumber','fueltype'])[['horsepower']]
+print(z.mean())
 
+#Aggregate
+operations=['mean', 'std','sum','min','max']
+a=df.groupby(['doornumber','fueltype'], as_index=False)[['price']].agg(operations)
+print(a.reset_index())
