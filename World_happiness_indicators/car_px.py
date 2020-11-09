@@ -33,10 +33,14 @@ print(a.reset_index())
 px=df['price']
 fueltype=df['fueltype']
 
-cop=df[['fueltype','doornumber','price','horsepower']].copy()
-
-correlation=cop.corr(method='pearson')
+px_horse=df[['fueltype','doornumber','price','horsepower']].copy()
+correlation=px_horse.corr(method='pearson')
 print(correlation)
+
+door_fuel=df[['fueltype','boreratio','horsepower']].copy()
+correlation=door_fuel.corr(method='pearson')
+print(correlation)
+
 
 
 
