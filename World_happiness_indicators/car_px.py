@@ -18,6 +18,6 @@ print(df.head(100))
 
 x=df.groupby(['doornumber'])[['price']]
 print(x.mean())
-x=df.groupby(['doornumber'])[['price']]
-print(x.mean())
+y=df.groupby(['CarName'])[['price']]
+print(y.mean())
 
