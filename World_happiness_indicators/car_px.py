@@ -16,6 +16,7 @@ print(cars.columns)
 df=DataFrame(cars)
 print(df.head(100))
 
+#groupings
 x=df.groupby(['doornumber'])[['price']]
 print(x.mean())
 y=df.groupby(['CarName'])[['horsepower']]
@@ -27,3 +28,16 @@ print(z.mean())
 operations=['mean', 'std','sum','min','max']
 a=df.groupby(['doornumber','fueltype'], as_index=False)[['price']].agg(operations)
 print(a.reset_index())
+
+#corrs
+px=df['price']
+fueltype=df['fueltype']
+
+cop=df[['fueltype','doornumber','price','horsepower']].copy()
+
+correlation=cop.corr(method='pearson')
+print(correlation)
+
+
+
+
