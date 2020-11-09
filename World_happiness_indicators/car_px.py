@@ -16,6 +16,7 @@ print(cars.columns)
 df=DataFrame(cars)
 print(df.head(100))
 
+
 #groupings
 x=df.groupby(['doornumber'])[['price']]
 print(x.mean())
@@ -42,6 +43,13 @@ correlation=door_fuel.corr(method='pearson')
 print(correlation)
 
 
+#graphs
+sns.violinplot(x=df["fueltype"], y=df["price"], palette="Blues")
+plt.show()
+
+plt.figure(figsize=(10,5))
+sns.heatmap(df.corr(),cmap='Blues')
+plt.show()
 
 
 
