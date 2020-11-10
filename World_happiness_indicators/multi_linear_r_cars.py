@@ -22,8 +22,8 @@ print(cars.columns)
 df=DataFrame(cars)
 #print(df.head(100))
 
-a=df.shape
-print(a)
+sh=df.shape
+print(sh)
 b=df.dtypes
 #print(b)
 
