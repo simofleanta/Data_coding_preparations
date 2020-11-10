@@ -17,7 +17,8 @@ from sklearn.metrics import r2_score
 
 
 
-c=pd.read_csv('business.csv')
+c=pd.read_csv('bread basket.csv')
 print(c.columns)
 df=DataFrame(c.head(100))
 print(df.head(100))
+
