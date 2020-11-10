@@ -13,6 +13,7 @@ import stats
 import matplotlib.pyplot as plt 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import r2_score
 
 
 #open the file
@@ -54,7 +55,21 @@ print(dfx.head(3))
 dfy=df.iloc[:,[25]]
 print(dfy.head(3))
 
+# now we have independent and dependent dataframe the next step isto split data into training and testing sets (70,30)
 trainx,testx,trainy,testy=train_test_split(dfx,dfy,test_size=0.3)
 
+# in this we apply RandomForestRegressor model
 model=RandomForestRegressor()
-model
+print(model)
+
+#we will fit this model to training data
+m=model.fit(trainx,trainy)
+print(m)
+
+#we will predict using this model
+ypred=model.predict(testx)
+print(ypred)
+
+#we have predicted price values now we will estimate these value by comparing with original y values using r2_score
+r2score=r2_score(testy,ypred)
+print(r2score)
