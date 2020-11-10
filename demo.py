@@ -66,7 +66,17 @@ df.groupby('period_day')['Item'].count().sort_values().plot(kind='bar')
 plt.ylabel('Transaction')
 ax.get_yaxis().get_major_formatter().set_scientific(False)
 plt.title('Business during the day')
-plt.show()
+
+
+df.groupby('date_time')['Item'].count().plot(kind='bar')
+plt.ylabel('Transaction')
+plt.title('Business during the past time')
+
+
+
+data2=df.pivot_table(index='period_day',columns='Item', aggfunc={'Item':'count'}).fillna(0)
+data2['Max']=data2.idxmax(axis=1)
+print(data2)
 
 
 
