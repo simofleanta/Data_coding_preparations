@@ -57,5 +57,6 @@ df.groupby('weekday')['Price'].count().sort_values().plot(kind='bar')
 plt.ylabel('Price')
 ax.get_yaxis().get_major_formatter().set_scientific(False)
 plt.title('Business during the week')
-plt.show()
+
+
 
