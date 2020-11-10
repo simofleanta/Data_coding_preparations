@@ -86,7 +86,7 @@ print(pivot2)
 #corr
 plt.figure(figsize=(15,15))
 sns.heatmap(df.corr(),annot=True,cmap='Blues_r',mask=np.triu(df.corr(),k=1))
-plt.show()
+
 
 
 #heatmap
@@ -97,7 +97,22 @@ sns.heatmap(df.corr(),cmap='Accent_r')
 hour=df[['Hour','Item','Number_Bikes','Price',]].copy()
 plt.figure(figsize=(10,5))
 sns.heatmap(hour.corr(),cmap='binary_r')
-plt.show()
+
+
+import plotly.express as px
+df = px.data.tips()
+fig = px.density_heatmap(hour, x="Item", y="Hour", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='2d histograms')
+#plotly.offline.plot(fig, filename='bike')
+
+df = px.data.tips()
+fig = px.density_heatmap(hour, x="Item", y="Price", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='2d histograms')
+#plotly.offline.plot(fig, filename='bike')
+
+fig = px.density_heatmap(hour, x="Item", y="Number_Bikes", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='2d histograms')
+#plotly.offline.plot(fig, filename='bike')
+
+fig = px.density_heatmap(hour, x="Hour", y="Number_Bikes", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='2d histograms')
+#plotly.offline.plot(fig, filename='bike')
 
 
 
