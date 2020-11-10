@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
+import plotly.express as px
 
 
 c=pd.read_csv('bike_business_plan.csv')
@@ -99,7 +100,7 @@ plt.figure(figsize=(10,5))
 sns.heatmap(hour.corr(),cmap='binary_r')
 
 
-import plotly.express as px
+
 df = px.data.tips()
 fig = px.density_heatmap(hour, x="Item", y="Hour", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='2d histograms')
 #plotly.offline.plot(fig, filename='bike')
