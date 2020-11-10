@@ -55,4 +55,24 @@ ax.get_yaxis().get_major_formatter().set_scientific(False)
 plt.title('Preferred products')
 #plt.show()
 
+#when is the bakery doing the most business during the day?
+
+b=df.groupby('period_day')['Item'].count().sort_values(ascending=False)
+print(b)
+
+fig, ax=plt.subplots(figsize=(5,4))
+sns.set_style('darkgrid')
+df.groupby('period_day')['Item'].count().sort_values().plot(kind='bar')
+plt.ylabel('Transaction')
+ax.get_yaxis().get_major_formatter().set_scientific(False)
+plt.title('Business during the day')
+plt.show()
+
+
+
+
+
+
+
+
 
