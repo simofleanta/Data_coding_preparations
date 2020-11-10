@@ -33,3 +33,5 @@ operations=['mean','sum','min','max']
 a=df.groupby(['Item','period_day'], as_index=False)[['Transaction']].agg(operations)
 print(a.reset_index())
 
+
+
