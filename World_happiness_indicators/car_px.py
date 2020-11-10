@@ -7,7 +7,9 @@ import plotly.graph_objects as go
 import numpy as np
 import plotly
 import statistics
+import plotly.express as px
 import stats
+import matplotlib.pyplot as plt 
 
 
 #open the file
@@ -45,11 +47,14 @@ print(correlation)
 
 #graphs
 sns.violinplot(x=df["fueltype"], y=df["price"], palette="Blues")
-plt.show()
+#plt.show()
 
 plt.figure(figsize=(10,5))
 sns.heatmap(df.corr(),cmap='Blues')
-plt.show()
+#plt.show()
+
+
+visual=sns.
 
 
 
