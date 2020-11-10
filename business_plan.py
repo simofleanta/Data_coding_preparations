@@ -33,5 +33,10 @@ c=df.dtypes
 
 #groupings
 x=df.groupby(['Season'])[['Number_Bikes']]
-print(x.mean())
+#print(x.mean())
 
+
+#Aggregate
+operations=['mean','sum','min','max']
+a=df.groupby(['Year','Month'], as_index=False)[['Number_Bikes']].agg(operations)
+print(a.reset_index())
