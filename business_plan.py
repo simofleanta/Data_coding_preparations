@@ -40,3 +40,13 @@ x=df.groupby(['Season'])[['Number_Bikes']]
 operations=['mean','sum','min','max']
 a=df.groupby(['Year','Month'], as_index=False)[['Number_Bikes']].agg(operations)
 print(a.reset_index())
+
+df['Number_Bikes'].value_counts().sort_values(ascending=False).head(10)
+
+fig, ax=plt.subplots(figsize=(6,4))
+df['Month'].value_counts().sort_values(ascending=False).head(10).plot(kind='bar')
+plt.ylabel('Number_Bikes')
+plt.xlabel('Month')
+ax.get_yaxis().get_major_formatter().set_scientific(False)
+plt.title('Best months')
+
