@@ -58,6 +58,14 @@ vissual= sns.lmplot(data=df, x='fueltype', y='price',
                  fit_reg=False)
 plt.show()
 
+convertible=df[df.carbody=='convertible']
+print(convertible)
+
+vissual1= sns.lmplot(data=convertible, x='fueltype', y='price',
+                 fit_reg=False)
+plt.show()
+
+
 
 
 
