@@ -70,7 +70,7 @@ sns.heatmap(convertible.corr(),cmap='Blues')
 plt.show()
 
 
-#https://www.kaggle.com/hellbuoy/car-price-prediction
+
 
 
 
