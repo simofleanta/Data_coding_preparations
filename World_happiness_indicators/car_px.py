@@ -56,13 +56,17 @@ sns.heatmap(df.corr(),cmap='Blues')
 
 vissual= sns.lmplot(data=df, x='fueltype', y='price',
                  fit_reg=False)
-plt.show()
+#plt.show()
 
 convertible=df[df.carbody=='convertible']
-print(convertible)
+
 
 vissual1= sns.lmplot(data=convertible, x='fueltype', y='price',
                  fit_reg=False)
+#plt.show()
+
+plt.figure(figsize=(10,5))
+sns.heatmap(convertible.corr(),cmap='Blues')
 plt.show()
 
 
