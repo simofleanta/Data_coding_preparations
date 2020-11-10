@@ -11,6 +11,8 @@ import statistics
 import plotly.express as px
 import stats
 import matplotlib.pyplot as plt 
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
 
 
 #open the file
@@ -44,3 +46,15 @@ df['fuelsystem']=encoder.fit_transform(df['fuelsystem'])
 
 c=df.dtypes
 #print(c)
+
+#divide the dataset into independents and dependents 
+#here dependent is price and remaining all columns are independent 
+dfx=df.iloc[:,:25]
+print(dfx.head(3))
+dfy=df.iloc[:,[25]]
+print(dfy.head(3))
+
+trainx,testx,trainy,testy=train_test_split(dfx,dfy,test_size=0.3)
+
+model=RandomForestRegressor()
+model
