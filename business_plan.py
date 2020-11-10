@@ -34,3 +34,4 @@ c=df.dtypes
 #groupings
 x=df.groupby(['Season'])[['Number_Bikes']]
 print(x.mean())
+
