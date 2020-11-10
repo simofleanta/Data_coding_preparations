@@ -83,10 +83,16 @@ plt.title('Bikes during the past months')
 Okt=df.loc[df['Month']=='Okt'].nunique()
 print(Okt)
 
-#pivots. I should add the bike brand name
+#pivots. I should add the bike brand name so I can see which one is the pivot one
 pivot1=df.pivot_table(index='Season',columns='Number_Bikes', aggfunc={'Number_Bikes':'count'}).fillna(0)
 pivot1['Max']=pivot1.idxmax(axis=1)
-print(pivot1)
+#print(pivot1)
+
+
+
+
+
+
 
 
 
