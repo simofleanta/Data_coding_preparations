@@ -22,3 +22,11 @@ print(c.columns)
 df=DataFrame(c.head(100))
 print(df.head(100))
 
+#groupings
+x=df.groupby(['period_day','Item'])[['Transaction']]
+#print(x.mean())
+y=df.groupby(['Item','weekday_weekend','period_day'])[['Transaction']]
+print(y.mean())
+
+
+
