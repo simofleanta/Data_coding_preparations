@@ -26,7 +26,10 @@ print(df.head(100))
 x=df.groupby(['period_day','Item'])[['Transaction']]
 #print(x.mean())
 y=df.groupby(['Item','weekday_weekend','period_day'])[['Transaction']]
-print(y.mean())
+#print(y.mean())
 
-
+#Aggregate
+operations=['mean','sum','min','max']
+a=df.groupby(['Item','period_day'], as_index=False)[['Transaction']].agg(operations)
+print(a.reset_index())
 
