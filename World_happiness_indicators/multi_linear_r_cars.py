@@ -46,14 +46,14 @@ df['cylindernumber']=encoder.fit_transform(df['cylindernumber'])
 df['fuelsystem']=encoder.fit_transform(df['fuelsystem'])
 
 c=df.dtypes
-#print(c)
+print(c)
 
 #divide the dataset into independents and dependents 
 #here dependent is price and remaining all columns are independent 
 dfx=df.iloc[:,:25]
-#print(dfx.head(3))
+print(dfx.head(3))
 dfy=df.iloc[:,[25]]
-#print(dfy.head(3))
+print(dfy.head(3))
 
 # now we have independent and dependent dataframe the next step is to split data into training and testing sets (70,30)
 trainx,testx,trainy,testy=train_test_split(dfx,dfy,test_size=0.3)
@@ -64,7 +64,7 @@ model=RandomForestRegressor()
 
 #we will fit this model to training data
 m=model.fit(trainx,trainy)
-#print(m)
+print(m)
 
 #we will predict using this model
 ypred=model.predict(testx)
@@ -72,13 +72,13 @@ print(ypred)
 
 #we have predicted price values now we will estimate these value by comparing with original y values using r2_score
 r2score=r2_score(testy,ypred)
-#print(r2score)
+print(r2score)
 
 #graphs
 
 plt.figure(figsize=(15,10))
 sns.distplot(df['price'],color="y")
-#plt.show()
+plt.show()
 
 sns.boxplot(df['price'],color='blue')
 plt.show()
