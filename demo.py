@@ -79,8 +79,6 @@ print(data2)
 
 
 
-#time series so that i can split days from years and months from the column date_time
-
 
 
 
