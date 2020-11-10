@@ -60,13 +60,13 @@ sortbyday=df.groupby('Day_Time')['Item'].count().sort_values(ascending=False)
 
 #business in the past months
 
-"""df.groupby('Month')['Item'].count().plot(kind='bar')
+df.groupby('Item')['Month'].count().plot(kind='bar')
 plt.ylabel('Number_Bikess')
-plt.title('Bikes during the past months')
+plt.title('Bikes number during the past months')
 plt.show()
 
 #extract month situation
-Okt=df.loc[df['Month']=='Okt'].nunique()"""
+Okt=df.loc[df['Month']=='Okt'].nunique()
 
 
 #pivots. I should add the bike brand name so I can see which one is the pivot one
@@ -82,8 +82,6 @@ plt.show()
 pivot2=df.pivot_table(index='Season',columns='Item', aggfunc={'Price':'count'}).fillna(0)
 pivot2['Max']=pivot2.idxmax(axis=1)
 print(pivot2)
-
-
 
 
 
