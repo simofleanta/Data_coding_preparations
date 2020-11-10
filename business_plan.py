@@ -92,8 +92,12 @@ plt.show()
 #heatmap
 plt.figure(figsize=(10,5))
 sns.heatmap(df.corr(),cmap='Accent_r')
-plt.show()
 
+
+hour=df[['Hour','Item','Number_Bikes','Price',]].copy()
+plt.figure(figsize=(10,5))
+sns.heatmap(hour.corr(),cmap='binary_r')
+plt.show()
 
 
 
