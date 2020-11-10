@@ -54,7 +54,11 @@ sns.heatmap(df.corr(),cmap='Blues')
 #plt.show()
 
 
-visual=sns.
+vissual= sns.lmplot(data=df, x='fueltype', y='price',
+                 fit_reg=False)
+plt.show()
+
+
 
 
 
