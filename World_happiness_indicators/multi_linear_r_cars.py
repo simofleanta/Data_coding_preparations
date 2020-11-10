@@ -66,11 +66,11 @@ model=RandomForestRegressor()
 m=model.fit(trainx,trainy)
 print(m)
 
-#we will predict using this model
+#we will predict using this model.we have predicted price values
 ypred=model.predict(testx)
 print(ypred)
 
-#we have predicted price values now we will estimate these value by comparing with original y values using r2_score
+# now we will estimate these value by comparing with original y values using r2_score
 r2score=r2_score(testy,ypred)
 print(r2score)
 
