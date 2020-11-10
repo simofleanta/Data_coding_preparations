@@ -83,8 +83,9 @@ pivot2=df.pivot_table(index='Season',columns='Item', aggfunc={'Price':'count'}).
 pivot2['Max']=pivot2.idxmax(axis=1)
 print(pivot2)
 
+#corr
 plt.figure(figsize=(15,15))
-sns.heatmap(df.corr(),annot=True,cmap='viridis_r',mask=np.triu(df.corr(),k=1))
+sns.heatmap(df.corr(),annot=True,cmap='Blues_r',mask=np.triu(df.corr(),k=1))
 plt.show()
 
 #Accent, Accent_r, Blues, Blues_r, BrBG, BrBG_r, BuGn, BuGn_r, BuPu, BuPu_r, CMRmap, CMRmap_r, Dark2, Dark2_r, 
