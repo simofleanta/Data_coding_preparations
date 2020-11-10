@@ -43,50 +43,47 @@ print(a.reset_index())
 
 df['Number_Bikes'].value_counts().sort_values(ascending=False).head(10)
 
-#business best months
 
-fig, ax=plt.subplots(figsize=(6,4))
-df['Month'].value_counts().sort_values(ascending=False).head(10).plot(kind='bar')
-plt.ylabel('Number_Bikes')
-plt.xlabel('Month')
-ax.get_yaxis().get_major_formatter().set_scientific(False)
-plt.title('Best months')
 
-#business during week
+#when is the bike business doing the tbest  during the day. 
 
 fig, ax=plt.subplots(figsize=(6,4))
 sns.set_style('darkgrid')
-df.groupby('weekday')['Price'].count().sort_values().plot(kind='bar')
-plt.ylabel('Price')
-ax.get_yaxis().get_major_formatter().set_scientific(False)
-plt.title('Business during the week')
-
-#that when is the bike business doing the tbest  during the day. 
-
-fig, ax=plt.subplots(figsize=(6,4))
-sns.set_style('darkgrid')
-df.groupby('Day_Time')['Number_Bikes'].count().sort_values().plot(kind='bar')
+df.groupby('Day_Time')['Item'].count().sort_values().plot(kind='bar')
 plt.ylabel('Number_Bikes')
 ax.get_yaxis().get_major_formatter().set_scientific(False)
 plt.title('Business during the day')
+plt.show()
 
-sortbyday=df.groupby('Day_Time')['Number_Bikes'].count().sort_values(ascending=False)
-print(sortbyday)
+
+sortbyday=df.groupby('Day_Time')['Item'].count().sort_values(ascending=False)
 
 #business in the past months
 
-df.groupby('Month')['Number_Bikes'].count().plot(kind='bar')
+"""df.groupby('Month')['Item'].count().plot(kind='bar')
 plt.ylabel('Number_Bikess')
 plt.title('Bikes during the past months')
+plt.show()
 
 #extract month situation
-Okt=df.loc[df['Month']=='Okt'].nunique()
-print(Okt)
+Okt=df.loc[df['Month']=='Okt'].nunique()"""
+
 
 #pivots. I should add the bike brand name so I can see which one is the pivot one
 pivot1=df.pivot_table(index='Season',columns='Item', aggfunc={'Number_Bikes':'count'}).fillna(0)
 pivot1['Max']=pivot1.idxmax(axis=1)
 print(pivot1)
+
+df.groupby('Item')['weekday'].count().plot(kind='bar')
+plt.ylabel('Price')
+plt.title('Bikes prices in the last days')
+plt.show()
+
+pivot2=df.pivot_table(index='Season',columns='Item', aggfunc={'Price':'count'}).fillna(0)
+pivot2['Max']=pivot2.idxmax(axis=1)
+print(pivot2)
+
+
 
 
 
