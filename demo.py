@@ -67,16 +67,26 @@ plt.ylabel('Transaction')
 ax.get_yaxis().get_major_formatter().set_scientific(False)
 plt.title('Business during the day')
 
-
+#graphing the groupings
 df.groupby('date_time')['Item'].count().plot(kind='bar')
 plt.ylabel('Transaction')
 plt.title('Business during the past time')
 
-
-
+#pivoting
 data2=df.pivot_table(index='period_day',columns='Item', aggfunc={'Item':'count'}).fillna(0)
 data2['Max']=data2.idxmax(axis=1)
 print(data2)
+
+df['Item'].resample('period_day').count().plot()
+plt.ylabel('Transaction')
+plt.title('Daily business during the past months')
+plt.show()
+
+#time series so that i can split days from years and months from the column date_time
+
+
+
+
 
 
 
