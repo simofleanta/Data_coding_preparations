@@ -86,7 +86,7 @@ print(domain)
 domain=interview_call[interview_call.Domain=='data']
 print(domain.count())
 
-#imge on region
+#imgage on region
 
 region_br=interview_call[interview_call.region=='Brussels']
 print(region_br)
@@ -98,6 +98,12 @@ print(region_b)
 # i get interviews mostly from bi 
 # I got interviews in bi from Berlin and less in Brussels, well I've mostly applied in Berlin since it is my focus. 
 # I get interviews from mostly jobs without seniority level and then from junior level. None from Gradate instead.
+
+"""questions"""
+
+##normal jobs are mostly 1 (wonder why?)
+#Why not policy?
+
  
 
 
