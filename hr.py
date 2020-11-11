@@ -131,9 +131,11 @@ print(pivot1)
 
 # numerical data 
 #skills
-
+#diffrence data and intelligence 
 #--------------------------------------------------------------------------------------------------------
 #graphs to resue the findings 
+
+
 fig, ax=plt.subplots(figsize=(6,4))
 sns.set_style('darkgrid')
 interview_call.groupby('Domain')['interview_call'].count().sort_values().plot(kind='bar')
