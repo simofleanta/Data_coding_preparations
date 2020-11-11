@@ -85,7 +85,7 @@ Junior=interview_call[interview_call.Job_seniority=='Junior']
 
 #normal jobs are mostly 1 (wonder why?)
 Normal=interview_call[interview_call.Job_seniority=='Normal']
-#print(Normal)
+print(Normal)
 
 #it seems that bi is more requested. Now I'll check country that most requires 
 #image bi 
