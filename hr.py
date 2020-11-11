@@ -66,7 +66,7 @@ no_answer=No_answer_interview_call.groupby(['Domain'])
 seniority=interview_call.groupby(['Job_seniority'])
 print(seniority.count())
 
-#filter seniority with answer 1(it seems that I get nothing on Graduate level wtf....)
+#filter seniority with answer 1(it seems that you get nothing on Graduate level)
 #so to filter based on an answer use filtered data on the answer desired
 Junior=interview_call[interview_call.Job_seniority=='Junior']
 #print(Junior)
@@ -95,9 +95,9 @@ region_b=interview_call[interview_call.region=='Berlin']
 print(region_b)
 
 """Conclusions"""
-# i get interviews mostly from bi 
-# I got interviews in bi from Berlin and less in Brussels, well I've mostly applied in Berlin since it is my focus. 
-# I get interviews from mostly jobs without seniority level and then from junior level. None from Gradate instead.
+# get interviews mostly from bi 
+# got interviews in bi from Berlin and less in Brussels, well I've mostly applied in Berlin since it is my focus. 
+# get interviews from mostly jobs without seniority level and then from junior level. None from Gradate instead.
 #focus on bi jobs in Berlin and Brussels since calls for interview come from there. Paris and london are completley absent
 
 
@@ -105,6 +105,9 @@ print(region_b)
 
 ##normal jobs are mostly 1 (wonder why?)
 #Why not policy?
+#Why is it hard to access a Graduale level job? We're vaccinated ....
+
+
 
 
 
