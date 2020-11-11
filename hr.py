@@ -86,6 +86,20 @@ print(domain)
 domain=interview_call[interview_call.Domain=='data']
 print(domain.count())
 
+#imge on region
+
+region_br=interview_call[interview_call.region=='Brussels']
+print(region_br)
+
+region_b=interview_call[interview_call.region=='Berlin']
+print(region_b)
+
+
+
+
+
+
+
 
 
 
