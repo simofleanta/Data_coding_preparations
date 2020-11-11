@@ -25,8 +25,12 @@ print(df.head(113))
 encoder=LabelEncoder()
 df['interview_call']=encoder.fit_transform(df['interview_call'])
 
-
+# more jobs applied for seem graduate 
 sns.violinplot(x=df["Type job"], y=df["interview_call"], palette="Blues")
-plt.show()
+
+sns.violinplot(x=df["region"], y=df["interview_call"], palette="Blues")
+
+
+
 
 
