@@ -46,6 +46,4 @@ plt.show()
 sns.violinplot(x=df["weekday"], y=df["cnt"], palette="Blues")
 plt.show()
 
-sns.violinplot(x=df["weathersit"], y=df["cnt"], palette="Blues")
-plt.show()
 

@@ -20,7 +20,7 @@ import plotly.express as px
 c=pd.read_csv('bike_business_plan.csv')
 #print(c.columns)
 df=DataFrame(c.head(700))
-#print(df.head(700))
+print(df.head(700))
 
 c=df.select_dtypes(object)
 #print(c)
@@ -78,7 +78,7 @@ print(pivot1)
 df.groupby('Item')['weekday'].count().plot(kind='bar')
 plt.ylabel('Price')
 plt.title('Bikes prices in the last days')
-plt.show()
+
 
 pivot2=df.pivot_table(index='Season',columns='Item', aggfunc={'Price':'count'}).fillna(0)
 pivot2['Max']=pivot2.idxmax(axis=1)
@@ -114,7 +114,6 @@ fig = px.density_heatmap(hour, x="Item", y="Number_Bikes", nbinsx=20, nbinsy=20,
 
 fig = px.density_heatmap(hour, x="Hour", y="Number_Bikes", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='2d histograms')
 #plotly.offline.plot(fig, filename='bike')
-
 
 
 
