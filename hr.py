@@ -98,11 +98,15 @@ print(region_b)
 # i get interviews mostly from bi 
 # I got interviews in bi from Berlin and less in Brussels, well I've mostly applied in Berlin since it is my focus. 
 # I get interviews from mostly jobs without seniority level and then from junior level. None from Gradate instead.
+#focus on bi jobs in Berlin and Brussels since calls for interview come from there. Paris and london are completley absent
+
 
 """questions"""
 
 ##normal jobs are mostly 1 (wonder why?)
 #Why not policy?
+
+
 
 
 
