@@ -23,12 +23,22 @@ print(df.head(113))
 
 
 encoder=LabelEncoder()
-df['interview_call']=encoder.fit_transform(df['interview_call'])
+numeric=df['interview_call']=encoder.fit_transform(df['interview_call'])
+print(numeric)
 
 # more jobs applied for seem graduate 
-sns.violinplot(x=df["Type job"], y=df["interview_call"], palette="Blues")
+sns.violinplot(x=df["Job_seniority"], y=df["interview_call"], palette="Blues")
 
 sns.violinplot(x=df["region"], y=df["interview_call"], palette="Blues")
+
+
+x=df.groupby(['Job_seniority'])[['interview_call']]
+print(x.mean())
+
+#aggregation 
+operations=['mean','sum','min','max']
+a=df.groupby(['Job_seniority','Domain'], as_index=False)[['interview_call']].agg(operations)
+print(a.reset_index())
 
 
 

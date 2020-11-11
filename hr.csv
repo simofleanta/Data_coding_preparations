@@ -1,4 +1,4 @@
-company,Job,Type job,Domain,interview_call,region
+company,Job,Job_seniority,Domain,interview_call,region
 Voi,Policy analyst,Normal,policy,no,Berlin
 Google,Gov affairs junior,Normal,policy,no_answer,Berlin
 Outfittery,Data analyst,Normal,data,yes,Berlin
