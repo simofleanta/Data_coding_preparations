@@ -1,0 +1,111 @@
+company,Job,Type job,Domain,interview_call,region
+Voi,Policy analyst,Normal,policy,no,Berlin
+Google,Gov affairs junior,Normal,policy,no_answer,Berlin
+Outfittery,Data analyst,Normal,data,yes,Berlin
+Outfittery,Data Insights,Normal,data,yes,Berlin
+Contentful,Data analyst,Normal,data,no_answer,Berlin
+Contentful,Senior Business Analyst,Senior,data,no,Berlin
+Insuretech,Data analyst,Normal,data,yes,Berlin
+powercloud,Business Intelligence,Normal,data,No,Berlin
+Big Cloud,Business Intelligence,Normal,data,No,Berlin
+Koro,Intern_entrepreneurship_dev,Intern,business development,no_answer,Berlin
+Bridge_maker,Junior venture capital,Junior,business development,yes,Berlin
+Everphone,Business Intelligence,Normal,data intelligence,Yes,Berlin
+N26,Intern opps manager,Intern,operations business,Yes,Berlin
+Accenture,Trainee business_analyst,Trainee,data,no_answer,Berlin
+Accenture,Trainee business_analyst,Trainee,data,No,Brussels
+Meltwater,Sales trainee,Trainee,sales,no_answer,Berlin
+Austin Fraser,Intern Trainee,Intern,operations business,no_answer,Berlin
+Tourlane,Junior Data visualization ,Intern,visualization,no,Berlin
+EIB,Intern data analyst,Intern,data,No,Brussels
+BGFI,Business Intelligence,Normal,data intelligence,yes,Brussels
+ESG,Data analyst,Normal,data,No,Berlin
+Hertie GOV,Policy analyst,Normal,policy,yes,Berlin
+Delloite,Intern management,Intern,operations business,No,Brussels
+PwC,Intern audit,Intern,audit,No_answer,Bucharest
+Wayfair,Graduate data analysis ,Graduate,data,no_answer,Berlin
+Wayfair,Graduate business Intelligence,Graduate,data intelligence,no_answer,Berlin
+Airbnb,Graduate policy analyst,Graduate,policy,no,Berlin
+Cognizant,Data analyst,Normal,data,no,Berlin
+Vantik,Intern entrerpeneur residence,Intern,data,no_answer,Berlin
+Hello Fresh,Data analyst,Normal,data,no,Berlin
+Hello fresh,Junior business intelligence,Junior,data intelligence,yes,Berlin
+hello fresh,Strategic operations intern,Intern,operations business,No,Berlin
+ISS,Corporate governance research,Normal,policy,no_answer,Berlin
+APCO,Intern Public Affairs,Intern,policy,no_answer,Berlin
+Accenture,Intelligent Cloud Infrastructure,Graduate,data,No,Berlin
+efinancial,Data analyst,Normal,data,no_answer,Berlin
+BKK,Data analyst,Normal,data,no_answer,Berlin
+Audible,Data analyst,Normal,data,no,Berlin
+Wayfair,Business strategist,Normal,business strategy,no_answer,Berlin
+zalando,Data analyst,Normal,data,no_answer,Berlin
+Marsh,Graduate Scheme,Graduate,operations business,no_answer,Brussels
+Microsoft,Graduate Opps,Graduate,operations business,no_answer,Berlin
+Accenture,young graduate,Graduate,business analysis,no,Brussels
+Open Society foundations,policy_analyst,Normal,policy,no_answer,Brussels
+Graduate EIB,Graduate analyst,Graduate,economic policy,no,Brussels
+NERA,Executive assistant,Normal,operations business,no_answer,Berlin
+Brown brothers,Intern opportunities,Intern,data,no_answer,Luxembourg
+Cognizant,Tableau data analyst,Normal,data intelligence,yes,Luxembourg
+Wayfair,Community experience intenrship,Intern,business strategy,no_answer,Berlin
+Amazon,Policy analyst,Normal,policy,no_answer,Berlin
+Quintet,Business Intelligence Analyst,Normal,data intelligence,no_answer,Brussels
+Growth Tribe,Data analyst graduata,Graduate,data,No,Amsterdam
+Growth Tribe,Manageent graduate ,Graduate,business strategy,no_answer,Amsterdam
+Cognizant,Junior business analyst,Junior,business analysis,no,Brussels
+Jam city,Data analyst,Normal,data,no_answer,Berlin
+delivery hero,Junior data analyst,Junior,data,no,Berlin
+Trust in SODA,Junior business analyst,Junior,business analysis,no,Berlin
+Celonis,Data analyst,Normal,data,no_answer,Berlin
+BGFI,Business intelligence analyst,Normal,data intelligence,yes,Brussels
+escent,Data senior analyst,Senior,data,no,Berlin
+NERA ,Economic consulting internsip,Intern,economic policy,yes,Berlin
+EIB,Junior Business Analyst,Junior,business analysis,no,Luxembourg
+EY,People advisory,Normal,policy,no_answer,Brussels
+EY,Junior business intelligence,Junior,data intelligence,no_answer,Berlin
+Temenos,Business analayst,Normal,business analysis,yes,Berlin
+Impact Hub ,Community developer,Normal,business strategy,no_answer,Bucharest
+Impact hub ,growth hacker,Normal,business development,no_answer,Berlin
+Uberall,Intelligence Analyst,Normal,data intelligence,no_answer,Berlin
+Cloudity,Junior business consultant,Junior,business analysis,no_answer,Berlin
+EHI,Consultant  bi,Normal,data intelligence,no_answer,Berlin
+Airbnb,Policy analyst intern,Intern,policy,no_answer,Berlin
+Startup genome,Research director,Normal,policy,no_answer,Berlin
+Greenman,acquisition team business analyst,Normal,business analysis,no,Berlin
+Sulzer,Business analayst,Normal,business analysis,no_answer,Berlin
+Coachhub,Intern business operations,Intern,operations business,no,Berlin
+KEYlime consultants,reporting analyst,Normal,business analysis,no_answer,Berlin
+Prysmian group,graduate program,Graduate,business analysis,no,Berlin
+Xbav ag,business analayst,Normal,business analysis,no,Berlin
+the marketing practive,junior data executive,Junior,data,no,Berlin
+Audibene,data analyst,Normal,data,no,Berlin
+Positive thinking,Business analayst,Normal,business analysis,no,Berlin
+Buildminds,Junior business intelligence,Junior,data intelligence,no,Berlin
+Serrla,Customer data analyst,Normal,data,no,Berlin
+PwC,Business anayst trainee,Normal,business analysis,no,Berlin
+Jrd systems,Data analyst,Normal,data,no_answer,Berlin
+EY ,Business analyst  insurance,Normal,business analysis,no_answer,Berlin
+Groot berg,business intelligence analyst,Normal,data intelligence,no,Berlin
+Home Invest,Data analyst,Normal,data,yes,Brussels
+CGI,Master data analyst,Normal,data,no,Brussels
+Bgfi,Business intelligence analyst,Normal,data intelligence,yes,Brussels
+Mayato,Business intelligence analyst,Normal,data intelligence,yes,Brussels
+Hays,Business intelligence analyst,Normal,data intelligence,yes,Berlin
+Venturi,Business intelligence analyst,Normal,data intelligence,no,Berlin
+Zartis,Business intelligence consultant,Normal,data intelligence,no_answer,Poland
+Star Clay,Business intelligence analyst,Normal,data intelligence,yes,Paris
+Klara consulting ,Business intelligence consultant,Normal,data intelligence,no,Paris
+Dusseldorf,Business intelligence consultant,Normal,data intelligence,yes,Dusseldorf
+Octo tech,Consultant data visualization,Normal,visualization,yes,Paris
+Tremelo,Business intelligence analyst,Normal,data intelligence,no_answer,Paris
+Edge tech,Intern business development,Intern,business development,no,Berlin
+Vantage ai,Data Scientist,Normal,data Scientist,no,Paris
+AltRaise,Internship trainee,Intern,data,no,Paris
+Hello fresh ,Marketing business intelligence analyst,Normal,data intelligence,yes,Berlin
+Alldus,Business intelligence analyst,Normal,data intelligence,no,Berlin
+Hello fresh,Junior product analyst,Junior,business analysis,yes,Berlin
+Sustainalytics,business analyst  insurance,Normal,business analysis,no,Bucharest
+Sustainalytics,Data analyst,Normal,business analysis,yes,Bucharest
+Square,Business analyst ,Normal,business analysis,yes,London
+Intys,Junior business intelligence,Junior,data intelligence,yes,Brussels
+Intys,Junior data analyst,Junior,data,yes,Luxembourg

@@ -143,3 +143,4 @@ fig = px.density_heatmap(hour, x="Hour", y="Number_Bikes", nbinsx=20, nbinsy=20,
 
 
 
+
