@@ -64,11 +64,20 @@ no_answer=No_answer_interview_call.groupby(['Domain'])
 
 #am having 
 seniority=interview_call.groupby(['Job_seniority'])
-#print(seniority.count())
+print(seniority.count())
 
 #filter seniority with answer 1(it seems that I get nothing on Graduate level wtf....)
+#so to filter based on an answer use filtered data on the answer desired
 Junior=interview_call[interview_call.Job_seniority=='Junior']
-print(Junior)
+#print(Junior)
+
+#normal jobs are mostly 1 
+Normal=interview_call[interview_call.Job_seniority=='Normal']
+print(Normal)
+
+
+
+
 
 
 
