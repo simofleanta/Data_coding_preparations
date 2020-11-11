@@ -25,9 +25,6 @@ print(df.head(700))
 sns.violinplot(x=df["Item"], y=df["Price"], palette="Blues")
 plt.show()
 
-
-
-
 c=df.select_dtypes(object)
 #print(c)
 
