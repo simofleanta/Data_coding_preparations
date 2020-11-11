@@ -104,6 +104,8 @@ print(region_b)
 ##normal jobs are mostly 1 (wonder why?)
 #Why not policy?
 
+
+
  
 
 
