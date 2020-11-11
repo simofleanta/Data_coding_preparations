@@ -71,9 +71,25 @@ print(seniority.count())
 Junior=interview_call[interview_call.Job_seniority=='Junior']
 #print(Junior)
 
-#normal jobs are mostly 1 
+#normal jobs are mostly 1 (wonder why?)
 Normal=interview_call[interview_call.Job_seniority=='Normal']
-print(Normal)
+#print(Normal)
+
+
+#image bi 
+domain=interview_call[interview_call.Domain=='data intelligence']
+print(domain.count())
+
+#image data
+domain=interview_call[interview_call.Domain=='data']
+print(domain)
+domain=interview_call[interview_call.Domain=='data']
+print(domain.count())
+
+
+
+
+
 
 
 
