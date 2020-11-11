@@ -36,7 +36,31 @@ a=df.groupby(['Job_seniority','Domain'], as_index=False)[['interview_call']].agg
 #print(a.reset_index())
 
 x=df.groupby(['Domain'])[['interview_call']]
-print(x.count())
+#print(x.count())
+
+y=df.groupby(['interview_call'])
+#print(y.count())
+
+#filter interview call 1 
+interview_call=df[df.interview_call==1]
+interview_call=df[df.interview_call==2]
+interview_call=df[df.interview_call==3]
+#print(interview_call)
+
+#am having 
+yes=interview_call.groupby(['Domain'])
+print(yes.count())
+
+#am not having interview
+no=interview_call.groupby(['Domain'])
+print(no.count())
+
+#am not having an answer
+no_answer=interview_call.groupby(['Domain'])
+print(no_answer.count())
+
+
+
 
 
 
