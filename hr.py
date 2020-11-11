@@ -75,7 +75,7 @@ Junior=interview_call[interview_call.Job_seniority=='Junior']
 Normal=interview_call[interview_call.Job_seniority=='Normal']
 #print(Normal)
 
-
+#it seems that bi is more requested. Now I'll check country that most requires 
 #image bi 
 domain=interview_call[interview_call.Domain=='data intelligence']
 print(domain.count())
@@ -93,6 +93,12 @@ print(region_br)
 
 region_b=interview_call[interview_call.region=='Berlin']
 print(region_b)
+
+"""Conclusions"""
+# i get interviews mostly from bi 
+# I got interviews in bi from Berlin and less in Brussels, well I've mostly applied in Berlin since it is my focus. 
+# I get interviews from mostly jobs without seniority level and then from junior level. None from Gradate instead.
+ 
 
 
 
