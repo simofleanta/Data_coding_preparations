@@ -96,6 +96,24 @@ print(region_br)
 region_b=interview_call[interview_call.region=='Berlin']
 print(region_b)
 
+
+# pivot on yes
+
+pivot1=interview_call.pivot_table(index='interview_call',columns='Domain', aggfunc={'interview_call':'count'}).fillna(0)
+pivot1['Max']=pivot1.idxmax(axis=1)
+print(pivot1)
+
+#pivot on yes, on  bi on seniority
+
+pivot1=domain.pivot_table(index='interview_call',columns='Job_seniority', aggfunc={'interview_call':'count'}).fillna(0)
+pivot1['Max']=pivot1.idxmax(axis=1)
+print(pivot1)
+
+#pivot on yes, on bi, on region 
+pivot1=domain.pivot_table(index='interview_call',columns='region', aggfunc={'interview_call':'count'}).fillna(0)
+pivot1['Max']=pivot1.idxmax(axis=1)
+print(pivot1)
+
 """Conclusions"""
 # get interviews mostly from bi 
 # got interviews in bi from Berlin and less in Brussels, well I've mostly applied in Berlin since it is my focus. 
@@ -109,6 +127,39 @@ print(region_b)
 #Why not policy?
 #Why is it hard to access a Graduale level job? We're vaccinated ....
 
+""" to be added further"""
+
+# numerical data 
+#skills
+
+#--------------------------------------------------------------------------------------------------------
+#graphs to resue the findings 
+fig, ax=plt.subplots(figsize=(6,4))
+sns.set_style('darkgrid')
+interview_call.groupby('Domain')['interview_call'].count().sort_values().plot(kind='bar')
+plt.ylabel('interview_call')
+ax.get_yaxis().get_major_formatter().set_scientific(False)
+plt.title('Most intervwiew call come from the jobs')
+plt.show()
+
+fig, ax=plt.subplots(figsize=(6,4))
+sns.set_style('darkgrid')
+interview_call.groupby('Job_seniority')['interview_call'].count().sort_values().plot(kind='bar')
+plt.ylabel('interview_call')
+ax.get_yaxis().get_major_formatter().set_scientific(False)
+plt.title('Most intervwiew call come from the jobs seniority levels')
+plt.show() 
+
+fig, ax=plt.subplots(figsize=(6,4))
+sns.set_style('darkgrid')
+interview_call.groupby('region')['interview_call'].count().sort_values().plot(kind='bar')
+plt.ylabel('interview_call')
+ax.get_yaxis().get_major_formatter().set_scientific(False)
+plt.title('Most intervwiew call come from the regions')
+plt.show()
+
+fig = px.density_heatmap(interview_call, x="Job", y="interview_call", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='Job distribution on interview call')
+plotly.offline.plot(fig, filename='bike')
 
 
 
