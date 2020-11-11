@@ -43,21 +43,36 @@ y=df.groupby(['interview_call'])
 
 #filter interview call 1 
 interview_call=df[df.interview_call==1]
-interview_call=df[df.interview_call==2]
-interview_call=df[df.interview_call==3]
+No_interview_call=df[df.interview_call==2]
+No_answer_interview_call=df[df.interview_call==3]
 #print(interview_call)
 
+""" count how many 1=yes interviews by  domain"""
 #am having 
 yes=interview_call.groupby(['Domain'])
-print(yes.count())
+#print(yes.count())
 
 #am not having interview
-no=interview_call.groupby(['Domain'])
-print(no.count())
+no=No_interview_call.groupby(['Domain'])
+#print(no.count())
 
 #am not having an answer
-no_answer=interview_call.groupby(['Domain'])
-print(no_answer.count())
+no_answer=No_answer_interview_call.groupby(['Domain'])
+#print(no_answer.count())
+
+""" count how many interviews based on job seniority"""
+
+#am having 
+seniority=interview_call.groupby(['Job_seniority'])
+#print(seniority.count())
+
+#filter seniority with answer 1(it seems that I get nothing on Graduate level wtf....)
+Junior=interview_call[interview_call.Job_seniority=='Junior']
+print(Junior)
+
+
+
+
 
 
 
