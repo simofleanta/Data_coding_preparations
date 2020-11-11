@@ -123,7 +123,8 @@ fig = px.density_heatmap(hour, x="Item", y="Number_Bikes", nbinsx=20, nbinsy=20,
 #plotly.offline.plot(fig, filename='bike')
 
 fig = px.density_heatmap(hour, x="Hour", y="Number_Bikes", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='2d histograms')
-#plotly.offline.plot(fig, filename='bike')"""
+#plotly.offline.plot(fig, filename='bike')
+
 
 
 
