@@ -17,9 +17,16 @@ from sklearn.metrics import r2_score
 import plotly.express as px
 
 hr=pd.read_csv('hr.csv')
-#print(c.columns)
+print(hr.columns)
 df=DataFrame(hr.head(113))
 print(df.head(113))
 
+
+encoder=LabelEncoder()
+df['interview_call']=encoder.fit_transform(df['interview_call'])
+
+
+sns.violinplot(x=df["Type job"], y=df["interview_call"], palette="Blues")
+plt.show()
 
 
