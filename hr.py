@@ -47,6 +47,8 @@ No_interview_call=df[df.interview_call==2]
 No_answer_interview_call=df[df.interview_call==3]
 #print(interview_call)
 
+#am gona be focusing on one and use the above data instead of the df 
+
 """ count how many 1=yes interviews by  domain"""
 #am having 
 yes=interview_call.groupby(['Domain'])
@@ -106,6 +108,9 @@ print(region_b)
 ##normal jobs are mostly 1 (wonder why?)
 #Why not policy?
 #Why is it hard to access a Graduale level job? We're vaccinated ....
+
+
+
 
 
 
