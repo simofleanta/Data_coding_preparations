@@ -16,12 +16,22 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 import plotly.express as px
 
+
+#sometimes it is hard to choose which jobs are more relevant, so the person hunting for jobs needs to focus on most relevant ones. 
+#most relevant ones are those where interview offer is being offered. 
+#q to answer: to which jobs should apply more based on where the interview call comes positive. 
+# out of couple of countries, which are the countries most responsive?
+# on what seniority level should the person apply? 
+# #groupings, 
+#filters
+#pivots
+#counts
+#graphs 
+
 hr=pd.read_csv('hr.csv')
 print(hr.columns)
 df=DataFrame(hr.head(113))
 print(df.head(113))
-
-
 
 
 # more jobs applied for seem graduate 
