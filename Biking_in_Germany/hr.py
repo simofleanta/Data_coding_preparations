@@ -16,4 +16,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 import plotly.express as px
 
+hr=pd.read_csv('hr.csv')
+#print(c.columns)
+df=DataFrame(hr.head(113))
+print(df.head(113))
 
