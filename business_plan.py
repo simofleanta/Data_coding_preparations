@@ -22,6 +22,12 @@ c=pd.read_csv('bike_business_plan.csv')
 df=DataFrame(c.head(700))
 print(df.head(700))
 
+sns.violinplot(x=df["Item"], y=df["Price"], palette="Blues")
+plt.show()
+
+
+
+
 c=df.select_dtypes(object)
 #print(c)
 
@@ -43,6 +49,9 @@ a=df.groupby(['Year','Month'], as_index=False)[['Number_Bikes']].agg(operations)
 print(a.reset_index())
 
 df['Number_Bikes'].value_counts().sort_values(ascending=False).head(10)
+
+sns.violinplot(x=df["Month"], y=df["Number_Bikes"], palette="Blues")
+plt.show()
 
 
 
@@ -114,7 +123,9 @@ fig = px.density_heatmap(hour, x="Item", y="Number_Bikes", nbinsx=20, nbinsy=20,
 #plotly.offline.plot(fig, filename='bike')
 
 fig = px.density_heatmap(hour, x="Hour", y="Number_Bikes", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='2d histograms')
-#plotly.offline.plot(fig, filename='bike')
+#plotly.offline.plot(fig, filename='bike')"""
+
+
 
 
 
