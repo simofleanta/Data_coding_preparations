@@ -15,10 +15,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 import plotly.express as px
-import calendar
-import time
 from datetime import datetime
-import datetime
+
 
 
 repairs=pd.read_csv('device_repairs.csv')
@@ -39,10 +37,29 @@ x=df.index
 print(x)
 
 
+#check repaircost sum by timestamp and device_id
 
 operations=['sum','min','max']
-a=df.groupby(['timestamp_utc'], as_index=False)[['repair_cost']].agg(operations)
+a=df.groupby(['timestamp_utc', 'device_id'], as_index=False)[['repair_cost']].agg(operations)
 print(a.reset_index())
+
+
+#extract column time
+t=df['timestamp_utc']
+print(t)
+
+#extract 
+t1=df[df.timestamp_utc=='2/2/2020']
+print(t1)
+
+operations=['sum','min','max']
+a=t1.groupby(['timestamp_utc', 'device_id'], as_index=False)[['repair_cost']].agg(operations)
+print(a.reset_index())
+
+
+
+
+
 
 
 
