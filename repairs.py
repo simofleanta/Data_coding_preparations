@@ -53,6 +53,7 @@ print(x.sum())
 #plotly or sns
 
 #it is the last phse of ex which is best create etc. 
+#may be us etableau 
 
 
 
