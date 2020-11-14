@@ -30,31 +30,13 @@ print(x_shape)
 x_describe=df.describe()
 #print(x_describe)
 
-ty=type(df.timestamp_utc)
-print(ty)
 
-x=df.index
-print(x)
-
-
-#check repaircost sum by timestamp and device_id
-
-operations=['sum','min','max']
-a=df.groupby(['timestamp_utc', 'device_id'], as_index=False)[['repair_cost']].agg(operations)
-print(a.reset_index())
+date2='2/2/2020'
+dateobj=datetime.strptime(date2,'%d/%m/%y')
+print(dateobj)
+print(dateobj.strftime('B'))
 
 
-#extract column time
-t=df['timestamp_utc']
-print(t)
-
-#extract 
-t1=df[df.timestamp_utc=='2/2/2020']
-print(t1)
-
-operations=['sum','min','max']
-a=t1.groupby(['timestamp_utc', 'device_id'], as_index=False)[['repair_cost']].agg(operations)
-print(a.reset_index())
 
 
 
