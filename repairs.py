@@ -37,7 +37,6 @@ a=df.groupby(['timestamp_utc', 'device_id'], as_index=False)[['repair_cost']].ag
 print(a.reset_index())
 
 
-
 #extract day 
 day2=df[df.timestamp_utc=='2/2/2020']
 print(day2)
@@ -46,6 +45,14 @@ operations=['sum','min','max']
 a=day2.groupby(['timestamp_utc', 'device_id'], as_index=False)[['repair_cost']].agg(operations)
 print(a.reset_index())
 
+x=df.groupby(['repair_cost', 'timestamp_utc'])
+print(x.sum())
+
+#use py to analyse whatever and make graphs 
+#analyze whatever 
+#plotly or sns
+
+#it is the last phse of ex which is best create etc. 
 
 
 
