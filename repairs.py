@@ -145,9 +145,15 @@ plotly.offline.plot(fig, filename='repair')
 
 """ sunburst"""
 
+#sunburst per device_id.
 
+fig = px.sunburst(df, path=['device_id','repair_cost_currency'], values='repair_cost',
+                  color='repair_cost', hover_data=['repair_cost'],
+                  color_continuous_scale='Ice',
+                  maxdepth=2,
+                  color_continuous_midpoint=np.average(df['repair_cost'], weights=df['repair_cost']))
 
-
+plotly.offline.plot(fig, filename='repirs') 
 
 
 
