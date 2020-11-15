@@ -50,40 +50,7 @@ f11=df[df.timestamp_utc=='11/2/2020']
 print(f11)
 f12=df[df.timestamp_utc=='12/2/2020']
 print(f12)
-f13=df[df.timestamp_utc=='13/2/2020']
-print(f13)
-f14=df[df.timestamp_utc=='14/2/2020']
-print(f14)
-f15=df[df.timestamp_utc=='15/2/2020']
-print(f15)
-f16=df[df.timestamp_utc=='16/2/2020']
-print(f16)
-f17=df[df.timestamp_utc=='17/2/2020']
-print(f17)
-f18=df[df.timestamp_utc=='18/2/2020']
-print(f18)
-f19=df[df.timestamp_utc=='19/2/2020']
-print(f19)
-f20=df[df.timestamp_utc=='20/2/2020']
-print(f20)
-f21=df[df.timestamp_utc=='21/2/2020']
-print(f21)
-f22=df[df.timestamp_utc=='22/2/2020']
-print(f22)
-f23=df[df.timestamp_utc=='23/2/2020']
-print(f23)
-f24=df[df.timestamp_utc=='24/2/2020']
-print(f24)
-f25=df[df.timestamp_utc=='25/2/2020']
-print(f25)
-f26=df[df.timestamp_utc=='26/2/2020']
-print(f26)
-f27=df[df.timestamp_utc=='27/2/2020']
-print(f27)
-f28=df[df.timestamp_utc=='28/2/2020']
-print(f28)
-f29=df[df.timestamp_utc=='29/2/2020']
-print(f29)
+
 
 
 
