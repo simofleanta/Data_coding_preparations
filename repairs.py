@@ -71,6 +71,12 @@ pivot1=f3.pivot_table(index='device_id',columns='repair_cost_currency', aggfunc=
 pivot1['Max']=pivot1.idxmax(axis=1)
 print(pivot1)
 
+# 2d hiatogram showing distribution of repair cost for Feb 3rd.
+fig = px.density_heatmap(f3, x="device_id", y="repair_cost", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='Repairs Feb 3rd')
+#plotly.offline.plot(fig, filename='repairs')
+
+fig = px.density_heatmap(df, x="device_id", y="repair_cost", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='Repairs Feb 3rd')
+plotly.offline.plot(fig, filename='repairs')
 
 
 
