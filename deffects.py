@@ -101,6 +101,8 @@ defect=pd.DataFrame(data=defect)
 ph_defect=defect.sort_values(by='date',ascending=False,axis=0)
 print(ph_defect)
 
+#add vis
+
 
 
 
