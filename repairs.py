@@ -51,6 +51,14 @@ print(f11)
 f12=df[df.timestamp_utc=='12/2/2020']
 print(f12)
 
+#aggregation for different days 
+operations=['mean','sum','min','max']
+Feb10=f10.groupby(['device_id','repair_cost_currency'], as_index=False)[['repair_cost']].agg(operations)
+print(Feb10.reset_index())
+
+Feb2=f2.groupby(['device_id','repair_cost_currency'], as_index=False)[['repair_cost']].agg(operations)
+print(Feb2.reset_index())
+
 
 
 
