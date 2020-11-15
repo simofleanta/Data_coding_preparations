@@ -59,10 +59,22 @@ pivotm=df.pivot_table(index='defect_category',columns='defect_category', aggfunc
 pivotm['Max']=pivotm.idxmax(axis=1)
 print(pivotm)
 
+
+
+""" data visualization"""
+
 #violin chart
 
 sns.violinplot(x=df["defect_category"], y=df["date"], palette="Blues")
 plt.show()
+
+#barchart 
+defect=df.groupby(['defect_category'])['date'].mean()
+defect=pd.DataFrame(data=defect)
+ph_defect=defect.sort_values(by='date',ascending=False,axis=0)
+
+fig = px.bar(ph_defect, x="date", y=ph_defect.index, color='date',color_continuous_scale='Blues',title="phone defects")
+plotly.offline.plot(fig, filename='defects')
 
 
 
