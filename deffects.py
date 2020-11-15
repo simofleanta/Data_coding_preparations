@@ -45,6 +45,9 @@ operations=['mean','sum','min','max']
 defect=df.groupby(['defect_category'], as_index=False)[['date']].agg(operations)
 print(defect.reset_index())
 
+defect_date_num=df.groupby(['date','timestamp_utc'])
+print(defect_date_num.sum())
+
 
 
 
