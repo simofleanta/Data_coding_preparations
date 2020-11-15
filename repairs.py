@@ -134,7 +134,18 @@ fig.update_layout(
 
 #plotly.offline.plot(fig, filename='repairs')
 
+
+repair=df.groupby(['device_id'])['repair_cost'].mean()
+repair=pd.DataFrame(data=repair)
+ph_repair=repair.sort_values(by='repair_cost',ascending=False,axis=0)
+
+fig = px.bar(ph_repair, x="repair_cost", y=ph_repair.index, color='repair_cost',color_continuous_scale='Blues',title="phone repairs")
+plotly.offline.plot(fig, filename='repair')
+
+
 """ sunburst"""
+
+
 
 
 
