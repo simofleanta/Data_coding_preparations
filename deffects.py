@@ -21,3 +21,4 @@ repairs=pd.read_csv('device_defects.csv')
 print(repairs.columns)
 df=DataFrame(repairs)
 print(df)
+

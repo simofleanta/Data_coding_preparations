@@ -24,16 +24,18 @@ print(repairs.columns)
 df=DataFrame(repairs)
 #print(df)
 
+
+"""Exploratory data analysis """
+
 #aggregations for all months
 
 operations=['mean','sum','min','max']
 all_months=df.groupby(['device_id','repair_cost_currency'], as_index=False)[['repair_cost']].agg(operations)
 print(all_months.reset_index())
 
+#agrregations and groupings by days 
 
-
-
-#extract fbruary certain day
+#extract February certain day
 #2/2/2020
 f1=df[df.timestamp_utc=='1/2/2020']
 print(f1)
@@ -70,6 +72,8 @@ print(Feb10.reset_index())
 Feb2=f2.groupby(['device_id','repair_cost_currency'], as_index=False)[['repair_cost']].agg(operations)
 print(Feb2.reset_index())
 
+#PIVOTS on various days
+
 # pivot showing sum of repair cost per device id second day February
 
 pivot1=f2.pivot_table(index='device_id',columns='repair_cost_currency', aggfunc={'repair_cost':'sum'}).fillna(0)
@@ -82,6 +86,10 @@ pivot1=f3.pivot_table(index='device_id',columns='repair_cost_currency', aggfunc=
 pivot1['Max']=pivot1.idxmax(axis=1)
 print(pivot1)
 
+"""Data visualization using PLotly"""
+
+
+""" 2d Histograms"""
 # 2d hiatogram showing distribution of repair cost for Feb 3rd.
 fig = px.density_heatmap(f3, x="device_id", y="repair_cost", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='Repairs Feb 3rd')
 plotly.offline.plot(fig, filename='repairs')
@@ -90,6 +98,55 @@ plotly.offline.plot(fig, filename='repairs')
 #Distribution of currency accross repairs 
 fig = px.density_heatmap(df, x="repair_cost_currency", y="repair_cost", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='Repairs')
 plotly.offline.plot(fig, filename='repairs')
+
+"""Heatmaps for correlations"""
+
+#'currency and cost correlation for phone repairs
+
+device_id=df['device_id']
+repair_cost=df['repair_cost']
+repair_cost_currency=df['repair_cost_currency']
+timestamp_utc=df['timestamp_utc']
+
+fig = go.Figure(data=go.Heatmap(
+                   z=repair_cost,
+                   x=repair_cost_currency,
+                   y=timestamp_utc,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='currency and cost correlation for phone repairs',
+    xaxis_nticks=40)
+
+#plotly.offline.plot(fig, filename='repairs')
+
+fig = go.Figure(data=go.Heatmap(
+                   z=repair_cost,
+                   x=device_id,
+                   y=timestamp_utc,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='currency and cost correlation for phone repairs',
+    xaxis_nticks=40)
+
+#plotly.offline.plot(fig, filename='repairs')
+
+""" sunburst"""
+
+
+
+
+
+"""seaborn visualizations"""
+
+#heatmap for feb 10 
+plt.figure(figsize=(10,5))
+sns.heatmap(f11.corr(),cmap='Blues')
+plt.show()
+
 
 
 
