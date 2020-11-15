@@ -22,3 +22,32 @@ print(repairs.columns)
 df=DataFrame(repairs)
 print(df)
 
+
+
+"""Exploratory data analysis """
+
+#groupby defects for all months
+
+defects=df.groupby(['defect_category'])
+print(defects.sum())
+
+defect_date=df.groupby(['date'])
+print(defect_date.sum())
+
+
+#turn data  numerical to be able to aggregate phone defect category 
+encoder=LabelEncoder()
+numerical=df['date']=encoder.fit_transform(df['date'])
+
+#Date mean 50 you get 200 screenbroken defects compared to software defects, 7025 in date mean 58 
+
+operations=['mean','sum','min','max']
+defect=df.groupby(['defect_category'], as_index=False)[['date']].agg(operations)
+print(defect.reset_index())
+
+
+
+
+
+
+
