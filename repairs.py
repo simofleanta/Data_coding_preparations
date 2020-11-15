@@ -24,6 +24,15 @@ print(repairs.columns)
 df=DataFrame(repairs)
 #print(df)
 
+#aggregations for all months
+
+operations=['mean','sum','min','max']
+all_months=df.groupby(['device_id','repair_cost_currency'], as_index=False)[['repair_cost']].agg(operations)
+print(all_months.reset_index())
+
+
+
+
 #extract fbruary certain day
 #2/2/2020
 f1=df[df.timestamp_utc=='1/2/2020']
@@ -51,10 +60,12 @@ print(f11)
 f12=df[df.timestamp_utc=='12/2/2020']
 print(f12)
 
-#aggregation for different days 
+#aggregation for different days of February ex day 10
 operations=['mean','sum','min','max']
 Feb10=f10.groupby(['device_id','repair_cost_currency'], as_index=False)[['repair_cost']].agg(operations)
 print(Feb10.reset_index())
+
+#Feb 2 situation 
 
 Feb2=f2.groupby(['device_id','repair_cost_currency'], as_index=False)[['repair_cost']].agg(operations)
 print(Feb2.reset_index())
@@ -87,23 +98,12 @@ plotly.offline.plot(fig, filename='repairs')
 
 
 
-#eda
-#corr
-#multilinear regression
-#vis
+
  
 
 
  
 
-
-
-#use py to analyse whatever and make graphs 
-#analyze whatever 
-#plotly or sns
-
-#it is the last phse of ex which is best create etc. 
-#may be us etableau 
 
 
 
