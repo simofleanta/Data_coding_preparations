@@ -45,11 +45,18 @@ operations=['sum']
 defect=df.groupby(['defect_category','timestamp_utc'], as_index=False)[['date']].agg(operations)
 print(defect.reset_index())
 
+operations=['mean','sum']
+defectm=df.groupby(['defect_category'], as_index=False)[['date']].agg(operations)
+print(defectm.reset_index())
+
 #pivot
 
 pivot=df.pivot_table(index='defect_category',columns='timestamp_utc', aggfunc={'date':'sum'}).fillna(0)
 pivot['Max']=pivot.idxmax(axis=1)
 print(pivot)
+
+
+
 
 
 
