@@ -92,16 +92,16 @@ print(pivot1)
 """ 2d Histograms"""
 # 2d hiatogram showing distribution of repair cost for Feb 3rd.
 fig = px.density_heatmap(f3, x="device_id", y="repair_cost", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='Repairs Feb 3rd')
-#plotly.offline.plot(fig, filename='repairs')
+plotly.offline.plot(fig, filename='repairs')
 
 
 #Distribution of currency accross repairs 
 fig = px.density_heatmap(df, x="repair_cost_currency", y="repair_cost", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='Repairs')
-#plotly.offline.plot(fig, filename='repairs')
+plotly.offline.plot(fig, filename='repairs')
 
 """Heatmaps for correlations"""
 
-#'currency and cost correlation for phone repairs
+#currency and cost correlation for phone repairs
 
 device_id=df['device_id']
 repair_cost=df['repair_cost']
@@ -119,7 +119,7 @@ fig.update_layout(
     title='currency and cost correlation for phone repairs',
     xaxis_nticks=40)
 
-#plotly.offline.plot(fig, filename='repairs')
+plotly.offline.plot(fig, filename='repairs')
 
 fig = go.Figure(data=go.Heatmap(
                    z=repair_cost,
@@ -132,7 +132,7 @@ fig.update_layout(
     title='currency and cost correlation for phone repairs',
     xaxis_nticks=40)
 
-#plotly.offline.plot(fig, filename='repairs')
+plotly.offline.plot(fig, filename='repairs')
 
 
 repair=df.groupby(['device_id'])['repair_cost'].mean()
@@ -140,7 +140,7 @@ repair=pd.DataFrame(data=repair)
 ph_repair=repair.sort_values(by='repair_cost',ascending=False,axis=0)
 
 fig = px.bar(ph_repair, x="repair_cost", y=ph_repair.index, color='repair_cost',color_continuous_scale='Blues',title="phone repairs")
-#plotly.offline.plot(fig, filename='repair')
+plotly.offline.plot(fig, filename='repair')
 
 """ sunburst"""
 
@@ -152,7 +152,7 @@ fig = px.sunburst(df, path=['device_id','repair_cost_currency'], values='repair_
                   maxdepth=2,
                   color_continuous_midpoint=np.average(df['repair_cost'], weights=df['repair_cost']))
 
-#plotly.offline.plot(fig, filename='repirs') 
+plotly.offline.plot(fig, filename='repirs') 
 
 fig = px.sunburst(df, path=['device_id','repair_performer_id'], values='repair_cost',
                   color='repair_cost', hover_data=['repair_cost'],
@@ -160,7 +160,7 @@ fig = px.sunburst(df, path=['device_id','repair_performer_id'], values='repair_c
                   maxdepth=2,
                   color_continuous_midpoint=np.average(df['repair_cost'], weights=df['repair_cost']))
 
-#plotly.offline.plot(fig, filename='repirs') 
+plotly.offline.plot(fig, filename='repirs') 
 
 
 """seaborn visualizations"""
