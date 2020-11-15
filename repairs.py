@@ -59,6 +59,18 @@ print(Feb10.reset_index())
 Feb2=f2.groupby(['device_id','repair_cost_currency'], as_index=False)[['repair_cost']].agg(operations)
 print(Feb2.reset_index())
 
+# pivot showing sum of repair cost per device id second day February
+
+pivot1=f2.pivot_table(index='device_id',columns='repair_cost_currency', aggfunc={'repair_cost':'sum'}).fillna(0)
+pivot1['Max']=pivot1.idxmax(axis=1)
+print(pivot1)
+
+# pivot showing sum of repair cost per device id  day 3  February
+
+pivot1=f3.pivot_table(index='device_id',columns='repair_cost_currency', aggfunc={'repair_cost':'sum'}).fillna(0)
+pivot1['Max']=pivot1.idxmax(axis=1)
+print(pivot1)
+
 
 
 
