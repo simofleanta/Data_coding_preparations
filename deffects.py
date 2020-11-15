@@ -55,6 +55,14 @@ pivot=df.pivot_table(index='defect_category',columns='defect_category', aggfunc=
 pivot['Max']=pivot.idxmax(axis=1)
 print(pivot)
 
+pivotm=df.pivot_table(index='defect_category',columns='defect_category', aggfunc={'date':'mean'}).fillna(0)
+pivotm['Max']=pivotm.idxmax(axis=1)
+print(pivotm)
+
+
+
+
+
 
 
 
