@@ -59,6 +59,12 @@ pivotm=df.pivot_table(index='defect_category',columns='defect_category', aggfunc
 pivotm['Max']=pivotm.idxmax(axis=1)
 print(pivotm)
 
+#violin chart
+
+sns.violinplot(x=df["defect_category"], y=df["date"], palette="Blues")
+plt.show()
+
+
 
 
 
