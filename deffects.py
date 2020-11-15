@@ -68,13 +68,38 @@ print(pivotm)
 sns.violinplot(x=df["defect_category"], y=df["date"], palette="Blues")
 plt.show()
 
-#barchart 
+#barchart mean phone defects 
 defect=df.groupby(['defect_category'])['date'].mean()
 defect=pd.DataFrame(data=defect)
 ph_defect=defect.sort_values(by='date',ascending=False,axis=0)
 
 fig = px.bar(ph_defect, x="date", y=ph_defect.index, color='date',color_continuous_scale='Blues',title="phone defects")
 plotly.offline.plot(fig, filename='defects')
+
+#eda mde simple
+
+defect=df.groupby(['defect_category'])['date'].mean()
+defect=pd.DataFrame(data=defect)
+ph_defect=defect.sort_values(by='date',ascending=False,axis=0)
+print(ph_defect)
+
+#table sum
+defect=df.groupby(['defect_category'])['date'].sum()
+defect=pd.DataFrame(data=defect)
+ph_defect=defect.sort_values(by='date',ascending=False,axis=0)
+print(ph_defect)
+
+#table max
+defect=df.groupby(['defect_category'])['date'].max()
+defect=pd.DataFrame(data=defect)
+ph_defect=defect.sort_values(by='date',ascending=False,axis=0)
+print(ph_defect)
+
+#table min
+defect=df.groupby(['defect_category'])['date'].min()
+defect=pd.DataFrame(data=defect)
+ph_defect=defect.sort_values(by='date',ascending=False,axis=0)
+print(ph_defect)
 
 
 
