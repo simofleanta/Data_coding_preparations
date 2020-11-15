@@ -92,12 +92,12 @@ print(pivot1)
 """ 2d Histograms"""
 # 2d hiatogram showing distribution of repair cost for Feb 3rd.
 fig = px.density_heatmap(f3, x="device_id", y="repair_cost", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='Repairs Feb 3rd')
-plotly.offline.plot(fig, filename='repairs')
+#plotly.offline.plot(fig, filename='repairs')
 
 
 #Distribution of currency accross repairs 
 fig = px.density_heatmap(df, x="repair_cost_currency", y="repair_cost", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='Repairs')
-plotly.offline.plot(fig, filename='repairs')
+#plotly.offline.plot(fig, filename='repairs')
 
 """Heatmaps for correlations"""
 
@@ -153,7 +153,7 @@ fig = px.sunburst(df, path=['device_id','repair_cost_currency'], values='repair_
                   maxdepth=2,
                   color_continuous_midpoint=np.average(df['repair_cost'], weights=df['repair_cost']))
 
-plotly.offline.plot(fig, filename='repirs') 
+#plotly.offline.plot(fig, filename='repirs') 
 
 
 
@@ -163,6 +163,22 @@ plotly.offline.plot(fig, filename='repirs')
 plt.figure(figsize=(10,5))
 sns.heatmap(f11.corr(),cmap='Blues')
 plt.show()
+
+#scatterdots 
+vissual2 = sns.lmplot(data=ph_repair, x='repair_cost', y='repair_cost',
+                 fit_reg=False)
+plt.show()
+
+vissual2 = sns.lmplot(data=df, x='repair_cost_currency', y='repair_cost',
+                 fit_reg=False)
+plt.show()
+
+#violin chart
+
+
+
+
+
 
 
 
