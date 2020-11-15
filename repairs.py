@@ -140,8 +140,7 @@ repair=pd.DataFrame(data=repair)
 ph_repair=repair.sort_values(by='repair_cost',ascending=False,axis=0)
 
 fig = px.bar(ph_repair, x="repair_cost", y=ph_repair.index, color='repair_cost',color_continuous_scale='Blues',title="phone repairs")
-plotly.offline.plot(fig, filename='repair')
-
+#plotly.offline.plot(fig, filename='repair')
 
 """ sunburst"""
 
@@ -155,6 +154,13 @@ fig = px.sunburst(df, path=['device_id','repair_cost_currency'], values='repair_
 
 #plotly.offline.plot(fig, filename='repirs') 
 
+fig = px.sunburst(df, path=['device_id','repair_performer_id'], values='repair_cost',
+                  color='repair_cost', hover_data=['repair_cost'],
+                  color_continuous_scale='Ice',
+                  maxdepth=2,
+                  color_continuous_midpoint=np.average(df['repair_cost'], weights=df['repair_cost']))
+
+#plotly.offline.plot(fig, filename='repirs') 
 
 
 """seaborn visualizations"""
@@ -174,6 +180,12 @@ vissual2 = sns.lmplot(data=df, x='repair_cost_currency', y='repair_cost',
 plt.show()
 
 #violin chart
+
+sns.violinplot(x=df["repair_cost_currency"], y=df["repair_cost"], palette="Blues")
+plt.show()
+
+sns.violinplot(x=df["repair_performer_id"], y=df["repair_cost"], palette="Blues")
+plt.show()
 
 
 
