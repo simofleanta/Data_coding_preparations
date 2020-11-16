@@ -7,6 +7,15 @@ SELECT COUNT(*) FROM HR.EMPLOYEES WHERE SALARY < 17000;
 """Find employees with the job id it prog"""
 select * from hr.employees where JOB_ID ='IT_PROG';
 
-
 """Find employees with the manager id >100"""
 select * from hr.employees where manager_id > 100;
+"""count employees with the manager id is fi accountant"""
+select count(*) from hr.employees where job_id='FI_ACCOUNT';
+"""details of employee 'a"""
+select * from hr.employees where FIRST_NAME  like '   A';
+
+select FIRST_NAME,JOB_ID,HIRE_DATE from hr.EMPLOYEES where HIRE_DATE='20-AUG-05'
+ORDER BY JOB_ID
+select FIRST_NAME,JOB_ID,HIRE_DATE from hr.EMPLOYEES where HIRE_DATE between '01-aug-04'
+and'20-AUG-05' ORDER BY JOB_ID;
+
