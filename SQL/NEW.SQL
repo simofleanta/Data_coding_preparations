@@ -32,6 +32,14 @@ select distinct Country FROM Customers;
 
 select * from customers where city='Berlin'
 select * from customers where not city='Berlin'
+"""Select all records where the CustomerID column has the value 32."""
+select * from customers where not city= 32
 
+
+"""Select all records where the City column has the value 'Berlin' and the PostalCode column has the value 12209."""
+
+select * FROM Customers
+where  City = 'Berlin'
+and postalcode = 12209;
 
 
