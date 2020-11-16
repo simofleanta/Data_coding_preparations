@@ -42,4 +42,9 @@ select * FROM Customers
 where  City = 'Berlin'
 and postalcode = 12209;
 
+"""Select all records where the City column has the value 'Berlin' or 'London'."""
+select * FROM Customers
+where  City = 'Berlin'
+or city= 'london ';
+
 
