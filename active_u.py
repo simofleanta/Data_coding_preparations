@@ -27,16 +27,30 @@ print(df)
 
 """Exploratory data analysis """
 
-#groupby defects for all months
+#groupby 
 
 active=df.groupby(['active_device_id'])
 print(active.sum())
 
 
-#turn data  numerical to be able to aggregate phone defect category 
+#turn data  numerical to be able to aggregate active device pe rorganization or user id 
 encoder=LabelEncoder()
 active_device=df['active_device_id']=encoder.fit_transform(df['active_device_id'])
 print(active_device)
+
+#aggregating active device per organizations and its user_id where is the active device prevalent per org 
+operations=['sum','mean']
+x=df.groupby(['organisation_id', 'user_id'], as_index=False)[['active_device_id']].agg(operations)
+print(x.reset_index())
+
+#agg per user_id
+operations=['sum','mean']
+x=df.groupby(['organisation_id', 'user_id'], as_index=False)[['active_device_id']].agg(operations)
+print(x.reset_index())
+
+
+
+
 
 
 
