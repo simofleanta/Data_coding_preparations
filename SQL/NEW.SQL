@@ -47,4 +47,10 @@ select * FROM Customers
 where  City = 'Berlin'
 or city= 'london ';
 
+"""Select all records from the Customers table, sort the result alphabetically by the column City."""
+SELECT * FROM Customers
+ORDER BY City;
+
+select 	FIRST_NAME,salary, hire_date from hr.employees
+order by salary, hire_date;
 
