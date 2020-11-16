@@ -32,4 +32,11 @@ print(df)
 active=df.groupby(['active_device_id'])
 print(active.sum())
 
+#turn data  numerical to be able to aggregate active users by organization id 
+encoder=LabelEncoder()
+org_id=df['organisation_id']=encoder.fit_transform(df['organisation_id'])
+print(org_id)
+
+
+
 
