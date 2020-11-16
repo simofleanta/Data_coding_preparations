@@ -49,6 +49,39 @@ userid=df.groupby(['user_id'], as_index=False)[['active_device_id']].agg(operati
 print(userid.reset_index())
 
 
+#pivotations to see a bigger picture of the prevalent device id per organization
+
+pivot_org=df.pivot_table(index='organisation_id',columns='organisation_id', aggfunc={'active_device_id':'sum'}).fillna(0)
+pivot_org['Max']=pivot_org.idxmax(axis=1)
+print(pivot_org)
+
+#
+
+#barchart mean phone defects 
+active_id=df.groupby(['organisation_id'])['active_device_id'].mean()
+active_id=pd.DataFrame(data=active_id)
+active_org_id=active_id.sort_values(by='active_device_id',ascending=False,axis=0)
+
+
+fig = px.bar(active_org_id, x="active_device_id", y=active_org_id.index, color='active_device_id',color_continuous_scale='Blues',title="Mean of Active Org by active device")
+plotly.offline.plot(fig, filename='defects')
+
+
+active_id=df.groupby(['organisation_id'])['active_device_id'].sum()
+active_id=pd.DataFrame(data=active_id)
+active_org_id_sum=active_id.sort_values(by='active_device_id',ascending=False,axis=0)
+
+fig = px.bar(active_org_id_sum, x="active_device_id", y=active_org_id_sum.index, color='active_device_id',color_continuous_scale='Blues',title="Sum of Active Org by active device")
+plotly.offline.plot(fig, filename='defects')
+
+
+
+
+
+
+
+
+
 
 
 
