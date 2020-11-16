@@ -40,13 +40,19 @@ print(active_device)
 
 #aggregating active device per organizations and its user_id where is the active device prevalent per org 
 operations=['sum','mean']
-x=df.groupby(['organisation_id', 'user_id'], as_index=False)[['active_device_id']].agg(operations)
-print(x.reset_index())
+org_id=df.groupby(['organisation_id', 'user_id'], as_index=False)[['active_device_id']].agg(operations)
+print(org_id.reset_index())
 
 #agg per user_id
-operations=['sum','mean']
-x=df.groupby(['organisation_id', 'user_id'], as_index=False)[['active_device_id']].agg(operations)
-print(x.reset_index())
+operations=['sum']
+userid=df.groupby(['user_id'], as_index=False)[['active_device_id']].agg(operations)
+print(userid.reset_index())
+
+
+
+
+
+
 
 
 
