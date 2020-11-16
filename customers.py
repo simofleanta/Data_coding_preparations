@@ -41,4 +41,13 @@ pivot=df.pivot_table(index='membership_duration_months',columns='membership_dura
 pivot['Max']=pivot.idxmax(axis=1)
 print(pivot)
 
+
+customers=df.groupby(['membership_duration_months'])['base_price'].mean()
+customers=pd.DataFrame(data=customers)
+customers_x=customers.sort_values(by='base_price',ascending=False,axis=0)
+
+
+fig = px.density_heatmap(df, x="membership_duration_months", y="base_price", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='Membership and base price evolutionl')
+plotly.offline.plot(fig, filename='customers')
+
         
