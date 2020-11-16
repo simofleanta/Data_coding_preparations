@@ -187,7 +187,7 @@ plt.show()
 sns.violinplot(x=df["repair_performer_id"], y=df["repair_cost"], palette="Blues")
 plt.show()
 
-#conclusions
+
 
 
 
