@@ -65,3 +65,4 @@ Country
 FROM Customers
 group by country;
 
+
