@@ -54,3 +54,14 @@ ORDER BY City;
 select 	FIRST_NAME,salary, hire_date from hr.employees
 order by salary, hire_date;
 
+"""Select all records from the Customers table, sort the result reversed alphabetically by the column City."""
+
+select 	FIRST_NAME,salary, hire_date from hr.employees
+order by salary, hire_date desc  #or asc
+
+"""List the number of customers in each country.""" #group by
+SELECT  count (CustomerID),
+Country
+FROM Customers
+group by country;
+
