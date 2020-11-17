@@ -36,7 +36,7 @@ select count(distinct job_id) from hr.employees;
 select EMAIL,PHONE_NUMBER from hr.employees  
 where JOB_ID='FI_ACCOUNT', and where SALARY<10000;
 
-select * from hr.employees;
+select * from hr.employees; #
 
 select count(distinct job_id) from hr.employees;
 
