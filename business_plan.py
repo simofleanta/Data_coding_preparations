@@ -117,6 +117,10 @@ df['Sales']=encoder.fit_transform(df['Sales'])
 sns.violinplot(x=y19["Item"], y=y19["Sales"], palette="Blues")
 plt.show()
 
+df['Sales']=encoder.fit_transform(df['Sales'])
+sns.violinplot(x=y19["Month"], y=y19["Sales"], palette="Blues")
+plt.show()
+
 #Bikes situ in 2020  
 
 y=df[df.Year==2020]
@@ -132,6 +136,11 @@ encoder=LabelEncoder()
 df['Sales']=encoder.fit_transform(df['Sales'])
 sns.violinplot(x=y["Item"], y=y["Sales"], palette="Blues")
 plt.show()
+
+df['Sales']=encoder.fit_transform(df['Sales'])
+sns.violinplot(x=y["Month"], y=y["Sales"], palette="Blues")
+plt.show()
+
 
 
 
