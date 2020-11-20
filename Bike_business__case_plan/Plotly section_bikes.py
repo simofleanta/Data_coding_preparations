@@ -87,6 +87,11 @@ bike_Item=days.sort_values(by='Sales',ascending=False,axis=0)
 fig = px.bar(bike_Item, x="Sales", y=bike_Item.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
 plotly.offline.plot(fig, filename='bike')
 
+import plotly.express as px
+df = px.data.tips()
+fig = px.density_heatmap(y20, x="Day", y="Sales", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='sales distribution on all days in 2020')
+plotly.offline.plot(fig, filename='bike')
+
 
 
 
