@@ -146,15 +146,14 @@ df['Sales']=encoder.fit_transform(df['Sales'])
 sns.violinplot(x=y["Month"], y=y["Sales"], palette="Blues")
 plt.show()
 
+#avg bikes 2020
+
 bike_d=y.groupby(['Item'])['Sales'].mean()
 days=pd.DataFrame(data=bike_d)
 bike_Item=days.sort_values(by='Sales',ascending=False,axis=0)
 
 fig = px.bar(bike_Item, x="Sales", y=bike_Item.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
 plotly.offline.plot(fig, filename='bike')
-
-
-
 
 
 #corr
@@ -188,6 +187,13 @@ fig = px.density_heatmap(hour, x="Item", y="Number_Bikes", nbinsx=20, nbinsy=20,
 
 fig = px.density_heatmap(hour, x="Hour", y="Number_Bikes", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='2d histograms')
 #plotly.offline.plot(fig, filename='bike')
+
+
+
+
+
+
+
 
 
 

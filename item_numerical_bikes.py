@@ -27,7 +27,7 @@ print(df.head(700))
 encoder=LabelEncoder()
 df['Sales']=encoder.fit_transform(df['Sales'])
 df['Number_Bikes']=encoder.fit_transform(df['Number_Bikes'])
-df['Item']=encoder.fit_transform(df['Item'])
+
 
 c=df.select_dtypes(object)
 #print(c)
@@ -39,19 +39,6 @@ c=df.dtypes
 x=df.groupby(['Season'])[['Number_Bikes']]
 #print(x.mean())
 
-#sort 
-df['Number_Bikes'].value_counts().sort_values(ascending=False).head(10)
-
-df.groupby('Month')['Sales'].sum().plot(kind='bar')
-plt.ylabel('Sales')
-plt.title('Bikes sales in the last months')
-plt.show()
-
-#compare 2019-2020
-df.groupby('Year')['Sales'].sum().plot(kind='bar')
-plt.ylabel('Sales')
-plt.title('2019-2020 comparison')
-plt.show()
 
 fig1 = px.bar(df, x="Item", y=["Sales","Year"],barmode='group', color='Year',color_continuous_scale='Blues',title="comparing items in years 2020-2019")
 plotly.offline.plot(fig1, filename='bike')
@@ -69,13 +56,28 @@ print(bike_Month)
 fig = px.bar(bike_Month, x="Sales", y=bike_Month.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
 plotly.offline.plot(fig, filename='bike')
 
-#avg sales/year
+#avg sales month for a certain bike item
 
-bike_d=df.groupby(['Year'])['Sales'].mean()
+y19=df[df.Year==2019]
+Treck=y19[y19.Item=='Treck']
+
+bike_d=Treck.groupby(['Month'])['Sales'].mean()
 days=pd.DataFrame(data=bike_d)
 bike_Year=days.sort_values(by='Sales',ascending=False,axis=0)
 
-fig = px.bar(bike_Year, x="Sales", y=bike_Year.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
+fig = px.bar(bike_Year, x="Sales", y=bike_Year.index, color='Sales',color_continuous_scale='Blues',title="Average  Treck sales per month in 2019")
+plotly.offline.plot(fig, filename='bike')
+
+#avg per month for year 2020 Treck
+
+y20=df[df.Year==2020]
+Amsterdam=y20[y20.Item=='Amsterdam']
+
+bike_d=Amsterdam.groupby(['Month'])['Sales'].mean()
+days=pd.DataFrame(data=bike_d)
+bike_Year=days.sort_values(by='Sales',ascending=False,axis=0)
+
+fig = px.bar(bike_Year, x="Sales", y=bike_Year.index, color='Sales',color_continuous_scale='Blues',title="Average  Amsterdam sales per month in 2020")
 plotly.offline.plot(fig, filename='bike')
 
 #avg bikes 
