@@ -22,7 +22,7 @@ c=pd.read_csv('bike_business_plan.csv')
 df=DataFrame(c.head(700))
 print(df.head(700))
 
-sns.violinplot(x=df["Item"], y=df["Price"], palette="Blues")
+sns.violinplot(x=df["Item"], y=df["Sales"], palette="Blues")
 plt.show()
 
 c=df.select_dtypes(object)
@@ -82,19 +82,19 @@ pivot1['Max']=pivot1.idxmax(axis=1)
 print(pivot1)
 
 df.groupby('Item')['weekday'].count().plot(kind='bar')
-plt.ylabel('Price')
+plt.ylabel('Sales')
 plt.title('Bikes prices in the last days')
 
 
-pivot2=df.pivot_table(index='Season',columns='Item', aggfunc={'Price':'count'}).fillna(0)
+pivot2=df.pivot_table(index='Season',columns='Item', aggfunc={'Sales':'count'}).fillna(0)
 pivot2['Max']=pivot2.idxmax(axis=1)
 print(pivot2)
 
-pivotday=df.pivot_table(index='Day',columns='Item', aggfunc={'Price':'count'}).fillna(0)
+pivotday=df.pivot_table(index='Day',columns='Item', aggfunc={'Sales':'count'}).fillna(0)
 pivotday['Max']=pivotday.idxmax(axis=1)
 print(pivotday)
 
-pivotday_m=df.pivot_table(index='Day',columns=['Month','Item'], aggfunc={'Price':'sum'}).fillna(0)
+pivotday_m=df.pivot_table(index='Day',columns=['Month','Item'], aggfunc={'Sales':'sum'}).fillna(0)
 pivotday_m['Max']=pivotday_m.idxmax(axis=1)
 print(pivotday_m)
 
@@ -111,7 +111,7 @@ sns.heatmap(df.corr(),cmap='Accent_r')
 
 
 
-hour=df[['Hour','Item','Number_Bikes','Price',]].copy()
+hour=df[['Hour','Item','Number_Bikes','Sales',]].copy()
 plt.figure(figsize=(10,5))
 sns.heatmap(hour.corr(),cmap='binary_r')
 
@@ -122,7 +122,7 @@ fig = px.density_heatmap(hour, x="Item", y="Hour", nbinsx=20, nbinsy=20, color_c
 #plotly.offline.plot(fig, filename='bike')
 
 df = px.data.tips()
-fig = px.density_heatmap(hour, x="Item", y="Price", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='2d histograms')
+fig = px.density_heatmap(hour, x="Item", y="Sales", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='2d histograms')
 #plotly.offline.plot(fig, filename='bike')
 
 fig = px.density_heatmap(hour, x="Item", y="Number_Bikes", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='2d histograms')
