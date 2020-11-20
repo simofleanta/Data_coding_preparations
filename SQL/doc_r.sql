@@ -27,3 +27,7 @@ order by repair_cost
 select * from repairs
 where repait_cost>8
 group by device_id;
+
+select * from phone_deffects
+WHERE EXISTS 
+(select device_id from phone_deffects WHERE device_id ='WYZXQ');
