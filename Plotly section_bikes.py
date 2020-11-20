@@ -55,7 +55,7 @@ print(bike_Month)
 fig = px.bar(bike_Month, x="Sales", y=bike_Month.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
 plotly.offline.plot(fig, filename='bike')
 
-#avg sales month for a certain bike item
+#avg sales month for a certain bike item in a year
 
 y19=df[df.Year==2019]
 Treck=y19[y19.Item=='Treck']
