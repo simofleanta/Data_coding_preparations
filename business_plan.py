@@ -17,10 +17,17 @@ from sklearn.metrics import r2_score
 import plotly.express as px
 
 
+
 c=pd.read_csv('bike_business_plan.csv')
 #print(c.columns)
 df=DataFrame(c.head(700))
 print(df.head(700))
+
+#
+encoder=LabelEncoder()
+df['Sales']=encoder.fit_transform(df['Sales'])
+
+#
 
 sns.violinplot(x=df["Item"], y=df["Sales"], palette="Blues")
 plt.show()
@@ -81,9 +88,11 @@ pivot1=df.pivot_table(index='Season',columns='Item', aggfunc={'Number_Bikes':'co
 pivot1['Max']=pivot1.idxmax(axis=1)
 print(pivot1)
 
-df.groupby('Item')['weekday'].count().plot(kind='bar')
+df.groupby('Month')['Sales'].sum().plot(kind='bar')
 plt.ylabel('Sales')
-plt.title('Bikes prices in the last days')
+plt.title('Bikes sales in the last months')
+plt.show()
+
 
 
 pivot2=df.pivot_table(index='Season',columns='Item', aggfunc={'Sales':'count'}).fillna(0)
@@ -101,6 +110,30 @@ print(pivotday_m)
 pivotday_min=df.pivot_table(index='Month',columns=['Year','Item'], aggfunc={'Sales':'min'}).fillna(0)
 pivotday_min['Min']=pivotday_min.idxmin(axis=1)
 print(pivotday_min)
+
+y19=df[df.Year==2019]
+
+df['Sales']=encoder.fit_transform(df['Sales'])
+sns.violinplot(x=y19["Item"], y=y19["Sales"], palette="Blues")
+plt.show()
+
+#Bikes situ in 2020  
+
+y=df[df.Year==2020]
+pivotday_min_2020=y.pivot_table(index='Month',columns=['Year','Item'], aggfunc={'Sales':'min'}).fillna(0)
+pivotday_min_2020['Min']=pivotday_min_2020.idxmin(axis=1)
+print(pivotday_min_2020)
+
+pivotday_max_2020=y.pivot_table(index='Month',columns=['Year','Month','Item'], aggfunc={'Sales':'max'}).fillna(0)
+pivotday_max_2020['Max']=pivotday_max_2020.idxmax(axis=1)
+print(pivotday_max_2020)
+
+encoder=LabelEncoder()
+df['Sales']=encoder.fit_transform(df['Sales'])
+sns.violinplot(x=y["Item"], y=y["Sales"], palette="Blues")
+plt.show()
+
+
 
 
 #corr
