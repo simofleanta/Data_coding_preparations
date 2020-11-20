@@ -98,7 +98,7 @@ plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
 plt.show()
 
-
+#pivotations
 
 pivot2=df.pivot_table(index='Season',columns='Item', aggfunc={'Sales':'count'}).fillna(0)
 pivot2['Max']=pivot2.idxmax(axis=1)
@@ -115,6 +115,8 @@ print(pivotday_m)
 pivotday_min=df.pivot_table(index='Month',columns=['Year','Item'], aggfunc={'Sales':'min'}).fillna(0)
 pivotday_min['Min']=pivotday_min.idxmin(axis=1)
 print(pivotday_min)
+
+#2019 situ
 
 y19=df[df.Year==2019]
 
