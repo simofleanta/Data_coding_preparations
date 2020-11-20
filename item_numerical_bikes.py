@@ -53,6 +53,14 @@ plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
 plt.show()
 
+fig1 = px.bar(df, x="Item", y=["Sales","Year"],barmode='group', color='Year',color_continuous_scale='Blues',title="comparing items in years 2020-2019")
+plotly.offline.plot(fig1, filename='bike')
+
+
+
+
+
+
 
 
 
