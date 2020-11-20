@@ -93,6 +93,11 @@ plt.ylabel('Sales')
 plt.title('Bikes sales in the last months')
 plt.show()
 
+df.groupby('Year')['Sales'].sum().plot(kind='bar')
+plt.ylabel('Sales')
+plt.title('2019-2020 comparison')
+plt.show()
+
 
 
 pivot2=df.pivot_table(index='Season',columns='Item', aggfunc={'Sales':'count'}).fillna(0)
