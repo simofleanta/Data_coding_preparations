@@ -91,6 +91,7 @@ plt.ylabel('Sales')
 plt.title('Bikes sales in the last months')
 plt.show()
 
+#Is 2019 better than 2020 given the pandemy?
 df.groupby('Year')['Sales'].sum().plot(kind='bar')
 plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
@@ -115,8 +116,6 @@ print(pivotday_m)
 pivotday_min=df.pivot_table(index='Month',columns=['Year','Item'], aggfunc={'Sales':'min'}).fillna(0)
 pivotday_min['Min']=pivotday_min.idxmin(axis=1)
 print(pivotday_min)
-
-#Is 2019 better than 2020,considering the pandemic situ?
 
 #filter years
 y19=df[df.Year==2019]
