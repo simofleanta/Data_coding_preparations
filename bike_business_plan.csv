@@ -1,4 +1,4 @@
-Year,Month,Day,Season,Hour,Day_Time,Item,Price,Number_Bikes,holiday,weekday,workingday,weather_forecast
+Year,Month,Day,Season,Hour,Day_Time,Item,Sales,Number_Bikes,holiday,weekday,workingday,weather_forecast
 2020,Jan,1,winter,0,Morgen,Panama,654,31,0,Sunday,No,poor
 2020,Jan,2,winter,1,Morgen,Panama,670,131,0,Monday,No,poor
 2020,Jan,3,winter,2,Mittag,Panama,1229,120,0,Tuesday,Yes,very good
