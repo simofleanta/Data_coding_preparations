@@ -16,6 +16,18 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 import plotly.express as px
 
+"""A friend has a bike business and wants to see the business evolution given the pandemic situ
+if 2019 is better than 2020
+he would like to see what bikes sell best?
+what are the best months and days?
+What is the ROI"""
+
+#EDA-gropings, sortings, mean, max, sum values in aggregs 
+#pivotations
+#visuals with seaborn
+#visuals with plotly (also a separate section containing plotly)
+#function on roi 
+
 
 
 c=pd.read_csv('bike_business_plan.csv')
@@ -170,6 +182,8 @@ plotly.offline.plot(fig, filename='bike')
 plt.figure(figsize=(15,15))
 sns.heatmap(df.corr(),annot=True,cmap='Blues_r',mask=np.triu(df.corr(),k=1))
 plt.show()
+
+#--------------------------------------------------------------------------------------------
 
 
 
