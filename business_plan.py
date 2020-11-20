@@ -183,7 +183,33 @@ plt.figure(figsize=(15,15))
 sns.heatmap(df.corr(),annot=True,cmap='Blues_r',mask=np.triu(df.corr(),k=1))
 plt.show()
 
-#--------------------------------------------------------------------------------------------
+"""ROI ON 2020 i a pandemic it was anticipated a larger use of echo transport including bikes 
+instead of public transport so the investment was higher"""
+
+investment=65000
+bike_costs=2700
+loss=5800
+
+def roi(investment,bike_costs,loss):
+    net_prof=bike_costs*12-loss
+    roi=(net_prof/investment*100)
+    return roi
+
+ROI=roi(investment,bike_costs,loss)
+print(ROI)
+
+#on 2019
+investment=40000
+bike_costs=1000
+loss=700
+
+def roi(investment,bike_costs,loss):
+    net_prof=bike_costs*12-loss
+    roi=(net_prof/investment*100)
+    return roi
+
+ROI=roi(investment,bike_costs,loss)
+print(ROI)
 
 
 
