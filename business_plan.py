@@ -183,6 +183,47 @@ fig = px.density_heatmap(hour, x="Hour", y="Number_Bikes", nbinsx=20, nbinsy=20,
 #plotly.offline.plot(fig, filename='bike')
 
 
+#Plotly Section
+
+
+fig1 = px.bar(df, x="Item", y=["Sales","Year"],barmode='group', color='Year',color_continuous_scale='Blues',title="comparing items in years 2020-2019")
+plotly.offline.plot(fig1, filename='bike')
+
+fig = px.bar(df, x="Item", y=["Sales","Year"],barmode='stack', color='Year',color_continuous_scale='Blues',title="Bike stacked per years")
+plotly.offline.plot(fig, filename='bike')
+
+#avg sales/mth
+
+bike_d=df.groupby(['Month'])['Sales'].mean()
+days=pd.DataFrame(data=bike_d)
+bike_Month=days.sort_values(by='Sales',ascending=False,axis=0)
+print(bike_Month)
+
+fig = px.bar(bike_Month, x="Sales", y=bike_Month.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
+plotly.offline.plot(fig, filename='bike')
+
+#avg sales/year
+
+bike_d=df.groupby(['Year'])['Sales'].mean()
+days=pd.DataFrame(data=bike_d)
+bike_Year=days.sort_values(by='Sales',ascending=False,axis=0)
+
+fig = px.bar(bike_Year, x="Sales", y=bike_Year.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
+plotly.offline.plot(fig, filename='bike')
+
+#avg bikes 
+bike_d=df.groupby(['Item'])['Sales'].mean()
+days=pd.DataFrame(data=bike_d)
+bike_Item=days.sort_values(by='Sales',ascending=False,axis=0)
+
+fig = px.bar(bike_Item, x="Sales", y=bike_Item.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
+plotly.offline.plot(fig, filename='bike')
+
+
+
+
+
+
 
 
 
