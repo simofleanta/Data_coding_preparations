@@ -1,2 +1,0 @@
-[1120/190753.722:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
-[1120/190753.738:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\sf\AppData\Local\AVG\Browser\User Data\Crashpad\attachments\31361221-48e4-4b66-a599-0e29912e161c: The system cannot find the path specified. (0x3)

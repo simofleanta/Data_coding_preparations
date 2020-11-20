@@ -111,13 +111,14 @@ fig.update_layout(
 
 
 Month=y19['Month']
-Sales=y19['Sales']
-Season=y19['Season']
+Sales=y20['Sales']
+Season=y20['Season']
 Item=y19['Item']
+daytime=y20['Day_Time']
 
 fig = go.Figure(data=go.Heatmap(                   
-                   x=Item,
-                   y=Month,
+                   x=Season,
+                   y=daytime,
                    z=Sales,
                    colorscale='RdBu'))
 
