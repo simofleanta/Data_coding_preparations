@@ -167,11 +167,9 @@ plt.figure(figsize=(10,5))
 sns.heatmap(df.corr(),cmap='Accent_r')
 
 
-
 hour=df[['Hour','Item','Number_Bikes','Sales',]].copy()
 plt.figure(figsize=(10,5))
 sns.heatmap(hour.corr(),cmap='binary_r')
-
 
 
 df = px.data.tips()
