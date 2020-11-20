@@ -42,6 +42,17 @@ on repairs.device_id=phone_deffects.device_id
 order by date;
 
 
+--second max repir/-cost
+
+select max (repair_cost) from repair_cost 
+where repair_cost < (select max(repair_cost from repairs);
+
+-- limit
+
+select repair_cost from (select repair_cost fro repairs
+order by repair_cost desc limit 2) as repair_cost order by repair_cost limit 1;
+
+
 
 
 
