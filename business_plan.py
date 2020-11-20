@@ -94,9 +94,13 @@ pivotday=df.pivot_table(index='Day',columns='Item', aggfunc={'Sales':'count'}).f
 pivotday['Max']=pivotday.idxmax(axis=1)
 print(pivotday)
 
-pivotday_m=df.pivot_table(index='Day',columns=['Month','Item'], aggfunc={'Sales':'sum'}).fillna(0)
+pivotday_m=df.pivot_table(index='Day',columns=['Year','Month','Item'], aggfunc={'Sales':'sum'}).fillna(0)
 pivotday_m['Max']=pivotday_m.idxmax(axis=1)
 print(pivotday_m)
+
+pivotday_min=df.pivot_table(index='Day',columns=['Year','Month','Item'], aggfunc={'Sales':'min'}).fillna(0)
+pivotday_min['Min']=pivotday_min.idxmin(axis=1)
+print(pivotday_min)
 
 
 #corr
