@@ -90,6 +90,11 @@ pivot2=df.pivot_table(index='Season',columns='Item', aggfunc={'Price':'count'}).
 pivot2['Max']=pivot2.idxmax(axis=1)
 print(pivot2)
 
+pivotday=df.pivot_table(index='Day',columns='Item', aggfunc={'Price':'count'}).fillna(0)
+pivotday['Max']=pivotday.idxmax(axis=1)
+print(pivotday)
+
+
 #corr
 plt.figure(figsize=(15,15))
 sns.heatmap(df.corr(),annot=True,cmap='Blues_r',mask=np.triu(df.corr(),k=1))
