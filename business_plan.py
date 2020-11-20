@@ -94,7 +94,7 @@ pivotday=df.pivot_table(index='Day',columns='Item', aggfunc={'Price':'count'}).f
 pivotday['Max']=pivotday.idxmax(axis=1)
 print(pivotday)
 
-pivotday_m=df.pivot_table(index='Day',columns='Month', aggfunc={'Price':'count'}).fillna(0)
+pivotday_m=df.pivot_table(index='Day',columns='Month', aggfunc={'Price':'sum'}).fillna(0)
 pivotday_m['Max']=pivotday_m.idxmax(axis=1)
 print(pivotday_m)
 
