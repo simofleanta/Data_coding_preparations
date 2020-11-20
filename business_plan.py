@@ -139,6 +139,13 @@ pivotday_max_2020=y.pivot_table(index='Month',columns=['Year','Month','Item'], a
 pivotday_max_2020['Max']=pivotday_max_2020.idxmax(axis=1)
 print(pivotday_max_2020)
 
+#pivot day2 
+day2=y[y.Day==2]
+pivotday2_2020=y.pivot_table(index='Item',columns=['Month','Item'], aggfunc={'Sales':'max'}).fillna(0)
+pivotday2_2020['Max']=pivotday2_2020.idxmax(axis=1)
+print(pivotday2_2020)
+
+
 encoder=LabelEncoder()
 df['Sales']=encoder.fit_transform(df['Sales'])
 sns.violinplot(x=y["Item"], y=y["Sales"], palette="Blues")
