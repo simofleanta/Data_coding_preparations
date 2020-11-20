@@ -19,19 +19,18 @@ import plotly.express as px
 
 
 c=pd.read_csv('bike_business_plan.csv')
-#print(c.columns)
-df=DataFrame(c.head(700))
-print(df.head(700))
+print(c.columns)
+df=DataFrame(c.head(500))
+print(df.head(500))
 
-#
+#ncoe to numeric
 encoder=LabelEncoder()
 df['Sales']=encoder.fit_transform(df['Sales'])
-
-#
 
 sns.violinplot(x=df["Item"], y=df["Sales"], palette="Blues")
 plt.show()
 
+""" making sense of data"""
 c=df.select_dtypes(object)
 #print(c)
 
@@ -42,24 +41,22 @@ df['Number_Bikes']=encoder.fit_transform(df['Number_Bikes'])
 c=df.dtypes
 #print(c)
 
+"""Exploratory data"""
 #groupings
 x=df.groupby(['Season'])[['Number_Bikes']]
-#print(x.mean())
-
+print(x.mean())
 
 #Aggregate
 operations=['mean','sum','min','max']
 a=df.groupby(['Year','Month'], as_index=False)[['Number_Bikes']].agg(operations)
 print(a.reset_index())
 
+#sorting values
 df['Number_Bikes'].value_counts().sort_values(ascending=False).head(10)
-
 sns.violinplot(x=df["Month"], y=df["Number_Bikes"], palette="Blues")
 plt.show()
 
-
-
-#when is the bike business doing the tbest  during the day. 
+#when is the bike business doing the tbest  during the day-time? 
 
 fig, ax=plt.subplots(figsize=(6,4))
 sns.set_style('darkgrid')
@@ -69,19 +66,20 @@ ax.get_yaxis().get_major_formatter().set_scientific(False)
 plt.title('Business during the day')
 plt.show()
 
-
+#sort by day
 sortbyday=df.groupby('Day_Time')['Item'].count().sort_values(ascending=False)
 
-#business in the past months
+# what is business performance in the past months?
 
 df.groupby('Item')['Month'].count().plot(kind='bar')
 plt.ylabel('Number_Bikess')
 plt.title('Bikes number during the past months')
 plt.show()
 
-#extract month situation
+#What is the situ in Oktober?
 Okt=df.loc[df['Month']=='Okt'].nunique()
 
+""" groupings """
 
 #pivots. I should add the bike brand name so I can see which one is the pivot one
 pivot1=df.pivot_table(index='Season',columns='Item', aggfunc={'Number_Bikes':'count'}).fillna(0)
@@ -98,7 +96,9 @@ plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
 plt.show()
 
-#pivotations
+"""pivotations"""
+
+#What are the min max levels of items and months for the business?
 
 pivot2=df.pivot_table(index='Season',columns='Item', aggfunc={'Sales':'count'}).fillna(0)
 pivot2['Max']=pivot2.idxmax(axis=1)
@@ -116,8 +116,9 @@ pivotday_min=df.pivot_table(index='Month',columns=['Year','Item'], aggfunc={'Sal
 pivotday_min['Min']=pivotday_min.idxmin(axis=1)
 print(pivotday_min)
 
-#2019 situ
+#Is 2019 better than 2020,considering the pandemic situ?
 
+#filter years
 y19=df[df.Year==2019]
 
 df['Sales']=encoder.fit_transform(df['Sales'])
@@ -139,13 +140,15 @@ pivotday_max_2020=y.pivot_table(index='Month',columns=['Year','Month','Item'], a
 pivotday_max_2020['Max']=pivotday_max_2020.idxmax(axis=1)
 print(pivotday_max_2020)
 
+#show me day 2  max values for months
+
 #pivot day2 
 day2=y[y.Day==2]
 pivotday2_2020=y.pivot_table(index='Item',columns=['Month','Item'], aggfunc={'Sales':'max'}).fillna(0)
 pivotday2_2020['Max']=pivotday2_2020.idxmax(axis=1)
 print(pivotday2_2020)
 
-
+#encode sales to numeric for violinplot
 encoder=LabelEncoder()
 df['Sales']=encoder.fit_transform(df['Sales'])
 sns.violinplot(x=y["Item"], y=y["Sales"], palette="Blues")
@@ -155,7 +158,7 @@ df['Sales']=encoder.fit_transform(df['Sales'])
 sns.violinplot(x=y["Month"], y=y["Sales"], palette="Blues")
 plt.show()
 
-#avg bikes 2020
+# What are avg bikes sales in 2020
 
 bike_d=y.groupby(['Item'])['Sales'].mean()
 days=pd.DataFrame(data=bike_d)
@@ -163,7 +166,6 @@ bike_Item=days.sort_values(by='Sales',ascending=False,axis=0)
 
 fig = px.bar(bike_Item, x="Sales", y=bike_Item.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
 plotly.offline.plot(fig, filename='bike')
-
 
 #corr
 plt.figure(figsize=(15,15))
