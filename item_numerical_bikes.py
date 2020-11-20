@@ -17,7 +17,6 @@ from sklearn.metrics import r2_score
 import plotly.express as px
 
 
-
 c=pd.read_csv('bike_business_plan.csv')
 #print(c.columns)
 df=DataFrame(c.head(700))
