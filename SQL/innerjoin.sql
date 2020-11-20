@@ -1,4 +1,4 @@
-# inner join 
+--inner join 
 
 select suppliers.SupplierID, suppliers.SupplierName,suppliers.City,products.ProductName,products.Price 
 from suppliers
