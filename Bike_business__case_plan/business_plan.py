@@ -288,7 +288,7 @@ plt.show()
 
 df.groupby('Item')['Profitability'].sum().plot(kind='bar')
 plt.ylabel('Profitability')
-plt.title('2019-2020 comparison')
+plt.title('Item performance comparison')
 plt.show()
 
 df.groupby('Year')['Sales'].sum().plot(kind='bar')
