@@ -47,13 +47,14 @@ Cellos bellow show that sales are best from July onwards even though December we
 Exploratory sales on datetime
 
 <img width="894" alt="p4" src="https://user-images.githubusercontent.com/47668423/99837085-48ec3e80-2b67-11eb-858a-0513b32d9265.png">
-<img width="191" alt="ROI" src="https://user-images.githubusercontent.com/47668423/99837090-48ec3e80-2b67-11eb-95ee-da97885f255f.png">
 
 ROI Table
 
-<img width="926" alt="tree 2019" src="https://user-images.githubusercontent.com/47668423/99837092-4984d500-2b67-11eb-8127-50d5f439b21f.png">
+<img width="191" alt="ROI" src="https://user-images.githubusercontent.com/47668423/99837090-48ec3e80-2b67-11eb-95ee-da97885f255f.png">
 
 Tree maps on bike sales trends
+
+<img width="926" alt="tree 2019" src="https://user-images.githubusercontent.com/47668423/99837092-4984d500-2b67-11eb-8127-50d5f439b21f.png">
 
 <img width="950" alt="tree per month items" src="https://user-images.githubusercontent.com/47668423/99837095-4a1d6b80-2b67-11eb-98bd-8470e21d10d3.png">
 <img width="951" alt="treemap 2020" src="https://user-images.githubusercontent.com/47668423/99837103-4c7fc580-2b67-11eb-8632-d6288fd432e0.png">
