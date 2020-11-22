@@ -27,7 +27,7 @@ The violins bellow show that product the of year 2020 seems to be Treck and 2019
 
 <img width="893" alt="item of the year" src="https://user-images.githubusercontent.com/47668423/99837064-42f65d80-2b67-11eb-9f39-14f715b5518b.png">
 
-In 2019 Orbea followed by oody and Amsterdam are most successful.
+In 2019 Orbea followed by Moody and Amsterdam are most successful.
 
 <img width="746" alt="items in 2020" src="https://user-images.githubusercontent.com/47668423/99837068-44278a80-2b67-11eb-8d84-5d45ee0dc95d.png">
 
