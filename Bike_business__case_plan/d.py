@@ -31,15 +31,30 @@ What is the ROI"""
 
 
 c=pd.read_csv('bike_business_plan.csv')
-print(c.columns)
+#print(c.columns)
 df=DataFrame(c.head(500))
-print(df.head(500))
+#print(df.head(500))
 
 a=df['Interested']
 b=df['Likely']
 c=df['Not_interested']
 d=df['Not_likely']
 
-A=a/b
-B=c/d
+A=df.Interested/df.Likely
+print(A)
+
+B=df.Not_interested/df.Not_likely
+print(B)
+
+
+
+
+
+
+
+
+
+
+
+
 

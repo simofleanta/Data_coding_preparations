@@ -274,62 +274,62 @@ Year,Month,Day,Season,Hour,Day_Time,Item,Sales,Number_Bikes,holiday,weekday,work
 2020,Sep,30,autumn,19,Mittag,Orbea,4372,830,0,Saturday,Yes,very good,38,19,24,25
 2020,Okt,1,autumn,20,Morgen,Orbea,1949,480,0,Sunday,No,poor,38,19,24,25
 2020,Okt,2,autumn,21,Morgen,Orbea,2302,616,0,Monday,No,poor,38,19,24,25
-2020,Okt,3,autumn,22,Morgen,Orbea,3240,330,0,Tuesday,Yes,poor,38,19,24,25
+2020,Okt,3,autumn,22,Morgen,Orbea,3240,330,0,Tuesday,Yes,poor,38,19,24,18
 2020,Okt,4,autumn,23,Mittag,Orbea,3970,486,0,Wednesday,Yes,very good,38,19,24,25
 2020,Okt,5,autumn,0,Mittag,Orbea,4267,559,0,Thursday,Yes,very good,38,19,24,25
 2020,Okt,6,autumn,1,Mittag,Orbea,4126,639,0,Friday,Yes,very good,38,19,24,25
 2020,Okt,7,autumn,2,Mittag,Orbea,4036,949,0,Saturday,Yes,very good,38,19,24,25
 2020,Okt,8,autumn,3,Mittag,Orbea,3174,223,0,Sunday,No,very good,38,19,24,25
-2020,Okt,9,autumn,4,Mittag,Amsterdam,3114,23,0,Monday,No,very good,40,25,35,Amsterdam
-2020,Okt,10,autumn,5,Mittag,Amsterdam,3603,15,1,Tuesday,No,very good,40,25,35,Amsterdam
-2020,Okt,11,autumn,6,Morgen,Amsterdam,3896,667,0,Wednesday,Yes,poor,40,25,35,Amsterdam
-2020,Okt,12,autumn,7,Abend,Amsterdam,2199,217,0,Thursday,Yes,very poor,40,25,35,Amsterdam
-2020,Okt,13,autumn,8,Morgen,Amsterdam,2623,290,0,Friday,Yes,poor,40,25,35,Amsterdam
-2020,Okt,14,autumn,9,Morgen,Amsterdam,3115,529,0,Saturday,Yes,poor,40,25,35,Amsterdam
-2020,Okt,15,autumn,10,Mittag,Amsterdam,3318,18,0,Sunday,No,very good,40,25,35,Amsterdam
-2020,Okt,16,autumn,11,Mittag,Amsterdam,3293,174,0,Monday,No,very good,40,25,35,Amsterdam
-2020,Okt,17,autumn,12,Mittag,Amsterdam,3857,713,0,Tuesday,Yes,very good,40,25,35,Amsterdam
-2020,Okt,18,autumn,13,Morgen,Amsterdam,4111,637,0,Wednesday,Yes,poor,40,25,35,Amsterdam
-2020,Okt,19,autumn,14,Abend,Amsterdam,2170,254,0,Thursday,Yes,very poor,40,25,35,Amsterdam
-2020,Okt,20,autumn,15,Mittag,Amsterdam,3724,471,0,Friday,Yes,very good,40,25,35,Amsterdam
-2020,Okt,21,autumn,16,Mittag,Amsterdam,3628,676,0,Saturday,Yes,very good,40,25,35,Amsterdam
-2020,Okt,22,autumn,17,Mittag,Amsterdam,2809,14,0,Sunday,No,very good,40,25,35,Amsterdam
-2020,Okt,23,autumn,18,Mittag,Amsterdam,2762,16,0,Monday,No,very good,40,25,35,Amsterdam
-2020,Okt,24,autumn,19,Mittag,Amsterdam,3488,69,0,Tuesday,Yes,very good,40,25,35,Amsterdam
-2020,Okt,25,autumn,20,Mittag,Amsterdam,3992,69,0,Wednesday,Yes,very good,40,25,35,Amsterdam
-2020,Okt,26,autumn,21,Morgen,Amsterdam,3490,40,0,Thursday,Yes,poor,40,25,35,Amsterdam
-2020,Okt,27,autumn,22,Morgen,Amsterdam,2419,24,0,Friday,Yes,poor,40,25,35,Amsterdam
-2020,Okt,28,autumn,23,Morgen,Amsterdam,3291,456,0,Saturday,Yes,poor,40,25,35,Amsterdam
-2020,Okt,29,autumn,0,Abend,Amsterdam,570,57,0,Sunday,No,very poor,40,25,35,Amsterdam
-2020,Okt,30,autumn,1,Mittag,Amsterdam,2446,88,0,Monday,No,very good,40,25,35,Amsterdam
-2020,Okt,31,autumn,2,Mittag,Amsterdam,3307,37,0,Tuesday,Yes,very good,40,25,35,Amsterdam
-2020,Nov,1,autumn,3,Mittag,Amsterdam,3658,410,0,Wednesday,Yes,very good,40,25,35,Amsterdam
-2020,Nov,2,autumn,5,Mittag,Amsterdam,3816,370,0,Thursday,Yes,very good,40,25,35,Amsterdam
-2020,Nov,3,autumn,6,Mittag,Amsterdam,3656,318,0,Friday,Yes,very good,40,25,35,Amsterdam
-2020,Nov,4,autumn,7,Morgen,Amsterdam,3576,470,0,Saturday,Yes,poor,40,25,35,Amsterdam
-2020,Nov,5,autumn,8,Mittag,Amsterdam,2770,115,0,Sunday,No,very good,40,25,35,Amsterdam
-2020,Nov,6,autumn,9,Mittag,Amsterdam,2697,95,0,Monday,No,very good,40,25,35,Amsterdam
-2020,Nov,7,autumn,10,Mittag,Amsterdam,3662,373,0,Tuesday,Yes,very good,40,25,35,Amsterdam
-2020,Nov,8,autumn,11,Mittag,Amsterdam,3829,376,0,Wednesday,Yes,very good,40,25,35,Amsterdam
-2020,Nov,9,autumn,12,Mittag,Amsterdam,3804,305,0,Thursday,Yes,very good,40,25,35,Amsterdam
-2020,Nov,10,autumn,13,Morgen,Amsterdam,2743,190,0,Friday,Yes,poor,40,25,35,Amsterdam
-2020,Nov,11,autumn,14,Mittag,Amsterdam,2928,440,1,Saturday,No,very good,40,25,35,Amsterdam
-2020,Nov,12,autumn,15,Mittag,Amsterdam,2792,127,0,Sunday,No,very good,40,25,35,Amsterdam
-2020,Nov,13,autumn,16,Mittag,Amsterdam,2713,100,0,Monday,No,very good,40,25,35,Amsterdam
-2020,Nov,14,autumn,17,Mittag,Amsterdam,3891,595,0,Tuesday,Yes,very good,40,25,35,Amsterdam
-2020,Nov,15,autumn,18,Morgen,Amsterdam,3746,449,0,Wednesday,Yes,poor,40,25,35,Amsterdam
-2020,Nov,16,autumn,19,Abend,Amsterdam,1672,145,0,Thursday,Yes,very poor,40,25,35,Amsterdam
-2020,Nov,17,autumn,20,Morgen,Amsterdam,2914,139,0,Friday,Yes,poor,40,25,35,Amsterdam
-2020,Nov,18,autumn,21,Mittag,Amsterdam,3147,245,0,Saturday,Yes,very good,40,25,35,Amsterdam
-2020,Nov,19,autumn,22,Mittag,Amsterdam,2720,943,0,Sunday,No,very good,40,25,35,Amsterdam
-2020,Nov,20,autumn,23,Morgen,Amsterdam,2733,787,0,Monday,No,poor,40,25,35,Amsterdam
-2020,Nov,21,autumn,0,Abend,Amsterdam,2545,220,0,Tuesday,Yes,very poor,40,25,35,Amsterdam
-2020,Nov,22,autumn,1,Abend,Amsterdam,1538,69,0,Wednesday,Yes,very poor,40,25,35,Amsterdam
-2020,Nov,23,autumn,2,Morgen,Amsterdam,2454,112,0,Thursday,Yes,poor,40,25,35,Amsterdam
-2020,Nov,24,autumn,3,Mittag,Amsterdam,935,560,1,Friday,No,very good,40,25,35,Amsterdam
-2020,Nov,25,autumn,4,Mittag,Amsterdam,1697,80,0,Saturday,Yes,very good,40,25,35,Amsterdam
-2020,Nov,26,autumn,5,Mittag,Amsterdam,1819,124,0,Sunday,No,very good,40,25,35,Amsterdam
-2020,Nov,27,autumn,6,Mittag,Amsterdam,2261,810,0,Monday,No,very good,40,25,35,Amsterdam
+2020,Okt,9,autumn,4,Mittag,Amsterdam,3114,23,0,Monday,No,very good,40,25,35,18
+2020,Okt,10,autumn,5,Mittag,Amsterdam,3603,15,1,Tuesday,No,very good,40,25,35,18
+2020,Okt,11,autumn,6,Morgen,Amsterdam,3896,667,0,Wednesday,Yes,poor,40,25,35,18
+2020,Okt,12,autumn,7,Abend,Amsterdam,2199,217,0,Thursday,Yes,very poor,40,25,35,18
+2020,Okt,13,autumn,8,Morgen,Amsterdam,2623,290,0,Friday,Yes,poor,40,25,35,18
+2020,Okt,14,autumn,9,Morgen,Amsterdam,3115,529,0,Saturday,Yes,poor,40,25,35,18
+2020,Okt,15,autumn,10,Mittag,Amsterdam,3318,18,0,Sunday,No,very good,40,25,35,18
+2020,Okt,16,autumn,11,Mittag,Amsterdam,3293,174,0,Monday,No,very good,40,25,35,18
+2020,Okt,17,autumn,12,Mittag,Amsterdam,3857,713,0,Tuesday,Yes,very good,40,25,35,18
+2020,Okt,18,autumn,13,Morgen,Amsterdam,4111,637,0,Wednesday,Yes,poor,40,25,35,18
+2020,Okt,19,autumn,14,Abend,Amsterdam,2170,254,0,Thursday,Yes,very poor,40,25,35,18
+2020,Okt,20,autumn,15,Mittag,Amsterdam,3724,471,0,Friday,Yes,very good,40,25,35,18
+2020,Okt,21,autumn,16,Mittag,Amsterdam,3628,676,0,Saturday,Yes,very good,40,25,35,18
+2020,Okt,22,autumn,17,Mittag,Amsterdam,2809,14,0,Sunday,No,very good,40,25,35,18
+2020,Okt,23,autumn,18,Mittag,Amsterdam,2762,16,0,Monday,No,very good,40,25,35,18
+2020,Okt,24,autumn,19,Mittag,Amsterdam,3488,69,0,Tuesday,Yes,very good,40,25,35,18
+2020,Okt,25,autumn,20,Mittag,Amsterdam,3992,69,0,Wednesday,Yes,very good,40,25,35,18
+2020,Okt,26,autumn,21,Morgen,Amsterdam,3490,40,0,Thursday,Yes,poor,40,25,35,18
+2020,Okt,27,autumn,22,Morgen,Amsterdam,2419,24,0,Friday,Yes,poor,40,25,35,18
+2020,Okt,28,autumn,23,Morgen,Amsterdam,3291,456,0,Saturday,Yes,poor,40,25,35,18
+2020,Okt,29,autumn,0,Abend,Amsterdam,570,57,0,Sunday,No,very poor,40,25,35,18
+2020,Okt,30,autumn,1,Mittag,Amsterdam,2446,88,0,Monday,No,very good,40,25,35,18
+2020,Okt,31,autumn,2,Mittag,Amsterdam,3307,37,0,Tuesday,Yes,very good,40,25,35,18
+2020,Nov,1,autumn,3,Mittag,Amsterdam,3658,410,0,Wednesday,Yes,very good,40,25,35,18
+2020,Nov,2,autumn,5,Mittag,Amsterdam,3816,370,0,Thursday,Yes,very good,40,25,35,18
+2020,Nov,3,autumn,6,Mittag,Amsterdam,3656,318,0,Friday,Yes,very good,40,25,35,18
+2020,Nov,4,autumn,7,Morgen,Amsterdam,3576,470,0,Saturday,Yes,poor,40,25,35,18
+2020,Nov,5,autumn,8,Mittag,Amsterdam,2770,115,0,Sunday,No,very good,40,25,35,18
+2020,Nov,6,autumn,9,Mittag,Amsterdam,2697,95,0,Monday,No,very good,40,25,35,18
+2020,Nov,7,autumn,10,Mittag,Amsterdam,3662,373,0,Tuesday,Yes,very good,40,25,35,18
+2020,Nov,8,autumn,11,Mittag,Amsterdam,3829,376,0,Wednesday,Yes,very good,40,25,35,18
+2020,Nov,9,autumn,12,Mittag,Amsterdam,3804,305,0,Thursday,Yes,very good,40,25,35,18
+2020,Nov,10,autumn,13,Morgen,Amsterdam,2743,190,0,Friday,Yes,poor,40,25,35,18
+2020,Nov,11,autumn,14,Mittag,Amsterdam,2928,440,1,Saturday,No,very good,40,25,35,18
+2020,Nov,12,autumn,15,Mittag,Amsterdam,2792,127,0,Sunday,No,very good,40,25,35,18
+2020,Nov,13,autumn,16,Mittag,Amsterdam,2713,100,0,Monday,No,very good,40,25,35,18
+2020,Nov,14,autumn,17,Mittag,Amsterdam,3891,595,0,Tuesday,Yes,very good,40,25,35,18
+2020,Nov,15,autumn,18,Morgen,Amsterdam,3746,449,0,Wednesday,Yes,poor,40,25,35,18
+2020,Nov,16,autumn,19,Abend,Amsterdam,1672,145,0,Thursday,Yes,very poor,40,25,35,18
+2020,Nov,17,autumn,20,Morgen,Amsterdam,2914,139,0,Friday,Yes,poor,40,25,35,18
+2020,Nov,18,autumn,21,Mittag,Amsterdam,3147,245,0,Saturday,Yes,very good,40,25,35,18
+2020,Nov,19,autumn,22,Mittag,Amsterdam,2720,943,0,Sunday,No,very good,40,25,35,18
+2020,Nov,20,autumn,23,Morgen,Amsterdam,2733,787,0,Monday,No,poor,40,25,35,18
+2020,Nov,21,autumn,0,Abend,Amsterdam,2545,220,0,Tuesday,Yes,very poor,40,25,35,18
+2020,Nov,22,autumn,1,Abend,Amsterdam,1538,69,0,Wednesday,Yes,very poor,40,25,35,18
+2020,Nov,23,autumn,2,Morgen,Amsterdam,2454,112,0,Thursday,Yes,poor,40,25,35,18
+2020,Nov,24,autumn,3,Mittag,Amsterdam,935,560,1,Friday,No,very good,40,25,35,18
+2020,Nov,25,autumn,4,Mittag,Amsterdam,1697,80,0,Saturday,Yes,very good,40,25,35,18
+2020,Nov,26,autumn,5,Mittag,Amsterdam,1819,124,0,Sunday,No,very good,40,25,35,18
+2020,Nov,27,autumn,6,Mittag,Amsterdam,2261,810,0,Monday,No,very good,40,25,35,18
 2020,Nov,28,autumn,7,Mittag,Cube,3614,253,0,Tuesday,Yes,very good,10,3,27,26
 2020,Nov,29,autumn,8,Morgen,Cube,2818,96,0,Wednesday,Yes,poor,10,3,27,26
 2020,Nov,30,autumn,9,Mittag,Cube,3425,188,0,Thursday,Yes,very good,10,3,27,26
