@@ -27,6 +27,8 @@ What is the ROI"""
 #visuals with seaborn
 #visuals with plotly (also a separate section containing plotly)
 #function on roi 
+#a/b approach 
+#profitability 
 
 
 
