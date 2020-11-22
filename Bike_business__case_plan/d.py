@@ -66,7 +66,7 @@ print(Month_A.mean())
 Month_B=df.groupby(['Month','Item'])[['B']]
 print(Month_B.mean())
 
-#agg A/B per year
+#agg A/B per year #some items may not be found in certain years
 
 Year_A=df.groupby(['Year','Item'])[['A']]
 print(Year_A.mean())
