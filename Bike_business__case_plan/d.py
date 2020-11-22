@@ -40,6 +40,7 @@ b=df['Likely']
 c=df['Not_interested']
 d=df['Not_likely']
 
+
 #subset add calculation to dataset
 #add df['a]=forumula
 df['A']=df.Interested/df.Likely
@@ -50,6 +51,14 @@ print(df.columns)
 print(df.head (3))
 
 #aggregate ABs 
+
+Season_A=df.groupby(['Season','Item'])[['A']]
+print(Season_A.mean())
+
+Season_B=df.groupby(['Season','Item'])[['B']]
+print(Season_B.mean())
+
+
 
 
 
