@@ -66,17 +66,23 @@ Year_B=df.groupby(['Year','Item'])[['B']]
 #profitability of product forumula
 #cost to produce =2000 per product *no of prods
 #subtract cost to produce from revenues
-#if profitability per product solt= product profitability / number of products 
+#if profitability per product sold= product profitability / number of products 
 
 df['Cost_to_produce']=2000*df.Number_Bikes
 print(df.columns)
 df['Profitability']=df.Cost_to_produce-df.Sales
+df['Profitability_p']=df.Profitability/df.Number_Bikes
 print(df.columns)
 print(df.head(3))
 
 """Aggregate profitability per bike brand"""
 Profitability_group=df.groupby(['Season','Item'])[['Profitability']]
 print(Profitability_group.mean())
+
+Profitability_p=df.groupby(['Season','Item'])[['Profitability_p']]
+print(Profitability_p.mean())
+
+
 
 
 
