@@ -50,13 +50,25 @@ print(df.columns)
 #print dataset with the situations A,B
 print(df.head (3))
 
-#aggregate ABs 
+#aggregate ABs/season
 
 Season_A=df.groupby(['Season','Item'])[['A']]
 print(Season_A.mean())
 
 Season_B=df.groupby(['Season','Item'])[['B']]
 print(Season_B.mean())
+
+#agg A/B /mth
+
+Month_A=df.groupby(['Month','Item'])[['A']]
+print(Month_A.mean())
+
+Month_B=df.groupby(['Month','Item'])[['B']]
+print(Month_B.mean())
+
+
+
+
 
 
 
