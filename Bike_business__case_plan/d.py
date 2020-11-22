@@ -40,11 +40,16 @@ b=df['Likely']
 c=df['Not_interested']
 d=df['Not_likely']
 
-A=df.Interested/df.Likely
-print(A)
+#subset add calculation to dataset
+#add df['a]=forumula
+df['A']=df.Interested/df.Likely
+df['B']=df.Not_interested/df.Not_likely
+print(df.columns)
 
-B=df.Not_interested/df.Not_likely
-print(B)
+#print dataset with the situations A,B
+print(df.head (3))
+
+#aggregate ABs 
 
 
 
