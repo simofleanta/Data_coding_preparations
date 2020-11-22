@@ -97,8 +97,6 @@ Sales=y20['Sales']
 Season=y20['Season']
 Item=y20['Item']
 
-
-
 fig = go.Figure(data=go.Heatmap(                   
                    x=Item,
                    y=Season,
