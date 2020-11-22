@@ -56,10 +56,10 @@ print(Month_B.mean())
 #agg A/B per year #some items may not be found in certain years
 
 Year_A=df.groupby(['Year','Item'])[['A']]
-#print(Year_A.mean())
+print(Year_A.mean())
 
 Year_B=df.groupby(['Year','Item'])[['B']]
-#print(Year_B.mean())
+print(Year_B.mean())
 
 ab=df
 
@@ -99,11 +99,11 @@ import plotly.express as px
 abc=df
 df = px.data.tips()
 fig = px.density_heatmap(abc, x="Item", y="Profitability", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Profitability distribution on items')
-#plotly.offline.plot(fig, filename='bike')
+plotly.offline.plot(fig, filename='bike')
 
 df = px.data.tips()
 fig = px.density_heatmap(abc, x="Month", y="Profitability", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Profitability distribution on months')
-#plotly.offline.plot(fig, filename='bike')
+plotly.offline.plot(fig, filename='bike')
 
 
 
