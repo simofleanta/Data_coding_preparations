@@ -56,10 +56,14 @@ print(Month_B.mean())
 #agg A/B per year #some items may not be found in certain years
 
 Year_A=df.groupby(['Year','Item'])[['A']]
-print(Year_A.mean())
+#print(Year_A.mean())
 
 Year_B=df.groupby(['Year','Item'])[['B']]
-print(Year_B.mean())
+#print(Year_B.mean())
+
+from scipy.stats import norm
+norm.ppf(0.975)
+
 
 
 
