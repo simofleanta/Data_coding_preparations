@@ -211,6 +211,47 @@ def roi(investment,bike_costs,loss):
 ROI=roi(investment,bike_costs,loss)
 print(ROI)
 
+"""Given the differences between the hears, it worth using an A/B approach over ites in years or season/months """
+
+a=df['Interested']
+b=df['Likely']
+c=df['Not_interested']
+d=df['Not_likely']
+
+#subset add calculation to dataset
+#add df['a]=forumula
+df['A']=df.Interested/df.Likely
+df['B']=df.Not_interested/df.Not_likely
+print(df.columns)
+
+#print dataset with the situations A,B
+print(df.head (3))
+
+#aggregate ABs/season
+
+Season_A=df.groupby(['Season','Item'])[['A']]
+print(Season_A.mean())
+
+Season_B=df.groupby(['Season','Item'])[['B']]
+print(Season_B.mean())
+
+#agg A/B /mth
+
+Month_A=df.groupby(['Month','Item'])[['A']]
+print(Month_A.mean())
+
+Month_B=df.groupby(['Month','Item'])[['B']]
+print(Month_B.mean())
+
+#agg A/B per year #some items may not be found in certain years
+
+Year_A=df.groupby(['Year','Item'])[['A']]
+print(Year_A.mean())
+
+Year_B=df.groupby(['Year','Item'])[['B']]
+print(Year_B.mean())
+
+
 
 
 
