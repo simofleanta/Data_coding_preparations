@@ -19,8 +19,7 @@ import plotly.express as px
 """A friend has a bike business and wants to see the business evolution given the pandemic situ
 if 2019 is better than 2020
 he would like to see what bikes sell best?
-what are the best months and days?
-What is the ROI"""
+what are the best months and days?"""
 
 #EDA-gropings, sortings, mean, max, sum values in aggregs 
 #pivotations

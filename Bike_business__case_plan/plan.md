@@ -9,6 +9,8 @@ What is the ROI"""
 #visuals with seaborn
 #visuals with plotly (also a separate section containing plotly)
 #function on roi 
+#a/b approach 
+#profitability
 
 
 <img width="740" alt="2020" src="https://user-images.githubusercontent.com/47668423/99837047-3ffb6d00-2b67-11eb-8606-969f54b5b327.png">
