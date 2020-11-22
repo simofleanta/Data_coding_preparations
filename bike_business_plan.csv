@@ -1,732 +1,732 @@
-Year,Month,Day,Season,Hour,Day_Time,Item,Sales,Number_Bikes,holiday,weekday,workingday,weather_forecast,Interested,Likely,Not_interested,Not_likely
-2020,Jan,1,winter,0,Morgen,Panama,654,31,0,Sunday,No,poor,30,15,45,28
-2020,Jan,2,winter,1,Morgen,Panama,670,131,0,Monday,No,poor,30,15,45,28
-2020,Jan,3,winter,2,Mittag,Panama,1229,120,0,Tuesday,Yes,very good,30,15,45,28
-2020,Jan,4,winter,3,Mittag,Panama,1454,108,0,Wednesday,Yes,very good,30,15,45,28
-2020,Jan,5,winter,4,Mittag,Panama,1518,82,0,Thursday,Yes,very good,30,15,45,28
-2020,Jan,6,winter,5,Mittag,Panama,1518,88,0,Friday,Yes,very good,30,15,45,28
-2020,Jan,7,winter,6,Morgen,Panama,1362,148,0,Saturday,Yes,poor,30,15,45,28
-2020,Jan,8,winter,7,Morgen,Panama,891,68,0,Sunday,No,poor,30,15,45,28
-2020,Jan,9,winter,8,Mittag,Panama,768,54,0,Monday,No,very good,30,15,45,28
-2020,Jan,10,winter,9,Mittag,Panama,1280,41,0,Tuesday,Yes,very good,30,15,45,28
-2020,Jan,11,winter,10,Morgen,Panama,1220,43,0,Wednesday,Yes,poor,30,15,45,28
-2020,Jan,12,winter,11,Mittag,Panama,1137,25,0,Thursday,Yes,very good,30,15,45,28
-2020,Jan,13,winter,12,Mittag,Panama,1368,38,0,Friday,Yes,very good,30,15,45,28
-2020,Jan,14,winter,13,Mittag,Panama,1367,54,0,Saturday,Yes,very good,30,15,45,28
-2020,Jan,15,winter,14,Morgen,Panama,1026,222,0,Sunday,No,poor,30,15,45,28
-2020,Jan,16,winter,15,Mittag,Panama,953,251,0,Monday,No,very good,30,15,45,28
-2020,Jan,17,winter,16,Morgen,Panama,883,117,1,Tuesday,No,poor,30,15,45,28
-2020,Jan,18,winter,17,Morgen,Panama,674,9,0,Wednesday,Yes,poor,30,15,45,28
-2020,Jan,19,winter,18,Morgen,Pegas,1572,78,0,Thursday,Yes,poor,15,8,23,28
-2020,Jan,20,winter,19,Morgen,Pegas,1844,83,0,Friday,Yes,poor,15,8,23,28
-2020,Jan,21,winter,20,Mittag,Pegas,1468,75,0,Saturday,Yes,very good,15,8,23,28
-2020,Jan,22,winter,21,Mittag,Pegas,888,93,0,Sunday,No,very good,15,8,23,28
-2020,Jan,23,winter,22,Mittag,Pegas,836,150,0,Monday,No,very good,15,8,23,28
-2020,Jan,24,winter,23,Mittag,Pegas,1330,86,0,Tuesday,Yes,very good,15,8,23,28
-2020,Jan,25,winter,0,Morgen,Pegas,1799,186,0,Wednesday,Yes,poor,15,8,23,28
-2020,Jan,26,winter,1,Abend,Pegas,472,34,0,Thursday,Yes,very poor,15,8,23,28
-2020,Jan,27,winter,2,Mittag,Pegas,416,15,0,Friday,Yes,very good,15,8,23,28
-2020,Jan,28,winter,3,Morgen,Pegas,1129,38,0,Saturday,Yes,poor,15,8,23,28
-2020,Jan,29,winter,4,Mittag,Pegas,975,123,0,Sunday,No,very good,15,8,23,28
-2020,Jan,30,winter,6,Mittag,Pegas,956,140,0,Monday,No,very good,15,8,23,28
-2020,Jan,31,winter,7,Morgen,Pegas,1459,42,0,Tuesday,Yes,poor,15,8,23,28
-2020,Feb,1,winter,8,Morgen,Pegas,1313,47,0,Wednesday,Yes,poor,15,8,23,28
-2020,Feb,2,winter,9,Morgen,Pegas,1454,72,0,Thursday,Yes,poor,15,8,23,28
-2020,Feb,3,winter,10,Mittag,Pegas,1489,61,0,Friday,Yes,very good,15,8,23,28
-2020,Feb,4,winter,11,Morgen,Pegas,1620,88,0,Saturday,Yes,poor,15,8,23,28
-2020,Feb,5,winter,12,Morgen,Pegas,905,100,0,Sunday,No,poor,15,8,23,28
-2020,Feb,6,winter,13,Mittag,Pegas,1269,354,0,Monday,No,very good,15,8,23,28
-2020,Feb,7,winter,14,Mittag,Pegas,1592,120,0,Tuesday,Yes,very good,15,8,23,28
-2020,Feb,8,winter,15,Mittag,Pegas,1466,64,0,Wednesday,Yes,very good,15,8,23,28
-2020,Feb,9,winter,16,Morgen,Pegas,1552,53,0,Thursday,Yes,poor,15,8,23,28
-2020,Feb,10,winter,17,Mittag,Pegas,1491,47,0,Friday,Yes,very good,15,8,23,28
-2020,Feb,11,winter,18,Mittag,Pegas,1597,149,0,Saturday,Yes,very good,15,8,23,28
-2020,Feb,12,winter,19,Mittag,Pegas,1184,288,0,Sunday,No,very good,15,8,23,28
-2020,Feb,13,winter,20,Mittag,Pegas,1192,397,0,Monday,No,very good,15,8,23,28
-2020,Feb,14,winter,21,Mittag,Pegas,1705,208,0,Tuesday,Yes,very good,15,8,23,28
-2020,Feb,15,winter,22,Mittag,Pegas,1675,140,0,Wednesday,Yes,very good,15,8,23,28
-2020,Feb,16,winter,23,Mittag,Pegas,1897,218,0,Thursday,Yes,very good,15,8,23,28
-2020,Feb,17,winter,0,Mittag,Pegas,2216,259,0,Friday,Yes,very good,15,8,23,28
-2020,Feb,18,winter,1,Mittag,Pegas,2348,579,0,Saturday,Yes,very good,15,8,23,28
-2020,Feb,19,winter,4,Mittag,Pegas,1103,532,0,Sunday,No,very good,15,8,23,28
-2020,Feb,20,winter,5,Mittag,Pegas,1173,639,0,Monday,No,very good,15,8,23,28
-2020,Feb,21,winter,6,Morgen,Pegas,912,195,1,Tuesday,No,poor,15,8,23,28
-2020,Feb,22,winter,7,Mittag,Pegas,1376,74,0,Wednesday,Yes,very good,15,8,23,28
-2020,Feb,23,winter,8,Mittag,Pegas,1778,139,0,Thursday,Yes,very good,15,8,23,28
-2020,Feb,24,winter,9,Morgen,Pegas,1707,100,0,Friday,Yes,poor,15,8,23,28
-2020,Feb,25,winter,10,Morgen,Pegas,1341,120,0,Saturday,Yes,poor,15,8,23,28
-2020,Feb,26,winter,11,Mittag,Pegas,1545,424,0,Sunday,No,very good,15,8,23,28
-2020,Feb,27,winter,12,Mittag,Pegas,1708,694,0,Monday,No,very good,15,8,23,28
-2020,Feb,28,winter,13,Morgen,Pegas,1365,81,0,Tuesday,Yes,poor,15,8,23,28
-2020,Mar,1,winter,14,Mittag,Pegas,1714,137,0,Wednesday,Yes,very good,15,8,23,28
-2020,Mar,2,winter,15,Mittag,Raleigh,1903,231,0,Thursday,Yes,very good,68,34,35,20
-2020,Mar,3,winter,16,Mittag,Raleigh,1562,123,0,Friday,Yes,very good,68,34,35,20
-2020,Mar,4,winter,17,Morgen,Raleigh,1730,214,0,Saturday,Yes,poor,68,34,35,20
-2020,Mar,5,winter,18,Morgen,Raleigh,1437,640,0,Sunday,No,poor,68,34,35,20
-2020,Mar,6,winter,19,Morgen,Raleigh,491,114,0,Monday,No,poor,68,34,35,20
-2020,Mar,7,winter,20,Mittag,Raleigh,1628,244,0,Tuesday,Yes,very good,68,34,35,20
-2020,Mar,8,winter,21,Mittag,Raleigh,1817,316,0,Wednesday,Yes,very good,68,34,35,20
-2020,Mar,9,winter,22,Morgen,Raleigh,1700,191,0,Thursday,Yes,poor,68,34,35,20
-2020,Mar,10,winter,23,Abend,Raleigh,577,46,0,Friday,Yes,very poor,68,34,35,20
-2020,Mar,11,winter,0,Morgen,Raleigh,1730,247,0,Saturday,Yes,Poor,68,34,35,20
-2020,Mar,12,winter,1,Mittag,Raleigh,1408,724,0,Sunday,No,very good,68,34,35,20
-2020,Mar,13,winter,2,Mittag,Raleigh,1435,982,0,Monday,No,very good,68,34,35,20
-2020,Mar,14,winter,4,Mittag,Raleigh,1687,359,0,Tuesday,Yes,very good,68,34,35,20
-2020,Mar,15,winter,5,Morgen,Raleigh,1767,289,0,Wednesday,Yes,poor,68,34,35,20
-2020,Mar,16,winter,6,Morgen,Raleigh,1871,321,0,Thursday,Yes,poor,68,34,35,20
-2020,Mar,17,winter,7,Mittag,Raleigh,2320,424,0,Friday,Yes,very good,68,34,35,20
-2020,Mar,18,winter,8,Mittag,Raleigh,2355,884,0,Saturday,Yes,very good,68,34,35,20
-2020,Mar,19,winter,9,Mittag,Raleigh,1693,424,0,Sunday,No,very good,68,34,35,20
-2020,Mar,20,winter,10,Mittag,Raleigh,1424,104,0,Monday,No,very good,68,34,35,20
-2020,Mar,21,spring,11,Morgen,Raleigh,1676,401,0,Tuesday,Yes,poor,68,34,35,20
-2020,Mar,22,spring,12,Mittag,Raleigh,2243,460,0,Wednesday,Yes,very good,68,34,35,20
-2020,Mar,23,spring,13,Morgen,Raleigh,1918,203,0,Thursday,Yes,poor,68,34,35,20
-2020,Mar,24,spring,14,Morgen,Raleigh,1699,166,0,Friday,Yes,poor,68,34,35,20
-2020,Mar,25,spring,15,Mittag,Raleigh,1910,300,0,Saturday,Yes,very good,68,34,35,20
-2020,Mar,26,spring,16,Mittag,Raleigh,1515,981,0,Sunday,No,very good,68,34,35,20
-2020,Mar,27,spring,17,Morgen,Raleigh,1221,472,0,Monday,No,poor,68,34,35,20
-2020,Mar,28,spring,18,Mittag,Raleigh,1806,222,0,Tuesday,Yes,very good,68,34,35,20
-2020,Mar,29,spring,19,Mittag,Raleigh,2108,317,0,Wednesday,Yes,very good,68,34,35,20
-2020,Mar,30,spring,20,Morgen,Raleigh,1368,168,0,Thursday,Yes,poor,68,34,35,20
-2020,Mar,31,spring,21,Abend,Raleigh,1506,179,0,Friday,Yes,very poor,68,34,35,20
-2020,Apr,1,spring,22,Morgen,Raleigh,1920,307,0,Saturday,Yes,poor,68,34,35,20
-2020,Apr,2,spring,23,Morgen,Raleigh,1354,898,0,Sunday,No,poor,68,34,35,20
-2020,Apr,3,spring,0,Mittag,Raleigh,1598,651,0,Monday,No,very good,68,34,35,20
-2020,Apr,4,spring,1,Mittag,Raleigh,2381,734,0,Tuesday,Yes,very good,68,34,35,20
-2020,Apr,5,spring,2,Morgen,Raleigh,1628,167,0,Wednesday,Yes,poor,68,34,35,20
-2020,Apr,6,spring,4,Mittag,Raleigh,2395,413,0,Thursday,Yes,very good,68,34,35,20
-2020,Apr,7,spring,5,Mittag,Specialized,2570,571,0,Friday,Yes,very good,74,37,35,23
-2020,Apr,8,spring,6,Morgen,Specialized,1299,172,0,Saturday,Yes,poor,74,37,35,23
-2020,Apr,9,spring,7,Morgen,Specialized,1576,879,0,Sunday,No,poor,74,37,35,23
-2020,Apr,10,spring,8,Morgen,Specialized,1707,188,0,Monday,No,poor,74,37,35,23
-2020,Apr,11,spring,9,Morgen,Specialized,2493,855,0,Tuesday,Yes,poor,74,37,35,23
-2020,Apr,12,spring,10,Morgen,Specialized,1777,257,0,Wednesday,Yes,poor,74,37,35,23
-2020,Apr,13,spring,11,Morgen,Specialized,1953,209,0,Thursday,Yes,poor,74,37,35,23
-2020,Apr,14,spring,12,Mittag,Specialized,2738,529,0,Friday,Yes,very good,74,37,35,23
-2020,Apr,15,spring,13,Mittag,Specialized,2484,642,1,Saturday,No,very good,74,37,35,23
-2020,Apr,16,spring,14,Abend,Specialized,674,121,0,Sunday,No,very poor,74,37,35,23
-2020,Apr,17,spring,15,Mittag,Specialized,2186,58,0,Monday,No,very good,74,37,35,23
-2020,Apr,18,spring,16,Mittag,Specialized,2760,669,0,Tuesday,Yes,very good,74,37,35,23
-2020,Apr,19,spring,17,Morgen,Specialized,2795,409,0,Wednesday,Yes,poor,74,37,35,23
-2020,Apr,20,spring,18,Mittag,Specialized,3331,613,0,Thursday,Yes,very good,74,37,35,23
-2020,Apr,21,spring,19,Mittag,Specialized,3444,745,0,Friday,Yes,very good,74,37,35,23
-2020,Apr,22,spring,20,Morgen,Specialized,1506,177,0,Saturday,Yes,poor,74,37,35,23
-2020,Apr,23,spring,21,Morgen,Specialized,2574,462,0,Sunday,No,poor,74,37,35,23
-2020,Apr,24,spring,22,Morgen,Specialized,2481,710,0,Monday,No,poor,74,37,35,23
-2020,Apr,25,spring,23,Mittag,Specialized,3300,773,0,Tuesday,Yes,very good,74,37,35,23
-2020,Apr,26,spring,0,Mittag,Specialized,3722,678,0,Wednesday,Yes,very good,74,37,35,23
-2020,Apr,27,spring,1,Morgen,Specialized,3325,547,0,Thursday,Yes,poor,74,37,35,23
-2020,Apr,28,spring,2,Morgen,Specialized,3489,569,0,Friday,Yes,poor,74,37,35,23
-2020,Apr,29,spring,4,Mittag,Specialized,3717,878,0,Saturday,Yes,very good,74,37,35,23
-2020,Apr,30,spring,5,Mittag,Specialized,3347,965,0,Sunday,No,very good,74,37,35,23
-2020,May,1,spring,6,Morgen,Specialized,2213,138,0,Monday,No,poor,74,37,35,23
-2020,May,2,spring,7,Morgen,Specialized,3554,847,0,Tuesday,Yes,poor,74,37,35,23
-2020,May,3,spring,8,Morgen,Specialized,3848,603,0,Wednesday,Yes,poor,74,37,35,23
-2020,May,4,spring,9,Morgen,Specialized,2378,255,0,Thursday,Yes,poor,74,37,35,23
-2020,May,5,spring,10,Mittag,Specialized,3819,614,0,Friday,Yes,very good,74,37,35,23
-2020,May,6,spring,11,Mittag,Specialized,3714,894,0,Saturday,Yes,very good,74,37,35,23
-2020,May,7,spring,12,Mittag,Specialized,3102,612,0,Sunday,No,very good,74,37,35,23
-2020,May,8,spring,13,Mittag,Specialized,2932,  ,0,Monday,No,very good,74,37,35,23
-2020,May,9,spring,14,Mittag,Specialized,3698,664,0,Tuesday,Yes,very good,74,37,35,23
-2020,May,10,spring,15,Mittag,Specialized,4109,694,0,Wednesday,Yes,very good,74,37,35,23
-2020,May,11,spring,16,Mittag,Specialized,3632,550,0,Thursday,Yes,very good,74,37,35,23
-2020,May,12,spring,17,Mittag,Specialized,4169,695,0,Friday,Yes,very good,74,37,35,23
-2020,May,13,spring,18,Morgen,Specialized,3413,692,0,Saturday,Yes,poor,74,37,35,23
-2020,May,14,spring,19,Morgen,Specialized,2507,902,0,Sunday,No,poor,74,37,35,23
-2020,May,15,spring,20,Morgen,Specialized,2971,582,0,Monday,No,poor,74,37,35,23
-2020,May,16,spring,21,Mittag,Specialized,3185,773,0,Tuesday,Yes,very good,74,37,35,23
-2020,May,17,spring,22,Morgen,Specialized,3445,678,0,Wednesday,Yes,poor,74,37,35,23
-2020,May,18,spring,23,Morgen,Mobby,3319,536,0,Thursday,Yes,poor,55,28,45,25
-2020,May,19,spring,0,Morgen,Mobby,3840,735,0,Friday,Yes,poor,55,28,45,25
-2020,May,20,spring,1,Mittag,Mobby,4008,909,0,Saturday,Yes,very good,55,28,45,25
-2020,May,21,spring,2,Mittag,Mobby,3547,258,0,Sunday,No,very good,55,28,45,25
-2020,May,22,spring,4,Mittag,Mobby,3084,1576,0,Monday,No,very good,55,28,45,25
-2020,May,23,spring,5,Morgen,Mobby,3438,836,0,Tuesday,Yes,poor,55,28,45,25
-2020,May,24,spring,6,Morgen,Mobby,3833,659,0,Wednesday,Yes,poor,55,28,45,25
-2020,May,25,spring,7,Mittag,Mobby,4238,740,0,Thursday,Yes,very good,55,28,45,25
-2020,May,26,spring,8,Mittag,Mobby,3919,758,0,Friday,Yes,very good,55,28,45,25
-2020,May,27,spring,9,Mittag,Mobby,3808,871,0,Saturday,Yes,very good,55,28,45,25
-2020,May,28,spring,10,Mittag,Mobby,2757,2001,0,Sunday,No,very good,55,28,45,25
-2020,May,29,spring,11,Mittag,Mobby,2433,2355,0,Monday,No,very good,55,28,45,25
-2020,May,30,spring,12,Mittag,Mobby,2549,1549,1,Tuesday,No,very good,55,28,45,25
-2020,May,31,spring,13,Mittag,Mobby,3309,673,0,Wednesday,Yes,very good,55,28,45,25
-2020,Jun,1,spring,14,Morgen,Mobby,3461,513,0,Thursday,Yes,poor,55,28,45,25
-2020,Jun,2,spring,15,Mittag,Mobby,4232,736,0,Friday,Yes,very good,55,28,45,25
-2020,Jun,3,spring,16,Mittag,Mobby,4414,898,0,Saturday,Yes,very good,55,28,45,25
-2020,Jun,4,spring,17,Mittag,Mobby,3473,869,0,Sunday,No,very good,55,28,45,25
-2020,Jun,5,spring,18,Morgen,Mobby,3221,685,0,Monday,No,poor,55,28,45,25
-2020,Jun,6,spring,19,Mittag,Mobby,3875,673,0,Tuesday,Yes,very good,55,28,45,25
-2020,Jun,7,spring,20,Mittag,Mobby,4070,763,0,Wednesday,Yes,very good,55,28,45,25
-2020,Jun,8,spring,21,Mittag,Mobby,3725,676,0,Thursday,Yes,very good,55,28,45,25
-2020,Jun,9,spring,22,Morgen,Mobby,3352,563,0,Friday,Yes,poor,55,28,45,25
-2020,Jun,10,spring,23,Mittag,Mobby,3771,815,0,Saturday,Yes,very good,55,28,45,25
-2020,Jun,11,spring,0,Mittag,Mobby,3237,729,0,Sunday,No,very good,55,28,45,25
-2020,Jun,12,spring,1,Mittag,Mobby,2993,67,0,Monday,No,very good,55,28,45,25
-2020,Jun,13,spring,2,Mittag,Mobby,4157,863,0,Tuesday,Yes,very good,55,28,45,25
-2020,Jun,14,spring,3,Mittag,Mobby,4164,727,0,Wednesday,Yes,very good,55,28,45,25
-2020,Jun,15,spring,4,Mittag,Mobby,4411,769,0,Thursday,Yes,very good,55,28,45,25
-2020,Jun,16,spring,5,Morgen,Mobby,3222,545,0,Friday,Yes,poor,55,28,45,25
-2020,Jun,17,spring,6,Mittag,Mobby,3981,863,0,Saturday,Yes,very good,55,28,45,25
-2020,Jun,18,spring,7,Mittag,Mobby,3312,807,0,Sunday,No,very good,55,28,45,25
-2020,Jun,19,spring,8,Morgen,Mobby,3105,639,0,Monday,No,poor,55,28,45,25
-2020,Jun,20,spring,9,Morgen,Mobby,3311,699,0,Tuesday,Yes,poor,55,28,45,25
-2020,Jun,21,summer,10,Morgen,Mobby,4061,774,0,Wednesday,Yes,poor,55,28,45,25
-2020,Jun,22,summer,11,Mittag,Mobby,3846,661,0,Thursday,Yes,very good,55,28,45,25
-2020,Jun,23,summer,12,Morgen,Mobby,4044,746,0,Friday,Yes,poor,55,28,45,25
-2020,Jun,24,summer,13,Mittag,Mobby,4022,969,0,Saturday,Yes,very good,55,28,45,25
-2020,Jun,25,summer,14,Mittag,Mobby,3420,782,0,Sunday,No,very good,55,28,45,25
-2020,Jun,26,summer,15,Mittag,Mobby,3385,920,0,Monday,No,very good,55,28,45,25
-2020,Jun,27,summer,16,Morgen,Mobby,3854,854,0,Tuesday,Yes,poor,55,28,45,25
-2020,Jun,28,summer,17,Mittag,Mobby,3916,732,0,Wednesday,Yes,very good,55,28,45,25
-2020,Jun,29,summer,18,Mittag,Mobby,4377,848,0,Thursday,Yes,very good,55,28,45,25
-2020,Jun,30,summer,19,Mittag,Mobby,4488,27,0,Friday,Yes,very good,55,28,45,25
-2020,Jul,1,summer,20,Mittag,Mobby,4116,246,0,Saturday,Yes,very good,55,28,45,25
-2020,Jul,2,summer,21,Mittag,Mobby,2915,204,0,Sunday,No,very good,55,28,45,25
-2020,Jul,3,summer,22,Morgen,Mobby,2367,282,0,Monday,No,poor,55,28,45,25
-2020,Jul,4,summer,23,Morgen,Mobby,2978,365,1,Tuesday,No,poor,55,28,45,25
-2020,Jul,5,summer,0,Mittag,Mobby,3634,131,0,Wednesday,Yes,very good,55,28,45,25
-2020,Jul,6,summer,1,Mittag,Mobby,3845,784,0,Thursday,Yes,very good,55,28,45,25
-2020,Jul,7,summer,2,Mittag,Mobby,3838,754,0,Friday,Yes,very good,55,28,45,25
-2020,Jul,8,summer,3,Morgen,Raleigh,3348,692,0,Saturday,Yes,poor,68,34,35,20
-2020,Jul,9,summer,4,Mittag,Raleigh,3348,188,0,Sunday,No,very good,68,34,35,20
-2020,Jul,10,summer,5,Mittag,Raleigh,3138,743,0,Monday,No,very good,68,34,35,20
-2020,Jul,11,summer,6,Mittag,Raleigh,3363,723,0,Tuesday,Yes,very good,68,34,35,20
-2020,Jul,12,summer,7,Mittag,Raleigh,3596,662,0,Wednesday,Yes,very good,68,34,35,20
-2020,Jul,13,summer,8,Mittag,Raleigh,3594,748,0,Thursday,Yes,very good,68,34,35,20
-2020,Jul,14,summer,9,Mittag,Orbea,4196,888,0,Friday,Yes,very good,38,19,24,25
-2020,Jul,15,summer,10,Mittag,Orbea,4220,318,0,Saturday,Yes,very good,38,19,24,25
-2020,Jul,16,summer,11,Mittag,Orbea,3505,418,0,Sunday,No,very good,38,19,24,25
-2020,Jul,17,summer,12,Mittag,Orbea,3296,206,0,Monday,No,very good,38,19,24,25
-2020,Jul,18,summer,13,Mittag,Orbea,3617,841,0,Tuesday,Yes,very good,38,19,24,25
-2020,Jul,19,summer,14,Mittag,Orbea,3789,752,0,Wednesday,Yes,very good,38,19,24,25
-2020,Jul,20,summer,15,Mittag,Orbea,3688,644,0,Thursday,Yes,very good,38,19,24,25
-2020,Jul,21,summer,16,Morgen,Orbea,3152,632,0,Friday,Yes,poor,38,19,24,25
-2020,Jul,22,summer,17,Mittag,Orbea,2825,562,0,Saturday,Yes,very good,38,19,24,25
-2020,Jul,23,summer,18,Mittag,Orbea,2298,987,0,Sunday,No,very good,38,19,24,25
-2020,Jul,24,summer,19,Mittag,Orbea,2556,105,0,Monday,No,very good,38,19,24,25
-2020,Jul,25,summer,20,Mittag,Orbea,3272,568,0,Tuesday,Yes,very good,38,19,24,25
-2020,Jul,26,summer,21,Mittag,Orbea,3840,750,0,Wednesday,Yes,very good,38,19,24,25
-2020,Jul,27,summer,22,Mittag,Orbea,3901,755,0,Thursday,Yes,very good,38,19,24,25
-2020,Jul,28,summer,23,Mittag,Orbea,3784,606,0,Friday,Yes,very good,38,19,24,25
-2020,Jul,29,summer,0,Mittag,Orbea,3176,670,0,Saturday,Yes,very good,38,19,24,25
-2020,Jul,30,summer,1,Mittag,Orbea,2916,155,0,Sunday,No,very good,38,19,24,25
-2020,Jul,31,summer,2,Mittag,Orbea,2778,152,0,Monday,No,very good,38,19,24,25
-2020,Aug,1,summer,3,Mittag,Orbea,3537,729,0,Tuesday,Yes,very good,38,19,24,25
-2020,Aug,2,summer,4,Mittag,Orbea,4044,801,0,Wednesday,Yes,very good,38,19,24,25
-2020,Aug,3,summer,5,Morgen,Orbea,3107,467,0,Thursday,Yes,poor,38,19,24,25
-2020,Aug,4,summer,6,Morgen,Orbea,3777,799,0,Friday,Yes,poor,38,19,24,25
-2020,Aug,5,summer,7,Mittag,Orbea,3843,102,0,Saturday,Yes,very good,38,19,24,25
-2020,Aug,6,summer,8,Morgen,Orbea,2773,152,0,Sunday,No,poor,38,19,24,25
-2020,Aug,7,summer,9,Mittag,Orbea,2487,129,0,Monday,No,very good,38,19,24,25
-2020,Aug,8,summer,10,Mittag,Orbea,3480,846,0,Tuesday,Yes,very good,38,19,24,25
-2020,Aug,9,summer,11,Mittag,Orbea,3695,907,0,Wednesday,Yes,very good,38,19,24,25
-2020,Aug,10,summer,12,Mittag,Orbea,3896,884,0,Thursday,Yes,very good,38,19,24,25
-2020,Aug,11,summer,13,Mittag,Orbea,3980,812,0,Friday,Yes,very good,38,19,24,25
-2020,Aug,12,summer,14,Mittag,Orbea,3854,105,0,Saturday,Yes,very good,38,19,24,25
-2020,Aug,13,summer,15,Morgen,Orbea,2646,150,0,Sunday,No,poor,38,19,24,25
-2020,Aug,14,summer,16,Morgen,Orbea,2482,133,0,Monday,No,poor,38,19,24,25
-2020,Aug,15,summer,17,Mittag,Orbea,3563,775,0,Tuesday,Yes,very good,38,19,24,25
-2020,Aug,16,summer,18,Mittag,Orbea,4004,721,0,Wednesday,Yes,very good,38,19,24,25
-2020,Aug,17,summer,19,Mittag,Orbea,4026,668,0,Thursday,Yes,very good,38,19,24,25
-2020,Aug,18,summer,20,Mittag,Orbea,3166,639,0,Friday,Yes,very good,38,19,24,25
-2020,Aug,19,summer,21,Morgen,Orbea,3356,797,0,Saturday,Yes,poor,38,19,24,25
-2020,Aug,20,summer,22,Mittag,Orbea,3277,191,0,Sunday,No,very good,38,19,24,25
-2020,Aug,21,summer,23,Mittag,Orbea,2624,124,0,Monday,No,very good,38,19,24,25
-2020,Aug,22,summer,0,Mittag,Orbea,3925,833,0,Tuesday,Yes,very good,38,19,24,25
-2020,Aug,23,summer,1,Mittag,Orbea,4614,128,0,Wednesday,Yes,very good,38,19,24,25
-2020,Aug,24,summer,2,Mittag,Orbea,4181,949,0,Thursday,Yes,very good,38,19,24,25
-2020,Aug,25,summer,5,Morgen,Orbea,3107,435,0,Friday,Yes,poor,38,19,24,25
-2020,Aug,26,summer,6,Mittag,Orbea,3893,768,0,Saturday,Yes,very good,38,19,24,25
-2020,Aug,27,summer,7,Morgen,Orbea,889,226,0,Sunday,No,poor,38,19,24,25
-2020,Aug,28,summer,8,Mittag,Orbea,2919,141,0,Monday,No,very good,38,19,24,25
-2020,Aug,29,summer,9,Mittag,Orbea,3905,729,0,Tuesday,Yes,very good,38,19,24,25
-2020,Aug,30,summer,10,Mittag,Orbea,4429,775,0,Wednesday,Yes,very good,38,19,24,25
-2020,Aug,31,summer,11,Mittag,Orbea,4370,688,0,Thursday,Yes,very good,38,19,24,25
-2020,Sep,1,summer,12,Mittag,Orbea,4332,783,0,Friday,Yes,very good,38,19,24,25
-2020,Sep,2,summer,13,Morgen,Orbea,3852,875,0,Saturday,Yes,poor,38,19,24,25
-2020,Sep,3,summer,14,Mittag,Orbea,2549,193,0,Sunday,No,very good,38,19,24,25
-2020,Sep,4,summer,15,Mittag,Orbea,2419,252,0,Monday,No,very good,38,19,24,25
-2020,Sep,5,summer,16,Morgen,Orbea,2115,123,1,Tuesday,No,poor,38,19,24,25
-2020,Sep,6,summer,17,Abend,Orbea,2506,204,0,Wednesday,Yes,very poor,38,19,24,25
-2020,Sep,7,summer,18,Abend,Orbea,1878,118,0,Thursday,Yes,very poor,38,19,24,25
-2020,Sep,8,summer,19,Abend,Orbea,1689,153,0,Friday,Yes,very poor,38,19,24,25
-2020,Sep,9,summer,20,Morgen,Orbea,3127,417,0,Saturday,Yes,poor,38,19,24,25
-2020,Sep,10,summer,21,Mittag,Orbea,3595,175,0,Sunday,No,very good,38,19,24,25
-2020,Sep,11,summer,22,Mittag,Orbea,3413,163,0,Monday,No,very good,38,19,24,25
-2020,Sep,12,summer,23,Mittag,Orbea,4023,690,0,Tuesday,Yes,very good,38,19,24,25
-2020,Sep,13,summer,0,Mittag,Orbea,4062,701,0,Wednesday,Yes,very good,38,19,24,25
-2020,Sep,14,summer,1,Mittag,Orbea,4138,647,0,Thursday,Yes,very good,38,19,24,25
-2020,Sep,15,summer,2,Morgen,Orbea,3231,428,0,Friday,Yes,poor,38,19,24,25
-2020,Sep,16,summer,5,Morgen,Orbea,4018,742,0,Saturday,Yes,poor,38,19,24,25
-2020,Sep,17,summer,6,Morgen,Orbea,3077,14,0,Sunday,No,poor,38,19,24,25
-2020,Sep,18,summer,7,Mittag,Orbea,2921,13,0,Monday,No,very good,38,19,24,25
-2020,Sep,19,summer,8,Morgen,Orbea,3848,69,0,Tuesday,Yes,poor,38,19,24,25
-2020,Sep,20,summer,9,Morgen,Orbea,3203,438,0,Wednesday,Yes,poor,38,19,24,25
-2020,Sep,21,summer,10,Morgen,Orbea,3813,539,0,Thursday,Yes,poor,38,19,24,25
-2020,Sep,22,summer,11,Morgen,Orbea,4240,555,0,Friday,Yes,poor,38,19,24,25
-2020,Sep,23,autumn,12,Morgen,Orbea,2137,258,0,Saturday,Yes,poor,38,19,24,25
-2020,Sep,24,autumn,13,Morgen,Orbea,3647,17,0,Sunday,No,poor,38,19,24,25
-2020,Sep,25,autumn,14,Morgen,Orbea,3466,15,0,Monday,No,poor,38,19,24,25
-2020,Sep,26,autumn,15,Morgen,Orbea,3946,68,0,Tuesday,Yes,poor,38,19,24,25
-2020,Sep,27,autumn,16,Morgen,Orbea,3643,477,0,Wednesday,Yes,poor,38,19,24,25
-2020,Sep,28,autumn,17,Morgen,Orbea,3427,480,0,Thursday,Yes,poor,38,19,24,25
-2020,Sep,29,autumn,18,Mittag,Orbea,4186,653,0,Friday,Yes,very good,38,19,24,25
-2020,Sep,30,autumn,19,Mittag,Orbea,4372,830,0,Saturday,Yes,very good,38,19,24,25
-2020,Okt,1,autumn,20,Morgen,Orbea,1949,480,0,Sunday,No,poor,38,19,24,25
-2020,Okt,2,autumn,21,Morgen,Orbea,2302,616,0,Monday,No,poor,38,19,24,25
-2020,Okt,3,autumn,22,Morgen,Orbea,3240,330,0,Tuesday,Yes,poor,38,19,24,18
-2020,Okt,4,autumn,23,Mittag,Orbea,3970,486,0,Wednesday,Yes,very good,38,19,24,25
-2020,Okt,5,autumn,0,Mittag,Orbea,4267,559,0,Thursday,Yes,very good,38,19,24,25
-2020,Okt,6,autumn,1,Mittag,Orbea,4126,639,0,Friday,Yes,very good,38,19,24,25
-2020,Okt,7,autumn,2,Mittag,Orbea,4036,949,0,Saturday,Yes,very good,38,19,24,25
-2020,Okt,8,autumn,3,Mittag,Orbea,3174,223,0,Sunday,No,very good,38,19,24,25
-2020,Okt,9,autumn,4,Mittag,Amsterdam,3114,23,0,Monday,No,very good,40,25,35,18
-2020,Okt,10,autumn,5,Mittag,Amsterdam,3603,15,1,Tuesday,No,very good,40,25,35,18
-2020,Okt,11,autumn,6,Morgen,Amsterdam,3896,667,0,Wednesday,Yes,poor,40,25,35,18
-2020,Okt,12,autumn,7,Abend,Amsterdam,2199,217,0,Thursday,Yes,very poor,40,25,35,18
-2020,Okt,13,autumn,8,Morgen,Amsterdam,2623,290,0,Friday,Yes,poor,40,25,35,18
-2020,Okt,14,autumn,9,Morgen,Amsterdam,3115,529,0,Saturday,Yes,poor,40,25,35,18
-2020,Okt,15,autumn,10,Mittag,Amsterdam,3318,18,0,Sunday,No,very good,40,25,35,18
-2020,Okt,16,autumn,11,Mittag,Amsterdam,3293,174,0,Monday,No,very good,40,25,35,18
-2020,Okt,17,autumn,12,Mittag,Amsterdam,3857,713,0,Tuesday,Yes,very good,40,25,35,18
-2020,Okt,18,autumn,13,Morgen,Amsterdam,4111,637,0,Wednesday,Yes,poor,40,25,35,18
-2020,Okt,19,autumn,14,Abend,Amsterdam,2170,254,0,Thursday,Yes,very poor,40,25,35,18
-2020,Okt,20,autumn,15,Mittag,Amsterdam,3724,471,0,Friday,Yes,very good,40,25,35,18
-2020,Okt,21,autumn,16,Mittag,Amsterdam,3628,676,0,Saturday,Yes,very good,40,25,35,18
-2020,Okt,22,autumn,17,Mittag,Amsterdam,2809,14,0,Sunday,No,very good,40,25,35,18
-2020,Okt,23,autumn,18,Mittag,Amsterdam,2762,16,0,Monday,No,very good,40,25,35,18
-2020,Okt,24,autumn,19,Mittag,Amsterdam,3488,69,0,Tuesday,Yes,very good,40,25,35,18
-2020,Okt,25,autumn,20,Mittag,Amsterdam,3992,69,0,Wednesday,Yes,very good,40,25,35,18
-2020,Okt,26,autumn,21,Morgen,Amsterdam,3490,40,0,Thursday,Yes,poor,40,25,35,18
-2020,Okt,27,autumn,22,Morgen,Amsterdam,2419,24,0,Friday,Yes,poor,40,25,35,18
-2020,Okt,28,autumn,23,Morgen,Amsterdam,3291,456,0,Saturday,Yes,poor,40,25,35,18
-2020,Okt,29,autumn,0,Abend,Amsterdam,570,57,0,Sunday,No,very poor,40,25,35,18
-2020,Okt,30,autumn,1,Mittag,Amsterdam,2446,88,0,Monday,No,very good,40,25,35,18
-2020,Okt,31,autumn,2,Mittag,Amsterdam,3307,37,0,Tuesday,Yes,very good,40,25,35,18
-2020,Nov,1,autumn,3,Mittag,Amsterdam,3658,410,0,Wednesday,Yes,very good,40,25,35,18
-2020,Nov,2,autumn,5,Mittag,Amsterdam,3816,370,0,Thursday,Yes,very good,40,25,35,18
-2020,Nov,3,autumn,6,Mittag,Amsterdam,3656,318,0,Friday,Yes,very good,40,25,35,18
-2020,Nov,4,autumn,7,Morgen,Amsterdam,3576,470,0,Saturday,Yes,poor,40,25,35,18
-2020,Nov,5,autumn,8,Mittag,Amsterdam,2770,115,0,Sunday,No,very good,40,25,35,18
-2020,Nov,6,autumn,9,Mittag,Amsterdam,2697,95,0,Monday,No,very good,40,25,35,18
-2020,Nov,7,autumn,10,Mittag,Amsterdam,3662,373,0,Tuesday,Yes,very good,40,25,35,18
-2020,Nov,8,autumn,11,Mittag,Amsterdam,3829,376,0,Wednesday,Yes,very good,40,25,35,18
-2020,Nov,9,autumn,12,Mittag,Amsterdam,3804,305,0,Thursday,Yes,very good,40,25,35,18
-2020,Nov,10,autumn,13,Morgen,Amsterdam,2743,190,0,Friday,Yes,poor,40,25,35,18
-2020,Nov,11,autumn,14,Mittag,Amsterdam,2928,440,1,Saturday,No,very good,40,25,35,18
-2020,Nov,12,autumn,15,Mittag,Amsterdam,2792,127,0,Sunday,No,very good,40,25,35,18
-2020,Nov,13,autumn,16,Mittag,Amsterdam,2713,100,0,Monday,No,very good,40,25,35,18
-2020,Nov,14,autumn,17,Mittag,Amsterdam,3891,595,0,Tuesday,Yes,very good,40,25,35,18
-2020,Nov,15,autumn,18,Morgen,Amsterdam,3746,449,0,Wednesday,Yes,poor,40,25,35,18
-2020,Nov,16,autumn,19,Abend,Amsterdam,1672,145,0,Thursday,Yes,very poor,40,25,35,18
-2020,Nov,17,autumn,20,Morgen,Amsterdam,2914,139,0,Friday,Yes,poor,40,25,35,18
-2020,Nov,18,autumn,21,Mittag,Amsterdam,3147,245,0,Saturday,Yes,very good,40,25,35,18
-2020,Nov,19,autumn,22,Mittag,Amsterdam,2720,943,0,Sunday,No,very good,40,25,35,18
-2020,Nov,20,autumn,23,Morgen,Amsterdam,2733,787,0,Monday,No,poor,40,25,35,18
-2020,Nov,21,autumn,0,Abend,Amsterdam,2545,220,0,Tuesday,Yes,very poor,40,25,35,18
-2020,Nov,22,autumn,1,Abend,Amsterdam,1538,69,0,Wednesday,Yes,very poor,40,25,35,18
-2020,Nov,23,autumn,2,Morgen,Amsterdam,2454,112,0,Thursday,Yes,poor,40,25,35,18
-2020,Nov,24,autumn,3,Mittag,Amsterdam,935,560,1,Friday,No,very good,40,25,35,18
-2020,Nov,25,autumn,4,Mittag,Amsterdam,1697,80,0,Saturday,Yes,very good,40,25,35,18
-2020,Nov,26,autumn,5,Mittag,Amsterdam,1819,124,0,Sunday,No,very good,40,25,35,18
-2020,Nov,27,autumn,6,Mittag,Amsterdam,2261,810,0,Monday,No,very good,40,25,35,18
-2020,Nov,28,autumn,7,Mittag,Cube,3614,253,0,Tuesday,Yes,very good,10,3,27,26
-2020,Nov,29,autumn,8,Morgen,Cube,2818,96,0,Wednesday,Yes,poor,10,3,27,26
-2020,Nov,30,autumn,9,Mittag,Cube,3425,188,0,Thursday,Yes,very good,10,3,27,26
-2020,Dec,1,autumn,10,Mittag,Cube,3545,182,0,Friday,Yes,very good,10,3,27,26
-2020,Dec,2,autumn,11,Mittag,Cube,3672,268,0,Saturday,Yes,very good,10,3,27,26
-2020,Dec,3,autumn,12,Mittag,Cube,2908,706,0,Sunday,No,very good,10,3,27,26
-2020,Dec,4,autumn,13,Mittag,Cube,2851,634,0,Monday,No,very good,10,3,27,26
-2020,Dec,5,autumn,14,Morgen,Cube,3578,233,0,Tuesday,Yes,poor,10,3,27,26
-2020,Dec,6,autumn,15,Abend,Cube,2468,126,0,Wednesday,Yes,very poor,10,3,27,26
-2020,Dec,7,autumn,16,Abend,Cube,655,50,0,Thursday,Yes,very poor,10,3,27,26
-2020,Dec,8,autumn,17,Mittag,Cube,3172,150,0,Friday,Yes,very good,10,3,27,26
-2020,Dec,9,autumn,18,Mittag,Cube,3359,261,0,Saturday,Yes,very good,10,3,27,26
-2020,Dec,10,autumn,19,Mittag,Cube,2688,502,0,Sunday,No,very good,10,3,27,26
-2020,Dec,11,autumn,20,Mittag,Cube,2366,377,0,Monday,No,very good,10,3,27,26
-2020,Dec,12,autumn,21,Mittag,Cube,3167,143,0,Tuesday,Yes,very good,10,3,27,26
-2020,Dec,13,autumn,22,Mittag,Cube,3368,155,0,Wednesday,Yes,very good,10,3,27,26
-2020,Dec,14,autumn,23,Morgen,Cube,3562,178,0,Thursday,Yes,poor,10,3,27,26
-2020,Dec,15,autumn,0,Morgen,Cube,3528,181,0,Friday,Yes,poor,10,3,27,26
-2020,Dec,16,autumn,1,Morgen,Cube,3399,178,0,Saturday,Yes,poor,10,3,27,26
-2020,Dec,17,autumn,2,Morgen,Cube,2464,275,0,Sunday,No,poor,10,3,27,26
-2020,Dec,18,autumn,3,Mittag,Cube,2211,220,0,Monday,No,very good,10,3,27,26
-2020,Dec,19,autumn,4,Mittag,Raleigh,3143,260,0,Tuesday,Yes,very good,68,34,35,20
-2020,Dec,20,autumn,5,Morgen,Raleigh,3534,216,0,Wednesday,Yes,poor,68,34,35,20
-2020,Dec,21,winter,6,Morgen,Raleigh,2553,107,0,Thursday,Yes,poor,68,34,35,20
-2020,Dec,22,winter,7,Morgen,Raleigh,2841,227,0,Friday,Yes,poor,68,34,35,20
-2020,Dec,23,winter,8,Mittag,Raleigh,2046,163,0,Saturday,Yes,very good,68,34,35,20
-2020,Dec,24,winter,9,Mittag,Raleigh,856,155,0,Sunday,No,very good,68,34,35,20
-2020,Dec,25,winter,10,Mittag,Raleigh,451,303,0,Monday,No,very good,68,34,35,20
-2020,Dec,26,winter,11,Mittag,Raleigh,887,430,1,Tuesday,No,very good,68,34,35,20
-2020,Dec,27,winter,12,Morgen,Raleigh,1059,103,0,Wednesday,Yes,poor,68,34,35,20
-2020,Dec,28,winter,13,Mittag,Raleigh,2047,255,0,Thursday,Yes,very good,68,34,35,20
-2020,Dec,29,winter,14,Mittag,Raleigh,2169,254,0,Friday,Yes,very good,68,34,35,20
-2020,Dec,30,winter,15,Mittag,Raleigh,2508,491,0,Saturday,Yes,very good,68,34,35,20
-2020,Dec,31,winter,16,Mittag,Raleigh,1820,665,0,Sunday,No,very good,68,34,35,20
-2019,Jan,1,winter,17,Mittag,Raleigh,1608,686,0,Monday,No,very good,68,34,35,20
-2019,Jan,2,winter,18,Mittag,Raleigh,1707,244,1,Tuesday,No,very good,68,34,35,20
-2019,Jan,3,winter,19,Mittag,Raleigh,2147,89,0,Wednesday,Yes,very good,68,34,35,20
-2019,Jan,4,winter,20,Morgen,Raleigh,2273,95,0,Thursday,Yes,poor,68,34,35,20
-2019,Jan,5,winter,21,Mittag,Raleigh,3132,140,0,Friday,Yes,very good,68,34,35,20
-2019,Jan,6,winter,22,Mittag,Raleigh,3791,307,0,Saturday,Yes,very good,68,34,35,20
-2019,Jan,7,winter,23,Mittag,Raleigh,3451,1070,0,Sunday,No,very good,68,34,35,20
-2019,Jan,8,winter,0,Mittag,Raleigh,2826,599,0,Monday,No,very good,68,34,35,20
-2019,Jan,9,winter,1,Morgen,Raleigh,2270,106,0,Tuesday,Yes,poor,68,34,35,20
-2019,Jan,10,winter,2,Mittag,Raleigh,3425,173,0,Wednesday,Yes,very good,68,34,35,20
-2019,Jan,11,winter,3,Morgen,Raleigh,2085,92,0,Thursday,Yes,poor,68,34,35,20
-2019,Jan,12,winter,4,Morgen,Raleigh,3828,269,0,Friday,Yes,poor,68,34,35,20
-2019,Jan,13,winter,5,Mittag,Raleigh,3040,174,0,Saturday,Yes,very good,68,34,35,20
-2019,Jan,14,winter,6,Mittag,Treck,2160,333,0,Sunday,No,very good,50,25,35,29
-2019,Jan,15,winter,7,Mittag,Treck,2027,284,0,Monday,No,very good,50,25,35,29
-2019,Jan,16,winter,8,Mittag,Treck,2081,217,1,Tuesday,No,very good,50,25,35,29
-2019,Jan,17,winter,9,Morgen,Treck,2808,127,0,Wednesday,Yes,poor,50,25,35,29
-2019,Jan,18,winter,10,Mittag,Treck,3267,109,0,Thursday,Yes,very good,50,25,35,29
-2019,Jan,19,winter,11,Mittag,Treck,3162,130,0,Friday,Yes,very good,50,25,35,29
-2019,Jan,20,winter,12,Morgen,Treck,3048,115,0,Saturday,Yes,poor,50,25,35,29
-2019,Jan,21,winter,13,Morgen,Treck,1234,67,0,Sunday,No,poor,50,25,35,29
-2019,Jan,22,winter,14,Morgen,Treck,1781,196,0,Monday,No,poor,50,25,35,29
-2019,Jan,23,winter,15,Morgen,Treck,2287,145,0,Tuesday,Yes,poor,50,25,35,29
-2019,Jan,24,winter,16,Mittag,Treck,3900,439,0,Wednesday,Yes,very good,50,25,35,29
-2019,Jan,25,winter,17,Mittag,Treck,3803,467,0,Thursday,Yes,very good,50,25,35,29
-2019,Jan,26,winter,18,Morgen,Treck,3831,244,0,Friday,Yes,poor,50,25,35,29
-2019,Jan,27,winter,19,Morgen,Treck,3187,269,0,Saturday,Yes,poor,50,25,35,29
-2019,Jan,28,winter,20,Mittag,Treck,3248,775,0,Sunday,No,very good,50,25,35,29
-2019,Jan,29,winter,21,Mittag,Treck,2685,558,0,Monday,No,very good,50,25,35,29
-2019,Jan,30,winter,22,Mittag,Treck,3498,126,0,Tuesday,Yes,very good,50,25,35,29
-2019,Jan,31,winter,23,Mittag,Treck,4185,324,0,Wednesday,Yes,very good,50,25,35,29
-2019,Feb,1,winter,12,Mittag,Treck,4275,304,0,Thursday,Yes,very good,50,25,35,29
-2019,Feb,2,winter,13,Morgen,Treck,3571,190,0,Friday,Yes,poor,50,25,35,29
-2019,Feb,3,winter,14,Mittag,Treck,3841,310,0,Saturday,Yes,very good,50,25,35,29
-2019,Feb,4,winter,15,Morgen,Treck,2448,384,0,Sunday,No,poor,50,25,35,29
-2019,Feb,5,winter,16,Morgen,Treck,2629,318,0,Monday,No,poor,50,25,35,29
-2019,Feb,6,winter,17,Mittag,Treck,3578,206,0,Tuesday,Yes,very good,50,25,35,29
-2019,Feb,7,winter,18,Mittag,Treck,4176,199,0,Wednesday,Yes,very good,50,25,35,29
-2019,Feb,8,winter,19,Morgen,Treck,2693,109,0,Thursday,Yes,poor,50,25,35,29
-2019,Feb,9,winter,20,Mittag,Treck,3667,163,0,Friday,Yes,very good,50,25,35,29
-2019,Feb,10,winter,21,Morgen,Treck,3604,227,0,Saturday,Yes,poor,50,25,35,29
-2019,Feb,11,winter,22,Abend,Treck,1977,192,0,Sunday,No,very poor,50,25,35,29
-2019,Feb,12,winter,23,Mittag,Treck,1456,73,0,Monday,No,very good,50,25,35,29
-2019,Feb,13,winter,0,Mittag,Treck,3328,94,0,Tuesday,Yes,very good,50,25,35,29
-2019,Feb,14,winter,1,Morgen,Treck,3787,135,0,Wednesday,Yes,poor,50,25,35,29
-2019,Feb,15,winter,2,Mittag,Treck,4028,141,0,Thursday,Yes,very good,50,25,35,29
-2019,Feb,16,winter,4,Morgen,Treck,2931,74,0,Friday,Yes,poor,50,25,35,29
-2019,Feb,17,winter,5,Mittag,Treck,3805,349,0,Saturday,Yes,very good,50,25,35,29
-2019,Feb,18,winter,6,Mittag,Treck,2883,1435,0,Sunday,No,very good,50,25,35,29
-2019,Feb,19,winter,7,Morgen,Treck,2071,618,0,Monday,No,poor,50,25,35,29
-2019,Feb,20,winter,8,Mittag,Treck,2627,502,1,Tuesday,No,very good,50,25,35,29
-2019,Feb,21,winter,9,Mittag,Treck,3614,163,0,Wednesday,Yes,very good,50,25,35,29
-2019,Feb,22,winter,10,Mittag,Treck,4379,394,0,Thursday,Yes,very good,50,25,35,29
-2019,Feb,23,winter,11,Mittag,Treck,4546,516,0,Friday,Yes,very good,50,25,35,29
-2019,Feb,24,winter,12,Morgen,Treck,3241,246,0,Saturday,Yes,poor,50,25,35,29
-2019,Feb,25,winter,13,Mittag,Treck,2415,317,0,Sunday,No,very good,50,25,35,29
-2019,Feb,26,winter,14,Mittag,Treck,2874,515,0,Monday,No,very good,50,25,35,29
-2019,Feb,27,winter,15,Mittag,Treck,4069,253,0,Tuesday,Yes,very good,50,25,35,29
-2019,Feb,28,winter,16,Mittag,Treck,4134,229,0,Wednesday,Yes,very good,50,25,35,29
-2019,Feb,29,winter,17,Morgen,Treck,1769,65,0,Thursday,Yes,poor,50,25,35,29
-2019,Mar,1,winter,18,Mittag,Treck,4665,325,0,Friday,Yes,very good,50,25,35,29
-2019,Mar,2,winter,19,Morgen,Treck,2948,246,0,Saturday,Yes,poor,50,25,35,29
-2019,Mar,3,winter,20,Morgen,Treck,3110,956,0,Sunday,No,poor,50,25,35,29
-2019,Mar,4,winter,21,Mittag,Treck,2713,710,0,Monday,No,very good,50,25,35,29
-2019,Mar,5,winter,22,Mittag,Treck,3130,203,0,Tuesday,Yes,very good,50,25,35,29
-2019,Mar,6,winter,23,Mittag,Treck,3735,221,0,Wednesday,Yes,very good,50,25,35,29
-2019,Mar,7,winter,0,Mittag,Treck,4484,432,0,Thursday,Yes,very good,50,25,35,29
-2019,Mar,8,winter,1,Mittag,Treck,4896,486,0,Friday,Yes,very good,50,25,35,29
-2019,Mar,9,winter,2,Morgen,Treck,4122,447,0,Saturday,Yes,poor,50,25,35,29
-2019,Mar,10,winter,3,Mittag,Treck,3150,968,0,Sunday,No,very good,50,25,35,29
-2019,Mar,11,winter,4,Mittag,Treck,3253,1658,0,Monday,No,very good,50,25,35,29
-2019,Mar,12,winter,5,Mittag,Treck,4460,838,0,Tuesday,Yes,very good,50,25,35,29
-2019,Mar,13,winter,6,Mittag,Treck,5085,762,0,Wednesday,Yes,very good,50,25,35,29
-2019,Mar,14,winter,7,Mittag,Treck,5315,997,0,Thursday,Yes,very good,50,25,35,29
-2019,Mar,15,winter,8,Mittag,Treck,5187,1005,0,Friday,Yes,very good,50,25,35,29
-2019,Mar,16,winter,9,Morgen,Treck,3830,548,0,Saturday,Yes,poor,50,25,35,29
-2019,Mar,17,winter,10,Morgen,Treck,4681,3155,0,Sunday,No,poor,50,25,35,29
-2019,Mar,18,winter,11,Morgen,Treck,3685,2207,0,Monday,No,poor,50,25,35,29
-2019,Mar,19,winter,12,Mittag,Treck,5171,982,0,Tuesday,Yes,very good,50,25,35,29
-2019,Mar,20,winter,13,Mittag,Treck,5042,1051,0,Wednesday,Yes,very good,50,25,35,29
-2019,Mar,21,spring,14,Morgen,Treck,5108,1122,0,Thursday,Yes,poor,50,25,35,29
-2019,Mar,22,spring,15,Mittag,Treck,5537,1334,0,Friday,Yes,very good,50,25,35,29
-2019,Mar,23,spring,16,Morgen,Treck,5893,2469,0,Saturday,Yes,poor,50,25,35,29
-2019,Mar,24,spring,17,Morgen,Treck,2339,1033,0,Sunday,No,poor,50,25,35,29
-2019,Mar,25,spring,18,Morgen,Treck,3464,1532,0,Monday,No,poor,50,25,35,29
-2019,Mar,26,spring,19,Mittag,Treck,4763,795,0,Tuesday,Yes,very good,50,25,35,29
-2019,Mar,27,spring,20,Mittag,Treck,4571,531,0,Wednesday,Yes,very good,50,25,35,29
-2019,Mar,28,spring,21,Mittag,Treck,5024,674,0,Thursday,Yes,very good,50,25,35,29
-2019,Mar,29,spring,22,Mittag,Treck,5299,834,0,Friday,Yes,very good,50,25,35,29
-2019,Mar,30,spring,23,Morgen,Treck,4663,796,0,Saturday,Yes,poor,50,25,35,29
-2019,Mar,31,spring,0,Morgen,Treck,3934,2301,0,Sunday,No,poor,50,25,35,29
-2019,Apr,1,spring,1,Morgen,Treck,3694,2347,0,Monday,No,poor,50,25,35,29
-2019,Apr,2,spring,2,Mittag,Treck,4728,1208,0,Tuesday,Yes,very good,50,25,35,29
-2019,Apr,3,spring,3,Mittag,Treck,5424,1348,0,Wednesday,Yes,very good,50,25,35,29
-2019,Apr,4,spring,4,Mittag,Treck,5378,1058,0,Thursday,Yes,very good,50,25,35,29
-2019,Apr,5,spring,5,Mittag,Treck,5265,1192,0,Friday,Yes,very good,50,25,35,29
-2019,Apr,6,spring,6,Mittag,Treck,4653,1807,0,Saturday,Yes,very good,50,25,35,29
-2019,Apr,7,spring,7,Mittag,Treck,3605,3252,0,Sunday,No,very good,50,25,35,29
-2019,Apr,8,spring,8,Mittag,Treck,2939,2230,0,Monday,No,very good,50,25,35,29
-2019,Apr,9,spring,9,Mittag,Treck,4680,905,0,Tuesday,Yes,very good,50,25,35,29
-2019,Apr,10,spring,10,Mittag,Treck,5099,819,0,Wednesday,Yes,very good,50,25,35,29
-2019,Apr,11,spring,11,Mittag,Treck,4380,482,0,Thursday,Yes,very good,50,25,35,29
-2019,Apr,12,spring,12,Mittag,Treck,4746,663,0,Friday,Yes,very good,50,25,35,29
-2019,Apr,13,spring,13,Mittag,Treck,5146,1252,0,Saturday,Yes,very good,50,25,35,29
-2019,Apr,14,spring,14,Mittag,Treck,4665,2795,0,Sunday,No,very good,50,25,35,29
-2019,Apr,15,spring,15,Mittag,Treck,4286,2846,0,Monday,No,very good,50,25,35,29
-2019,Apr,16,spring,16,Mittag,Treck,5172,1198,1,Tuesday,No,very good,50,25,35,29
-2019,Apr,17,spring,17,Mittag,Treck,5702,989,0,Wednesday,Yes,very good,50,25,35,29
-2019,Apr,18,spring,18,Morgen,Treck,4020,347,0,Thursday,Yes,poor,50,25,35,29
-2019,Apr,19,spring,19,Mittag,Treck,5719,846,0,Friday,Yes,very good,50,25,35,29
-2019,Apr,20,spring,20,Mittag,Treck,5950,1340,0,Saturday,Yes,very good,50,25,35,29
-2019,Apr,21,spring,21,Mittag,Treck,4083,2541,0,Sunday,No,very good,50,25,35,29
-2019,Apr,22,spring,22,Abend,Treck,907,120,0,Monday,No,very poor,50,25,35,29
-2019,Apr,23,spring,23,Morgen,Treck,3019,195,0,Tuesday,Yes,poor,50,25,35,29
-2019,Apr,24,spring,0,Mittag,Treck,5115,518,0,Wednesday,Yes,very good,50,25,35,29
-2019,Apr,25,spring,1,Mittag,Treck,5541,655,0,Thursday,Yes,very good,50,25,35,29
-2019,Apr,26,spring,2,Morgen,Treck,4551,475,0,Friday,Yes,poor,50,25,35,29
-2019,Apr,27,spring,3,Mittag,Treck,5219,1014,0,Saturday,Yes,very good,50,25,35,29
-2019,Apr,28,spring,4,Morgen,Treck,3100,1120,0,Sunday,No,poor,50,25,35,29
-2019,Apr,29,spring,6,Mittag,Treck,4075,2229,0,Monday,No,very good,50,25,35,29
-2019,Apr,30,spring,7,Morgen,Treck,4907,665,0,Tuesday,Yes,poor,50,25,35,29
-2019,May,1,spring,8,Morgen,Treck,5087,653,0,Wednesday,Yes,poor,50,25,35,29
-2019,May,2,spring,9,Mittag,Treck,5502,667,0,Thursday,Yes,very good,50,25,35,29
-2019,May,3,spring,10,Morgen,Treck,5657,764,0,Friday,Yes,poor,50,25,35,29
-2019,May,4,spring,11,Mittag,Treck,5227,1069,0,Saturday,Yes,very good,50,25,35,29
-2019,May,5,spring,12,Morgen,Treck,4387,2496,0,Sunday,No,poor,50,25,35,29
-2019,May,6,spring,13,Morgen,Treck,4224,2135,0,Monday,No,poor,50,25,35,29
-2019,May,7,spring,14,Morgen,Treck,5265,1008,0,Tuesday,Yes,poor,50,25,35,29
-2019,May,8,spring,15,Morgen,Treck,4990,738,0,Wednesday,Yes,poor,50,25,35,29
-2019,May,9,spring,16,Morgen,Treck,4097,620,0,Thursday,Yes,poor,50,25,35,29
-2019,May,10,spring,17,Mittag,Treck,5546,1026,0,Friday,Yes,very good,50,25,35,29
-2019,May,11,spring,18,Mittag,Treck,5711,1319,0,Saturday,Yes,very good,50,25,35,29
-2019,May,12,spring,19,Mittag,Treck,4807,2622,0,Sunday,No,very good,50,25,35,29
-2019,May,13,spring,20,Mittag,Treck,3946,2172,0,Monday,No,very good,50,25,35,29
-2019,May,14,spring,21,Morgen,Treck,2501,342,0,Tuesday,Yes,poor,50,25,35,29
-2019,May,15,spring,22,Morgen,Treck,4490,625,0,Wednesday,Yes,poor,50,25,35,29
-2019,May,16,spring,23,Mittag,Treck,6433,991,0,Thursday,Yes,very good,50,25,35,29
-2019,May,17,spring,0,Mittag,Treck,6142,1242,0,Friday,Yes,very good,50,25,35,29
-2019,May,18,spring,1,Mittag,Treck,6118,1521,0,Saturday,Yes,very good,50,25,35,29
-2019,May,19,spring,2,Mittag,Treck,4884,3410,0,Sunday,No,very good,50,25,35,29
-2019,May,20,spring,3,Mittag,Treck,4425,2704,0,Monday,No,very good,50,25,35,29
-2019,May,21,spring,5,Morgen,Treck,3729,630,0,Tuesday,Yes,poor,50,25,35,29
-2019,May,22,spring,6,Morgen,Treck,5254,819,0,Wednesday,Yes,poor,50,25,35,29
-2019,May,23,spring,7,Morgen,Treck,4494,766,0,Thursday,Yes,poor,50,25,35,29
-2019,May,24,spring,8,Mittag,Treck,5711,1059,0,Friday,Yes,very good,50,25,35,29
-2019,May,25,spring,9,Mittag,Treck,5317,1417,0,Saturday,Yes,very good,50,25,35,29
-2019,May,26,spring,10,Mittag,Treck,3681,2855,0,Sunday,No,very good,50,25,35,29
-2019,May,27,spring,11,Mittag,Treck,3308,3283,0,Monday,No,very good,50,25,35,29
-2019,May,28,spring,12,Mittag,Treck,3486,2557,1,Tuesday,No,very good,50,25,35,29
-2019,May,29,spring,13,Mittag,Treck,4863,880,0,Wednesday,Yes,very good,50,25,35,29
-2019,May,30,spring,14,Morgen,Treck,6110,745,0,Thursday,Yes,poor,50,25,35,29
-2019,May,31,spring,15,Mittag,Treck,6238,1100,0,Friday,Yes,very good,50,25,35,29
-2019,Jun,1,spring,16,Morgen,Treck,3594,533,0,Saturday,Yes,poor,50,25,35,29
-2019,Jun,2,spring,17,Mittag,Treck,5325,2795,0,Sunday,No,very good,50,25,35,29
-2019,Jun,3,spring,18,Mittag,Treck,5147,2494,0,Monday,No,very good,50,25,35,29
-2019,Jun,4,spring,19,Mittag,Treck,5927,1071,0,Tuesday,Yes,very good,50,25,35,29
-2019,Jun,5,spring,20,Morgen,Treck,6033,968,0,Wednesday,Yes,poor,50,25,35,29
-2019,Jun,6,spring,21,Mittag,Treck,6028,1027,0,Thursday,Yes,very good,50,25,35,29
-2019,Jun,7,spring,22,Mittag,Treck,6456,1038,0,Friday,Yes,very good,50,25,35,29
-2019,Jun,8,spring,23,Mittag,Treck,6248,1488,0,Saturday,Yes,very good,50,25,35,29
-2019,Jun,9,spring,0,Mittag,Treck,4790,2708,0,Sunday,No,very good,50,25,35,29
-2019,Jun,10,spring,1,Mittag,Treck,4374,2224,0,Monday,No,very good,50,25,35,29
-2019,Jun,11,spring,3,Morgen,Treck,5647,1017,0,Tuesday,Yes,poor,50,25,35,29
-2019,Jun,12,spring,4,Morgen,Treck,4495,477,0,Wednesday,Yes,poor,50,25,35,29
-2019,Jun,13,spring,5,Mittag,Treck,6248,1173,0,Thursday,Yes,very good,50,25,35,29
-2019,Jun,14,spring,6,Mittag,Treck,6183,1180,0,Friday,Yes,very good,50,25,35,29
-2019,Jun,15,spring,7,Mittag,Treck,6102,1563,0,Saturday,Yes,very good,50,25,35,29
-2019,Jun,16,spring,8,Mittag,Treck,4739,2963,0,Sunday,No,very good,50,25,35,29
-2019,Jun,17,spring,9,Mittag,Treck,4344,2634,0,Monday,No,very good,50,25,35,29
-2019,Jun,18,spring,10,Morgen,Treck,4446,653,0,Tuesday,Yes,poor,50,25,35,29
-2019,Jun,19,spring,11,Mittag,Treck,5857,968,0,Wednesday,Yes,very good,50,25,35,29
-2019,Jun,20,spring,12,Mittag,Treck,5339,872,0,Thursday,Yes,very good,50,25,35,29
-2019,Jun,21,summer,13,Mittag,Treck,5127,778,0,Friday,Yes,very good,50,25,35,29
-2019,Jun,22,summer,14,Mittag,Treck,4859,964,0,Saturday,Yes,very good,50,25,35,29
-2019,Jun,23,summer,15,Mittag,Treck,4801,2657,0,Sunday,No,very good,50,25,35,29
-2019,Jun,24,summer,16,Mittag,Treck,4340,2551,0,Monday,No,very good,50,25,35,29
-2019,Jun,25,summer,17,Mittag,Treck,5640,1139,0,Tuesday,Yes,very good,50,25,35,29
-2019,Jun,26,summer,18,Mittag,Treck,6365,1077,0,Wednesday,Yes,very good,50,25,35,29
-2019,Jun,27,summer,19,Mittag,Treck,6258,1077,0,Thursday,Yes,very good,50,25,35,29
-2019,Jun,28,summer,20,Mittag,Treck,5958,921,0,Friday,Yes,very good,50,25,35,29
-2019,Jun,29,summer,21,Mittag,Treck,4634,829,0,Saturday,Yes,very good,50,25,35,29
-2019,Jun,30,summer,22,Mittag,Treck,4232,1455,0,Sunday,No,very good,50,25,35,29
-2019,Jul,1,summer,23,Mittag,Treck,4110,1421,0,Monday,No,very good,50,25,35,29
-2019,Jul,2,summer,0,Mittag,Treck,5323,904,0,Tuesday,Yes,very good,50,25,35,29
-2019,Jul,3,summer,1,Mittag,Treck,5608,1052,0,Wednesday,Yes,very good,50,25,35,29
-2019,Jul,4,summer,2,Mittag,Treck,4841,2562,1,Thursday,No,very good,50,25,35,29
-2019,Jul,5,summer,4,Mittag,Treck,4836,1405,0,Friday,Yes,very good,50,25,35,29
-2019,Jul,6,summer,5,Mittag,Treck,4841,1366,0,Saturday,Yes,very good,50,25,35,29
-2019,Jul,7,summer,6,Mittag,Treck,3392,1448,0,Sunday,No,very good,50,25,35,29
-2019,Jul,8,summer,7,Mittag,Treck,3469,1203,0,Monday,No,very good,50,25,35,29
-2019,Jul,9,summer,8,Morgen,Treck,5571,998,0,Tuesday,Yes,poor,50,25,35,29
-2019,Jul,10,summer,9,Morgen,Treck,5336,954,0,Wednesday,Yes,poor,50,25,35,29
-2019,Jul,11,summer,10,Mittag,Treck,6289,975,0,Thursday,Yes,very good,50,25,35,29
-2019,Jul,12,summer,11,Mittag,Treck,6414,1032,0,Friday,Yes,very good,50,25,35,29
-2019,Jul,13,summer,12,Morgen,Treck,5988,1511,0,Saturday,Yes,poor,50,25,35,29
-2019,Jul,14,summer,13,Morgen,Treck,4614,2355,0,Sunday,No,poor,50,25,35,29
-2019,Jul,15,summer,14,Mittag,Treck,4111,1920,0,Monday,No,very good,50,25,35,29
-2019,Jul,16,summer,15,Mittag,Treck,5742,1088,0,Tuesday,Yes,very good,50,25,35,29
-2019,Jul,17,summer,16,Mittag,Treck,5865,921,0,Wednesday,Yes,very good,50,25,35,29
-2019,Jul,18,summer,17,Mittag,Treck,4914,799,0,Thursday,Yes,very good,50,25,35,29
-2019,Jul,19,summer,18,Mittag,Treck,5703,888,0,Friday,Yes,very good,50,25,35,29
-2019,Jul,20,summer,19,Morgen,Treck,5123,747,0,Saturday,Yes,poor,50,25,35,29
-2019,Jul,21,summer,20,Abend,Treck,3195,1264,0,Sunday,No,very poor,50,25,35,29
-2019,Jul,22,summer,21,Morgen,Treck,4866,2544,0,Monday,No,poor,50,25,35,29
-2019,Jul,23,summer,22,Mittag,Treck,5831,1135,0,Tuesday,Yes,very good,50,25,35,29
-2019,Jul,24,summer,23,Mittag,Treck,6452,1140,0,Wednesday,Yes,very good,50,25,35,29
-2019,Jul,25,summer,0,Mittag,Treck,6790,1383,0,Thursday,Yes,very good,50,25,35,29
-2019,Jul,26,summer,1,Mittag,Orbea,5825,1036,0,Friday,Yes,very good,38,19,24,25
-2019,Jul,27,summer,2,Mittag,Orbea,5645,1259,0,Saturday,Yes,very good,38,19,24,25
-2019,Jul,28,summer,5,Mittag,Orbea,4451,2234,0,Sunday,No,very good,38,19,24,25
-2019,Jul,29,summer,6,Mittag,Orbea,4444,2153,0,Monday,No,very good,38,19,24,25
-2019,Jul,30,summer,7,Mittag,Orbea,6065,1040,0,Tuesday,Yes,very good,38,19,24,25
-2019,Jul,31,summer,8,Mittag,Orbea,6248,968,0,Wednesday,Yes,very good,38,19,24,25
-2019,Aug,1,summer,9,Mittag,Orbea,6506,1074,0,Thursday,Yes,very good,38,19,24,25
-2019,Aug,2,summer,10,Mittag,Orbea,6278,983,0,Friday,Yes,very good,38,19,24,25
-2019,Aug,3,summer,11,Morgen,Orbea,5847,1328,0,Saturday,Yes,poor,38,19,24,25
-2019,Aug,4,summer,12,Mittag,Orbea,4479,2345,0,Sunday,No,very good,38,19,24,25
-2019,Aug,5,summer,13,Mittag,Orbea,3757,1707,0,Monday,No,very good,38,19,24,25
-2019,Aug,6,summer,14,Morgen,Orbea,5780,1233,0,Tuesday,Yes,poor,38,19,24,25
-2019,Aug,7,summer,15,Morgen,Orbea,5995,1278,0,Wednesday,Yes,poor,38,19,24,25
-2019,Aug,8,summer,16,Morgen,Orbea,6271,1263,0,Thursday,Yes,poor,38,19,24,25
-2019,Aug,9,summer,17,Mittag,Orbea,6090,1196,0,Friday,Yes,very good,38,19,24,25
-2019,Aug,10,summer,16,Morgen,Orbea,4721,1065,0,Saturday,Yes,poor,38,19,24,25
-2019,Aug,11,summer,17,Morgen,Orbea,4052,2247,0,Sunday,No,poor,38,19,24,25
-2019,Aug,12,summer,18,Mittag,Orbea,4362,2182,0,Monday,No,very good,38,19,24,25
-2019,Aug,13,summer,19,Mittag,Orbea,5676,1207,0,Tuesday,Yes,very good,38,19,24,25
-2019,Aug,14,summer,20,Mittag,Orbea,5656,1128,0,Wednesday,Yes,very good,38,19,24,25
-2019,Aug,15,summer,21,Mittag,Orbea,6149,1198,0,Thursday,Yes,very good,38,19,24,25
-2019,Aug,16,summer,22,Mittag,Orbea,6267,1338,0,Friday,Yes,very good,38,19,24,25
-2019,Aug,17,summer,23,Mittag,Orbea,5665,1483,0,Saturday,Yes,very good,38,19,24,25
-2019,Aug,18,summer,0,Mittag,Orbea,5038,2827,0,Sunday,No,very good,38,19,24,25
-2019,Aug,19,summer,1,Morgen,Scott,3341,1208,0,Monday,No,poor,74,37,35,31
-2019,Aug,20,summer,2,Morgen,Scott,5504,1026,0,Tuesday,Yes,poor,74,37,35,31
-2019,Aug,21,summer,3,Mittag,Scott,5925,1081,0,Wednesday,Yes,very good,74,37,35,31
-2019,Aug,22,summer,5,Mittag,Scott,6281,1094,0,Thursday,Yes,very good,74,37,35,31
-2019,Aug,23,summer,6,Mittag,Scott,6402,1363,0,Friday,Yes,very good,74,37,35,31
-2019,Aug,24,summer,7,Morgen,Scott,6257,1325,0,Saturday,Yes,poor,74,37,35,31
-2019,Aug,25,summer,8,Morgen,Scott,4224,1829,0,Sunday,No,poor,74,37,35,31
-2019,Aug,26,summer,9,Morgen,Scott,3772,1483,0,Monday,No,poor,74,37,35,31
-2019,Aug,27,summer,10,Mittag,Scott,5928,989,0,Tuesday,Yes,very good,74,37,35,31
-2019,Aug,28,summer,11,Mittag,Scott,6105,935,0,Wednesday,Yes,very good,74,37,35,31
-2019,Aug,29,summer,12,Mittag,Scott,6520,1177,0,Thursday,Yes,very good,74,37,35,31
-2019,Aug,30,summer,13,Mittag,Scott,6541,1172,0,Friday,Yes,very good,74,37,35,31
-2019,Aug,31,summer,14,Mittag,Scott,5917,1433,0,Saturday,Yes,very good,74,37,35,31
-2019,Sep,1,summer,15,Morgen,Scott,3788,2352,0,Sunday,No,poor,74,37,35,31
-2019,Sep,2,summer,16,Morgen,Scott,3197,2613,0,Monday,No,poor,74,37,35,31
-2019,Sep,3,summer,17,Mittag,Scott,4069,1965,1,Tuesday,No,very good,74,37,35,31
-2019,Sep,4,summer,18,Mittag,Scott,5997,867,0,Wednesday,Yes,very good,74,37,35,31
-2019,Sep,5,summer,19,Mittag,Scott,6280,832,0,Thursday,Yes,very good,74,37,35,31
-2019,Sep,6,summer,20,Morgen,Scott,5592,611,0,Friday,Yes,poor,74,37,35,31
-2019,Sep,7,summer,21,Mittag,Scott,6459,1045,0,Saturday,Yes,very good,74,37,35,31
-2019,Sep,8,summer,22,Morgen,Scott,4419,1557,0,Sunday,No,poor,74,37,35,31
-2019,Sep,9,summer,23,Mittag,Scott,5657,2570,0,Monday,No,very good,74,37,35,31
-2019,Sep,10,summer,0,Mittag,Scott,6407,1118,0,Tuesday,Yes,very good,74,37,35,31
-2019,Sep,11,summer,1,Mittag,Scott,6697,1070,0,Wednesday,Yes,very good,74,37,35,31
-2019,Sep,12,summer,2,Mittag,Scott,6820,1050,0,Thursday,Yes,very good,74,37,35,31
-2019,Sep,13,summer,3,Mittag,Scott,6750,1054,0,Friday,Yes,very good,74,37,35,31
-2019,Sep,14,summer,4,Mittag,Scott,6630,1379,0,Saturday,Yes,very good,74,37,35,31
-2019,Sep,15,summer,6,Mittag,Scott,5554,3160,0,Sunday,No,very good,74,37,35,31
-2019,Sep,16,summer,7,Mittag,Scott,5167,2166,0,Monday,No,very good,74,37,35,31
-2019,Sep,17,summer,8,Morgen,Scott,5847,1022,0,Tuesday,Yes,poor,74,37,35,31
-2019,Sep,18,summer,9,Morgen,Scott,3702,371,0,Wednesday,Yes,poor,74,37,35,31
-2019,Sep,19,summer,10,Mittag,Scott,6803,788,0,Thursday,Yes,very good,74,37,35,31
-2019,Sep,20,summer,11,Mittag,Scott,6781,939,0,Friday,Yes,very good,74,37,35,31
-2019,Sep,21,summer,12,Mittag,Scott,6917,1250,0,Saturday,Yes,very good,74,37,35,31
-2019,Sep,22,summer,13,Mittag,Scott,5883,2512,0,Sunday,No,very good,74,37,35,31
-2019,Sep,23,autumn,14,Mittag,Scott,5453,2454,0,Monday,No,very good,74,37,35,31
-2019,Sep,24,autumn,15,Mittag,Scott,6435,1001,0,Tuesday,Yes,very good,74,37,35,31
-2019,Sep,25,autumn,16,Mittag,Scott,6693,845,0,Wednesday,Yes,very good,74,37,35,31
-2019,Sep,26,autumn,17,Mittag,Scott,6946,787,0,Thursday,Yes,very good,74,37,35,31
-2019,Sep,27,autumn,18,Morgen,Scott,6642,751,0,Friday,Yes,poor,74,37,35,31
-2019,Sep,28,autumn,19,Morgen,Scott,6370,1045,0,Saturday,Yes,poor,74,37,35,31
-2019,Sep,29,autumn,20,Mittag,Scott,5966,2589,0,Sunday,No,very good,74,37,35,31
-2019,Sep,30,autumn,21,Mittag,Scott,4874,2015,0,Monday,No,very good,74,37,35,31
-2019,Okt,1,autumn,22,Morgen,Scott,6015,763,0,Tuesday,Yes,poor,74,37,35,31
-2019,Okt,2,autumn,23,Abend,Scott,4324,315,0,Wednesday,Yes,very poor,74,37,35,31
-2019,Okt,3,autumn,0,Morgen,Scott,6844,728,0,Thursday,Yes,poor,74,37,35,31
-2019,Okt,4,autumn,1,Morgen,Scott,6437,891,0,Friday,Yes,poor,74,37,35,31
-2019,Okt,5,autumn,2,Mittag,Scott,6640,1516,0,Saturday,Yes,very good,74,37,35,31
-2019,Okt,6,autumn,3,Mittag,Scott,4934,3031,0,Sunday,No,very good,74,37,35,31
-2019,Okt,7,autumn,4,Morgen,Scott,2729,781,0,Monday,No,poor,74,37,35,31
-2019,Okt,8,autumn,5,Morgen,Scott,4604,874,1,Tuesday,No,poor,74,37,35,31
-2019,Okt,9,autumn,7,Morgen,Scott,5791,601,0,Wednesday,Yes,poor,74,37,35,31
-2019,Okt,10,autumn,8,Mittag,Scott,6911,780,0,Thursday,Yes,very good,74,37,35,31
-2019,Okt,11,autumn,9,Mittag,Scott,6736,834,0,Friday,Yes,very good,74,37,35,31
-2019,Okt,12,autumn,10,Mittag,Scott,6222,1060,0,Saturday,Yes,very good,74,37,35,31
-2019,Okt,13,autumn,11,Mittag,Scott,4857,2252,0,Sunday,No,very good,74,37,35,31
-2019,Okt,14,autumn,12,Mittag,Scott,4559,2080,0,Monday,No,very good,74,37,35,31
-2019,Okt,15,autumn,13,Morgen,Scott,5115,760,0,Tuesday,Yes,poor,74,37,35,31
-2019,Okt,16,autumn,14,Mittag,Scott,6612,922,0,Wednesday,Yes,very good,74,37,35,31
-2019,Okt,17,autumn,15,Mittag,Scott,6482,979,0,Thursday,Yes,very good,74,37,35,31
-2019,Okt,18,autumn,16,Morgen,Scott,6501,1008,0,Friday,Yes,poor,74,37,35,31
-2019,Okt,19,autumn,17,Morgen,Scott,4671,753,0,Saturday,Yes,poor,74,37,35,31
-2019,Okt,20,autumn,18,Mittag,Scott,5284,2806,0,Sunday,No,very good,74,37,35,31
-2019,Okt,21,autumn,19,Mittag,Scott,4692,2132,0,Monday,No,very good,74,37,35,31
-2019,Okt,22,autumn,20,Mittag,Scott,6228,830,0,Tuesday,Yes,very good,74,37,35,31
-2019,Okt,23,autumn,21,Mittag,Scott,6625,841,0,Wednesday,Yes,very good,74,37,35,31
-2019,Okt,24,autumn,22,Mittag,Scott,6898,795,0,Thursday,Yes,very good,74,37,35,31
-2019,Okt,25,autumn,23,Morgen,Scott,6484,875,0,Friday,Yes,poor,74,37,35,31
-2019,Okt,26,autumn,0,Morgen,Scott,6262,1182,0,Saturday,Yes,poor,74,37,35,31
-2019,Okt,27,autumn,1,Morgen,Scott,5209,2643,0,Sunday,No,poor,74,37,35,31
-2019,Okt,28,autumn,2,Morgen,Scott,3461,998,0,Monday,No,poor,74,37,35,31
-2019,Okt,29,autumn,3,Abend,Scott,20,2,0,Tuesday,Yes,very poor,74,37,35,31
-2019,Okt,30,autumn,4,Morgen,Scott,1009,87,0,Wednesday,Yes,poor,74,37,35,31
-2019,Okt,31,autumn,5,Morgen,Scott,5147,419,0,Thursday,Yes,poor,74,37,35,31
-2019,Nov,1,autumn,6,Morgen,Scott,5520,466,0,Friday,Yes,poor,74,37,35,31
-2019,Nov,2,autumn,7,Mittag,Scott,5229,618,0,Saturday,Yes,very good,74,37,35,31
-2019,Nov,3,autumn,8,Morgen,Scott,4109,1029,0,Sunday,No,poor,74,37,35,31
-2019,Nov,4,autumn,9,Mittag,Scott,3906,1201,0,Monday,No,very good,74,37,35,31
-2019,Nov,5,autumn,10,Mittag,Scott,4881,378,0,Tuesday,Yes,very good,74,37,35,31
-2019,Nov,6,autumn,11,Mittag,Scott,5220,466,0,Wednesday,Yes,very good,74,37,35,31
-2019,Nov,7,autumn,12,Morgen,Scott,4709,326,0,Thursday,Yes,poor,74,37,35,31
-2019,Nov,8,autumn,13,Mittag,Scott,4975,340,0,Friday,Yes,very good,74,37,35,31
-2019,Nov,9,autumn,14,Mittag,Scott,5283,709,0,Saturday,Yes,very good,74,37,35,31
-2019,Nov,10,autumn,15,Mittag,Scott,4446,2090,0,Sunday,No,very good,74,37,35,31
-2019,Nov,11,autumn,16,Mittag,Scott,4562,2290,0,Monday,No,very good,74,37,35,31
-2019,Nov,12,autumn,17,Mittag,Madeira,5172,1097,1,Tuesday,No,very good,60,30,28,35
-2019,Nov,13,autumn,18,Morgen,Madeira,3767,327,0,Wednesday,Yes,poor,60,30,28,35
-2019,Nov,14,autumn,19,Mittag,Madeira,5122,373,0,Thursday,Yes,very good,60,30,28,35
-2019,Nov,15,autumn,20,Morgen,Madeira,5125,320,0,Friday,Yes,poor,60,30,28,35
-2019,Nov,16,autumn,21,Mittag,Madeira,5214,484,0,Saturday,Yes,very good,60,30,28,35
-2019,Nov,17,autumn,22,Mittag,Madeira,4316,1313,0,Sunday,No,very good,60,30,28,35
-2019,Nov,18,autumn,23,Mittag,Madeira,3747,922,0,Monday,No,very good,60,30,28,35
-2019,Nov,19,autumn,0,Morgen,Madeira,5050,449,0,Tuesday,Yes,poor,60,30,28,35
-2019,Nov,20,autumn,1,Morgen,Madeira,5100,534,0,Wednesday,Yes,poor,60,30,28,35
-2019,Nov,21,autumn,2,Mittag,Madeira,4531,615,0,Thursday,Yes,very good,60,30,28,35
-2019,Nov,22,autumn,3,Mittag,Madeira,1470,955,1,Friday,No,very good,60,30,28,35
-2019,Nov,23,autumn,5,Mittag,Madeira,2307,1603,0,Saturday,Yes,very good,60,30,28,35
-2019,Nov,24,autumn,6,Mittag,Madeira,1745,532,0,Sunday,No,very good,60,30,28,35
-2019,Nov,25,autumn,7,Mittag,Madeira,2115,309,0,Monday,No,very good,60,30,28,35
-2019,Nov,26,autumn,8,Mittag,Madeira,4750,337,0,Tuesday,Yes,very good,60,30,28,35
-2019,Nov,27,autumn,9,Morgen,Madeira,3836,123,0,Wednesday,Yes,poor,60,30,28,35
-2019,Nov,28,autumn,10,Mittag,Madeira,5062,198,0,Thursday,Yes,very good,60,30,28,35
-2019,Nov,29,autumn,11,Mittag,Madeira,5080,243,0,Friday,Yes,very good,60,30,28,35
-2019,Nov,30,autumn,12,Mittag,Scott,5306,362,0,Saturday,Yes,very good,74,37,35,31
-2019,Dec,1,autumn,13,Morgen,Scott,4240,951,0,Sunday,No,poor,74,37,35,31
-2019,Dec,2,autumn,14,Morgen,Scott,3757,892,0,Monday,No,poor,74,37,35,31
-2019,Dec,3,autumn,15,Mittag,Scott,5679,555,0,Tuesday,Yes,very good,74,37,35,31
-2019,Dec,4,autumn,16,Mittag,Scott,6055,551,0,Wednesday,Yes,very good,74,37,35,31
-2019,Dec,5,autumn,17,Mittag,Scott,5398,331,0,Thursday,Yes,very good,74,37,35,31
-2019,Dec,6,autumn,18,Mittag,Scott,5035,340,0,Friday,Yes,very good,74,37,35,31
-2019,Dec,7,autumn,19,Morgen,Scott,4659,349,0,Saturday,Yes,poor,74,37,35,31
-2019,Dec,8,autumn,20,Morgen,Scott,4429,1153,0,Sunday,No,poor,74,37,35,31
-2019,Dec,9,autumn,21,Morgen,Scott,2787,441,0,Monday,No,poor,74,37,35,31
-2019,Dec,10,autumn,22,Morgen,Scott,4841,329,0,Tuesday,Yes,poor,74,37,35,31
-2019,Dec,11,autumn,23,Morgen,Scott,5219,282,0,Wednesday,Yes,poor,74,37,35,31
-2019,Dec,12,autumn,0,Morgen,Scott,5009,310,0,Thursday,Yes,poor,74,37,35,31
-2019,Dec,13,autumn,1,Mittag,Treck,5107,425,0,Friday,Yes,very good,50,25,35,29
-2019,Dec,14,autumn,2,Mittag,Treck,5182,429,0,Saturday,Yes,very good,50,25,35,29
-2019,Dec,15,autumn,3,Mittag,Treck,4280,767,0,Sunday,No,very good,50,25,35,29
-2019,Dec,16,autumn,4,Morgen,Treck,3248,538,0,Monday,No,poor,50,25,35,29
-2019,Dec,17,autumn,5,Morgen,Treck,4373,212,0,Tuesday,Yes,poor,50,25,35,29
-2019,Dec,18,autumn,6,Mittag,Treck,5124,433,0,Wednesday,Yes,very good,50,25,35,29
-2019,Dec,19,autumn,7,Mittag,Treck,4934,333,0,Thursday,Yes,very good,50,25,35,29
-2019,Dec,20,autumn,8,Morgen,Treck,3814,314,0,Friday,Yes,poor,50,25,35,29
-2019,Dec,21,winter,9,Morgen,Treck,3402,221,0,Saturday,Yes,poor,50,25,35,29
-2019,Dec,22,winter,10,Mittag,Treck,1544,205,0,Sunday,No,very good,50,25,35,29
-2019,Dec,23,winter,11,Mittag,Treck,1379,408,0,Monday,No,very good,50,25,35,29
-2019,Dec,24,winter,12,Morgen,Treck,746,174,0,Tuesday,Yes,poor,50,25,35,29
-2019,Dec,25,winter,13,Morgen,Treck,573,440,1,Wednesday,No,poor,50,25,35,29
-2019,Dec,26,winter,14,Abend,Treck,432,9,0,Thursday,Yes,very poor,50,25,35,29
-2019,Dec,27,winter,15,Morgen,Treck,1867,247,0,Friday,Yes,poor,50,25,35,29
-2019,Dec,28,winter,16,Morgen,Treck,2451,644,0,Saturday,Yes,poor,50,25,35,29
-2019,Dec,29,winter,17,Morgen,Treck,1182,159,0,Sunday,No,poor,50,25,35,29
-2019,Dec,30,winter,18,Mittag,Treck,1432,364,0,Monday,No,very good,50,25,35,29
-2019,Dec,31,winter,19,Morgen,Treck,2290,439,0,Tuesday,Yes,poor,50,25,35,29
+Year,Month,Day,Season,Hour,Day_Time,Item,Sales_rev,Bikes_sold,holiday,weekday,workingday,weather_forecast,Interested,Likely,Not_interested,Not_likely
+2020,Jan,1,winter,0,Morgen,Panama,20274,31,0,Sunday,No,poor,30,15,45,28
+2020,Jan,2,winter,1,Morgen,Panama,85674,131,0,Monday,No,poor,30,15,45,28
+2020,Jan,3,winter,2,Mittag,Panama,78480,120,0,Tuesday,Yes,very good,30,15,45,28
+2020,Jan,4,winter,3,Mittag,Panama,70632,108,0,Wednesday,Yes,very good,30,15,45,28
+2020,Jan,5,winter,4,Mittag,Panama,53628,82,0,Thursday,Yes,very good,30,15,45,28
+2020,Jan,6,winter,5,Mittag,Panama,57552,88,0,Friday,Yes,very good,30,15,45,28
+2020,Jan,7,winter,6,Morgen,Panama,96792,148,0,Saturday,Yes,poor,30,15,45,28
+2020,Jan,8,winter,7,Morgen,Panama,44472,68,0,Sunday,No,poor,30,15,45,28
+2020,Jan,9,winter,8,Mittag,Panama,35316,54,0,Monday,No,very good,30,15,45,28
+2020,Jan,10,winter,9,Mittag,Panama,26814,41,0,Tuesday,Yes,very good,30,15,45,28
+2020,Jan,11,winter,10,Morgen,Panama,28122,43,0,Wednesday,Yes,poor,30,15,45,28
+2020,Jan,12,winter,11,Mittag,Panama,16350,25,0,Thursday,Yes,very good,30,15,45,28
+2020,Jan,13,winter,12,Mittag,Panama,24852,38,0,Friday,Yes,very good,30,15,45,28
+2020,Jan,14,winter,13,Mittag,Panama,35316,54,0,Saturday,Yes,very good,30,15,45,28
+2020,Jan,15,winter,14,Morgen,Panama,145188,222,0,Sunday,No,poor,30,15,45,28
+2020,Jan,16,winter,15,Mittag,Panama,164154,251,0,Monday,No,very good,30,15,45,28
+2020,Jan,17,winter,16,Morgen,Panama,76518,117,1,Tuesday,No,poor,30,15,45,28
+2020,Jan,18,winter,17,Morgen,Panama,5886,9,0,Wednesday,Yes,poor,30,15,45,28
+2020,Jan,19,winter,18,Morgen,Pegas,51012,78,0,Thursday,Yes,poor,15,8,23,28
+2020,Jan,20,winter,19,Morgen,Pegas,54282,83,0,Friday,Yes,poor,15,8,23,28
+2020,Jan,21,winter,20,Mittag,Pegas,49050,75,0,Saturday,Yes,very good,15,8,23,28
+2020,Jan,22,winter,21,Mittag,Pegas,60822,93,0,Sunday,No,very good,15,8,23,28
+2020,Jan,23,winter,22,Mittag,Pegas,98100,150,0,Monday,No,very good,15,8,23,28
+2020,Jan,24,winter,23,Mittag,Pegas,56244,86,0,Tuesday,Yes,very good,15,8,23,28
+2020,Jan,25,winter,0,Morgen,Pegas,121644,186,0,Wednesday,Yes,poor,15,8,23,28
+2020,Jan,26,winter,1,Abend,Pegas,22236,34,0,Thursday,Yes,very poor,15,8,23,28
+2020,Jan,27,winter,2,Mittag,Pegas,9810,15,0,Friday,Yes,very good,15,8,23,28
+2020,Jan,28,winter,3,Morgen,Pegas,24852,38,0,Saturday,Yes,poor,15,8,23,28
+2020,Jan,29,winter,4,Mittag,Pegas,80442,123,0,Sunday,No,very good,15,8,23,28
+2020,Jan,30,winter,6,Mittag,Pegas,91560,140,0,Monday,No,very good,15,8,23,28
+2020,Jan,31,winter,7,Morgen,Pegas,27468,42,0,Tuesday,Yes,poor,15,8,23,28
+2020,Feb,1,winter,8,Morgen,Pegas,30738,47,0,Wednesday,Yes,poor,15,8,23,28
+2020,Feb,2,winter,9,Morgen,Pegas,47088,72,0,Thursday,Yes,poor,15,8,23,28
+2020,Feb,3,winter,10,Mittag,Pegas,39894,61,0,Friday,Yes,very good,15,8,23,28
+2020,Feb,4,winter,11,Morgen,Pegas,57552,88,0,Saturday,Yes,poor,15,8,23,28
+2020,Feb,5,winter,12,Morgen,Pegas,65400,100,0,Sunday,No,poor,15,8,23,28
+2020,Feb,6,winter,13,Mittag,Pegas,231516,354,0,Monday,No,very good,15,8,23,28
+2020,Feb,7,winter,14,Mittag,Pegas,78480,120,0,Tuesday,Yes,very good,15,8,23,28
+2020,Feb,8,winter,15,Mittag,Pegas,41856,64,0,Wednesday,Yes,very good,15,8,23,28
+2020,Feb,9,winter,16,Morgen,Pegas,34662,53,0,Thursday,Yes,poor,15,8,23,28
+2020,Feb,10,winter,17,Mittag,Pegas,30738,47,0,Friday,Yes,very good,15,8,23,28
+2020,Feb,11,winter,18,Mittag,Pegas,97446,149,0,Saturday,Yes,very good,15,8,23,28
+2020,Feb,12,winter,19,Mittag,Pegas,188352,288,0,Sunday,No,very good,15,8,23,28
+2020,Feb,13,winter,20,Mittag,Pegas,259638,397,0,Monday,No,very good,15,8,23,28
+2020,Feb,14,winter,21,Mittag,Pegas,136032,208,0,Tuesday,Yes,very good,15,8,23,28
+2020,Feb,15,winter,22,Mittag,Pegas,91560,140,0,Wednesday,Yes,very good,15,8,23,28
+2020,Feb,16,winter,23,Mittag,Pegas,142572,218,0,Thursday,Yes,very good,15,8,23,28
+2020,Feb,17,winter,0,Mittag,Pegas,169386,259,0,Friday,Yes,very good,15,8,23,28
+2020,Feb,18,winter,1,Mittag,Pegas,378666,579,0,Saturday,Yes,very good,15,8,23,28
+2020,Feb,19,winter,4,Mittag,Pegas,347928,532,0,Sunday,No,very good,15,8,23,28
+2020,Feb,20,winter,5,Mittag,Pegas,417906,639,0,Monday,No,very good,15,8,23,28
+2020,Feb,21,winter,6,Morgen,Pegas,127530,195,1,Tuesday,No,poor,15,8,23,28
+2020,Feb,22,winter,7,Mittag,Pegas,48396,74,0,Wednesday,Yes,very good,15,8,23,28
+2020,Feb,23,winter,8,Mittag,Pegas,90906,139,0,Thursday,Yes,very good,15,8,23,28
+2020,Feb,24,winter,9,Morgen,Pegas,65400,100,0,Friday,Yes,poor,15,8,23,28
+2020,Feb,25,winter,10,Morgen,Pegas,78480,120,0,Saturday,Yes,poor,15,8,23,28
+2020,Feb,26,winter,11,Mittag,Pegas,277296,424,0,Sunday,No,very good,15,8,23,28
+2020,Feb,27,winter,12,Mittag,Pegas,453876,694,0,Monday,No,very good,15,8,23,28
+2020,Feb,28,winter,13,Morgen,Pegas,52974,81,0,Tuesday,Yes,poor,15,8,23,28
+2020,Mar,1,winter,14,Mittag,Pegas,89598,137,0,Wednesday,Yes,very good,15,8,23,28
+2020,Mar,2,winter,15,Mittag,Raleigh,151074,231,0,Thursday,Yes,very good,68,34,35,20
+2020,Mar,3,winter,16,Mittag,Raleigh,80442,123,0,Friday,Yes,very good,68,34,35,20
+2020,Mar,4,winter,17,Morgen,Raleigh,139956,214,0,Saturday,Yes,poor,68,34,35,20
+2020,Mar,5,winter,18,Morgen,Raleigh,418560,640,0,Sunday,No,poor,68,34,35,20
+2020,Mar,6,winter,19,Morgen,Raleigh,74556,114,0,Monday,No,poor,68,34,35,20
+2020,Mar,7,winter,20,Mittag,Raleigh,159576,244,0,Tuesday,Yes,very good,68,34,35,20
+2020,Mar,8,winter,21,Mittag,Raleigh,206664,316,0,Wednesday,Yes,very good,68,34,35,20
+2020,Mar,9,winter,22,Morgen,Raleigh,124914,191,0,Thursday,Yes,poor,68,34,35,20
+2020,Mar,10,winter,23,Abend,Raleigh,30084,46,0,Friday,Yes,very poor,68,34,35,20
+2020,Mar,11,winter,0,Morgen,Raleigh,161538,247,0,Saturday,Yes,Poor,68,34,35,20
+2020,Mar,12,winter,1,Mittag,Raleigh,473496,724,0,Sunday,No,very good,68,34,35,20
+2020,Mar,13,winter,2,Mittag,Raleigh,642228,982,0,Monday,No,very good,68,34,35,20
+2020,Mar,14,winter,4,Mittag,Raleigh,234786,359,0,Tuesday,Yes,very good,68,34,35,20
+2020,Mar,15,winter,5,Morgen,Raleigh,189006,289,0,Wednesday,Yes,poor,68,34,35,20
+2020,Mar,16,winter,6,Morgen,Raleigh,209934,321,0,Thursday,Yes,poor,68,34,35,20
+2020,Mar,17,winter,7,Mittag,Raleigh,277296,424,0,Friday,Yes,very good,68,34,35,20
+2020,Mar,18,winter,8,Mittag,Raleigh,578136,884,0,Saturday,Yes,very good,68,34,35,20
+2020,Mar,19,winter,9,Mittag,Raleigh,277296,424,0,Sunday,No,very good,68,34,35,20
+2020,Mar,20,winter,10,Mittag,Raleigh,68016,104,0,Monday,No,very good,68,34,35,20
+2020,Mar,21,spring,11,Morgen,Raleigh,262254,401,0,Tuesday,Yes,poor,68,34,35,20
+2020,Mar,22,spring,12,Mittag,Raleigh,300840,460,0,Wednesday,Yes,very good,68,34,35,20
+2020,Mar,23,spring,13,Morgen,Raleigh,132762,203,0,Thursday,Yes,poor,68,34,35,20
+2020,Mar,24,spring,14,Morgen,Raleigh,108564,166,0,Friday,Yes,poor,68,34,35,20
+2020,Mar,25,spring,15,Mittag,Raleigh,196200,300,0,Saturday,Yes,very good,68,34,35,20
+2020,Mar,26,spring,16,Mittag,Raleigh,641574,981,0,Sunday,No,very good,68,34,35,20
+2020,Mar,27,spring,17,Morgen,Raleigh,308688,472,0,Monday,No,poor,68,34,35,20
+2020,Mar,28,spring,18,Mittag,Raleigh,145188,222,0,Tuesday,Yes,very good,68,34,35,20
+2020,Mar,29,spring,19,Mittag,Raleigh,207318,317,0,Wednesday,Yes,very good,68,34,35,20
+2020,Mar,30,spring,20,Morgen,Raleigh,109872,168,0,Thursday,Yes,poor,68,34,35,20
+2020,Mar,31,spring,21,Abend,Raleigh,117066,179,0,Friday,Yes,very poor,68,34,35,20
+2020,Apr,1,spring,22,Morgen,Raleigh,200778,307,0,Saturday,Yes,poor,68,34,35,20
+2020,Apr,2,spring,23,Morgen,Raleigh,587292,898,0,Sunday,No,poor,68,34,35,20
+2020,Apr,3,spring,0,Mittag,Raleigh,425754,651,0,Monday,No,very good,68,34,35,20
+2020,Apr,4,spring,1,Mittag,Raleigh,480036,734,0,Tuesday,Yes,very good,68,34,35,20
+2020,Apr,5,spring,2,Morgen,Raleigh,109218,167,0,Wednesday,Yes,poor,68,34,35,20
+2020,Apr,6,spring,4,Mittag,Raleigh,270102,413,0,Thursday,Yes,very good,68,34,35,20
+2020,Apr,7,spring,5,Mittag,Specialized,373434,571,0,Friday,Yes,very good,74,37,35,23
+2020,Apr,8,spring,6,Morgen,Specialized,112488,172,0,Saturday,Yes,poor,74,37,35,23
+2020,Apr,9,spring,7,Morgen,Specialized,574866,879,0,Sunday,No,poor,74,37,35,23
+2020,Apr,10,spring,8,Morgen,Specialized,122952,188,0,Monday,No,poor,74,37,35,23
+2020,Apr,11,spring,9,Morgen,Specialized,559170,855,0,Tuesday,Yes,poor,74,37,35,23
+2020,Apr,12,spring,10,Morgen,Specialized,168078,257,0,Wednesday,Yes,poor,74,37,35,23
+2020,Apr,13,spring,11,Morgen,Specialized,136686,209,0,Thursday,Yes,poor,74,37,35,23
+2020,Apr,14,spring,12,Mittag,Specialized,345966,529,0,Friday,Yes,very good,74,37,35,23
+2020,Apr,15,spring,13,Mittag,Specialized,419868,642,1,Saturday,No,very good,74,37,35,23
+2020,Apr,16,spring,14,Abend,Specialized,79134,121,0,Sunday,No,very poor,74,37,35,23
+2020,Apr,17,spring,15,Mittag,Specialized,37932,58,0,Monday,No,very good,74,37,35,23
+2020,Apr,18,spring,16,Mittag,Specialized,437526,669,0,Tuesday,Yes,very good,74,37,35,23
+2020,Apr,19,spring,17,Morgen,Specialized,267486,409,0,Wednesday,Yes,poor,74,37,35,23
+2020,Apr,20,spring,18,Mittag,Specialized,400902,613,0,Thursday,Yes,very good,74,37,35,23
+2020,Apr,21,spring,19,Mittag,Specialized,487230,745,0,Friday,Yes,very good,74,37,35,23
+2020,Apr,22,spring,20,Morgen,Specialized,115758,177,0,Saturday,Yes,poor,74,37,35,23
+2020,Apr,23,spring,21,Morgen,Specialized,302148,462,0,Sunday,No,poor,74,37,35,23
+2020,Apr,24,spring,22,Morgen,Specialized,464340,710,0,Monday,No,poor,74,37,35,23
+2020,Apr,25,spring,23,Mittag,Specialized,505542,773,0,Tuesday,Yes,very good,74,37,35,23
+2020,Apr,26,spring,0,Mittag,Specialized,443412,678,0,Wednesday,Yes,very good,74,37,35,23
+2020,Apr,27,spring,1,Morgen,Specialized,357738,547,0,Thursday,Yes,poor,74,37,35,23
+2020,Apr,28,spring,2,Morgen,Specialized,372126,569,0,Friday,Yes,poor,74,37,35,23
+2020,Apr,29,spring,4,Mittag,Specialized,574212,878,0,Saturday,Yes,very good,74,37,35,23
+2020,Apr,30,spring,5,Mittag,Specialized,631110,965,0,Sunday,No,very good,74,37,35,23
+2020,May,1,spring,6,Morgen,Specialized,90252,138,0,Monday,No,poor,74,37,35,23
+2020,May,2,spring,7,Morgen,Specialized,553938,847,0,Tuesday,Yes,poor,74,37,35,23
+2020,May,3,spring,8,Morgen,Specialized,394362,603,0,Wednesday,Yes,poor,74,37,35,23
+2020,May,4,spring,9,Morgen,Specialized,166770,255,0,Thursday,Yes,poor,74,37,35,23
+2020,May,5,spring,10,Mittag,Specialized,401556,614,0,Friday,Yes,very good,74,37,35,23
+2020,May,6,spring,11,Mittag,Specialized,584676,894,0,Saturday,Yes,very good,74,37,35,23
+2020,May,7,spring,12,Mittag,Specialized,400248,612,0,Sunday,No,very good,74,37,35,23
+2020,May,8,spring,13,Mittag,Specialized,65400,100,0,Monday,No,very good,74,37,35,23
+2020,May,9,spring,14,Mittag,Specialized,434256,664,0,Tuesday,Yes,very good,74,37,35,23
+2020,May,10,spring,15,Mittag,Specialized,453876,694,0,Wednesday,Yes,very good,74,37,35,23
+2020,May,11,spring,16,Mittag,Specialized,359700,550,0,Thursday,Yes,very good,74,37,35,23
+2020,May,12,spring,17,Mittag,Specialized,454530,695,0,Friday,Yes,very good,74,37,35,23
+2020,May,13,spring,18,Morgen,Specialized,452568,692,0,Saturday,Yes,poor,74,37,35,23
+2020,May,14,spring,19,Morgen,Specialized,589908,902,0,Sunday,No,poor,74,37,35,23
+2020,May,15,spring,20,Morgen,Specialized,380628,582,0,Monday,No,poor,74,37,35,23
+2020,May,16,spring,21,Mittag,Specialized,505542,773,0,Tuesday,Yes,very good,74,37,35,23
+2020,May,17,spring,22,Morgen,Specialized,443412,678,0,Wednesday,Yes,poor,74,37,35,23
+2020,May,18,spring,23,Morgen,Mobby,350544,536,0,Thursday,Yes,poor,55,28,45,25
+2020,May,19,spring,0,Morgen,Mobby,480690,735,0,Friday,Yes,poor,55,28,45,25
+2020,May,20,spring,1,Mittag,Mobby,594486,909,0,Saturday,Yes,very good,55,28,45,25
+2020,May,21,spring,2,Mittag,Mobby,168732,258,0,Sunday,No,very good,55,28,45,25
+2020,May,22,spring,4,Mittag,Mobby,1030704,1576,0,Monday,No,very good,55,28,45,25
+2020,May,23,spring,5,Morgen,Mobby,546744,836,0,Tuesday,Yes,poor,55,28,45,25
+2020,May,24,spring,6,Morgen,Mobby,430986,659,0,Wednesday,Yes,poor,55,28,45,25
+2020,May,25,spring,7,Mittag,Mobby,483960,740,0,Thursday,Yes,very good,55,28,45,25
+2020,May,26,spring,8,Mittag,Mobby,495732,758,0,Friday,Yes,very good,55,28,45,25
+2020,May,27,spring,9,Mittag,Mobby,569634,871,0,Saturday,Yes,very good,55,28,45,25
+2020,May,28,spring,10,Mittag,Mobby,1308654,2001,0,Sunday,No,very good,55,28,45,25
+2020,May,29,spring,11,Mittag,Mobby,1540170,2355,0,Monday,No,very good,55,28,45,25
+2020,May,30,spring,12,Mittag,Mobby,1013046,1549,1,Tuesday,No,very good,55,28,45,25
+2020,May,31,spring,13,Mittag,Mobby,440142,673,0,Wednesday,Yes,very good,55,28,45,25
+2020,Jun,1,spring,14,Morgen,Mobby,335502,513,0,Thursday,Yes,poor,55,28,45,25
+2020,Jun,2,spring,15,Mittag,Mobby,481344,736,0,Friday,Yes,very good,55,28,45,25
+2020,Jun,3,spring,16,Mittag,Mobby,587292,898,0,Saturday,Yes,very good,55,28,45,25
+2020,Jun,4,spring,17,Mittag,Mobby,568326,869,0,Sunday,No,very good,55,28,45,25
+2020,Jun,5,spring,18,Morgen,Mobby,447990,685,0,Monday,No,poor,55,28,45,25
+2020,Jun,6,spring,19,Mittag,Mobby,440142,673,0,Tuesday,Yes,very good,55,28,45,25
+2020,Jun,7,spring,20,Mittag,Mobby,499002,763,0,Wednesday,Yes,very good,55,28,45,25
+2020,Jun,8,spring,21,Mittag,Mobby,442104,676,0,Thursday,Yes,very good,55,28,45,25
+2020,Jun,9,spring,22,Morgen,Mobby,368202,563,0,Friday,Yes,poor,55,28,45,25
+2020,Jun,10,spring,23,Mittag,Mobby,533010,815,0,Saturday,Yes,very good,55,28,45,25
+2020,Jun,11,spring,0,Mittag,Mobby,476766,729,0,Sunday,No,very good,55,28,45,25
+2020,Jun,12,spring,1,Mittag,Mobby,43818,67,0,Monday,No,very good,55,28,45,25
+2020,Jun,13,spring,2,Mittag,Mobby,564402,863,0,Tuesday,Yes,very good,55,28,45,25
+2020,Jun,14,spring,3,Mittag,Mobby,475458,727,0,Wednesday,Yes,very good,55,28,45,25
+2020,Jun,15,spring,4,Mittag,Mobby,502926,769,0,Thursday,Yes,very good,55,28,45,25
+2020,Jun,16,spring,5,Morgen,Mobby,356430,545,0,Friday,Yes,poor,55,28,45,25
+2020,Jun,17,spring,6,Mittag,Mobby,564402,863,0,Saturday,Yes,very good,55,28,45,25
+2020,Jun,18,spring,7,Mittag,Mobby,527778,807,0,Sunday,No,very good,55,28,45,25
+2020,Jun,19,spring,8,Morgen,Mobby,417906,639,0,Monday,No,poor,55,28,45,25
+2020,Jun,20,spring,9,Morgen,Mobby,457146,699,0,Tuesday,Yes,poor,55,28,45,25
+2020,Jun,21,summer,10,Morgen,Mobby,506196,774,0,Wednesday,Yes,poor,55,28,45,25
+2020,Jun,22,summer,11,Mittag,Mobby,432294,661,0,Thursday,Yes,very good,55,28,45,25
+2020,Jun,23,summer,12,Morgen,Mobby,487884,746,0,Friday,Yes,poor,55,28,45,25
+2020,Jun,24,summer,13,Mittag,Mobby,633726,969,0,Saturday,Yes,very good,55,28,45,25
+2020,Jun,25,summer,14,Mittag,Mobby,511428,782,0,Sunday,No,very good,55,28,45,25
+2020,Jun,26,summer,15,Mittag,Mobby,601680,920,0,Monday,No,very good,55,28,45,25
+2020,Jun,27,summer,16,Morgen,Mobby,558516,854,0,Tuesday,Yes,poor,55,28,45,25
+2020,Jun,28,summer,17,Mittag,Mobby,478728,732,0,Wednesday,Yes,very good,55,28,45,25
+2020,Jun,29,summer,18,Mittag,Mobby,554592,848,0,Thursday,Yes,very good,55,28,45,25
+2020,Jun,30,summer,19,Mittag,Mobby,17658,27,0,Friday,Yes,very good,55,28,45,25
+2020,Jul,1,summer,20,Mittag,Mobby,160884,246,0,Saturday,Yes,very good,55,28,45,25
+2020,Jul,2,summer,21,Mittag,Mobby,133416,204,0,Sunday,No,very good,55,28,45,25
+2020,Jul,3,summer,22,Morgen,Mobby,184428,282,0,Monday,No,poor,55,28,45,25
+2020,Jul,4,summer,23,Morgen,Mobby,238710,365,1,Tuesday,No,poor,55,28,45,25
+2020,Jul,5,summer,0,Mittag,Mobby,85674,131,0,Wednesday,Yes,very good,55,28,45,25
+2020,Jul,6,summer,1,Mittag,Mobby,512736,784,0,Thursday,Yes,very good,55,28,45,25
+2020,Jul,7,summer,2,Mittag,Mobby,493116,754,0,Friday,Yes,very good,55,28,45,25
+2020,Jul,8,summer,3,Morgen,Raleigh,452568,692,0,Saturday,Yes,poor,68,34,35,20
+2020,Jul,9,summer,4,Mittag,Raleigh,122952,188,0,Sunday,No,very good,68,34,35,20
+2020,Jul,10,summer,5,Mittag,Raleigh,485922,743,0,Monday,No,very good,68,34,35,20
+2020,Jul,11,summer,6,Mittag,Raleigh,472842,723,0,Tuesday,Yes,very good,68,34,35,20
+2020,Jul,12,summer,7,Mittag,Raleigh,432948,662,0,Wednesday,Yes,very good,68,34,35,20
+2020,Jul,13,summer,8,Mittag,Raleigh,489192,748,0,Thursday,Yes,very good,68,34,35,20
+2020,Jul,14,summer,9,Mittag,Orbea,580752,888,0,Friday,Yes,very good,38,19,24,25
+2020,Jul,15,summer,10,Mittag,Orbea,207972,318,0,Saturday,Yes,very good,38,19,24,25
+2020,Jul,16,summer,11,Mittag,Orbea,273372,418,0,Sunday,No,very good,38,19,24,25
+2020,Jul,17,summer,12,Mittag,Orbea,134724,206,0,Monday,No,very good,38,19,24,25
+2020,Jul,18,summer,13,Mittag,Orbea,550014,841,0,Tuesday,Yes,very good,38,19,24,25
+2020,Jul,19,summer,14,Mittag,Orbea,491808,752,0,Wednesday,Yes,very good,38,19,24,25
+2020,Jul,20,summer,15,Mittag,Orbea,421176,644,0,Thursday,Yes,very good,38,19,24,25
+2020,Jul,21,summer,16,Morgen,Orbea,413328,632,0,Friday,Yes,poor,38,19,24,25
+2020,Jul,22,summer,17,Mittag,Orbea,367548,562,0,Saturday,Yes,very good,38,19,24,25
+2020,Jul,23,summer,18,Mittag,Orbea,645498,987,0,Sunday,No,very good,38,19,24,25
+2020,Jul,24,summer,19,Mittag,Orbea,68670,105,0,Monday,No,very good,38,19,24,25
+2020,Jul,25,summer,20,Mittag,Orbea,371472,568,0,Tuesday,Yes,very good,38,19,24,25
+2020,Jul,26,summer,21,Mittag,Orbea,490500,750,0,Wednesday,Yes,very good,38,19,24,25
+2020,Jul,27,summer,22,Mittag,Orbea,493770,755,0,Thursday,Yes,very good,38,19,24,25
+2020,Jul,28,summer,23,Mittag,Orbea,396324,606,0,Friday,Yes,very good,38,19,24,25
+2020,Jul,29,summer,0,Mittag,Orbea,438180,670,0,Saturday,Yes,very good,38,19,24,25
+2020,Jul,30,summer,1,Mittag,Orbea,101370,155,0,Sunday,No,very good,38,19,24,25
+2020,Jul,31,summer,2,Mittag,Orbea,99408,152,0,Monday,No,very good,38,19,24,25
+2020,Aug,1,summer,3,Mittag,Orbea,476766,729,0,Tuesday,Yes,very good,38,19,24,25
+2020,Aug,2,summer,4,Mittag,Orbea,523854,801,0,Wednesday,Yes,very good,38,19,24,25
+2020,Aug,3,summer,5,Morgen,Orbea,305418,467,0,Thursday,Yes,poor,38,19,24,25
+2020,Aug,4,summer,6,Morgen,Orbea,522546,799,0,Friday,Yes,poor,38,19,24,25
+2020,Aug,5,summer,7,Mittag,Orbea,66708,102,0,Saturday,Yes,very good,38,19,24,25
+2020,Aug,6,summer,8,Morgen,Orbea,99408,152,0,Sunday,No,poor,38,19,24,25
+2020,Aug,7,summer,9,Mittag,Orbea,84366,129,0,Monday,No,very good,38,19,24,25
+2020,Aug,8,summer,10,Mittag,Orbea,553284,846,0,Tuesday,Yes,very good,38,19,24,25
+2020,Aug,9,summer,11,Mittag,Orbea,593178,907,0,Wednesday,Yes,very good,38,19,24,25
+2020,Aug,10,summer,12,Mittag,Orbea,578136,884,0,Thursday,Yes,very good,38,19,24,25
+2020,Aug,11,summer,13,Mittag,Orbea,531048,812,0,Friday,Yes,very good,38,19,24,25
+2020,Aug,12,summer,14,Mittag,Orbea,68670,105,0,Saturday,Yes,very good,38,19,24,25
+2020,Aug,13,summer,15,Morgen,Orbea,98100,150,0,Sunday,No,poor,38,19,24,25
+2020,Aug,14,summer,16,Morgen,Orbea,86982,133,0,Monday,No,poor,38,19,24,25
+2020,Aug,15,summer,17,Mittag,Orbea,506850,775,0,Tuesday,Yes,very good,38,19,24,25
+2020,Aug,16,summer,18,Mittag,Orbea,471534,721,0,Wednesday,Yes,very good,38,19,24,25
+2020,Aug,17,summer,19,Mittag,Orbea,436872,668,0,Thursday,Yes,very good,38,19,24,25
+2020,Aug,18,summer,20,Mittag,Orbea,417906,639,0,Friday,Yes,very good,38,19,24,25
+2020,Aug,19,summer,21,Morgen,Orbea,521238,797,0,Saturday,Yes,poor,38,19,24,25
+2020,Aug,20,summer,22,Mittag,Orbea,124914,191,0,Sunday,No,very good,38,19,24,25
+2020,Aug,21,summer,23,Mittag,Orbea,81096,124,0,Monday,No,very good,38,19,24,25
+2020,Aug,22,summer,0,Mittag,Orbea,544782,833,0,Tuesday,Yes,very good,38,19,24,25
+2020,Aug,23,summer,1,Mittag,Orbea,83712,128,0,Wednesday,Yes,very good,38,19,24,25
+2020,Aug,24,summer,2,Mittag,Orbea,620646,949,0,Thursday,Yes,very good,38,19,24,25
+2020,Aug,25,summer,5,Morgen,Orbea,284490,435,0,Friday,Yes,poor,38,19,24,25
+2020,Aug,26,summer,6,Mittag,Orbea,502272,768,0,Saturday,Yes,very good,38,19,24,25
+2020,Aug,27,summer,7,Morgen,Orbea,147804,226,0,Sunday,No,poor,38,19,24,25
+2020,Aug,28,summer,8,Mittag,Orbea,92214,141,0,Monday,No,very good,38,19,24,25
+2020,Aug,29,summer,9,Mittag,Orbea,476766,729,0,Tuesday,Yes,very good,38,19,24,25
+2020,Aug,30,summer,10,Mittag,Orbea,506850,775,0,Wednesday,Yes,very good,38,19,24,25
+2020,Aug,31,summer,11,Mittag,Orbea,449952,688,0,Thursday,Yes,very good,38,19,24,25
+2020,Sep,1,summer,12,Mittag,Orbea,512082,783,0,Friday,Yes,very good,38,19,24,25
+2020,Sep,2,summer,13,Morgen,Orbea,572250,875,0,Saturday,Yes,poor,38,19,24,25
+2020,Sep,3,summer,14,Mittag,Orbea,126222,193,0,Sunday,No,very good,38,19,24,25
+2020,Sep,4,summer,15,Mittag,Orbea,164808,252,0,Monday,No,very good,38,19,24,25
+2020,Sep,5,summer,16,Morgen,Orbea,80442,123,1,Tuesday,No,poor,38,19,24,25
+2020,Sep,6,summer,17,Abend,Orbea,133416,204,0,Wednesday,Yes,very poor,38,19,24,25
+2020,Sep,7,summer,18,Abend,Orbea,77172,118,0,Thursday,Yes,very poor,38,19,24,25
+2020,Sep,8,summer,19,Abend,Orbea,100062,153,0,Friday,Yes,very poor,38,19,24,25
+2020,Sep,9,summer,20,Morgen,Orbea,272718,417,0,Saturday,Yes,poor,38,19,24,25
+2020,Sep,10,summer,21,Mittag,Orbea,114450,175,0,Sunday,No,very good,38,19,24,25
+2020,Sep,11,summer,22,Mittag,Orbea,106602,163,0,Monday,No,very good,38,19,24,25
+2020,Sep,12,summer,23,Mittag,Orbea,451260,690,0,Tuesday,Yes,very good,38,19,24,25
+2020,Sep,13,summer,0,Mittag,Orbea,458454,701,0,Wednesday,Yes,very good,38,19,24,25
+2020,Sep,14,summer,1,Mittag,Orbea,423138,647,0,Thursday,Yes,very good,38,19,24,25
+2020,Sep,15,summer,2,Morgen,Orbea,279912,428,0,Friday,Yes,poor,38,19,24,25
+2020,Sep,16,summer,5,Morgen,Orbea,485268,742,0,Saturday,Yes,poor,38,19,24,25
+2020,Sep,17,summer,6,Morgen,Orbea,9156,14,0,Sunday,No,poor,38,19,24,25
+2020,Sep,18,summer,7,Mittag,Orbea,8502,13,0,Monday,No,very good,38,19,24,25
+2020,Sep,19,summer,8,Morgen,Orbea,45126,69,0,Tuesday,Yes,poor,38,19,24,25
+2020,Sep,20,summer,9,Morgen,Orbea,286452,438,0,Wednesday,Yes,poor,38,19,24,25
+2020,Sep,21,summer,10,Morgen,Orbea,352506,539,0,Thursday,Yes,poor,38,19,24,25
+2020,Sep,22,summer,11,Morgen,Orbea,362970,555,0,Friday,Yes,poor,38,19,24,25
+2020,Sep,23,autumn,12,Morgen,Orbea,168732,258,0,Saturday,Yes,poor,38,19,24,25
+2020,Sep,24,autumn,13,Morgen,Orbea,11118,17,0,Sunday,No,poor,38,19,24,25
+2020,Sep,25,autumn,14,Morgen,Orbea,9810,15,0,Monday,No,poor,38,19,24,25
+2020,Sep,26,autumn,15,Morgen,Orbea,44472,68,0,Tuesday,Yes,poor,38,19,24,25
+2020,Sep,27,autumn,16,Morgen,Orbea,311958,477,0,Wednesday,Yes,poor,38,19,24,25
+2020,Sep,28,autumn,17,Morgen,Orbea,313920,480,0,Thursday,Yes,poor,38,19,24,25
+2020,Sep,29,autumn,18,Mittag,Orbea,427062,653,0,Friday,Yes,very good,38,19,24,25
+2020,Sep,30,autumn,19,Mittag,Orbea,542820,830,0,Saturday,Yes,very good,38,19,24,25
+2020,Okt,1,autumn,20,Morgen,Orbea,313920,480,0,Sunday,No,poor,38,19,24,25
+2020,Okt,2,autumn,21,Morgen,Orbea,402864,616,0,Monday,No,poor,38,19,24,25
+2020,Okt,3,autumn,22,Morgen,Orbea,215820,330,0,Tuesday,Yes,poor,38,19,24,18
+2020,Okt,4,autumn,23,Mittag,Orbea,317844,486,0,Wednesday,Yes,very good,38,19,24,25
+2020,Okt,5,autumn,0,Mittag,Orbea,365586,559,0,Thursday,Yes,very good,38,19,24,25
+2020,Okt,6,autumn,1,Mittag,Orbea,417906,639,0,Friday,Yes,very good,38,19,24,25
+2020,Okt,7,autumn,2,Mittag,Orbea,620646,949,0,Saturday,Yes,very good,38,19,24,25
+2020,Okt,8,autumn,3,Mittag,Orbea,145842,223,0,Sunday,No,very good,38,19,24,25
+2020,Okt,9,autumn,4,Mittag,Amsterdam,15042,23,0,Monday,No,very good,40,25,35,18
+2020,Okt,10,autumn,5,Mittag,Amsterdam,9810,15,1,Tuesday,No,very good,40,25,35,18
+2020,Okt,11,autumn,6,Morgen,Amsterdam,436218,667,0,Wednesday,Yes,poor,40,25,35,18
+2020,Okt,12,autumn,7,Abend,Amsterdam,141918,217,0,Thursday,Yes,very poor,40,25,35,18
+2020,Okt,13,autumn,8,Morgen,Amsterdam,189660,290,0,Friday,Yes,poor,40,25,35,18
+2020,Okt,14,autumn,9,Morgen,Amsterdam,345966,529,0,Saturday,Yes,poor,40,25,35,18
+2020,Okt,15,autumn,10,Mittag,Amsterdam,11772,18,0,Sunday,No,very good,40,25,35,18
+2020,Okt,16,autumn,11,Mittag,Amsterdam,113796,174,0,Monday,No,very good,40,25,35,18
+2020,Okt,17,autumn,12,Mittag,Amsterdam,466302,713,0,Tuesday,Yes,very good,40,25,35,18
+2020,Okt,18,autumn,13,Morgen,Amsterdam,416598,637,0,Wednesday,Yes,poor,40,25,35,18
+2020,Okt,19,autumn,14,Abend,Amsterdam,166116,254,0,Thursday,Yes,very poor,40,25,35,18
+2020,Okt,20,autumn,15,Mittag,Amsterdam,308034,471,0,Friday,Yes,very good,40,25,35,18
+2020,Okt,21,autumn,16,Mittag,Amsterdam,442104,676,0,Saturday,Yes,very good,40,25,35,18
+2020,Okt,22,autumn,17,Mittag,Amsterdam,9156,14,0,Sunday,No,very good,40,25,35,18
+2020,Okt,23,autumn,18,Mittag,Amsterdam,10464,16,0,Monday,No,very good,40,25,35,18
+2020,Okt,24,autumn,19,Mittag,Amsterdam,45126,69,0,Tuesday,Yes,very good,40,25,35,18
+2020,Okt,25,autumn,20,Mittag,Amsterdam,45126,69,0,Wednesday,Yes,very good,40,25,35,18
+2020,Okt,26,autumn,21,Morgen,Amsterdam,26160,40,0,Thursday,Yes,poor,40,25,35,18
+2020,Okt,27,autumn,22,Morgen,Amsterdam,15696,24,0,Friday,Yes,poor,40,25,35,18
+2020,Okt,28,autumn,23,Morgen,Amsterdam,298224,456,0,Saturday,Yes,poor,40,25,35,18
+2020,Okt,29,autumn,0,Abend,Amsterdam,37278,57,0,Sunday,No,very poor,40,25,35,18
+2020,Okt,30,autumn,1,Mittag,Amsterdam,57552,88,0,Monday,No,very good,40,25,35,18
+2020,Okt,31,autumn,2,Mittag,Amsterdam,24198,37,0,Tuesday,Yes,very good,40,25,35,18
+2020,Nov,1,autumn,3,Mittag,Amsterdam,268140,410,0,Wednesday,Yes,very good,40,25,35,18
+2020,Nov,2,autumn,5,Mittag,Amsterdam,241980,370,0,Thursday,Yes,very good,40,25,35,18
+2020,Nov,3,autumn,6,Mittag,Amsterdam,207972,318,0,Friday,Yes,very good,40,25,35,18
+2020,Nov,4,autumn,7,Morgen,Amsterdam,307380,470,0,Saturday,Yes,poor,40,25,35,18
+2020,Nov,5,autumn,8,Mittag,Amsterdam,75210,115,0,Sunday,No,very good,40,25,35,18
+2020,Nov,6,autumn,9,Mittag,Amsterdam,62130,95,0,Monday,No,very good,40,25,35,18
+2020,Nov,7,autumn,10,Mittag,Amsterdam,243942,373,0,Tuesday,Yes,very good,40,25,35,18
+2020,Nov,8,autumn,11,Mittag,Amsterdam,245904,376,0,Wednesday,Yes,very good,40,25,35,18
+2020,Nov,9,autumn,12,Mittag,Amsterdam,199470,305,0,Thursday,Yes,very good,40,25,35,18
+2020,Nov,10,autumn,13,Morgen,Amsterdam,124260,190,0,Friday,Yes,poor,40,25,35,18
+2020,Nov,11,autumn,14,Mittag,Amsterdam,287760,440,1,Saturday,No,very good,40,25,35,18
+2020,Nov,12,autumn,15,Mittag,Amsterdam,83058,127,0,Sunday,No,very good,40,25,35,18
+2020,Nov,13,autumn,16,Mittag,Amsterdam,65400,100,0,Monday,No,very good,40,25,35,18
+2020,Nov,14,autumn,17,Mittag,Amsterdam,389130,595,0,Tuesday,Yes,very good,40,25,35,18
+2020,Nov,15,autumn,18,Morgen,Amsterdam,293646,449,0,Wednesday,Yes,poor,40,25,35,18
+2020,Nov,16,autumn,19,Abend,Amsterdam,94830,145,0,Thursday,Yes,very poor,40,25,35,18
+2020,Nov,17,autumn,20,Morgen,Amsterdam,90906,139,0,Friday,Yes,poor,40,25,35,18
+2020,Nov,18,autumn,21,Mittag,Amsterdam,160230,245,0,Saturday,Yes,very good,40,25,35,18
+2020,Nov,19,autumn,22,Mittag,Amsterdam,616722,943,0,Sunday,No,very good,40,25,35,18
+2020,Nov,20,autumn,23,Morgen,Amsterdam,514698,787,0,Monday,No,poor,40,25,35,18
+2020,Nov,21,autumn,0,Abend,Amsterdam,143880,220,0,Tuesday,Yes,very poor,40,25,35,18
+2020,Nov,22,autumn,1,Abend,Amsterdam,45126,69,0,Wednesday,Yes,very poor,40,25,35,18
+2020,Nov,23,autumn,2,Morgen,Amsterdam,73248,112,0,Thursday,Yes,poor,40,25,35,18
+2020,Nov,24,autumn,3,Mittag,Amsterdam,366240,560,1,Friday,No,very good,40,25,35,18
+2020,Nov,25,autumn,4,Mittag,Amsterdam,52320,80,0,Saturday,Yes,very good,40,25,35,18
+2020,Nov,26,autumn,5,Mittag,Amsterdam,81096,124,0,Sunday,No,very good,40,25,35,18
+2020,Nov,27,autumn,6,Mittag,Amsterdam,529740,810,0,Monday,No,very good,40,25,35,18
+2020,Nov,28,autumn,7,Mittag,Cube,165462,253,0,Tuesday,Yes,very good,10,3,27,26
+2020,Nov,29,autumn,8,Morgen,Cube,62784,96,0,Wednesday,Yes,poor,10,3,27,26
+2020,Nov,30,autumn,9,Mittag,Cube,122952,188,0,Thursday,Yes,very good,10,3,27,26
+2020,Dec,1,autumn,10,Mittag,Cube,119028,182,0,Friday,Yes,very good,10,3,27,26
+2020,Dec,2,autumn,11,Mittag,Cube,175272,268,0,Saturday,Yes,very good,10,3,27,26
+2020,Dec,3,autumn,12,Mittag,Cube,461724,706,0,Sunday,No,very good,10,3,27,26
+2020,Dec,4,autumn,13,Mittag,Cube,414636,634,0,Monday,No,very good,10,3,27,26
+2020,Dec,5,autumn,14,Morgen,Cube,152382,233,0,Tuesday,Yes,poor,10,3,27,26
+2020,Dec,6,autumn,15,Abend,Cube,82404,126,0,Wednesday,Yes,very poor,10,3,27,26
+2020,Dec,7,autumn,16,Abend,Cube,32700,50,0,Thursday,Yes,very poor,10,3,27,26
+2020,Dec,8,autumn,17,Mittag,Cube,98100,150,0,Friday,Yes,very good,10,3,27,26
+2020,Dec,9,autumn,18,Mittag,Cube,170694,261,0,Saturday,Yes,very good,10,3,27,26
+2020,Dec,10,autumn,19,Mittag,Cube,328308,502,0,Sunday,No,very good,10,3,27,26
+2020,Dec,11,autumn,20,Mittag,Cube,246558,377,0,Monday,No,very good,10,3,27,26
+2020,Dec,12,autumn,21,Mittag,Cube,93522,143,0,Tuesday,Yes,very good,10,3,27,26
+2020,Dec,13,autumn,22,Mittag,Cube,101370,155,0,Wednesday,Yes,very good,10,3,27,26
+2020,Dec,14,autumn,23,Morgen,Cube,116412,178,0,Thursday,Yes,poor,10,3,27,26
+2020,Dec,15,autumn,0,Morgen,Cube,118374,181,0,Friday,Yes,poor,10,3,27,26
+2020,Dec,16,autumn,1,Morgen,Cube,116412,178,0,Saturday,Yes,poor,10,3,27,26
+2020,Dec,17,autumn,2,Morgen,Cube,179850,275,0,Sunday,No,poor,10,3,27,26
+2020,Dec,18,autumn,3,Mittag,Cube,143880,220,0,Monday,No,very good,10,3,27,26
+2020,Dec,19,autumn,4,Mittag,Raleigh,170040,260,0,Tuesday,Yes,very good,68,34,35,20
+2020,Dec,20,autumn,5,Morgen,Raleigh,141264,216,0,Wednesday,Yes,poor,68,34,35,20
+2020,Dec,21,winter,6,Morgen,Raleigh,69978,107,0,Thursday,Yes,poor,68,34,35,20
+2020,Dec,22,winter,7,Morgen,Raleigh,148458,227,0,Friday,Yes,poor,68,34,35,20
+2020,Dec,23,winter,8,Mittag,Raleigh,106602,163,0,Saturday,Yes,very good,68,34,35,20
+2020,Dec,24,winter,9,Mittag,Raleigh,101370,155,0,Sunday,No,very good,68,34,35,20
+2020,Dec,25,winter,10,Mittag,Raleigh,198162,303,0,Monday,No,very good,68,34,35,20
+2020,Dec,26,winter,11,Mittag,Raleigh,281220,430,1,Tuesday,No,very good,68,34,35,20
+2020,Dec,27,winter,12,Morgen,Raleigh,67362,103,0,Wednesday,Yes,poor,68,34,35,20
+2020,Dec,28,winter,13,Mittag,Raleigh,166770,255,0,Thursday,Yes,very good,68,34,35,20
+2020,Dec,29,winter,14,Mittag,Raleigh,166116,254,0,Friday,Yes,very good,68,34,35,20
+2020,Dec,30,winter,15,Mittag,Raleigh,321114,491,0,Saturday,Yes,very good,68,34,35,20
+2020,Dec,31,winter,16,Mittag,Raleigh,434910,665,0,Sunday,No,very good,68,34,35,20
+2019,Jan,1,winter,17,Mittag,Raleigh,448644,686,0,Monday,No,very good,68,34,35,20
+2019,Jan,2,winter,18,Mittag,Raleigh,159576,244,1,Tuesday,No,very good,68,34,35,20
+2019,Jan,3,winter,19,Mittag,Raleigh,58206,89,0,Wednesday,Yes,very good,68,34,35,20
+2019,Jan,4,winter,20,Morgen,Raleigh,62130,95,0,Thursday,Yes,poor,68,34,35,20
+2019,Jan,5,winter,21,Mittag,Raleigh,91560,140,0,Friday,Yes,very good,68,34,35,20
+2019,Jan,6,winter,22,Mittag,Raleigh,200778,307,0,Saturday,Yes,very good,68,34,35,20
+2019,Jan,7,winter,23,Mittag,Raleigh,699780,1070,0,Sunday,No,very good,68,34,35,20
+2019,Jan,8,winter,0,Mittag,Raleigh,391746,599,0,Monday,No,very good,68,34,35,20
+2019,Jan,9,winter,1,Morgen,Raleigh,69324,106,0,Tuesday,Yes,poor,68,34,35,20
+2019,Jan,10,winter,2,Mittag,Raleigh,113142,173,0,Wednesday,Yes,very good,68,34,35,20
+2019,Jan,11,winter,3,Morgen,Raleigh,60168,92,0,Thursday,Yes,poor,68,34,35,20
+2019,Jan,12,winter,4,Morgen,Raleigh,175926,269,0,Friday,Yes,poor,68,34,35,20
+2019,Jan,13,winter,5,Mittag,Raleigh,113796,174,0,Saturday,Yes,very good,68,34,35,20
+2019,Jan,14,winter,6,Mittag,Treck,217782,333,0,Sunday,No,very good,50,25,35,29
+2019,Jan,15,winter,7,Mittag,Treck,185736,284,0,Monday,No,very good,50,25,35,29
+2019,Jan,16,winter,8,Mittag,Treck,141918,217,1,Tuesday,No,very good,50,25,35,29
+2019,Jan,17,winter,9,Morgen,Treck,83058,127,0,Wednesday,Yes,poor,50,25,35,29
+2019,Jan,18,winter,10,Mittag,Treck,71286,109,0,Thursday,Yes,very good,50,25,35,29
+2019,Jan,19,winter,11,Mittag,Treck,85020,130,0,Friday,Yes,very good,50,25,35,29
+2019,Jan,20,winter,12,Morgen,Treck,75210,115,0,Saturday,Yes,poor,50,25,35,29
+2019,Jan,21,winter,13,Morgen,Treck,43818,67,0,Sunday,No,poor,50,25,35,29
+2019,Jan,22,winter,14,Morgen,Treck,128184,196,0,Monday,No,poor,50,25,35,29
+2019,Jan,23,winter,15,Morgen,Treck,94830,145,0,Tuesday,Yes,poor,50,25,35,29
+2019,Jan,24,winter,16,Mittag,Treck,287106,439,0,Wednesday,Yes,very good,50,25,35,29
+2019,Jan,25,winter,17,Mittag,Treck,305418,467,0,Thursday,Yes,very good,50,25,35,29
+2019,Jan,26,winter,18,Morgen,Treck,159576,244,0,Friday,Yes,poor,50,25,35,29
+2019,Jan,27,winter,19,Morgen,Treck,175926,269,0,Saturday,Yes,poor,50,25,35,29
+2019,Jan,28,winter,20,Mittag,Treck,506850,775,0,Sunday,No,very good,50,25,35,29
+2019,Jan,29,winter,21,Mittag,Treck,364932,558,0,Monday,No,very good,50,25,35,29
+2019,Jan,30,winter,22,Mittag,Treck,82404,126,0,Tuesday,Yes,very good,50,25,35,29
+2019,Jan,31,winter,23,Mittag,Treck,211896,324,0,Wednesday,Yes,very good,50,25,35,29
+2019,Feb,1,winter,12,Mittag,Treck,198816,304,0,Thursday,Yes,very good,50,25,35,29
+2019,Feb,2,winter,13,Morgen,Treck,124260,190,0,Friday,Yes,poor,50,25,35,29
+2019,Feb,3,winter,14,Mittag,Treck,202740,310,0,Saturday,Yes,very good,50,25,35,29
+2019,Feb,4,winter,15,Morgen,Treck,251136,384,0,Sunday,No,poor,50,25,35,29
+2019,Feb,5,winter,16,Morgen,Treck,207972,318,0,Monday,No,poor,50,25,35,29
+2019,Feb,6,winter,17,Mittag,Treck,134724,206,0,Tuesday,Yes,very good,50,25,35,29
+2019,Feb,7,winter,18,Mittag,Treck,130146,199,0,Wednesday,Yes,very good,50,25,35,29
+2019,Feb,8,winter,19,Morgen,Treck,71286,109,0,Thursday,Yes,poor,50,25,35,29
+2019,Feb,9,winter,20,Mittag,Treck,106602,163,0,Friday,Yes,very good,50,25,35,29
+2019,Feb,10,winter,21,Morgen,Treck,148458,227,0,Saturday,Yes,poor,50,25,35,29
+2019,Feb,11,winter,22,Abend,Treck,125568,192,0,Sunday,No,very poor,50,25,35,29
+2019,Feb,12,winter,23,Mittag,Treck,47742,73,0,Monday,No,very good,50,25,35,29
+2019,Feb,13,winter,0,Mittag,Treck,61476,94,0,Tuesday,Yes,very good,50,25,35,29
+2019,Feb,14,winter,1,Morgen,Treck,88290,135,0,Wednesday,Yes,poor,50,25,35,29
+2019,Feb,15,winter,2,Mittag,Treck,92214,141,0,Thursday,Yes,very good,50,25,35,29
+2019,Feb,16,winter,4,Morgen,Treck,48396,74,0,Friday,Yes,poor,50,25,35,29
+2019,Feb,17,winter,5,Mittag,Treck,228246,349,0,Saturday,Yes,very good,50,25,35,29
+2019,Feb,18,winter,6,Mittag,Treck,938490,1435,0,Sunday,No,very good,50,25,35,29
+2019,Feb,19,winter,7,Morgen,Treck,404172,618,0,Monday,No,poor,50,25,35,29
+2019,Feb,20,winter,8,Mittag,Treck,328308,502,1,Tuesday,No,very good,50,25,35,29
+2019,Feb,21,winter,9,Mittag,Treck,106602,163,0,Wednesday,Yes,very good,50,25,35,29
+2019,Feb,22,winter,10,Mittag,Treck,257676,394,0,Thursday,Yes,very good,50,25,35,29
+2019,Feb,23,winter,11,Mittag,Treck,337464,516,0,Friday,Yes,very good,50,25,35,29
+2019,Feb,24,winter,12,Morgen,Treck,160884,246,0,Saturday,Yes,poor,50,25,35,29
+2019,Feb,25,winter,13,Mittag,Treck,207318,317,0,Sunday,No,very good,50,25,35,29
+2019,Feb,26,winter,14,Mittag,Treck,336810,515,0,Monday,No,very good,50,25,35,29
+2019,Feb,27,winter,15,Mittag,Treck,165462,253,0,Tuesday,Yes,very good,50,25,35,29
+2019,Feb,28,winter,16,Mittag,Treck,149766,229,0,Wednesday,Yes,very good,50,25,35,29
+2019,Feb,29,winter,17,Morgen,Treck,42510,65,0,Thursday,Yes,poor,50,25,35,29
+2019,Mar,1,winter,18,Mittag,Treck,212550,325,0,Friday,Yes,very good,50,25,35,29
+2019,Mar,2,winter,19,Morgen,Treck,160884,246,0,Saturday,Yes,poor,50,25,35,29
+2019,Mar,3,winter,20,Morgen,Treck,625224,956,0,Sunday,No,poor,50,25,35,29
+2019,Mar,4,winter,21,Mittag,Treck,464340,710,0,Monday,No,very good,50,25,35,29
+2019,Mar,5,winter,22,Mittag,Treck,132762,203,0,Tuesday,Yes,very good,50,25,35,29
+2019,Mar,6,winter,23,Mittag,Treck,144534,221,0,Wednesday,Yes,very good,50,25,35,29
+2019,Mar,7,winter,0,Mittag,Treck,282528,432,0,Thursday,Yes,very good,50,25,35,29
+2019,Mar,8,winter,1,Mittag,Treck,317844,486,0,Friday,Yes,very good,50,25,35,29
+2019,Mar,9,winter,2,Morgen,Treck,292338,447,0,Saturday,Yes,poor,50,25,35,29
+2019,Mar,10,winter,3,Mittag,Treck,633072,968,0,Sunday,No,very good,50,25,35,29
+2019,Mar,11,winter,4,Mittag,Treck,1084332,1658,0,Monday,No,very good,50,25,35,29
+2019,Mar,12,winter,5,Mittag,Treck,548052,838,0,Tuesday,Yes,very good,50,25,35,29
+2019,Mar,13,winter,6,Mittag,Treck,498348,762,0,Wednesday,Yes,very good,50,25,35,29
+2019,Mar,14,winter,7,Mittag,Treck,652038,997,0,Thursday,Yes,very good,50,25,35,29
+2019,Mar,15,winter,8,Mittag,Treck,657270,1005,0,Friday,Yes,very good,50,25,35,29
+2019,Mar,16,winter,9,Morgen,Treck,358392,548,0,Saturday,Yes,poor,50,25,35,29
+2019,Mar,17,winter,10,Morgen,Treck,2063370,3155,0,Sunday,No,poor,50,25,35,29
+2019,Mar,18,winter,11,Morgen,Treck,1443378,2207,0,Monday,No,poor,50,25,35,29
+2019,Mar,19,winter,12,Mittag,Treck,642228,982,0,Tuesday,Yes,very good,50,25,35,29
+2019,Mar,20,winter,13,Mittag,Treck,687354,1051,0,Wednesday,Yes,very good,50,25,35,29
+2019,Mar,21,spring,14,Morgen,Treck,733788,1122,0,Thursday,Yes,poor,50,25,35,29
+2019,Mar,22,spring,15,Mittag,Treck,872436,1334,0,Friday,Yes,very good,50,25,35,29
+2019,Mar,23,spring,16,Morgen,Treck,1614726,2469,0,Saturday,Yes,poor,50,25,35,29
+2019,Mar,24,spring,17,Morgen,Treck,675582,1033,0,Sunday,No,poor,50,25,35,29
+2019,Mar,25,spring,18,Morgen,Treck,1001928,1532,0,Monday,No,poor,50,25,35,29
+2019,Mar,26,spring,19,Mittag,Treck,519930,795,0,Tuesday,Yes,very good,50,25,35,29
+2019,Mar,27,spring,20,Mittag,Treck,347274,531,0,Wednesday,Yes,very good,50,25,35,29
+2019,Mar,28,spring,21,Mittag,Treck,440796,674,0,Thursday,Yes,very good,50,25,35,29
+2019,Mar,29,spring,22,Mittag,Treck,545436,834,0,Friday,Yes,very good,50,25,35,29
+2019,Mar,30,spring,23,Morgen,Treck,520584,796,0,Saturday,Yes,poor,50,25,35,29
+2019,Mar,31,spring,0,Morgen,Treck,1504854,2301,0,Sunday,No,poor,50,25,35,29
+2019,Apr,1,spring,1,Morgen,Treck,1534938,2347,0,Monday,No,poor,50,25,35,29
+2019,Apr,2,spring,2,Mittag,Treck,790032,1208,0,Tuesday,Yes,very good,50,25,35,29
+2019,Apr,3,spring,3,Mittag,Treck,881592,1348,0,Wednesday,Yes,very good,50,25,35,29
+2019,Apr,4,spring,4,Mittag,Treck,691932,1058,0,Thursday,Yes,very good,50,25,35,29
+2019,Apr,5,spring,5,Mittag,Treck,779568,1192,0,Friday,Yes,very good,50,25,35,29
+2019,Apr,6,spring,6,Mittag,Treck,1181778,1807,0,Saturday,Yes,very good,50,25,35,29
+2019,Apr,7,spring,7,Mittag,Treck,2126808,3252,0,Sunday,No,very good,50,25,35,29
+2019,Apr,8,spring,8,Mittag,Treck,1458420,2230,0,Monday,No,very good,50,25,35,29
+2019,Apr,9,spring,9,Mittag,Treck,591870,905,0,Tuesday,Yes,very good,50,25,35,29
+2019,Apr,10,spring,10,Mittag,Treck,535626,819,0,Wednesday,Yes,very good,50,25,35,29
+2019,Apr,11,spring,11,Mittag,Treck,315228,482,0,Thursday,Yes,very good,50,25,35,29
+2019,Apr,12,spring,12,Mittag,Treck,433602,663,0,Friday,Yes,very good,50,25,35,29
+2019,Apr,13,spring,13,Mittag,Treck,818808,1252,0,Saturday,Yes,very good,50,25,35,29
+2019,Apr,14,spring,14,Mittag,Treck,1827930,2795,0,Sunday,No,very good,50,25,35,29
+2019,Apr,15,spring,15,Mittag,Treck,1861284,2846,0,Monday,No,very good,50,25,35,29
+2019,Apr,16,spring,16,Mittag,Treck,783492,1198,1,Tuesday,No,very good,50,25,35,29
+2019,Apr,17,spring,17,Mittag,Treck,646806,989,0,Wednesday,Yes,very good,50,25,35,29
+2019,Apr,18,spring,18,Morgen,Treck,226938,347,0,Thursday,Yes,poor,50,25,35,29
+2019,Apr,19,spring,19,Mittag,Treck,553284,846,0,Friday,Yes,very good,50,25,35,29
+2019,Apr,20,spring,20,Mittag,Treck,876360,1340,0,Saturday,Yes,very good,50,25,35,29
+2019,Apr,21,spring,21,Mittag,Treck,1661814,2541,0,Sunday,No,very good,50,25,35,29
+2019,Apr,22,spring,22,Abend,Treck,78480,120,0,Monday,No,very poor,50,25,35,29
+2019,Apr,23,spring,23,Morgen,Treck,127530,195,0,Tuesday,Yes,poor,50,25,35,29
+2019,Apr,24,spring,0,Mittag,Treck,338772,518,0,Wednesday,Yes,very good,50,25,35,29
+2019,Apr,25,spring,1,Mittag,Treck,428370,655,0,Thursday,Yes,very good,50,25,35,29
+2019,Apr,26,spring,2,Morgen,Treck,310650,475,0,Friday,Yes,poor,50,25,35,29
+2019,Apr,27,spring,3,Mittag,Treck,663156,1014,0,Saturday,Yes,very good,50,25,35,29
+2019,Apr,28,spring,4,Morgen,Treck,732480,1120,0,Sunday,No,poor,50,25,35,29
+2019,Apr,29,spring,6,Mittag,Treck,1457766,2229,0,Monday,No,very good,50,25,35,29
+2019,Apr,30,spring,7,Morgen,Treck,434910,665,0,Tuesday,Yes,poor,50,25,35,29
+2019,May,1,spring,8,Morgen,Treck,427062,653,0,Wednesday,Yes,poor,50,25,35,29
+2019,May,2,spring,9,Mittag,Treck,436218,667,0,Thursday,Yes,very good,50,25,35,29
+2019,May,3,spring,10,Morgen,Treck,499656,764,0,Friday,Yes,poor,50,25,35,29
+2019,May,4,spring,11,Mittag,Treck,699126,1069,0,Saturday,Yes,very good,50,25,35,29
+2019,May,5,spring,12,Morgen,Treck,1632384,2496,0,Sunday,No,poor,50,25,35,29
+2019,May,6,spring,13,Morgen,Treck,1396290,2135,0,Monday,No,poor,50,25,35,29
+2019,May,7,spring,14,Morgen,Treck,659232,1008,0,Tuesday,Yes,poor,50,25,35,29
+2019,May,8,spring,15,Morgen,Treck,482652,738,0,Wednesday,Yes,poor,50,25,35,29
+2019,May,9,spring,16,Morgen,Treck,405480,620,0,Thursday,Yes,poor,50,25,35,29
+2019,May,10,spring,17,Mittag,Treck,671004,1026,0,Friday,Yes,very good,50,25,35,29
+2019,May,11,spring,18,Mittag,Treck,862626,1319,0,Saturday,Yes,very good,50,25,35,29
+2019,May,12,spring,19,Mittag,Treck,1714788,2622,0,Sunday,No,very good,50,25,35,29
+2019,May,13,spring,20,Mittag,Treck,1420488,2172,0,Monday,No,very good,50,25,35,29
+2019,May,14,spring,21,Morgen,Treck,223668,342,0,Tuesday,Yes,poor,50,25,35,29
+2019,May,15,spring,22,Morgen,Treck,408750,625,0,Wednesday,Yes,poor,50,25,35,29
+2019,May,16,spring,23,Mittag,Treck,648114,991,0,Thursday,Yes,very good,50,25,35,29
+2019,May,17,spring,0,Mittag,Treck,812268,1242,0,Friday,Yes,very good,50,25,35,29
+2019,May,18,spring,1,Mittag,Treck,994734,1521,0,Saturday,Yes,very good,50,25,35,29
+2019,May,19,spring,2,Mittag,Treck,2230140,3410,0,Sunday,No,very good,50,25,35,29
+2019,May,20,spring,3,Mittag,Treck,1768416,2704,0,Monday,No,very good,50,25,35,29
+2019,May,21,spring,5,Morgen,Treck,412020,630,0,Tuesday,Yes,poor,50,25,35,29
+2019,May,22,spring,6,Morgen,Treck,535626,819,0,Wednesday,Yes,poor,50,25,35,29
+2019,May,23,spring,7,Morgen,Treck,500964,766,0,Thursday,Yes,poor,50,25,35,29
+2019,May,24,spring,8,Mittag,Treck,692586,1059,0,Friday,Yes,very good,50,25,35,29
+2019,May,25,spring,9,Mittag,Treck,926718,1417,0,Saturday,Yes,very good,50,25,35,29
+2019,May,26,spring,10,Mittag,Treck,1867170,2855,0,Sunday,No,very good,50,25,35,29
+2019,May,27,spring,11,Mittag,Treck,2147082,3283,0,Monday,No,very good,50,25,35,29
+2019,May,28,spring,12,Mittag,Treck,1672278,2557,1,Tuesday,No,very good,50,25,35,29
+2019,May,29,spring,13,Mittag,Treck,575520,880,0,Wednesday,Yes,very good,50,25,35,29
+2019,May,30,spring,14,Morgen,Treck,487230,745,0,Thursday,Yes,poor,50,25,35,29
+2019,May,31,spring,15,Mittag,Treck,719400,1100,0,Friday,Yes,very good,50,25,35,29
+2019,Jun,1,spring,16,Morgen,Treck,348582,533,0,Saturday,Yes,poor,50,25,35,29
+2019,Jun,2,spring,17,Mittag,Treck,1827930,2795,0,Sunday,No,very good,50,25,35,29
+2019,Jun,3,spring,18,Mittag,Treck,1631076,2494,0,Monday,No,very good,50,25,35,29
+2019,Jun,4,spring,19,Mittag,Treck,700434,1071,0,Tuesday,Yes,very good,50,25,35,29
+2019,Jun,5,spring,20,Morgen,Treck,633072,968,0,Wednesday,Yes,poor,50,25,35,29
+2019,Jun,6,spring,21,Mittag,Treck,671658,1027,0,Thursday,Yes,very good,50,25,35,29
+2019,Jun,7,spring,22,Mittag,Treck,678852,1038,0,Friday,Yes,very good,50,25,35,29
+2019,Jun,8,spring,23,Mittag,Treck,973152,1488,0,Saturday,Yes,very good,50,25,35,29
+2019,Jun,9,spring,0,Mittag,Treck,1771032,2708,0,Sunday,No,very good,50,25,35,29
+2019,Jun,10,spring,1,Mittag,Treck,1454496,2224,0,Monday,No,very good,50,25,35,29
+2019,Jun,11,spring,3,Morgen,Treck,665118,1017,0,Tuesday,Yes,poor,50,25,35,29
+2019,Jun,12,spring,4,Morgen,Treck,311958,477,0,Wednesday,Yes,poor,50,25,35,29
+2019,Jun,13,spring,5,Mittag,Treck,767142,1173,0,Thursday,Yes,very good,50,25,35,29
+2019,Jun,14,spring,6,Mittag,Treck,771720,1180,0,Friday,Yes,very good,50,25,35,29
+2019,Jun,15,spring,7,Mittag,Treck,1022202,1563,0,Saturday,Yes,very good,50,25,35,29
+2019,Jun,16,spring,8,Mittag,Treck,1937802,2963,0,Sunday,No,very good,50,25,35,29
+2019,Jun,17,spring,9,Mittag,Treck,1722636,2634,0,Monday,No,very good,50,25,35,29
+2019,Jun,18,spring,10,Morgen,Treck,427062,653,0,Tuesday,Yes,poor,50,25,35,29
+2019,Jun,19,spring,11,Mittag,Treck,633072,968,0,Wednesday,Yes,very good,50,25,35,29
+2019,Jun,20,spring,12,Mittag,Treck,570288,872,0,Thursday,Yes,very good,50,25,35,29
+2019,Jun,21,summer,13,Mittag,Treck,508812,778,0,Friday,Yes,very good,50,25,35,29
+2019,Jun,22,summer,14,Mittag,Treck,630456,964,0,Saturday,Yes,very good,50,25,35,29
+2019,Jun,23,summer,15,Mittag,Treck,1737678,2657,0,Sunday,No,very good,50,25,35,29
+2019,Jun,24,summer,16,Mittag,Treck,1668354,2551,0,Monday,No,very good,50,25,35,29
+2019,Jun,25,summer,17,Mittag,Treck,744906,1139,0,Tuesday,Yes,very good,50,25,35,29
+2019,Jun,26,summer,18,Mittag,Treck,704358,1077,0,Wednesday,Yes,very good,50,25,35,29
+2019,Jun,27,summer,19,Mittag,Treck,704358,1077,0,Thursday,Yes,very good,50,25,35,29
+2019,Jun,28,summer,20,Mittag,Treck,602334,921,0,Friday,Yes,very good,50,25,35,29
+2019,Jun,29,summer,21,Mittag,Treck,542166,829,0,Saturday,Yes,very good,50,25,35,29
+2019,Jun,30,summer,22,Mittag,Treck,951570,1455,0,Sunday,No,very good,50,25,35,29
+2019,Jul,1,summer,23,Mittag,Treck,929334,1421,0,Monday,No,very good,50,25,35,29
+2019,Jul,2,summer,0,Mittag,Treck,591216,904,0,Tuesday,Yes,very good,50,25,35,29
+2019,Jul,3,summer,1,Mittag,Treck,688008,1052,0,Wednesday,Yes,very good,50,25,35,29
+2019,Jul,4,summer,2,Mittag,Treck,1675548,2562,1,Thursday,No,very good,50,25,35,29
+2019,Jul,5,summer,4,Mittag,Treck,918870,1405,0,Friday,Yes,very good,50,25,35,29
+2019,Jul,6,summer,5,Mittag,Treck,893364,1366,0,Saturday,Yes,very good,50,25,35,29
+2019,Jul,7,summer,6,Mittag,Treck,946992,1448,0,Sunday,No,very good,50,25,35,29
+2019,Jul,8,summer,7,Mittag,Treck,786762,1203,0,Monday,No,very good,50,25,35,29
+2019,Jul,9,summer,8,Morgen,Treck,652692,998,0,Tuesday,Yes,poor,50,25,35,29
+2019,Jul,10,summer,9,Morgen,Treck,623916,954,0,Wednesday,Yes,poor,50,25,35,29
+2019,Jul,11,summer,10,Mittag,Treck,637650,975,0,Thursday,Yes,very good,50,25,35,29
+2019,Jul,12,summer,11,Mittag,Treck,674928,1032,0,Friday,Yes,very good,50,25,35,29
+2019,Jul,13,summer,12,Morgen,Treck,988194,1511,0,Saturday,Yes,poor,50,25,35,29
+2019,Jul,14,summer,13,Morgen,Treck,1540170,2355,0,Sunday,No,poor,50,25,35,29
+2019,Jul,15,summer,14,Mittag,Treck,1255680,1920,0,Monday,No,very good,50,25,35,29
+2019,Jul,16,summer,15,Mittag,Treck,711552,1088,0,Tuesday,Yes,very good,50,25,35,29
+2019,Jul,17,summer,16,Mittag,Treck,602334,921,0,Wednesday,Yes,very good,50,25,35,29
+2019,Jul,18,summer,17,Mittag,Treck,522546,799,0,Thursday,Yes,very good,50,25,35,29
+2019,Jul,19,summer,18,Mittag,Treck,580752,888,0,Friday,Yes,very good,50,25,35,29
+2019,Jul,20,summer,19,Morgen,Treck,488538,747,0,Saturday,Yes,poor,50,25,35,29
+2019,Jul,21,summer,20,Abend,Treck,826656,1264,0,Sunday,No,very poor,50,25,35,29
+2019,Jul,22,summer,21,Morgen,Treck,1663776,2544,0,Monday,No,poor,50,25,35,29
+2019,Jul,23,summer,22,Mittag,Treck,742290,1135,0,Tuesday,Yes,very good,50,25,35,29
+2019,Jul,24,summer,23,Mittag,Treck,745560,1140,0,Wednesday,Yes,very good,50,25,35,29
+2019,Jul,25,summer,0,Mittag,Treck,904482,1383,0,Thursday,Yes,very good,50,25,35,29
+2019,Jul,26,summer,1,Mittag,Orbea,677544,1036,0,Friday,Yes,very good,38,19,24,25
+2019,Jul,27,summer,2,Mittag,Orbea,823386,1259,0,Saturday,Yes,very good,38,19,24,25
+2019,Jul,28,summer,5,Mittag,Orbea,1461036,2234,0,Sunday,No,very good,38,19,24,25
+2019,Jul,29,summer,6,Mittag,Orbea,1408062,2153,0,Monday,No,very good,38,19,24,25
+2019,Jul,30,summer,7,Mittag,Orbea,680160,1040,0,Tuesday,Yes,very good,38,19,24,25
+2019,Jul,31,summer,8,Mittag,Orbea,633072,968,0,Wednesday,Yes,very good,38,19,24,25
+2019,Aug,1,summer,9,Mittag,Orbea,702396,1074,0,Thursday,Yes,very good,38,19,24,25
+2019,Aug,2,summer,10,Mittag,Orbea,642882,983,0,Friday,Yes,very good,38,19,24,25
+2019,Aug,3,summer,11,Morgen,Orbea,868512,1328,0,Saturday,Yes,poor,38,19,24,25
+2019,Aug,4,summer,12,Mittag,Orbea,1533630,2345,0,Sunday,No,very good,38,19,24,25
+2019,Aug,5,summer,13,Mittag,Orbea,1116378,1707,0,Monday,No,very good,38,19,24,25
+2019,Aug,6,summer,14,Morgen,Orbea,806382,1233,0,Tuesday,Yes,poor,38,19,24,25
+2019,Aug,7,summer,15,Morgen,Orbea,835812,1278,0,Wednesday,Yes,poor,38,19,24,25
+2019,Aug,8,summer,16,Morgen,Orbea,826002,1263,0,Thursday,Yes,poor,38,19,24,25
+2019,Aug,9,summer,17,Mittag,Orbea,782184,1196,0,Friday,Yes,very good,38,19,24,25
+2019,Aug,10,summer,16,Morgen,Orbea,696510,1065,0,Saturday,Yes,poor,38,19,24,25
+2019,Aug,11,summer,17,Morgen,Orbea,1469538,2247,0,Sunday,No,poor,38,19,24,25
+2019,Aug,12,summer,18,Mittag,Orbea,1427028,2182,0,Monday,No,very good,38,19,24,25
+2019,Aug,13,summer,19,Mittag,Orbea,789378,1207,0,Tuesday,Yes,very good,38,19,24,25
+2019,Aug,14,summer,20,Mittag,Orbea,737712,1128,0,Wednesday,Yes,very good,38,19,24,25
+2019,Aug,15,summer,21,Mittag,Orbea,783492,1198,0,Thursday,Yes,very good,38,19,24,25
+2019,Aug,16,summer,22,Mittag,Orbea,875052,1338,0,Friday,Yes,very good,38,19,24,25
+2019,Aug,17,summer,23,Mittag,Orbea,969882,1483,0,Saturday,Yes,very good,38,19,24,25
+2019,Aug,18,summer,0,Mittag,Orbea,1848858,2827,0,Sunday,No,very good,38,19,24,25
+2019,Aug,19,summer,1,Morgen,Scott,790032,1208,0,Monday,No,poor,74,37,35,31
+2019,Aug,20,summer,2,Morgen,Scott,671004,1026,0,Tuesday,Yes,poor,74,37,35,31
+2019,Aug,21,summer,3,Mittag,Scott,706974,1081,0,Wednesday,Yes,very good,74,37,35,31
+2019,Aug,22,summer,5,Mittag,Scott,715476,1094,0,Thursday,Yes,very good,74,37,35,31
+2019,Aug,23,summer,6,Mittag,Scott,891402,1363,0,Friday,Yes,very good,74,37,35,31
+2019,Aug,24,summer,7,Morgen,Scott,866550,1325,0,Saturday,Yes,poor,74,37,35,31
+2019,Aug,25,summer,8,Morgen,Scott,1196166,1829,0,Sunday,No,poor,74,37,35,31
+2019,Aug,26,summer,9,Morgen,Scott,969882,1483,0,Monday,No,poor,74,37,35,31
+2019,Aug,27,summer,10,Mittag,Scott,646806,989,0,Tuesday,Yes,very good,74,37,35,31
+2019,Aug,28,summer,11,Mittag,Scott,611490,935,0,Wednesday,Yes,very good,74,37,35,31
+2019,Aug,29,summer,12,Mittag,Scott,769758,1177,0,Thursday,Yes,very good,74,37,35,31
+2019,Aug,30,summer,13,Mittag,Scott,766488,1172,0,Friday,Yes,very good,74,37,35,31
+2019,Aug,31,summer,14,Mittag,Scott,937182,1433,0,Saturday,Yes,very good,74,37,35,31
+2019,Sep,1,summer,15,Morgen,Scott,1538208,2352,0,Sunday,No,poor,74,37,35,31
+2019,Sep,2,summer,16,Morgen,Scott,1708902,2613,0,Monday,No,poor,74,37,35,31
+2019,Sep,3,summer,17,Mittag,Scott,1285110,1965,1,Tuesday,No,very good,74,37,35,31
+2019,Sep,4,summer,18,Mittag,Scott,567018,867,0,Wednesday,Yes,very good,74,37,35,31
+2019,Sep,5,summer,19,Mittag,Scott,544128,832,0,Thursday,Yes,very good,74,37,35,31
+2019,Sep,6,summer,20,Morgen,Scott,399594,611,0,Friday,Yes,poor,74,37,35,31
+2019,Sep,7,summer,21,Mittag,Scott,683430,1045,0,Saturday,Yes,very good,74,37,35,31
+2019,Sep,8,summer,22,Morgen,Scott,1018278,1557,0,Sunday,No,poor,74,37,35,31
+2019,Sep,9,summer,23,Mittag,Scott,1680780,2570,0,Monday,No,very good,74,37,35,31
+2019,Sep,10,summer,0,Mittag,Scott,731172,1118,0,Tuesday,Yes,very good,74,37,35,31
+2019,Sep,11,summer,1,Mittag,Scott,699780,1070,0,Wednesday,Yes,very good,74,37,35,31
+2019,Sep,12,summer,2,Mittag,Scott,686700,1050,0,Thursday,Yes,very good,74,37,35,31
+2019,Sep,13,summer,3,Mittag,Scott,689316,1054,0,Friday,Yes,very good,74,37,35,31
+2019,Sep,14,summer,4,Mittag,Scott,901866,1379,0,Saturday,Yes,very good,74,37,35,31
+2019,Sep,15,summer,6,Mittag,Scott,2066640,3160,0,Sunday,No,very good,74,37,35,31
+2019,Sep,16,summer,7,Mittag,Scott,1416564,2166,0,Monday,No,very good,74,37,35,31
+2019,Sep,17,summer,8,Morgen,Scott,668388,1022,0,Tuesday,Yes,poor,74,37,35,31
+2019,Sep,18,summer,9,Morgen,Scott,242634,371,0,Wednesday,Yes,poor,74,37,35,31
+2019,Sep,19,summer,10,Mittag,Scott,515352,788,0,Thursday,Yes,very good,74,37,35,31
+2019,Sep,20,summer,11,Mittag,Scott,614106,939,0,Friday,Yes,very good,74,37,35,31
+2019,Sep,21,summer,12,Mittag,Scott,817500,1250,0,Saturday,Yes,very good,74,37,35,31
+2019,Sep,22,summer,13,Mittag,Scott,1642848,2512,0,Sunday,No,very good,74,37,35,31
+2019,Sep,23,autumn,14,Mittag,Scott,1604916,2454,0,Monday,No,very good,74,37,35,31
+2019,Sep,24,autumn,15,Mittag,Scott,654654,1001,0,Tuesday,Yes,very good,74,37,35,31
+2019,Sep,25,autumn,16,Mittag,Scott,552630,845,0,Wednesday,Yes,very good,74,37,35,31
+2019,Sep,26,autumn,17,Mittag,Scott,514698,787,0,Thursday,Yes,very good,74,37,35,31
+2019,Sep,27,autumn,18,Morgen,Scott,491154,751,0,Friday,Yes,poor,74,37,35,31
+2019,Sep,28,autumn,19,Morgen,Scott,683430,1045,0,Saturday,Yes,poor,74,37,35,31
+2019,Sep,29,autumn,20,Mittag,Scott,1693206,2589,0,Sunday,No,very good,74,37,35,31
+2019,Sep,30,autumn,21,Mittag,Scott,1317810,2015,0,Monday,No,very good,74,37,35,31
+2019,Okt,1,autumn,22,Morgen,Scott,499002,763,0,Tuesday,Yes,poor,74,37,35,31
+2019,Okt,2,autumn,23,Abend,Scott,206010,315,0,Wednesday,Yes,very poor,74,37,35,31
+2019,Okt,3,autumn,0,Morgen,Scott,476112,728,0,Thursday,Yes,poor,74,37,35,31
+2019,Okt,4,autumn,1,Morgen,Scott,582714,891,0,Friday,Yes,poor,74,37,35,31
+2019,Okt,5,autumn,2,Mittag,Scott,991464,1516,0,Saturday,Yes,very good,74,37,35,31
+2019,Okt,6,autumn,3,Mittag,Scott,1982274,3031,0,Sunday,No,very good,74,37,35,31
+2019,Okt,7,autumn,4,Morgen,Scott,510774,781,0,Monday,No,poor,74,37,35,31
+2019,Okt,8,autumn,5,Morgen,Scott,571596,874,1,Tuesday,No,poor,74,37,35,31
+2019,Okt,9,autumn,7,Morgen,Scott,393054,601,0,Wednesday,Yes,poor,74,37,35,31
+2019,Okt,10,autumn,8,Mittag,Scott,510120,780,0,Thursday,Yes,very good,74,37,35,31
+2019,Okt,11,autumn,9,Mittag,Scott,545436,834,0,Friday,Yes,very good,74,37,35,31
+2019,Okt,12,autumn,10,Mittag,Scott,693240,1060,0,Saturday,Yes,very good,74,37,35,31
+2019,Okt,13,autumn,11,Mittag,Scott,1472808,2252,0,Sunday,No,very good,74,37,35,31
+2019,Okt,14,autumn,12,Mittag,Scott,1360320,2080,0,Monday,No,very good,74,37,35,31
+2019,Okt,15,autumn,13,Morgen,Scott,497040,760,0,Tuesday,Yes,poor,74,37,35,31
+2019,Okt,16,autumn,14,Mittag,Scott,602988,922,0,Wednesday,Yes,very good,74,37,35,31
+2019,Okt,17,autumn,15,Mittag,Scott,640266,979,0,Thursday,Yes,very good,74,37,35,31
+2019,Okt,18,autumn,16,Morgen,Scott,659232,1008,0,Friday,Yes,poor,74,37,35,31
+2019,Okt,19,autumn,17,Morgen,Scott,492462,753,0,Saturday,Yes,poor,74,37,35,31
+2019,Okt,20,autumn,18,Mittag,Scott,1835124,2806,0,Sunday,No,very good,74,37,35,31
+2019,Okt,21,autumn,19,Mittag,Scott,1394328,2132,0,Monday,No,very good,74,37,35,31
+2019,Okt,22,autumn,20,Mittag,Scott,542820,830,0,Tuesday,Yes,very good,74,37,35,31
+2019,Okt,23,autumn,21,Mittag,Scott,550014,841,0,Wednesday,Yes,very good,74,37,35,31
+2019,Okt,24,autumn,22,Mittag,Scott,519930,795,0,Thursday,Yes,very good,74,37,35,31
+2019,Okt,25,autumn,23,Morgen,Scott,572250,875,0,Friday,Yes,poor,74,37,35,31
+2019,Okt,26,autumn,0,Morgen,Scott,773028,1182,0,Saturday,Yes,poor,74,37,35,31
+2019,Okt,27,autumn,1,Morgen,Scott,1728522,2643,0,Sunday,No,poor,74,37,35,31
+2019,Okt,28,autumn,2,Morgen,Scott,652692,998,0,Monday,No,poor,74,37,35,31
+2019,Okt,29,autumn,3,Abend,Scott,1308,2,0,Tuesday,Yes,very poor,74,37,35,31
+2019,Okt,30,autumn,4,Morgen,Scott,56898,87,0,Wednesday,Yes,poor,74,37,35,31
+2019,Okt,31,autumn,5,Morgen,Scott,274026,419,0,Thursday,Yes,poor,74,37,35,31
+2019,Nov,1,autumn,6,Morgen,Scott,304764,466,0,Friday,Yes,poor,74,37,35,31
+2019,Nov,2,autumn,7,Mittag,Scott,404172,618,0,Saturday,Yes,very good,74,37,35,31
+2019,Nov,3,autumn,8,Morgen,Scott,672966,1029,0,Sunday,No,poor,74,37,35,31
+2019,Nov,4,autumn,9,Mittag,Scott,785454,1201,0,Monday,No,very good,74,37,35,31
+2019,Nov,5,autumn,10,Mittag,Scott,247212,378,0,Tuesday,Yes,very good,74,37,35,31
+2019,Nov,6,autumn,11,Mittag,Scott,304764,466,0,Wednesday,Yes,very good,74,37,35,31
+2019,Nov,7,autumn,12,Morgen,Scott,213204,326,0,Thursday,Yes,poor,74,37,35,31
+2019,Nov,8,autumn,13,Mittag,Scott,222360,340,0,Friday,Yes,very good,74,37,35,31
+2019,Nov,9,autumn,14,Mittag,Scott,463686,709,0,Saturday,Yes,very good,74,37,35,31
+2019,Nov,10,autumn,15,Mittag,Scott,1366860,2090,0,Sunday,No,very good,74,37,35,31
+2019,Nov,11,autumn,16,Mittag,Scott,1497660,2290,0,Monday,No,very good,74,37,35,31
+2019,Nov,12,autumn,17,Mittag,Madeira,717438,1097,1,Tuesday,No,very good,60,30,28,35
+2019,Nov,13,autumn,18,Morgen,Madeira,213858,327,0,Wednesday,Yes,poor,60,30,28,35
+2019,Nov,14,autumn,19,Mittag,Madeira,243942,373,0,Thursday,Yes,very good,60,30,28,35
+2019,Nov,15,autumn,20,Morgen,Madeira,209280,320,0,Friday,Yes,poor,60,30,28,35
+2019,Nov,16,autumn,21,Mittag,Madeira,316536,484,0,Saturday,Yes,very good,60,30,28,35
+2019,Nov,17,autumn,22,Mittag,Madeira,858702,1313,0,Sunday,No,very good,60,30,28,35
+2019,Nov,18,autumn,23,Mittag,Madeira,602988,922,0,Monday,No,very good,60,30,28,35
+2019,Nov,19,autumn,0,Morgen,Madeira,293646,449,0,Tuesday,Yes,poor,60,30,28,35
+2019,Nov,20,autumn,1,Morgen,Madeira,349236,534,0,Wednesday,Yes,poor,60,30,28,35
+2019,Nov,21,autumn,2,Mittag,Madeira,402210,615,0,Thursday,Yes,very good,60,30,28,35
+2019,Nov,22,autumn,3,Mittag,Madeira,624570,955,1,Friday,No,very good,60,30,28,35
+2019,Nov,23,autumn,5,Mittag,Madeira,1048362,1603,0,Saturday,Yes,very good,60,30,28,35
+2019,Nov,24,autumn,6,Mittag,Madeira,347928,532,0,Sunday,No,very good,60,30,28,35
+2019,Nov,25,autumn,7,Mittag,Madeira,202086,309,0,Monday,No,very good,60,30,28,35
+2019,Nov,26,autumn,8,Mittag,Madeira,220398,337,0,Tuesday,Yes,very good,60,30,28,35
+2019,Nov,27,autumn,9,Morgen,Madeira,80442,123,0,Wednesday,Yes,poor,60,30,28,35
+2019,Nov,28,autumn,10,Mittag,Madeira,129492,198,0,Thursday,Yes,very good,60,30,28,35
+2019,Nov,29,autumn,11,Mittag,Madeira,158922,243,0,Friday,Yes,very good,60,30,28,35
+2019,Nov,30,autumn,12,Mittag,Scott,236748,362,0,Saturday,Yes,very good,74,37,35,31
+2019,Dec,1,autumn,13,Morgen,Scott,621954,951,0,Sunday,No,poor,74,37,35,31
+2019,Dec,2,autumn,14,Morgen,Scott,583368,892,0,Monday,No,poor,74,37,35,31
+2019,Dec,3,autumn,15,Mittag,Scott,362970,555,0,Tuesday,Yes,very good,74,37,35,31
+2019,Dec,4,autumn,16,Mittag,Scott,360354,551,0,Wednesday,Yes,very good,74,37,35,31
+2019,Dec,5,autumn,17,Mittag,Scott,216474,331,0,Thursday,Yes,very good,74,37,35,31
+2019,Dec,6,autumn,18,Mittag,Scott,222360,340,0,Friday,Yes,very good,74,37,35,31
+2019,Dec,7,autumn,19,Morgen,Scott,228246,349,0,Saturday,Yes,poor,74,37,35,31
+2019,Dec,8,autumn,20,Morgen,Scott,754062,1153,0,Sunday,No,poor,74,37,35,31
+2019,Dec,9,autumn,21,Morgen,Scott,288414,441,0,Monday,No,poor,74,37,35,31
+2019,Dec,10,autumn,22,Morgen,Scott,215166,329,0,Tuesday,Yes,poor,74,37,35,31
+2019,Dec,11,autumn,23,Morgen,Scott,184428,282,0,Wednesday,Yes,poor,74,37,35,31
+2019,Dec,12,autumn,0,Morgen,Scott,202740,310,0,Thursday,Yes,poor,74,37,35,31
+2019,Dec,13,autumn,1,Mittag,Treck,277950,425,0,Friday,Yes,very good,50,25,35,29
+2019,Dec,14,autumn,2,Mittag,Treck,280566,429,0,Saturday,Yes,very good,50,25,35,29
+2019,Dec,15,autumn,3,Mittag,Treck,501618,767,0,Sunday,No,very good,50,25,35,29
+2019,Dec,16,autumn,4,Morgen,Treck,351852,538,0,Monday,No,poor,50,25,35,29
+2019,Dec,17,autumn,5,Morgen,Treck,138648,212,0,Tuesday,Yes,poor,50,25,35,29
+2019,Dec,18,autumn,6,Mittag,Treck,283182,433,0,Wednesday,Yes,very good,50,25,35,29
+2019,Dec,19,autumn,7,Mittag,Treck,217782,333,0,Thursday,Yes,very good,50,25,35,29
+2019,Dec,20,autumn,8,Morgen,Treck,205356,314,0,Friday,Yes,poor,50,25,35,29
+2019,Dec,21,winter,9,Morgen,Treck,144534,221,0,Saturday,Yes,poor,50,25,35,29
+2019,Dec,22,winter,10,Mittag,Treck,134070,205,0,Sunday,No,very good,50,25,35,29
+2019,Dec,23,winter,11,Mittag,Treck,266832,408,0,Monday,No,very good,50,25,35,29
+2019,Dec,24,winter,12,Morgen,Treck,113796,174,0,Tuesday,Yes,poor,50,25,35,29
+2019,Dec,25,winter,13,Morgen,Treck,287760,440,1,Wednesday,No,poor,50,25,35,29
+2019,Dec,26,winter,14,Abend,Treck,5886,9,0,Thursday,Yes,very poor,50,25,35,29
+2019,Dec,27,winter,15,Morgen,Treck,161538,247,0,Friday,Yes,poor,50,25,35,29
+2019,Dec,28,winter,16,Morgen,Treck,421176,644,0,Saturday,Yes,poor,50,25,35,29
+2019,Dec,29,winter,17,Morgen,Treck,103986,159,0,Sunday,No,poor,50,25,35,29
+2019,Dec,30,winter,18,Mittag,Treck,238056,364,0,Monday,No,very good,50,25,35,29
+2019,Dec,31,winter,19,Morgen,Treck,287106,439,0,Tuesday,Yes,poor,50,25,35,29

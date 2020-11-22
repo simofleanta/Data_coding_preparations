@@ -252,7 +252,9 @@ Year_B=df.groupby(['Year','Item'])[['B']]
 print(Year_B.mean())
 
 
-
+#profitability of product forumula
+#subtract cost to produce from revenues
+#if profitability per product solt= product profitability / number of products 
 
 
 
