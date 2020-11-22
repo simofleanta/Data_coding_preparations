@@ -61,8 +61,31 @@ Year_A=df.groupby(['Year','Item'])[['A']]
 Year_B=df.groupby(['Year','Item'])[['B']]
 #print(Year_B.mean())
 
-from scipy.stats import norm
-norm.ppf(0.975)
+"""Calculate Profitability"""
+
+#profitability of product forumula
+#cost to produce =2000 per product *no of prods
+#subtract cost to produce from revenues
+#if profitability per product solt= product profitability / number of products 
+
+df['Cost_to_produce']=2000*df.Number_Bikes
+print(df.columns)
+df['Profitability']=df.Cost_to_produce-df.Sales
+print(df.columns)
+print(df.head(3))
+
+"""Aggregate profitability per bike brand"""
+Profitability_group=df.groupby(['Season','Item'])[['Profitability']]
+print(Profitability_group.mean())
+
+
+
+
+
+
+
+
+
 
 
 
