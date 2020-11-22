@@ -1,4 +1,4 @@
-Year,Month,Day,Season,Hour,Day_Time,Item,Sales_rev,Bikes_sold,holiday,weekday,workingday,weather_forecast,Interested,Likely,Not_interested,Not_likely
+Year,Month,Day,Season,Hour,Day_Time,Item,Sales,Number_Bikes,holiday,weekday,workingday,weather_forecast,Interested,Likely,Not_interested,Not_likely
 2020,Jan,1,winter,0,Morgen,Panama,20274,31,0,Sunday,No,poor,30,15,45,28
 2020,Jan,2,winter,1,Morgen,Panama,85674,131,0,Monday,No,poor,30,15,45,28
 2020,Jan,3,winter,2,Mittag,Panama,78480,120,0,Tuesday,Yes,very good,30,15,45,28
