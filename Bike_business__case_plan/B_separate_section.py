@@ -61,17 +61,6 @@ print(Year_A.mean())
 Year_B=df.groupby(['Year','Item'])[['B']]
 print(Year_B.mean())
 
-ab=df
-
-df = px.data.tips()
-fig = px.density_heatmap(ab, x="Item", y="A", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Situation A distribution occross items')
-
-df = px.data.tips()
-fig = px.density_heatmap(ab, x="Item", y="B", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Situation B distribution occross items')
-
-plotly.offline.plot(fig, filename='bike')
-
-
 
 """Calculate Profitability"""
 
@@ -94,16 +83,19 @@ print(Profitability_group.mean())
 Profitability_p=df.groupby(['Season','Item'])[['Profitability_p']]
 print(Profitability_p.mean())
 
-import plotly.express as px
+df.groupby('Item')['Profitability'].sum().plot(kind='bar')
+plt.ylabel('Profitability')
+plt.title('2019-2020 comparison')
+plt.show()
 
-abc=df
+
+ab=df
 df = px.data.tips()
-fig = px.density_heatmap(abc, x="Item", y="Profitability", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Profitability distribution on items')
+fig = px.density_heatmap(ab, x="Item", y="A", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Situation A distribution occross items')
 plotly.offline.plot(fig, filename='bike')
 
-df = px.data.tips()
-fig = px.density_heatmap(abc, x="Month", y="Profitability", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Profitability distribution on months')
-plotly.offline.plot(fig, filename='bike')
+
+
 
 
 

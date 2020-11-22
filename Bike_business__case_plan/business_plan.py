@@ -252,11 +252,6 @@ print(Year_A.mean())
 Year_B=df.groupby(['Year','Item'])[['B']]
 print(Year_B.mean())
 
-#Graph on A situ
-ab=df
-df = px.data.tips()
-fig = px.density_heatmap(ab, x="Item", y="A", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Situation A distribution occross items')
-plotly.offline.plot(fig, filename='bike')
 
 """Calculate Profitability"""
 
