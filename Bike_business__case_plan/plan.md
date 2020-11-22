@@ -34,17 +34,19 @@ In 2019 Orbea followed by oody and Amsterdam are most successful.
 Table aggregation 
 <img width="796" alt="Max values for day 2 in months" src="https://user-images.githubusercontent.com/47668423/99837070-4558b780-2b67-11eb-901b-d4eabfc7744d.png">
 
+
 <img width="756" alt="P1" src="https://user-images.githubusercontent.com/47668423/99837073-45f14e00-2b67-11eb-89b3-42c426594401.png">
 
-The cellos bellow show that Treck followed by Orbea bikes are most successful in 2020
-
-<img width="881" alt="p2" src="https://user-images.githubusercontent.com/47668423/99837078-47227b00-2b67-11eb-86cd-b37b8033cba1.png">
 
 Cellos bellow show that sales are best from July onwards even though December we may experience a descrease in sales
 
-<img width="690" alt="p3" src="https://user-images.githubusercontent.com/47668423/99837083-4853a800-2b67-11eb-9a9e-0a515e107ab8.png">
+<img width="881" alt="p2" src="https://user-images.githubusercontent.com/47668423/99837078-47227b00-2b67-11eb-86cd-b37b8033cba1.png">
+
 
 Exploratory sales on datetime
+
+<img width="690" alt="p3" src="https://user-images.githubusercontent.com/47668423/99837083-4853a800-2b67-11eb-9a9e-0a515e107ab8.png">
+
 
 <img width="894" alt="p4" src="https://user-images.githubusercontent.com/47668423/99837085-48ec3e80-2b67-11eb-858a-0513b32d9265.png">
 
