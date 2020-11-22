@@ -82,6 +82,23 @@ print(Profitability_group.mean())
 Profitability_p=df.groupby(['Season','Item'])[['Profitability_p']]
 print(Profitability_p.mean())
 
+abc=df
+print(abc)
+
+df.groupby('Month')['Profitability'].sum().plot(kind='bar')
+plt.ylabel('Profitability')
+plt.title('Performance per month')
+plt.show()
+
+df.groupby('Item')['Profitability'].sum().plot(kind='bar')
+plt.ylabel('Profitability')
+plt.title('2019-2020 comparison')
+plt.show()
+
+df.groupby('Year')['Sales'].sum().plot(kind='bar')
+plt.ylabel('Sales')
+plt.title('2019-2020 comparison')
+plt.show()
 
 
 

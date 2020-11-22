@@ -184,7 +184,7 @@ plt.figure(figsize=(15,15))
 sns.heatmap(df.corr(),annot=True,cmap='Blues_r',mask=np.triu(df.corr(),k=1))
 plt.show()
 
-"""ROI ON 2020 i a pandemic it was anticipated a larger use of echo transport including bikes 
+"""ROI ON 2020 in a pandemic it was anticipated a larger use of echo transport including bikes 
 instead of public transport so the investment was higher"""
 
 investment=65000
@@ -273,6 +273,25 @@ print(Profitability_group.mean())
 
 Profitability_p=df.groupby(['Season','Item'])[['Profitability_p']]
 print(Profitability_p.mean())
+
+df.groupby('Month')['Profitability'].sum().plot(kind='bar')
+plt.ylabel('Profitability')
+plt.title('Performance per month')
+plt.show()
+
+df.groupby('Item')['Profitability'].sum().plot(kind='bar')
+plt.ylabel('Profitability')
+plt.title('2019-2020 comparison')
+plt.show()
+
+
+
+df.groupby('Year')['Sales'].sum().plot(kind='bar')
+plt.ylabel('Sales')
+plt.title('2019-2020 comparison')
+plt.show()
+
+
 
 
 
