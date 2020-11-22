@@ -65,6 +65,10 @@ ab=df
 
 df = px.data.tips()
 fig = px.density_heatmap(ab, x="Item", y="A", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Situation A distribution occross items')
+
+df = px.data.tips()
+fig = px.density_heatmap(ab, x="Item", y="B", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Situation B distribution occross items')
+
 plotly.offline.plot(fig, filename='bike')
 
 
