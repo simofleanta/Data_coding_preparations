@@ -71,4 +71,3 @@ print(Season_B.mean())
 
 
 
-
