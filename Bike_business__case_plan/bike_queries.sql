@@ -47,9 +47,14 @@ LEFT JOIN hr.emp_details_view ON hr.employees.job_id = hr.emp_details_view.Job_I
 order by (select max (salary) from hr.emp_details_view)desc;
 
 
--- please create an sql query that presents average salary value for each job id  and each day 
+-- please create an sql query that presents average salary value for each job id  and each day --inner query
   Select hire_date,job_id,(select avg (salary) where hire_date between hire_date -3 hire_date) from hr.employees;
   --(that hire_date -3 and date means actually each day-there should comeout as 1 value for each item column)
+  select orderid,employeeid,shipperid,(select avg(customerid) where orderdate between orderdate-3 and orderdate),
+(select avg(customerid) where orderdate between orderdate-2 and orderdate),
+(select max(customerid) where orderdate between orderdate-8 and orderdate),
+(select sum(customerid) where shipperid=3)
+from orders
 
 
 
