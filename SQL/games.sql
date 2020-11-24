@@ -6,6 +6,7 @@
 --Desired final schema is: date, application, hardware_platform, retention_day_1_3days_avg, retention_day_3_3days_avg, retention_day_7_3days_avg
 
 Select date,application,hardware_platform,(Select average(retention_day_1) where date between date-3 and date),
+--(Select average(retention_day_1) where date between date-3 and date)
  (Select average(retention_day_3) where date between date-3 and date), 
  (Select average(retention_day_7) where date between date-3 and date) from data1
 
