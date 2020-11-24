@@ -54,7 +54,9 @@ order by (select max (salary) from hr.emp_details_view)desc;
 (select avg(customerid) where orderdate between orderdate-2 and orderdate),
 (select max(customerid) where orderdate between orderdate-8 and orderdate),
 (select sum(customerid) where shipperid=3)
-from orders
+from orders--datas from w3 school
+
+
 
 
 
