@@ -27,12 +27,16 @@ order by (select max (salary) from hr.emp_details_view) desc;
 
 -- select employees with fi acc jobs from Seattle 
 
+SELECT hr.employees.first_name, hr.employees.salary, hr.emp_details_view.city
+FROM hr.employees
+Left JOIN hr.emp_details_view ON hr.employees.job_id = hr.emp_details_view.Job_ID
+where city='Seattle'
+Order by salary desc;
 
-SELECT hr.employees.first_name, hr.employees.salary,hr.emp_details_view.city from hr.employees 
-inner join hr.emp_details_view 
-on hr.employees.job_id=hr._emp_details_view.job_id
-where job_id='FI_ACCOUNT' and city='Seattle'
-group by city;
+
+
+
+
 
 
 
