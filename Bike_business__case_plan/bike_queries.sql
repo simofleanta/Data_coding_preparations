@@ -47,6 +47,10 @@ LEFT JOIN hr.emp_details_view ON hr.employees.job_id = hr.emp_details_view.Job_I
 order by (select max (salary) from hr.emp_details_view)desc;
 
 
+-- please create an sql query that presents average salary vlues for each job id  and each day 
+ -- Select hire_date,job_id,(select avg (salary) where hire_date between '23-11-2020' and'24-11-2020') from hr.employees;
+
+
 
 
 
