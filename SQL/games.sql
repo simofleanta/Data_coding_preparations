@@ -17,3 +17,8 @@ Select date,application,hardware_platform,(Select average(retention_day_1) where
 select player_id, (select value from data2 where date in (Select min(date) 
 from data_2 where id in (select unique player_id from data_2) - select value from data2 where date in (Select min(date) from data_2 
 where id= (select unique player_id from data_2))  from data2
+
+
+--Using the data set from the 'test1' sheet, create normalized data based on columns A, B and C (each separately).
+-- Calculate weighted averages of normalized results based on the following shares:
+-- A-50%, B-30%, C-20% share. Please describe the benefits of using normalization.
