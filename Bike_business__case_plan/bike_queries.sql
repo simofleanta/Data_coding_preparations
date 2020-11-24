@@ -24,6 +24,8 @@ where city='Southlake';
 select city, max(salary) from hr.emp_details_view
 group by City
 order by (select max (salary) from hr.emp_details_view) desc;
+--(select max (salary) from hr.emp_details_view)-innerquery
+
 
 -- select employees with fi acc jobs from Seattle 
 
@@ -32,6 +34,18 @@ FROM hr.employees
 Left JOIN hr.emp_details_view ON hr.employees.job_id = hr.emp_details_view.Job_ID
 where city='Seattle'
 Order by salary desc;
+
+SELECT hr.employees.first_name, hr.employees.salary, hr.emp_details_view.city
+FROM hr.employees
+Left JOIN hr.emp_details_view ON hr.employees.job_id = hr.emp_details_view.Job_ID
+where city='Seattle'
+Order by Salary;
+
+SELECT hr.employees.first_name, hr.employees.salary, hr.emp_details_view.city 
+FROM hr.employees
+LEFT JOIN hr.emp_details_view ON hr.employees.job_id = hr.emp_details_view.Job_ID
+order by (select max (salary) from hr.emp_details_view)desc;
+
 
 
 
