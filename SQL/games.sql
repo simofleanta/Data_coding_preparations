@@ -22,3 +22,19 @@ where id= (select unique player_id from data_2))  from data2
 --Using the data set from the 'test1' sheet, create normalized data based on columns A, B and C (each separately).
 -- Calculate weighted averages of normalized results based on the following shares:
 -- A-50%, B-30%, C-20% share. Please describe the benefits of using normalization.
+
+select D from test_1
+
+
+--Using the dataset from 'test2', please calculate percentage changes between the data in the “new” column and the data in the “old” column.
+ --Please describe which formula/s you used and why.
+Select Difference from Test2
+
+
+--Using the dataset from the 'test 3.1' and 'test3.2' sheets, 
+--please create an INDEX formula that will search results from tables in the 'test3.1' sheet of chosen applications (App1, App10 and App 23) and 
+--present them in existing tables in the 'test3.2' sheet. 
+
+--excel opp-=(B2-C2)/C2*100
+--(old-new)/old*100
+
