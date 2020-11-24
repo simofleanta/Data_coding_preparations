@@ -34,8 +34,5 @@ on hr.employees.job_id=hr._emp_details_view.job_id
 where job_id='FI_ACCOUNT' and city='Seattle'
 group by city;
 
-select first_name, salary, city from hr.employees 
-where city ='Seattle' and job_id='Fi Account'
-join hr.emp_details_view 
-on hr.eployees.job_id=hr.emp_details_view.job_id;
+
 
