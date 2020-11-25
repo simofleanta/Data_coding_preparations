@@ -10,6 +10,10 @@ SELECT First_Name, job_id,salary, Extract(DAY FROM hire_date) AS hire FROM hr.em
 SELECT First_Name, job_id,salary, Extract(DAY FROM hire_date) AS hire FROM hr.employees
 where salary between 9000 and 17000;
 
+--last day of month 
+
+elect LAST_DAY('07-JUN-02') from hr.employees;
+
 
 
 SELECT First_Name, Extract(DAY FROM hire_date) AS hire FROM hr.employees;
