@@ -15,3 +15,13 @@ select productname, avg(num_products) from
    (select productname,categoryid, count(*) as num_products from products
    group by supplierid) sub
 group by productname;
+
+
+--select average number of employee_id per city per job_id 
+select city, avg(num_emps) from (
+   select employee_id, job_id, count(*) as num_emps 
+   from hr.emp_details_view 
+   group by city) sub  --for each city 
+group by city
+
+
