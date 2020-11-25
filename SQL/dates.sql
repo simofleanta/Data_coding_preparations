@@ -1,3 +1,17 @@
+-- notes
+
+--date between range (and can be done if need per week or second week)
+select * from hr.employees 
+where hire_date between '17-JUN-03' and '21-SEP-05'
+order by salary desc;
+
+--extract day or month 
+SELECT First_Name, job_id,salary, Extract(DAY FROM hire_date) AS hire FROM hr.employees
+SELECT First_Name, job_id,salary, Extract(DAY FROM hire_date) AS hire FROM hr.employees
+where salary between 9000 and 17000;
+
+
+
 SELECT First_Name, Extract(DAY FROM hire_date) AS hire FROM hr.employees;
 select sales_revs Extract(Year from Year) as revs_year from bike_case;--repair_phones other data
 SELECT DATEDIFF('2017-01-13','2017-01-03') AS DateDiff;

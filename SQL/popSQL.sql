@@ -36,3 +36,4 @@ from country;
 select *
 from city
 where country_code = 'USA';
+
