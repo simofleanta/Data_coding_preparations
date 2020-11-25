@@ -17,11 +17,26 @@ select productname, avg(num_products) from
 group by productname;
 
 
---select average number of employee_id per city per job_id 
+--select average number of employee_id per city per job_id (basically colt query a certain column)
 select city, avg(num_emps) from (
    select employee_id, job_id, count(*) as num_emps 
    from hr.emp_details_view 
    group by city) sub  --for each city 
 group by city
+
+--or select all so i get all columns displayed (al column queried)
+
+select * from 
+   (select employee_id, job_id, count(*) as num_emps 
+   from hr.emp_details_view 
+   group by city) sub  --for each city 
+
+
+--select EMPLOYEES WHOSE FN CONTAINS LOWER C
+
+select * from hr.employees
+where employee_id in (select employee_id from hr.employees where first_name LIKE LOWER('%c%'))
+order by salary desc;
+
 
 
