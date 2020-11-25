@@ -40,3 +40,11 @@ order by salary desc;
 
 
 
+--who has the highest salary for fi account job 
+select first_name,(select max(salary) from hr.employees) from hr.employees
+where job_id='FI_ACCOUNT';
+
+
+
+
+
