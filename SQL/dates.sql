@@ -29,6 +29,13 @@ Select first_name, ADD_MONTHS('30-JUN-02', 4)
 SELECT First_Name, Extract(DAY FROM hire_date) AS hire FROM hr.employees;
 select sales_revs Extract(Year from Year) as revs_year from bike_case;
 
+--inner one with date
+select orderid,employeeid,shipperid,(select avg(customerid) where orderdate between orderdate-3 and orderdate),
+(select avg(customerid) where orderdate between orderdate-2 and orderdate),
+(select max(customerid) where orderdate between orderdate-8 and orderdate),
+(select sum(customerid) where shipperid=3)
+
+
 
 
 
