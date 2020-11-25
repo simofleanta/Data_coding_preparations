@@ -6,7 +6,7 @@
 
 Select date,application,hardware_platform,(Select average(retention_day_1) where date between date-3 and date),
 --(Select average(retention_day_1) where date between date-3 and date)
- (Select average(retention_day_3) where date between date-3 and date), 
+ (Select average(retention_day_3) wher e date between date-3 and date), 
  (Select average(retention_day_7) where date between date-3 and date) from data1
 
 
