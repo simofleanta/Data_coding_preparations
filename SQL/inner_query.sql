@@ -9,8 +9,8 @@ select city,(select avg(salary) from hr.emp_details_view) from hr.emp_details_vi
 
 
 --average number of price of products per productname per categoryid  
---first do the select count and then nest the count into an
---average select (nested query)
+--1first do the select count and then nest the count into an
+--2average select (nested query)
 select productname, avg(num_products) from 
    (select productname,categoryid, count(*) as num_products from products
    group by supplierid) sub
