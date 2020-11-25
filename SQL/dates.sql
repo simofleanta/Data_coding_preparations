@@ -21,6 +21,9 @@ Select SYSDATE, LAST_DAY('07-JUN-02')
 Select  MONTHS_BETWEEN ('30-JUN-02','17-AUG-02')
 "Months" from hr.employees
 
+-- add stuff
+Select first_name, ADD_MONTHS('30-JUN-02', 4) 
+"Add months" from hr.employees;
 
 --exatrct day and order it by smth(repair_phones other data)
 SELECT First_Name, Extract(DAY FROM hire_date) AS hire FROM hr.employees;
