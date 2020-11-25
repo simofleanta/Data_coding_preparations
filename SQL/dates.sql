@@ -12,3 +12,10 @@ Select *, TIMESTAMPDIFF (month, Hiredate, current_date()) as DiffMonth
 From employees
 Where TIMESTAMPDIFF (month, Hiredate, current_date()) 
 Between 1 and 5 Order by Hiredate desc; 
+
+--Find the Employees who hired in the Last n days.
+--Finding the Employees who have been hire in the last n days. Here we get desire output by using DATEDIFF() mysql function.
+
+Select *, DATEDIFF (current_date(), Hiredate) as DiffDay 
+From employees
+Where DATEDIFF (current_date(), Hiredate) between 1 and 100 order by Hiredate desc;
