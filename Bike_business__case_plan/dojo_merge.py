@@ -30,14 +30,6 @@ df=DataFrame(c.head(500))
 
 
 
-#---------------months
-
-
-#merged_months=pd.merge(Months_2019,Months_2020)
-#print(merged_months)LEAVE IT FOR COMING DATA 
-
-
-
 
 
 
