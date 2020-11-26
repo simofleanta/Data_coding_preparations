@@ -35,21 +35,6 @@ select orderid,employeeid,shipperid,(select avg(customerid) where orderdate betw
 (select max(customerid) where orderdate between orderdate-8 and orderdate),
 (select sum(customerid) where shipperid=3)
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 --sample exes
 --Find the Employees who hired in the Last n months.
