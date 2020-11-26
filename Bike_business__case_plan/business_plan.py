@@ -131,11 +131,29 @@ pivotday_min=df.pivot_table(index='Month',columns=['Year','Item'], aggfunc={'Sal
 pivotday_min['Min']=pivotday_min.idxmin(axis=1)
 print(pivotday_min)
 
-#Pivotation  on filter years 2019 
+# Years benchmark  
 y19=df[df.Year==2019]
+y=df[df.Year==2020]
 
-day2=y19[y19.Day==2]
-print(day2)
+#stack df merge on certain columns 
+stack_years=y19.append(y)
+combine_m=stack_years[10:-40][['Month','Year','Item','Sales','weather_forecast']]
+print(combine_m)
+
+#second day benchmark per year 2019,2020
+day2_2019=y19[y19.Day==2]
+day2_2020=y[y.Day==2]
+stack=day2_2019.append(day2_2020)
+day_stack=stack[2:10][['Year','Month','Item','weather_forecast','Sales']]
+print(day_stack)
+
+#ITEMS BENCHMARK per years :)
+
+
+
+
+
+#Pivotation  on filter years 2019 
 
 df['Sales']=encoder.fit_transform(df['Sales'])
 sns.violinplot(x=y19["Item"], y=y19["Sales"], palette="Blues")
