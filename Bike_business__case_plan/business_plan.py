@@ -147,6 +147,16 @@ stack=day2_2019.append(day2_2020)
 day_stack=stack[2:10][['Year','Month','Item','weather_forecast','Sales']]
 print(day_stack)
 
+#---------------Month Benchmark-------
+
+Months_2019=y19[y19.Year=='Month']
+Months_2020=y[y.Year=='Month']
+stacked_ms=Months_2019.append(Months_2020)
+Months_stack=stacked_ms[4:8][['Year','Month','Sales']]
+print(Months_stack)
+
+
+
 
 #-----------------------------See performance per items in years or days----------
 #ITEMS BENCHMARK per years.
@@ -165,9 +175,6 @@ Raleigh_y19=y19[df.Item=='Raleigh']
 Raleigh_ys=Raleigh_y19.append(Raleigh_y20)
 Raleigh_y=Raleigh_ys[2:40][['Year','Item','weather_forecast','Sales']]
 print(Raleigh_y)
-
-
-
 
 #--------more indepth Pivotation  on filter years 2019 
 
