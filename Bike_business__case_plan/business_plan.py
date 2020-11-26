@@ -31,9 +31,6 @@ what are the best months and days?"""
 #economics  
 #profitability 
 
-
-
-
 c=pd.read_csv('bike_business_plan.csv')
 print(c.columns)
 df=DataFrame(c.head(500))
@@ -57,7 +54,7 @@ df['Number_Bikes']=encoder.fit_transform(df['Number_Bikes'])
 c=df.dtypes
 #print(c)
 
-"""Exploratory data"""
+"""Exploratory data analysis"""
 #groupings
 x=df.groupby(['Season'])[['Number_Bikes']]
 print(x.mean())
@@ -287,6 +284,10 @@ winter_2019=year_2019[year_2019.Season=='winter']
 w_2019=winter_2019.groupby(['Year','Item','weather_forecast'])[['Sales']]
 print(w_2019.mean())
 
+
+#Should I reopen the business given the actual economic context?
+
+
 """
 #-----------------------------------PROFITABILITY--------------------------------
 
@@ -332,7 +333,6 @@ plt.show()"""
 
 
 
-#Should I reopen the business given the actual economic context?
 
 
 
