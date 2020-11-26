@@ -161,13 +161,6 @@ stacked_ms=M.append(M1)
 Months_stack=stacked_ms[4:20][['Year','Month','Sales']]
 print(Months_stack)
 
-# item and month benchmark
-
-Months_stack.groupby(['Year','Item'])['Sales'].sum().plot(kind='bar')
-plt.ylabel('Sales')
-plt.title('2019-2020 comparison')
-plt.show()
-
 
 #-----------------------------See performance per items in years or days----------
 #ITEMS BENCHMARK per years.
@@ -342,7 +335,7 @@ print(w_2019.mean())
 
 #subset -combine columns in a df showing an ex of sales on very good weather 
 
-combined_col=year_2019[4:8][['year','Item','Sales','weather_forecast']]
+combined_col=year_2019[4:8][['Year','Item','Sales','weather_forecast']]
 print(combined_col)
 
 #Should I reopen the business given the actual economic context?
