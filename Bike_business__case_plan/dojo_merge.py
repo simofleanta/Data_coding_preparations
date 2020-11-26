@@ -33,14 +33,27 @@ combined_col=year_2019[4:8][['Month','Item','Sales','weather_forecast']]
 m=year_2019.append(year_2020)
 #print(m)
 combine_m=m[10:-40][['Month','Year','Item','Sales','weather_forecast']]
-print(combine_m)
+#print(combine_m)
 
 #second day benchmark per year 2019,2020
 day2_2019=year_2019[year_2019.Day==2]
 day2_2020=year_2020[year_2020.Day==2]
 stack=day2_2019.append(day2_2020)
 day_stack=stack[2:10][['Year','Month','Item','weather_forecast','Sales']]
-print(day_stack)
+#print(day_stack)
+
+#item Raleigh in day2
+day5_2020=year_2020[year_2020.Day==2]
+day5_2019=year_2019[year_2019.Day==2]
+Raleigh_day5_2020=day5_2020[df.Item=='Raleigh']
+Raleigh_day5_2019=day5_2019[df.Item=='Raleigh']
+Raleigh_s=Raleigh_day5_2019.append(Raleigh_day5_2020)
+Raleigh_per_days=Raleigh_s[0:10][['Year','Item','weather_forecast','Sales']]
+print(Raleigh_per_days)
+
+
+
+
 
 
 

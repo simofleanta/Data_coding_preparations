@@ -148,7 +148,14 @@ day_stack=stack[2:10][['Year','Month','Item','weather_forecast','Sales']]
 print(day_stack)
 
 #ITEMS BENCHMARK per years :)
-
+#items 
+day2_2020=y[y.Day==2]
+day2_2019=y19[y19.Day==2]
+Raleigh_day2_2020=day2_2020[df.Item=='Raleigh']
+Raleigh_day2_2019=day2_2019[df.Item=='Raleigh']
+Raleigh_s=Raleigh_day2_2019.append(Raleigh_day2_2020)
+Raleigh_per_days=Raleigh_s[1:5][['Year','Item','weather_forecast','Sales']]
+print(Raleigh_per_days)
 
 
 
