@@ -27,7 +27,10 @@ what are the best months and days?"""
 #visuals with plotly (also a separate section containing plotly)
 #function on roi 
 #a/b approach 
+#Weather context 
+#economics  
 #profitability 
+
 
 
 
@@ -36,7 +39,7 @@ print(c.columns)
 df=DataFrame(c.head(500))
 print(df.head(500))
 
-#ncoe to numeric
+#ncode to numeric
 encoder=LabelEncoder()
 df['Sales']=encoder.fit_transform(df['Sales'])
 
@@ -110,7 +113,8 @@ plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
 plt.show()
 
-"""pivotations"""
+#-------------------------------PIVOTS------------------------
+
 
 #What are the min max levels of items and months for the business?
 
@@ -130,7 +134,7 @@ pivotday_min=df.pivot_table(index='Month',columns=['Year','Item'], aggfunc={'Sal
 pivotday_min['Min']=pivotday_min.idxmin(axis=1)
 print(pivotday_min)
 
-#filter years
+#Pivotation  on filter years 2019 
 y19=df[df.Year==2019]
 
 df['Sales']=encoder.fit_transform(df['Sales'])
@@ -141,7 +145,7 @@ df['Sales']=encoder.fit_transform(df['Sales'])
 sns.violinplot(x=y19["Month"], y=y19["Sales"], palette="Blues")
 plt.show()
 
-#Bikes situ in 2020  
+#Pivot Bikes situ in 2020  
 
 y=df[df.Year==2020]
 pivotday_min_2020=y.pivot_table(index='Month',columns=['Year','Item'], aggfunc={'Sales':'min'}).fillna(0)
@@ -152,13 +156,15 @@ pivotday_max_2020=y.pivot_table(index='Month',columns=['Year','Month','Item'], a
 pivotday_max_2020['Max']=pivotday_max_2020.idxmax(axis=1)
 print(pivotday_max_2020)
 
-#show me day 2  max values for months
+#Pivots to show day 2  max values for months
 
 #pivot day2 
 day2=y[y.Day==2]
 pivotday2_2020=y.pivot_table(index='Item',columns=['Month','Item'], aggfunc={'Sales':'max'}).fillna(0)
 pivotday2_2020['Max']=pivotday2_2020.idxmax(axis=1)
 print(pivotday2_2020)
+
+#------------------VIOLINS CHARTS 
 
 #encode sales to numeric for violinplot
 encoder=LabelEncoder()
@@ -179,7 +185,7 @@ bike_Item=days.sort_values(by='Sales',ascending=False,axis=0)
 fig = px.bar(bike_Item, x="Sales", y=bike_Item.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
 #plotly.offline.plot(fig, filename='bike')
 
-#corr
+#-----------------------CORRELATIONS
 plt.figure(figsize=(15,15))
 sns.heatmap(df.corr(),annot=True,cmap='Blues_r',mask=np.triu(df.corr(),k=1))
 
