@@ -134,6 +134,9 @@ print(pivotday_min)
 #Pivotation  on filter years 2019 
 y19=df[df.Year==2019]
 
+day2=y19[y19.Day==2]
+print(day2)
+
 df['Sales']=encoder.fit_transform(df['Sales'])
 sns.violinplot(x=y19["Item"], y=y19["Sales"], palette="Blues")
 plt.show()
@@ -155,7 +158,7 @@ print(pivotday_max_2020)
 
 #Pivots to show day 2  max values for months
 
-#pivot day2 
+#pivot day2 2020
 day2=y[y.Day==2]
 pivotday2_2020=y.pivot_table(index='Item',columns=['Month','Item'], aggfunc={'Sales':'max'}).fillna(0)
 pivotday2_2020['Max']=pivotday2_2020.idxmax(axis=1)
@@ -284,6 +287,11 @@ winter_2019=year_2019[year_2019.Season=='winter']
 w_2019=winter_2019.groupby(['Year','Item','weather_forecast'])[['Sales']]
 print(w_2019.mean())
 
+
+#subset -combine columns in a df
+
+combined_col=year_2019[4:8][['Item','Sales','weather_forecast']]
+print(combined_col)
 
 #Should I reopen the business given the actual economic context?
 
