@@ -36,7 +36,7 @@ print(c.columns)
 df=DataFrame(c.head(500))
 print(df.head(500))
 
-#ncode to numeric
+#encode to numeric
 encoder=LabelEncoder()
 df['Sales']=encoder.fit_transform(df['Sales'])
 

@@ -16,20 +16,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 import plotly.express as px
 
-"""A friend has a bike business and wants to see the business evolution given the pandemic situ
-if 2019 is better than 2020
-he would like to see what bikes sell best?
-what are the best months and days?"""
-
-#EDA-gropings, sortings, mean, max, sum values in aggregs 
-#pivotations
-#visuals with seaborn
-#visuals with plotly (also a separate section containing plotly)
-#function on roi 
-#a/b approach 
-#Weather context 
-#economics  
-#profitability 
 
 c=pd.read_csv('bike_business_plan.csv')
 print(c.columns)
@@ -59,13 +45,8 @@ print(day_stack)
 
 
 
-#concat - horrizontally 
-conc=pd.concat([year_2020,year_2019])
-#print(conc)
 
-#pd merge good if one df has only 2/3 columns compred t the orther
-merged=pd.merge(year_2019,year_2020)
-#print(merged.columns)
+
 
 
 
