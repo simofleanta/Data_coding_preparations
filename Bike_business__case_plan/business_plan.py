@@ -110,7 +110,7 @@ plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
 plt.show()
 
-#-------------------------------PIVOTS------------------------
+#------------------------------Basic PIVOTS------------------------
 
 
 #What are the min max levels of items and months for the business?
@@ -131,7 +131,7 @@ pivotday_min=df.pivot_table(index='Month',columns=['Year','Item'], aggfunc={'Sal
 pivotday_min['Min']=pivotday_min.idxmin(axis=1)
 print(pivotday_min)
 
-# Years benchmark  
+#------------------------------------ Years benchmark  
 y19=df[df.Year==2019]
 y=df[df.Year==2020]
 
@@ -147,7 +147,9 @@ stack=day2_2019.append(day2_2020)
 day_stack=stack[2:10][['Year','Month','Item','weather_forecast','Sales']]
 print(day_stack)
 
-#ITEMS BENCHMARK per years :)
+
+#-----------------------------See performance per items in years or days----------
+#ITEMS BENCHMARK per years.
 #items 
 day2_2020=y[y.Day==2]
 day2_2019=y19[y19.Day==2]
@@ -157,10 +159,17 @@ Raleigh_s=Raleigh_day2_2019.append(Raleigh_day2_2020)
 Raleigh_per_days=Raleigh_s[1:5][['Year','Item','weather_forecast','Sales']]
 print(Raleigh_per_days)
 
+#Raleigh performance on 2019, 2020 years 
+Raleigh_y20=y[df.Item=='Raleigh']
+Raleigh_y19=y19[df.Item=='Raleigh']
+Raleigh_ys=Raleigh_y19.append(Raleigh_y20)
+Raleigh_y=Raleigh_ys[2:40][['Year','Item','weather_forecast','Sales']]
+print(Raleigh_y)
 
 
 
-#Pivotation  on filter years 2019 
+
+#--------more indepth Pivotation  on filter years 2019 
 
 df['Sales']=encoder.fit_transform(df['Sales'])
 sns.violinplot(x=y19["Item"], y=y19["Sales"], palette="Blues")

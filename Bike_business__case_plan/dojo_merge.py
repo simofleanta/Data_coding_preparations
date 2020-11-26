@@ -42,14 +42,20 @@ stack=day2_2019.append(day2_2020)
 day_stack=stack[2:10][['Year','Month','Item','weather_forecast','Sales']]
 #print(day_stack)
 
-#item Raleigh in day2
+#item Raleigh in day5
 day5_2020=year_2020[year_2020.Day==2]
 day5_2019=year_2019[year_2019.Day==2]
 Raleigh_day5_2020=day5_2020[df.Item=='Raleigh']
 Raleigh_day5_2019=day5_2019[df.Item=='Raleigh']
 Raleigh_s=Raleigh_day5_2019.append(Raleigh_day5_2020)
 Raleigh_per_days=Raleigh_s[0:10][['Year','Item','weather_forecast','Sales']]
-print(Raleigh_per_days)
+#print(Raleigh_per_days)
+
+Raleigh_y20=year_2020[df.Item=='Raleigh']
+Raleigh_y19=year_2019[df.Item=='Raleigh']
+Raleigh_ys=Raleigh_y19.append(Raleigh_y20)
+Raleigh_y=Raleigh_ys[2:40][['Year','Item','weather_forecast','Sales']]
+print(Raleigh_y)
 
 
 
