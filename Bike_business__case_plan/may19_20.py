@@ -29,6 +29,16 @@ M=year_2019[df.Month=='May']
 M1=year_2020[df.Month=='May']
 
 stacked_ms=M.append(M1)
-Months_stack=stacked_ms[4:20][['Year','Month','Sales']]
+Months_stack=stacked_ms[4:20][['Year','Item','Month','Sales']]
 print(Months_stack)
+
+
+Months_stack.groupby(['Year','Item'])['Sales'].sum().plot(kind='bar')
+plt.ylabel('Sales')
+plt.title('2019-2020 comparison')
+plt.show()
+
+
+
+
 
