@@ -149,10 +149,10 @@ print(day_stack)
 
 #---------------Month Benchmark-------
 
-Months_2019=y19[y19.Year=='Month']
-Months_2020=y[y.Year=='Month']
-stacked_ms=Months_2019.append(Months_2020)
-Months_stack=stacked_ms[4:8][['Year','Month','Sales']]
+M=y19[df.Month=='May']
+M1=y[df.Month=='May']
+stacked_ms=M.append(M1)
+Months_stack=stacked_ms[4:20][['Year','Month','Sales']]
 print(Months_stack)
 
 

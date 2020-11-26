@@ -32,10 +32,15 @@ combined_col=year_2019[4:8][['Month','Item','Sales','weather_forecast']]
 Months_2019=year_2019[year_2019.Year=='Month']
 Months_2020=year_2020[year_2020.Year=='Month']
 stacked_ms=Months_2019.append(Months_2020)
-Months_stack=stacked_ms[0:20][['Year','Month','Sales']]
-print(Months_stack)
+Months_stack=stacked_ms[1::20][['Year','Item','Month','Sales']]
+
+comb_cols=Months_2019[4:8][['Year','Day_Time','Item','Sales']]
+print(comb_cols)
 
 
+
+#conc=pd.concat([Months_2019,Months_2020])
+#print(conc)
 
 #stack df merge on certain columns 
 m=year_2019.append(year_2020)
