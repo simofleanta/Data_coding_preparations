@@ -252,12 +252,12 @@ print(Year_A.mean())
 Year_B=df.groupby(['Year','Item'])[['B']]
 print(Year_B.mean())
 
-#Graph on A situ
+"""#Graph on A situ
 ab=df
 df = px.data.tips()
 fig = px.density_heatmap(ab, x="Item", y="A", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Situation A distribution occross items')
 
-"""Calculate Profitability"""
+#Calculate Profitability
 
 #profitability of product forumula
 #cost to produce =2000 per product *no of prods
@@ -270,14 +270,14 @@ df['Profitability_p']=df.Profitability/df.Number_Bikes
 print(df.columns)
 print(df.head(3))
 
-"""Aggregate profitability per bike brand"""
+#Aggregate profitability per bike brand
 Profitability_group=df.groupby(['Season','Item'])[['Profitability']]
 print(Profitability_group.mean())
 
 Profitability_p=df.groupby(['Season','Item'])[['Profitability_p']]
 print(Profitability_p.mean())
 
-"""df.groupby('Month')['Profitability'].sum().plot(kind='bar')
+df.groupby('Month')['Profitability'].sum().plot(kind='bar')
 plt.ylabel('Profitability')
 plt.title('Performance per month')
 plt.show()
@@ -285,15 +285,17 @@ plt.show()
 df.groupby('Item')['Profitability'].sum().plot(kind='bar')
 plt.ylabel('Profitability')
 plt.title('Item performance comparison')
-plt.show()
+plt.show()"""
 
 df.groupby('Year')['Sales'].sum().plot(kind='bar')
 plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
-plt.show()"""
+plt.show()
 
 #Are sales better on a very good weather in a winter season? 
 sales_winter_weather=df[df.Season=='winter']
+winter_sales=sales_winter_weather.groupby(['Year','Item','weather_forecast'])[['Sales']]
+print(winter_sales.mean())
 
 
 
