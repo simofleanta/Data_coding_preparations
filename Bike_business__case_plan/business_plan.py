@@ -169,7 +169,6 @@ plt.title('2019-2020 comparison')
 plt.show()
 
 
-
 #-----------------------------See performance per items in years or days----------
 #ITEMS BENCHMARK per years.
 #items 
