@@ -136,6 +136,7 @@ update hr.employees set salary =salary +(salary * 5/100);
 
 select first_name from hr.employees  
 where first_name like 'A%';
+--
 
 select first_name from hr.employees;
 
