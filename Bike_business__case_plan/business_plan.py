@@ -288,9 +288,9 @@ w_2019=winter_2019.groupby(['Year','Item','weather_forecast'])[['Sales']]
 print(w_2019.mean())
 
 
-#subset -combine columns in a df
+#subset -combine columns in a df showing an ex of sales on very good weather 
 
-combined_col=year_2019[4:8][['Item','Sales','weather_forecast']]
+combined_col=year_2019[4:8][['year','Item','Sales','weather_forecast']]
 print(combined_col)
 
 #Should I reopen the business given the actual economic context?
