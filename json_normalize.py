@@ -35,3 +35,5 @@ with open('datelazi.json') as file:
 df=pd.read_json('datelazi.json')
 bn=DataFrame(df.feature.values.tolist())['currentDayStats']
 pd.json_normalize(bn)
+
+#
