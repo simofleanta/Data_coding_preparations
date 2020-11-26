@@ -177,12 +177,13 @@ days=pd.DataFrame(data=bike_d)
 bike_Item=days.sort_values(by='Sales',ascending=False,axis=0)
 
 fig = px.bar(bike_Item, x="Sales", y=bike_Item.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
-plotly.offline.plot(fig, filename='bike')
+#plotly.offline.plot(fig, filename='bike')
 
 #corr
 plt.figure(figsize=(15,15))
 sns.heatmap(df.corr(),annot=True,cmap='Blues_r',mask=np.triu(df.corr(),k=1))
-plt.show()
+
+#-----------------------------ROI-------------------------------------------------------------
 
 """ROI ON 2020 in a pandemic it was anticipated a larger use of echo transport including bikes 
 instead of public transport so the investment was higher"""
@@ -211,7 +212,7 @@ def roi(investment,bike_costs,loss):
 
 ROI=roi(investment,bike_costs,loss)
 print(ROI)
-
+#------------------------------------A/B-------------------------------------------------
 """Given the differences between the hears, it worth using an A/B approach over ites in years or season/months """
 
 a=df['Interested']
@@ -252,10 +253,36 @@ print(Year_A.mean())
 Year_B=df.groupby(['Year','Item'])[['B']]
 print(Year_B.mean())
 
-"""#Graph on A situ
-ab=df
-df = px.data.tips()
-fig = px.density_heatmap(ab, x="Item", y="A", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Situation A distribution occross items')
+#-------------------------------------------WHEATHER CONTEXT SALES -----------------------
+
+#What are the sales on a weather condition according to the season and item?
+
+#winter sales
+sales_winter_weather=df[df.Season=='winter']
+winter_sales=sales_winter_weather.groupby(['Year','Item','weather_forecast'])[['Sales']]
+print(winter_sales.mean())
+
+#summer sales
+sales_summer_weather=df[df.Season=='summer']
+summer_sales=sales_summer_weather.groupby(['Year','Item','weather_forecast'])[['Sales']]
+print(summer_sales.mean())
+
+#What are the sales on a weather condition according to the season and year?
+
+#summer 2020
+year_2020=df[df.Year==2020]
+summer_2020=year_2020[year_2020.Season=='summer']
+s_2020=summer_2020.groupby(['Year','Item','weather_forecast'])[['Sales']]
+print(s_2020.mean())
+
+#winter 2020
+year_2019=df[df.Year==2019]
+winter_2019=year_2019[year_2019.Season=='winter']
+w_2019=winter_2019.groupby(['Year','Item','weather_forecast'])[['Sales']]
+print(w_2019.mean())
+
+"""
+#-----------------------------------PROFITABILITY--------------------------------
 
 #Calculate Profitability
 
@@ -285,38 +312,12 @@ plt.show()
 df.groupby('Item')['Profitability'].sum().plot(kind='bar')
 plt.ylabel('Profitability')
 plt.title('Item performance comparison')
-plt.show()"""
+plt.show()
 
 df.groupby('Year')['Sales'].sum().plot(kind='bar')
 plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
-plt.show()
-
-#What are the sales on a weather condition according to the season and item?
-
-#winter sales
-sales_winter_weather=df[df.Season=='winter']
-winter_sales=sales_winter_weather.groupby(['Year','Item','weather_forecast'])[['Sales']]
-print(winter_sales.mean())
-
-#summer sales
-sales_summer_weather=df[df.Season=='summer']
-summer_sales=sales_summer_weather.groupby(['Year','Item','weather_forecast'])[['Sales']]
-print(summer_sales.mean())
-
-#What are the sales on a weather condition according to the season and year?
-
-#summer 2020
-year_2020=df[df.Year==2020]
-summer_2020=year_2020[year_2020.Season=='summer']
-s_2020=summer_2020.groupby(['Year','Item','weather_forecast'])[['Sales']]
-print(s_2020.mean())
-
-#winter 2020
-year_2019=df[df.Year==2019]
-winter_2019=year_2019[year_2019.Season=='winter']
-w_2019=winter_2019.groupby(['Year','Item','weather_forecast'])[['Sales']]
-print(w_2019.mean())
+plt.show()"""
 
 
 
