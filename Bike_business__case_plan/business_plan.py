@@ -341,7 +341,7 @@ print(combined_col)
 #Should I reopen the business given the actual economic context?
 
 
-"""
+
 #-----------------------------------PROFITABILITY--------------------------------
 
 #Calculate Profitability
@@ -377,7 +377,7 @@ plt.show()
 df.groupby('Year')['Sales'].sum().plot(kind='bar')
 plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
-plt.show()"""
+plt.show()
 
 
 
