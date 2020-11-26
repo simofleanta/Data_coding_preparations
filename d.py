@@ -1,6 +1,6 @@
 import json
 import pandas as pd
-from pandas import DataFrame
+from pandas import DataFrame 
 import numpy as np
 import time
 
@@ -19,16 +19,15 @@ print(s['currentDayStats']['percentageOfWomen'])
 print(s['currentDayStats']['distributionByAge'])
 print(s['C']['countyInfectionsNumbers'])"""
 
-
+   
 with open('stats.json') as file:
     for line in file:
         data=json.loads(line)
     ww=pd.DataFrame(data)
-df=pd.read_json("datelazi.json")
-bn=pd.DataFrame(df.features.values.tolist())['lasUpdatedOn']
-print(df.features.values.tolist())
+df=pd.read_json("stats.json")
+bn=pd.DataFrame(df._get_data_from_filepath())['data']
 
-    
+
 
 
 
