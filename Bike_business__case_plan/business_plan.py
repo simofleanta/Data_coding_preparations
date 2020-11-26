@@ -257,9 +257,6 @@ ab=df
 df = px.data.tips()
 fig = px.density_heatmap(ab, x="Item", y="A", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Situation A distribution occross items')
 
-
-
-
 """Calculate Profitability"""
 
 #profitability of product forumula
@@ -268,7 +265,6 @@ fig = px.density_heatmap(ab, x="Item", y="A", nbinsx=20, nbinsy=20, color_contin
 #if profitability per product sold= product profitability / number of products 
 
 df['Cost_to_produce']=2000*df.Number_Bikes
-print(df.columns)
 df['Profitability']=df.Cost_to_produce-df.Sales
 df['Profitability_p']=df.Profitability/df.Number_Bikes
 print(df.columns)
@@ -281,7 +277,7 @@ print(Profitability_group.mean())
 Profitability_p=df.groupby(['Season','Item'])[['Profitability_p']]
 print(Profitability_p.mean())
 
-df.groupby('Month')['Profitability'].sum().plot(kind='bar')
+"""df.groupby('Month')['Profitability'].sum().plot(kind='bar')
 plt.ylabel('Profitability')
 plt.title('Performance per month')
 plt.show()
@@ -294,8 +290,18 @@ plt.show()
 df.groupby('Year')['Sales'].sum().plot(kind='bar')
 plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
-plt.show()
-#
+plt.show()"""
+
+#Are sales better on a very good weather in a winter season? 
+sales_winter_weather=df[df.Season=='winter']
+
+
+
+
+
+
+
+#Should I reopen the business given the actual economic context?
 
 
 
