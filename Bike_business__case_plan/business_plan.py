@@ -292,10 +292,32 @@ plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
 plt.show()
 
-#Are sales better on a very good weather in a winter season? 
+#What are the sales on a weather condition according to the season and item?
+
+#winter sales
 sales_winter_weather=df[df.Season=='winter']
 winter_sales=sales_winter_weather.groupby(['Year','Item','weather_forecast'])[['Sales']]
 print(winter_sales.mean())
+
+#summer sales
+sales_summer_weather=df[df.Season=='summer']
+summer_sales=sales_summer_weather.groupby(['Year','Item','weather_forecast'])[['Sales']]
+print(summer_sales.mean())
+
+#What are the sales on a weather condition according to the season and year?
+
+#summer 2020
+year_2020=df[df.Year==2020]
+summer_2020=year_2020[year_2020.Season=='summer']
+s_2020=summer_2020.groupby(['Year','Item','weather_forecast'])[['Sales']]
+print(s_2020.mean())
+
+#winter 2020
+year_2019=df[df.Year==2019]
+winter_2019=year_2019[year_2019.Season=='winter']
+w_2019=winter_2019.groupby(['Year','Item','weather_forecast'])[['Sales']]
+print(w_2019.mean())
+
 
 
 
