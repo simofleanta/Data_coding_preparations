@@ -24,13 +24,12 @@ print(s['currentDayStats']['distributionByAge'])
 print(s['currentDayStats']['countyInfectionsNumbers'])"""
 
 
+
 with open('datelazi.json') as file:
     for line in file:
         data=json.loads(line)
     ww=pd.DataFrame(data)
-
-
-
+print(ww)
 
 
     
