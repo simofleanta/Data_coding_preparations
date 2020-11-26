@@ -19,7 +19,7 @@ print(s['currentDayStats']['percentageOfWomen'])
 print(s['currentDayStats']['distributionByAge'])
 print(s['C']['countyInfectionsNumbers'])"""
 
-   
+#normalize to put it in dataframe but features is not helping 
 with open('stats.json') as file:
     for line in file:
         data=json.loads(line)
