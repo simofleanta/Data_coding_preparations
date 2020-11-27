@@ -32,6 +32,7 @@ df=DataFrame(c.head(500))
 #cost to produce =2000 per product *no of prods
 #subtract cost to produce from revenues
 #if profitability per product sold= product profitability / number of products 
+#easy glance subsets
 
 df['Cost_to_produce']=2000*df.Number_Bikes
 df['Profitability']=df.Cost_to_produce-df.Sales
@@ -46,7 +47,7 @@ print(Profitability_group.mean())
 Profitability_p=df.groupby(['Season','Item'])[['Profitability_p']]
 print(Profitability_p.mean())
 
-"""df.groupby('Month')['Profitability'].sum().plot(kind='bar')
+df.groupby('Month')['Profitability'].sum().plot(kind='bar')
 plt.ylabel('Profitability')
 plt.title('Performance per month')
 plt.show()
@@ -59,7 +60,7 @@ plt.show()
 df.groupby('Year')['Sales'].sum().plot(kind='bar')
 plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
-plt.show()"""
+plt.show()
 
 autumn=df[df.Season=='autumn']
 Month_sep=df[df.Month=='Sep']
