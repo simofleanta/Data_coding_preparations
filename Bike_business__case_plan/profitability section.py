@@ -25,7 +25,8 @@ df=DataFrame(c.head(500))
 
 
 #-----------------------------------PROFITABILITY--------------------------------
-
+#due to dataset minor transforation, errors may occur for this section.Then please reffer to a separate 
+#section profitability on the github where data is plain and no erros occur
 #Calculate Profitability
 
 #profitability of product forumula
