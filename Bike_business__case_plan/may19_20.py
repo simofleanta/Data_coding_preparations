@@ -39,6 +39,13 @@ plt.title('2019-2020 comparison')
 plt.show()
 
 
+year_2019=df[df.Year==2019]
+year_2020=df[df.Year==2020]
+m3=year_2019.append(year_2020)
+m_s=m3[4:20][['Year','Item','Not_interested','Not_likely']]
+print(m_s)
+
+
 
 
 
