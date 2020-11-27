@@ -387,6 +387,13 @@ plt.ylabel('Sales')
 plt.title('2019-2020 comparison')
 plt.show()
 
+#subsetting profitability on items, autumn September 2020
+
+autumn=df[df.Season=='autumn']
+Month_sep=df[df.Month=='Sep']
+p_stack=autumn.append(Month_sep)
+profitab_s=p_stack[4:80][['Year','Item','Profitability','Sales']]
+print(profitab_s.tail (5))
 
 
 
