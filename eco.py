@@ -48,6 +48,10 @@ plt.show()
 x=Inflation_Unemployed_Table['IPC']
 y=Inflation_Unemployed_Table['Number_unemployd']
 z=Inflation_Unemployed_Table['Term']
+q=Inflation_Unemployed_Table['Annual_inflation_target']
+p=Inflation_Unemployed_Table['Months']
+
+#corr between ipc and number unemployed
 fig = go.Figure(data=go.Heatmap(
                    z=x,
                    x=z,
@@ -59,6 +63,20 @@ fig.update_layout(
     title='Correlation IPC and number of unemployd people',
     xaxis_nticks=40)
 plotly.offline.plot(fig, filename='eco')
+#It seems that the larger IPC the greater number of unemployd people
+
+#Correlation Inflation target and number of unemployd people in months
+fig = go.Figure(data=go.Heatmap(
+                   z=y,
+                   x=p,
+                   y=q,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Correlation Inflation target and number of unemployd people in months',
+    xaxis_nticks=40)
+plotly.offline.plot(fig, filename='eco')
 
 
 
@@ -68,7 +86,8 @@ plotly.offline.plot(fig, filename='eco')
 
 
 
-#may be corrs
+
+
 
 
 
