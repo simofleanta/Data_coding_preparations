@@ -31,6 +31,14 @@ print(df_inflation.head(10))
 inflation_unemployment=pd.merge(df_inflation,df_economic)
 print(inflation_unemployment)
 
+#getting rid of mess in my table
+#data taken from ins bnr
+#data showing unemployment unregistered and supported 
+
+Inflation_Unemployed_Table=inflation_unemployment[['Year','Months','Term','IPC','Constant_taxes','Annual_inflation_target','Number_unemployd']].copy()
+print(Inflation_Unemployed_Table)
+
+
 
 #may be corrs
 
