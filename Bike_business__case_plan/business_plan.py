@@ -394,6 +394,8 @@ Month_sep=df[df.Month=='Sep']
 p_stack=autumn.append(Month_sep)
 profitab_s=p_stack[4:80][['Year','Item','Profitability','Sales']]
 print(profitab_s.tail (5))
+#--------------------------Economic cotext
+
 
 
 
