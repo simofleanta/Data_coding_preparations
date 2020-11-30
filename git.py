@@ -29,5 +29,13 @@ print(c_missing)
 #encoder=LabelEncoder()
 #numerical=df['date']=encoder.fit_transform(df['date'])
 
+xdf=df[['topic','projects','contributers','name','user','star','fork','issue','License','commits']].copy()
+print(xdf)
+
+
+
+
+
+
 
 
