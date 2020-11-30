@@ -1,6 +1,6 @@
-Unemployment_type, Macroregiuni  regiuni de dezvoltare si judete, Luni, Valoare
-Registered_state_supported_&_unsupported , Brasov, Luna ianuarie 1992,5109
-Registered_state_supported_&_unsupported , Brasov, Luna iunie 2020,5812
-Registered_state_supported_&_unsupported , Brasov, Luna iulie 2020,6362
-Registered_state_supported_&_unsupported , Brasov, Luna august 2020,6581
-Registered_state_supported_&_unsupported , Brasov, Luna septembrie 2020,6831
+Unemployment_type,Region,Months,Year,Number_unemployd
+Registered_state_supported_&_unsupported , Brasov,Jan ,1992,5109
+Registered_state_supported_&_unsupported , Brasov,Jun,2020,5812
+Registered_state_supported_&_unsupported , Brasov,Jul,2020,6362
+Registered_state_supported_&_unsupported , Brasov,Aug,2020,6581
+Registered_state_supported_&_unsupported , Brasov,Sep,2020,6831
