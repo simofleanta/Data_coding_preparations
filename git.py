@@ -48,15 +48,21 @@ xdf=df[['topic','projects','contributers','name','user','star','fork','issue','L
 xdf.groupby('topic')['projects'].count().plot(kind='bar')
 plt.ylabel('projects')
 plt.title('topics')
-plt.show()
+
 
 #how many contribs?
 git_projects=xdf.groupby(['topic'])[['contributers']]
-print(git.count())
+#print(git.count())
+
+#star is counted in k 
+git_star=xdf.groupby(['projects'])[['star']]
+print(git_star.count())
 
 #sort data  
 sortgit=xdf.groupby('name')['contributers'].count().sort_values(ascending=False)
-print(sortgit)
+#print(sortgit)
+
+
 
 
 
