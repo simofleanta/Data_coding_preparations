@@ -21,3 +21,12 @@ print(economic.columns)
 df_economic=DataFrame(economic.head(10))
 print(df_economic.head(10))
 
+economic=pd.read_csv('Inflation_forecast.csv')
+print(economic.columns)
+df_inflation=DataFrame(economic.head(10))
+print(df_inflation.head(10))
+
+
+
+
+

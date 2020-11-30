@@ -1,0 +1,12 @@
+Date,IPC,Constant_taxes,Lower limit of inflation variation interval ,Annual_inflation_target,Upper limit of inflation variation interval 
+T1 2020,3.05,3,1.5,3,3.5
+T2 2020,2.58,2.6,1.5,3,3.5
+T3 2020,2.45,2.3,1.5,3,3.5
+T4 2020,2.1,1.9,1.5,3,3.5
+T1 2021,2,1.7,1.5,3,3.5
+T2 2021,2.2,1.8,1.5,3,3.5
+T3 2021,2.4,2,1.5,3,3.5
+T4 2021,2.5,2.1,1.5,3,3.5
+T1 2022,2.3,1.9,1.5,3,3.5
+T2 2022,2.4,2,1.5,3,3.5
+T3 2022,2.4,2.2,1.5,3,3.5
