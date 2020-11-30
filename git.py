@@ -63,6 +63,11 @@ print(contribs_projects.count())
 git_star=xdf.groupby(['projects'])[['star']]
 print(git_star.mean())
 
+git_name_star=xdf.groupby(['topic','name'])[['star']]
+print(git_name_star.sum())
+
+
+
 
 
 
