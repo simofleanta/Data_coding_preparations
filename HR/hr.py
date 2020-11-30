@@ -124,25 +124,6 @@ pivot1=domain.pivot_table(index='interview_call',columns='region', aggfunc={'int
 pivot1['Max']=pivot1.idxmax(axis=1)
 print(pivot1)
 
-"""Conclusions"""
-# get interviews mostly from bi 
-# got interviews in bi from Berlin and less in Brussels, well I've mostly applied in Berlin since it is my focus. 
-# get interviews from mostly jobs without seniority level and then from junior level. None from Gradate instead.
-#focus on bi jobs in Berlin and Brussels since calls for interview come from there. Paris and london are completley absent
-
-
-"""questions"""
-
-##normal jobs are mostly 1 (wonder why?)
-#Why not policy?
-#Why is it hard to access a Graduale level job? We're vaccinated ....
-
-""" to be added further"""
-
-# numerical data 
-#skills
-#diffrence data and intelligence 
-#--------------------------------------------------------------------------------------------------------
 #graphs to resue the findings 
 
 
@@ -177,6 +158,7 @@ plotly.offline.plot(fig, filename='bike')
 
 #Most responsive are jobs with BI followed by DA and then BA
 #This sequence shows BI as a balance between business analysis and data analysis.#tech & Business
+#seniority level not very relevant, mostly jobs with normal seniority level were more responsive
 
 #Suggestion:
 #apply to BI Jobs
@@ -184,6 +166,7 @@ plotly.offline.plot(fig, filename='bike')
 #requirements of bi:
 #-bi tools
 #-sql+py which are basis applying data analysis into a business context as mentioned above AS balance between tech& business
+
 
 
 
