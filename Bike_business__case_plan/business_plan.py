@@ -346,6 +346,11 @@ print(w_2019.mean())
 combined_col=year_2019[4:8][['Year','Item','Sales','weather_forecast']]
 print(combined_col)
 
+#-------------------------Where did the money go most in my last 2 years
+#receiving data for costs 
+
+
+
 #Should I reopen the business given the actual economic context?
 
 #--------------------------Economic cotext
