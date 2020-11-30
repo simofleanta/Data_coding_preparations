@@ -16,12 +16,10 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 import plotly.express as px
 
-
 git=pd.read_csv('GitHub_data.csv')
 print(git.columns)
 df=DataFrame(git.head(20))
 print(df.head(20))
-
 
 c=df.dtypes
 c_missing=df.isnull().sum()
