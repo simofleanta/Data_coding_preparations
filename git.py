@@ -41,15 +41,15 @@ x_shape=df.shape
 #Making sense of data
 
 xdf=df[['topic','projects','contributers','name','user','star','fork','issue','License','commits']].copy()
-#print(xdf)
+print(xdf)
 
 #how many projects are per topic?
 git_topic=xdf.groupby(['topic'])[['projects']]
-#print(git_topic.count())
+print(git_topic.count())
 
 #how many projects in total?
-git_topic=xdf.groupby(['projects'])
-print(git_topic.count())
+proj_count=xdf.groupby(['projects'])
+print(proj_count.count())
 
 #how many contribs per topic?
 git_contribs=xdf.groupby(['topic'])[['contributers']]
