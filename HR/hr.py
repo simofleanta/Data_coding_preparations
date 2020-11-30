@@ -173,7 +173,17 @@ plt.show()
 fig = px.density_heatmap(interview_call, x="Job", y="interview_call", nbinsx=20, nbinsy=20, color_continuous_scale="Blues_r",title='Job distribution on interview call')
 plotly.offline.plot(fig, filename='bike')
 
-#
+"""Conclusions:"""
+
+#Most responsive are jobs with BI followed by DA and then BA
+#This sequence shows BI as a balance between business analysis and data analysis.#tech & Business
+
+#Suggestion:
+#apply to BI Jobs
+
+#requirements of bi:
+#-bi tools
+#-sql+py which are basis applying data analysis into a business context as mentioned above AS balance between tech& business
 
 
 
