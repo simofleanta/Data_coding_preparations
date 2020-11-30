@@ -63,7 +63,9 @@ fig.update_layout(
     title='Correlation IPC and number of unemployd people',
     xaxis_nticks=40)
 plotly.offline.plot(fig, filename='eco')
-#It seems that the larger IPC the greater number of unemployd people
+#It seems that the larger IPC the greater number of unemployd people. This leads to the idea that 
+#it is getting harder to get employeed. Due to lower puchase power, employers think twice before employeeng someone, 
+#considering more compact jobs, qualified, digital type of jobs. 
 
 #Correlation Inflation target and number of unemployd people in months
 fig = go.Figure(data=go.Heatmap(
@@ -83,6 +85,8 @@ Inflation_Unemployed_Table.groupby('Months')['Number_unemployd'].sum().plot(kind
 plt.ylabel('Number_unemployd')
 plt.title('Months comparison on number of unemployed')
 plt.show()
+
+
 
 
 
