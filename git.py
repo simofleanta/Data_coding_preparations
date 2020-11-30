@@ -18,27 +18,47 @@ import plotly.express as px
 
 #pening a file
 git=pd.read_csv('GitHub_data.csv')
-print(git.columns)
+#print(git.columns)
 df=DataFrame(git.head(20))
-print(df.head(20))
+#print(df.head(20))
 
-#making sense of data 
+#data view
 c=df.dtypes
 c_missing=df.isnull().sum()
-print(c_missing)
+#print(c_missing)
 x=c.describe()
 #print(x)
 x_describe=df.describe()
-print(x_describe)
+#print(x_describe)
 x_shape=df.shape
-print(x_shape)
+#print(x_shape)
 
 #just in case need to encode numerical 
 #encoder=LabelEncoder()
 #numerical=df['date']=encoder.fit_transform(df['date'])
 
+
+#Making sense of data
+
 xdf=df[['topic','projects','contributers','name','user','star','fork','issue','License','commits']].copy()
 #print(xdf)
+
+#what topics are there?
+#datasci
+xdf.groupby('topic')['projects'].count().plot(kind='bar')
+plt.ylabel('projects')
+plt.title('topics')
+plt.show()
+
+#how many contribs?
+git_projects=xdf.groupby(['topic'])[['contributers']]
+print(git.count())
+
+#sort data  
+sortgit=xdf.groupby('name')['contributers'].count().sort_values(ascending=False)
+print(sortgit)
+
+
 
 
 
