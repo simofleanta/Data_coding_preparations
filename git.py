@@ -27,4 +27,9 @@ c=df.dtypes
 c_missing=df.isnull().sum()
 print(c_missing)
 
+#just in case need to encode numerical 
+#encoder=LabelEncoder()
+#numerical=df['date']=encoder.fit_transform(df['date'])
+
+
 
