@@ -396,6 +396,14 @@ profitab_s=p_stack[4:80][['Year','Item','Profitability','Sales']]
 print(profitab_s.tail (5))
 #--------------------------Economic cotext
 
+economic=pd.read_csv('unemployment.csv')
+print(economic.columns)
+df_economic=DataFrame(economic.head(10))
+print(df_economic.head(10))
+
+
+
+
 
 
 
