@@ -26,7 +26,12 @@ print(economic.columns)
 df_inflation=DataFrame(economic.head(10))
 print(df_inflation.head(10))
 
-#try unemployment and inflation
+
+#merged the two datasets 
+inflation_unemployment=pd.merge(df_inflation,df_economic)
+print(inflation_unemployment)
+
+
 #may be corrs
 
 
