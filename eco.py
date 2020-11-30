@@ -78,7 +78,11 @@ fig.update_layout(
     xaxis_nticks=40)
 plotly.offline.plot(fig, filename='eco')
 
-
+#bargraph on unemployd on monnths in 2020
+Inflation_Unemployed_Table.groupby('Months')['Number_unemployd'].sum().plot(kind='bar')
+plt.ylabel('Number_unemployd')
+plt.title('Months comparison on number of unemployed')
+plt.show()
 
 
 
