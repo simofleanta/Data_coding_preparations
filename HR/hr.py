@@ -57,7 +57,7 @@ print(y.count())
 interview_call=df[df.interview_call==1]
 No_interview_call=df[df.interview_call==2]
 No_answer_interview_call=df[df.interview_call==3]
-#print(interview_call)
+print(interview_call)
 
 #I will focus on one and use the above data instead of the df 
 
