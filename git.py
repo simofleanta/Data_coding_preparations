@@ -58,7 +58,7 @@ print(contribs_projects.count())
 
 #star is counted in k 
 git_star=xdf.groupby(['projects'])[['star']]
-print(git_star.count())
+print(git_star.mean())
 
 
 
