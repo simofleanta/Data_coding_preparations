@@ -26,6 +26,10 @@ print(economic.columns)
 df_inflation=DataFrame(economic.head(10))
 print(df_inflation.head(10))
 
+#try unemployment and inflation
+#may be corrs
+
+
 
 
 
