@@ -19,7 +19,7 @@ import plotly.express as px
 #pening a file
 git=pd.read_csv('GitHub_data.csv')
 #print(git.columns)
-df=DataFrame(git.head(20))
+df=DataFrame(git.head(1000))
 #print(df.head(20))
 
 #data view
@@ -43,24 +43,26 @@ x_shape=df.shape
 xdf=df[['topic','projects','contributers','name','user','star','fork','issue','License','commits']].copy()
 #print(xdf)
 
-#what topics are there?
-#datasci
-xdf.groupby('topic')['projects'].count().plot(kind='bar')
-plt.ylabel('projects')
-plt.title('topics')
+#how many projects are per topic?
+git_topic=xdf.groupby(['topic'])[['projects']]
+print(git_topic.count())
 
 
-#how many contribs?
-git_projects=xdf.groupby(['topic'])[['contributers']]
-#print(git.count())
+#how many contribs per topic?
+git_contribs=xdf.groupby(['topic'])[['contributers']]
+print(git_contribs.count())
+
+#how many contribs in projects
+contribs_projects=xdf.groupby(['topic','projects'])[['contributers']]
+print(contribs_projects.count())
 
 #star is counted in k 
 git_star=xdf.groupby(['projects'])[['star']]
 print(git_star.count())
 
-#sort data  
-sortgit=xdf.groupby('name')['contributers'].count().sort_values(ascending=False)
-#print(sortgit)
+
+
+
 
 
 
