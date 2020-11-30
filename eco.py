@@ -39,6 +39,34 @@ Inflation_Unemployed_Table=inflation_unemployment[['Year','Months','Term','IPC',
 print(Inflation_Unemployed_Table)
 
 
+#corr graphs 
+#Watching correlations, variations between unemployment and IPC. 
+plt.figure(figsize=(8,5))
+sns.heatmap(Inflation_Unemployed_Table.corr(),annot=True,cmap='Blues_r',mask=np.triu(Inflation_Unemployed_Table.corr(),k=1))
+plt.show()
+
+x=Inflation_Unemployed_Table['IPC']
+y=Inflation_Unemployed_Table['Number_unemployd']
+z=Inflation_Unemployed_Table['Term']
+fig = go.Figure(data=go.Heatmap(
+                   z=x,
+                   x=z,
+                   y=y,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='Correlation IPC and number of unemployd people',
+    xaxis_nticks=40)
+plotly.offline.plot(fig, filename='eco')
+
+
+
+
+
+
+
+
 
 #may be corrs
 
