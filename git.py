@@ -45,8 +45,11 @@ xdf=df[['topic','projects','contributers','name','user','star','fork','issue','L
 
 #how many projects are per topic?
 git_topic=xdf.groupby(['topic'])[['projects']]
-print(git_topic.count())
+#print(git_topic.count())
 
+#how many projects in total?
+git_topic=xdf.groupby(['projects'])
+print(git_topic.count())
 
 #how many contribs per topic?
 git_contribs=xdf.groupby(['topic'])[['contributers']]
