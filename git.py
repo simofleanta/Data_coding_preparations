@@ -66,6 +66,10 @@ print(git_star.mean())
 git_name_star=xdf.groupby(['topic','name'])[['star']]
 print(git_name_star.sum())
 
+#forks are in k too 
+git_license=xdf.groupby(['topic','License'])[['fork']]
+print(git_license.sum())
+
 
 
 
