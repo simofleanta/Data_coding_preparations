@@ -170,7 +170,7 @@ fig = px.scatter(xdf, x="topic", y="commits", color="pull_requests",
 
 #heatmap corr between star & fork
 
-c=xdf[['star','fork','topic','projects','pull_requests','watch','issue','commits']].copy()
+c=xdf[['star','fork','topic','projects','pull_requests','watch','issue','License','commits']].copy()
 
 #numerical corrs
 plt.figure(figsize=(10,10))
@@ -233,7 +233,15 @@ df = px.data.tips()
 fig = px.density_heatmap(xdf, x="topic", y="issue", nbinsx=40, nbinsy=30, color_continuous_scale="Viridis",title='issue repos')
 #plotly.offline.plot(fig, filename='git')
 
+#license
 
+df = px.data.tips()
+fig = px.density_heatmap(xdf, x="License", y="watch", nbinsx=40, nbinsy=30, color_continuous_scale="Viridis",title='watching repos')
+#plotly.offline.plot(fig, filename='git')
+
+df = px.data.tips()
+fig = px.density_heatmap(xdf, x=["License"], y="fork", nbinsx=40, nbinsy=30, color_continuous_scale="Viridis",title='watching repos')
+#plotly.offline.plot(fig, filename='git')
 
 
 
