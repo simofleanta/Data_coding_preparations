@@ -49,18 +49,16 @@ print(df.columns)
 #get rid of str 5000+
 x=df.at[700, 'issue'] = str(5000)
 
+
 Numerical = ["star","fork","watch","issue","pull_requests","projects","commits","branches","packages","releases","contributers"]
 df[Numerical] = df[Numerical].fillna(0)
 df["issue"] = df["issue"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
+df["fork"] = df["fork"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
 df["pull_requests"] = df["pull_requests"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
 df["commits"] = df["commits"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
 df["branches"] = df["branches"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
 df["contributers"] = df["contributers"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
 
-
-df['star'] = df['star'].apply(lambda x: float(x.replace('k',''))*1000 if 'k' in x else x)
-df['fork'] = df['fork'].apply(lambda x: float(x.replace('k',''))*1000 if 'k' in x else x)
-df['watch'] = df['watch'].apply(lambda x: float(x.replace('k',''))*1000 if 'k' in x else x)
 
 
 
