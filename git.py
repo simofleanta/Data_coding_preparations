@@ -91,11 +91,35 @@ print(git_name_star.sum())
 git_license=xdf.groupby(['topic','License'])[['fork']]
 print(git_license.sum())
 
+#barcharts
+
+#projects
 fig1 = px.bar(xdf, x="topic", y=["projects"],barmode='group', color='topic',color_continuous_scale='Blues',title="Projects per topic")
-plotly.offline.plot(fig1, filename='git')
+#plotly.offline.plot(fig1, filename='git')
 
 fig = px.bar(xdf, x="topic", y=["fork"],barmode='group', color='topic',color_continuous_scale='Blues',title="Forks on topics")
+#plotly.offline.plot(fig, filename='git')
+
+#stars
+git_d=df.groupby(['topic'])['star'].mean()
+days=pd.DataFrame(data=git_d)
+git_bar=days.sort_values(by='star',ascending=False,axis=0)
+
+fig = px.bar(git_bar, x="star", y=git_bar.index, color='star',color_continuous_scale='Blues',title="Stars per topic")
 plotly.offline.plot(fig, filename='git')
+
+#pulls
+git_d=df.groupby(['topic'])['pull_requests'].mean()
+pull=pd.DataFrame(data=git_d)
+git_pulls=pull.sort_values(by='pull_requests',ascending=False,axis=0)
+
+fig = px.bar(git_pulls, x="pull_requests", y=git_bar.index, color='pull_requests',color_continuous_scale='Blues',title="Pull requests per topic")
+#plotly.offline.plot(fig, filename='git')
+
+
+
+
+
 
 
 
