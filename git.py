@@ -91,13 +91,11 @@ print(git_name_star.sum())
 git_license=xdf.groupby(['topic','License'])[['fork']]
 print(git_license.sum())
 
-fig1 = px.bar(xdf, x="topic", y=["projects"],barmode='group', color='topic',color_continuous_scale='Blues',title="bikes count per hour grouped on working day")
+fig1 = px.bar(xdf, x="topic", y=["projects"],barmode='group', color='topic',color_continuous_scale='Blues',title="Projects per topic")
+plotly.offline.plot(fig1, filename='git')
 
-plotly.offline.plot(fig1, filename='bike')
-
-fig = px.bar(xdf, x="topic", y=["fork"],barmode='group', color='topic',color_continuous_scale='Blues',title="bikes count per hour grouped on working day")
-
-plotly.offline.plot(fig, filename='bike')
+fig = px.bar(xdf, x="topic", y=["fork"],barmode='group', color='topic',color_continuous_scale='Blues',title="Forks on topics")
+plotly.offline.plot(fig, filename='git')
 
 
 
