@@ -231,7 +231,10 @@ fig = px.density_heatmap(xdf, x="topic", y="watch", nbinsx=40, nbinsy=30, color_
 
 df = px.data.tips()
 fig = px.density_heatmap(xdf, x="topic", y="issue", nbinsx=40, nbinsy=30, color_continuous_scale="Viridis",title='issue repos')
-plotly.offline.plot(fig, filename='git')
+#plotly.offline.plot(fig, filename='git')
+
+
+
 
 
 
