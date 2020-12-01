@@ -10,6 +10,7 @@ import plotly
 import statistics
 import plotly.express as px
 import stats
+import ast
 import matplotlib.pyplot as plt 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
@@ -89,7 +90,6 @@ print(git_name_star.sum())
 
 git_license=xdf.groupby(['topic','License'])[['fork']]
 print(git_license.sum())
-
 
 
 
