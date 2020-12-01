@@ -49,7 +49,7 @@ print(df.columns)
 #get rid of str 5000+
 x=df.at[700, 'issue'] = str(5000)
 
-
+#get rid of commas making columns numerical
 Numerical = ["star","watch","issue","pull_requests","projects","commits","branches","packages","releases","contributers"]
 df[Numerical] = df[Numerical].fillna(0)
 df["issue"] = df["issue"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
@@ -59,14 +59,9 @@ df["branches"] = df["branches"].apply(lambda x: x.replace(',', '') if ',' in x e
 df["contributers"] = df["contributers"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
 df["fork"] = df["fork"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
 
+#Making sense of data
 
-
-
-
-
-"""#Making sense of data
-
-xdf=df[['topic','projects','contributers','name','user','star','fork','issue','License','commits']].copy()
+xdf=df[['topic','projects','contributers','name','user','pull_requests','star','fork','issue','License','commits']].copy()
 print(xdf)
 
 #how many projects are per topic?
@@ -85,16 +80,15 @@ print(git_contribs.count())
 contribs_projects=xdf.groupby(['topic','projects'])[['contributers']]
 print(contribs_projects.count())
 
-#star is counted in k 
 git_star=xdf.groupby(['projects'])[['star']]
 print(git_star.mean())
 
 git_name_star=xdf.groupby(['topic','name'])[['star']]
 print(git_name_star.sum())
 
-#forks are in k too 
+
 git_license=xdf.groupby(['topic','License'])[['fork']]
-print(git_license.sum())"""
+print(git_license.sum())
 
 
 
