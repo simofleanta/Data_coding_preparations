@@ -51,7 +51,7 @@ print(df.columns)
 x=df.at[700, 'issue'] = str(5000)
 
 #get rid of commas making columns numerical
-Numerical = ["star","watch","issue","pull_requests","projects","commits","branches","packages","releases","contributers"]
+Numerical = ["star","watch","issue","pull_requests","projects","commits","branches","releases","contributers"]
 df[Numerical] = df[Numerical].fillna(0)
 df["issue"] = df["issue"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
 df["pull_requests"] = df["pull_requests"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
@@ -62,7 +62,7 @@ df["fork"] = df["fork"].apply(lambda x: x.replace(',', '') if ',' in x else x).a
 
 #Making sense of data
 
-xdf=df[['topic','projects','contributers','name','user','pull_requests','star','fork','issue','License','commits']].copy()
+xdf=df[['topic','watch','projects','contributers','name','user','pull_requests','star','fork','issue','License','commits']].copy()
 print(xdf)
 
 #how many projects are per topic?
@@ -119,20 +119,41 @@ fig = px.bar(git_pulls, x="pull_requests", y=git_bar.index, color='pull_requests
 fig = px.bar(xdf, x="topic", y=["fork","star"],barmode='stack', color='fork',color_continuous_scale='Blues',title="Star per topic with forks stacked on topics")
 #plotly.offline.plot(fig, filename='git')
 
+#------distributions------
+
 #fork distribution accross the topics 
 df['fork'] = df['fork'].astype(float)
 fork_topicwise = df.groupby('topic').sum()['fork']
 fig = px.bar(fork_topicwise,x=fork_topicwise.index,y="fork",color=fork_topicwise.index)
 plotly.offline.plot(fig, filename='git')
 
+#pull distribution accross the topics 
+df['pull_requests'] = df['pull_requests'].astype(float)
+pull_topicwise = df.groupby('topic').sum()['pull_requests']
+fig = px.bar(pull_topicwise,x=pull_topicwise.index,y="pull_requests",color=pull_topicwise.index)
+plotly.offline.plot(fig, filename='git')
 
-#now that we can see the stars according to the topic, let's see the corr between star& fork
+#star distribution accross the topics 
+df['star'] = df['star'].astype(float)
+star_topicwise = df.groupby('topic').sum()['star']
+fig = px.bar(star_topicwise,x=star_topicwise.index,y="star",color=star_topicwise.index)
+plotly.offline.plot(fig, filename='git')
+
+#-----correlations------------------------
+
 #heatmap corr between star & fork
 
-c=xdf[['star','fork','topic','projects','pull_requests']].copy()
+c=xdf[['star','fork','topic','projects','pull_requests','watch','issue','commits']].copy()
 
-plt.figure(figsize=(8,5))
-sns.heatmap(c.corr(),cmap='Blues')
+#numerical corrs
+plt.figure(figsize=(10,10))
+plt.title('Star-fork corr', y=1.05, size=15)
+sns.heatmap(df[Numerical].corr(),linewidths=0.1,vmax=1.0, square=True, 
+            cmap='Blues', linecolor='white', annot=True)
+
+#corrs
+plt.figure(figsize=(10,5))
+sns.heatmap(c.corr(),annot=True,cmap='Greens')
 plt.show()
 
 #-star& fork=1.0 most correlated
