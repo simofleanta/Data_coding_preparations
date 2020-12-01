@@ -106,7 +106,7 @@ days=pd.DataFrame(data=git_d)
 git_bar=days.sort_values(by='star',ascending=False,axis=0)
 
 fig = px.bar(git_bar, x="star", y=git_bar.index, color='star',color_continuous_scale='Blues',title="Stars per topic")
-plotly.offline.plot(fig, filename='git')
+#plotly.offline.plot(fig, filename='git')
 
 #pulls
 git_d=df.groupby(['topic'])['pull_requests'].mean()
@@ -115,6 +115,31 @@ git_pulls=pull.sort_values(by='pull_requests',ascending=False,axis=0)
 
 fig = px.bar(git_pulls, x="pull_requests", y=git_bar.index, color='pull_requests',color_continuous_scale='Blues',title="Pull requests per topic")
 #plotly.offline.plot(fig, filename='git')
+
+fig = px.bar(xdf, x="topic", y=["fork","star"],barmode='stack', color='fork',color_continuous_scale='Blues',title="Star per topic with forks stacked on topics")
+#plotly.offline.plot(fig, filename='git')
+
+#fork distribution accross the topics 
+df['fork'] = df['fork'].astype(float)
+fork_topicwise = df.groupby('topic').sum()['fork']
+fig = px.bar(fork_topicwise,x=fork_topicwise.index,y="fork",color=fork_topicwise.index)
+plotly.offline.plot(fig, filename='git')
+
+
+#now that we can see the stars according to the topic, let's see the corr between star& fork
+#heatmap corr between star & fork
+
+c=xdf[['star','fork','topic','projects','pull_requests']].copy()
+
+plt.figure(figsize=(8,5))
+sns.heatmap(c.corr(),cmap='Blues')
+plt.show()
+
+#-star& fork=1.0 most correlated
+#pull_request &projects=0.6
+
+
+
 
 
 
