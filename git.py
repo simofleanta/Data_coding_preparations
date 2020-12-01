@@ -125,19 +125,31 @@ fig = px.bar(xdf, x="topic", y=["fork","star"],barmode='stack', color='fork',col
 df['fork'] = df['fork'].astype(float)
 fork_topicwise = df.groupby('topic').sum()['fork']
 fig = px.bar(fork_topicwise,x=fork_topicwise.index,y="fork",color=fork_topicwise.index)
-plotly.offline.plot(fig, filename='git')
+#plotly.offline.plot(fig, filename='git')
 
 #pull distribution accross the topics 
 df['pull_requests'] = df['pull_requests'].astype(float)
 pull_topicwise = df.groupby('topic').sum()['pull_requests']
 fig = px.bar(pull_topicwise,x=pull_topicwise.index,y="pull_requests",color=pull_topicwise.index)
-plotly.offline.plot(fig, filename='git')
+#plotly.offline.plot(fig, filename='git')
 
 #star distribution accross the topics 
 df['star'] = df['star'].astype(float)
 star_topicwise = df.groupby('topic').sum()['star']
 fig = px.bar(star_topicwise,x=star_topicwise.index,y="star",color=star_topicwise.index)
+#plotly.offline.plot(fig, filename='git')
+
+#scatters
+
+fig = px.scatter(xdf, x="topic", y="star", color="fork",
+                 size='fork', hover_data=['fork'],
+                 color_continuous_scale='Blues',
+                 title='star-fork')
 plotly.offline.plot(fig, filename='git')
+
+
+
+
 
 #-----correlations------------------------
 
@@ -159,6 +171,30 @@ plt.show()
 #-star& fork=1.0 most correlated
 #pull_request &projects=0.6
 
+#-------------Heatmaps
+
+#since star fork strongy corrrelated, we'll do a heatmap 
+topic=xdf['topic']
+star=xdf['star']
+fork=xdf['fork']
+issue=xdf['issue']
+pull=xdf['pull_requests']
+projects=xdf['projects']
+commits=xdf['commits']
+user=xdf['user']
+name=xdf['name']
+
+fig = go.Figure(data=go.Heatmap(
+                   z=star,
+                   x=fork,
+                   y=topic,
+                   colorscale='Blues'))
+
+fig.update_layout(
+    
+    title='stat-fork heatmap',
+    xaxis_nticks=40)
+#plotly.offline.plot(fig, filename='git')
 
 
 
