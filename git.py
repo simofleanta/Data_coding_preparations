@@ -57,9 +57,8 @@ df["pull_requests"] = df["pull_requests"].apply(lambda x: x.replace(',', '') if 
 df["commits"] = df["commits"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
 df["branches"] = df["branches"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
 df["contributers"] = df["contributers"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
+df["fork"] = df["fork"].apply(lambda x: x.replace(',', '') if ',' in x else x).astype(float)
 
-f=df['fork']
-print(f)
 
 
 
