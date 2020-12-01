@@ -181,7 +181,7 @@ sns.heatmap(df[Numerical].corr(),linewidths=0.1,vmax=1.0, square=True,
 #corrs
 plt.figure(figsize=(10,5))
 sns.heatmap(c.corr(),annot=True,cmap='Greens')
-plt.show()
+#plt.show()
 
 #-star& fork=1.0 most correlated
 #pull_request &projects=0.6
@@ -211,6 +211,27 @@ fig.update_layout(
     xaxis_nticks=40)
 #plotly.offline.plot(fig, filename='git')
 
+#--------------------2d histograms
+
+df = px.data.tips()
+fig = px.density_heatmap(xdf, x="topic", y="fork", nbinsx=40, nbinsy=30, color_continuous_scale="Viridis",title='star distribution accross the topics')
+#plotly.offline.plot(fig, filename='git')
+
+df = px.data.tips()
+fig = px.density_heatmap(xdf, x="topic", y="star", nbinsx=40, nbinsy=30, color_continuous_scale="Viridis",title='Star distribution accross the topics')
+#plotly.offline.plot(fig, filename='git')
+
+df = px.data.tips()
+fig = px.density_heatmap(xdf, x="topic", y="commits", nbinsx=40, nbinsy=30, color_continuous_scale="Viridis",title='Commits distribution')
+#plotly.offline.plot(fig, filename='git')
+
+df = px.data.tips()
+fig = px.density_heatmap(xdf, x="topic", y="watch", nbinsx=40, nbinsy=30, color_continuous_scale="Viridis",title='watching repos')
+#plotly.offline.plot(fig, filename='git')
+
+df = px.data.tips()
+fig = px.density_heatmap(xdf, x="topic", y="issue", nbinsx=40, nbinsy=30, color_continuous_scale="Viridis",title='issue repos')
+plotly.offline.plot(fig, filename='git')
 
 
 
