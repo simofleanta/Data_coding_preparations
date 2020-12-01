@@ -145,10 +145,25 @@ fig = px.scatter(xdf, x="topic", y="star", color="fork",
                  size='fork', hover_data=['fork'],
                  color_continuous_scale='Blues',
                  title='star-fork')
-plotly.offline.plot(fig, filename='git')
+#plotly.offline.plot(fig, filename='git')
 
+fig = px.scatter(xdf, x="topic", y="watch", color="issue",
+                 size='issue', hover_data=['issue'],
+                 color_continuous_scale='RdBu',
+                 title='Watching and issues per topic')
+#plotly.offline.plot(fig, filename='git')
 
+fig = px.scatter(xdf, x="topic", y="watch", color="commits",
+                 size='commits', hover_data=['commits'],
+                 color_continuous_scale='RdBu',
+                 title='Commits and watching per topic')
+#plotly.offline.plot(fig, filename='git')
 
+fig = px.scatter(xdf, x="topic", y="commits", color="pull_requests",
+                 size='pull_requests', hover_data=['pull_requests'],
+                 color_continuous_scale='Magma',
+                 title='Commits and pull_requests per topic')
+#plotly.offline.plot(fig, filename='git')
 
 
 #-----correlations------------------------
