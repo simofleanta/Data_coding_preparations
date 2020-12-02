@@ -282,6 +282,9 @@ comm_stack=ml.append(Data_science)
 com=comm_stack[:400][['topic','commits','fork']]
 print(com)
 
+vissual2 = sns.lmplot(data=com, x='fork', y='commits',
+                 fit_reg=False)
+plt.show()
 
 
 
