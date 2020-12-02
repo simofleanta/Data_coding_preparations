@@ -246,7 +246,7 @@ fig = px.density_heatmap(xdf, x=["License"], y="fork", nbinsx=40, nbinsy=30, col
 
 #to draw conclusions on the above charts
 
-"""Time to filter stuff :) """
+"""Time to filter stuff DS and ML :) , smth that may help us see the diff between thm two"""
 
 #It seems a surprise that data science is not so active on my the charts. So let's see its star-fork behaviours
 
@@ -273,11 +273,11 @@ sns.heatmap(m.corr(),linewidths=0.1,vmax=1.0, square=True,
             cmap='viridis', linecolor='white', annot=True)
 
 
-#in ml star-fork is corr=0.27
+#in ml star-fork is corr=0.27 (weak corr)
 #strongest one is issue pull requests
 #issue commits
 
-#TREND IDENTIFICATION IN ML AND DS
+#TREND IDENTIFICATION IN ML AND DS after corrs
 comm_stack=ml.append(Data_science)
 com=comm_stack[:400][['topic','issue','pull_requests','commits','star','fork']]
 print(com)
@@ -298,6 +298,7 @@ plt.show()
 
 vis4= sns.boxplot(data=com, x="fork", y="topic")
 plt.show()
+
 
 
 
