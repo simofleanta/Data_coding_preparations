@@ -279,7 +279,7 @@ sns.heatmap(m.corr(),linewidths=0.1,vmax=1.0, square=True,
 
 #TREND IDENTIFICATION IN ML AND DS
 comm_stack=ml.append(Data_science)
-com=comm_stack[:400][['topic','issue','pull_requests','commits','fork']]
+com=comm_stack[:400][['topic','issue','pull_requests','commits','star','fork']]
 print(com)
 
 vissual2 = sns.lmplot(data=com, x='issue', y='commits',
@@ -289,12 +289,14 @@ plt.show()
 vissual3 = sns.lmplot(data=com, x='issue', y='pull_requests',
                  fit_reg=False)
 plt.show()
+
 #For 244k pulls you may have 79k issue
 
-vis4= sns.boxplot(data=com, x="pull_requests", y="topic")
+#Boxplots to see the difference between star and fork since they are not so coorelated 
+vis4= sns.boxplot(data=com, x="star", y="topic")
 plt.show()
 
-vis4= sns.boxplot(data=com, x="issue", y="topic")
+vis4= sns.boxplot(data=com, x="fork", y="topic")
 plt.show()
 
 
