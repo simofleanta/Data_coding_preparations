@@ -291,7 +291,10 @@ vissual3 = sns.lmplot(data=com, x='issue', y='pull_requests',
 plt.show()
 #For 244k pulls you may have 79k issue
 
-vis4= sns.boxplot(data=com, x="issue", y="pull_requests")
+vis4= sns.boxplot(data=com, x="pull_requests", y="topic")
+plt.show()
+
+vis4= sns.boxplot(data=com, x="issue", y="topic")
 plt.show()
 
 
