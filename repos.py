@@ -251,12 +251,14 @@ fig = px.density_heatmap(xdf, x=["License"], y="fork", nbinsx=40, nbinsy=30, col
 #It seems a surprise that data science is not so active on my the charts. So let's see its star-fork behaviours
 
 Data_science=xdf[xdf.topic=='Data-Science']
+ml=xdf[xdf.topic=='ML']
 print(Data_science)
+print(ml)
 
 #corrs
 plt.figure(figsize=(6,5))
 sns.heatmap(Data_science.corr(),annot=True,cmap='magma')
-plt.show()
+
 
 #starfork not corr
 #strongest corr btween projects and pull requests  
@@ -269,12 +271,18 @@ plt.figure(figsize=(10,10))
 plt.title('Star-fork corr', y=1.05, size=15)
 sns.heatmap(m.corr(),linewidths=0.1,vmax=1.0, square=True, 
             cmap='viridis', linecolor='white', annot=True)
-plt.show()
+
 
 #in ml star-fork is corr=0.27
 #strongest one is 
 #issue pull requests
 #issue commits
+
+comm_stack=ml.append(Data_science)
+com=comm_stack[:400][['topic','commits','fork']]
+print(com)
+
+
 
 
 
