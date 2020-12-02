@@ -183,8 +183,9 @@ plt.figure(figsize=(10,5))
 sns.heatmap(c.corr(),annot=True,cmap='Greens')
 #plt.show()
 
-#-star& fork=1.0 most correlated
-#pull_request &projects=0.6
+#-star& fork=not corr
+#pull_request &projects=0.29
+#commits -issue-0.66
 
 #-------------Heatmaps
 
