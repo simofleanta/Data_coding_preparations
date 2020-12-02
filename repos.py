@@ -258,7 +258,7 @@ sns.heatmap(Data_science.corr(),annot=True,cmap='magma')
 plt.show()
 
 #starfork not corr
-#strongest corr btween projects and pull requests 
+#strongest corr btween projects and pull requests  
 
 
 
