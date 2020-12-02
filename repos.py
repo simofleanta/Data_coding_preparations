@@ -292,7 +292,7 @@ plt.show()
 
 #For 244k pulls you may have 79k issue
 
-#Boxplots to see the difference between star and fork since they are not so coorelated 
+#Boxplots to see the difference between star and fork since they are not so coorelated for ML and ds
 vis4= sns.boxplot(data=com, x="star", y="topic")
 plt.show()
 
