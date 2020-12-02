@@ -259,7 +259,6 @@ print(ml)
 plt.figure(figsize=(6,5))
 sns.heatmap(Data_science.corr(),annot=True,cmap='magma')
 
-
 #starfork not corr
 #strongest corr btween projects and pull requests  
 #commits-issue=0.47
@@ -282,21 +281,21 @@ comm_stack=ml.append(Data_science)
 com=comm_stack[:400][['topic','issue','pull_requests','commits','star','fork']]
 print(com)
 
-vissual2 = sns.lmplot(data=com, x='issue', y='commits',
+vissual = sns.lmplot(data=com, x='issue', y='commits',
                  fit_reg=False)
 plt.show()
 
-vissual3 = sns.lmplot(data=com, x='issue', y='pull_requests',
+vissual = sns.lmplot(data=com, x='issue', y='pull_requests',
                  fit_reg=False)
 plt.show()
 
-#For 244k pulls you may have 79k issue
+#stats example:For 244k pulls you may have 79k issue
 
 #Boxplots to see the difference between star and fork since they are not so coorelated for ML and ds
-vis4= sns.boxplot(data=com, x="star", y="topic")
+vis = sns.boxplot(data=com, x="star", y="topic")
 plt.show()
 
-vis4= sns.boxplot(data=com, x="fork", y="topic")
+vis = sns.boxplot(data=com, x="fork", y="topic")
 plt.show()
 
 
