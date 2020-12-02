@@ -262,6 +262,15 @@ plt.show()
 #strongest corr btween projects and pull requests  
 #commits-issue=0.47
 
+m=xdf[xdf.topic=='ML']
+plt.figure(figsize=(6,5))
+sns.heatmap(m.corr(),annot=True,cmap='viridis')
+plt.show()
+
+#in ml star-fork is corr=0.27
+#strongest one is 
+#issue pull requests
+
 
 
 
