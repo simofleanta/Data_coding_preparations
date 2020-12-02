@@ -274,17 +274,22 @@ sns.heatmap(m.corr(),linewidths=0.1,vmax=1.0, square=True,
 
 
 #in ml star-fork is corr=0.27
-#strongest one is 
-#issue pull requests
+#strongest one is issue pull requests
 #issue commits
 
+#TREND IDENTIFICATION IN ML AND DS
 comm_stack=ml.append(Data_science)
-com=comm_stack[:400][['topic','commits','fork']]
+com=comm_stack[:400][['topic','issue','pull_requests','commits','fork']]
 print(com)
 
-vissual2 = sns.lmplot(data=com, x='fork', y='commits',
+vissual2 = sns.lmplot(data=com, x='issue', y='commits',
                  fit_reg=False)
 plt.show()
+
+vissual3 = sns.lmplot(data=com, x='issue', y='pull_requests',
+                 fit_reg=False)
+plt.show()
+#For 244k pulls you may have 79k issue
 
 
 
