@@ -291,10 +291,13 @@ plt.show()
 
 #stats example:For 244k pulls you may have 79k issue
 
-#pairplot to see the trend star and fork
+#pairplot to see the trend issue and commits
 pairplot = sns.pairplot(com, vars=['issue','commits'])
 plt.show()
 
+#pairplot to see the trend issue and pulls
+pairplot = sns.pairplot(com, vars=['issue','pull_requests'])
+plt.show()
 
 #Boxplots to see the difference between star and fork since they are not so coorelated for ML and ds
 vis = sns.boxplot(data=com, x="star", y="topic")
