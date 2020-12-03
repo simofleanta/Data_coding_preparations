@@ -310,6 +310,23 @@ plt.show()
 pairplot = sns.pairplot(com, vars=['star','fork'])
 plt.show()
 
+#flutter+java trends 
+
+Flutter=xdf[xdf.topic=='flutter']
+java=xdf[xdf.topic=='java']
+
+flut_j=Flutter.append(java)
+flutter_java=comm_stack[:400][['topic','issue','pull_requests','commits','star','fork']]
+print(flutter_java)
+
+
+vis = sns.boxplot(data=flutter_java, x="star", y="topic")
+plt.show()
+
+
+
+
+
 
 
 
