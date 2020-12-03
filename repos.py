@@ -319,9 +319,18 @@ flut_j=Flutter.append(java)
 flutter_java=comm_stack[:400][['topic','issue','pull_requests','commits','star','fork']]
 print(flutter_java)
 
+corr_flutt=flutter_java[flutter_java.topic=='Flutter']
+plt.figure(figsize=(10,10))
+plt.title('Star-fork flutt', y=1.05, size=15)
+sns.heatmap(flutter_java.corr(),linewidths=0.1,vmax=1.0, square=True, 
+            cmap='viridis', linecolor='white', annot=True)
 
-vis = sns.boxplot(data=flutter_java, x="star", y="topic")
 plt.show()
+
+#star not corred. So we'll do a bocplot 
+vi = sns.boxplot(data=flutter_java, x="star", y="topic")
+plt.show()
+
 
 
 
