@@ -267,9 +267,10 @@ sns.heatmap(Data_science.corr(),annot=True,cmap='magma')
 
 m=xdf[xdf.topic=='ML']
 plt.figure(figsize=(10,10))
-plt.title('Star-fork corr', y=1.05, size=15)
+plt.title('Star-fork ML', y=1.05, size=15)
 sns.heatmap(m.corr(),linewidths=0.1,vmax=1.0, square=True, 
             cmap='viridis', linecolor='white', annot=True)
+plt.show()
 
 
 #in ml star-fork is corr=0.27 (weak corr)
