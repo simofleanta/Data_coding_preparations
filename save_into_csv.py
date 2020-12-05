@@ -21,6 +21,9 @@ print(df.head(3))
 array=df.to_numpy()
 print(array)
 
+#saving into csv for further processing
+
+c=df.to_csv
 
 
 

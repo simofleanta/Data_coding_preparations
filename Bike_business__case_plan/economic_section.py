@@ -33,14 +33,9 @@ print(inflation_unemployment)
 
 #save thid df as csv file for further processing 
 c=inflation_unemployment.to_csv
+#-------------------------------------------------------
 
-
-
-
-
-
-
-"""#getting rid of mess in my table
+#getting rid of mess in my table
 #data taken from ins bnr
 #data showing unemployment unregistered and supported 
 
@@ -94,7 +89,7 @@ Inflation_Unemployed_Table.groupby('Months')['Number_unemployd'].sum().plot(kind
 plt.ylabel('Number_unemployd')
 plt.title('Months comparison on number of unemployed')
 plt.show()
-"""
+
 
 
 
