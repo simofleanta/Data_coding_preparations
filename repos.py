@@ -328,7 +328,7 @@ sns.heatmap(flutter_java.corr(),linewidths=0.1,vmax=1.0, square=True,
 
 plt.show()
 
-#star not corred. So we'll do a bocplot 
+#star-fork not corred. So we'll do a boxplot 
 vi = sns.boxplot(data=flutter_java, x="star", y="topic")
 plt.show()
 
