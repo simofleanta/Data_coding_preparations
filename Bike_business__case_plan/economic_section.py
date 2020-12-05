@@ -32,7 +32,7 @@ inflation_unemployment=pd.merge(df_inflation,df_economic)
 print(inflation_unemployment)
 
 #save thid df as csv file for further processing 
-c=inflation_unemployment.to_csv
+save_to_csv=inflation_unemployment.to_csv
 #-------------------------------------------------------
 
 #getting rid of mess in my table
