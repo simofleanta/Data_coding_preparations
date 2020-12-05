@@ -332,6 +332,16 @@ plt.show()
 vi = sns.boxplot(data=flutter_java, x="star", y="topic")
 plt.show()
 
+x=xdf[['topic','star','fork']].copy()
+
+
+plt.figure(figsize=(10,10))
+plt.title('Topic-Star-fork flutt', y=1.05, size=15)
+sns.heatmap(x.corr(),linewidths=0.1,vmax=1.0, square=True, 
+            cmap='viridis', linecolor='white', annot=True)
+
+plt.show()
+
 
 
 
