@@ -31,7 +31,16 @@ print(df_inflation.head(10))
 inflation_unemployment=pd.merge(df_inflation,df_economic)
 print(inflation_unemployment)
 
-#getting rid of mess in my table
+#save thid df as csv file for further processing 
+c=inflation_unemployment.to_csv
+
+
+
+
+
+
+
+"""#getting rid of mess in my table
 #data taken from ins bnr
 #data showing unemployment unregistered and supported 
 
@@ -85,6 +94,7 @@ Inflation_Unemployed_Table.groupby('Months')['Number_unemployd'].sum().plot(kind
 plt.ylabel('Number_unemployd')
 plt.title('Months comparison on number of unemployed')
 plt.show()
+"""
 
 
 
