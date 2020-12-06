@@ -49,8 +49,6 @@ def ROI_Ral(investment,bike_costs,loss):
     return net_profit/investment*100
 print(ROI_Ral(investment,bike_costs,loss))
 
-
-
 #roi in 2020 
 Year2020=df[df.Year==2020]
 investment=40000 #received investment 
@@ -61,6 +59,22 @@ net_profit=bike_costs*12-loss
 def ROI_2020(investment,bike_costs,loss):
     return net_profit/investment*100
 print(ROI_2020(investment,bike_costs,loss))
+
+#roi item 2020
+Year2020=df[df.Year==2020]
+Orbea=Year2020[Year2020.Item=='Orbea']
+
+investment=40000 #received investment 
+bike_costs=Item_cost_month=Orbea['Item_cost_month']
+loss=Loss_item=Orbea['Loss_item']
+
+net_profit=bike_costs*12-loss
+def ROI_Orbea(investment,bike_costs,loss):
+    return net_profit/investment*100
+print(ROI_Orbea(investment,bike_costs,loss))
+
+
+
 
 
 
