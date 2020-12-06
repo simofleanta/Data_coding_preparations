@@ -20,3 +20,32 @@ c=pd.read_csv('bike_business_plan.csv')
 print(c.columns)
 df=DataFrame(c.head(500))
 print(df.head(500))
+
+
+"""ROI ON 2020 in a pandemic it was anticipated a larger use of echo transport including bikes 
+instead of public transport so the investment was higher"""
+
+investment=65000
+bike_costs=2700
+loss=5800
+
+def roi(investment,bike_costs,loss):
+    net_prof=bike_costs*12-loss
+    roi=(net_prof/investment*100)
+    return roi
+
+ROI=roi(investment,bike_costs,loss)
+print(ROI)
+
+#on 2019
+investment=40000
+bike_costs=1000
+loss=700
+
+def roi(investment,bike_costs,loss):
+    net_prof=bike_costs*12-loss
+    roi=(net_prof/investment*100)
+    return roi
+
+ROI=roi(investment,bike_costs,loss)
+print(ROI)
