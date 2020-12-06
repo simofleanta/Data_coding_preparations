@@ -38,8 +38,16 @@ def ROI_2019(investment,bike_costs,loss):
 print(ROI_2019(investment,bike_costs,loss))
 
 
-#roi/item 2019
+#roi/item-Raleigh 2019
 Raleigh=Year2019[Year2019.Item=='Raleigh']
+investment=40000 #received investment 
+bike_costs=Item_cost_month=Raleigh['Item_cost_month']
+loss=Loss_item=Raleigh['Loss_item']
+
+net_profit=bike_costs*12-loss
+def ROI_Ral(investment,bike_costs,loss):
+    return net_profit/investment*100
+print(ROI_Ral(investment,bike_costs,loss))
 
 
 
