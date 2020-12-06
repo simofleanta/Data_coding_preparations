@@ -26,26 +26,33 @@ print(df.head(500))
 instead of public transport so the investment was higher"""
 
 #2019 ROI
+#filtering the year
 Year2019=df[df.Year==2019]
-
 investment=40000 #received investment 
+#passing vriables to the desired columns 
 bike_costs=Item_cost_month=Year2019['Item_cost_month']
 loss=Loss_item=Year2019['Loss_item']
 
+#finding out the netprofit
 net_profit=bike_costs*12-loss
+
 def ROI_2019(investment,bike_costs,loss):
+    """function generating ROI for 2019"""
     return net_profit/investment*100
 print(ROI_2019(investment,bike_costs,loss))
 
-
 #roi/item-Raleigh 2019
+#filtering the desired item in 2019
 Raleigh=Year2019[Year2019.Item=='Raleigh']
 investment=40000 #received investment 
 bike_costs=Item_cost_month=Raleigh['Item_cost_month']
 loss=Loss_item=Raleigh['Loss_item']
 
+#finding out the netprofit 
 net_profit=bike_costs*12-loss
+
 def ROI_Ral(investment,bike_costs,loss):
+    """Generating ROI for an item """
     return net_profit/investment*100
 print(ROI_Ral(investment,bike_costs,loss))
 
