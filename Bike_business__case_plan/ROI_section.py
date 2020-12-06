@@ -26,18 +26,12 @@ print(df.head(500))
 instead of public transport so the investment was higher"""
 
 investment=40000 #received investment 
-bike_costs=Sales=df['Sales']
-loss=Number_bikes=df['Number_Bikes']
+bike_costs=Item_cost_month=df['Item_cost_month']
+loss=Loss_item=df['Loss_item']
 
-def roi(bike_costs,loss):
-    return bike_costs*12-loss
-
-print(roi(bike_costs,loss))
-
-
-
-
-
+net_profit=bike_costs*12-loss
+def ROI(investment,bike_costs,loss):
+    return net_profit/investment*100
 
 
 """def roi(investment,bike_costs,loss):
