@@ -51,24 +51,3 @@ print(ROI_2020(investment,bike_costs,loss))
 #roi/item 2019
 
 
-
-"""def roi(investment,bike_costs,loss):
-    net_prof=bike_costs*12-loss
-    roi=(net_prof/investment*100)
-    return roi
-
-ROI=roi(investment,bike_costs,loss)
-print(ROI)
-
-#on 2019
-investment=40000
-bike_costs=1000
-loss=700
-
-def roi(investment,bike_costs,loss):
-    net_prof=bike_costs*12-loss
-    roi=(net_prof/investment*100)
-    return roi
-
-ROI=roi(investment,bike_costs,loss)
-print(ROI)"""
