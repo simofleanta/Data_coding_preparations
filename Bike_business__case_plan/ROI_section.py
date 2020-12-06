@@ -25,11 +25,22 @@ print(df.head(500))
 """ROI ON 2020 in a pandemic it was anticipated a larger use of echo transport including bikes 
 instead of public transport so the investment was higher"""
 
-investment=65000
-bike_costs=2700
-loss=5800
+investment=40000 #received investment 
+bike_costs=Sales=df['Sales']
+loss=Number_bikes=df['Number_Bikes']
 
-def roi(investment,bike_costs,loss):
+def roi(bike_costs,loss):
+    return bike_costs*12-loss
+
+print(roi(bike_costs,loss))
+
+
+
+
+
+
+
+"""def roi(investment,bike_costs,loss):
     net_prof=bike_costs*12-loss
     roi=(net_prof/investment*100)
     return roi
@@ -48,4 +59,4 @@ def roi(investment,bike_costs,loss):
     return roi
 
 ROI=roi(investment,bike_costs,loss)
-print(ROI)
+print(ROI)"""
