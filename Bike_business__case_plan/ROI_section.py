@@ -37,6 +37,12 @@ def ROI_2019(investment,bike_costs,loss):
     return net_profit/investment*100
 print(ROI_2019(investment,bike_costs,loss))
 
+
+#roi/item 2019
+Raleigh=Year2019[Year2019.Item=='Raleigh']
+
+
+
 #roi in 2020 
 Year2020=df[df.Year==2020]
 investment=40000 #received investment 
@@ -48,6 +54,7 @@ def ROI_2020(investment,bike_costs,loss):
     return net_profit/investment*100
 print(ROI_2020(investment,bike_costs,loss))
 
-#roi/item 2019
+
+
 
 
