@@ -62,37 +62,7 @@ Year_B=df.groupby(['Year','Item'])[['B']]
 print(Year_B.mean())
 
 
-"""Calculate Profitability"""
 
-#profitability of product forumula
-#cost to produce =2000 per product *no of prods
-#subtract cost to produce from revenues
-#if profitability per product sold= product profitability / number of products 
-
-df['Cost_to_produce']=2000*df.Number_Bikes
-print(df.columns)
-df['Profitability']=df.Cost_to_produce-df.Sales
-df['Profitability_p']=df.Profitability/df.Number_Bikes
-print(df.columns)
-print(df.head(3))
-
-"""Aggregate profitability per bike brand"""
-Profitability_group=df.groupby(['Season','Item'])[['Profitability']]
-print(Profitability_group.mean())
-
-Profitability_p=df.groupby(['Season','Item'])[['Profitability_p']]
-print(Profitability_p.mean())
-
-df.groupby('Item')['Profitability'].sum().plot(kind='bar')
-plt.ylabel('Profitability')
-plt.title('2019-2020 comparison')
-plt.show()
-
-
-ab=df
-df = px.data.tips()
-fig = px.density_heatmap(ab, x="Item", y="A", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='Situation A distribution occross items')
-plotly.offline.plot(fig, filename='bike')
 
 
 

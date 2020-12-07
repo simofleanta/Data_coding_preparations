@@ -20,7 +20,7 @@ import plotly.express as px
 c=pd.read_csv('bike_business_plan.csv')
 print(c.columns)
 df=DataFrame(c.head(500))
-#print(df.head(500))
+print(df.head(500))
 
 year_2019=df[df.Year==2019]
 year_2020=df[df.Year==2020]
