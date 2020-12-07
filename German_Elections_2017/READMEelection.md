@@ -1,6 +1,7 @@
 Data from kaggle.com
 My notebook contains the blue charts over German Elections in 2017
-the rest of charts are just juggling with colors and data
+This notebook is an exercise in identifying patterns in elections using plotly charts. 
+
 
 
 
