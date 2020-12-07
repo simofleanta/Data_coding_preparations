@@ -49,8 +49,6 @@ fig = px.scatter(cdu, x="state", y="votes_second_vote", color="votes_second_vote
 
 plotly.offline.plot(fig, filename='votes_S')
 
-fig.show()
-
 
 fig = px.scatter(B, x="party", y="votes_second_vote", color="votes_second_vote",
                  size='votes_first_vote', hover_data=['votes_first_vote'],
@@ -58,15 +56,11 @@ fig = px.scatter(B, x="party", y="votes_second_vote", color="votes_second_vote",
 
 plotly.offline.plot(fig, filename='votes_S')
 
-fig.show()
-
 
 fig = px.scatter(df, x="party", y="votes_second_vote", color="votes_second_vote",
                  size='votes_second_vote', hover_data=['votes_second_vote'])
 
 plotly.offline.plot(fig, filename='votes_S')
-
-fig.show()
 
 #elections overall g
 
@@ -76,6 +70,8 @@ df=DataFrame(de)
 
 print(df.head(3))
 print(df.columns)
+
+#Heatmaps
 
 area=df['area_names']
 state=df['state']
@@ -99,9 +95,6 @@ fig.update_layout(
 
 plotly.offline.plot(fig, filename='votes_overall')
 
-fig.show()
-
-
 #invalid second
 fig = go.Figure(data=go.Heatmap(                   
                    x=state,
@@ -115,8 +108,6 @@ fig.update_layout(
 
 
 plotly.offline.plot(fig, filename='votes_overall')
-
-fig.show()
 
 #invalid first
 
@@ -134,7 +125,6 @@ fig.update_layout(
 plotly.offline.plot(fig, filename='votes_overall')
 
 
-
 fig = go.Figure(data=go.Scatter(
     x=party,
     y=['votes_second_vote'],
@@ -144,7 +134,6 @@ fig = go.Figure(data=go.Scatter(
 ))
 plotly.offline.plot(fig, filename='votes_overall')
 
-fig.show()
 
 
 

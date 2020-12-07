@@ -29,16 +29,13 @@ vc=df['party'].value_counts()
 #df.head()
 
 
-#grouping stuff
+#Groupings 
+mean_party=df.groupby('party')['votes_second_vote'].mean()
+print(mean_party)
 
-#grouping by stuff
+first_vote_sort=df.groupby(['party'])['votes_first_vote'].sum().sort_values(ascending =False)[:5]
 
-e=df.groupby('party')['votes_second_vote'].mean()
-print(e)
-
-d=df.groupby(['party'])['votes_first_vote'].sum().sort_values(ascending =False)[:5]
-
-#reference columns for treemaps
+#reference columns for heatmaps
 area_id=df['area_id']
 area_name=df['area_name']
 votes_first_vote=df['votes_first_vote']
@@ -46,7 +43,6 @@ state=df['state']
 party=df['party']
 votes_second_vote=df['votes_second_vote']
 
-#barcharts
 
 fig = go.Figure(data=go.Heatmap(
                    z=votes_second_vote,
@@ -93,7 +89,6 @@ fig.update_layout(
 
 #extract party and chart
 
-
 CDU=df[df.party=='Christlich.Demokratische.Union.Deutschlands']
 print(CDU)
 
@@ -110,8 +105,6 @@ fig = px.scatter(CDU, x="state", y="votes_second_vote", color="votes_second_vote
                  title='CDU accross DE')
 
 #plotly.offline.plot(fig, filename='votes')
-
-
 
 
 #bar charts
@@ -154,8 +147,7 @@ fig3 = px.bar(AFD, x="state", y=["state","votes_second_vote"],barmode='group', c
 fig4 = px.bar(CDU, x="state", y=["state","votes_second_vote"],barmode='group', color='state',title="CDU grouped")
 #plotly.offline.plot(fig4, filename='bike')
 
-#------------------------------------------------------------------------------------------------
-print(valid.columns)
+
 
 valid_first_votes=valid['valid_first_votes']
 valid_second_votes=valid['valid_second_votes']
@@ -197,9 +189,7 @@ fig = px.scatter(valid, x="state", y="total_votes", color="total_votes",
 sns.violinplot(x=valid["state"], y=valid["total_votes"], palette="Blues")
 plt.show()
 
-
-
-import plotly.express as px
+#2d histogram
 df = px.data.tips()
 fig = px.density_heatmap(valid, x="state", y="total_votes", nbinsx=20, nbinsy=20, color_continuous_scale="YlOrRd",title='2d histograms on total votes in diff states')
 #plotly.offline.plot(fig, filename='bikes on a day')
