@@ -6,16 +6,14 @@ This project will offer a business insights analysis
 # Insights we're interested in:
 
 Exploratory Data Analysis
--groupings
--sorting
--aggregation-mean, max, sum values
--pivotations
--visuals with seaborn
--visuals with plotly 
--ROI
--A/B approach
 -profitability
--sales
+-A/B approach
+-Bike benchmark
+-Distributions
+-pivotationsh
+-ROI
+-Bike of year
+-visuals/seaborn/plotly  
 
 # Profitability 
 
