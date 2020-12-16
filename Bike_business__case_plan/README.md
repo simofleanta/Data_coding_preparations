@@ -124,6 +124,7 @@ Figure showing Treck bile profitability trend
 <img width="938" alt="profit weather trend" src="https://user-images.githubusercontent.com/47668423/102389010-d8540880-3fd2-11eb-982b-f28f4f306391.png">
 
 
+
 # Conclusions & suggestions 
 
 Given a pandemic situation, echo transport such as bikes has considerably increased. Thus bike business becomes more profitable in 2020 than 2019 inspite a firm lockdown in Spring. This explains the growth of bike transport in takeaway services. 

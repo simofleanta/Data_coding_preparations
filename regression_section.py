@@ -50,7 +50,7 @@ fig = px.scatter(reg, x="Cost_to_produce", y="Profitability",color_continuous_sc
 #plotly.offline.plot(fig, filename='r')
 
 fig = px.scatter(reg, x="Profitability", y="Sales", color="weather_forecast", opacity=0.5,trendline="lowess")
-plotly.offline.plot(fig, filename='r')
+#plotly.offline.plot(fig, filename='r')
 
 
 #Treck profitability trend
@@ -59,8 +59,9 @@ fig = px.scatter(Treck, x="Item_cost_month", y="Sales", color_continuous_scale="
 #plotly.offline.plot(fig, filename='r')
 
 
-
-
+df = px.data.gapminder().query("year == 2020")
+fig = px.scatter(reg, x="roi", y="Cost_to_produce", color="Item", trendline="lowess")
+plotly.offline.plot(fig, filename='r')
 
 
 
