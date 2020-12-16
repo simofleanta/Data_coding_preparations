@@ -28,8 +28,32 @@ bike_costs=Item_cost_month=df['Item_cost_month']
 loss=Loss_item=df['Loss_item']
 net_profit=bike_costs*12-loss
 
+#subset
 df['roi']=net_profit/investment*100
 print(df.tail(5))
+
+#profitability 
+df['Cost_to_produce']=2000*df.Number_Bikes
+df['Profitability']=df.Cost_to_produce-df.Sales
+df['Profitability_p']=df.Profitability/df.Number_Bikes
+print(df.columns)
+print(df.head(3))
+
+reg=df
+
+df = px.data.tips()
+fig = px.scatter(reg, x="roi", y="Profitability", trendline="ols")
+#plotly.offline.plot(fig, filename='r')
+
+df = px.data.tips()
+fig = px.scatter(reg, x="Cost_to_produce", y="Profitability", trendline="ols")
+plotly.offline.plot(fig, filename='r')
+
+
+#fig = px.scatter(df, x="gdpPercap", y="lifeExp", color="continent", trendline="lowess")
+#fig.show()
+
+
 
 
 

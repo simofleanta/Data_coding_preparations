@@ -110,6 +110,13 @@ This project will offer a business insights analysis
 
 ROI_Orbea=35.1
 
+# Trends
+
+<img width="943" alt="bike roi profi reg" src="https://user-images.githubusercontent.com/47668423/102386105-f28be780-3fce-11eb-8117-76d6bf61c44a.png">
+
+<img width="929" alt="cost regr" src="https://user-images.githubusercontent.com/47668423/102386399-4e567080-3fcf-11eb-9423-62a61f56de74.png">
+
+
 
 # Conclusions & suggestions 
 
