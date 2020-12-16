@@ -90,7 +90,7 @@ plotly.offline.plot(fig, filename='bike')
 import plotly.express as px
 df = px.data.tips()
 fig = px.density_heatmap(y20, x="Day", y="Sales", nbinsx=20, nbinsy=20, color_continuous_scale="Blues",title='sales distribution on all days in 2020')
-plotly.offline.plot(fig, filename='bike')
+
 
 Month=y20['Month']
 Sales=y20['Sales']
@@ -106,6 +106,8 @@ fig = go.Figure(data=go.Heatmap(
 fig.update_layout(
     title='Bikes items by season sales 2020',
     xaxis_nticks=36)
+
+
 
 
 Month=y19['Month']
@@ -125,7 +127,7 @@ fig.update_layout(
     xaxis_nticks=36)
 
 
-plotly.offline.plot(fig, filename='bike')
+
 
 
 
