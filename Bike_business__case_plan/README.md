@@ -14,6 +14,6 @@ pdf on conclusions plus recomms/charts.
 
 # Profitability 
 
-![bike per month](https://user-images.githubusercontent.com/47668423/102360068-daf23600-3fb1-11eb-8646-51c84825e012.png)
 
-![item profitability](https://user-images.githubusercontent.com/47668423/102360107-e5accb00-3fb1-11eb-9b68-1b18e42bddae.png)
+![profi](https://user-images.githubusercontent.com/47668423/102361724-d62e8180-3fb3-11eb-93d8-ad3ac097df5c.png)
+
