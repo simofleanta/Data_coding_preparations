@@ -101,6 +101,12 @@ Exploratory Data Analysis
 
 <img width="954" alt="Treck sales" src="https://user-images.githubusercontent.com/47668423/102367900-90c18280-3fba-11eb-8f86-0b0bff9704e9.png">
 
+# pivotations 
+
+<img width="197" alt="sale pivot" src="https://user-images.githubusercontent.com/47668423/102380871-c40b0e00-3fc8-11eb-8fb0-3ca9236f36de.png">
+
+<img width="801" alt="pivots" src="https://user-images.githubusercontent.com/47668423/102381197-38de4800-3fc9-11eb-814c-2942ea7979b1.png">
+
 # ROI
 
 <img width="232" alt="ROI snip" src="https://user-images.githubusercontent.com/47668423/102379578-48f52800-3fc7-11eb-8b83-932f26ccc838.png">
