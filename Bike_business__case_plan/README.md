@@ -18,3 +18,11 @@ pdf on conclusions plus recomms/charts.
 ![profi](https://user-images.githubusercontent.com/47668423/102361724-d62e8180-3fb3-11eb-93d8-ad3ac097df5c.png)
 
 ![profi 2](https://user-images.githubusercontent.com/47668423/102362016-2efe1a00-3fb4-11eb-996e-c81b22124bfd.png)
+
+# Bike benchmark 
+
+![Bike benchmark](https://user-images.githubusercontent.com/47668423/102362484-bc416e80-3fb4-11eb-8473-b55b89c15281.png)
+
+
+
+
