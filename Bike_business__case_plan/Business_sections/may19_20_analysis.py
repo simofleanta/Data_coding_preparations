@@ -32,6 +32,10 @@ stacked_ms=M.append(M1)
 Months_stack=stacked_ms[4:20][['Year','Item','Month','Sales']]
 print(Months_stack)
 
+print(Months_stack.to_markdown())
+
+
+
 
 Months_stack.groupby(['Year','Item'])['Sales'].sum().plot(kind='bar')
 plt.ylabel('Sales')

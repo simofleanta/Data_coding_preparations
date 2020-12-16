@@ -73,3 +73,6 @@ day2=y[y.Day==2]
 pivotday2_2020=y.pivot_table(index='Item',columns=['Month','Item'], aggfunc={'Sales':'max'}).fillna(0)
 pivotday2_2020['Max']=pivotday2_2020.idxmax(axis=1)
 print(pivotday2_2020)
+
+
+
