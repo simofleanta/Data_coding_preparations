@@ -52,3 +52,20 @@ pdf on conclusions plus recomms/charts.
 | 2020 | Specialized | May     |  584676 |
 
 
+# Item season
+
+<img width="946" alt="item season" src="https://user-images.githubusercontent.com/47668423/102366402-e7c65800-3fb8-11eb-82b1-c1084e714fb4.png">
+
+# 2d Sales distributionper day
+
+<img width="952" alt="dist per day" src="https://user-images.githubusercontent.com/47668423/102366742-48ee2b80-3fb9-11eb-9d70-fdb9a17d6d6d.png">
+
+# Average sales of items
+
+<img width="949" alt="Average sales item" src="https://user-images.githubusercontent.com/47668423/102367200-c74acd80-3fb9-11eb-9d03-abdb5a11517a.png">
+
+
+
+
+
+
