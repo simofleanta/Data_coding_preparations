@@ -46,12 +46,17 @@ fig = px.scatter(reg, x="roi", y="Profitability", trendline="ols")
 #plotly.offline.plot(fig, filename='r')
 
 df = px.data.tips()
-fig = px.scatter(reg, x="Cost_to_produce", y="Profitability", trendline="ols")
+fig = px.scatter(reg, x="Cost_to_produce", y="Profitability",color_continuous_scale='Viridis',trendline="ols")
+#plotly.offline.plot(fig, filename='r')
+
+fig = px.scatter(reg, x="Profitability", y="Sales", color="weather_forecast", opacity=0.5,trendline="lowess")
 plotly.offline.plot(fig, filename='r')
 
 
-#fig = px.scatter(df, x="gdpPercap", y="lifeExp", color="continent", trendline="lowess")
-#fig.show()
+#Treck profitability trend
+Treck=reg[reg.Item=='Treck']
+fig = px.scatter(Treck, x="Item_cost_month", y="Sales", color_continuous_scale="Item", opacity=0.5,trendline="lowess")
+#plotly.offline.plot(fig, filename='r')
 
 
 

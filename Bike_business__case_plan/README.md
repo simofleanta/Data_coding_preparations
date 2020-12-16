@@ -116,6 +116,10 @@ ROI_Orbea=35.1
 
 <img width="929" alt="cost regr" src="https://user-images.githubusercontent.com/47668423/102386399-4e567080-3fcf-11eb-9423-62a61f56de74.png">
 
+<img width="909" alt="Treck prof trend" src="https://user-images.githubusercontent.com/47668423/102388120-9bd3dd00-3fd1-11eb-98f7-51af257723ec.png">
+Figure showing Treck bile profitability trend
+
+<img width="938" alt="profit weather trend" src="https://user-images.githubusercontent.com/47668423/102389010-d8540880-3fd2-11eb-982b-f28f4f306391.png">
 
 
 # Conclusions & suggestions 
