@@ -5,7 +5,6 @@ This project will offer a business insights analysis
 
 # Insights we're interested in:
 
-Exploratory Data Analysis
 -profitability
 -A/B approach
 -Bike benchmark
