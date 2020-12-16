@@ -64,6 +64,16 @@ pdf on conclusions plus recomms/charts.
 
 <img width="949" alt="Average sales item" src="https://user-images.githubusercontent.com/47668423/102367200-c74acd80-3fb9-11eb-9d03-abdb5a11517a.png">
 
+# Amsterdam bike average sales per month in 2020
+
+<img width="953" alt="Amsterdam bike sales per month in 2020" src="https://user-images.githubusercontent.com/47668423/102367617-42ac7f00-3fba-11eb-89f7-2c6e1fb4ebfb.png">
+
+# Treck avg sales in month
+
+<img width="954" alt="Treck sales" src="https://user-images.githubusercontent.com/47668423/102367900-90c18280-3fba-11eb-8f86-0b0bff9704e9.png">
+
+
+
 
 
 

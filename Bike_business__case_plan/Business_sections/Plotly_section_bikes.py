@@ -77,7 +77,7 @@ days=pd.DataFrame(data=bike_d)
 bike_Year=days.sort_values(by='Sales',ascending=False,axis=0)
 
 fig = px.bar(bike_Year, x="Sales", y=bike_Year.index, color='Sales',color_continuous_scale='Blues',title="Average  Amsterdam sales per month in 2020")
-plotly.offline.plot(fig, filename='bike')
+
 
 #avg bikes 
 bike_d=df.groupby(['Item'])['Sales'].mean()
@@ -85,7 +85,7 @@ days=pd.DataFrame(data=bike_d)
 bike_Item=days.sort_values(by='Sales',ascending=False,axis=0)
 
 fig = px.bar(bike_Item, x="Sales", y=bike_Item.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
-plotly.offline.plot(fig, filename='bike')
+
 
 import plotly.express as px
 df = px.data.tips()
