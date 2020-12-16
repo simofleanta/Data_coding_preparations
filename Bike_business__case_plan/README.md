@@ -32,27 +32,43 @@ Exploratory Data Analysis
 # a/b approach 
 
 <img width="936" alt="Prof 3" src="https://user-images.githubusercontent.com/47668423/99905590-072bd700-2cd2-11eb-9ae0-422ded7f856a.png">
+
 <img width="946" alt="prof 4" src="https://user-images.githubusercontent.com/47668423/99905671-92a56800-2cd2-11eb-8b03-5fc2bc561ad6.png">
-
-Clients more likely to buy Track and least likely Orbea
-
 
 
 # Bike benchmark 
 
 ![Bike benchmark](https://user-images.githubusercontent.com/47668423/102362484-bc416e80-3fb4-11eb-8473-b55b89c15281.png)
 
-# Distribution of bike sale during season and day
-
-<img width="934" alt="dist season" src="https://user-images.githubusercontent.com/47668423/102363567-d3349080-3fb5-11eb-82d7-94b6dc0ab3ee.png">
-
-# Bike of year 2019 and year 2020
+# What is Bike of year 2019 and year 2020?
 
 ![bike of year](https://user-images.githubusercontent.com/47668423/102364327-987f2800-3fb6-11eb-851c-46084fe796b0.png)
 
+# Items comparison in years 2019-2020
+
+<img width="953" alt="Items comparison in years 2019-2020" src="https://user-images.githubusercontent.com/47668423/102368526-3bd23c00-3fbb-11eb-82d6-52ca0089b0b7.png">
 
 
-# May month situation  
+
+<img width="946" alt="item season" src="https://user-images.githubusercontent.com/47668423/102366402-e7c65800-3fb8-11eb-82b1-c1084e714fb4.png">
+
+
+
+  Year | Item   |   Profitability |   Sales |
+|:-----|:-------|:--------------  |:--------|
+| 2020 | Orbea  |          401799 |     201 |
+| 2020 | Orbea  |          403798 |     202 |
+| 2020 | Orbea  |          499750 |     250 |
+| 2020 | Orbea  |          641679 |     321 |
+| 2020 | Orbea  |          403798 |     202 |
+
+# Distributions
+
+<img width="934" alt="dist season" src="https://user-images.githubusercontent.com/47668423/102363567-d3349080-3fb5-11eb-82d7-94b6dc0ab3ee.png">
+
+
+<img width="952" alt="dist per day" src="https://user-images.githubusercontent.com/47668423/102366742-48ee2b80-3fb9-11eb-9d70-fdb9a17d6d6d.png">
+
 
   Year | Item        | Month   |   Sales |
 |:---- |:------------|:--------|:--------|
@@ -74,42 +90,17 @@ Clients more likely to buy Track and least likely Orbea
 | 2020 | Specialized | May     |  584676 |
 
 
-# Item season
-
-<img width="946" alt="item season" src="https://user-images.githubusercontent.com/47668423/102366402-e7c65800-3fb8-11eb-82b1-c1084e714fb4.png">
-
-
-  Year | Item   |   Profitability |   Sales |
-|:-----|:-------|:--------------  |:--------|
-| 2020 | Orbea  |          401799 |     201 |
-| 2020 | Orbea  |          403798 |     202 |
-| 2020 | Orbea  |          499750 |     250 |
-| 2020 | Orbea  |          641679 |     321 |
-| 2020 | Orbea  |          403798 |     202 |
-
-# 2d Sales distributionper day
-
-<img width="952" alt="dist per day" src="https://user-images.githubusercontent.com/47668423/102366742-48ee2b80-3fb9-11eb-9d70-fdb9a17d6d6d.png">
-
-# Average sales of items
+# Sales analysis
 
 <img width="949" alt="Average sales item" src="https://user-images.githubusercontent.com/47668423/102367200-c74acd80-3fb9-11eb-9d03-abdb5a11517a.png">
 
-# Amsterdam bike average sales per month in 2020
-
 <img width="953" alt="Amsterdam bike sales per month in 2020" src="https://user-images.githubusercontent.com/47668423/102367617-42ac7f00-3fba-11eb-89f7-2c6e1fb4ebfb.png">
-
-# Treck avg sales in month
 
 <img width="954" alt="Treck sales" src="https://user-images.githubusercontent.com/47668423/102367900-90c18280-3fba-11eb-8f86-0b0bff9704e9.png">
 
-# Items comparison in years 2019-2020
-
-<img width="953" alt="Items comparison in years 2019-2020" src="https://user-images.githubusercontent.com/47668423/102368526-3bd23c00-3fbb-11eb-82d6-52ca0089b0b7.png">
-
 
 # Conclusions & suggestions 
- 
+
 Given a pandemic situation, echo transport such as bikes has considerably increased. Thus bike business becomes more profitable in 2020 than 2019 inspite a firm lockdown in Spring. This explains the growth of bike transport in takeaway services. 
 Treck followed by Raleigh bike brands.
 
