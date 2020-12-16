@@ -29,6 +29,9 @@ Exploratory Data Analysis
 
 ![profi 2](https://user-images.githubusercontent.com/47668423/102362016-2efe1a00-3fb4-11eb-996e-c81b22124bfd.png)
 
+<img width="183" alt="Profi 1000" src="https://user-images.githubusercontent.com/47668423/102380305-0da72900-3fc8-11eb-8d17-046f45af9e7b.png">
+
+
 # A/B approach 
 
 <img width="936" alt="Prof 3" src="https://user-images.githubusercontent.com/47668423/99905590-072bd700-2cd2-11eb-9ae0-422ded7f856a.png">
