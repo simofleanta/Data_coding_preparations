@@ -32,6 +32,9 @@ pdf on conclusions plus recomms/charts.
 ![bike of year](https://user-images.githubusercontent.com/47668423/102364327-987f2800-3fb6-11eb-851c-46084fe796b0.png)
 
 
+
+# May month situation  
+
   Year | Item        | Month   |   Sales |
 |:---- |:------------|:--------|:--------|
 | 2019 | Treck       | May     | 1632384 |
@@ -56,6 +59,88 @@ pdf on conclusions plus recomms/charts.
 
 <img width="946" alt="item season" src="https://user-images.githubusercontent.com/47668423/102366402-e7c65800-3fb8-11eb-82b1-c1084e714fb4.png">
 
+
+        Year   | Item      |   Profitability |   Sales |
+|----:|:-------|:----------|:--------------  |-------- |
+| 269 |   2020 | Orbea     |          401799 |     201 |
+| 270 |   2020 | Orbea     |          403798 |     202 |
+| 271 |   2020 | Orbea     |          499750 |     250 |
+| 272 |   2020 | Orbea     |          641679 |     321 |
+| 273 |   2020 | Orbea     |          403798 |     202 |
+| 274 |   2020 | Orbea     |          475762 |     238 |
+| 275 |   2020 | Orbea     |          323838 |     162 |
+| 276 |   2020 | Orbea     |          407796 |     204 |
+| 277 |   2020 | Orbea     |          443778 |     222 |
+| 278 |   2020 | Orbea     |          487756 |     244 |
+| 279 |   2020 | Orbea     |          695652 |     348 |
+| 280 |   2020 | Orbea     |          243878 |     122 |
+| 281 |   2020 | Amsterdam |           13993 |       7 |
+| 282 |   2020 | Amsterdam |            5997 |       3 |
+| 283 |   2020 | Amsterdam |          515742 |     258 |
+| 284 |   2020 | Amsterdam |          233883 |     117 |
+| 285 |   2020 | Amsterdam |          297851 |     149 |
+| 286 |   2020 | Amsterdam |          421789 |     211 |
+| 287 |   2020 | Amsterdam |           11994 |       6 |
+| 288 |   2020 | Amsterdam |          187906 |      94 |
+| 289 |   2020 | Amsterdam |          553723 |     277 |
+| 290 |   2020 | Amsterdam |          485757 |     243 |
+| 291 |   2020 | Amsterdam |          269865 |     135 |
+| 292 |   2020 | Amsterdam |          395802 |     198 |
+| 293 |   2020 | Amsterdam |          527736 |     264 |
+| 294 |   2020 | Amsterdam |            3998 |       2 |
+| 295 |   2020 | Amsterdam |            7996 |       4 |
+| 296 |   2020 | Amsterdam |           61969 |      31 |
+| 297 |   2020 | Amsterdam |           61969 |      31 |
+| 298 |   2020 | Amsterdam |           29985 |      15 |
+| 299 |   2020 | Amsterdam |           15992 |       8 |
+| 300 |   2020 | Amsterdam |          385807 |     193 |
+| 301 |   2020 | Amsterdam |           47976 |      24 |
+| 302 |   2020 | Amsterdam |           83958 |      42 |
+| 303 |   2020 | Amsterdam |           25987 |      13 |
+| 304 |   2020 | Amsterdam |          357821 |     179 |
+| 305 |   2020 | Amsterdam |          339830 |     170 |
+| 306 |   2020 | Amsterdam |          315842 |     158 |
+| 307 |   2020 | Amsterdam |          393803 |     197 |
+| 308 |   2020 | Amsterdam |          119940 |      60 |
+| 309 |   2020 | Amsterdam |           93953 |      47 |
+| 310 |   2020 | Amsterdam |          341829 |     171 |
+| 311 |   2020 | Amsterdam |          343828 |     172 |
+| 312 |   2020 | Amsterdam |          305847 |     153 |
+| 313 |   2020 | Amsterdam |          205897 |     103 |
+| 314 |   2020 | Amsterdam |          379810 |     190 |
+| 315 |   2020 | Amsterdam |          135932 |      68 |
+| 316 |   2020 | Amsterdam |           97951 |      49 |
+| 317 |   2020 | Amsterdam |          461769 |     231 |
+| 318 |   2020 | Amsterdam |          383808 |     192 |
+| 319 |   2020 | Amsterdam |          161919 |      81 |
+| 320 |   2020 | Amsterdam |          153923 |      77 |
+| 321 |   2020 | Amsterdam |          257871 |     129 |
+| 322 |   2020 | Amsterdam |          693653 |     347 |
+| 323 |   2020 | Amsterdam |          619690 |     310 |
+| 324 |   2020 | Amsterdam |          237881 |     119 |
+| 325 |   2020 | Amsterdam |           61969 |      31 |
+| 326 |   2020 | Amsterdam |          115942 |      58 |
+| 327 |   2020 | Amsterdam |          445777 |     223 |
+| 328 |   2020 | Amsterdam |           73963 |      37 |
+| 329 |   2020 | Amsterdam |          131934 |      66 |
+| 330 |   2020 | Amsterdam |          633683 |     317 |
+| 331 |   2020 | Cube      |          267866 |     134 |
+| 332 |   2020 | Cube      |           95952 |      48 |
+| 333 |   2020 | Cube      |          203898 |     102 |
+| 334 |   2020 | Cube      |          199900 |     100 |
+| 335 |   2020 | Cube      |          283858 |     142 |
+| 336 |   2020 | Cube      |          549725 |     275 |
+| 337 |   2020 | Cube      |          483758 |     242 |
+| 338 |   2020 | Cube      |          253873 |     127 |
+| 339 |   2020 | Cube      |          133933 |      67 |
+| 340 |   2020 | Cube      |           41979 |      21 |
+| 341 |   2020 | Cube      |          167916 |      84 |
+| 342 |   2020 | Cube      |          281859 |     141 |
+| 343 |   2020 | Cube      |          411794 |     206 |
+| 344 |   2020 | Cube      |          345827 |     173 |
+
+
+
 # 2d Sales distributionper day
 
 <img width="952" alt="dist per day" src="https://user-images.githubusercontent.com/47668423/102366742-48ee2b80-3fb9-11eb-9d70-fdb9a17d6d6d.png">
@@ -71,6 +156,10 @@ pdf on conclusions plus recomms/charts.
 # Treck avg sales in month
 
 <img width="954" alt="Treck sales" src="https://user-images.githubusercontent.com/47668423/102367900-90c18280-3fba-11eb-8f86-0b0bff9704e9.png">
+
+# Items comparison in years 2019-2020
+
+<img width="953" alt="Items comparison in years 2019-2020" src="https://user-images.githubusercontent.com/47668423/102368526-3bd23c00-3fbb-11eb-82d6-52ca0089b0b7.png">
 
 
 

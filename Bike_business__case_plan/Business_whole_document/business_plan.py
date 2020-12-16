@@ -377,14 +377,10 @@ print(w_2019.mean())
 combined_col=year_2019[4:8][['Year','Item','Sales','weather_forecast']]
 print(combined_col)
 
-#-------------------------Where did the money go most in my last 2 years
-#receiving data for costs 
-
-
 
 #Should I reopen the business given the actual economic context?
 
-#--------------------------Economic cotext
+"""#--------------------------Economic cotext
 
 economic=pd.read_csv('unemployment.csv')
 print(economic.columns)
@@ -455,7 +451,7 @@ plotly.offline.plot(fig, filename='eco')
 Inflation_Unemployed_Table.groupby('Months')['Number_unemployd'].sum().plot(kind='bar')
 plt.ylabel('Number_unemployd')
 plt.title('Months comparison on number of unemployed')
-plt.show()
+plt.show()"""
 
 #-----------------------------------PROFITABILITY--------------------------------
 
@@ -502,6 +498,7 @@ p_stack=autumn.append(Month_sep)
 profitab_s=p_stack[4:80][['Year','Item','Profitability','Sales']]
 print(profitab_s.tail (5))
 
+print(profitab_s.to_markdown())
 #------------------------------------------------------
 
 

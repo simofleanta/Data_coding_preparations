@@ -26,13 +26,12 @@ print(economic.columns)
 df_inflation=DataFrame(economic.head(10))
 print(df_inflation.head(10))
 
-
 #merged the two datasets 
 inflation_unemployment=pd.merge(df_inflation,df_economic)
 print(inflation_unemployment)
 
 #save thid df as csv file for further processing 
-save_to_csv=inflation_unemployment.to_csv
+save_to_csv=inflation_unemployment.to_csv("unemp")
 #-------------------------------------------------------
 
 #getting rid of mess in my table
