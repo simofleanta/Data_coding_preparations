@@ -60,24 +60,14 @@ pdf on conclusions plus recomms/charts.
 <img width="946" alt="item season" src="https://user-images.githubusercontent.com/47668423/102366402-e7c65800-3fb8-11eb-82b1-c1084e714fb4.png">
 
 
-        Year   | Item      |   Profitability |   Sales |
-|:----|:-------|:----------|:--------------  |:--------|
-| 269 |   2020 | Orbea     |          401799 |     201 |
-| 270 |   2020 | Orbea     |          403798 |     202 |
-| 271 |   2020 | Orbea     |          499750 |     250 |
-| 272 |   2020 | Orbea     |          641679 |     321 |
-| 273 |   2020 | Orbea     |          403798 |     202 |
-| 274 |   2020 | Orbea     |          475762 |     238 |
-| 275 |   2020 | Orbea     |          323838 |     162 |
-| 276 |   2020 | Orbea     |          407796 |     204 |
-| 277 |   2020 | Orbea     |          443778 |     222 |
-| 278 |   2020 | Orbea     |          487756 |     244 |
-| 279 |   2020 | Orbea     |          695652 |     348 |
-| 280 |   2020 | Orbea     |          243878 |     122 |
-| 281 |   2020 | Amsterdam |           13993 |       7 |
-| 282 |   2020 | Amsterdam |            5997 |       3 |
-| 283 |   2020 | Amsterdam |          515742 |     258 |
-| 284 |   2020 | Amsterdam |          233883 |     117 |
+  Year | Item   |   Profitability |   Sales |
+|:-----|:-------|:--------------  |:--------|
+| 2020 | Orbea  |          401799 |     201 |
+| 2020 | Orbea  |          403798 |     202 |
+| 2020 | Orbea  |          499750 |     250 |
+| 2020 | Orbea  |          641679 |     321 |
+| 2020 | Orbea  |          403798 |     202 |
+
 
 
 # 2d Sales distributionper day
