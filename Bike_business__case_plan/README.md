@@ -29,7 +29,7 @@ Exploratory Data Analysis
 
 ![profi 2](https://user-images.githubusercontent.com/47668423/102362016-2efe1a00-3fb4-11eb-996e-c81b22124bfd.png)
 
-# a/b approach 
+# A/B approach 
 
 <img width="936" alt="Prof 3" src="https://user-images.githubusercontent.com/47668423/99905590-072bd700-2cd2-11eb-9ae0-422ded7f856a.png">
 
@@ -97,6 +97,9 @@ Exploratory Data Analysis
 <img width="953" alt="Amsterdam bike sales per month in 2020" src="https://user-images.githubusercontent.com/47668423/102367617-42ac7f00-3fba-11eb-89f7-2c6e1fb4ebfb.png">
 
 <img width="954" alt="Treck sales" src="https://user-images.githubusercontent.com/47668423/102367900-90c18280-3fba-11eb-8f86-0b0bff9704e9.png">
+
+# ROI
+
 
 
 # Conclusions & suggestions 
