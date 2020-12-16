@@ -108,7 +108,15 @@ Clients more likely to buy Track and least likely Orbea
 <img width="953" alt="Items comparison in years 2019-2020" src="https://user-images.githubusercontent.com/47668423/102368526-3bd23c00-3fbb-11eb-82d6-52ca0089b0b7.png">
 
 
+# Conclusions & suggestions 
+ 
+Given a pandemic situation, echo transport such as bikes has considerably increased. Thus bike business becomes more profitable in 2020 than 2019 inspite a firm lockdown in Spring. This explains the growth of bike transport in takeaway services. 
+Treck followed by Raleigh bike brands.
 
+Create a bike brand that balances the robustness of a mountain bike and the finness of a semicoursiera style of a Raleigh style bike. 
+This may increase resilience of such bike on most surfaces, for most type of uses and perhaps weather conditions. 
+ 
+Priduce own brand and internationalize business. 
 
 
 
