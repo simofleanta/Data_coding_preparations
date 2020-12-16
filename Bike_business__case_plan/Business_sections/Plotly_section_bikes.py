@@ -43,7 +43,7 @@ fig1 = px.bar(df, x="Item", y=["Sales","Year"],barmode='group', color='Year',col
 plotly.offline.plot(fig1, filename='bike')
 
 fig = px.bar(df, x="Item", y=["Sales","Year"],barmode='stack', color='Year',color_continuous_scale='Blues',title="Bike stacked per years")
-plotly.offline.plot(fig, filename='bike')
+
 
 #avg sales/mth
 
@@ -53,7 +53,7 @@ bike_Month=days.sort_values(by='Sales',ascending=False,axis=0)
 print(bike_Month)
 
 fig = px.bar(bike_Month, x="Sales", y=bike_Month.index, color='Sales',color_continuous_scale='Blues',title="Average sales per month")
-plotly.offline.plot(fig, filename='bike')
+
 
 #avg sales month for a certain bike item in a year
 
@@ -65,7 +65,7 @@ days=pd.DataFrame(data=bike_d)
 bike_Year=days.sort_values(by='Sales',ascending=False,axis=0)
 
 fig = px.bar(bike_Year, x="Sales", y=bike_Year.index, color='Sales',color_continuous_scale='Blues',title="Average  Treck sales per month in 2019")
-plotly.offline.plot(fig, filename='bike')
+
 
 #avg per month for year 2020 Treck
 
@@ -126,10 +126,7 @@ fig.update_layout(
     title='Bikes items by month sales 2019',
     xaxis_nticks=36)
 
-
-
-
-
+plotly.offline.plot(fig, filename='bike')
 
 
 
