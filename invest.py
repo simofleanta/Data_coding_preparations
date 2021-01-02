@@ -19,11 +19,11 @@ import plotly.express as px
 
 investing=pd.read_csv('funding.csv')
 print(investing.columns)
-df=DataFrame(investing.head(5))
-#print(df.head(5))
+df=DataFrame(investing.head(200))
+print(df.head(200))
 
 df_invest=df[['created_at','funded_at','raised_amount','is_first_round','is_last_round','funding_round_type']]
-print(df_invest.head(4))
+print(df_invest.head(200))
 
 df_invest['created_at']=pd.to_datetime(df_invest['created_at'], infer_datetime_format=True)
 indexeddf=df_invest.set_index(['created_at'])
@@ -46,7 +46,7 @@ print(Year)
 df_invest['Year']=df_invest['created_at'].dt.year
 df_invest['Month']=df_invest['created_at'].dt.month_name()
 df_invest['Day']=df_invest['created_at'].dt.day_name()
-print(df_invest.head(4))
+print(df_invest.head(200))
 
 #the earliest time for funding 
 earliest_time=df_invest['created_at'].min()
@@ -92,7 +92,6 @@ Year=df_invested['funded_at'].dt.year
 print(Year)
 
 #subsetting again with the needed columns 
-
 df_invested['Year']=df_invested['funded_at'].dt.year
 df_invested['Month']=df_invested['funded_at'].dt.month_name()
 df_invested['Day']=df_invested['funded_at'].dt.day_name()
