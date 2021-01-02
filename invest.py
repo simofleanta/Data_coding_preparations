@@ -29,6 +29,20 @@ df_invest['created_at']=pd.to_datetime(df_invest['created_at'], infer_datetime_f
 indexeddf=df_invest.set_index(['created_at'])
 print(indexeddf)
 
+#parsing to time format
+
+x=df_invest['created_at']=pd.to_datetime(df_invest['created_at'], format='%y-%m-%d %I-%p')
+
+Day=df_invest['created_at'].dt.day_name()
+print(Day)
+
+Month=df_invest['created_at'].dt.month_name()
+print(Month)
+
+Year=df_invest['created_at'].dt.year
+print(Year)
+
+
 
 
 
