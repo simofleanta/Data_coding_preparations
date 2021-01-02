@@ -81,6 +81,29 @@ df = px.data.tips()
 fig = px.density_heatmap(df_invested, x="Day", y="raised_amount", nbinsx=40, nbinsy=30, color_continuous_scale="Blues",title='distribution for raised amount per day')
 #plotly.offline.plot(fig, filename='i')
 
+#barchart on post money valuation
+
+post_m=df_invested.groupby(['Month'])['post_money_valuation'].mean()
+m=pd.DataFrame(data=post_m)
+post_money=m.sort_values(by='post_money_valuation',ascending=False,axis=0)
+print(post_money)
+
+fig = px.bar(post_money, x="post_money_valuation", y=post_money.index, color='post_money_valuation',color_continuous_scale='Blues',title="Post Money Valuation in months")
+plotly.offline.plot(fig, filename='i')
+
+#barchart pot money valuation per year
+
+fig = px.bar(df_invested, x="Year", y=["raised_amount","post_money_valuation"],barmode='stack', color='post_money_valuation',color_continuous_scale='Blues',title="Post money valuation in relation to funding")
+plotly.offline.plot(fig, filename='i')
+#where there's higher funding there's better valuation, and that happens in 2007
+
+#post vauation in months
+fig = px.bar(df_invested, x="Month", y=["raised_amount","post_money_valuation"],barmode='stack', color='post_money_valuation',color_continuous_scale='Blues',title="Post money valuation in relation to funding")
+plotly.offline.plot(fig, filename='i')
+#where there's higher funding there's better valuation, and that happens at the beginning of the year
+
+
+
 
 
 
