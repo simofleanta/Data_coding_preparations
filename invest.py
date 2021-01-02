@@ -26,8 +26,6 @@ df_invest=df[['created_at','object_id','funded_at','post_money_valuation','parti
 print(df_invest.head(200))
 
 
-##############################################################################################
-
 #Datatime indexing and parsing with 'funded_at'
 
 df_invested=df_invest[['funded_at','post_money_valuation','raised_amount','participants','funding_round_type']]
@@ -125,7 +123,6 @@ plotly.offline.plot(fig, filename='i')
 #angel investment is in growth
 #no ventures
 
-
 #angel investment 
 angel=df_invested[df_invested.funding_round_type=='angel']
 print(angel)
@@ -171,7 +168,8 @@ plotly.offline.plot(fig, filename='i')
 #worth checking domain of topic and type company 
 
 
-
+fig = px.bar(angel, x="Year", y=["raised_amount"],barmode='group', color='participants',color_continuous_scale='RdBu',title="Angel funding in relation to participants")
+plotly.offline.plot(fig, filename='i')
 
 
 
