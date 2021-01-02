@@ -42,16 +42,22 @@ print(Month)
 Year=df_invest['created_at'].dt.year
 print(Year)
 
-#subsetting 
 
+#subsetting 
 df_invest['Year']=df_invest['created_at'].dt.year
 df_invest['Month']=df_invest['created_at'].dt.month_name()
 df_invest['Day']=df_invest['created_at'].dt.day_name()
 print(df_invest.head(4))
 
+#the earliest time for funding 
+earliest_time=df_invest['created_at'].min()
+print(earliest_time)
 
+#the latest date funded
+latest_time=df_invest['created_at'].max()
+print(latest_time)
 
-
-
-
+#difference between latest and earliest time funding
+diff=latest_time-earliest_time
+print(diff)
 
