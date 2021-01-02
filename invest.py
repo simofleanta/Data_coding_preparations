@@ -111,6 +111,59 @@ print(Year2007)
 fig = px.bar(Year2007, x="Month", y=["raised_amount","post_money_valuation"],barmode='stack', color='post_money_valuation',color_continuous_scale='RdBu',title="Post money valuation in relation to funding")
 plotly.offline.plot(fig, filename='i')
 
+# month performance 
+fig = px.bar(Year2007, x="funding_round_type", y=["raised_amount","post_money_valuation"],barmode='stack', color='post_money_valuation',color_continuous_scale='RdBu',title="Post money valuation in relation to funding type")
+plotly.offline.plot(fig, filename='i')
+#series c+ seems highest
+#angel investment is in growth
+
+#types of funding analysis 
+fig = px.bar(df_invested, x="funding_round_type", y=["raised_amount","post_money_valuation"],barmode='stack', color='post_money_valuation',color_continuous_scale='RdBu',title="Post money valuation in relation to funding type")
+plotly.offline.plot(fig, filename='i')
+#series c+ seems highest
+#angel investment is in growth
+#no ventures
+
+
+#angel investment 
+angel=df_invested[df_invested.funding_round_type=='angel']
+print(angel)
+
+fig = px.bar(angel, x="Year", y=["raised_amount"],barmode='group', color='participants',color_continuous_scale='RdBu',title="Angel funding in relation to participants")
+plotly.offline.plot(fig, filename='i')
+
+#where there are more participants there is more angel funding in 2005
+
+#density map for fundig type 
+df = px.data.tips()
+fig = px.density_heatmap(df_invested, x="funding_round_type", y="raised_amount", nbinsx=40, nbinsy=30, color_continuous_scale="Blues",title='distribution for raised amount per day')
+plotly.offline.plot(fig, filename='i')
+
+# some correlations
+plt.figure(figsize=(10,10))
+plt.title('Correlation between funding type and amount raised', y=1.05, size=15)
+sns.heatmap(df_invested.corr(),linewidths=0.1,vmax=1.0, square=True, 
+            cmap='Blues', linecolor='white', annot=True)
+plt.show()
+
+#Relationship between funding type and raised amount
+pairplot = sns.pairplot(df_invested, vars=['raised_amount','funding_round_type'])
+plt.show()
+
+# Conclusions 
+#2007 is best
+#Post money valuation is goes hand in had with raised amount as there is higher valuation where the amount raised is high
+#worth looking at the economic context to see level of funding attraction
+#best amounts raised from series A+ followed by Angel
+#there is a weak correlation between post money valuation and ramount rasised 
+#worth checking relationship between type funding and amounts pot money 
+#worth checking domain of topic and type company 
+
+
+
+
+
+
 
 
 
