@@ -111,6 +111,7 @@ print(Year2007)
 fig = px.bar(Year2007, x="Month", y=["raised_amount","post_money_valuation"],barmode='stack', color='post_money_valuation',color_continuous_scale='RdBu',title="Post money valuation in relation to funding")
 plotly.offline.plot(fig, filename='i')
 
+
 # month performance 
 fig = px.bar(Year2007, x="funding_round_type", y=["raised_amount","post_money_valuation"],barmode='stack', color='post_money_valuation',color_continuous_scale='RdBu',title="Post money valuation in relation to funding type")
 plotly.offline.plot(fig, filename='i')
@@ -150,13 +151,23 @@ plt.show()
 pairplot = sns.pairplot(df_invested, vars=['raised_amount','funding_round_type'])
 plt.show()
 
+#regplots on tpes of funding
+fig = px.scatter(df_invested, x="raised_amount", y="post_money_valuation", color="funding_round_type", opacity=0.5,trendline="lowess")
+plotly.offline.plot(fig, filename='i')
+
+#regplot on 2007
+fig = px.scatter(Year2007, x="raised_amount", y="post_money_valuation", color="funding_round_type", opacity=0.5,trendline="lowess")
+plotly.offline.plot(fig, filename='i')
+
 # Conclusions 
 #2007 is best
 #Post money valuation is goes hand in had with raised amount as there is higher valuation where the amount raised is high
 #worth looking at the economic context to see level of funding attraction
 #best amounts raised from series A+ followed by Angel
 #there is a weak correlation between post money valuation and ramount rasised 
-#worth checking relationship between type funding and amounts pot money 
+#the relationship between funding type and raised amounts shows which type of funding is more accessible. Series B and angel.
+#where there is lower amounts raised for other types of funding, there's less acess for ex. ventures and others. 
+#regplots show that types of funding reveal not only the type of company but also the amount of money companies can usually raiseusing the types of funding. 
 #worth checking domain of topic and type company 
 
 
