@@ -97,6 +97,12 @@ df_invested['Month']=df_invested['funded_at'].dt.month_name()
 df_invested['Day']=df_invested['funded_at'].dt.day_name()
 print(df_invested.head(200))
 
+#timeseries filter
+
+filt1=(df_invested['funded_at'] >= '2006')
+l1=df_invested.loc[filt1]
+print(l1)
+
 
 
 
