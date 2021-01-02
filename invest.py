@@ -22,7 +22,7 @@ print(investing.columns)
 df=DataFrame(investing.head(5))
 #print(df.head(5))
 
-df_invest=df[['created_at','funded_at','raised_amount','raised_amount_usd','is_first_round','is_last_round','funding_round_type','participants']]
+df_invest=df[['created_at','funded_at','raised_amount','is_first_round','is_last_round','funding_round_type']]
 print(df_invest.head(4))
 
 df_invest['created_at']=pd.to_datetime(df_invest['created_at'], infer_datetime_format=True)
@@ -60,4 +60,12 @@ print(latest_time)
 #difference between latest and earliest time funding
 diff=latest_time-earliest_time
 print(diff)
+
+#----------------------------------------------
+#date filter
+
+filt=(df_invest['created_at'] >= '2006')
+l=df_invest.loc[filt]
+print(l)
+
 
