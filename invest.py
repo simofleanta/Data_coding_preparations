@@ -29,7 +29,7 @@ df_invest['created_at']=pd.to_datetime(df_invest['created_at'], infer_datetime_f
 indexeddf=df_invest.set_index(['created_at'])
 print(indexeddf)
 
-#parsing to time format and extracting dates
+#parsing to time format and extracting dates with 'created_at'
 
 x=df_invest['created_at']=pd.to_datetime(df_invest['created_at'], format='%y-%m-%d %I-%p')
 
@@ -41,7 +41,6 @@ print(Month)
 
 Year=df_invest['created_at'].dt.year
 print(Year)
-
 
 #subsetting 
 df_invest['Year']=df_invest['created_at'].dt.year
@@ -67,5 +66,29 @@ print(diff)
 filt=(df_invest['created_at'] >= '2006')
 l=df_invest.loc[filt]
 print(l)
+
+##############################################################################################
+
+#Datatime indexing and parsing with 'funded_at'
+
+df_invest['funded_at']=pd.to_datetime(df_invest['funded_at'], infer_datetime_format=True)
+indexeddf=df_invest.set_index(['funded_at'])
+print(indexeddf)
+
+#parsing to time format and extracting dates with 'created_at'
+
+x=df_invest['funded_at']=pd.to_datetime(df_invest['funded_at'], format='%y-%m-%d')
+
+Day=df_invest['funded_at'].dt.day_name()
+print(Day)
+
+Month=df_invest['funded_at'].dt.month_name()
+print(Month)
+
+Year=df_invest['funded_at'].dt.year
+print(Year)
+
+
+
 
 
