@@ -25,6 +25,11 @@ df=DataFrame(investing.head(5))
 df_invest=df[['created_at','funded_at','raised_amount','raised_amount_usd','is_first_round','is_last_round','funding_round_type','participants']]
 print(df_invest.head(4))
 
+df_invest['created_at']=pd.to_datetime(df_invest['created_at'], infer_datetime_format=True)
+indexeddf=df_invest.set_index(['created_at'])
+print(indexeddf)
+
+
 
 
 
