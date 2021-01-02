@@ -19,6 +19,13 @@ import plotly.express as px
 
 investing=pd.read_csv('funding.csv')
 print(investing.columns)
-df=DataFrame(investing.head(500))
-print(df.head(500))
+df=DataFrame(investing.head(5))
+#print(df.head(5))
+
+df_invest=df[['created_at','funded_at','raised_amount','raised_amount_usd','is_first_round','is_last_round','funding_round_type','participants']]
+print(df_invest.head(4))
+
+
+
+
 
