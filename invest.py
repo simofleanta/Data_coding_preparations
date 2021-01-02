@@ -102,7 +102,14 @@ fig = px.bar(df_invested, x="Month", y=["raised_amount","post_money_valuation"],
 plotly.offline.plot(fig, filename='i')
 #where there's higher funding there's better valuation, and that happens at the beginning of the year
 
+#since 2007 is best, we'll filter dive in this year
 
+Year2007=df_invested[df_invested.Year==2007]
+print(Year2007)
+
+# month performance 
+fig = px.bar(Year2007, x="Month", y=["raised_amount","post_money_valuation"],barmode='stack', color='post_money_valuation',color_continuous_scale='RdBu',title="Post money valuation in relation to funding")
+plotly.offline.plot(fig, filename='i')
 
 
 
