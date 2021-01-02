@@ -71,22 +71,32 @@ print(l)
 
 #Datatime indexing and parsing with 'funded_at'
 
-df_invest['funded_at']=pd.to_datetime(df_invest['funded_at'], infer_datetime_format=True)
-indexeddf=df_invest.set_index(['funded_at'])
+df_invested=df_invest[['funded_at','raised_amount','is_first_round','is_last_round','funding_round_type']]
+
+df_invested['funded_at']=pd.to_datetime(df_invested['funded_at'], infer_datetime_format=True)
+indexeddf=df_invested.set_index(['funded_at'])
 print(indexeddf)
+
 
 #parsing to time format and extracting dates with 'created_at'
 
-x=df_invest['funded_at']=pd.to_datetime(df_invest['funded_at'], format='%y-%m-%d')
+x=df_invested['funded_at']=pd.to_datetime(df_invested['funded_at'], format='%y-%m-%d')
 
-Day=df_invest['funded_at'].dt.day_name()
+Day=df_invested['funded_at'].dt.day_name()
 print(Day)
 
-Month=df_invest['funded_at'].dt.month_name()
+Month=df_invested['funded_at'].dt.month_name()
 print(Month)
 
-Year=df_invest['funded_at'].dt.year
+Year=df_invested['funded_at'].dt.year
 print(Year)
+
+#subsetting again with the needed columns 
+
+df_invested['Year']=df_invested['funded_at'].dt.year
+df_invested['Month']=df_invested['funded_at'].dt.month_name()
+df_invested['Day']=df_invested['funded_at'].dt.day_name()
+print(df_invested.head(200))
 
 
 
