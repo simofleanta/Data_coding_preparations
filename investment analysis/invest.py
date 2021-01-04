@@ -77,7 +77,7 @@ plt.show()
 
 df = px.data.tips()
 fig = px.density_heatmap(df_invested, x="Day", y="raised_amount", nbinsx=40, nbinsy=30, color_continuous_scale="Blues",title='distribution for raised amount per day')
-#plotly.offline.plot(fig, filename='i')
+plotly.offline.plot(fig, filename='i')
 
 #barchart on post money valuation
 
