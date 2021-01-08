@@ -38,9 +38,9 @@ k2=sns.violinplot(x=Year2019["Month"], y=df_v["Sales_Margin"], palette="Blues", 
 plt.show()"""
 
 #plotly pie
-df = px.data.tips()
-fig = px.pie(df_v, values='Total_gross_sales', names='Month', color_discrete_sequence=px.colors.sequential.Blues)
-plotly.offline.plot(fig, filename='M')
+#df = px.data.tips()
+#fig = px.pie(df_v, values='Total_gross_sales', names='Month', color_discrete_sequence=px.colors.sequential.Blues)
+#plotly.offline.plot(fig, filename='M')
 
 #correlations
 plt.figure(figsize=(5,5))
@@ -49,9 +49,25 @@ plt.show()
 
 #implot
 
-vissual1= sns.lmplot(data=df_v, x='Total_gross_sales', y='Gross_Margin',
+vissual1= sns.lmplot(data=df_v, x='Sales_Gross', y='Gross_Margin',
                  fit_reg=False)
 plt.show()
+
+pairplot = sns.pairplot(df_v, vars=['Sales_Gross','Gross_Margin'])
+plt.show()
+
+sns.distplot(df_v["Sales_Gross"])
+plt.show()
+
+#boxplot only one var
+sns.boxplot(df_v['Sales_Gross'])
+plt.show()
+
+#boxplot with 2 vars
+sns.boxplot(x='Year',y='Sales_Gross', data=df_v)
+plt.show()
+
+
 
 
 
