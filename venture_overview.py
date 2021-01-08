@@ -67,6 +67,8 @@ figu = px.scatter_polar(dataf , r="Total_gross_sales", theta="Gross_Margin",symb
 
 plotly.offline.plot(figu, filename='M')
 
+#
+
 
 
 
