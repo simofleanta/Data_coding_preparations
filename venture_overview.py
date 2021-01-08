@@ -71,7 +71,6 @@ f,axes = plt.subplots(2,2, figsize=(15,15))
 axes[0,0].scatter(df_v.Gross_Margin, df_v.Total_gross_sales, cmap='Blues', edgecolors='k', alpha=0.55)
 axes[0,1].scatter(Year2019.Sales_Gross, Year2019.Total_gross_sales, cmap='Blues', edgecolors='k', alpha=0.55)
 
-
 k2=sns.boxplot(x='Year',y='Sales_Gross', data=df_v,\
     ax=axes[1,1])
 
