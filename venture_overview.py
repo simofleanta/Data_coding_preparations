@@ -55,7 +55,7 @@ f,axes = plt.subplots(2,2, figsize=(15,20))
 axes[0,0].scatter(df_v.Gross_Margin, df_v.Total_gross_sales, cmap='summer', edgecolors='k',\
      alpha=0.55)
 
-k1=sns.stripplot(x='Year', y='Gross_Margin',jitter=0.25, alpha=0.5, edgecolor='black',palette="Blues", data=df_v, \
+k1=sns.stripplot(x='Year', y='Gross_Margin',jitter=0.25, alpha=0.5, size=5, linewidth=1, palette="Blues", data=df_v, \
     ax=axes[0,1])
 
 axes[1,0].plot(Year2019.Month, Year2019.Sales_Margin, label='Sales_Margin')
@@ -63,6 +63,8 @@ axes[1,0].plot(Year2019.Month, Year2019.Sales_Margin, label='Sales_Margin')
 k2=sns.heatmap(df_v.corr(), annot=True, cmap='Blues',vmin=-1,vmax=1, yticklabels=False, ax=axes[1,1])
 
 plt.show()
+
+
 
 
 """
