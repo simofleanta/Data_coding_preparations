@@ -23,7 +23,7 @@ df_v=DataFrame(finance.head(100))
 print(df_v.head(10))
 
 #normalize data
-dataf=df_v[['Sales_Margin','Total_gross_sales', 'Sales_Gross','Gross_Margin']]
+dataf=df_v[['Year','Sales_Margin','Total_gross_sales', 'Sales_Gross','Gross_Margin']]
 dataf=dataf.apply (lambda x: (x-x.min(axis=0)) / (x.max(axis=0) - x.min(axis=0)))
 print(dataf)
 
@@ -44,10 +44,10 @@ f,axes = plt.subplots(2,2, figsize=(15,30))
 K0=sns.scatterplot(dataf.Gross_Margin, dataf.Total_gross_sales, s=100, edgecolor='white', alpha=0.4,\
      palette='Blues',ax=axes[0,0])
 
-k1=sns.stripplot(x='Year', y='Gross_Margin',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=df_v, \
+k1=sns.stripplot(x='Year', y='Gross_Margin',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=dataf, \
     ax=axes[0,1])
 
-k2=sns.boxplot(df_v.Year, df_v.Sales_Gross, palette='Blues',hue_order=[True,False],ax=axes[1,0])
+k2=sns.boxplot(dataf.Year, df_v.Sales_Gross, palette='Blues',hue_order=[True,False],ax=axes[1,0])
 
 k3=sns.heatmap(dataf.corr(), annot=True, cmap='Blues',vmin=-1,vmax=1, yticklabels=False, ax=axes[1,1])
 
