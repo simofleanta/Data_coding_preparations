@@ -24,14 +24,33 @@ print(df_v.head(120))
 
 #extract year 2020
 
-Year2020=df_v[df_v.Year==2020]
+"""Year2020=df_v[df_v.Year==2020]
 sns.violinplot(x=Year2020["Month"], y=df_v["Sales_Margin"], palette="Blues")
-plt.show()
-
 
 #extract 2019
 Year2019=df_v[df_v.Year==2019]
 sns.violinplot(x=Year2019["Month"], y=df_v["Sales_Margin"], palette="Blues")
+
+
+f, axes = plt.subplots(1,2, figsize=(12,6))
+k1=sns.violinplot(x=Year2020["Month"], y=df_v["Sales_Margin"], palette="Blues", ax=axes[0])
+k2=sns.violinplot(x=Year2019["Month"], y=df_v["Sales_Margin"], palette="Blues", ax=axes[1])
+plt.show()"""
+
+#plotly pie
+df = px.data.tips()
+fig = px.pie(df_v, values='Total_gross_sales', names='Month', color_discrete_sequence=px.colors.sequential.Blues)
+plotly.offline.plot(fig, filename='M')
+
+#correlations
+plt.figure(figsize=(5,5))
+sns.heatmap(df_v.corr(), cmap='Blues')
+plt.show()
+
+#implot
+
+vissual1= sns.lmplot(data=df_v, x='Total_gross_sales', y='Gross_Margin',
+                 fit_reg=False)
 plt.show()
 
 
