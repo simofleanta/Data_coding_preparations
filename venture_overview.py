@@ -22,5 +22,14 @@ print(finance.columns)
 df_v=DataFrame(finance.head(120))
 print(df_v.head(120))
 
+"""fig, ax=plt.subplots(figsize=(5,4))
+sns.set_style('darkgrid')
+df_v.groupby('Year')['raised_amount'].count().sort_values().plot(kind='bar')
+plt.ylabel('raised_amount')
+ax.get_yaxis().get_major_formatter().set_scientific(False)
+plt.title('raised_amount in years')
+plt.show()"""
+
+
 
 
