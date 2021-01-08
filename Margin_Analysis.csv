@@ -1,4 +1,4 @@
-Year,Month,Sales_Margin,Total_gross_sales,Sales_Margin,Gross_Margin
+Year,Month,Sales_Margin,Total_gross_sales,Sales_Gross,Gross_Margin
 2020,Jan,90000,78000,115%,12000
 2020,Feb,85000,23000,370%,62000
 2020,Mar,100000,80000,125%,20000
