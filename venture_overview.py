@@ -16,10 +16,11 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 import plotly.express as px
 
-
-
-finance=pd.read_csv('venture_overview.csv')
+#open file
+finance=pd.read_csv('Margin_Analysis.csv')
 print(finance.columns)
 df_v=DataFrame(finance.head(120))
 print(df_v.head(120))
+
+
 
