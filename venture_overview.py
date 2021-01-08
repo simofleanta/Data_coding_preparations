@@ -63,16 +63,15 @@ Year2019=df_v[df_v.Year==2019]
 #plt.show()
 
 #scatter
-#plt.scatter(Year2020.Gross_Margin, Year2020.Total_gross_sales, cmap='Blues', edgecolors='k', alpha=0.55)
-#plt.show()
+plt.scatter(Year2020.Gross_Margin, Year2020.Total_gross_sales, cmap='Blues', edgecolors='k', alpha=0.55)
+plt.show()
 
 
 f,axes = plt.subplots(2,2, figsize=(15,15))
 axes[0,0].scatter(df_v.Gross_Margin, df_v.Total_gross_sales, cmap='Blues', edgecolors='k', alpha=0.55)
-axes[0,1].scatter(Year2019.Gross_Margin, Year2019.Total_gross_sales, cmap='Blues', edgecolors='k', alpha=0.55)
+axes[0,1].scatter(Year2019.Sales_Gross, Year2019.Total_gross_sales, cmap='Blues', edgecolors='k', alpha=0.55)
 
-k1=sns.violinplot(x=Year2019["Month"], y=df_v["Sales_Margin"], palette="Blues", \
-    ax=axes[0,1])
+
 k2=sns.boxplot(x='Year',y='Sales_Gross', data=df_v,\
     ax=axes[1,1])
 
