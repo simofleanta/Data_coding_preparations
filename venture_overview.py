@@ -22,6 +22,11 @@ print(finance.columns)
 df_v=DataFrame(finance.head(100))
 print(df_v.head(10))
 
+
+finance=pd.read_csv('costs.csv')
+print(finance.columns)
+df_c=DataFrame(finance.head(100))
+
 #extract year 2020
 Year2020=df_v[df_v.Year==2020]
 
@@ -52,23 +57,23 @@ Year2017=df_v[df_v.Year==2017]
 
 #scatter dashboard on sales gross and total sales in 4 years 
 f,axes = plt.subplots(2,2, figsize=(15,20))
-axes[0,0].scatter(df_v.Gross_Margin, df_v.Total_gross_sales, cmap='summer', edgecolors='k',\
-     alpha=0.55)
+K0=sns.scatterplot(df_v.Gross_Margin, df_v.Total_gross_sales, s=100, edgecolor='white', alpha=0.4,\
+     palette='Blues',ax=axes[0,0])
 
-k1=sns.stripplot(x='Year', y='Gross_Margin',jitter=0.25, alpha=0.5, size=5, linewidth=1, palette="Blues", data=df_v, \
+k1=sns.stripplot(x='Year', y='Gross_Margin',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=df_v, \
     ax=axes[0,1])
 
-axes[1,0].plot(Year2019.Month, Year2019.Sales_Margin, label='Sales_Margin')
+k2=sns.boxplot(df_v.Year, df_v.Sales_Gross, palette='Blues',hue_order=[True,False], ax=axes[1,0])
 
-k2=sns.heatmap(df_v.corr(), annot=True, cmap='Blues',vmin=-1,vmax=1, yticklabels=False, ax=axes[1,1])
+k3=sns.heatmap(df_v.corr(), annot=True, cmap='Blues',vmin=-1,vmax=1, yticklabels=False, ax=axes[1,1])
 
 plt.show()
 
 
 
 
-"""
-#polar chart on gross analysis 
+
+"""#polar chart on gross analysis 
 df = px.data.wind()
 figu = px.scatter_polar(df_v , r="Total_gross_sales", theta="Gross_Margin",symbol='Sales_Gross', template='plotly_dark',
                         color_discrete_sequence=px.colors.sequential.Blues)
