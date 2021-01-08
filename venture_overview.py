@@ -24,7 +24,9 @@ print(df_v.head(10))
 
 #normalize data
 dataf=df_v[['Year','Sales_Margin','Total_gross_sales', 'Sales_Gross','Gross_Margin']]
+
 dataf=dataf.apply (lambda x: (x-x.min(axis=0)) / (x.max(axis=0) - x.min(axis=0)))
+
 print(dataf)
 
 #extract year 2020
@@ -32,7 +34,9 @@ Year2020=df_v[df_v.Year==2020]
 
 #extract 2019
 Year2019=df_v[df_v.Year==2019]
+
 Year2018=df_v[df_v.Year==2018]
+
 Year2017=df_v[df_v.Year==2017]
 
 
@@ -53,10 +57,7 @@ k3=sns.heatmap(dataf.corr(), annot=True, cmap='Blues',vmin=-1,vmax=1, yticklabel
 
 plt.show()
 
-
-
 #----------------------------------------------------------------------------------------
-
 
 #polar chart on gross analysis 
 df = px.data.wind()
