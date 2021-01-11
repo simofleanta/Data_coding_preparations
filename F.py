@@ -40,6 +40,15 @@ print(Month)
 Year=df_c['Date'].dt.year
 print(Year)
 
+#subsetting 
+df_c['Year']=df_c['Date'].dt.year
+df_c['Month']=df_c['Date'].dt.month_name()
+df_c['Day']=df_c['Date'].dt.day_name()
+print(df_c.head(31))
+
+
+
+
 
 
 
