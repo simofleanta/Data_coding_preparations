@@ -83,7 +83,26 @@ plt.show()
 sns.heatmap(data.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1, yticklabels=True,xticklabels=False)
 plt.show()
 
+#analizing trends after app 
 
+f,axes = plt.subplots(2,2, figsize=(15,30))
+K0=sns.scatterplot(data.KwH_After_App, data.Active_Hours, s=100, edgecolor='black', alpha=0.5,\
+     palette='viridis',ax=axes[0,0])
+
+x1=sns.stripplot(x='Day', y='KwH_After_App',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="viridis", data=data, \
+    ax=axes[0,1])
+
+x2=sns.boxplot(data.Weather, data.KwH_After_App, palette='viridis',hue_order=[True,False],ax=axes[1,0])
+
+x3=sns.scatterplot(data.Temperature_Celsius, data.consumtion_hours_After_app, s=100, edgecolor='black', alpha=0.5,\
+     palette='summer', ax=axes[1,1])
+
+plt.show()
+
+#trends remain as above but because numbers are smaller they are more evident. 
+#the more hours the more active the larger consumption
+#at the begining of the week and end of the week, there are more ative hours and therefore consumption
+#the worst the weather the higher kwH consumption.
 
 
 
