@@ -59,7 +59,29 @@ print(df_c.columns)
 data=df_c[['Day','Weather','Temperature_Celsius','KwH_Before_App','KwH_After_App','Active_Hours','consumtion_hours_before_app','consumtion_hours_After_app']].copy()
 print(data)
 
+#plotting consumption patterns before app 
+f,axes = plt.subplots(2,2, figsize=(15,30))
+K0=sns.scatterplot(data.KwH_Before_App, data.Active_Hours, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues',ax=axes[0,0])
 
+k1=sns.stripplot(x='Day', y='Active_Hours',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=data, \
+    ax=axes[0,1])
+
+k2=sns.boxplot(data.Weather, data.KwH_Before_App, palette='Blues',hue_order=[True,False],ax=axes[1,0])
+
+k3=sns.scatterplot(data.Temperature_Celsius, data.consumtion_hours_before_app, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues', ax=axes[1,1])
+
+plt.show()
+
+#the more hours the more active the larger consumption
+#at the begining of the week and end of the week, there are more ative hours and therefore consumption
+#the worst the weather the higher kwH consumption.
+
+
+#In order to understand the trends in the dashboard, I have added a separate correlation map
+sns.heatmap(data.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1, yticklabels=True,xticklabels=False)
+plt.show()
 
 
 
