@@ -18,8 +18,10 @@ import plotly.express as px
 
 
 
-c=pd.read_csv('costs.csv')
+c=pd.read_csv('Energy_consumption.csv')
 print(c.columns)
-df=DataFrame(c.head(500))
-print(df.head(500))
+df_c=DataFrame(c.head(31))
+print(df_c.head(31))
+
+
 
