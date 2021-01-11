@@ -46,6 +46,16 @@ df_c['Month']=df_c['Date'].dt.month_name()
 df_c['Day']=df_c['Date'].dt.day_name()
 print(df_c.head(31))
 
+#calculate consumtion hours before app
+df_c['consumtion_hours_before_app']=df_c.KwH_Before_App*df_c.Active_Hours
+df_c['consumtion_hours_After_app']=df_c.KwH_After_App*df_c.Active_Hours
+
+#print the whole consumption data
+
+print(df_c)
+
+
+
 
 
 
