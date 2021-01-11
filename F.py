@@ -17,6 +17,12 @@ from sklearn.metrics import r2_score
 import plotly.express as px
 import datetime
 
+#My client wants to see if it is worth monitoring electrical energy in order to optimze costs and consumption behaviour.
+#I was given a data sample for one month in order to extract insights. 
+#opened data
+#processed time series
+#calculated before and after consumption
+#extracted insights into seaborn darshboards
 
 c=pd.read_csv('Energy_consumption.csv')
 print(c.columns)
@@ -115,6 +121,11 @@ B=sns.scatterplot(data.Active_Hours, data.consumtion_hours_After_app, s=100, edg
      palette='husl',ax=axes[1])
 
 plt.show()
+
+#Conclusions
+
+#not big differences spottted, most propbably because consumption behaviour was much the same and data was only processed for 1 mth.
+#Nevertheless differences show clear benefits of using monitoring app in order to optimize costs and behaviour.
 
 
 
