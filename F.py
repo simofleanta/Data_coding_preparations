@@ -51,8 +51,16 @@ df_c['consumtion_hours_before_app']=df_c.KwH_Before_App*df_c.Active_Hours
 df_c['consumtion_hours_After_app']=df_c.KwH_After_App*df_c.Active_Hours
 
 #print the whole consumption data
-
 print(df_c)
+
+#print desired columns to prepare for visuals 
+print(df_c.columns)
+
+data=df_c[['Day','Weather','Temperature_Celsius','KwH_Before_App','KwH_After_App','Active_Hours','consumtion_hours_before_app','consumtion_hours_After_app']].copy()
+print(data)
+
+
+
 
 
 
