@@ -105,6 +105,18 @@ plt.show()
 #the worst the weather the higher kwH consumption.
 
 
+#short benchmark of KwH between situations before and after app
+
+f,axes = plt.subplots(1,2, figsize=(15, 10))
+A=sns.scatterplot(data.Active_Hours, data.consumtion_hours_before_app, s=100, edgecolor='black', alpha=0.5,\
+     palette='husl',ax=axes[0])
+
+B=sns.scatterplot(data.Active_Hours, data.consumtion_hours_After_app, s=100, edgecolor='black', alpha=0.5,\
+     palette='husl',ax=axes[1])
+
+plt.show()
+
+
 
 
 
