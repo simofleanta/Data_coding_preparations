@@ -126,6 +126,11 @@ plt.show()
 
 #not big differences spottted, most propbably because consumption behaviour was much the same and data was only processed for 1 mth.
 #Nevertheless differences show clear benefits of using monitoring app in order to optimize costs and behaviour.
+#the short answer is yes use the monitoring app as on a longer term it may be even more usefull. 
+
+#Same data insights will be shown on plotly 
+
+
 
 
 
