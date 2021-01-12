@@ -127,15 +127,19 @@ data['Saved_KwH']=(data.consumtion_hours_before_app-data.consumtion_hours_After_
 print(data)
 
 #dashboard 
-f,axes = plt.subplots(1,2, figsize=(15, 10))
+"""f,axes = plt.subplots(1,2, figsize=(15, 10))
 fig1=sns.violinplot(x=data["Weather"], y=data["Saved_KwH"], palette="summer",ax=axes[0])
 fig2=sns.violinplot(x=data["Day"], y=data["Saved_KwH"], palette="summer",ax=axes[1])
-plt.show()
+#plt.show()"""
 
 #regression plot
 df = px.data.tips()
 fig = px.scatter(data, x="Temperature_Celsius", y="Saved_KwH", trendline="ols")
 #plotly.offline.plot(fig, filename='E')
+
+#contingency tables on saved KwH and weather
+contingency=pd.crosstab(data['Saved_KwH'],data['Day'])
+print(contingency)
 
 
 #Conclusions
