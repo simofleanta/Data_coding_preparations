@@ -122,6 +122,10 @@ B=sns.scatterplot(data.Active_Hours, data.consumtion_hours_After_app, s=100, edg
 
 plt.show()
 
+#calculate how much Kwh was saved (as%)
+data['Saved_KwH']=(data.consumtion_hours_before_app-data.consumtion_hours_After_app)/100
+print(data)
+
 #Conclusions
 
 #not big differences spottted, most propbably because consumption behaviour was much the same and data was only processed for 1 mth.
