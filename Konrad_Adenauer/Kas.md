@@ -1,6 +1,7 @@
 # KAS 
 
-My role was to take economic indicators and reveal trends and insights
+My role in this project was to take economic indicators and reveal trends and insights. 
+The results of the insights would further be discussed in the past ministry of social labour and protection as well as in other economic departments.
 
 
 
