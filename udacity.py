@@ -45,5 +45,9 @@ udacity['Month']=udacity['year'].dt.month_name()
 udacity['Day']=udacity['year'].dt.day_name()
 print(udacity.head(31))
 
+#check dtypes
+print(udacity.dtypes)
+
+#need to convert into floats
 
 
