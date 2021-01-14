@@ -61,9 +61,30 @@ print(Year)
 udacity['Year']=udacity['year'].dt.year
 udacity['Month']=udacity['year'].dt.month_name()
 udacity['Day']=udacity['year'].dt.day_name()
-print(udacity.head(31))
+
 
 #operate
+
+#subplot 
+f,axes = plt.subplots(1,2, figsize=(15, 10))
+fig1=sns.violinplot(x=udacity["Products"], y=udacity["Profit"], palette="summer",ax=axes[0])
+fig2=sns.boxplot(udacity.Place, udacity.Profit, palette='viridis',hue_order=[True,False],ax=axes[1])
+plt.show()
+
+#scatter sub
+
+f,axes = plt.subplots(1,2, figsize=(15, 10))
+A=sns.scatterplot(udacity.Out_px, udacity.Profit, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues',ax=axes[0])
+
+B=sns.scatterplot(udacity.Margin, udacity.Profit, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues',ax=axes[1])
+
+plt.show()
+
+#correlation map
+sns.heatmap(udacity.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1, yticklabels=True,xticklabels=True)
+plt.show()
 
 
 
