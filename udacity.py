@@ -48,6 +48,5 @@ print(udacity.head(31))
 #check dtypes
 print(udacity.dtypes)
 
-#need to convert into floats
 
 
