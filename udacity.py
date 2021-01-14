@@ -28,6 +28,7 @@ one or 2 carts
 subplots 
 """
 
+#open file
 u=pd.read_csv('udacity.csv')
 print(u.columns)
 udacity=DataFrame(u.head(60))
@@ -37,10 +38,12 @@ print(udacity.head(60))
 print(udacity.dtypes)
 # if we hve null values 
 print(udacity.isnull)
+#shape of data
 print(udacity.shape)
+#data description
 print(udacity.describe())
 
-
+#parse index
 udacity['year']=pd.to_datetime(udacity['year'], infer_datetime_format=True)
 indexeddf=udacity.set_index(['year'])
 print(indexeddf)
@@ -49,13 +52,8 @@ print(indexeddf)
 x=udacity['year']=pd.to_datetime(udacity['year'], format='%d-%m-%y')
 
 Day=udacity['year'].dt.day_name()
-print(Day)
-
 Month=udacity['year'].dt.month_name()
-print(Month)
-
 Year=udacity['year'].dt.year
-print(Year)
 
 #subsetting 
 udacity['Year']=udacity['year'].dt.year
@@ -63,7 +61,7 @@ udacity['Month']=udacity['year'].dt.month_name()
 udacity['Day']=udacity['year'].dt.day_name()
 
 
-#operate
+#Analyzing data using Python  Seaborn charts
 
 #subplot 
 f,axes = plt.subplots(1,2, figsize=(15, 10))
@@ -71,8 +69,7 @@ fig1=sns.violinplot(x=udacity["Products"], y=udacity["Profit"], palette="summer"
 fig2=sns.boxplot(udacity.Place, udacity.Profit, palette='viridis',hue_order=[True,False],ax=axes[1])
 plt.show()
 
-#scatter sub
-
+#scatter subplot
 f,axes = plt.subplots(1,2, figsize=(15, 10))
 A=sns.scatterplot(udacity.Out_px, udacity.Profit, s=100, edgecolor='black', alpha=0.5,\
      palette='Blues',ax=axes[0])
@@ -85,6 +82,8 @@ plt.show()
 #correlation map
 sns.heatmap(udacity.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1, yticklabels=True,xticklabels=True)
 plt.show()
+
+
 
 
 
