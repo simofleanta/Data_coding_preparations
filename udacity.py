@@ -39,3 +39,11 @@ print(Month)
 Year=udacity['year'].dt.year
 print(Year)
 
+#subsetting 
+udacity['Year']=udacity['year'].dt.year
+udacity['Month']=udacity['year'].dt.month_name()
+udacity['Day']=udacity['year'].dt.day_name()
+print(udacity.head(31))
+
+
+
