@@ -26,6 +26,13 @@ checking data types and making sense of the data
 date timeseries parsing
 one or 2 carts 
 subplots 
+
+Insights I'm looking for:
+
+* What products sell best
+* In which place Products sell best
+* Possible correlations
+
 """
 
 #open file
@@ -61,7 +68,7 @@ udacity['Month']=udacity['year'].dt.month_name()
 udacity['Day']=udacity['year'].dt.day_name()
 
 
-#Analyzing data using Python  Seaborn charts
+"""Analyzing data using Python  Seaborn charts"""
 
 #subplot 
 f,axes = plt.subplots(1,2, figsize=(15, 10))
@@ -83,7 +90,11 @@ plt.show()
 sns.heatmap(udacity.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1, yticklabels=True,xticklabels=True)
 plt.show()
 
+"""Conclusions"""
 
+#Laptops sell best
+#they sell best in EU
+#there are many correlations according to the heatmap
 
 
 
