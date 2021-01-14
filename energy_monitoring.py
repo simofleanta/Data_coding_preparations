@@ -66,7 +66,7 @@ data=df_c[['Day','Weather','Temperature_Celsius','KwH_Before_App','KwH_After_App
 print(data)
 
 #plotting consumption patterns before app 
-"""f,axes = plt.subplots(2,2, figsize=(15,30))
+f,axes = plt.subplots(2,2, figsize=(15,30))
 K0=sns.scatterplot(data.KwH_Before_App, data.Active_Hours, s=100, edgecolor='black', alpha=0.5,\
      palette='Blues',ax=axes[0,0])
 
@@ -120,7 +120,7 @@ A=sns.scatterplot(data.Active_Hours, data.consumtion_hours_before_app, s=100, ed
 B=sns.scatterplot(data.Active_Hours, data.consumtion_hours_After_app, s=100, edgecolor='black', alpha=0.5,\
      palette='husl',ax=axes[1])
 
-plt.show()"""
+plt.show()
 
 #calculate how much Kwh was saved (as%)
 data['Saved_KwH']=(data.consumtion_hours_before_app-data.consumtion_hours_After_app)/100
