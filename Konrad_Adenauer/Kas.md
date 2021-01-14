@@ -3,9 +3,7 @@
 My role in this project was to take economic indicators and reveal trends and insights. 
 The results of the insights would further be discussed in the past ministry of social labour and protection as well as in other economic departments.
 
-
-
-
+![kas1](https://user-images.githubusercontent.com/47668423/104583222-2c4d1e00-5661-11eb-9291-154a8779c1c7.png)
 
 
 # Conclusions
