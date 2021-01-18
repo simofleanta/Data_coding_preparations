@@ -17,6 +17,13 @@ from sklearn.metrics import r2_score
 import plotly.express as px
 import datetime
 
+"""How would we solve a Community problem statement:
+
+Many people live at blocks distance from thei office. It takes them 1 minute per block to the office and around 20 seconds per bloc by bike.
+If it takes them various minutes more to walk to office than to ride thaen how many blocks distance do they travel to their offices?
+
+Solutions? """
+
 #open file
 bike=pd.read_csv('Bikes_blocks.csv')
 print(bike.columns)
@@ -48,6 +55,14 @@ Year=bike_df['year'].dt.year
 bike_df['Year']=bike_df['year'].dt.year
 bike_df['Month']=bike_df['year'].dt.month_name()
 bike_df['Day']=bike_df['year'].dt.day_name()
+
+print(bike_df.head(3))
+
+
+ 
+
+
+
 
 
 
