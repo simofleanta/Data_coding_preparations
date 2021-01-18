@@ -98,7 +98,20 @@ plt.show()
 #Filter for Thursday  
 
 bike_day=bikes_office[bikes_office.Day=='Thursday']
+bike_Wed=bikes_office[bikes_office.Day=='Wednesday']
 
+#Day benchmark 
+
+#Which day is more frequently on th bike?
+
+f,axes = plt.subplots(1,2, figsize=(15, 10))
+Thursday=sns.scatterplot(bike_day.Min_walk, bike_day.Total_minutes_ride, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues',ax=axes[0])
+
+Wednesday=sns.scatterplot(bike_Wed.Min_walk, bike_Wed.Total_minutes_ride, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues',ax=axes[1])
+
+plt.show()
 
 #Which day is more frequently on th bike?
 
@@ -109,6 +122,33 @@ C=sns.scatterplot(bike_day.Min_walk, bike_day.Total_minutes_ride, s=100, edgecol
 D=sns.boxplot(bikes_office.Day, bikes_office.Total_minutes_ride, palette='viridis',hue_order=[True,False],ax=axes[1])
 
 plt.show()
+
+
+#Conclusions 
+
+#The problem understanding is as such:
+#1 what is the number of blocks people walk to their office 
+#2 as it takes a couple of minutes more thatn on the bike, people walk 1 minute per block and ride more blocks in 60 seconds 
+#3 which leads to the fifference between number of blocks and the actual ride mintes 
+
+#charts showing how far are people from their work
+
+#People are between 10-24 minutes away of their work but is matters more how they rech it. 
+#It is clear that riding the bike halfs the time to get to work because in les seconds riding the bike covers more blocks thatn walking
+#Charts show that while some get to work in 18 minutes walking, bike riders do it in 12 minutes 
+#Thursday has the highest bike minutes than any other day in the week. 
+
+#Sucggestions
+
+#Since we're talking about neighbourhood and relatively small distances:
+#draw map shortcuts and encourage people to use those shortcuts, including those who prefer walking 
+#build bike parks (rent, parking bikes etc.)
+
+
+
+
+
+
 
 
 
