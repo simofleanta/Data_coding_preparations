@@ -51,21 +51,32 @@ Day=bike_df['year'].dt.day_name()
 Month=bike_df['year'].dt.month_name()
 Year=bike_df['year'].dt.year
 
-#subsetting 
+#subsetting timeseries
 bike_df['Year']=bike_df['year'].dt.year
 bike_df['Month']=bike_df['year'].dt.month_name()
 bike_df['Day']=bike_df['year'].dt.day_name()
-
 print(bike_df.head(3))
 
-#calculate how many blocks can people ride in one minute given their minutes walk?
+#-----------------------------
 
-bike_df['Bike_ride_minute']=60/bike_df.Seconds_per_Block
-bike_df['Total_minutes_ride']=bike_df.No_blocks/bike_df.Bike_ride_minute
-#finally calculate the difference between minutes walk and ride 
+#calculations
+
+#How many blocks can people ride in 60 seconds  given their minutes walk?
+bike_df['Blocks_ride_minute']=60/bike_df.Seconds_per_Block
+
+#What is the total minutes ride?
+bike_df['Total_minutes_ride']=bike_df.No_blocks/bike_df.Blocks_ride_minute
+
+#finally what is the difference between number of blocks and  minutes on byke to office ?
 bike_df['Number_blocks_to_office']=bike_df.No_blocks-bike_df.Total_minutes_ride
 
-print(bike_df)
+
+#
+
+#print desired columns for visuals
+bikes_office=bike_df[['Year','Month','Day','Min_walk','No_blocks','Seconds_per_Block','Blocks_ride_minute','Total_minutes_ride','Number_blocks_to_office']].copy()
+print(bikes_office)
+
 
 
 
