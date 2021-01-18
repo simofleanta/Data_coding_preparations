@@ -58,6 +58,17 @@ bike_df['Day']=bike_df['year'].dt.day_name()
 
 print(bike_df.head(3))
 
+#calculate how many blocks can people ride in one minute given their minutes walk?
+
+bike_df['Bike_ride_minute']=60/bike_df.Seconds_per_Block
+bike_df['Total_minutes_ride']=bike_df.No_blocks/bike_df.Bike_ride_minute
+#finally calculate the difference between minutes walk and ride 
+bike_df['Number_blocks_to_office']=bike_df.Min_walk-bike_df.Total_minutes_ride
+
+print(bike_df)
+
+
+
 
  
 
