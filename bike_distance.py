@@ -63,9 +63,11 @@ print(bike_df.head(3))
 bike_df['Bike_ride_minute']=60/bike_df.Seconds_per_Block
 bike_df['Total_minutes_ride']=bike_df.No_blocks/bike_df.Bike_ride_minute
 #finally calculate the difference between minutes walk and ride 
-bike_df['Number_blocks_to_office']=bike_df.Min_walk-bike_df.Total_minutes_ride
+bike_df['Number_blocks_to_office']=bike_df.No_blocks-bike_df.Total_minutes_ride
 
 print(bike_df)
+
+
 
 
 
