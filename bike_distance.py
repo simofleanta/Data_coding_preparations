@@ -61,6 +61,10 @@ print(bike_df.head(3))
 
 #calculations
 
+#1 what is the number of blocks people walk to their office 
+#2 as it takes a couple of minutes more thatn on the bike, people walk 1 minute per block and ride more blocks in 60 seconds 
+#3 which leads to the fifference between number of blocks and the actual ride mintes 
+
 #How many blocks can people ride in 60 seconds  given their minutes walk?
 bike_df['Blocks_ride_minute']=60/bike_df.Seconds_per_Block
 
@@ -69,9 +73,6 @@ bike_df['Total_minutes_ride']=bike_df.No_blocks/bike_df.Blocks_ride_minute
 
 #finally what is the difference between number of blocks and  minutes on byke to office ?
 bike_df['Number_blocks_to_office']=bike_df.No_blocks-bike_df.Total_minutes_ride
-
-
-#
 
 #print desired columns for visuals
 bikes_office=bike_df[['Year','Month','Day','Min_walk','No_blocks','Seconds_per_Block','Blocks_ride_minute','Total_minutes_ride','Number_blocks_to_office']].copy()
