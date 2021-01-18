@@ -83,17 +83,16 @@ print(bikes_office)
 
 # PLots
 
-#correlation map
-sns.heatmap(bikes_office.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1, yticklabels=True,xticklabels=True)
-plt.show()
 
 #How far the people travel to their work?
 f,axes = plt.subplots(1,2, figsize=(15, 10))
-A=sns.scatterplot(bikes_office.Min_walk, bikes_office.Total_minutes_ride, s=100, edgecolor='black', alpha=0.5,\
+A=sns.scatterplot(bikes_office.Min_walk, bikes_office.Number_blocks_to_office, s=100, edgecolor='black', alpha=0.5,\
      palette='Blues',ax=axes[0])
 
-B=sns.scatterplot(bikes_office.Seconds_per_Block, bikes_office.Number_blocks_to_office, s=100, edgecolor='black', alpha=0.5,\
-     palette='Blues',ax=axes[1])
+B=sns.scatterplot(bikes_office.Total_minutes_ride, bikes_office.Number_blocks_to_office, s=100, edgecolor='black', alpha=0.5,\
+     palette='viridis',ax=axes[1])
+
+plt.show()
 
 
 
