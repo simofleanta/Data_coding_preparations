@@ -95,6 +95,24 @@ B=sns.scatterplot(bikes_office.Total_minutes_ride, bikes_office.Number_blocks_to
 plt.show()
 
 
+#Filter for Thursday  
+
+bike_day=bikes_office[bikes_office.Day=='Thursday']
+
+
+#Which day is more frequently on th bike?
+
+f,axes = plt.subplots(1,2, figsize=(15, 10))
+C=sns.scatterplot(bike_day.Min_walk, bike_day.Total_minutes_ride, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues',ax=axes[0])
+
+D=sns.boxplot(bikes_office.Day, bikes_office.Total_minutes_ride, palette='viridis',hue_order=[True,False],ax=axes[1])
+
+plt.show()
+
+
+
+
 
 
 
