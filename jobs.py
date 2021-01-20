@@ -18,8 +18,8 @@ import plotly.express as px
 import datetime
 
 #open file
-bis=pd.read_csv('BusinessAnalyst.csv')
+bis=pd.read_csv('BusinessAnalyst.csv', na_values=[-1,'-1'])
 print(bis.columns)
-bis=DataFrame(bis.head(60))
-print(bis.head(60))
-
+bis=DataFrame(bis)
+print(bis)
+print(bis.info())
