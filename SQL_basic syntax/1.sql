@@ -1,10 +1,10 @@
-REM   Script: First set of exs
-REM   All good on sql now to move on exs
+-- REM   Script: First set of exs
+-- REM   All good on sql now to move on exs
 
 update hr.employees set salary =salary +(salary * 5/100);
 
-select salary from hr.employees 
-update hr.employees set salary =salary +(salary * 5/100);
+    select salary from hr.employees 
+    update hr.employees set salary =salary +(salary * 5/100);
 
 update hr.employees set salary =salary +(salary * 5/100);
 
