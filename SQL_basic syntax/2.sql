@@ -73,7 +73,6 @@ where salary<24000
  
  
 ;
-
 select (employee_id), city from hr.emp_details_view 
 where salary<24000 
  
