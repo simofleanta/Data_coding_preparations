@@ -22,4 +22,28 @@ bis=pd.read_csv('BusinessAnalyst.csv', na_values=[-1,'-1'])
 print(bis.columns)
 bis=DataFrame(bis)
 print(bis)
-print(bis.info())
+
+
+from wordcloud import WordCloud
+
+stopWords = stopwords.words('english')
+tokenizer = RegexpTokenizer(r'\w+')
+
+def get_wordcloud(series): #simple function to tokenize and plot a said column
+    word_cloud = ''
+    
+    for job in series:
+        tokens = tokenizer.tokenize(job)
+        for token in tokens:
+            if token not in stopWords:
+                word_cloud += ''.join(token) + ' '
+
+    wordcloud = WordCloud(height=500,margin=0,max_words=300,
+                          colormap='Set1').generate(word_cloud) 
+    plt.imshow(wordcloud) 
+    plt.axis("off") 
+    plt.tight_layout(pad = 0) 
+
+job_title=bis['Job_Title'].apply(lambda x: x.lower())
+get_wordcloud()
+
