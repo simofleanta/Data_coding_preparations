@@ -127,7 +127,18 @@ plt.show()
 
 #SPEED ON LANES
 
+
+
 bike_speed=bike_df[['Year','Month','Day','Total_minutes_ride','Number_blocks_to_office','Ride_speed','Increase1']].copy()
+print(bike_speed)
+
+bike_speed['Increase2']=bike_speed.Increase1*0.1
+bike_speed['All_Speed_Increase']=bike_speed.Increase2+bike_speed.Increase1
+bike_speed['Final_Speed_As%']=bike_speed.Ride_speed*43/100
+print(bike_speed)
+
+
+
 
 
 
