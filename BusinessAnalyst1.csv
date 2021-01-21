@@ -127,7 +127,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.3","New York, NY",50,Company - Private,IT Services,Information Technology
 1897,TGS Central Teams Business Partner - Supply Chain Planning Lead,159,3.6,"BD
 3.6","Franklin Lakes, NJ",10000,Company - Public,Health Care Products Manufacturing,Manufacturing
-2010,Business Analyst,159,Investment Banking & Asset Management,SquarePeg,"New York, NY",50,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,159,3.6,SquarePeg,"New York, NY",50,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Analyst,159,3,"Blue Ocean Ventures
 3.0","New York, NY",20,Company - Private,Staffing & Outsourcing,Business Services
 2010,Business Analyst,159,3.9,"JPMorgan Chase
@@ -150,7 +150,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.6","New York, NY",50,Company - Private,Investment Banking & Asset Management,Finance
 1997,Business Analyst,159,3.6,"Signature Consultants
 3.6","Jersey City, NJ",100,Company - Private,Staffing & Outsourcing,Business Services
-2010,Business Analyst,159,Investment Banking & Asset Management,OPPENHEIMER & CO,"New York, NY",1000,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,159,4.3,OPPENHEIMER & CO,"New York, NY",1000,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 2002,"Salesforce Business Systems Analyst, Advertising",159,3.9,"Roku
 3.9","New York, NY",100,Company - Public,IT Services,Information Technology
 2010,Senior Business Analyst,159,4.3,"Flipt
@@ -175,7 +175,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2.6","New York, NY",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 1984,Business Analyst,159,4.1,"Mitchell Martin
 4.1","New York, NY",1000,Company - Private,Staffing & Outsourcing,Business Services
-2010,Business Analyst,135,Investment Banking & Asset Management,Pierce Technology Corp,"New York, NY",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,135,4.3,Pierce Technology Corp,"New York, NY",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Analyst,135,3.9,"Insigma Inc
 3.9","Jersey City, NJ",50,Company - Private,Computer Hardware & Software,Information Technology
 2010,Business Analyst,135,4.6,"Conch Technologies, Inc
@@ -226,13 +226,13 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.7","New York, NY",10000,Company - Public,Banks & Credit Unions,Finance
 2007,Senior Business Analyst,135,4.6,"Delv
 4.6","New York, NY",1000,Company - Private,Investment Banking & Asset Management,Finance
-2010,Business Analyst,135,Investment Banking & Asset Management,Options City,"New York, NY",50,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
-2010,Business Analyst,135,Investment Banking & Asset Management,"TSR Consulting Services, Inc.","New York, NY",10,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,135,4.3,Options City,"New York, NY",50,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,135,4.3,"TSR Consulting Services, Inc.","New York, NY",10,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1983,Business Analyst,135,4.3,"DATA Inc.
 4.3","New York, NY",1000,Company - Private,IT Services,Information Technology
-2010,Business Analyst,135,Investment Banking & Asset Management,zb.io,"New York, NY",50,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
-2010,Business Analyst,82,Investment Banking & Asset Management,Recruiting Pals,"New York, NY",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
-2010,Business Analyst,82,Investment Banking & Asset Management,Sky I.T. Group (Sky Business Intelligence Team),"New York, NY",50,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,135,4.3,zb.io,"New York, NY",50,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,82,4.3,Recruiting Pals,"New York, NY",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,82,4.3,Sky I.T. Group (Sky Business Intelligence Team),"New York, NY",50,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1995,Business Analyst,82,3.8,"Apex Systems
 3.8","New York, NY",100,Subsidiary_ Business_Segment,Staffing & Outsourcing,Business Services
 1997,Business Analyst,82,3.5,"L&T Infotech
@@ -287,7 +287,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.9","New York, NY",50,Contract,Staffing & Outsourcing,Business Services
 2001,Sr. Business Analyst (Capital Markets),82,3.6,"Synechron
 3.6","New York, NY",50,Company - Private,IT Services,Information Technology
-2010,"Senior Data Analyst (E-commerce, Marketing)",82,Investment Banking & Asset Management,JR Cigar/MC Management,"Whippany, NJ",50,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,"Senior Data Analyst (E-commerce, Marketing)",82,4.3,JR Cigar/MC Management,"Whippany, NJ",50,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Analyst,92,4.1,"Polished Technologies
 4.1","New York, NY",50,Company - Private,Chemical Manufacturing,Manufacturing
 2014,Data Analyst,92,3.9,"Point72
@@ -298,16 +298,16 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.3","New York, NY",50,Company - Private,Investment Banking & Asset Management,Finance
 1968,Business Analyst,92,3.7,"Tata Consultancy Services (North America)
 3.7","Newark, NJ",50,Subsidiary_ Business_Segment,IT Services,Information Technology
-2010,Business Analyst,92,Investment Banking & Asset Management,MLWIZ Team,"New York, NY",200,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,92,4.3,MLWIZ Team,"New York, NY",200,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2000,Business Analyst,92,3.6,"Iconma, L.L.C.
 3.6","Newark, NJ",200,Company - Private,Staffing & Outsourcing,Business Services
 1984,Senior Business Analyst,92,4.1,"Mitchell Martin
 4.1","New York, NY",200,Company - Private,Staffing & Outsourcing,Business Services
-2010,Business Analyst,92,Investment Banking & Asset Management,Babbel - NYC,"New York, NY",200,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
-2010,Business Analyst,92,Investment Banking & Asset Management,EWS Systems,"New York, NY",200,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,92,4.3,Babbel - NYC,"New York, NY",200,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,92,4.3,EWS Systems,"New York, NY",200,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Analyst,92,4.8,"Vastek, Inc.
 4.8","New York, NY",200,Contract,Investment Banking & Asset Management,Investment Banking & Asset Management
-2010,Business Systems Analyst,92,Investment Banking & Asset Management,Recruithook,"Paramus, NJ",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Systems Analyst,92,4.3,Recruithook,"Paramus, NJ",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Analyst II,92,3.6,"Randstad
 3.6","New York, NY",100,Subsidiary_ Business_Segment,Staffing & Outsourcing,Business Services
 2010,Business Analyst,92,3.8,"Synaptein Solutions Inc.
@@ -316,7 +316,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.1","New York, NY",50,Company - Public,IT Services,Information Technology
 2012,Business Analyst,92,5,"Creative Data Resources
 5.0","New York, NY",50,Company - Private,Staffing & Outsourcing,Business Services
-2010,Business Analyst,92,Investment Banking & Asset Management,Zenart,"New York, NY",50,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,92,4.3,Zenart,"New York, NY",50,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2008,Business Analyst,92,3.4,"HHAeXchange
 3.4","New York, NY",50,Company - Private,Enterprise Software & Network Solutions,Information Technology
 2004,Business Analyst,92,4.5,"Green Key Resources
@@ -327,7 +327,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.0","New York, NY",50,Subsidiary_ Business_Segment,Video Games,Media
 1967,Business Analyst,92,3.8,"Capgemini
 3.8","New York, NY",50,Company - Public,Enterprise Software & Network Solutions,Information Technology
-2010,Business Analyst,92,Investment Banking & Asset Management,C&G Consulting Services,"Hoboken, NJ",50,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,92,4.3,C&G Consulting Services,"Hoboken, NJ",50,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1919,Senior Business Analyst,92,3.7,"The New School
 3.7","New York, NY",50,College / University,Colleges & Universities,Education
 2010,Business Analyst,92,4,"Lorven Technologies Inc
@@ -340,10 +340,10 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.1","New York, NY",200,Company - Private,Staffing & Outsourcing,Business Services
 1906,Business Analyst,92,3.2,"Metropolitan Jewish Health System
 3.2","Brooklyn, NY",200,Nonprofit Organization,Health Care Services & Hospitals,Health Care
-2010,Business Analyst,92,Investment Banking & Asset Management,Ann Enterprises Inc,"New York, NY",200,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,92,4.3,Ann Enterprises Inc,"New York, NY",200,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 1961,"Intern, IT Business Analyst",85,3.2,"Vera Institute of Justice
 3.2","Brooklyn, NY",200,Nonprofit Organization,Social Assistance,Non-Profit
-2010,Business Analyst,85,Investment Banking & Asset Management,DedicatedInfra,"Jersey City, NJ",200,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,85,4.3,DedicatedInfra,"Jersey City, NJ",200,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Analyst,85,3.7,"The Jewish Federations of North America
 3.7","New York, NY",200,Nonprofit Organization,Religious Organizations,Non-Profit
 2010,Business Analyst,85,3.5,"Watermark (NY)
@@ -360,7 +360,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2.5","New York, NY",100,Company - Private,IT Services,Information Technology
 2005,Business Analyst,85,3.3,"PROLIM Global Corporation
 3.3","New York, NY",100,Company - Private,Enterprise Software & Network Solutions,Information Technology
-2010,Business System Analyst,85,Investment Banking & Asset Management,Resource1,"Newark, NJ",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business System Analyst,85,4.3,Resource1,"Newark, NJ",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 2006,Business Systems Analyst,85,4.7,"Staid Logic LLC
 4.7","New York, NY",100,Company - Private,IT Services,Information Technology
 1994,Business Analyst,85,3.5,"ZT Systems
@@ -381,12 +381,12 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2.7","New York, NY",100,Company - Private,Health Care Services & Hospitals,Health Care
 1987,Business Analyst - Commercial Lending,85,5,"Blue Horizon Tek Solutions
 5.0","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
-2010,Business Analyst,85,Investment Banking & Asset Management,Kforce Technology Staffing,"Madison, NJ",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,85,4.3,Kforce Technology Staffing,"Madison, NJ",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Systems Analyst,85,5,"Softova
 5.0","Iselin, NJ",100,Company - Private,IT Services,Information Technology
 2009,Entry-Level Recruitment Analyst,85,3.8,"Wynden Stark
 3.8","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
-2010,Senior QA Analyst,85,Investment Banking & Asset Management,UNIVERSAL Technologies (NY),"Brooklyn, NY",100,Unknown,IT Services,Information Technology
+2010,Senior QA Analyst,85,4.3,UNIVERSAL Technologies (NY),"Brooklyn, NY",100,Unknown,IT Services,Information Technology
 2010,Business Analyst,85,5,"ITech Recruiting
 5.0","Jersey City, NJ",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Analyst (Volunteer),85,2,"WhoWhatWhy
@@ -399,7 +399,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.5","Brooklyn, NY",100,Company - Public,Staffing & Outsourcing,Business Services
 2008,Business Analyst,85,5,"Staffigo Technical Services, LLC
 5.0","New York, NY",100,Company - Private,IT Services,Information Technology
-2010,Agile Business Analyst,131,Investment Banking & Asset Management,Cquest,"New York, NY",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Agile Business Analyst,131,4.3,Cquest,"New York, NY",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 1994,Business Analyst,131,4.5,"Creative Financial Staffing
 4.5","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
 2010,Business Analyst,131,4.3,"MVP Consulting Plus Inc
@@ -444,7 +444,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.5","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
 2010,Oracle BI Business System Analyst,131,4.7,"UTC Associates, Inc.
 4.7","New York, NY",100,Company - Private,Accounting,Accounting & Legal
-2010,Business Analyst,131,Investment Banking & Asset Management,Pinkus Partners,"New York, NY",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,131,4.3,Pinkus Partners,"New York, NY",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 1995,Business Systems Analyst,131,3.8,"Apex Systems
 3.8","Summit, NJ",100,Subsidiary_ Business_Segment,Staffing & Outsourcing,Business Services
 1852,Systems Support Analyst 5,131,3.6,"Wells Fargo
@@ -465,7 +465,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.9","New York, NY",100,Company - Private,IT Services,Information Technology
 1841,Data Analyst,103,4.1,"NYU Langone Health
 4.1","New York, NY",100,Hospital,Health Care Services & Hospitals,Health Care
-2010,IBA: Independent Business Analyst,103,Investment Banking & Asset Management,Firmus,"New York, NY",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,IBA: Independent Business Analyst,103,4.3,Firmus,"New York, NY",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Analyst,103,1,"Incipient Corp.
 1.0","Rutherford, NJ",100,Company - Private,Enterprise Software & Network Solutions,Information Technology
 1995,Business Analyst III,103,3.8,"Apex Systems
@@ -486,7 +486,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.4","New York, NY",100,Company - Private,Brokerage Services,Finance
 2006,BI Analyst,103,3.5,"Genuent
 3.5","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
-2010,Business & Process Transformation Analyst,103,Investment Banking & Asset Management,ZnA Inc,"New York, NY",100,Company - Private,IT Services,Information Technology
+2010,Business & Process Transformation Analyst,103,4.3,ZnA Inc,"New York, NY",100,Company - Private,IT Services,Information Technology
 2010,Business Analyst&nbsp / Business Analyst,103,3.4,"TECHNOCRAFT Solutions
 3.4","New York, NY",100,Company - Private,Advertising & Marketing,Business Services
 1837,Senior Project Manager/Business Analyst,103,3.6,"Hachette Book Group USA
@@ -529,7 +529,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.0","Newark, NJ",100,Company - Private,IT Services,Information Technology
 2011,Sales Operations Analyst Intern (Spring/Summer),100,3.4,"HelloFresh
 3.4","New York, NY",100,Company - Public,"Health, Beauty, & Fitness",Consumer Services
-2010,Trading Desk Business Analyst,100,Investment Banking & Asset Management,OPPENHEIMER & CO,"New York, NY",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Trading Desk Business Analyst,100,4.3,OPPENHEIMER & CO,"New York, NY",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 1972,Salesforce Business Analyst,100,4.3,"WinterWyman
 4.3","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
 2006,Data Analyst,100,4.9,"Teachers Pay Teachers
@@ -540,10 +540,10 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.3","New York, NY",100,Company - Public,"Department, Clothing, & Shoe Stores",Retail
 1919,HR Business Analyst (Workday),100,3.2,"American International Group
 3.2","New York, NY",100,Company - Public,Insurance Carriers,Insurance
-2010,Senior Business Analyst,100,Investment Banking & Asset Management,Talium Advisors,"New York, NY",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Senior Business Analyst,100,4.3,Talium Advisors,"New York, NY",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2016,Business_Intelligence_Analyst,100,5,"ingenium.agency
 5.0","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
-2010,Business Analyst/Project Manager,100,Investment Banking & Asset Management,Alans Group,"New York, NY",100,Unknown,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst/Project Manager,100,4.3,Alans Group,"New York, NY",100,Unknown,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Technology Business Analyst,100,3.6,"Prospect Infosys
 3.6","New York, NY",100,Company - Private,Consulting,Business Services
 2012,"Business Analyst, Clinical Product",88,4.5,"CentralReach
@@ -580,7 +580,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.7","New York, NY",100,Company - Public,IT Services,Information Technology
 1994,IT Business Systems Analyst,88,4.6,"EDI Staffing
 4.6","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
-2010,Salesforce Business Analyst,88,Investment Banking & Asset Management,CNS Search Group,"New York, NY",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Salesforce Business Analyst,88,4.3,CNS Search Group,"New York, NY",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 1856,Senior Business Analyst/Project Manager # 154418,160,3.8,"Credit Suisse
 3.8","New York, NY",100,Company - Public,Investment Banking & Asset Management,Finance
 1982,Senior Business Analyst – Agency Processing Management,160,3.4,"Plymouth Rock Assurance
@@ -621,7 +621,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.3","Glendale, CA",100,Company - Private,KInvestment Banking & Asset Management2 Education,Education
 1977,Analyst - University Recruiting - Graduates (anticipated hiring July/August),90,3.1,"Urban Science
 3.1","Long Beach, CA",100,Company - Private,IT Services,Information Technology
-2008,Business Manager (Must speak Chinese / Mandarin),90,Investment Banking & Asset Management,Allied Home LLC,"Commerce, CA",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
+2008,Business Manager (Must speak Chinese / Mandarin),90,4.3,Allied Home LLC,"Commerce, CA",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 1912,Graveyard Shift GSOC Analyst,90,3.8,"Paramount Pictures
 3.8","Hollywood, CA",100,Subsidiary_ Business_Segment,Motion Picture Production & Distribution,Media
 2015,Business_Intelligence_Analyst,90,4,"NEXT Trucking
@@ -636,7 +636,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.4","Los Angeles, CA",100,Company - Private,Food & Beverage Manufacturing,Manufacturing
 1929,Principal Business Analyst,90,4.4,"Socalgas
 4.4","Los Angeles, CA",100,Subsidiary_ Business_Segment,Utilities,"Oil, Gas, Energy & Utilities"
-2010,Business Manager,90,Investment Banking & Asset Management,Laser Land,"West Covina, CA",100,Unknown,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Manager,90,4.3,Laser Land,"West Covina, CA",100,Unknown,Investment Banking & Asset Management,Investment Banking & Asset Management
 1994,Senior Analyst,90,2.7,"Spin Master Ltd
 2.7","Los Angeles, CA",100,Company - Public,Consumer Products Manufacturing,Manufacturing
 1996,Business Analyst,90,4,"Prosum
@@ -711,7 +711,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2.6","Torrance, CA",100,Contract,Computer Hardware & Software,Information Technology
 2011,Business Analyst,120,3.6,"Ames IT and Numeric Solutions, LLC
 3.6","El Monte, CA",100,Company - Private,Computer Hardware & Software,Information Technology
-2010,"Analyst, Business Analysis & Operations",120,Investment Banking & Asset Management,WB Digital Networks,"Burbank, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,"Analyst, Business Analysis & Operations",120,4.3,WB Digital Networks,"Burbank, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2000,Business_Intelligence_Analyst - Entry,120,3.8,"Enterprise Solutions Inc
 3.8","Los Angeles, CA",100,Company - Private,Staffing & Outsourcing,Business Services
 1950,Consumer Insights Analyst,120,3.8,"King's Hawaiian
@@ -724,7 +724,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.9","Beverly Hills, CA",100,Company - Private,Venture Capital & Private Equity,Finance
 2010,Marketing Analyst,120,3.9,"Jam City
 3.9","Culver City, CA",100,Company - Private,Video Games,Media
-2010,Business Analyst,120,Investment Banking & Asset Management,Eleven Recruiting - CHURN,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,120,4.3,Eleven Recruiting - CHURN,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1993,Business Analyst - Contractor Specialist,134,4.5,"Rose International
 4.5","Burbank, CA",100,Company - Private,Staffing & Outsourcing,Business Services
 1998,Sr. SaaS Business Analyst,134,4.2,"Vmware
@@ -739,7 +739,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2.0","Los Angeles, CA",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 1999,Mid Level Business Analyst,134,4.8,"Career Movement
 4.8","Los Angeles, CA",100,Company - Private,IT Services,Information Technology
-2010,Business Analyst,134,Investment Banking & Asset Management,Kforce Technology Staffing,"Monterey Park, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,134,4.3,Kforce Technology Staffing,"Monterey Park, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2008,Urgent - Entry Level Business Analyst,134,5,"Staffigo Technical Services, LLC
 5.0","Los Angeles, CA",100,Company - Private,IT Services,Information Technology
 2017,Business Data Analyst,134,4.5,"PUBG Santa Monica
@@ -766,7 +766,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.7","Gardena, CA",100,Company - Private,Health Care Services & Hospitals,Health Care
 2002,Business Systems Analyst,134,3.1,"Relevante, Inc.
 3.1","Los Angeles, CA",100,Company - Private,Consulting,Business Services
-2010,(Entry-Level) Business Consultants Needed - Will Train!,134,Investment Banking & Asset Management,Aflac Los Angeles,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,(Entry-Level) Business Consultants Needed - Will Train!,134,4.3,Aflac Los Angeles,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2005,IT Business Analyst,134,3.8,"Diversant LLC
 3.8","Glendale, CA",100,Company - Private,Staffing & Outsourcing,Business Services
 1957,Business Analyst,134,3,"Athens Services
@@ -781,15 +781,15 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.6","Los Angeles, CA",100,Government,Municipal Governments,Government
 2019,Business Analyst,134,3.4,"L3Harris
 3.4","Torrance, CA",100,Company - Public,Aerospace & Defense,Aerospace & Defense
-2010,Business Analyst,134,Investment Banking & Asset Management,VULTUSINC,"Bell, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,134,4.3,VULTUSINC,"Bell, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1993,Business Analyst 3,118,4.5,"Rose International
 4.5","Rosemead, CA",100,Company - Private,Staffing & Outsourcing,Business Services
-2010,Business Analyst,118,Investment Banking & Asset Management,Groundwork Coffee Roasters,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,118,4.3,Groundwork Coffee Roasters,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1977,HR Analyst,118,3.4,"Harbor Freight Tools
 3.4","Calabasas, CA",100,Company - Private,Home Centers & Hardware Stores,Retail
 2002,Sales Incentive Analyst,118,3.5,"Bluebeam, Inc.
 3.5","Pasadena, CA",100,Subsidiary_ Business_Segment,Computer Hardware & Software,Information Technology
-2010,Business Analyst,118,Investment Banking & Asset Management,Caliber Sourcing,"Los Angeles, CA",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,118,4.3,Caliber Sourcing,"Los Angeles, CA",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 1894,Business Systems Analyst- Project Management Applications,118,2.3,"Tutor Perini
 2.3","Los Angeles, CA",100,Company - Public,Construction,"Construction, Repair & Maintenance"
 2010,Business Analyst,118,2.5,"Enclipse
@@ -802,12 +802,12 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.0","Alhambra, CA",100,Company - Private,Health Care Services & Hospitals,Health Care
 1931,Market Data Analyst,118,3.9,"Capital Group
 3.9","Los Angeles, CA",100,Company - Private,Investment Banking & Asset Management,Finance
-2010,Business Analyst,118,Investment Banking & Asset Management,Trovetechs Inc,"Manhattan Beach, CA",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,118,4.3,Trovetechs Inc,"Manhattan Beach, CA",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2014,Data Analyst,118,5,"Wellth Inc.
 5.0","Los Angeles, CA",100,Company - Private,Enterprise Software & Network Solutions,Information Technology
 2010,Business Analyst,118,3.1,"Aramco Imports Inc
 3.1","Commerce, CA",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
-2010,Business Analyst,118,Investment Banking & Asset Management,Rishabh RPO,"Pasadena, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,118,4.3,Rishabh RPO,"Pasadena, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1996,Associate Reporting Analyst,118,3.2,"Stamps.com
 3.2","El Segundo, CA",100,Company - Public,Computer Hardware & Software,Information Technology
 1906,Sr. Business Analyst,118,3.8,"NBC Universal
@@ -834,7 +834,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2.5","Los Angeles, CA",100,Company - Private,Industrial Manufacturing,Manufacturing
 2003,Business Operations Analyst BF,118,4,"Mainz Brady Group
 4.0","Los Angeles, CA",100,Company - Private,Staffing & Outsourcing,Business Services
-2010,Data Analyst,118,Investment Banking & Asset Management,Hospitality Training Academy,"Los Angeles, CA",100,Nonprofit Organization,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Data Analyst,118,4.3,Hospitality Training Academy,"Los Angeles, CA",100,Nonprofit Organization,Investment Banking & Asset Management,Investment Banking & Asset Management
 2001,Business Solutions Analyst,118,3.6,"Torrid
 3.6","City of Industry, CA",100,Company - Private,"Department, Clothing, & Shoe Stores",Retail
 2015,Sr. Business_Intelligence_Analyst,151,4,"NEXT Trucking
@@ -845,8 +845,8 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 1.7","Los Angeles, CA",100,Nonprofit Organization,Social Assistance,Non-Profit
 2010,Business Systems Analyst,151,3.6,"Randstad
 3.6","Burbank, CA",100,Subsidiary_ Business_Segment,Staffing & Outsourcing,Business Services
-2010,Senior Business Analyst,151,Investment Banking & Asset Management,Eleven Recruiting - CHURN,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
-2010,Business Analyst Lead,151,Investment Banking & Asset Management,IT Avalon,"Monterey Park, CA",100,Unknown,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Senior Business Analyst,151,4.3,Eleven Recruiting - CHURN,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst Lead,151,4.3,IT Avalon,"Monterey Park, CA",100,Unknown,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Analyst,151,2.6,"TRISTAR Risk Management
 2.6","Signal Hill, CA",100,Company - Private,Insurance Agencies & Brokerages,Insurance
 1999,Business Analyst,151,4.1,"UST Global
@@ -859,13 +859,13 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2.9","Burbank, CA",100,Company - Private,Accounting,Accounting & Legal
 2014,Data Analyst,151,3.9,"Lucky Day
 3.9","Los Angeles, CA",100,Company - Private,Internet,Information Technology
-2010,Business Systems Analyst,151,Investment Banking & Asset Management,Caliber Sourcing,"Los Angeles, CA",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Systems Analyst,151,4.3,Caliber Sourcing,"Los Angeles, CA",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,CRM Administrator / Business Analyst (Finance Industry),151,3.3,"Kayne Anderson Rudnick
 3.3","Los Angeles, CA",100,Subsidiary_ Business_Segment,Investment Banking & Asset Management,Finance
-2010,Business Systems Analyst,151,Investment Banking & Asset Management,Kforce Technology Staffing,"Burbank, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Systems Analyst,151,4.3,Kforce Technology Staffing,"Burbank, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1888,Business System Analyst,151,3.6,"Abbott Laboratories
 3.6","Sylmar, CA",100,Company - Public,Health Care Services & Hospitals,Health Care
-2010,Business Analyst,151,Investment Banking & Asset Management,"Recargo, Inc., makers of PlugShare","El Segundo, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,151,4.3,"Recargo, Inc., makers of PlugShare","El Segundo, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1997,Operational Assurance Business Analyst III,151,3.1,"L.A. Care Health Plan
 3.1","Los Angeles, CA",100,Nonprofit Organization,Health Care Services & Hospitals,Health Care
 2010,Business Analyst/Specialist,151,3.5,"Leo Tech, LLC
@@ -874,19 +874,19 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.1","Los Angeles, CA",100,Company - Private,Consulting,Business Services
 2003,"Business Analyst, Sales and Avails",151,3.7,"Turner Broadcasting
 3.7","Burbank, CA",100,Subsidiary_ Business_Segment,TV Broadcast & Cable Networks,Media
-2010,Business Systems Analyst,151,Investment Banking & Asset Management,Pacific Technical Staffing,"Fullerton, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Systems Analyst,151,4.3,Pacific Technical Staffing,"Fullerton, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1999,Technical Lead / Business Analyst,151,4.6,"USDM Life Sciences
 4.6","Santa Monica, CA",100,Company - Private,Consulting,Business Services
 2010,Project Manager / Business Analyst,151,2.9,"DNTG
 2.9","Buena Park, CA",100,Company - Private,Colleges & Universities,Education
-2010,"Business Analyst, Transaction Advisory Services - Capital Transformation - Operational Transaction S",151,Investment Banking & Asset Management,Ernst & Young LLP,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,"Business Analyst, Transaction Advisory Services - Capital Transformation - Operational Transaction S",151,4.3,Ernst & Young LLP,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1996,Financial Operations Analyst,151,3.2,"Stamps.com
 3.2","El Segundo, CA",100,Company - Public,Computer Hardware & Software,Information Technology
 1908,Business Systems Analyst for HR and Payroll,151,4.1,"Biola University
 4.1","La Mirada, CA",100,College / University,Colleges & Universities,Education
 1968,Business Analyst,151,3.9,"PEAK Technical Staffing USA
 3.9","Wilmington, CA",100,Company - Private,Staffing & Outsourcing,Business Services
-2010,IT Business Analyst,151,Investment Banking & Asset Management,San Gabriel Valley Water Company,"Whittier, CA",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,IT Business Analyst,151,4.3,San Gabriel Valley Water Company,"Whittier, CA",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 2018,Survey Data Analyst,151,5,"First Professional Services
 5.0","Los Angeles, CA",100,Subsidiary_ Business_Segment,Internet,Information Technology
 1997,Business Analyst II,151,3.1,"L.A. Care Health Plan
@@ -897,18 +897,18 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.2","Los Angeles, CA",100,Nonprofit Organization,Health Fundraising Organizations,Non-Profit
 1989,Business Analyst,186,4.5,"Century Group (CA)
 4.5","El Segundo, CA",100,Company - Private,Staffing & Outsourcing,Business Services
-2010,Senior Business Analyst,186,Investment Banking & Asset Management,Caliber Sourcing,"Los Angeles, CA",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Senior Business Analyst,186,4.3,Caliber Sourcing,"Los Angeles, CA",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 1981,Business Analyst,186,2.6,"Superior Grocers
 2.6","Santa Fe Springs, Los Angeles, CA",100,Company - Private,Food & Beverage Stores,Retail
-2010,Business Analyst,186,Investment Banking & Asset Management,Pinkus Partners,"Los Angeles, CA",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst,186,4.3,Pinkus Partners,"Los Angeles, CA",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 1935,Wealth Management Analyst*,186,3.8,"Morgan Stanley
 3.8","Pasadena, CA",100,Company - Public,Investment Banking & Asset Management,Finance
 2002,Senior Business Analyst,186,3.5,"RemX
 3.5","Los Angeles, CA",100,Subsidiary_ Business_Segment,Staffing & Outsourcing,Business Services
-2010,Business Analyst IV,186,Investment Banking & Asset Management,Kforce Technology Staffing,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst IV,186,4.3,Kforce Technology Staffing,"Los Angeles, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2004,Sharepoint Business Analyst,186,4.3,"IT Resonance Inc
 4.3","Long Beach, CA",100,Company - Private,IT Services,Information Technology
-2010,Business Analyst,186,Investment Banking & Asset Management,Eleven Recruiting - CHURN,"Los Angeles, CA",100,Company - Private,IT Services,Information Technology
+2010,Business Analyst,186,4.3,Eleven Recruiting - CHURN,"Los Angeles, CA",100,Company - Private,IT Services,Information Technology
 1966,Business Systems Analyst,186,4.1,"Kforce
 4.1","Burbank, CA",100,Company - Public,Staffing & Outsourcing,Business Services
 2001,Salesforce Applications Analyst,186,3.9,"BlackLine
@@ -929,7 +929,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.5","Pasadena, CA",1000,Subsidiary_ Business_Segment,Investment Banking & Asset Management,Finance
 2005,Business Systems Analyst,186,3.3,"PROLIM Global Corporation
 3.3","Hawthorne, CA",1000,Company - Private,Enterprise Software & Network Solutions,Information Technology
-2010,Senior Business Analyst,186,Investment Banking & Asset Management,Eleven Recruiting - CHURN,"Los Angeles, CA",1000,Company - Private,IT Services,Information Technology
+2010,Senior Business Analyst,186,4.3,Eleven Recruiting - CHURN,"Los Angeles, CA",1000,Company - Private,IT Services,Information Technology
 1964,Business Analyst -,186,3.3,"AppleOne
 3.3","Los Angeles, CA",1000,Company - Private,Staffing & Outsourcing,Business Services
 2010,Business Analyst (Volunteer),186,2,"WhoWhatWhy
@@ -954,10 +954,10 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.2","Artesia, CA",1000,Subsidiary_ Business_Segment,Staffing & Outsourcing,Business Services
 1885,Strategic Planning & Business Development Analyst - Strategy - Full Time 8 Hour Days (Exempt) (Non-Union),79,4,"Keck Medicine of USC
 4.0","Los Angeles, CA",1000,Hospital,Health Care Services & Hospitals,Health Care
-2010,"Business Analyst, Transaction Advisory Services (Operational Transaction Services - Supply Chain) (M",79,Investment Banking & Asset Management,Ernst & Young LLP,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,"Business Analyst, Transaction Advisory Services (Operational Transaction Services - Supply Chain) (M",79,4.3,Ernst & Young LLP,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2002,Federal - Sr Business Analyst,79,4.2,"Solekai Systems Corp
 4.2","Los Angeles, CA",1000,Company - Private,Computer Hardware & Software,Information Technology
-2010,Project Analyst,79,Investment Banking & Asset Management,Three Point Solutions,"Los Angeles, CA",1000,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Project Analyst,79,4.3,Three Point Solutions,"Los Angeles, CA",1000,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 2007,Data Analyst,79,4.7,"PlayQ
 4.7","Santa Monica, CA",1000,Company - Private,Video Games,Media
 2010,Business Analyst / ERP Business Analyst,79,4,"Two95 International Inc.
@@ -994,7 +994,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.2","Seal Beach, CA",1000,Company - Public,Investment Banking & Asset Management,Finance
 2017,"Senior Business Systems Analyst, Engineering - Future Consideration",79,3.4,"Virgin Orbit
 3.4","Long Beach, CA",1000,Company - Private,Aerospace & Defense,Aerospace & Defense
-2010,Technical Business Analyst,79,Investment Banking & Asset Management,CivicMinds Inc,"South Gate, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Technical Business Analyst,79,4.3,CivicMinds Inc,"South Gate, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Analyst Asset Data Management,79,4,"NRC INC
 4.0","Los Angeles, CA",1000,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2012,SharePoint Migration Business Analyst,79,2.6,"Tentek, Inc.
@@ -1003,7 +1003,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.7","Los Angeles, CA",1000,Company - Public,IT Services,Information Technology
 1973,Budget Analyst,79,3.8,"Tecolote Research
 3.8","El Segundo, CA",1000,Company - Private,Aerospace & Defense,Aerospace & Defense
-2010,Senior Business Analyst,79,Investment Banking & Asset Management,"Recruiting Resources, Inc.","El Segundo, CA",1000,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Senior Business Analyst,79,4.3,"Recruiting Resources, Inc.","El Segundo, CA",1000,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 1982,"Business Analysis Manager, Finance",79,2.8,"99 Cents Only
 2.8","Commerce, CA",1000,Company - Private,General Merchandise & Superstores,Retail
 1948,Senior Business Analyst,79,3.5,"Robert Half
@@ -1014,17 +1014,17 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.6","West Hills, CA",1000,Company - Private,Consumer Products Manufacturing,Manufacturing
 2001,Manager Business Analysis,160,3,"LegalZoom
 3.0","Glendale, CA",1000,Company - Private,Internet,Information Technology
-2010,Senior Cost Engineer/Analyst,160,Investment Banking & Asset Management,Space EA Systems,"Los Angeles, CA",1000,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Senior Cost Engineer/Analyst,160,4.3,Space EA Systems,"Los Angeles, CA",1000,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2008,Urgent - Business Analyst,160,5,"Staffigo Technical Services, LLC
 5.0","Los Angeles, CA",1000,Company - Private,IT Services,Information Technology
 2000,Business Systems Analyst - Salesforce,160,4.6,"120VC
 4.6","Los Angeles, CA",1000,Company - Private,Consulting,Business Services
-2010,Business Analyst ( With Kinaxis Rapid Response) |,160,Investment Banking & Asset Management,Acclive Inc.,"Santa Monica, CA",1000,Unknown,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Analyst ( With Kinaxis Rapid Response) |,160,4.3,Acclive Inc.,"Santa Monica, CA",1000,Unknown,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Compliance Analyst- Ad Review,160,3,"Cetera Financial Group
 3.0","El Segundo, CA",1000,Company - Private,Investment Banking & Asset Management,Finance
 2013,Business_Intelligence_Analyst Tableau From Scratch & Performance Bonuses,160,2.8,"Camden Kelly Corporation
 2.8","Los Angeles, CA",1000,Company - Private,IT Services,Information Technology
-2010,Kinaxis Rapid Response Business Analyst (No Third Party),160,Investment Banking & Asset Management,ITGen Systems,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Kinaxis Rapid Response Business Analyst (No Third Party),160,4.3,ITGen Systems,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2000,IT Business Analyst (Financial Systems),160,3.7,"iSpace, Inc
 3.7","Los Angeles, CA",1000,Company - Private,IT Services,Information Technology
 2018,SAP BPC Business Analyst,160,3,"Unibail-Rodamco-Westfield
@@ -1081,10 +1081,10 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.0","Los Angeles, CA",1000,Company - Private,Construction,"Construction, Repair & Maintenance"
 2006,Systems Analyst,68,3.7,"Hudson Pacific Properties
 3.7","Los Angeles, CA",1000,Company - Public,Real Estate,Real Estate
-2010,Systems Analyst,68,Investment Banking & Asset Management,Kforce Technology Staffing,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Systems Analyst,68,4.3,Kforce Technology Staffing,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,"Sr. Business Analyst, Content & Information Security",68,3.3,"The Walt Disney Studios
 3.3","Glendale, CA",1000,Subsidiary_ Business_Segment,Motion Picture Production & Distribution,Media
-2010,Data Analyst,68,Investment Banking & Asset Management,Eleven Recruiting - CHURN,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Data Analyst,68,4.3,Eleven Recruiting - CHURN,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Supply Chain Business Analyst,68,4,"Lorven Technologies Inc
 4.0","Burbank, CA",1000,Company - Private,Accounting,Accounting & Legal
 1997,Data Analyst,68,4.5,"HireTalent
@@ -1095,7 +1095,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.2","Los Angeles, CA",1000,Company - Private,"Health, Beauty, & Fitness",Consumer Services
 2010,Business_Intelligence_Analyst,64,3.4,"EMINENT, INC.
 3.4","Cerritos, CA",1000,Company - Private,IT Services,Information Technology
-2010,Senior Business Systems Analyst,64,Investment Banking & Asset Management,Therabody,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Senior Business Systems Analyst,64,4.3,Therabody,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 1959,Lead Business_Intelligence_Analyst - Nutrition Portfolio,64,3.5,"Amway Corp
 3.5","Buena Park, CA",1000,Company - Private,Consumer Products Manufacturing,Manufacturing
 1966,Systems Analyst,64,4.1,"Kforce
@@ -1140,10 +1140,10 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2.0","Glendale, CA",1000,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 1973,Financial Analyst,100,3.6,"LRW
 3.6","Los Angeles, CA",1000,Company - Private,Advertising & Marketing,Business Services
-2010,Operations Analyst,100,Investment Banking & Asset Management,101 Commerce,"Los Angeles, CA",1000,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Operations Analyst,100,4.3,101 Commerce,"Los Angeles, CA",1000,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2019,Strategic Planning Analyst,100,3.6,"ViacomCBS Inc.
 3.6","Los Angeles, CA",1000,Company - Public,Motion Picture Production & Distribution,Media
-2010,Business Process Analyst Corporate,100,Investment Banking & Asset Management,Volunteers of America - Greater Los Angeles,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Business Process Analyst Corporate,100,4.3,Volunteers of America - Greater Los Angeles,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2008,Jr.Business Analyst,100,5,"Staffigo Technical Services, LLC
 5.0","Los Angeles, CA",1000,Company - Private,IT Services,Information Technology
 1902,CS-Link Ambulatory Application Analyst,100,3.9,"Cedars-Sinai
@@ -1156,7 +1156,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.0","Los Angeles, CA",1000,Company - Private,Accounting,Accounting & Legal
 2010,Data Analyst,85,4.8,"EP Wealth Advisors
 4.8","Torrance, CA",1000,Company - Private,Investment Banking & Asset Management,Finance
-2010,Product Analyst,85,Investment Banking & Asset Management,InStride,"Los Angeles, CA",1000,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
+2010,Product Analyst,85,4.3,InStride,"Los Angeles, CA",1000,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2003,Business Analyst - Behavioral Healthcare Billing,85,2.9,"Streamline Healthcare
 2.9","Los Angeles, CA",1000,Company - Private,IT Services,Information Technology
 2010,Management Analyst,85,5,"Moving Company Los Angeles
@@ -1167,7 +1167,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.5","Los Angeles, CA",1000,Company - Private,Consulting,Business Services
 2006,Clinical Business Operations Analyst,85,3.7,"Episource
 3.7","Gardena, CA",1000,Company - Private,Health Care Services & Hospitals,Health Care
-2010,Data Analyst,85,Investment Banking & Asset Management,Eleven Recruiting - CHURN,"Los Angeles, CA",1000,Company - Private,IT Services,Information Technology
+2010,Data Analyst,85,4.3,Eleven Recruiting - CHURN,"Los Angeles, CA",1000,Company - Private,IT Services,Information Technology
 2010,Management Analyst,85,3.4,"Department of Defense
 3.4","El Segundo, CA",1000,Government,Federal Agencies,Government
 2010,Management Analyst,85,3.7,"City of Downey
