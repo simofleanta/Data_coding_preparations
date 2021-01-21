@@ -143,7 +143,7 @@ print(bike_speed)
 
 #plotting consumption patterns before app 
 f,axes = plt.subplots(2,2, figsize=(15,30))
-K0=sns.scatterplot(bike_speed.Total_minutes_ride, bike_speed.Ride_speed, s=100, edgecolor='black', alpha=0.5,\
+K0=sns.scatterplot(bike_speed.Total_minutes_ride, bike_speed.Final_Speed_As_p, s=100, edgecolor='black', alpha=0.5,\
      palette='Blues',ax=axes[0,0])
 
 k1=sns.stripplot(x='Day', y='Final_Speed_As_p',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=bike_speed, \
@@ -155,10 +155,6 @@ k3=sns.scatterplot(bike_speed.Number_blocks_to_office, bike_speed.Final_Speed_As
      palette='Blues', ax=axes[1,1])
 
 plt.show()
-
-
-
-
 
 
 #Conclusions 
