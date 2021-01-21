@@ -35,5 +35,33 @@ k3=sns.violinplot(x=BA["Size"], y=BA["Type_ownership"], palette="Blues", ax=axes
 
 plt.show()
 
+# ba study
+
+business_analyst=BA[BA.Job_Title=='Business Analyst']
+print(business_analyst)
+
+f,axes = plt.subplots(2,2, figsize=(9,17))
+K0=sns.stripplot(x='Rating', y='Sector',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=business_analyst,ax=axes[0,0])
+
+k1=sns.violinplot(x=business_analyst["Salary_Estimate_k"], y=business_analyst["Type_ownership"], palette="Blues", ax=axes[0,1])
+
+k2=sns.violinplot(x=business_analyst["Salary_Estimate_k"], y=business_analyst["Sector"], palette="Blues",ax=axes[1,0])
+
+k3=sns.violinplot(x=business_analyst["Size"], y=business_analyst["Type_ownership"], palette="Blues", ax=axes[1,1])
+
+plt.show()
+
+# subplot on ba 
+
+f,axes = plt.subplots(1,2, figsize=(15, 10))
+C=sns.stripplot(x='Rating', y='Sector',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=business_analyst,ax=axes[0])
+
+D=sns.stripplot(x='Salary_Estimate_k', y='Sector',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=business_analyst,ax=axes[1])
+plt.show()
+
+
+
+
+
 
 
