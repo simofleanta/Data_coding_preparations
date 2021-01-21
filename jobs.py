@@ -19,51 +19,38 @@ import datetime
 
 jobs=pd.read_csv('BusinessAnalyst1.csv')
 print(jobs.columns)
-BA=DataFrame(jobs.head(60))
-print(BA.head(60))
+BA=DataFrame(jobs.head(600))
+print(BA.head(600))
 
 
-
-f,axes = plt.subplots(2,2, figsize=(15,30))
-K0=sns.stripplot(x='Rating', y='Type_ownership',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=BA,ax=axes[0,0])
-
-k1=sns.violinplot(x=BA["Salary_Estimate_k"], y=BA["Type_ownership"], palette="Blues", ax=axes[0,1])
-
-k2=sns.violinplot(x=BA["Salary_Estimate_k"], y=BA["Founding_Year"], palette="Blues",ax=axes[1,0])
-
-k3=sns.violinplot(x=BA["Size"], y=BA["Type_ownership"], palette="Blues", ax=axes[1,1])
-
-plt.show()
 
 # ba study
 
 business_analyst=BA[BA.Job_Title=='Business Analyst']
 print(business_analyst)
 
-f,axes = plt.subplots(2,2, figsize=(9,17))
-K0=sns.stripplot(x='Rating', y='Sector',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=business_analyst,ax=axes[0,0])
+business_intelligence=BA[BA.Job_Title=='Business_Intelligence_Analyst']
+print(business_intelligence)
 
-k1=sns.violinplot(x=business_analyst["Salary_Estimate_k"], y=business_analyst["Type_ownership"], palette="Blues", ax=axes[0,1])
+f,axes = plt.subplots(2,2, figsize=(9,9))
+K0=sns.scatterplot(business_intelligence.Salary_Estimate_k, business_intelligence.Rating, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues',ax=axes[0,0])
 
-k2=sns.violinplot(x=business_analyst["Salary_Estimate_k"], y=business_analyst["Sector"], palette="Blues",ax=axes[1,0])
+k1=sns.boxplot(business_intelligence.Salary_Estimate_k, business_intelligence.Sector, palette='viridis',hue_order=[True,False], ax=axes[0,1])
+
+k2=sns.boxplot(business_intelligence.Salary_Estimate_k, business_intelligence.Sector, palette='viridis',hue_order=[True,False],ax=axes[1,0])
 
 k3=sns.violinplot(x=business_analyst["Size"], y=business_analyst["Type_ownership"], palette="Blues", ax=axes[1,1])
 
 plt.show()
 
-# subplot on ba 
-
-f,axes = plt.subplots(1,2, figsize=(15, 10))
-C=sns.stripplot(x='Rating', y='Sector',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=business_analyst,ax=axes[0])
-
-D=sns.stripplot(x='Salary_Estimate_k', y='Sector',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=business_analyst,ax=axes[1])
-plt.show()
 
 
-#BI :)
 
-business_intelligence=BA[BA.Job_Title=='Business_Intelligence_Analys']
-print(business_intelligence)
+
+
+
+
 
 
 
