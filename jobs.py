@@ -25,10 +25,9 @@ print(BA.head(60))
 
 
 f,axes = plt.subplots(2,2, figsize=(15,30))
-K0=sns.scatterplot(BA.Size, BA.Rating, s=100, edgecolor='black', alpha=0.5,\
-     palette='Blues',ax=axes[0,0])
+K0=sns.stripplot(x='Rating', y='Type_ownership',jitter=0.25, marker='*',alpha=0.6, size=10, linewidth=1, palette="Blues", data=BA,ax=axes[0,0])
 
-k1=sns.violinplot(x=BA["Type_ownership"], y=BA["Salary_Estimate_k"], palette="Blues", ax=axes[0,1])
+k1=sns.violinplot(x=BA["Salary_Estimate_k"], y=BA["Type_ownership"], palette="Blues", ax=axes[0,1])
 
 k2=sns.violinplot(x=BA["Salary_Estimate_k"], y=BA["Founding_Year"], palette="Blues",ax=axes[1,0])
 
