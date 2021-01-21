@@ -62,7 +62,7 @@ plt.show()
 
 #BI :)
 
-business_intelligence=BA[BA.Job_Title=='Business Intelligence Analys']
+business_intelligence=BA[BA.Job_Title=='Business_Intelligence_Analys']
 print(business_intelligence)
 
 
