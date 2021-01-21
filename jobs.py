@@ -23,7 +23,6 @@ BA=DataFrame(jobs.head(600))
 print(BA.head(600))
 
 
-
 # difference between ba, bi, da
 
 business_analyst=BA[BA.Job_Title=='Business Analyst']
@@ -65,6 +64,8 @@ C=sns.scatterplot(data_analyst.Salary_Estimate_k, data_analyst.Rating, s=100, ed
 D=sns.boxplot(data_analyst.Salary_Estimate_k, data_analyst.Sector, palette='viridis',hue_order=[True,False],ax=axes[1])
 
 plt.show()
+
+
 
 
 
