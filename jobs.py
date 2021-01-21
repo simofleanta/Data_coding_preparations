@@ -24,23 +24,29 @@ print(BA.head(600))
 
 
 
-# ba study
+# difference between ba, bi, da
 
 business_analyst=BA[BA.Job_Title=='Business Analyst']
 print(business_analyst)
 
 business_intelligence=BA[BA.Job_Title=='Business_Intelligence_Analyst']
 print(business_intelligence)
-"""
+
+data_analyst=BA[BA.Job_Title=='Data Analyst']
+print(data_analyst)
+
+
+#subplot intelligence
+
 f,axes = plt.subplots(1,2, figsize=(15, 10))
 C=sns.scatterplot(business_intelligence.Salary_Estimate_k, business_intelligence.Rating, s=100, edgecolor='black', alpha=0.5,\
      palette='Blues',ax=axes[0])
 
 D=sns.boxplot(business_intelligence.Salary_Estimate_k, business_intelligence.Sector, palette='viridis',hue_order=[True,False],ax=axes[1])
 
-plt.show()"""
+plt.show()
 
-#sub2
+#subplot Business analyst
 
 f,axes = plt.subplots(1,2, figsize=(15, 10))
 C=sns.scatterplot(business_analyst.Salary_Estimate_k, business_analyst.Rating, s=100, edgecolor='black', alpha=0.5,\
@@ -50,25 +56,15 @@ D=sns.boxplot(business_analyst.Salary_Estimate_k, business_analyst.Sector, palet
 
 plt.show()
 
+#subplot data analyst
 
+f,axes = plt.subplots(1,2, figsize=(15, 10))
+C=sns.scatterplot(data_analyst.Salary_Estimate_k, data_analyst.Rating, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues',ax=axes[0])
 
+D=sns.boxplot(data_analyst.Salary_Estimate_k, data_analyst.Sector, palette='viridis',hue_order=[True,False],ax=axes[1])
 
-
-"""
-f,axes = plt.subplots(2,2, figsize=(9,9))
-K0=sns.scatterplot(business_intelligence.Salary_Estimate_k, business_intelligence.Rating, s=100, edgecolor='black', alpha=0.5,\
-     palette='Blues',ax=axes[0,0])
-
-k1=sns.scatterplot(business_analyst.Salary_Estimate_k, business_analyst.Rating, s=100, edgecolor='black', alpha=0.5,\
-     palette='Blues', ax=axes[0,1])
-
-k2=sns.boxplot(business_intelligence.Salary_Estimate_k, business_intelligence.Sector, palette='viridis',hue_order=[True,False],ax=axes[1,0])
-
-k3=sns.violinplot(x=business_analyst["Size"], y=business_analyst["Type_ownership"], palette="Blues", ax=axes[1,1])
-
-plt.show()"""
-
-
+plt.show()
 
 
 
