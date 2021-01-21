@@ -127,13 +127,17 @@ plt.show()
 
 #SPEED ON LANES
 
+#if cyclists increase speed to their work by 30% and then by 10% what % of  speed of the original ride would be their total increase?
+# we need to find the total % increase
+#dearting from the initial ride value increase other 30.then increase by 10% whock gives the final speed increase. calculate final speed as %.
 
 
-bike_speed=bike_df[['Year','Month','Day','Total_minutes_ride','Number_blocks_to_office','Ride_speed','Increase1']].copy()
+bike_speed=bike_df[['Year','Month','Day','Total_minutes_ride','Number_blocks_to_office','Ride_speed']].copy()
 print(bike_speed)
 
-bike_speed['Increase2']=bike_speed.Increase1*0.1
-bike_speed['All_Speed_Increase']=bike_speed.Increase2+bike_speed.Increase1
+bike_speed['First_Increase']=bike_speed.Ride_speed * 0.3
+bike_speed['Increase2']=bike_speed.First_Increase*0.1
+bike_speed['All_Speed_Increase']=bike_speed.Increase2+bike_speed.First_Increase
 bike_speed['Final_Speed_As%']=bike_speed.Ride_speed*43/100
 print(bike_speed)
 
