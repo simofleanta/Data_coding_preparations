@@ -31,3 +31,4 @@ B=sns.scatterplot(BA.Founding_Year, BA.Salary_Estimate_k, s=100, edgecolor='blac
      palette='viridis',ax=axes[1])
 
 plt.show()
+
