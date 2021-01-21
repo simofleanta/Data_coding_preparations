@@ -37,7 +37,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.8","New York, NY",10000,Nonprofit Organization,Health Care Services & Hospitals,Health Care
 1996,Business Analyst,102,3.8,"NYSTEC
 3.8","New York, NY",200,Nonprofit Organization,Consulting,Business Services
-2009,Business Intelligence Analyst,102,3.4,"Venmo
+2009,Business_Intelligence_Analyst,102,3.4,"Venmo
 3.4","New York, NY",200,Company - Public,Financial Transaction Processing,Finance
 1962,Business Analyst - CRM,102,3.6,"Jefferies Financial Group Inc.
 3.6","New York, NY",100,Company - Public,Investment Banking & Asset Management,Finance
@@ -497,7 +497,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.6","Newark, NJ",100,Nonprofit Organization,Insurance Carriers,Insurance
 2015,Business Development (Institutional Investors),95,5,"Second Measure
 5.0","New York, NY",100,Company - Private,Enterprise Software & Network Solutions,Information Technology
-1968,Business Intelligence Analyst,95,3.1,"Mini-Circuits
+1968,Business_Intelligence_Analyst,95,3.1,"Mini-Circuits
 3.1","Brooklyn, NY",100,Company - Private,Electrical & Electronic Manufacturing,Manufacturing
 2010,Business Data Analyst,95,3.8,"Cortex consultants LLC
 3.8","New York, NY",100,Company - Private,Consulting,Business Services
@@ -505,7 +505,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.8","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
 2010,Regulatory Business Analyst,95,3.5,"Russell Tobin & Associates
 3.5","New York, NY",100,Subsidiary_ Business_Segment,Staffing & Outsourcing,Business Services
-2001,Business Intelligence Analyst,95,5,"The Connors Group
+2001,Business_Intelligence_Analyst,95,5,"The Connors Group
 5.0","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
 2010,Business Analyst - PJT Camberview,95,4,"PJT Partners
 4.0","New York, NY",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
@@ -541,7 +541,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 1919,HR Business Analyst (Workday),100,3.2,"American International Group
 3.2","New York, NY",100,Company - Public,Insurance Carriers,Insurance
 2010,Senior Business Analyst,100,Investment Banking & Asset Management,Talium Advisors,"New York, NY",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
-2016,Business Intelligence Analyst,100,5,"ingenium.agency
+2016,Business_Intelligence_Analyst,100,5,"ingenium.agency
 5.0","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
 2010,Business Analyst/Project Manager,100,Investment Banking & Asset Management,Alans Group,"New York, NY",100,Unknown,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Technology Business Analyst,100,3.6,"Prospect Infosys
@@ -568,13 +568,13 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.2","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
 2011,Salesforce Business Analyst,88,4.8,"Oloop Technology Solutions
 4.8","New York, NY",100,Company - Private,Staffing & Outsourcing,Business Services
-2019,"Business Intelligence Analyst, Smithsonian",88,3.6,"ViacomCBS Inc.
+2019,"Business_Intelligence_Analyst, Smithsonian",88,3.6,"ViacomCBS Inc.
 3.6","New York, NY",100,Company - Public,Motion Picture Production & Distribution,Media
 2010,Business Analyst Expert,88,2.8,"PSI International
 2.8","New York, NY",100,Company - Public,IT Services,Information Technology
 2010,Senior Business Analyst,88,3.5,"PLATTS
 3.5","New York, NY",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
-2010,Business Intelligence Analyst,88,2,"Advance Generation Technologies
+2010,Business_Intelligence_Analyst,88,2,"Advance Generation Technologies
 2.0","Florham Park, NJ",100,Company - Private,IT Services,Information Technology
 1911,Salesforce Administrator/ Business Analyst,88,3.7,"IBM
 3.7","New York, NY",100,Company - Public,IT Services,Information Technology
@@ -595,7 +595,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.3","New York, NY",100,Company - Private,IT Services,Information Technology
 1989,"Business Analyst, Transaction Advisory Services - Capital Transformation - Strategy & Operations (Manager)(Multiple Positions)",160,3.8,"EY
 3.8","New York, NY",100,Company - Private,Accounting,Accounting & Legal
-1967,Business Intelligence Analyst,160,3.2,"AllianceBernstein
+1967,Business_Intelligence_Analyst,160,3.2,"AllianceBernstein
 3.2","New York, NY",100,Company - Public,Investment Banking & Asset Management,Finance
 2002,Business System Analyst,160,3.9,"Diverse Lynx
 3.9","New York, NY",100,Company - Private,IT Services,Information Technology
@@ -624,7 +624,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2008,Business Manager (Must speak Chinese / Mandarin),90,Investment Banking & Asset Management,Allied Home LLC,"Commerce, CA",100,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 1912,Graveyard Shift GSOC Analyst,90,3.8,"Paramount Pictures
 3.8","Hollywood, CA",100,Subsidiary_ Business_Segment,Motion Picture Production & Distribution,Media
-2015,Business Intelligence Analyst,90,4,"NEXT Trucking
+2015,Business_Intelligence_Analyst,90,4,"NEXT Trucking
 4.0","El Segundo, CA",100,Company - Private,Logistics & Supply Chain,Transportation & Logistics
 2020,Management Analyst I - Global Trade,90,3.5,"Raytheon Intelligence & Space
 3.5","El Segundo, CA",100,Subsidiary_ Business_Segment,Aerospace & Defense,Aerospace & Defense
@@ -689,7 +689,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.0","Los Angeles, CA",100,Company - Private,Staffing & Outsourcing,Business Services
 1993,Business Analyst,120,3.2,"SCOM
 3.2","Los Angeles, CA",100,Company - Public,Staffing & Outsourcing,Business Services
-2003,Business Intelligence Analyst,120,3.3,"Revolve
+2003,Business_Intelligence_Analyst,120,3.3,"Revolve
 3.3","Cerritos, CA",100,Company - Public,"Department, Clothing, & Shoe Stores",Retail
 1886,Business Systems Analyst,120,3.6,"City of Pasadena
 3.6","Pasadena, CA",100,Government,Municipal Governments,Government
@@ -701,9 +701,9 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2.3","Pasadena, CA",100,Company - Private,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Business Analyst,120,3.2,"Cenergy International
 3.2","Westminster, CA",100,Company - Private,Consulting,Business Services
-2001,Business Intelligence Analyst,120,4.8,"Ad.net
+2001,Business_Intelligence_Analyst,120,4.8,"Ad.net
 4.8","Los Angeles, CA",100,Company - Private,Advertising & Marketing,Business Services
-2012,Business Intelligence Analyst - Entry,120,3.2,"Calsoft Labs
+2012,Business_Intelligence_Analyst - Entry,120,3.2,"Calsoft Labs
 3.2","Los Angeles, CA",100,Company - Private,IT Services,Information Technology
 1983,Business Analyst,120,3.9,"TEKsystems, Inc
 3.9","Pasadena, CA",100,Subsidiary_ Business_Segment,Staffing & Outsourcing,Business Services
@@ -712,7 +712,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2011,Business Analyst,120,3.6,"Ames IT and Numeric Solutions, LLC
 3.6","El Monte, CA",100,Company - Private,Computer Hardware & Software,Information Technology
 2010,"Analyst, Business Analysis & Operations",120,Investment Banking & Asset Management,WB Digital Networks,"Burbank, CA",100,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
-2000,Business Intelligence Analyst - Entry,120,3.8,"Enterprise Solutions Inc
+2000,Business_Intelligence_Analyst - Entry,120,3.8,"Enterprise Solutions Inc
 3.8","Los Angeles, CA",100,Company - Private,Staffing & Outsourcing,Business Services
 1950,Consumer Insights Analyst,120,3.8,"King's Hawaiian
 3.8","Torrance, CA",100,Company - Private,Food & Beverage Manufacturing,Manufacturing
@@ -731,7 +731,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.2","Los Angeles, CA",100,Company - Public,Computer Hardware & Software,Information Technology
 2010,CRM Business Analyst,134,3.7,"Centaurus Technology Partners
 3.7","Brea, CA",100,Company - Private,IT Services,Information Technology
-1913,Business Intelligence Analyst,134,3.3,"City of Hope
+1913,Business_Intelligence_Analyst,134,3.3,"City of Hope
 3.3","Irwindale, CA",100,Nonprofit Organization,Health Care Services & Hospitals,Health Care
 2010,Business Analyst,134,3.2,"Tristar Insurance Group
 3.2","Signal Hill, CA",100,Company - Private,Insurance Carriers,Insurance
@@ -837,7 +837,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2010,Data Analyst,118,Investment Banking & Asset Management,Hospitality Training Academy,"Los Angeles, CA",100,Nonprofit Organization,Investment Banking & Asset Management,Investment Banking & Asset Management
 2001,Business Solutions Analyst,118,3.6,"Torrid
 3.6","City of Industry, CA",100,Company - Private,"Department, Clothing, & Shoe Stores",Retail
-2015,Sr. Business Intelligence Analyst,151,4,"NEXT Trucking
+2015,Sr. Business_Intelligence_Analyst,151,4,"NEXT Trucking
 4.0","El Segundo, CA",100,Company - Private,Logistics & Supply Chain,Transportation & Logistics
 2010,Management Consulting - Business Analyst,151,5,"Process Research and Optimization
 5.0","Los Angeles, CA",100,Company - Private,Consulting,Business Services
@@ -990,7 +990,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.4","Brea, CA",1000,Subsidiary_ Business_Segment,Health Care Products Manufacturing,Manufacturing
 1880,Organizational Change Management Analyst,79,4.2,"University of Southern California
 4.2","Los Angeles, CA",1000,College / University,Colleges & Universities,Education
-2010,Business Intelligence Analyst,79,3.2,"Farmers and Merchants Bank of Long Beach
+2010,Business_Intelligence_Analyst,79,3.2,"Farmers and Merchants Bank of Long Beach
 3.2","Seal Beach, CA",1000,Company - Public,Investment Banking & Asset Management,Finance
 2017,"Senior Business Systems Analyst, Engineering - Future Consideration",79,3.4,"Virgin Orbit
 3.4","Long Beach, CA",1000,Company - Private,Aerospace & Defense,Aerospace & Defense
@@ -1022,7 +1022,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 2010,Business Analyst ( With Kinaxis Rapid Response) |,160,Investment Banking & Asset Management,Acclive Inc.,"Santa Monica, CA",1000,Unknown,Investment Banking & Asset Management,Investment Banking & Asset Management
 2010,Compliance Analyst- Ad Review,160,3,"Cetera Financial Group
 3.0","El Segundo, CA",1000,Company - Private,Investment Banking & Asset Management,Finance
-2013,Business Intelligence Analyst Tableau From Scratch & Performance Bonuses,160,2.8,"Camden Kelly Corporation
+2013,Business_Intelligence_Analyst Tableau From Scratch & Performance Bonuses,160,2.8,"Camden Kelly Corporation
 2.8","Los Angeles, CA",1000,Company - Private,IT Services,Information Technology
 2010,Kinaxis Rapid Response Business Analyst (No Third Party),160,Investment Banking & Asset Management,ITGen Systems,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
 2000,IT Business Analyst (Financial Systems),160,3.7,"iSpace, Inc
@@ -1075,7 +1075,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 5.0","Los Angeles, CA",1000,Company - Private,IT Services,Information Technology
 1905,"Analyst, Investment Accounting",68,3.5,"Lincoln Financial
 3.5","Los Angeles, CA",1000,Company - Public,Insurance Carriers,Insurance
-2002,Business Intelligence Analyst,68,3.4,"Casting Networks
+2002,Business_Intelligence_Analyst,68,3.4,"Casting Networks
 3.4","Los Angeles, CA",1000,Company - Private,Enterprise Software & Network Solutions,Information Technology
 1888,Data Analyst,68,4,"Swinerton Builders
 4.0","Los Angeles, CA",1000,Company - Private,Construction,"Construction, Repair & Maintenance"
@@ -1093,10 +1093,10 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 3.8","Los Angeles, CA",1000,Company - Private,Computer Hardware & Software,Information Technology
 2014,Marketing Analyst,64,4.2,"Thrive Market
 4.2","Los Angeles, CA",1000,Company - Private,"Health, Beauty, & Fitness",Consumer Services
-2010,Business Intelligence Analyst,64,3.4,"EMINENT, INC.
+2010,Business_Intelligence_Analyst,64,3.4,"EMINENT, INC.
 3.4","Cerritos, CA",1000,Company - Private,IT Services,Information Technology
 2010,Senior Business Systems Analyst,64,Investment Banking & Asset Management,Therabody,"Los Angeles, CA",1000,Investment Banking & Asset Management,Investment Banking & Asset Management,Investment Banking & Asset Management
-1959,Lead Business Intelligence Analyst - Nutrition Portfolio,64,3.5,"Amway Corp
+1959,Lead Business_Intelligence_Analyst - Nutrition Portfolio,64,3.5,"Amway Corp
 3.5","Buena Park, CA",1000,Company - Private,Consumer Products Manufacturing,Manufacturing
 1966,Systems Analyst,64,4.1,"Kforce
 4.1","Los Angeles, CA",1000,Company - Public,Staffing & Outsourcing,Business Services
@@ -1136,7 +1136,7 @@ Founding_Year,Job_Title,Salary_Estimate_k,Rating,Company_Name,Location,Size,Type
 4.5","Los Angeles, CA",1000,Company - Private,Computer Hardware & Software,Information Technology
 2010,systems Analyst 1596 (d),100,3.6,"The City of Los Angeles
 3.6","Los Angeles, CA",1000,Government,Municipal Governments,Government
-2010,Business Intelligence Analyst/ Credit Risk Analyst,100,2,"Golden State Bank
+2010,Business_Intelligence_Analyst/ Credit Risk Analyst,100,2,"Golden State Bank
 2.0","Glendale, CA",1000,Company - Public,Investment Banking & Asset Management,Investment Banking & Asset Management
 1973,Financial Analyst,100,3.6,"LRW
 3.6","Los Angeles, CA",1000,Company - Private,Advertising & Marketing,Business Services

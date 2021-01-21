@@ -60,6 +60,13 @@ D=sns.stripplot(x='Salary_Estimate_k', y='Sector',jitter=0.25, marker='*',alpha=
 plt.show()
 
 
+#BI :)
+
+business_intelligence=BA[BA.Job_Title=='Business Intelligence Analys']
+print(business_intelligence)
+
+
+
 
 
 
