@@ -23,50 +23,21 @@ ba_avg=DataFrame(avg.head(15))
 print(ba_avg.head(15))
 
 
-# difference between ba, bi, da
-
-"""business_analyst=BA[BA.Job_Title=='Business Analyst']
-print(business_analyst)
-
-business_intelligence=BA[BA.Job_Title=='Business_Intelligence_Analyst']
-print(business_intelligence)
-
-data_analyst=BA[BA.Job_Title=='Data Analyst']
-print(data_analyst)
+# rating and average salary
 
 
-#subplot intelligence
+#subplot 
 
 f,axes = plt.subplots(1,2, figsize=(15, 10))
-C=sns.scatterplot(business_intelligence.Salary_Estimate_k, business_intelligence.Rating, s=100, edgecolor='black', alpha=0.5,\
-     palette='Blues',ax=axes[0])
+C=sns.scatterplot(ba_avg.Rating, ba_avg.Salary_K, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues',ax=axes[0]).set_title("Relationship Avg.Salary and Rating")
 
-D=sns.boxplot(business_intelligence.Salary_Estimate_k, business_intelligence.Sector, palette='viridis',hue_order=[True,False],ax=axes[1])
+D=sns.boxplot(ba_avg.Salary_K, ba_avg.Sector, palette='viridis',hue_order=[True,False],ax=axes[1]).set_title("Avg.Salary per Sector")
 
 plt.show()
 
-#subplot Business analyst
-
-f,axes = plt.subplots(1,2, figsize=(15, 10))
-C=sns.scatterplot(business_analyst.Salary_Estimate_k, business_analyst.Rating, s=100, edgecolor='black', alpha=0.5,\
-     palette='Blues',ax=axes[0])
-
-D=sns.boxplot(business_analyst.Salary_Estimate_k, business_analyst.Sector, palette='viridis',hue_order=[True,False],ax=axes[1])
-
+sns.heatmap(ba_avg.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1, yticklabels=True,xticklabels=False)
 plt.show()
-
-#subplot data analyst
-
-f,axes = plt.subplots(1,2, figsize=(15, 10))
-C=sns.scatterplot(data_analyst.Salary_Estimate_k, data_analyst.Rating, s=100, edgecolor='black', alpha=0.5,\
-     palette='Blues',ax=axes[0])
-
-D=sns.boxplot(data_analyst.Salary_Estimate_k, data_analyst.Sector, palette='viridis',hue_order=[True,False],ax=axes[1])
-
-plt.show()"""
-
-
-
 
 
 
