@@ -1,11 +1,12 @@
+Sector,Rating,Salary_K
 Finance,4,98.8571
 Business Services,4,114.1321
-Media,4,121.0000
-Insurance,3,123.5000
-Accounting & Legal,3,117.6000
-Retail,3,160.5000
-Education,4,83.5000
-Manufacturing,4,114.7500
+Media,4,121
+Insurance,3,123.5
+Accounting & Legal,3,117.6
+Retail,3,160.5
+Education,4,83.5
+Manufacturing,4,114.75
 Health Care,3,95.6667
-Travel & Tourism,4,90.0000
-Aerospace & Defense,3,134.0000
+Travel & Tourism,4,90
+Aerospace & Defense,3,134
