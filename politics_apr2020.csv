@@ -1,0 +1,195 @@
+﻿ccode,country,leader,elected,age,male,militarycareer,tenure_months,government,anticipation,ref_ant,leg_ant,exec_ant,irreg_lead_ant,election_now,election_recent,leg_recent,exec_recent,lead_recent,ref_recent,direct_recent,indirect_recent,victory_recent,defeat_recent,change_recent,nochange_recent,delayed,prev_conflict
+2,USA,Trump,1,74,1,0,40,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+20,Canada,Trudeau,1,49,1,0,54,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,1,0,0
+31,Bahamas,Hubert Minnis,1,66,1,0,36,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+40,Cuba,Raul Castro,1,89,1,1,147,Party-Personal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+41,Haiti,Jovenel Moise,1,52,1,0,39,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+42,Dominican Rep,Danilo Medina,1,69,1,0,93,Presidential Democracy,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+51,Jamaica,Holness,1,48,1,0,50,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+52,Trinidad and Tobago,Rowley,1,71,1,0,56,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+53,Barbados,Mia Mottley,1,55,0,0,24,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+54,Dominica,Roosevelt Skerrit,1,48,1,0,196,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,1,0,0
+55,Grenada,Mitchell,1,74,1,0,87,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+56,St Lucia,Chastanet,1,59,1,0,47,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+57,St Vincent,Gonsalves,1,74,1,0,230,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+58,Antigua and Barbuda,Browne,1,53,1,0,71,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+60,St Kitts and Nevis,Harris,1,56,1,0,63,Parliamentary Democracy,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+70,Mexico,Lopez Obrador,1,67,1,0,17,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+80,Belize,D.Barrow,1,69,1,0,147,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+90,Guatemala,Giammattei,1,64,1,0,4,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+91,Honduras,Juan Orlando Hernandez,1,52,1,0,76,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+92,El Salvador,Nayib Bukele,1,39,1,0,11,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+93,Nicaragua,Daniel Ortega,1,75,1,0,160,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+94,Costa Rica,Carlos Alvarado Quesada,1,40,1,0,24,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+95,Panama,Laurentino Cortizo,1,67,1,0,10,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100,Colombia,Ivan Duque,1,44,1,0,21,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+101,Venezuela,Nicolas Maduro,1,58,1,0,86,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+110,Guyana,David Granger,1,75,1,1,60,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,1,0,0
+115,Suriname,Bouterse,1,75,1,1,117,Parliamentary Democracy,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+130,Ecuador,Lenin Moreno,1,67,1,0,36,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+135,Peru,Martin Vizcarra Cornejo,0,57,1,0,26,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+140,Brazil,Bolsonaro,1,65,1,1,16,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+145,Bolivia,Anez,0,53,0,0,6,Party-Personal,1,0,0,1,1,0,1,0,1,1,0,1,0,1,0,0,1,1,0
+150,Paraguay,Benitez,1,49,1,1,21,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+155,Chile,Sebastian Pinera,1,71,1,0,26,Presidential Democracy,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+160,Argentina,Fernandez,1,61,1,0,5,Presidential Democracy,0,0,0,0,0,0,1,0,1,1,0,1,0,0,1,1,0,0,0
+165,Uruguay,Luis Pou,0,47,1,0,2,Presidential Democracy,0,0,0,0,0,0,1,0,1,1,0,1,0,0,1,1,0,0,0
+200,UKG,Johnson,1,56,1,0,10,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,1,0,0
+205,Ireland,Varadkar,0,41,1,0,35,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0
+210,Netherlands,M. Rutte,1,53,1,0,115,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+211,Belgium,Sophie Wilmes,1,45,0,0,7,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+212,Luxembourg,Bettel,1,47,1,0,77,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+220,France,Macron,1,43,1,0,36,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+221,Monaco,Albert,0,62,1,0,181,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+223,Liechtenstein,Hans-Adam II,0,75,1,0,366,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+225,Switzerland,Sommaruga,0,60,0,0,4,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,1,0,0
+230,Spain,Sanchez,1,48,1,0,23,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,1,0,0
+232,Andorra,Espot Zamora,1,41,1,0,12,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+235,Portugal,de Sousa,1,71,1,0,50,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+255,Germany,Merkel,1,66,0,0,174,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+290,Poland,Duda,1,48,1,0,57,Presidential Democracy,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+305,Austria,Bierlein,0,71,0,0,11,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+310,Hungary,Orban,1,57,1,0,120,Dominant Party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+316,Czech Rep,Andrej Babis,1,66,1,0,29,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+317,Slovakia,Matovic,1,47,1,0,2,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0
+325,Italy,Conte,0,56,1,0,23,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+331,San Marino,Boschi and Mularoni,0,57,1,0,7,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0
+338,Malta,Muscat,1,46,1,0,86,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+339,Albania,Rama,1,56,1,0,80,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+341,Montenegro,Dusko Markovic,1,62,1,0,42,Parliamentary Democracy,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+343,Macedonia,Spasovksi,0,44,1,0,4,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+344,Croatia,Plenkovic,1,50,1,0,43,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+345,Serbia,Ana Brnabic,0,45,0,0,35,Parliamentary Democracy,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+346,Bosnia,Dzaferovic,1,63,1,0,2,Foreign/Occupied,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+347,Kosovo,Kurti,0,45,1,0,3,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,0,1,1,0,0,0
+349,Slovenia,Jansa,0,62,1,0,2,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+350,Greece,Mitsotakis,1,52,1,0,10,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+352,Cyprus,Nikos Anastasiadis,1,74,1,0,87,Foreign/Occupied,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+355,Bulgaria,Boiko Borisov,1,61,1,0,36,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+359,Moldova,Ion Chicu,0,48,1,0,6,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+360,Romania,Iohannis,1,61,1,0,65,Parliamentary Democracy,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,0
+365,Russia,Putin,1,68,1,0,244,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+366,Estonia,Ratas,0,42,1,0,42,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+367,Latvia,Karins,1,56,1,0,16,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+368,Lithuania,Nauseda,1,56,1,0,10,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+369,Ukraine,Zelensky,1,42,1,0,12,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+370,Belarus,Lukashenko,1,66,1,1,310,Personal Dictatorship,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+371,Armenia,Pashinyan,1,45,1,0,24,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+372,Georgia,Gakharia,0,45,1,0,8,Parliamentary Democracy,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+373,Azerbaijan,Ilhma Aliyev,1,59,1,0,199,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+375,Finland,Sanna Marin,0,35,0,0,5,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+380,Sweden,Lofven,1,63,1,0,67,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+385,Norway,Solberg,1,59,0,0,79,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+390,Denmark,Mette Frederiksen,1,43,0,0,11,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+395,Iceland,KatrÃ­n JakobsdÃ³ttir,1,44,0,0,30,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+402,Cape Verde,Correia e Silva,1,58,1,0,49,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+403,Sao Tome and Principe,Carvalho,1,78,1,0,44,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+404,Guinea Bissau,Embalo,1,48,1,1,3,Presidential Democracy,0,0,0,0,0,0,1,0,1,1,0,1,0,0,1,1,0,0,0
+411,Equatorial Guinea,Nguema Mbasogo,1,78,1,1,489,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+420,Gambia,Barrow,1,55,1,0,40,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+432,Mali,Keita,1,75,1,0,80,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+433,Senegal,Macky Sall,1,59,1,0,97,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+434,Benin,Talon,1,62,1,0,49,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+435,Mauritania,Ould Ghazouani,1,64,1,1,9,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+436,Niger,Issoufou,1,68,1,0,109,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+437,Ivory Coast,Ouattara,1,78,1,0,109,Presidential Democracy,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+438,Guinea,Conde,1,82,1,0,113,Presidential Democracy,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+439,Burkina Faso,Kabore,1,63,1,0,53,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+450,Liberia,Weah,1,54,1,0,28,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+451,Sierra Leone,Julius Maada Bio,1,56,1,1,25,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+452,Ghana,Akufo-Addo,1,76,1,0,40,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+461,Togo,Faure Gnassingbe,1,54,1,0,180,Personal Dictatorship,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,0
+471,Cameroon,Biya,1,87,1,0,450,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+475,Nigeria,Buhari,1,78,1,1,60,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+481,Gabon,Ondimba,1,61,1,0,127,Party-Personal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+482,Cen African Rep,Touadera,1,63,1,0,50,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+483,Chad,Deby,1,68,1,1,353,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+484,Congo-Brz,Nguesso,1,77,1,1,271,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+490,Congo/Zaire,Felix Tschisekedi,1,57,1,0,16,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+500,Uganda,Museveni,1,76,1,0,412,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+501,Kenya,Kenyatta,1,59,1,0,85,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+510,Tanzania,Magufuli,1,61,1,0,54,Dominant Party,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+516,Burundi,Nkurunziza,1,56,1,0,177,Personal Dictatorship,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+517,Rwanda,Paul Kagame,1,63,1,1,310,Party-Military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+520,Somalia,Mohamed Abdullahi Farmajo,1,58,1,0,40,Provisional - Civilian,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+522,Djibouti,Guelleh,1,73,1,0,252,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+530,Ethiopia,Abiy Ahmed,0,44,1,1,25,Dominant Party,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+531,Eritrea,Afeworki,0,74,1,0,324,Party-Personal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+540,Angola,Lourenco,1,66,1,0,32,Dominant Party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+541,Mozambique,Nyussi,1,61,1,0,64,Dominant Party,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,0
+551,Zambia,Lungu,1,64,1,0,64,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+552,Zimbabwe,Mnangagwa,1,78,1,1,30,Dominant Party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+553,Malawi,Mutharika,1,80,1,0,72,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+560,South Africa,Ramaphosa,0,68,1,0,27,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+565,Namibia,Geingob,1,79,1,0,62,Dominant Party,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,0
+570,Lesotho,Thabane,1,81,1,0,35,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+571,Botswana,Mokgweetsi Masisi,0,59,1,0,25,Dominant Party,0,0,0,0,0,0,1,0,1,1,0,0,1,1,0,0,1,0,0
+572,Swaziland,Mswati,0,52,1,0,409,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+580,Madagascar,Rajoelina,1,46,1,0,16,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+581,Comoros,Assoumani,1,61,1,1,12,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+590,Mauritius,Pravind Jugnauth,0,59,1,0,40,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+591,Seychelles,Danny Faure,0,58,1,0,43,Dominant Party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+600,Morocco,Muhammad VI,0,57,1,0,250,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+615,Algeria,Tebboune,1,75,1,0,5,Provisional - Civilian,0,0,0,0,0,0,1,0,1,1,0,1,0,0,1,1,0,0,1
+616,Tunisia,Saied,1,62,1,0,7,Presidential Democracy,0,0,0,0,0,0,1,0,1,1,0,1,0,0,1,1,0,1,0
+620,Libya,Fayez al-Sarraj,0,60,1,0,50,Warlordism,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+625,Sudan,Abdelrahman Burhan,0,60,1,1,13,Provisional - Civilian,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+626,South Sudan,Kiir,0,69,1,1,106,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+630,Iran,Rouhani,1,72,1,0,81,Dominant Party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+640,Turkey,Erdogan,1,66,1,0,206,Party-Personal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+645,Iraq,Abdul-Mahdi,0,78,1,0,19,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+651,Egypt,al-Sisi,1,66,1,1,71,Military-Personal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+652,Syria,Bashar al-Assad,1,55,1,0,239,Party-Personal-Military Hybrid,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+660,Lebanon,Hassan Diab,0,61,1,0,5,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+663,Jordan,Abdullah Ibn Hussein El-Hashimi,0,58,1,0,255,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+666,Israel,Netanyahu,1,71,1,0,134,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,1,0,1
+670,Saudi Arabia,Salman,0,85,1,0,64,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+679,Yemen,Houthi,0,41,1,1,63,Warlordism,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+690,Kuwait,Jabir Ahmad Al Sabah,0,91,1,0,172,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+692,Bahrain,Hamad Isa Ibn Al-Khalifah,0,70,1,0,254,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+694,Qatar,Khalifah Al Thani,0,40,1,0,83,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+696,United Arab Emirates,Khalifa Al Nahayan,0,72,1,0,186,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+698,Oman,Haitham ibn Tariq,0,66,1,0,4,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+700,Afghanistan,Ashraf Ghani,1,71,1,0,68,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+701,Turkmenistan,Berdymukhammedov,1,63,1,0,161,Party-Personal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+702,Tajikistan,Rakhmonov,1,68,1,0,330,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+703,Kyrgyzstan,Sooronbay Jeenbekov,1,62,1,0,30,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+704,Uzbekistan,Shavkat Mirziyoyev,1,63,1,0,44,Party-Personal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+705,Kazakhstan,Tokayev,1,67,1,0,14,Personal Dictatorship,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+710,China,Xi Jinping,0,67,1,0,90,Dominant Party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+712,Mongolia,Khaltmaagiin Battulga,1,57,1,0,34,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+731,Korea North,Kim Jong Un,0,37,1,0,101,Party-Personal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+732,Korea South,Moon Jae-in,1,67,1,0,36,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+740,Japan,Shinzo Abe,0,66,1,0,89,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+750,India,Narendra Modi,1,70,1,0,72,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+760,Bhutan,Lotay Tshering,1,52,1,0,18,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+770,Pakistan,Imran Khan,1,68,1,0,21,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+771,Bangladesh,Hasina Wazed,1,73,0,0,136,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+775,Myanmar,Aung San Suu Kyi,0,75,0,0,50,Party-Military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+780,Sri Lanka,G. Rajapakse,1,71,1,1,6,Presidential Democracy,0,0,0,0,0,0,1,0,1,1,0,1,0,0,1,1,0,0,0
+781,Maldives,Ibrahim Solih,1,56,1,0,18,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+790,Nepal,Oli,0,68,1,0,27,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+800,Thailand,Prayuth Chan-ocha,1,66,1,1,72,Military,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+811,Cambodia,Hun Sen,1,68,1,1,274,Dominant Party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+812,Laos,Vorachit,1,82,1,1,49,Dominant Party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+816,Vietnam,Phu Trong,0,76,1,0,112,Dominant Party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+820,Malaysia,Muhyiddin Yassin,0,73,1,0,2,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+830,Singapore,Lee Hsien Loong,1,68,1,0,189,Dominant Party,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+835,Brunei,Hassanal Bolkiah,0,74,1,0,631,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+840,Philippines,Rodrigo Duterte,1,75,1,0,47,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+850,Indonesia,Joko Widodo,1,59,1,0,67,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+860,East Timor,Francisco Guterres,1,66,1,1,36,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+900,Australia,Morrison,1,52,1,0,21,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+910,Papua New Guinea,James Marape,1,49,1,0,12,Parliamentary Democracy,0,0,0,0,0,0,1,0,0,0,1,1,0,0,1,1,0,0,0
+920,New Zealand,Jacinda Ardern,1,40,0,0,31,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+935,Vanuatu,Salwai,1,57,1,0,51,Parliamentary Democracy,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,1,0,0
+940,Solomon Islands,Sogavare,1,65,1,0,13,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+946,Kiribati,Mamau,1,60,1,0,50,Presidential Democracy,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+947,Tuvalu,Natano,1,63,1,0,8,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+950,Fiji,Bainimarama,1,66,1,1,160,Military-Personal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+955,Tonga,Tu'I'onetoa,0,59,1,0,7,Monarchy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+970,Nauru,Aingimea,0,48,1,0,9,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+983,Marshall Islands,Kabua,1,69,1,0,4,Presidential Democracy,0,0,0,0,0,0,1,0,1,1,0,0,1,0,1,1,0,0,0
+986,Palau,Tommy Remengesau,1,64,1,0,88,Presidential Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+987,Micronesia,Panuelo,0,56,1,0,12,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+990,Samoa,Tuilaepa Sailele Malielegaoi,1,75,1,0,257,Parliamentary Democracy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
