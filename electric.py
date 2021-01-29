@@ -45,19 +45,11 @@ print(e_df.head(3))
 
 
 #normalize data
-dataf=e_df[['COST','USAGE']]
+dataf=e_df[['COST_dollar','USAGE']]
 dataf=dataf.apply (lambda x: (x-x.min(axis=0)) / (x.max(axis=0) - x.min(axis=0)))
 
 
-#How far the people travel to their work?
-f,axes = plt.subplots(1,2, figsize=(15, 10))
-A=sns.scatterplot(e_df.Year, e_df.COST, s=100, edgecolor='black', alpha=0.5,\
-     palette='Blues',ax=axes[0])
 
-B=sns.scatterplot(dataf.USAGE, dataf.COST, s=100, edgecolor='black', alpha=0.5,\
-     palette='viridis',ax=axes[1])
-
-plt.show()
 
 
 
