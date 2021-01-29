@@ -37,5 +37,13 @@ Day=e_df['DATE'].dt.day_name()
 Month=e_df['DATE'].dt.month_name()
 Year=e_df['DATE'].dt.year
 
+#subsetting timeseries
+e_df['Year']=e_df['DATE'].dt.year
+e_df['Month']=e_df['DATE'].dt.month
+e_df['Day']=e_df['DATE'].dt.day
+print(e_df.head(3))
+
+
+
 
 
