@@ -16,6 +16,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 import plotly.express as px
 import datetime
+import time
+
 
 
 #open file
@@ -44,9 +46,16 @@ e_df['Day']=e_df['DATE'].dt.day
 print(e_df.head(3))
 
 
-#normalize data
-dataf=e_df[['COST_dollar','USAGE']]
-dataf=dataf.apply (lambda x: (x-x.min(axis=0)) / (x.max(axis=0) - x.min(axis=0)))
+#day_index per week 'D' 
+Day_index=indexeddf.resample('D').mean()
+print(Day_index)
+
+
+#weekly index aggregation
+Week_index=indexeddf.resample('W').agg({'COST_dollar':'max','USAGE':'max'})
+
+
+
 
 
 
