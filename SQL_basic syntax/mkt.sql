@@ -26,7 +26,7 @@ with joined_table as
 from target
 inner join actual ON target.Marketing_Channel=actual.Marketing_Channel
 )
-select (Target_Revenue - Actual_Revenue)/100
+select Marketing_Channel,Month,Date,(Target_Revenue - Actual_Revenue)/100 as Revenue_as_Percentage
 from joined_table;
 
 --2
