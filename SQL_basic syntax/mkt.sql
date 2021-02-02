@@ -27,7 +27,8 @@ from target
 inner join actual ON target.Marketing_Channel=actual.Marketing_Channel
 )
 select Marketing_Channel,Month,Date,(Target_Revenue - Actual_Revenue)/100 as Revenue_as_Percentage
-from joined_table;
+from joined_table
+Order By Revenue_as_Percentage ASC ;
 
 --2
 with top_3 as 
@@ -35,8 +36,9 @@ with top_3 as
 from target
 inner join actual ON target.Marketing_Channel=actual.Marketing_Channel
 )
-SELECT distinct (Marketing_Channel), Actual_Revenue FROM top_3 where Actual_Revenue >1000
-ORDER BY Actual_Revenue ASC;
+SELECT Date, Month,(Marketing_Channel), (Actual_Revenue - Target_Revenue)/100 as Revenue_Percentage FROM top_3 where Actual_Revenue >1000
+ORDER BY Actual_Revenue DESC
+limit 3;
 
 
 with forecast as 
@@ -46,6 +48,10 @@ inner join actual ON target.Marketing_Channel=actual.Marketing_Channel
 )
 
 select * from forecast;
+
+
+
+
 
 
 
