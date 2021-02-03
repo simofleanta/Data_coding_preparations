@@ -76,6 +76,8 @@ plt.show()
 #m to csv fro forecast in power bi
 df=m.to_csv('forecast.csv')
 
+#forecast_multiply aurorevenue by number of months or days 
+
 
 
 
