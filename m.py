@@ -45,6 +45,18 @@ print(m)
 
 #indexing per month 
 
+#Month_index per month 'M' 
+Month_index=indexeddf.resample('M')
+print(Month_index)
+
+
+
+
+# see sum for both months jan and feb
+Sum_M_index=indexeddf.resample('M').sum()
+print(Sum_M_index)
+
+
 
 
 
