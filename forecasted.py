@@ -17,16 +17,12 @@ from sklearn.metrics import r2_score
 import plotly.express as px
 import datetime
 
-
-
 #forecast_multiply aurorevenue by number of months or days 
 
 f=pd.read_csv('forecasted.csv')
 print(f.columns)
 f=DataFrame(f.head(21))
 print(f.head(21))
-
-print(f.dtypes)
 
 
 f['Date']=pd.to_datetime(f['Date'], infer_datetime_format=True)
@@ -59,6 +55,7 @@ Feb=sns.scatterplot(February.Actual_Revenue, February.Forecast_r, s=100, edgecol
      palette='viridis',ax=axes[1]).set_title("February forcast")
 plt.show()
 
-
+Month_index=indexeddf.resample('M')
+print(Month_index)
 
 
