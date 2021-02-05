@@ -49,6 +49,14 @@ inner join actual ON target.Marketing_Channel=actual.Marketing_Channel
 
 select * from forecast;
 
+--3 try forecast formula
+--multiply avg price by expected units to come in the months.
+
+select Month,Date, Marketing_Channel,Actual_Revenue, Avg_px * Expected_Units 
+as forecast_r from forecast
+ORDER BY Actual_Revenue ASC;
+
+
 
 
 
