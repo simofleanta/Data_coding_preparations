@@ -2,19 +2,7 @@ import pandas as pd
 import seaborn as sns 
 from pandas import DataFrame
 import matplotlib.pyplot as plt
-import plotly.express as px
-import plotly.graph_objects as go
-from sklearn.preprocessing import LabelEncoder
-import numpy as np
-import plotly
-import statistics
-import plotly.express as px
-import stats
 import matplotlib.pyplot as plt 
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import r2_score
-import plotly.express as px
 import datetime
 
 m=pd.read_csv('Actual.csv')
@@ -73,10 +61,8 @@ B=sns.scatterplot(m.Day, m.Actual_Revenue, s=100, edgecolor='black', alpha=0.5,\
 plt.show()
 
 
-#m to csv fro forecast in power bi
+#m to csv fro forecast in power bi and sql.
 df=m.to_csv('forecast.csv')
-
-#forecast_multiply aurorevenue by number of months or days 
 
 
 
