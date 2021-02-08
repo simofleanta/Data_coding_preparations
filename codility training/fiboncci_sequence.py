@@ -1,7 +1,6 @@
 
-fibonacci={}
-
-def fibonacci_cache(n):
+fibonacci_cache={}
+def fibonacci (n):
     if n in fibonacci_cache:
         return fibonacci_cache[n]
     
@@ -18,4 +17,3 @@ def fibonacci_cache(n):
 for n in range(1,101):
     print(n, ":", fibonacci(n))
 
-    
