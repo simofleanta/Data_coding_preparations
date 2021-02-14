@@ -168,6 +168,7 @@ plotly.offline.plot(fig, filename='bike')
 #requirements of bi:
 #-bi tools
 #-sql+py which are basis applying data analysis into a business context as mentioned above AS balance between tech& business
+#
 
 
 
