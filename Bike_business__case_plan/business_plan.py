@@ -234,7 +234,7 @@ fig = px.bar(bike_Item, x="Sales", y=bike_Item.index, color='Sales',color_contin
 plt.figure(figsize=(15,15))
 sns.heatmap(df.corr(),annot=True,cmap='Blues_r',mask=np.triu(df.corr(),k=1))
 
-#-----------------------------ROI-------------------------------------------------------------
+#---#--------------------------ROI-------------------------------------------------------------
 
 """ROI ON 2020 in a pandemic it was anticipated a larger use of echo transport including bikes 
 instead of public transport so the investment was higher"""
