@@ -32,8 +32,16 @@ plt.show()
 #copy df
 em=e_df[['person_id','happy','sadness','engagement','anger']].copy()
 
-#subplot emtions
+#subplot emtions 
 
+f,axes = plt.subplots(1,2, figsize=(15, 10))
+A=sns.scatterplot(em.anger, em.sadness, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues',ax=axes[0])
+
+B=sns.scatterplot(em.engagement, em.happy, s=100, edgecolor='black', alpha=0.5,\
+     palette='Blues',ax=axes[1])
+
+plt.show()
 
 
 
