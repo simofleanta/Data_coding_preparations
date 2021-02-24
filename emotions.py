@@ -26,3 +26,10 @@ print(e_df.head(1500))
 #emotions corrs
 sns.heatmap(e_df.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1, yticklabels=True,xticklabels=True)
 plt.show()
+
+#anger sad & happy-engagement relationships
+
+#copy df
+em=e_df[['person_id','happy','sadness','engagement','anger']].copy()
+print(em)
+
