@@ -23,6 +23,6 @@ print(e.columns)
 e_df=DataFrame(e.head(1500))
 print(e_df.head(1500))
 
-
+#emotions corrs
 sns.heatmap(e_df.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1, yticklabels=True,xticklabels=True)
 plt.show()
