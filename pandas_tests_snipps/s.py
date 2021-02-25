@@ -22,8 +22,10 @@ def sudoku (puzzle):
 
 #step 1.1:  if there's no where  left, then there's nothing much to do as we only alow valid inputs.
 
-if row is None:
-    return True
+    if row is None:
+        return True
+
+
 
 
 
