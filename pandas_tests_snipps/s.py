@@ -64,7 +64,11 @@ def sudoku (puzzle):
                 return True
             
             #step 5 : if not vald or if sufoku does not solve, ned to backtrack reset and move to next guess
-            puzzle[col]= -1 #reset value
+            puzzle[col]= -1 #reset guess
+
+            # step 6: if unsolvable return f
+            return False
+            
 
 
 
