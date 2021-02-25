@@ -20,7 +20,12 @@ def valid_guess(puzzle, guess, row,col):
     for i in range(9):
         col.col_value.append(puzzle[i][col])
     col_value=[puzzle[i][col] for i in range(9)]
+    if guess in col_value:
+        return False
     
+    #the square
+    
+
 
     
 
