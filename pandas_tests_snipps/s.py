@@ -31,7 +31,11 @@ def valid_guess(puzzle, guess, row,col):
         for c in range (col_start, col_start +3):
             if puzzle[r][c]==guess:
                 return False
-                
+
+    #if values pass checks
+
+    return True
+
 
     
 
