@@ -8,6 +8,9 @@ def find_next_empty(puzzle):
 
 
     return None,None  #if there are no empty spaces in the puzzle (-1)
+
+def valid_guess(puzzle, guess, row,col):
+    pass
     
 
 
@@ -24,6 +27,13 @@ def sudoku (puzzle):
 
     if row is None:
         return True
+
+# if there is a space to place guess, then make the guess btw 1-9
+    
+    for guess in range(1,10):
+        #step 3
+        if valid_guess(puzzle, guess, row,col):
+
 
 
 
