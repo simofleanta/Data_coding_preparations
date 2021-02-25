@@ -37,9 +37,6 @@ def valid_guess(puzzle, guess, row,col):
     return True
 
 
-    
-
-
 def sudoku (puzzle):
     #use backtracking to solve the sudoku p
     # puzzle is a list of lists where each inner list is a row in the sudoku puzzle.
@@ -54,11 +51,15 @@ def sudoku (puzzle):
     if row is None:
         return True
 
-# if there is a space to place guess, then make the guess btw 1-9
+# step 2: if there is a space to place guess, then make the guess btw 1-9
     
     for guess in range(1,10):
         #step 3
         if valid_guess(puzzle, guess, row,col):
+            #step 3.1 : if this is valid add row to column.
+            puzzle[row][col] = guess
+            # no recurse usinf this puzzle:
+            
 
 
 
