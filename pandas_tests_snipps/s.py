@@ -59,7 +59,10 @@ def sudoku (puzzle):
             #step 3.1 : if this is valid add row to column.
             puzzle[row][col] = guess
             # no recurse usinf this puzzle:
-            
+            #step 4 : recursively call function
+            if sudoku(puzzle):
+                return True
+
 
 
 
