@@ -22,6 +22,19 @@ def valid_guess(puzzle, guess, row,col):
     col_value=[puzzle[i][col] for i in range(9)]
     if guess in col_value:
         return False
+
+if __name__=='__main__':
+    sudoku_board=[[3, 9, -1,   -1, 5, -1, -1,-1,-1],
+                  [-1, -1, -1,  2,-1, -1, -1,-1,5 ],
+                  [-1, -1, -1,  7, 1, 9,  -1, 8, -1],
+                  
+                  [-1, 5, -1,  -1, 6, 8,  -1, -1, -1],
+                  [2, -1, 6,   -1,-1, 3,  -1, -1, -1],
+                  [-1, -1, -1, -1,-1, -1, -1,-1, 4],
+
+                  []
+
+    ]]
     
     #the square
     row_start=(row//3) *3  #1//3=0, 5//3=1, ...
@@ -68,7 +81,7 @@ def sudoku (puzzle):
 
             # step 6: if unsolvable return f
             return False
-            
+
 
 
 
