@@ -18,7 +18,7 @@ def valid_guess(puzzle, guess, row,col):
     #no col:
     col_value=[]
     for i in range(9):
-        col.col_value.append(puzzle[i][col])
+        col_value.append(puzzle[i][col])
     col_value=[puzzle[i][col] for i in range(9)]
     if guess in col_value:
         return False
@@ -72,7 +72,7 @@ def sudoku (puzzle):
 
 if __name__== '__main__':
     sudoku_board=[
-        
+
         [3, 9, -1,   -1, 5, -1, -1,-1,-1],
         [-1, -1, -1,  2,-1, -1, -1,-1,5 ],
         [-1, -1, -1,  7, 1, 9,  -1, 8, -1],
@@ -83,7 +83,7 @@ if __name__== '__main__':
 
         [5, -1, -1, -1, -1, -1, -1, -1, -1],
         [6, 7, -1,   1, -1, 5,  -1, 4, -1],
-        [1, -1, 6,  -1,-1,-1,  2, -1,-1]
+        [1, -1, 6,  -1,-1,-1,    2, -1,-1]
     ]
     print(sudoku(sudoku_board))
     print(sudoku_board)
