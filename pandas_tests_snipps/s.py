@@ -10,7 +10,18 @@ def find_next_empty(puzzle):
     return None,None  #if there are no empty spaces in the puzzle (-1)
 
 def valid_guess(puzzle, guess, row,col):
-    pass
+    #if the guess in the row and col are valid; True if valid, false otherwise
+    #start with row:
+    row_value=puzzle[row]
+    if guess in row_value:
+        return False
+    #no col:
+    col_value=[]
+    for i in range(9):
+        col.col_value.append(puzzle[i][col])
+    col_value=[puzzle[i][col] for i in range(9)]
+    
+
     
 
 
