@@ -74,7 +74,7 @@ udacity['Day']=udacity['year'].dt.day_name()
 f,axes = plt.subplots(1,2, figsize=(15, 10))
 fig1=sns.violinplot(x=udacity["Products"], y=udacity["Profit"], palette="summer",ax=axes[0])
 fig2=sns.boxplot(udacity.Place, udacity.Profit, palette='viridis',hue_order=[True,False],ax=axes[1])
-plt.show()
+
 
 #scatter subplot
 f,axes = plt.subplots(1,2, figsize=(15, 10))
@@ -84,17 +84,49 @@ A=sns.scatterplot(udacity.Out_px, udacity.Profit, s=100, edgecolor='black', alph
 B=sns.scatterplot(udacity.Margin, udacity.Profit, s=100, edgecolor='black', alpha=0.5,\
      palette='Blues',ax=axes[1])
 
-plt.show()
+
 
 #correlation map
 sns.heatmap(udacity.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1, yticklabels=True,xticklabels=True)
-plt.show()
+
 
 """Conclusions"""
 
 #Laptops sell best
 #they sell best in EU
 #there are many correlations according to the heatmap
+
+
+#######################################################
+
+print(udacity)
+
+cohort=udacity.copy()
+print(cohort)
+
+x=cohort.groupby(['client_id', 'Day'])[['Profit']]
+print(x.sum())
+
+
+#define f to parse date
+def get_day(x):
+    return datetime.datetime(x.year,x.day,1) 
+
+#create column client_Day
+cohort['Client_Day'] = cohort['year'].apply(get_day)
+
+#Group by clientid and select the InvoiceMonth value
+grouping = cohort.groupby('client_id')['Client_Day'] 
+
+
+# Assign a minimum Clien_Day value to the dataset
+cohort['CohortDay'] = grouping.transform('min')
+
+
+
+
+
+
 
 
 
