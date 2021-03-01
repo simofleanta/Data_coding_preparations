@@ -17,6 +17,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 import plotly.express as px
 import datetime
+import datetime as dt
 
 
 # open cohort
@@ -44,6 +45,25 @@ cohort['Month']=cohort['year'].dt.month_name()
 cohort['Day']=cohort['year'].dt.day_name()
 
 print(cohort)
+
+# I parse dates
+
+def get_month(x):
+    return dt.datetime(x.year,x.month,1)
+
+## Create ClientMonth column
+cohort['ClientMonth'] = cohort['year'].apply(get_month)
+
+# Group by client_id and select the ClientMonth value
+grouping = cohort.groupby('client_id')['ClientMonth']
+
+## Assign a minimum ClientMonth value to the dataset
+cohort['CohortMonth'] = grouping.transform('min')
+
+# II calculate time offsets
+
+
+
 
 
 
