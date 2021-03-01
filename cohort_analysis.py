@@ -139,6 +139,7 @@ plt.figure(figsize=(15,7))
 # title- clients cohots
 plt.title('Retention by Monthly client_Cohorts')
 
+
 # Create the heatmap
 sns.heatmap(data=retention,
             annot = True,
@@ -186,7 +187,7 @@ sns.heatmap(data = average_price,
             annot=True,
             vmin = 20,
 #             vmax =20,
-            cmap='prism',
+            cmap='BuPu_r',
             vmax = list(average_price.max().sort_values(ascending = False))[1]+3,
             fmt = '.1f',
             linewidth = 0.7,
