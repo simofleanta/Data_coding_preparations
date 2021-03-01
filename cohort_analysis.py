@@ -62,6 +62,36 @@ cohort['CohortMonth'] = grouping.transform('min')
 
 # II calculate time offsets
 
+def get_date_int(df, column):
+    year = df[column].dt.year
+    month = df[column].dt.month
+    return year, month
+
+# Get the integers for date parts from the `ClientMonth` column
+client_year, client_month = get_date_int(cohort,'ClientMonth')
+
+# Get the integers for date parts from the `CohortMonth` column
+cohort_year, cohort_month = get_date_int(cohort,'CohortMonth')
+
+
+#calculate date diff in years
+
+# Calculate difference in years
+years_diff = client_year - cohort_year
+
+# Calculate difference in months
+months_diff = client_month - cohort_month
+
+# Extract the difference in months from all previous values
+cohort['CohortIndex'] = years_diff * 12 + months_diff + 1
+
+print(cohort)
+
+
+
+
+
+
 
 
 
