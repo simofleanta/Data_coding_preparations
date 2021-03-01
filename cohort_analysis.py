@@ -122,6 +122,26 @@ retention = cohort_counts.divide(cohort_sizes, axis=0)*100
 
 months=["Jun '6", "Jul '7", "Aug '8", "Sep '9", "Oct '10","Nov '11"]
 
+# Initialize inches plot figure
+plt.figure(figsize=(15,7))
+
+# Add a title
+plt.title('Retention by Monthly client_Cohorts')
+
+# Create the heatmap
+sns.heatmap(data=retention,
+            annot = True,
+            cmap = "Blues",
+            vmin = 0.0,
+#             vmax = 0.5,
+            vmax = list(retention.max().sort_values(ascending = False))[1]+3,
+            fmt = '.1f',
+            linewidth = 0.3,
+            yticklabels=months)
+
+plt.show()
+
+
 
 
 
