@@ -19,10 +19,6 @@ import plotly.express as px
 import datetime
 
 
-
-
-
-
 # open cohort
 
 c=pd.read_csv('cohort.csv')
@@ -41,5 +37,19 @@ x=cohort['year']=pd.to_datetime(cohort['year'], format='%d-%m-%y')
 Day=cohort['year'].dt.day_name()
 Month=cohort['year'].dt.month_name()
 Year=cohort['year'].dt.year
+
+#subsetting 
+cohort['Year']=cohort['year'].dt.year
+cohort['Month']=cohort['year'].dt.month_name()
+cohort['Day']=cohort['year'].dt.day_name()
+
+print(cohort.columns)
+
+
+
+
+
+
+
 
 
