@@ -18,6 +18,13 @@ from sklearn.metrics import r2_score
 import plotly.express as px
 import datetime
 import datetime as dt
+import time
+
+# Supress Scientific notation in python
+pd.set_option('display.float_format', lambda x: '%.2f' % x)
+
+# Display all columns of long dataframe
+pd.set_option('display.max_columns', None)
 
 
 # open cohort
@@ -127,7 +134,7 @@ months=["Jun '18", "Jul '18", "Aug '18", \
                 "May '20", "Jun '20"]
 
 # setup inches plot figure
-plt.figure(figsize=(15,7))
+plt.figure(figsize=(10,7))
 
 # title- clients cohots
 plt.title('Retention by Monthly client_Cohorts')
