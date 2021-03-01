@@ -133,13 +133,16 @@ sns.heatmap(data=retention,
             annot = True,
             cmap = "Blues",
             vmin = 0.0,
-#             vmax = 0.5,
+            #vmax = 0.5,
             vmax = list(retention.max().sort_values(ascending = False))[1]+3,
             fmt = '.1f',
             linewidth = 0.3,
             yticklabels=months)
 
 plt.show()
+
+
+
 
 
 
