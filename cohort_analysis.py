@@ -121,8 +121,10 @@ retention = cohort_counts.divide(cohort_sizes, axis=0)*100
 
 # V last chunk of the cohort analysis
 
-months=["Jun '6", "Jul '7", "Aug '8", \
-        "Sep '9", "Oct '10","Nov '11"]
+months=["Jun '18", "Jul '18", "Aug '18", \
+        "Sep '19", "Oct '19","Nov '19",\
+            "Dec '19", "Jan '20", "Feb '20", "Mar '20", "Apr '20",\
+                "May '20", "Jun '20"]
 
 # setup inches plot figure
 plt.figure(figsize=(15,7))
@@ -163,7 +165,9 @@ average_price.index = average_price.index.date
 
 
 month_list=["Jun '18", "Jul '18", "Aug '18", \
-        "Sep '19", "Oct '19","Nov '19"]
+        "Sep '19", "Oct '19","Nov '19",\
+            "Dec '19", "Jan '20", "Feb '20", "Mar '20", "Apr '20",\
+                "May '20", "Jun '20"]
 
 # Add a title
 plt.title('Average price by Monthly Cohorts')
