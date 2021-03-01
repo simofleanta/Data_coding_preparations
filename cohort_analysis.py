@@ -87,8 +87,8 @@ years_diff = client_year - cohort_year
 months_diff = client_month - cohort_month
 
 # Extract the difference in months from all previous values
-cohort['CohortIndex'] = years_diff * 12 + months_diff + 1
-#print(cohort)
+cohort['CohortIndex'] = years_diff * 4 + months_diff + 1
+print(cohort)
 
 
 ################IV
@@ -120,7 +120,8 @@ retention = cohort_counts.divide(cohort_sizes, axis=0)*100
 
 # V last chunk of the cohort analysis
 
-months=["Jun '6", "Jul '7", "Aug '8", "Sep '9", "Oct '10","Nov '11"]
+months=["Jun '6", "Jul '7", "Aug '8", \
+        "Sep '9", "Oct '10","Nov '11"]
 
 # setup inches plot figure
 plt.figure(figsize=(15,7))
@@ -140,6 +141,45 @@ sns.heatmap(data=retention,
             yticklabels=months)
 
 plt.show()
+#####################################################################3
+
+
+#avg px/cohort 
+
+# Create a groupby object and pass the monthly cohort and cohort index as a list
+groupings = cohort.groupby(['CohortMonth', 'CohortIndex']) 
+
+# Calculate the average of the unit price column
+cohort_datas = grouping['Out_px'].mean()
+
+# Reset the index of cohort_data
+cohort_datas = cohort_datas.reset_index()
+
+# Create a pivot 
+average_price = cohort_datas.pivot(index='CohortMonth', columns='CohortIndex', values='Out_px')
+average_price.round(1)
+average_price.index = average_price.index.date
+
+
+month_list=["Jun '18", "Jul '18", "Aug '18", \
+        "Sep '19", "Oct '19","Nov '19"]
+
+# Add a title
+plt.title('Average price by Monthly Cohorts')
+
+# Create the heatmap
+sns.heatmap(data = average_price,
+            annot=True,
+            vmin = 0.0,
+#             vmax =20,
+            cmap='Blues',
+            vmax = list(average_price.max().sort_values(ascending = False))[1]+3,
+            fmt = '.1f',
+            linewidth = 0.3,
+            yticklabels=month_list)
+plt.show()
+
+
 
 
 
