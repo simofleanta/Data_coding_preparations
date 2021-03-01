@@ -24,8 +24,8 @@ import datetime as dt
 
 c=pd.read_csv('cohort.csv')
 print(c.columns)
-cohort=DataFrame(c.head(62))
-print(cohort.head(62))
+cohort=DataFrame(c.head(152))
+print(cohort.head(152))
 
 #parse index
 cohort['year']=pd.to_datetime(cohort['year'], infer_datetime_format=True)
@@ -137,7 +137,7 @@ sns.heatmap(data=retention,
             annot = True,
             cmap = "Blues",
             vmin = 0.0,
-            #vmax = 0.5,
+            #volmax = 0.5,
             vmax = list(retention.max().sort_values(ascending = False))[1]+3,
             fmt = '.1f',
             linewidth = 0.3,
