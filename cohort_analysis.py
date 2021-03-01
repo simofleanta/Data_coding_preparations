@@ -187,7 +187,7 @@ sns.heatmap(data = average_price,
             cmap='prism',
             vmax = list(average_price.max().sort_values(ascending = False))[1]+3,
             fmt = '.1f',
-            linewidth = 0.10,
+            linewidth = 0.3,
             yticklabels=month_list)
 plt.show()
 
