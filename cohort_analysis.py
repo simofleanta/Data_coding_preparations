@@ -43,7 +43,9 @@ cohort['Year']=cohort['year'].dt.year
 cohort['Month']=cohort['year'].dt.month_name()
 cohort['Day']=cohort['year'].dt.day_name()
 
-print(cohort.columns)
+print(cohort)
+
+
 
 
 
