@@ -60,7 +60,9 @@ grouping = cohort.groupby('client_id')['ClientMonth']
 ## Assign a minimum ClientMonth value to the dataset
 cohort['CohortMonth'] = grouping.transform('min')
 
-# II calculate time offsets
+# II 
+
+# calculate time offsets
 
 def get_date_int(df, column):
     year = df[column].dt.year
@@ -74,7 +76,9 @@ client_year, client_month = get_date_int(cohort,'ClientMonth')
 cohort_year, cohort_month = get_date_int(cohort,'CohortMonth')
 
 
-#calculate date diff in years
+# III 
+
+# calculate date diff in years
 
 # Calculate difference in years
 years_diff = client_year - cohort_year
@@ -84,8 +88,36 @@ months_diff = client_month - cohort_month
 
 # Extract the difference in months from all previous values
 cohort['CohortIndex'] = years_diff * 12 + months_diff + 1
+#print(cohort)
 
-print(cohort)
+
+################IV
+
+#Retention rate
+#% of active clients to the total no of clients
+
+#steps:
+
+#1
+grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
+
+
+#2 count unque vals per clientid
+
+cohort_data = grouping['client_id'].apply(pd.Series.nunique).reset_index()
+
+#step3 create pivot
+
+cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='client_id')
+
+#step4 Select the first column and store it to cohort_sizes
+
+cohort_sizes = cohort_counts.iloc[:,0]
+
+# step 5 Divide the cohort count by cohort sizes along the rows
+
+retention = cohort_counts.divide(cohort_sizes, axis=0)*100
+
 
 
 
