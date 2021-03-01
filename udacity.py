@@ -101,9 +101,12 @@ sns.heatmap(udacity.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1
 
 print(udacity)
 
+# copy udacity for cohort 
+
 cohort=udacity.copy()
 print(cohort)
 
+#apply groupby for curiosity
 x=cohort.groupby(['client_id', 'Day'])[['Profit']]
 print(x.sum())
 
