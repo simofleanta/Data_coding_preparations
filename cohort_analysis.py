@@ -46,7 +46,7 @@ cohort['Day']=cohort['year'].dt.day_name()
 
 print(cohort)
 
-# I parse dates
+# I ###########parse dates
 
 def get_month(x):
     return dt.datetime(x.year,x.month,1)
@@ -60,7 +60,7 @@ grouping = cohort.groupby('client_id')['ClientMonth']
 ## Assign a minimum ClientMonth value to the dataset
 cohort['CohortMonth'] = grouping.transform('min')
 
-# II 
+# ###############II 
 
 # calculate time offsets
 
@@ -76,7 +76,7 @@ client_year, client_month = get_date_int(cohort,'ClientMonth')
 cohort_year, cohort_month = get_date_int(cohort,'CohortMonth')
 
 
-# III 
+############ III 
 
 # calculate date diff in years
 
@@ -122,10 +122,10 @@ retention = cohort_counts.divide(cohort_sizes, axis=0)*100
 
 months=["Jun '6", "Jul '7", "Aug '8", "Sep '9", "Oct '10","Nov '11"]
 
-# Initialize inches plot figure
+# setup inches plot figure
 plt.figure(figsize=(15,7))
 
-# Add a title
+# title- clients cohots
 plt.title('Retention by Monthly client_Cohorts')
 
 # Create the heatmap
