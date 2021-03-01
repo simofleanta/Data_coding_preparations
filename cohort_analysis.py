@@ -194,6 +194,48 @@ sns.heatmap(data = average_price,
             yticklabels=month_list)
 plt.show()
 
+########################################
+
+
+#avg profit/cohort 
+
+
+
+# Create a groupby object and pass the monthly cohort and cohort index as a list
+groupings = cohort.groupby(['CohortMonth', 'CohortIndex']) 
+
+# Calculate the average of the unit price column
+cohort_datas = grouping['Profit'].mean()
+
+# Reset the index of cohort_data
+cohort_datas = cohort_datas.reset_index()
+
+# Create a pivot 
+average_profit = cohort_datas.pivot(index='CohortMonth', columns='CohortIndex', values='Profit')
+average_profit.round(2)
+average_profit.index = average_profit.index.date
+
+
+month_list=["Jun '18", "Jul '18", "Aug '18", \
+        "Sep '18", "Oct '19","Nov '19",\
+            "Dec '19", "Jan '20", "Feb '20", "Mar '20", "Apr '20",\
+                "May '20", "Jun '20"]
+
+# Add a title
+plt.title('Average profit by Monthly Cohorts')
+
+# Create the heatmap
+sns.heatmap(data = average_profit,
+            annot=True,
+            vmin = 20,
+#             vmax =20,
+            cmap='Blues',
+            vmax = list(average_profit.max().sort_values(ascending = False))[1]+8,
+            fmt = '.1f',
+            linewidth = 0.7,
+            yticklabels=month_list)
+plt.show()
+
 
 
 
