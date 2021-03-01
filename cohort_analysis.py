@@ -134,7 +134,7 @@ months=["Jun '18", "Jul '18", "Aug '18", \
                 "May '20", "Jun '20"]
 
 # setup inches plot figure
-plt.figure(figsize=(10,7))
+plt.figure(figsize=(15,7))
 
 # title- clients cohots
 plt.title('Retention by Monthly client_Cohorts')
