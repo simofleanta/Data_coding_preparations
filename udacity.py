@@ -110,6 +110,8 @@ print(cohort)
 x=cohort.groupby(['client_id', 'Day'])[['Profit']]
 print(x.sum())
 
+# I
+
 #define f to parse date
 def get_day(x):
     return datetime.datetime(x.year,x.day,1) 
@@ -121,6 +123,9 @@ cohort['Client_Day'] = cohort['year'].apply(get_day)
 grouping = cohort.groupby('client_id')['Client_Day'] 
 
 
+
+# II 
+
 # Assign a minimum Clien_Day value to the dataset
 cohort['CohortDay'] = grouping.transform('min')
 
@@ -131,12 +136,32 @@ def get_date_int(df, column):
     return year, month,Day
 
 
-
 # Get the integers for date parts from the `InvoiceMonth` column
-invoice_year, invoice_month = get_date_int(cohort,'InvoiceMonth')
+client_year, client_month, client_day = get_date_int(cohort,'Client_Day')
 
 # Get the integers for date parts from the `CohortMonth` column
-cohort_year, cohort_month = get_date_int(cohort,'CohortMonth')
+cohort_year, cohort_month, cohort_day= get_date_int(cohort,'CohortDay')
+
+# III
+
+# Calculate difference in years
+years_diff = client_year - cohort_year
+
+# Calculate difference in months
+months_diff = client_year - cohort_month
+
+# Calculate difference in days
+day_diff = client_day - cohort_day
+
+# Extract the difference in months from all previous values
+cohort['CohortIndex'] = day_diff * 30 + months_diff + 1
+
+#IV
+
+
+
+
+
 
 
 
