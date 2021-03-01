@@ -95,7 +95,7 @@ years_diff = client_year - cohort_year
 months_diff = client_month - cohort_month
 
 # Extract the difference in months from all previous values
-cohort['CohortIndex'] = years_diff * 12 + months_diff + 1
+cohort['CohortIndex'] = years_diff * 12 + months_diff + 7
 print(cohort)
 
 
@@ -155,6 +155,8 @@ plt.show()
 
 
 #avg px/cohort 
+
+
 
 # Create a groupby object and pass the monthly cohort and cohort index as a list
 groupings = cohort.groupby(['CohortMonth', 'CohortIndex']) 
