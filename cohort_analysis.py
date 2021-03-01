@@ -167,7 +167,7 @@ cohort_datas = cohort_datas.reset_index()
 
 # Create a pivot 
 average_price = cohort_datas.pivot(index='CohortMonth', columns='CohortIndex', values='Out_px')
-average_price.round(1)
+average_price.round(2)
 average_price.index = average_price.index.date
 
 
@@ -182,12 +182,12 @@ plt.title('Average price by Monthly Cohorts')
 # Create the heatmap
 sns.heatmap(data = average_price,
             annot=True,
-            vmin = 0.0,
+            vmin = 20,
 #             vmax =20,
-            cmap='Blues',
+            cmap='prism',
             vmax = list(average_price.max().sort_values(ascending = False))[1]+3,
             fmt = '.1f',
-            linewidth = 0.3,
+            linewidth = 0.10,
             yticklabels=month_list)
 plt.show()
 
