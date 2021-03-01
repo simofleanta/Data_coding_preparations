@@ -158,7 +158,7 @@ cohort['CohortIndex'] = day_diff * 30 + months_diff + 1
 
 #IV
 
-
+grouping = cohort.groupby(['cohort_month', 'CohortIndex'])
 
 
 
