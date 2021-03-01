@@ -110,7 +110,6 @@ print(cohort)
 x=cohort.groupby(['client_id', 'Day'])[['Profit']]
 print(x.sum())
 
-
 #define f to parse date
 def get_day(x):
     return datetime.datetime(x.year,x.day,1) 
@@ -124,6 +123,24 @@ grouping = cohort.groupby('client_id')['Client_Day']
 
 # Assign a minimum Clien_Day value to the dataset
 cohort['CohortDay'] = grouping.transform('min')
+
+def get_date_int(df, column):
+    year = df[column].dt.year
+    month = df[column].dt.month
+    Day=df[column].dt.day
+    return year, month,Day
+
+
+
+# Get the integers for date parts from the `InvoiceMonth` column
+invoice_year, invoice_month = get_date_int(cohort,'InvoiceMonth')
+
+# Get the integers for date parts from the `CohortMonth` column
+cohort_year, cohort_month = get_date_int(cohort,'CohortMonth')
+
+
+
+
 
 
 
