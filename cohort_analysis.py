@@ -87,7 +87,7 @@ years_diff = client_year - cohort_year
 months_diff = client_month - cohort_month
 
 # Extract the difference in months from all previous values
-cohort['CohortIndex'] = years_diff * 4 + months_diff + 1
+cohort['CohortIndex'] = years_diff * 12 + months_diff + 1
 print(cohort)
 
 
