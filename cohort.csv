@@ -13,14 +13,14 @@ year,Place,Country,City,Products,client_id,In-Price,Margin,VAT,Out_px,Count,Pric
 7/7/2018,Europe,Germany,B,Bikes ,301,500,150,95,67,50,37250,25000,12240.5,Average,8940
 7/7/2018,Europe,Germany,B,Laptops,454,4000,1200,760,89,100,596000,400000,195981,Good,8940
 7/7/2018,Europe,Germany,B,Laptops,454,4000,1200,760,10,50,298000,200000,97990.5,Good,8940
-7/7/2018,Europe,Germany,B,Laptops,298,4000,1200,760,15,50,298000,200000,97990.5,Good,8940
-7/8/2018,Europe,Germany,B,Laptops,286,4000,1200,760,12,50,298000,200000,97990.5,Good,8940
-7/8/2018,Europe,Netherlands,Amsterdam,Laptops,456,4000,1200,760,20,50,298000,200000,97990.5,Good,8940
-7/8/2018,Europe,Netherlands,Amsterdam,Laptops,456,4000,35,19,17,50,298000,200000,97990.5,Good,596
-7/8/2018,Europe,Netherlands,Amsterdam,Bikes ,301,1000,45,190,35,30,44700,30000,14694.3,Average,596
-8/8/2018,Europe,Netherlands,Amsterdam,Bikes ,302,1000,38,190,45,30,44700,30000,14694.3,Good,596
-8/8/2018,Europe,Netherlands,Amsterdam,Bikes ,298,1000,12,190,38,30,44700,30000,14694.3,Good,596
-8/8/2018,Europe,Netherlands,Amsterdam,Bikes ,201,1000,16,190,12,30,44700,30000,14694.3,Good,596
+7/7/2018,Europe,Germany,B,Laptops,298,4000,1200,760,15,50,2039,200000,97990.5,Good,8940
+7/8/2018,Europe,Germany,B,Laptops,286,4000,1200,760,12,50,2038,200000,97990.5,Good,8940
+7/8/2018,Europe,Netherlands,Amsterdam,Laptops,456,4000,1200,760,20,50,18465,200000,97990.5,Good,8940
+7/8/2018,Europe,Netherlands,Amsterdam,Laptops,456,4000,35,19,17,50,8365,200000,97990.5,Good,596
+7/8/2018,Europe,Netherlands,Amsterdam,Bikes ,301,1000,45,190,35,30,20934,30000,14694.3,Average,596
+8/8/2018,Europe,Netherlands,Amsterdam,Bikes ,302,1000,38,190,45,20,20194,30000,14694.3,Good,596
+8/8/2018,Europe,Netherlands,Amsterdam,Bikes ,298,1000,12,190,38,30,103783,30000,14694.3,Good,596
+8/8/2018,Europe,Netherlands,Amsterdam,Bikes ,201,1000,16,190,12,30,198,30000,14694.3,Good,596
 8/8/2018,Europe,Netherlands,Amsterdam,Bikes ,302,1000,36,190,16,30,44700,30000,14694.3,Good,7450
 8/8/2018,Europe,Netherlands,Amsterdam,Phones,202,500,150,95,36,10,7450,5000,2448.1,Good,596
 8/8/2018,Africa,Egypt,Cairo,Bikes ,302,1000,300,190,34,100,149000,100000,48981,Good,596
