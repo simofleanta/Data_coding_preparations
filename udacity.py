@@ -101,10 +101,12 @@ sns.heatmap(udacity.corr(), annot=True, cmap='Blues', linewidth=1,vmin=-1,vmax=1
 
 print(udacity)
 
-# copy udacity for cohort 
+# open cohort
 
-cohort=udacity.copy()
-print(cohort)
+c=pd.read_csv('cohort.csv')
+print(c.columns)
+cohort=DataFrame(c.head(1113))
+print(cohort.head(1113))
 
 #apply groupby for curiosity
 x=cohort.groupby(['client_id', 'Day'])[['Profit']]
