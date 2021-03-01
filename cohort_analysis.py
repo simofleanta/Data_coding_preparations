@@ -118,6 +118,12 @@ cohort_sizes = cohort_counts.iloc[:,0]
 
 retention = cohort_counts.divide(cohort_sizes, axis=0)*100
 
+# V last chunk of the cohort analysis
+
+months=["Jun '6", "Jul '7", "Aug '8", "Sep '9", "Oct '10","Nov '11"]
+
+
+
 
 
 
