@@ -23,8 +23,8 @@ import datetime
 
 c=pd.read_csv('cohort.csv')
 print(c.columns)
-cohort=DataFrame(c.head(1113))
-print(cohort.head(1113))
+cohort=DataFrame(c.head(62))
+print(cohort.head(62))
 
 #parse index
 cohort['year']=pd.to_datetime(cohort['year'], infer_datetime_format=True)
