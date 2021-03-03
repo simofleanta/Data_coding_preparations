@@ -188,3 +188,4 @@ sns.heatmap(data = average_price,
             linewidth = 0.7,
             yticklabels=month_list)
 plt.show()
+
