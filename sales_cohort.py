@@ -90,7 +90,7 @@ years_diff = client_year - cohort_year
 months_diff = client_month - cohort_month
 
 # Extract the difference in months from all previous values
-scohort['CohortIndex'] = years_diff * 12 + months_diff + 1
+scohort['CohortIndex'] = years_diff * 12 + months_diff + 7
 print(scohort)
 
 ################IV
@@ -106,7 +106,7 @@ grouping = scohort.groupby(['CohortMonth', 'CohortIndex'])
 
 #2 count unque vals per clientid
 
-cohort_data = grouping['client_id'].apply(pd.Series.nunique).reset_index()
+cohort_data = grouping['Client_id'].apply(pd.Series.nunique).reset_index()
 
 #step3 create pivot
 
@@ -129,3 +129,62 @@ months=["Jun '18", "Jul '18", "Aug '18", \
 
 # setup inches plot figure
 plt.figure(figsize=(15,7))
+
+# title- clients cohots
+plt.title('Retention by Monthly client_Cohorts')
+
+# Create the heatmap
+sns.heatmap(data=retention,
+            annot = True,
+            cmap = "Blues",
+            vmin = 0.0,
+            #volmax = 0.5,
+            vmax = list(retention.max().sort_values(ascending = False))[1]+3,
+            fmt = '.1f',
+            linewidth = 0.3,
+            yticklabels=months)
+
+plt.show()
+
+#####################################################################3
+
+
+
+#avg px/cohort 
+
+
+
+# Create a groupby object and pass the monthly cohort and cohort index as a list
+groupings = scohort.groupby(['CohortMonth', 'CohortIndex']) 
+
+# Calculate the average of the unit price column
+cohort_datas = grouping['Out_px'].mean()
+
+# Reset the index of cohort_data
+cohort_datas = cohort_datas.reset_index()
+
+# Create a pivot 
+average_price = cohort_datas.pivot(index='CohortMonth', columns='CohortIndex', values='Out_px')
+average_price.round(2)
+average_price.index = average_price.index.date
+
+
+month_list=["Jun '18", "Jul '18", "Aug '18", \
+        "Sep '19", "Oct '19","Nov '19",\
+            "Dec '19", "Jan '20", "Feb '20", "Mar '20", "Apr '20",\
+                "May '20", "Jun '20"]
+
+# Add a title
+plt.title('Average price by Monthly Cohorts')
+
+# Create the heatmap
+sns.heatmap(data = average_price,
+            annot=True,
+            vmin = 20,
+#             vmax =20,
+            cmap='viridis',
+            vmax = list(average_price.max().sort_values(ascending = False))[1]+3,
+            fmt = '.1f',
+            linewidth = 0.7,
+            yticklabels=month_list)
+plt.show()
