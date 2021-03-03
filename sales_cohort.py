@@ -53,3 +53,79 @@ scohort['Month']=scohort['year'].dt.month_name()
 scohort['Day']=scohort['year'].dt.day_name()
 
 print(scohort)
+
+# I ###########parse dates
+
+def get_month(x):
+    return dt.datetime(x.year,x.month,1)
+
+## Create ClientMonth column
+scohort['ClientMonth'] = scohort['year'].apply(get_month)
+
+# Group by client_id and select the ClientMonth value
+grouping = scohort.groupby('Client_id')['ClientMonth']
+
+## Assign a minimum ClientMonth value to the dataset
+scohort['CohortMonth'] = grouping.transform('min')
+
+
+# calculate time offsets
+
+def get_date_int(df, column):
+    year = df[column].dt.year
+    month = df[column].dt.month
+    return year, month
+
+# Get the integers for date parts from the `ClientMonth` column
+client_year, client_month = get_date_int(scohort,'ClientMonth')
+
+# Get the integers for date parts from the `CohortMonth` column
+cohort_year, cohort_month = get_date_int(scohort,'CohortMonth')
+
+
+# Calculate difference in years
+years_diff = client_year - cohort_year
+
+# Calculate difference in months
+months_diff = client_month - cohort_month
+
+# Extract the difference in months from all previous values
+scohort['CohortIndex'] = years_diff * 12 + months_diff + 1
+print(scohort)
+
+################IV
+
+#Retention rate
+#% of active clients to the total no of clients
+
+#steps:
+
+#1
+grouping = scohort.groupby(['CohortMonth', 'CohortIndex'])
+
+
+#2 count unque vals per clientid
+
+cohort_data = grouping['client_id'].apply(pd.Series.nunique).reset_index()
+
+#step3 create pivot
+
+cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Client_id')
+
+#step4 Select the first column and store it to cohort_sizes
+
+cohort_sizes = cohort_counts.iloc[:,0]
+
+# step 5 Divide the cohort count by cohort sizes along the rows
+
+retention = cohort_counts.divide(cohort_sizes, axis=0)*100
+
+# V last chunk of the cohort analysis
+
+months=["Jun '18", "Jul '18", "Aug '18", \
+        "Sep '19", "Oct '19","Nov '19",\
+            "Dec '19", "Jan '20", "Feb '20", "Mar '20", "Apr '20",\
+                "May '20", "Jun '20"]
+
+# setup inches plot figure
+plt.figure(figsize=(15,7))
