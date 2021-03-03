@@ -334,7 +334,7 @@ sns.heatmap(data = Country_code,
 plt.show()
 
 
-##########################
+#####################################################################
 # Client_id distrib by month cohorts
 cohort_datas = grouping['Client_id'].max()
 
