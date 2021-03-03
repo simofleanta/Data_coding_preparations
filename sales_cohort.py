@@ -234,7 +234,6 @@ groupings = scohort.groupby(['CohortMonth', 'CohortIndex'])
 # Reset the index of cohort_data
 cohort_datas = cohort_datas.reset_index()
 
-
 # Calculate the average of the unit price column
 cohort_datase = grouping['Compare'].mean()
 
@@ -261,7 +260,7 @@ sns.heatmap(data = compare,
             vmin = '0.0',
 #             vmax =20,
             cmap='YlOrRd',
-            vmax = list(client_count.max().sort_values(ascending = False))[1]+3,
+            vmax = list(compare.max().sort_values(ascending = False))[1]+3,
             fmt = '.1f',
             linewidth = 0.7,
             yticklabels=month_list)
@@ -295,7 +294,41 @@ sns.heatmap(data = actual_p,
             vmin = 20,
 #             vmax =20,
             cmap='viridis',
-            vmax = list(client_count.max().sort_values(ascending = False))[1]+3,
+            vmax = list(actual_p.max().sort_values(ascending = False))[1]+3,
+            fmt = '.1f',
+            linewidth = 0.7,
+            yticklabels=month_list)
+plt.show()
+
+##########################
+
+# Calculate the average of the unit price column
+cohort_datas = grouping['Country_code'].max()
+
+# Reset the index of cohort_data
+cohort_datas = cohort_datas.reset_index()
+
+# Create a pivot 
+Country_code = cohort_datas.pivot(index='CohortMonth', columns='CohortIndex', values='Country_code')
+Country_code.round(5)
+Country_code.index = Country_code.index.date
+plt.figure(figsize=(15,7))
+
+month_list=["Jun '18", "Jul '18", "Aug '18", \
+        "Sep '19", "Oct '19","Nov '19",\
+            "Dec '19", "Jan '20", "Feb '20", "Mar '20", "Apr '20",\
+                "May '20", "Jun '20"]
+
+# Add a title
+plt.title('Country disttrib by Monthly Cohorts')
+
+# Create the heatmap
+sns.heatmap(data = Country_code,
+            annot=True,
+            vmin = 20,
+#             vmax =20,
+            cmap='YlOrRd',
+            vmax = list(Country_code.max().sort_values(ascending = False))[1]+3,
             fmt = '.1f',
             linewidth = 0.7,
             yticklabels=month_list)
