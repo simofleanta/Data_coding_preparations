@@ -319,7 +319,7 @@ month_list=["Jun '18", "Jul '18", "Aug '18", \
                 "May '20", "Jun '20"]
 
 # Add a title
-plt.title('Country disttrib by Monthly Cohorts')
+plt.title('Country distrib by Monthly Cohorts')
 
 # Create the heatmap
 sns.heatmap(data = Country_code,
@@ -333,6 +333,39 @@ sns.heatmap(data = Country_code,
             yticklabels=month_list)
 plt.show()
 
+
+##########################
+# Client_id distrib by month cohorts
+cohort_datas = grouping['Client_id'].max()
+
+# Reset the index of cohort_data
+cohort_datas = cohort_datas.reset_index()
+
+# Create a pivot 
+Client_id = cohort_datas.pivot(index='CohortMonth', columns='CohortIndex', values='Client_id')
+Client_id.round(5)
+Client_id.index = Client_id.index.date
+plt.figure(figsize=(15,7))
+
+month_list=["Jun '18", "Jul '18", "Aug '18", \
+        "Sep '19", "Oct '19","Nov '19",\
+            "Dec '19", "Jan '20", "Feb '20", "Mar '20", "Apr '20",\
+                "May '20", "Jun '20"]
+
+# Add a title
+plt.title('Client_id distrib by Monthly Cohorts')
+
+# Create the heatmap
+sns.heatmap(data = Client_id,
+            annot=True,
+            vmin = 20,
+#             vmax =20,
+            cmap='YlOrRd',
+            vmax = list(Client_id.max().sort_values(ascending = False))[1]+3,
+            fmt = '.1f',
+            linewidth = 0.7,
+            yticklabels=month_list)
+plt.show()
 
 
 
