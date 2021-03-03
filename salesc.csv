@@ -84,7 +84,7 @@ year,Country,No_Client_Country,Services,Client_id,Out_px,Client_Count
 12/6/2019,Belgium,10,Energy_BA,10,830,10
 12/7/2019,Belgium,100,Energy_BA,300,920,100
 12/8/2019,Belgium,100,Energy_BA,300,860,100
-12/9/2019,Belgium,100,Energy_BA,300,4600,100
+12/9/2019,Belgium,100,Energy_BA,201,4600,100
 12/10/2019,Belgium,100,Energy_BA,300,3900,100
 12/11/2020,Belgium,50,Energy_BA,300,3500,50
 1/1/2020,Belgium,50,Energy_BA,300,2200,50
@@ -95,13 +95,13 @@ year,Country,No_Client_Country,Services,Client_id,Out_px,Client_Count
 1/17/2020,Netherlands,100,Music_BA,88,860,100
 1/18/2020,Netherlands,100,Music_BA,369,830,100
 1/19/2020,Netherlands,100,Music_BA,369,2800,100
-1/20/2020,Netherlands,100,Music_BA,369,2800,100
+1/20/2020,Netherlands,100,Music_BA,201,2800,100
 2/21/2020,Netherlands,100,Music_BA,369,1100,100
 2/22/2020,Netherlands,40,Music_BA,369,6000,40
 2/23/2020,Netherlands,40,Music_BA,369,2000,40
 2/24/2020,Netherlands,40,Music_BA,369,1800,40
 2/25/2020,Netherlands,40,Music_BA,369,1090,40
-2/26/2020,Netherlands,40,Music_BA,369,2500,40
+2/26/2020,Netherlands,40,Music_BA,150,2500,40
 2/27/2020,Netherlands,40,Music_BA,369,3700,40
 2/28/2020,Netherlands,40,Music_BA,369,2800,40
 2/29/2020,Netherlands,40,Music_BA,369,3400,40
@@ -117,8 +117,8 @@ year,Country,No_Client_Country,Services,Client_id,Out_px,Client_Count
 3/8/2020,Denmark,40,Sport_Analysis,120,800,40
 4/9/2020,Denmark,40,Sport_Analysis,120,870,40
 4/10/2020,Denmark,40,Sport_Analysis,120,850,40
-4/11/2020,Denmark,10,Sport_Analysis,120,850,10
-4/12/2020,Denmark,3,Sport_Analysis,120,740,3
+4/11/2020,Denmark,10,Sport_Analysis,201,850,10
+4/12/2020,Denmark,3,Sport_Analysis,201,740,3
 4/14/2020,Denmark,10,Sport_Analysis,120,820,10
 4/14/2020,Denmark,2,Sport_Analysis,120,6200,2
 4/15/2020,Denmark,4,Sport_Analysis,120,6000,4
@@ -136,7 +136,7 @@ year,Country,No_Client_Country,Services,Client_id,Out_px,Client_Count
 5/27/2020,Finland,50,CareerBI_Coach,25,630,50
 5/28/2020,Luxembourg,50,RenewableEn_BI,25,600,50
 5/29/2020,Luxembourg,30,RenewableEn_BI,10,3000,30
-5/30/2020,Luxembourg,30,RenewableEn_BI,10,3000,30
+5/30/2020,Luxembourg,30,RenewableEn_BI,201,3000,30
 5/31/2020,Luxembourg,30,RenewableEn_BI,10,770,30
 6/1/2020,Luxembourg,30,RenewableEn_BI,10,800,30
 6/2/2020,Luxembourg,30,RenewableEn_BI,10,911,30
