@@ -1,150 +1,150 @@
-year,Country,No_Client_Country,Services,Client_id,Out_px,Client_Count
-6/6/2018,Chile,10,Full_stack_Analysis,201,2800,10
-6/6/2018,Chile,3,Python_Analysis,200,3900,3
-6/6/2018,Chile,10,PowerBI_Analysis ,150,4800,10
-6/6/2018,Chile,2,PowerBI_Analysis ,150,1000,2
-6/6/2018,Chile,4,PowerBI_Analysis ,150,2800,4
-6/6/2018,Chile,6,Python_Analysis,200,4800,6
-6/6/2018,Chile,50,Full_stack_Analysis,201,5400,50
-6/7/2018,Chile,30,Full_stack_Analysis,201,2000,30
-6/7/2018,Chile,10,Python_Analysis,200,1700,10
-7/7/2018,Chile,5,Python_Analysis,88,2600,5
-7/7/2018,Chile,20,PowerBI_Analysis ,150,5400,20
-7/7/2018,Germany,50,PowerBI_Analysis ,150,3700,50
-7/7/2018,Germany,100,Python_Analysis,200,3900,100
-7/7/2018,Germany,50,Python_Analysis,200,1000,50
-7/7/2018,Germany,50,Python_Analysis,200,1500,50
-7/8/2018,Germany,50,Python_Analysis,200,1200,50
-7/8/2018,Netherlands,50,Python_Analysis,200,2000,50
-7/8/2018,Netherlands,50,Python_Analysis,200,1700,50
-7/8/2018,Netherlands,30,PowerBI_Analysis ,150,3500,30
-8/8/2018,Netherlands,20,PowerBI_Analysis ,150,4500,20
-8/8/2018,Netherlands,30,PowerBI_Analysis ,150,3800,30
-8/8/2018,Netherlands,30,PowerBI_Analysis ,100,1200,30
-8/8/2018,Netherlands,30,PowerBI_Analysis ,150,1600,30
-8/8/2018,Netherlands,10,Full_stack_Analysis,201,3600,10
-8/8/2018,Swiss,100,PowerBI_Analysis ,150,3400,100
-8/9/2018,Swiss,100,PowerBI_Analysis ,150,2800,100
-8/9/2018,Swiss,100,PowerBI_Analysis ,150,4500,100
-8/9/2018,Swiss,100,PowerBI_Analysis ,150,2300,100
-8/9/2019,Swiss,50,Full_stack_Analysis,201,3700,50
-9/9/2019,Swiss,50,Full_stack_Analysis,201,3400,50
-9/9/2019,Swiss,50,Full_stack_Analysis,201,3400,50
-9/9/2019,Swiss,50,Full_stack_Analysis,201,2300,50
-9/9/2019,Swiss,50,Full_stack_Analysis,201,1200,50
-9/9/2019,France,100,Python_Analysis,200,1900,100
-9/10/2019,France,100,Python_Analysis,200,1000,100
-9/10/2019,France,100,Python_Analysis,200,1100,100
-9/10/2019,France,100,Python_Analysis,150,4500,100
-9/10/2019,France,100,Python_Analysis,200,4000,100
-9/10/2019,France,100,Python_Analysis,200,3400,100
-10/10/2019,France,40,PowerBI_Analysis ,150,5000,40
-10/10/2019,France,40,PowerBI_Analysis ,20,3000,40
-10/10/2019,France,40,PowerBI_Analysis ,20,5800,40
-10/11/2019,France,40,PowerBI_Analysis ,20,3800,40
-10/11/2019,France,40,PowerBI_Analysis ,150,5900,40
-10/11/2019,France,40,PowerBI_Analysis ,150,4500,40
-10/11/2019,France,40,PowerBI_Analysis ,150,3200,40
-10/11/2019,France,40,PowerBI_Analysis ,150,2000,40
-10/11/2019,France,40,PowerBI_Analysis ,150,1000,40
-10/11/2019,SouthAfrica,40,PowerBI_Analysis ,150,4600,40
-11/11/2019,SouthAfrica,40,PowerBI_Analysis ,150,3300,40
-11/12/2019,SouthAfrica,40,PowerBI_Analysis ,150,2700,40
-11/12/2019,Germany,40,PowerBI_Analysis ,150,4400,40
-11/12/2019,Germany,40,PowerBI_Analysis ,88,5500,40
-11/12/2019,Germany,40,PowerBI_Analysis ,45,2000,40
-11/12/2019,Germany,40,PowerBI_Analysis ,150,2500,40
-11/12/2019,Germany,40,PowerBI_Analysis ,150,4500,40
-11/12/2019,Germany,40,PowerBI_Analysis ,150,3700,40
-11/12/2019,Germany,40,PowerBI_Analysis ,150,3800,40
-11/12/2019,Germany,40,PowerBI_Analysis ,150,4900,40
-11/13/2019,Germany,10,Price_Analysis,100,3800,10
-11/14/2019,Germany,3,Price_Analysis,300,2800,3
-11/15/2019,Germany,10,Price_Analysis,300,5600,10
-11/16/2019,Germany,2,Price_Analysis,100,3800,2
-11/17/2019,Germany,4,Price_Analysis,100,4500,4
-11/18/2019,Germany,6,Price_Analysis,100,2900,6
-11/19/2019,Germany,50,Price_Analysis,100,3900,50
-11/20/2019,Germany,30,Price_Analysis,100,4800,30
-11/21/2019,Germany,10,Price_Analysis,100,6000,10
-11/22/2019,Germany,5,Price_Analysis,100,5500,5
-11/23/2019,Germany,20,Price_Analysis,100,6600,20
-11/24/2019,Germany,50,Price_Analysis,100,7700,50
-11/25/2019,Germany,100,Price_Analysis,100,3300,100
-11/26/2019,Germany,50,Price_Analysis,100,2000,50
-11/27/2019,Belgium,50,Energy_BA,88,2900,50
-11/28/2019,Belgium,50,Energy_BA,88,3000,50
-11/29/2019,Belgium,50,Energy_BA,88,2800,50
-11/30/2019,Belgium,50,Energy_BA,300,3700,50
-12/1/2019,Belgium,30,Energy_BA,120,1000,30
-12/2/2019,Belgium,30,Energy_BA,120,1100,30
-12/3/2019,Belgium,30,Energy_BA,120,3700,30
-12/4/2019,Belgium,30,Energy_BA,10,830,30
-12/5/2019,Belgium,30,Energy_BA,10,870,30
-12/6/2019,Belgium,10,Energy_BA,10,830,10
-12/7/2019,Belgium,100,Energy_BA,300,920,100
-12/8/2019,Belgium,100,Energy_BA,300,860,100
-12/9/2019,Belgium,100,Energy_BA,300,4600,100
-12/10/2019,Belgium,100,Energy_BA,300,3900,100
-12/11/2020,Belgium,50,Energy_BA,300,3500,50
-1/1/2020,Belgium,50,Energy_BA,300,2200,50
-1/13/2020,Netherlands,50,Music_BA,369,3300,50
-1/14/2020,Netherlands,50,Music_BA,88,770,50
-1/15/2020,Netherlands,50,Music_BA,88,5500,50
-1/16/2020,Netherlands,100,Music_BA,88,3800,100
-1/17/2020,Netherlands,100,Music_BA,88,860,100
-1/18/2020,Netherlands,100,Music_BA,369,830,100
-1/19/2020,Netherlands,100,Music_BA,369,2800,100
-1/20/2020,Netherlands,100,Music_BA,369,2800,100
-2/21/2020,Netherlands,100,Music_BA,369,1100,100
-2/22/2020,Netherlands,40,Music_BA,369,6000,40
-2/23/2020,Netherlands,40,Music_BA,369,2000,40
-2/24/2020,Netherlands,40,Music_BA,369,1800,40
-2/25/2020,Netherlands,40,Music_BA,369,1090,40
-2/26/2020,Netherlands,40,Music_BA,369,2500,40
-2/27/2020,Netherlands,40,Music_BA,369,3700,40
-2/28/2020,Netherlands,40,Music_BA,369,2800,40
-2/29/2020,Netherlands,40,Music_BA,369,3400,40
-2/1/2020,Denmark,40,Sport_Analysis,88,5600,40
-3/2/2020,Denmark,40,Sport_Analysis,88,790,40
-3/3/2020,Denmark,40,Sport_Analysis,88,670,40
-3/2/2020,Denmark,40,Sport_Analysis,369,5600,40
-3/3/2020,Denmark,40,Sport_Analysis,369,880,40
-3/4/2020,Denmark,40,Sport_Analysis,88,2000,40
-3/5/2020,Denmark,40,Sport_Analysis,88,4500,40
-3/6/2020,Denmark,40,Sport_Analysis,88,860,40
-3/7/2020,Denmark,40,Sport_Analysis,120,830,40
-3/8/2020,Denmark,40,Sport_Analysis,120,800,40
-4/9/2020,Denmark,40,Sport_Analysis,120,870,40
-4/10/2020,Denmark,40,Sport_Analysis,120,850,40
-4/11/2020,Denmark,10,Sport_Analysis,120,850,10
-4/12/2020,Denmark,3,Sport_Analysis,120,740,3
-4/14/2020,Denmark,10,Sport_Analysis,120,820,10
-4/14/2020,Denmark,2,Sport_Analysis,120,6200,2
-4/15/2020,Denmark,4,Sport_Analysis,120,6000,4
-4/16/2020,Finland,6,CareerBI_Coach,50,6100,6
-4/17/2020,Finland,50,CareerBI_Coach,50,6200,50
-4/18/2020,Finland,30,CareerBI_Coach,45,800,30
-4/19/2020,Finland,10,CareerBI_Coach,45,2000,10
-5/20/2020,Finland,5,CareerBI_Coach,45,2200,5
-5/25/2020,Finland,20,CareerBI_Coach,45,3200,20
-5/22/2020,Finland,50,CareerBI_Coach,45,4500,50
-5/23/2020,Finland,100,CareerBI_Coach,25,5200,100
-5/24/2020,Finland,50,CareerBI_Coach,25,5300,50
-5/25/2020,Finland,50,CareerBI_Coach,25,660,50
-5/26/2020,Finland,50,CareerBI_Coach,25,610,50
-5/27/2020,Finland,50,CareerBI_Coach,25,630,50
-5/28/2020,Luxembourg,50,RenewableEn_BI,25,600,50
-5/29/2020,Luxembourg,30,RenewableEn_BI,10,3000,30
-5/30/2020,Luxembourg,30,RenewableEn_BI,10,3000,30
-5/31/2020,Luxembourg,30,RenewableEn_BI,10,770,30
-6/1/2020,Luxembourg,30,RenewableEn_BI,10,800,30
-6/2/2020,Luxembourg,30,RenewableEn_BI,10,911,30
-6/3/2020,Luxembourg,10,RenewableEn_BI,369,2600,10
-6/4/2020,Luxembourg,100,RenewableEn_BI,10,2600,100
-6/5/2020,Luxembourg,100,RenewableEn_BI,60,2400,100
-6/6/2020,Luxembourg,100,RenewableEn_BI,60,4200,100
-6/7/2020,Luxembourg,100,RenewableEn_BI,88,4000,100
-6/8/2020,Luxembourg,50,RenewableEn_BI,120,4400,50
-6/9/2020,Luxembourg,50,RenewableEn_BI,60,3200,50
-6/10/2020,Luxembourg,50,RenewableEn_BI,60,4400,50
+year,Country,No_Client_Country,Services,Client_id,Out_px,Client_Count,Client_ids
+6/6/2018,Chile,10,Full_stack_Analysis,1,2800,10,201
+6/6/2018,Chile,3,Python_Analysis,2,3900,3,200
+6/6/2018,Chile,10,PowerBI_Analysis ,3,4800,10,150
+6/6/2018,Chile,2,PowerBI_Analysis ,4,1000,2,150
+6/6/2018,Chile,4,PowerBI_Analysis ,5,2800,4,150
+6/6/2018,Chile,6,Python_Analysis,6,4800,6,200
+6/6/2018,Chile,50,Full_stack_Analysis,7,5400,50,201
+6/7/2018,Chile,30,Full_stack_Analysis,8,2000,30,201
+6/7/2018,Chile,10,Python_Analysis,9,1700,10,200
+7/7/2018,Chile,5,Python_Analysis,10,2600,5,88
+7/7/2018,Chile,20,PowerBI_Analysis ,11,5400,20,150
+7/7/2018,Germany,50,PowerBI_Analysis ,12,3700,50,150
+7/7/2018,Germany,100,Python_Analysis,13,3900,100,200
+7/7/2018,Germany,50,Python_Analysis,14,1000,50,200
+7/7/2018,Germany,50,Python_Analysis,15,1500,50,200
+7/8/2018,Germany,50,Python_Analysis,16,1200,50,200
+7/8/2018,Netherlands,50,Python_Analysis,17,2000,50,200
+7/8/2018,Netherlands,50,Python_Analysis,18,1700,50,200
+7/8/2018,Netherlands,30,PowerBI_Analysis ,19,3500,30,150
+8/8/2018,Netherlands,20,PowerBI_Analysis ,20,4500,20,150
+8/8/2018,Netherlands,30,PowerBI_Analysis ,21,3800,30,150
+8/8/2018,Netherlands,30,PowerBI_Analysis ,22,1200,30,100
+8/8/2018,Netherlands,30,PowerBI_Analysis ,23,1600,30,150
+8/8/2018,Netherlands,10,Full_stack_Analysis,24,3600,10,201
+8/8/2018,Swiss,100,PowerBI_Analysis ,25,3400,100,150
+8/9/2018,Swiss,100,PowerBI_Analysis ,26,2800,100,150
+8/9/2018,Swiss,100,PowerBI_Analysis ,27,4500,100,150
+8/9/2018,Swiss,100,PowerBI_Analysis ,28,2300,100,150
+8/9/2019,Swiss,50,Full_stack_Analysis,29,3700,50,201
+9/9/2019,Swiss,50,Full_stack_Analysis,30,3400,50,201
+9/9/2019,Swiss,50,Full_stack_Analysis,31,3400,50,201
+9/9/2019,Swiss,50,Full_stack_Analysis,32,2300,50,201
+9/9/2019,Swiss,50,Full_stack_Analysis,33,1200,50,201
+9/9/2019,France,100,Python_Analysis,34,1900,100,200
+9/10/2019,France,100,Python_Analysis,35,1000,100,200
+9/10/2019,France,100,Python_Analysis,36,1100,100,200
+9/10/2019,France,100,Python_Analysis,37,4500,100,150
+9/10/2019,France,100,Python_Analysis,38,4000,100,200
+9/10/2019,France,100,Python_Analysis,39,3400,100,200
+10/10/2019,France,40,PowerBI_Analysis ,40,5000,40,150
+10/10/2019,France,40,PowerBI_Analysis ,41,3000,40,20
+10/10/2019,France,40,PowerBI_Analysis ,42,5800,40,20
+10/11/2019,France,40,PowerBI_Analysis ,43,3800,40,20
+10/11/2019,France,40,PowerBI_Analysis ,44,5900,40,150
+10/11/2019,France,40,PowerBI_Analysis ,45,4500,40,150
+10/11/2019,France,40,PowerBI_Analysis ,46,3200,40,150
+10/11/2019,France,40,PowerBI_Analysis ,47,2000,40,150
+10/11/2019,France,40,PowerBI_Analysis ,48,1000,40,150
+10/11/2019,SouthAfrica,40,PowerBI_Analysis ,49,4600,40,150
+11/11/2019,SouthAfrica,40,PowerBI_Analysis ,50,3300,40,150
+11/12/2019,SouthAfrica,40,PowerBI_Analysis ,51,2700,40,150
+11/12/2019,Germany,40,PowerBI_Analysis ,52,4400,40,150
+11/12/2019,Germany,40,PowerBI_Analysis ,53,5500,40,88
+11/12/2019,Germany,40,PowerBI_Analysis ,54,2000,40,45
+11/12/2019,Germany,40,PowerBI_Analysis ,55,2500,40,150
+11/12/2019,Germany,40,PowerBI_Analysis ,56,4500,40,150
+11/12/2019,Germany,40,PowerBI_Analysis ,57,3700,40,150
+11/12/2019,Germany,40,PowerBI_Analysis ,58,3800,40,150
+11/12/2019,Germany,40,PowerBI_Analysis ,59,4900,40,150
+11/13/2019,Germany,10,Price_Analysis,60,3800,10,100
+11/14/2019,Germany,3,Price_Analysis,61,2800,3,300
+11/15/2019,Germany,10,Price_Analysis,62,5600,10,300
+11/16/2019,Germany,2,Price_Analysis,63,3800,2,100
+11/17/2019,Germany,4,Price_Analysis,64,4500,4,100
+11/18/2019,Germany,6,Price_Analysis,65,2900,6,100
+11/19/2019,Germany,50,Price_Analysis,66,3900,50,100
+11/20/2019,Germany,30,Price_Analysis,67,4800,30,100
+11/21/2019,Germany,10,Price_Analysis,68,6000,10,100
+11/22/2019,Germany,5,Price_Analysis,69,5500,5,100
+11/23/2019,Germany,20,Price_Analysis,70,6600,20,100
+11/24/2019,Germany,50,Price_Analysis,71,7700,50,100
+11/25/2019,Germany,100,Price_Analysis,72,3300,100,100
+11/26/2019,Germany,50,Price_Analysis,73,2000,50,100
+11/27/2019,Belgium,50,Energy_BA,74,2900,50,88
+11/28/2019,Belgium,50,Energy_BA,75,3000,50,88
+11/29/2019,Belgium,50,Energy_BA,76,2800,50,88
+11/30/2019,Belgium,50,Energy_BA,77,3700,50,300
+12/1/2019,Belgium,30,Energy_BA,78,1000,30,120
+12/2/2019,Belgium,30,Energy_BA,79,1100,30,120
+12/3/2019,Belgium,30,Energy_BA,80,3700,30,120
+12/4/2019,Belgium,30,Energy_BA,81,830,30,10
+12/5/2019,Belgium,30,Energy_BA,82,870,30,10
+12/6/2019,Belgium,10,Energy_BA,83,830,10,10
+12/7/2019,Belgium,100,Energy_BA,84,920,100,300
+12/8/2019,Belgium,100,Energy_BA,85,860,100,300
+12/9/2019,Belgium,100,Energy_BA,86,4600,100,300
+12/10/2019,Belgium,100,Energy_BA,87,3900,100,300
+12/11/2020,Belgium,50,Energy_BA,88,3500,50,300
+1/1/2020,Belgium,50,Energy_BA,89,2200,50,300
+1/13/2020,Netherlands,50,Music_BA,90,3300,50,369
+1/14/2020,Netherlands,50,Music_BA,91,770,50,88
+1/15/2020,Netherlands,50,Music_BA,92,5500,50,88
+1/16/2020,Netherlands,100,Music_BA,93,3800,100,88
+1/17/2020,Netherlands,100,Music_BA,94,860,100,88
+1/18/2020,Netherlands,100,Music_BA,95,830,100,369
+1/19/2020,Netherlands,100,Music_BA,96,2800,100,369
+1/20/2020,Netherlands,100,Music_BA,97,2800,100,369
+2/21/2020,Netherlands,100,Music_BA,98,1100,100,369
+2/22/2020,Netherlands,40,Music_BA,99,6000,40,369
+2/23/2020,Netherlands,40,Music_BA,100,2000,40,369
+2/24/2020,Netherlands,40,Music_BA,101,1800,40,369
+2/25/2020,Netherlands,40,Music_BA,102,1090,40,369
+2/26/2020,Netherlands,40,Music_BA,103,2500,40,369
+2/27/2020,Netherlands,40,Music_BA,104,3700,40,369
+2/28/2020,Netherlands,40,Music_BA,105,2800,40,369
+2/29/2020,Netherlands,40,Music_BA,106,3400,40,369
+2/1/2020,Denmark,40,Sport_Analysis,107,5600,40,88
+3/2/2020,Denmark,40,Sport_Analysis,108,790,40,88
+3/3/2020,Denmark,40,Sport_Analysis,109,670,40,88
+3/2/2020,Denmark,40,Sport_Analysis,110,5600,40,369
+3/3/2020,Denmark,40,Sport_Analysis,111,880,40,369
+3/4/2020,Denmark,40,Sport_Analysis,112,2000,40,88
+3/5/2020,Denmark,40,Sport_Analysis,113,4500,40,88
+3/6/2020,Denmark,40,Sport_Analysis,114,860,40,88
+3/7/2020,Denmark,40,Sport_Analysis,115,830,40,120
+3/8/2020,Denmark,40,Sport_Analysis,116,800,40,120
+4/9/2020,Denmark,40,Sport_Analysis,117,870,40,120
+4/10/2020,Denmark,40,Sport_Analysis,118,850,40,120
+4/11/2020,Denmark,10,Sport_Analysis,119,850,10,120
+4/12/2020,Denmark,3,Sport_Analysis,120,740,3,120
+4/14/2020,Denmark,10,Sport_Analysis,121,820,10,120
+4/14/2020,Denmark,2,Sport_Analysis,122,6200,2,120
+4/15/2020,Denmark,4,Sport_Analysis,123,6000,4,120
+4/16/2020,Finland,6,CareerBI_Coach,124,6100,6,50
+4/17/2020,Finland,50,CareerBI_Coach,125,6200,50,50
+4/18/2020,Finland,30,CareerBI_Coach,126,800,30,45
+4/19/2020,Finland,10,CareerBI_Coach,127,2000,10,45
+5/20/2020,Finland,5,CareerBI_Coach,128,2200,5,45
+5/25/2020,Finland,20,CareerBI_Coach,129,3200,20,45
+5/22/2020,Finland,50,CareerBI_Coach,130,4500,50,45
+5/23/2020,Finland,100,CareerBI_Coach,131,5200,100,25
+5/24/2020,Finland,50,CareerBI_Coach,132,5300,50,25
+5/25/2020,Finland,50,CareerBI_Coach,133,660,50,25
+5/26/2020,Finland,50,CareerBI_Coach,134,610,50,25
+5/27/2020,Finland,50,CareerBI_Coach,135,630,50,25
+5/28/2020,Luxembourg,50,RenewableEn_BI,136,600,50,25
+5/29/2020,Luxembourg,30,RenewableEn_BI,137,3000,30,10
+5/30/2020,Luxembourg,30,RenewableEn_BI,138,3000,30,10
+5/31/2020,Luxembourg,30,RenewableEn_BI,139,770,30,10
+6/1/2020,Luxembourg,30,RenewableEn_BI,140,800,30,10
+6/2/2020,Luxembourg,30,RenewableEn_BI,141,911,30,10
+6/3/2020,Luxembourg,10,RenewableEn_BI,142,2600,10,369
+6/4/2020,Luxembourg,100,RenewableEn_BI,143,2600,100,10
+6/5/2020,Luxembourg,100,RenewableEn_BI,144,2400,100,60
+6/6/2020,Luxembourg,100,RenewableEn_BI,145,4200,100,60
+6/7/2020,Luxembourg,100,RenewableEn_BI,146,4000,100,88
+6/8/2020,Luxembourg,50,RenewableEn_BI,147,4400,50,120
+6/9/2020,Luxembourg,50,RenewableEn_BI,148,3200,50,60
+6/10/2020,Luxembourg,50,RenewableEn_BI,149,4400,50,60
