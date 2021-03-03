@@ -35,4 +35,21 @@ print(s.columns)
 scohort=DataFrame(s.head(152))
 print(scohort.head(152))
 
+#parse index
+scohort['year']=pd.to_datetime(scohort['year'], infer_datetime_format=True)
+indexeddf=scohort.set_index(['year'])
+print(indexeddf)
 
+#parsing to time format and extracting dates with 'created_at'
+x=scohort['year']=pd.to_datetime(scohort['year'], format='%d-%m-%y')
+
+Day=scohort['year'].dt.day_name()
+Month=scohort['year'].dt.month_name()
+Year=scohort['year'].dt.year
+
+#subsetting 
+scohort['Year']=scohort['year'].dt.year
+scohort['Month']=scohort['year'].dt.month_name()
+scohort['Day']=scohort['year'].dt.day_name()
+
+print(scohort)
