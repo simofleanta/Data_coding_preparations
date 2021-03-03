@@ -152,8 +152,6 @@ plt.show()
 
 #avg px/cohort 
 
-
-
 # Create a groupby object and pass the monthly cohort and cohort index as a list
 groupings = scohort.groupby(['CohortMonth', 'CohortIndex']) 
 
