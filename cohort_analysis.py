@@ -200,7 +200,6 @@ plt.show()
 #avg profit/cohort 
 
 
-
 # Create a groupby object and pass the monthly cohort and cohort index as a list
 groupings = cohort.groupby(['CohortMonth', 'CohortIndex']) 
 
