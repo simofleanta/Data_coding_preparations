@@ -90,7 +90,7 @@ years_diff = client_year - cohort_year
 months_diff = client_month - cohort_month
 
 # Extract the difference in months from all previous values
-scohort['CohortIndex'] = years_diff * 12 + months_diff + 7
+scohort['CohortIndex'] = years_diff * 12 + months_diff + 1
 print(scohort)
 
 ################IV
@@ -189,3 +189,36 @@ sns.heatmap(data = average_price,
             yticklabels=month_list)
 plt.show()
 
+###########################
+
+# Calculate the average of the unit price column
+cohort_datas = grouping['Client_Count'].sum()
+
+# Reset the index of cohort_data
+cohort_datas = cohort_datas.reset_index()
+
+# Create a pivot 
+client_count = cohort_datas.pivot(index='CohortMonth', columns='CohortIndex', values='Client_Count')
+client_count.round(2)
+client_count.index = client_count.index.date
+
+
+month_list=["Jun '18", "Jul '18", "Aug '18", \
+        "Sep '19", "Oct '19","Nov '19",\
+            "Dec '19", "Jan '20", "Feb '20", "Mar '20", "Apr '20",\
+                "May '20", "Jun '20"]
+
+# Add a title
+plt.title('Client count by Monthly Cohorts')
+
+# Create the heatmap
+sns.heatmap(data = client_count,
+            annot=True,
+            vmin = 20,
+#             vmax =20,
+            cmap='viridis',
+            vmax = list(client_count.max().sort_values(ascending = False))[1]+3,
+            fmt = '.1f',
+            linewidth = 0.7,
+            yticklabels=month_list)
+plt.show()
