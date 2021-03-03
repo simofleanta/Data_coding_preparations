@@ -301,8 +301,7 @@ sns.heatmap(data = actual_p,
 plt.show()
 
 ##########################
-
-# Calculate the average of the unit price column
+# Country code distrib by month cohorts
 cohort_datas = grouping['Country_code'].max()
 
 # Reset the index of cohort_data
