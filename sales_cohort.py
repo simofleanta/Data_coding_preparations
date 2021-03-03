@@ -270,7 +270,7 @@ plt.show()
 
 ########################################
 # Calculate the average of the unit price column
-cohort_datas = grouping['Actual'].sum()
+cohort_datas = grouping['Actual'].min()
 
 # Reset the index of cohort_data
 cohort_datas = cohort_datas.reset_index()
