@@ -8,7 +8,7 @@ year,Country,No_Client_Country,Services,Client_id,Out_px,Client_Count
 6/6/2018,Chile,50,Full_stack_Analysis,201,54,50
 6/7/2018,Chile,30,Full_stack_Analysis,201,20,30
 6/7/2018,Chile,10,Python_Analysis,200,17,10
-7/7/2018,Chile,5,Python_Analysis,200,26,5
+7/7/2018,Chile,5,Python_Analysis,88,26,5
 7/7/2018,Chile,20,PowerBI_Analysis ,150,54,20
 7/7/2018,Germany,50,PowerBI_Analysis ,150,67,50
 7/7/2018,Germany,100,Python_Analysis,200,89,100
@@ -20,7 +20,7 @@ year,Country,No_Client_Country,Services,Client_id,Out_px,Client_Count
 7/8/2018,Netherlands,30,PowerBI_Analysis ,150,35,30
 8/8/2018,Netherlands,20,PowerBI_Analysis ,150,45,20
 8/8/2018,Netherlands,30,PowerBI_Analysis ,150,38,30
-8/8/2018,Netherlands,30,PowerBI_Analysis ,150,12,30
+8/8/2018,Netherlands,30,PowerBI_Analysis ,100,12,30
 8/8/2018,Netherlands,30,PowerBI_Analysis ,150,16,30
 8/8/2018,Netherlands,10,Full_stack_Analysis,201,36,10
 8/8/2018,Swiss,100,PowerBI_Analysis ,150,34,100
@@ -35,7 +35,7 @@ year,Country,No_Client_Country,Services,Client_id,Out_px,Client_Count
 9/9/2019,France,100,Python_Analysis,200,19,100
 9/10/2019,France,100,Python_Analysis,200,10,100
 9/10/2019,France,100,Python_Analysis,200,11,100
-9/10/2019,France,100,Python_Analysis,200,45,100
+9/10/2019,France,100,Python_Analysis,150,45,100
 9/10/2019,France,100,Python_Analysis,200,56,100
 9/10/2019,France,100,Python_Analysis,200,34,100
 10/10/2019,France,40,PowerBI_Analysis ,150,56,40
@@ -51,8 +51,8 @@ year,Country,No_Client_Country,Services,Client_id,Out_px,Client_Count
 11/11/2019,SouthAfrica,40,PowerBI_Analysis ,150,33,40
 11/12/2019,SouthAfrica,40,PowerBI_Analysis ,150,66,40
 11/12/2019,Germany,40,PowerBI_Analysis ,150,44,40
-11/12/2019,Germany,40,PowerBI_Analysis ,150,55,40
-11/12/2019,Germany,40,PowerBI_Analysis ,150,20,40
+11/12/2019,Germany,40,PowerBI_Analysis ,88,55,40
+11/12/2019,Germany,40,PowerBI_Analysis ,45,20,40
 11/12/2019,Germany,40,PowerBI_Analysis ,150,25,40
 11/12/2019,Germany,40,PowerBI_Analysis ,150,45,40
 11/12/2019,Germany,40,PowerBI_Analysis ,150,67,40
