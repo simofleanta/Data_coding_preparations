@@ -1,4 +1,4 @@
-year,Country,No_Client_Country,Services,Client_id,Out_px,Target_Rev,Actual
+year,Country,Client_Count,Services,Client_id,Out_px,Target_Rev,Actual
 6/6/2018,Chile,10,Full_stack_Analysis,201,2800,10,20
 6/6/2018,Chile,3,Python_Analysis,200,3900,3,12
 6/6/2018,Chile,10,PowerBI_Analysis ,150,4800,10,30
