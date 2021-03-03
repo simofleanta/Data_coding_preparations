@@ -220,3 +220,40 @@ sns.heatmap(data = client_count,
             linewidth = 0.7,
             yticklabels=month_list)
 plt.show()
+
+
+"""
+#################################
+
+# Calculate the average of the unit price column
+cohort_datas = grouping['Client_Count'].sum()
+
+# Reset the index of cohort_data
+cohort_datas = cohort_datas.reset_index()
+
+# Create a pivot 
+country_count = cohort_datas.pivot(index='Client_Country', columns='CohortIndex', values='Client_Count')
+country_count.round(2)
+country_count.index = country_count.index.date
+
+country_list=["Chile", "Germany", "Netherlands", \
+        "Swiss", "France","SouthAfrica",\
+            "Belgium", "Denmark", "Finland", "Luxembourg"]
+
+# Add a title
+plt.title('Client count by Country Cohorts')
+
+
+# Create the heatmap
+sns.heatmap(data = country_count,
+            annot=True,
+            vmin = 20,
+#             vmax =20,
+            cmap='viridis',
+            vmax = list(client_count.max().sort_values(ascending = False))[1]+3,
+            fmt = '.1f',
+            linewidth = 0.7,
+            yticklabels=month_list)
+plt.show()"""
+
+
