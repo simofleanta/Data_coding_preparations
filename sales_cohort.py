@@ -224,6 +224,49 @@ sns.heatmap(data = client_count,
 plt.show()
 
 
+################################
+#cohort actual vs target rev in %
+
+# Create a groupby object and pass the monthly cohort and cohort index as a list
+groupings = scohort.groupby(['CohortMonth', 'CohortIndex']) 
+
+
+# Reset the index of cohort_data
+cohort_datas = cohort_datas.reset_index()
+
+
+# Calculate the average of the unit price column
+cohort_datase = grouping['Compare'].mean()
+
+# Reset the index of cohort_data
+cohort_datase = cohort_datase.reset_index()
+
+# Create a pivot 
+compare = cohort_datase.pivot(index='CohortMonth', columns='CohortIndex', values='Compare')
+compare.round(2)
+compare.index = compare.index.date
+
+
+month_list=["Jun '18", "Jul '18", "Aug '18", \
+        "Sep '19", "Oct '19","Nov '19",\
+            "Dec '19", "Jan '20", "Feb '20", "Mar '20", "Apr '20",\
+                "May '20", "Jun '20"]
+
+# Add a title
+plt.title('Actual Profit by Monthly Cohorts')
+
+# Create the heatmap
+sns.heatmap(data = compare,
+            annot=True,
+            vmin = '0.0',
+#             vmax =20,
+            cmap='viridis',
+            vmax = list(client_count.max().sort_values(ascending = False))[1]+3,
+            fmt = '.1f',
+            linewidth = 0.7,
+            yticklabels=month_list)
+plt.show()
+
 
 
 
