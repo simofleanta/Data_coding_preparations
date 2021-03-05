@@ -92,4 +92,59 @@ months_diff = client_month - cohort_month
 scohort['CohortIndex'] = years_diff * 12 + months_diff + 1
 print(scohort)
 
+################IV
+
+#Retention rate
+#% of active clients to the total no of clients
+
+#steps:
+
+#1
+grouping = scohort.groupby(['CohortMonth', 'CohortIndex'])
+
+
+#2 count unque vals per clientid
+
+cohort_data = grouping['Country_code'].apply(pd.Series.nunique).reset_index()
+
+#step3 create pivot
+
+cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Country_code')
+
+#step4 Select the first column and store it to cohort_sizes
+
+cohort_sizes = cohort_counts.iloc[:,0]
+
+# step 5 Divide the cohort count by cohort sizes along the rows
+
+retention = cohort_counts.divide(cohort_sizes, axis=0)*100
+
+# V last chunk of the cohort analysis
+
+months=["Jun '18", "Jul '18", "Aug '18", \
+        "Sep '19", "Oct '19","Nov '19",\
+            "Dec '19", "Jan '20", "Feb '20", "Mar '20", "Apr '20",\
+                "May '20", "Jun '20"]
+
+# setup inches plot figure
+plt.figure(figsize=(15,7))
+
+# title- clients cohots
+plt.title('Retention by Monthly client_Cohorts')
+
+# Create the heatmap
+sns.heatmap(data=retention,
+            annot = True,
+            cmap = "Blues",
+            vmin = '0.0',
+            #volmax = 0.5,
+            vmax = list(retention.max().sort_values(ascending = False))[1]+3,
+            fmt = '.1f',
+            linewidth = 0.3,
+            yticklabels=months)
+
+plt.show()
+
+
+####################################################
 
