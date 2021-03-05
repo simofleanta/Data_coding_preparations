@@ -61,3 +61,7 @@ csv_path='salesc.csv'
 coh=pd.read_csv(csv_path)
 print(coh.columns)
 
+#describe a single column
+print(coh.describe()['Client_id'])
+
+
