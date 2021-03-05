@@ -51,3 +51,45 @@ scohort['Month']=scohort['year'].dt.month_name()
 scohort['Day']=scohort['year'].dt.day_name()
 
 print(scohort)
+
+#############################################
+
+# I ###########parse dates
+
+def get_month(x):
+    return dt.datetime(x.year,x.month,1)
+
+## Create ClientMonth column
+scohort['ClientMonth'] = scohort['year'].apply(get_month)
+
+# Group by client_id and select the ClientMonth value
+grouping = scohort.groupby('Country_code')['ClientMonth']
+
+## Assign a minimum ClientMonth value to the dataset
+scohort['CohortMonth'] = grouping.transform('min')
+
+# calculate time offsets
+
+def get_date_int(df, column):
+    year = df[column].dt.year
+    month = df[column].dt.month
+    return year, month
+
+# Get the integers for date parts from the `ClientMonth` column
+client_year, client_month = get_date_int(scohort,'ClientMonth')
+
+# Get the integers for date parts from the `CohortMonth` column
+cohort_year, cohort_month = get_date_int(scohort,'CohortMonth')
+
+
+# Calculate difference in years
+years_diff = client_year - cohort_year
+
+# Calculate difference in months
+months_diff = client_month - cohort_month
+
+# Extract the difference in months from all previous values
+scohort['CohortIndex'] = years_diff * 12 + months_diff + 1
+print(scohort)
+
+
