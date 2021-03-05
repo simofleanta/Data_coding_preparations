@@ -20,7 +20,7 @@ import datetime
 import datetime as dt
 import time
 
-
+"""
 # Supress Scientific notation in python
 pd.set_option('display.float_format', lambda x: '%.2f' % x)
 
@@ -52,7 +52,7 @@ scohort['Year']=scohort['year'].dt.year
 scohort['Month']=scohort['year'].dt.month_name()
 scohort['Day']=scohort['year'].dt.day_name()
 
-print(scohort)
+print(scohort)"""
 
 
 ###################
@@ -84,10 +84,20 @@ df_info=pd.read_excel(info_workbook)
 print(df_initial.columns)
 print(df_info.columns)
 
+#Since in both docs we have same neme for a column, that is "Code"; we'll rename columns code to IDs
+df_initial.rename(columns={'code':'Ids'}, inplace=True)
+
+#merge the 2 columns (like a left join in sql)
+
+df_3=pd.merge(df_initial, df_info[['IDs', 'ID']], on='IDs', how='left')
+#print(df_3)
+
+#once doc is printed we'll get some nan values which will need to be droped.
 
 
 
-#
+
+
 
 
 
