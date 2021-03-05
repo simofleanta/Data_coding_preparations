@@ -36,8 +36,8 @@ df_initial=pd.read_excel(initial_workbook)
 df_info=pd.read_excel(info_workbook)
 
 #print columns
-print(df_initial.columns)
-print(df_info.columns)
+#print(df_initial.columns)
+#print(df_info.columns)
 
 #Since in both docs we have same neme for a column, that is "Code"; we'll rename columns code to IDs
 df_initial.rename(columns={'code':'Ids'}, inplace=True)
