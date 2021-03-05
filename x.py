@@ -20,51 +20,6 @@ import datetime
 import datetime as dt
 import time
 
-"""
-# Supress Scientific notation in python
-pd.set_option('display.float_format', lambda x: '%.2f' % x)
-
-# Display all columns of long dataframe
-pd.set_option('display.max_columns', None)
-
-
-# open cohort
-
-s=pd.read_csv('salesc.csv')
-print(s.columns)
-scohort=DataFrame(s.head(152))
-print(scohort.head(152))
-
-#parse index
-scohort['year']=pd.to_datetime(scohort['year'], infer_datetime_format=True)
-indexeddf=scohort.set_index(['year'])
-print(indexeddf)
-
-#parsing to time format and extracting dates with 'created_at'
-x=scohort['year']=pd.to_datetime(scohort['year'], format='%d-%m-%y')
-
-Day=scohort['year'].dt.day_name()
-Month=scohort['year'].dt.month_name()
-Year=scohort['year'].dt.year
-
-#subsetting 
-scohort['Year']=scohort['year'].dt.year
-scohort['Month']=scohort['year'].dt.month_name()
-scohort['Day']=scohort['year'].dt.day_name()
-
-print(scohort)"""
-
-
-###################
-#another way of opening files
-csv_path='salesc.csv'
-coh=pd.read_csv(csv_path)
-print(coh.columns)
-
-#describe a single column
-print(coh.describe()['Client_id'])
-
-#############################################
 
 #replace vlookup with python
 #I don't have the package but will leave the code on just for future need
@@ -93,6 +48,19 @@ df_3=pd.merge(df_initial, df_info[['IDs', 'ID']], on='IDs', how='left')
 #print(df_3)
 
 #once doc is printed we'll get some nan values which will need to be droped.
+#Also change IDs to Code name
+
+#rename to back to code
+df_3.rename(columns={'IDs':'code'}, inplace=True)
+
+#get rif of nen vals
+df_3=df_3.replace(np.nan, '', regex=True)
+#print(df_3)
+
+#export in excel file and also get rif of index
+df_3.to_excel(output_workbook, index=False)
+#print df_3 
+
 
 
 
