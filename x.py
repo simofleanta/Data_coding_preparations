@@ -67,13 +67,25 @@ print(coh.describe()['Client_id'])
 #############################################
 
 #replace vlookup with python
-
+#I don't have the package but will leave the code on just for future need
 
 # open
 #another way of opening files
-csv_path='salesc.csv'
-coh=pd.read_csv(csv_path)
-print(coh.columns)
+initial_workbook='dropship.xlsx'
+info_workbook='replace_vlookup.xlsx'
+#make an output workbok because we'll need info to be outputed in here
+output_workbook='output.xlsx'
+
+#pd excel readers
+df_initial=pd.read_excel(initial_workbook)
+df_info=pd.read_excel(info_workbook)
+
+#print columns
+print(df_initial.columns)
+print(df_info.columns)
+
+
+
 
 #
 
