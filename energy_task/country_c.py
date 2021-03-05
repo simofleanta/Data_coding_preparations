@@ -30,10 +30,8 @@ pd.set_option('display.max_columns', None)
 
 # open cohort
 
-s=pd.read_csv('salesc.csv')
-print(s.columns)
-scohort=DataFrame(s.head(152))
-print(scohort.head(152))
+country_path='salesc.csv'
+scohort=pd.read_csv(country_path)
 
 #parse index
 scohort['year']=pd.to_datetime(scohort['year'], infer_datetime_format=True)
