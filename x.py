@@ -53,3 +53,11 @@ scohort['Month']=scohort['year'].dt.month_name()
 scohort['Day']=scohort['year'].dt.day_name()
 
 print(scohort)
+
+
+###################
+#another way of opening files
+csv_path='salesc.csv'
+coh=pd.read_csv(csv_path)
+print(coh.columns)
+
