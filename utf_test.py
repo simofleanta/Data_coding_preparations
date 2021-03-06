@@ -20,12 +20,12 @@ import datetime
 import datetime as dt
 import time
 
-
+"""
 c='Online.csv'
 cohort=pd.read_csv(c, encoding=('ISO-8859-1'), low_memory=False)
 print(cohort)
 
-"""
+
 # Supress Scientific notation in python
 pd.set_option('display.float_format', lambda x: '%.2f' % x)
 
@@ -49,10 +49,14 @@ cohort['Year']=cohort['year'].dt.year
 cohort['Month']=cohort['year'].dt.month_name()
 cohort['Day']=cohort['year'].dt.day_name()
 
-print(cohort)"""
+print(cohort)
 
 
 c='Online.csv'
 cohort=pd.read_csv(c, encoding=('ISO-8859-1'), low_memory=False)
-print(cohort)
+print(cohort)"""
+
+e='StudentsPerformance.csv'
+emps=pd.read_csv(e)
+print(emps.head(3))
 
