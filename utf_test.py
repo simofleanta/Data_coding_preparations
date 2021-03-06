@@ -52,3 +52,7 @@ cohort['Day']=cohort['year'].dt.day_name()
 print(cohort)"""
 
 
+c='Online.csv'
+cohort=pd.read_csv(c, encoding=('ISO-8859-1'), low_memory=False)
+print(cohort)
+
