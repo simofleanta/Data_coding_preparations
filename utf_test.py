@@ -25,6 +25,7 @@ c='Online.csv'
 cohort=pd.read_csv(c, encoding=('ISO-8859-1'), low_memory=False)
 print(cohort)
 
+"""
 # Supress Scientific notation in python
 pd.set_option('display.float_format', lambda x: '%.2f' % x)
 
@@ -42,3 +43,12 @@ x=scohort['year']=pd.to_datetime(cohort['year'], format='%d-%m-%y')
 Day=cohort['year'].dt.day_name()
 Month=cohort['year'].dt.month_name()
 Year=cohort['year'].dt.year
+
+#subsetting 
+cohort['Year']=cohort['year'].dt.year
+cohort['Month']=cohort['year'].dt.month_name()
+cohort['Day']=cohort['year'].dt.day_name()
+
+print(cohort)"""
+
+
