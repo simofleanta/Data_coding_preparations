@@ -21,3 +21,6 @@ import datetime as dt
 import time
 
 
+c='Online.csv'
+cohort=pd.read_csv(c, encoding=('ISO-8859-1'), low_memory=False)
+print(cohort)
