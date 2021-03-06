@@ -56,7 +56,7 @@ c='Online.csv'
 cohort=pd.read_csv(c, encoding=('ISO-8859-1'), low_memory=False)
 print(cohort)"""
 
-e='StudentsPerformance.csv'
+e='px.csv'
 emps=pd.read_csv(e)
 print(emps.head(3))
 
