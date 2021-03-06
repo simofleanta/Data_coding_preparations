@@ -24,3 +24,21 @@ import time
 c='Online.csv'
 cohort=pd.read_csv(c, encoding=('ISO-8859-1'), low_memory=False)
 print(cohort)
+
+# Supress Scientific notation in python
+pd.set_option('display.float_format', lambda x: '%.2f' % x)
+
+# Display all columns of long dataframe
+pd.set_option('display.max_columns', None)
+
+#parse index
+cohort['year']=pd.to_datetime(cohort['year'], infer_datetime_format=True)
+indexeddf=cohort.set_index(['year'])
+print(indexeddf)
+
+#parsing to time format and extracting dates with 'created_at'
+x=scohort['year']=pd.to_datetime(cohort['year'], format='%d-%m-%y')
+
+Day=cohort['year'].dt.day_name()
+Month=cohort['year'].dt.month_name()
+Year=cohort['year'].dt.year
