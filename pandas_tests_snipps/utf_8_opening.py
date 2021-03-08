@@ -128,10 +128,24 @@ avg_q.index=avg_q.index.date
 
 plt.figure(figsize=(15,7))
 plt.title('Avg_q on monthly cohorts')
-sns.heatmap(data=avg_q, annot=True, vmin=0.0, vmax=20, cmap='viridis')
+sns.heatmap(data=avg_q, annot=True, vmin=0.0, vmax=20, cmap='YlOrRd')
 plt.show()
 
+#########################################################################
 
+#mean quantity on cohorts
+
+grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
+cohort_data = grouping['UnitPrice'].mean()
+cohort_data=cohort_data.reset_index()
+avg_q=cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='UnitPrice')
+avg_q.round(1)
+avg_q.index=avg_q.index.date
+
+plt.figure(figsize=(15,7))
+plt.title('UnitPrice on monthly cohorts')
+sns.heatmap(data=avg_q, annot=True, vmin=0.0, vmax=20, cmap='PiYG')
+plt.show()
 
 
 
