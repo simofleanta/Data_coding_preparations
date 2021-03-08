@@ -106,6 +106,10 @@ retention=cohort_counts.divide(cohort_size, axis=0)
 retention.round(3) *100
 print(retention)
 
+plt.figure(figsize=(15,7))
+plt.title('Retention levels on monthly cohorts')
+sns.heatmap(data=retention, annot=True, fmt='.0%', vmin=0.0, vmax=0.5, cmap='Blues')
+plt.show()
 
 
 
