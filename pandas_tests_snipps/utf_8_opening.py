@@ -45,7 +45,7 @@ print(cohort.duplicated().sum())
 #describe data after cleaning nan and duplicated vals
 print(cohort.describe())
 
-
+#print the shape of data
 print(cohort.shape)
 
 # cohort analysis start
@@ -56,7 +56,9 @@ def get_month(x):
 cohort['InvoiceMonth']=cohort['InvoiceDate'].apply(get_month)
 grouping=cohort.groupby('CustomerID')['InvoiceMonth']
 cohort['CohortMonth']=grouping.transform('min')
-print(cohort.tail)
+
+
+
 
 
 
