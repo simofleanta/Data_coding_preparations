@@ -53,7 +53,7 @@ def get_month(x):
 
 
 cohort['ClientMonth']=cohort['year'].apply(get_month)
-grouping=cohort.groupby('Country_code')['ClientMonth']
+grouping=cohort.groupby('Client_Count')['ClientMonth']
 cohort['CohortMonth']=grouping.transform('min')
 
 print(cohort.tail())
@@ -81,12 +81,12 @@ cohort['CohortIndex']=year_diff * 12 + month_diff +1
 #count monthly active clients from month cohorts
 
 grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
-cohort_data = grouping['Country_code'].apply(pd.Series.nunique)
+cohort_data = grouping['Client_Count'].apply(pd.Series.nunique)
 
 
 #return number of unique vals
 cohort_data = cohort_data.reset_index()
-cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Country_code')
+cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Client_Count')
 print(cohort_counts)
 
 

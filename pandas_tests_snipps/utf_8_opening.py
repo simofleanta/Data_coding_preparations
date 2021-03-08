@@ -87,7 +87,7 @@ invoice_year, invoice_month,_=get_month_int(cohort,'InvoiceMonth')
 cohort_year, cohort_month,_=get_month_int(cohort, 'CohortMonth')
 
 #create year an month diffs
-year_diff=client_year-cohort_year
+year_diff=invoice_year-cohort_year
 month_diff=invoice_month-cohort_month
 
 #create cohortindex
@@ -117,7 +117,7 @@ plt.title('Retention levels on monthly cohorts')
 sns.heatmap(data=retention, annot=True, fmt='.0%', vmin=0.0, vmax=0.5, cmap='Blues')
 plt.show()
 
-#
+#mean quantity on cohorts
 
 grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
 cohort_data = grouping['Quantity'].mean()

@@ -130,6 +130,18 @@ sns.heatmap(data=count, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1
 plt.show()
 
 
+##################################
+
+#scatter subplot
+f,axes = plt.subplots(1,2, figsize=(20, 20))
+A=sns.heatmap(data=avg_q, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='viridis_r', ax=axes[0])
+
+B=sns.heatmap(data=count, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='RdBu', ax=axes[1])
+
+plt.show()
+
+
+
 
 
 
