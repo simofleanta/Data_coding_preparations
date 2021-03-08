@@ -73,6 +73,12 @@ cohort['CohortMonth']=grouping.transform('min')
 
 print(cohort.tail())
 
+def get_month_int(cohortframe, column):
+    year=cohortframe[column].dt.Year
+    month=cohortframe[column].dt.month
+    day=cohortframe[column].dt.day
+    return year, month, day
+
 
 
 
