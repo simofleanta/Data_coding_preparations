@@ -23,4 +23,13 @@ import time
 
 c='Online.csv'
 cohort=pd.read_csv(c, encoding=('ISO-8859-1'), low_memory=False)
-print(cohort)
+#print(cohort.head(5))
+
+print(cohort.info())
+
+#check in missing data
+
+print(cohort.isnull().sum())
+
+
+
