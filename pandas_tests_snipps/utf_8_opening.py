@@ -50,7 +50,13 @@ print(cohort.shape)
 
 # cohort analysis start
 
+def get_month(x):
+    return dt.datetime (x.year,month, 1)
 
+cohort['InvoiceMonth']=cohort['InvoiceDate'].apply(get_month)
+grouping=cohort.groupby('CustomerID')['InvoiceMonth']
+cohort['CohortMonth']=grouping.transform('min')
+print(cohort.tail)
 
 
 
