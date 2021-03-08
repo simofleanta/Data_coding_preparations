@@ -64,6 +64,8 @@ Year=cohort['InvoiceDate'].dt.year"""
 
 
 # cohort analysis start
+
+#create cohort month 
 def get_month(x):
     return dt.datetime (x.year, x.month, 1)
 
@@ -73,18 +75,22 @@ cohort['CohortMonth']=grouping.transform('min')
 
 print(cohort.tail())
 
+#extract days, months
+
 def get_month_int(cohortframe, column):
     year=cohortframe[column].dt.year
     month=cohortframe[column].dt.month
     day=cohortframe[column].dt.day
     return year, month, day
-
+#call function 
 invoice_year, invoice_month,_=get_month_int(cohort,'InvoiceMonth')
 cohort_year, cohort_month,_=get_month_int(cohort, 'CohortMonth')
 
+#create year an month diffs
 year_diff=invoice_year-cohort_year
 month_diff=invoice_month-cohort_month
 
+#create cohortindex
 cohort['CohortIndex']=year_diff * 12 + month_diff +1
 
 #count monthly active clients from month cohorts
@@ -92,8 +98,8 @@ cohort['CohortIndex']=year_diff * 12 + month_diff +1
 grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
 cohort_data = grouping['CustomerID'].apply(pd.Series.nunique)
 
-#return number of unique vals
 
+#return number of unique vals
 cohort_data = cohort_data.reset_index()
 cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='CustomerID')
 print(cohort_counts)
@@ -110,6 +116,8 @@ plt.figure(figsize=(15,7))
 plt.title('Retention levels on monthly cohorts')
 sns.heatmap(data=retention, annot=True, fmt='.0%', vmin=0.0, vmax=0.5, cmap='Blues')
 plt.show()
+
+
 
 
 
