@@ -28,8 +28,15 @@ cohort=pd.read_csv(c, encoding=('ISO-8859-1'), low_memory=False)
 print(cohort.info())
 
 #check in missing data
-
 print(cohort.isnull().sum())
+
+#clean missing data
+cohort=cohort.dropna(subset=['CustomerID'])
+print(cohort.isnull().sum())
+
+
+
+
 
 
 
