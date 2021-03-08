@@ -99,6 +99,18 @@ cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', va
 print(cohort_counts)
 
 
+#build retention table
+
+cohort_size=cohort_counts.iloc[:,0]
+retention=cohort_counts.divide(cohort_size, axis=0) 
+retention.round(3) *100
+print(retention)
+
+
+
+
+
+
 
 
 
