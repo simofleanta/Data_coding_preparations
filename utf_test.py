@@ -58,5 +58,5 @@ print(cohort)"""
 
 e='px.csv'
 emps=pd.read_csv(e)
-print(emps.head(3))
+print(emps.head(10))
 
