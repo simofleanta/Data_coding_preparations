@@ -46,6 +46,15 @@ print(cohort.duplicated().sum())
 print(cohort.describe())
 
 
+print(cohort.shape)
+
+# cohort analysis start
+
+
+
+
+
+
 
 
 
