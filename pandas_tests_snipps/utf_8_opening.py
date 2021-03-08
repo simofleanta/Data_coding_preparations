@@ -117,6 +117,21 @@ plt.title('Retention levels on monthly cohorts')
 sns.heatmap(data=retention, annot=True, fmt='.0%', vmin=0.0, vmax=0.5, cmap='Blues')
 plt.show()
 
+#
+
+grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
+cohort_data = grouping['Quantity'].mean()
+cohort_data=cohort_data.reset_index()
+avg_q=cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Quantity')
+avg_q.round(1)
+avg_q.index=avg_q.index.date
+
+plt.figure(figsize=(15,7))
+plt.title('Avg_q on monthly cohorts')
+sns.heatmap(data=avg_q, annot=True, vmin=0.0, vmax=20, cmap='viridis')
+plt.show()
+
+
 
 
 
