@@ -55,11 +55,15 @@ indexeddf=cohort.set_index(['InvoiceDate'])
 print(indexeddf)
 
 #parsing to time format and extracting dates with 'created_at'
-x=cohort['InvoiceDate']=pd.to_datetime(cohort['InvoiceDate'], format='%d-%m-%y')
+x=cohort['InvoiceDate']=pd.to_datetime(cohort['InvoiceDate'], format='%y-%m-%d')
+
+Day=cohort['InvoiceDate'].dt.day_name()
+Month=cohort['InvoiceDate'].dt.month
+Year=cohort['InvoiceDate'].dt.year
 
 
-
-"""# cohort analysis start
+"""
+# cohort analysis start
 def get_month(x):
     return dt.datetime (x.year,month, 1)
 
@@ -67,7 +71,6 @@ cohort['InvoiceMonth']=cohort['InvoiceDate'].apply(get_month)
 grouping=cohort.groupby('CustomerID')['InvoiceMonth']
 cohort['CohortMonth']=grouping.transform('min')
 """
-
 
 
 
