@@ -42,6 +42,10 @@ cohort=cohort.drop_duplicates()
 print(cohort.duplicated().sum())
 
 
+#describe data after cleaning nan and duplicated vals
+print(cohort.describe())
+
+
 
 
 
