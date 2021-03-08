@@ -34,6 +34,23 @@ print(cohort.isnull().sum())
 cohort=cohort.dropna(subset=['CustomerID'])
 print(cohort.isnull().sum())
 
+#check for duplicate values and then clean
+print(cohort.duplicated().sum())
+
+#clean duplicated
+cohort=cohort.drop_duplicates()
+print(cohort.duplicated().sum())
+
+
+
+
+
+
+
+
+
+
+
 
 
 
