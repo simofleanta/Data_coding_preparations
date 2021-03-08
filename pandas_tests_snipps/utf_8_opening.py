@@ -79,6 +79,14 @@ def get_month_int(cohortframe, column):
     day=cohortframe[column].dt.day
     return year, month, day
 
+invoice_year, invoice_month,_=get_month_int(cohort,'InvoiceMonth')
+cohort_year, cohort_month,_=get_month_int(cohort, 'CohortMonth')
+
+year_diff=invoice_year-cohort_year
+month_diff=invoice_month-cohort_month
+
+cohort['CohortIndex']=year_diff * 12 + month_diff +1
+
 
 
 
