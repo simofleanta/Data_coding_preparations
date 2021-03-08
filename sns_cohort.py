@@ -98,7 +98,7 @@ print(retention)
 
 plt.figure(figsize=(15,7))
 plt.title('Retention levels on monthly cohorts')
-sns.heatmap(data=retention, annot=True, linewidth = 1.7 ,fmt='.0%', vmin=0.0, vmax=0.5, cmap='Blues')
+sns.heatmap(data=retention, annot=True, linewidth = 2.7 ,fmt='.0%', vmin=0.0, vmax=0.5, cmap='Blues')
 plt.show()
 
 
@@ -107,13 +107,51 @@ grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
 cohort_data = grouping['Out_px'].mean()
 cohort_data=cohort_data.reset_index()
 avg_q=cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Out_px')
-avg_q.round(2)
+avg_q.round(4)
 avg_q.index=avg_q.index.date
 
 plt.figure(figsize=(15,7))
 plt.title('Avg_q on monthly cohorts')
-sns.heatmap(data=avg_q, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='viridis')
+sns.heatmap(data=avg_q, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='viridis_r')
 plt.show()
+
+#############################################
+
+grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
+cohort_data = grouping['Client_Count'].mean()
+cohort_data=cohort_data.reset_index()
+count=cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Client_Count')
+count.round(2)
+count.index=count.index.date
+
+plt.figure(figsize=(15,7))
+plt.title('Avg_q on monthly cohorts')
+sns.heatmap(data=count, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='RdBu')
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
