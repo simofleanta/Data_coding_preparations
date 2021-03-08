@@ -74,7 +74,7 @@ cohort['CohortMonth']=grouping.transform('min')
 print(cohort.tail())
 
 def get_month_int(cohortframe, column):
-    year=cohortframe[column].dt.Year
+    year=cohortframe[column].dt.year
     month=cohortframe[column].dt.month
     day=cohortframe[column].dt.day
     return year, month, day
@@ -86,6 +86,18 @@ year_diff=invoice_year-cohort_year
 month_diff=invoice_month-cohort_month
 
 cohort['CohortIndex']=year_diff * 12 + month_diff +1
+
+#count monthly active clients from month cohorts
+
+grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
+cohort_data = grouping['CustomerID'].apply(pd.Series.nunique)
+
+#return number of unique vals
+
+cohort_data = cohort_data.reset_index()
+cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='CustomerID')
+print(cohort_counts)
+
 
 
 
