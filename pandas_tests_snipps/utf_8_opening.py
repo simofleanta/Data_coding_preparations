@@ -87,7 +87,7 @@ invoice_year, invoice_month,_=get_month_int(cohort,'InvoiceMonth')
 cohort_year, cohort_month,_=get_month_int(cohort, 'CohortMonth')
 
 #create year an month diffs
-year_diff=invoice_year-cohort_year
+year_diff=client_year-cohort_year
 month_diff=invoice_month-cohort_month
 
 #create cohortindex
