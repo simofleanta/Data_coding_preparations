@@ -68,7 +68,7 @@ def get_month_int(cohortframe, column):
     day=cohortframe[column].dt.day
     return year, month, day
 #call function 
-invoice_year, invoice_month,_=get_month_int(cohort,'InvoiceMonth')
+invoice_year, invoice_month,_=get_month_int(cohort,'Rate_Month')
 cohort_year, cohort_month,_=get_month_int(cohort, 'Rate_Month')
 
 #create year an month diffs
