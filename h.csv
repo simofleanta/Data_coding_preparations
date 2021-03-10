@@ -21,7 +21,7 @@ Date,Domain,Domain_code,Service_price,Country ,Country_code
 8/8/2018,Py_automation,101,65,Ger,303
 8/8/2018,DA,113,40,Ger,303
 8/8/2018,BI_consultant,117,80,Ger,303
-8/8/2018,BI_Consultant,117,65,Ger,303
+8/8/2018,BI_consultant,117,65,Ger,303
 8/8/2018,BI_consultant,117,80,Fra,305
 8/8/2018,DA_engineering,119,78,Fra,305
 8/9/2018,Ds,114,40,Fra,305
@@ -75,13 +75,13 @@ Date,Domain,Domain_code,Service_price,Country ,Country_code
 11/27/2019,DA_Architect,123,125,Luxembourg,310
 11/28/2019,DA,113,49,Luxembourg,310
 11/29/2019,DA,113,49,Luxembourg,310
-11/30/2019,BI_Consultant,117,80,Luxembourg,310
-12/1/2019,BI_Consultant,117,80,Luxembourg,310
+11/30/2019,BI_consultant,117,80,Luxembourg,310
+12/1/2019,BI_consultant,117,80,Luxembourg,310
 12/2/2019,DA,113,50,Luxembourg,310
 12/3/2019,PY_DA,109,35,Luxembourg,310
 12/4/2019,DA_Scraping,108,35,Luxembourg,310
 12/5/2019,DA,113,45,Luxembourg,310
-12/6/2019,BI_Consultant,117,75,Luxembourg,310
+12/6/2019,BI_consultant,117,75,Luxembourg,310
 12/7/2019,DV,115,35,Romania,315
 12/8/2019,BI_consultant,117,42,Romania,315
 12/9/2019,DA,113,45,Romania,315
