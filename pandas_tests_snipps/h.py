@@ -87,7 +87,7 @@ cohort_data = grouping['Country_code'].apply(pd.Series.nunique)
 #return number of unique vals
 cohort_data = cohort_data.reset_index()
 cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Country_code')
-print(cohort_counts)
+#print(cohort_counts)
 
 
 #build retention table
@@ -95,7 +95,7 @@ print(cohort_counts)
 cohort_size=cohort_counts.iloc[:,0]
 
 ################################################################
-
+"""
 #Service_px(mean)
 
 grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
@@ -141,5 +141,15 @@ domain.index=domain.index.date
 plt.figure(figsize=(15,7))
 plt.title('Domain distrib on monthly cohorts')
 sns.heatmap(data=domain, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='Blues')
-plt.show()
+plt.show()"""
 
+
+####################################################################
+
+
+
+
+x=['Domain', 'Service_price']
+cm=sns.light_palette("green", as_cmap=True)
+(pd.crosstab(cohort[cohort.Domain[0]], cohort[cohort.Service_price], values=cohort['Service_price'], aggfunc='mean')).style.background_gradient(cmap=cm)
+plt.show()
