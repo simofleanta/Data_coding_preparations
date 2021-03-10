@@ -106,7 +106,7 @@ avg_q.round(2)
 avg_q.index=avg_q.index.date
 
 plt.figure(figsize=(15,7))
-plt.title('Avg_q on monthly cohorts')
+plt.title('Avg Service price on monthly cohorts')
 sns.heatmap(data=avg_q, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='viridis')
 plt.show()
 
@@ -121,6 +121,6 @@ x.round(2)
 x.index=x.index.date
 
 plt.figure(figsize=(15,7))
-plt.title('Avg_q on monthly cohorts')
-sns.heatmap(data=x, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='viridis')
+plt.title('Country distrib on monthly cohorts')
+sns.heatmap(data=x, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='Blues')
 plt.show()
