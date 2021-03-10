@@ -1,150 +1,150 @@
 Date,Domain,Domain_code,Service_price,Country ,Country_code
-12/1/2010 8:26,BI_consultant,117,85,Ger,303
-12/1/2010 8:26,BI_consultant,117,119,Ger,303
-12/1/2010 8:26,Py_automation,101,30,Ger,303
-12/1/2010 8:26,Google_analytics,104,65,Ger,303
-12/1/2010 8:26,Excel_Expert,102,29,Ger,303
-12/1/2010 8:26,BI_VBA,103,30,Ger,303
-12/1/2010 8:26,Data_scraping,105,157,Ger,303
-12/1/2010 8:28,DA_Conversion_R,106,55,Ger,303
-12/1/2010 8:28,DA_PY_SQL_Dax,107,60,Ger,303
-12/1/2010 8:34,DA_Scraping,108,50,Ger,303
-12/1/2010 8:34,Py_DA,109,20,Ger,303
-12/1/2010 8:34,DA,113,50,Ger,303
-12/1/2010 8:34,BI_SQL_Py,117,30,Ger,303
-12/1/2010 8:34,DA,113,35,Ger,303
-12/1/2010 8:34,Marketing_DA,110,95,Ger,303
-12/1/2010 8:34,BI_Architect ,111,60,Ger,303
-12/1/2010 8:34,Py_ML,112,51,Ger,303
-12/1/2010 8:34,BI_SQL_Py,117,59,Ger,303
-12/1/2010 8:34,Py_Climate_DA,118,100,Ger,303
-12/1/2010 8:34,Py_automation,101,65,Ger,303
-12/1/2010 8:34,DA,113,40,Ger,303
-12/1/2010 8:34,BI_consultant,117,80,Ger,303
-12/1/2010 8:34,BI_Consultant,117,65,Ger,303
-12/1/2010 8:34,BI_consultant,117,80,Fra,305
-12/1/2010 8:34,DA_engineering,119,78,Fra,305
-12/1/2010 8:35,Ds,114,40,Fra,305
-12/1/2010 8:45,DA,113,59,Fra,305
-12/1/2010 8:45,DS,114,35,Fra,305
-12/1/2010 8:45,DA,113,40,Fra,305
-12/1/2010 8:45,DA,113,30,Fra,305
-12/1/2010 8:45,Ds,114,25,Fra,305
-12/1/2010 8:45,BI_consultant,117,100,Fra,305
-12/1/2010 8:45,DA,113,50,Fra,305
-12/1/2010 8:45,Py_DA,109,50,Fra,305
-12/1/2010 8:45,BI_consultant,117,20,Fra,305
-12/1/2010 8:45,BI_consultant,117,50,Fra,305
-12/1/2010 8:45,BI_consultant,117,30,Fra,305
-12/1/2010 8:45,Py_DA,109,37,Fra,305
-12/1/2010 8:45,DA,113,50,Fra,305
-12/1/2010 8:45,Ds,114,25,Fra,305
-12/1/2010 8:45,Da_Ds,120,97,Fra,305
-12/1/2010 8:45,DA,113,45,Fra,305
-12/1/2010 8:45,BI_consultant,117,50,Fra,305
-12/1/2010 8:45,BI_consultant,117,50,Fra,305
-12/1/2010 8:45,Ds,114,30,Fra,305
-12/1/2010 8:45,DA,113,45,Fra,305
-12/1/2010 9:00,Ds,114,65,Fra,305
-12/1/2010 9:01,BI_consultant,117,50,Fra,305
-12/1/2010 9:01,DA,113,40,Neth,308
-12/1/2010 9:02,BI_consultant,117,40,Neth,308
-12/1/2010 9:02,BI_consultant,117,30,Neth,308
-12/1/2010 9:02,BI_consultant,117,60,Neth,308
-12/1/2010 9:02,DA,113,75,Neth,308
-12/1/2010 9:02,Marketing_DA,110,40,Neth,308
-12/1/2010 9:02,DA_Excel,121,60,Neth,308
-12/1/2010 9:02,Ds,114,75,Neth,308
-12/1/2010 9:02,Ds,114,50,Neth,308
-12/1/2010 9:02,DA,113,30,Neth,308
-12/1/2010 9:02,Ds,114,30,Neth,308
-12/1/2010 9:02,BI_consultant,117,40,Neth,308
-12/1/2010 9:02,BI_consultant,117,100,Neth,308
-12/1/2010 9:02,BI_consultant,117,50,Neth,308
-12/1/2010 9:02,BI_consultant,117,50,Neth,308
-12/1/2010 9:02,BI_consultant,117,50,Neth,308
-12/1/2010 9:02,BI_consultant,117,25,Neth,308
-12/1/2010 9:09,Ds,114,80,Neth,308
-12/1/2010 9:32,Ds,114,80,Neth,308
-12/1/2010 9:32,DA,113,85,Neth,308
-12/1/2010 9:32,BI_consultant,117,150,Neth,308
-12/1/2010 9:32,DA,113,35,Neth,308
-12/1/2010 9:32,Ds,114,45,Neth,308
-12/1/2010 9:32,Py_DA,109,45,Neth,308
-12/1/2010 9:32,DA,113,35,Neth,308
-12/1/2010 9:32,DA_Architect,123,125,Luxembourg,310
-12/1/2010 9:32,DA,113,49,Luxembourg,310
-12/1/2010 9:32,DA,113,49,Luxembourg,310
-12/1/2010 9:32,BI_Consultant,117,80,Luxembourg,310
-12/1/2010 9:32,BI_Consultant,117,80,Luxembourg,310
-12/1/2010 9:32,DA,113,50,Luxembourg,310
-12/1/2010 9:32,PY_DA,109,35,Luxembourg,310
-12/1/2010 9:32,DA_Scraping,108,35,Luxembourg,310
-12/1/2010 9:32,DA,113,45,Luxembourg,310
-12/1/2010 9:32,BI_Consultant,117,75,Luxembourg,310
-12/1/2010 9:32,DV,115,35,Romania,315
-12/1/2010 9:34,BI_consultant,117,42,Romania,315
-12/1/2010 9:34,DA,113,45,Romania,315
-12/1/2010 9:37,DA,113,30,Romania,315
-12/1/2010 9:37,Ds,114,40,Romania,315
-12/1/2010 9:37,Py_DA,109,35,Romania,315
-12/1/2010 9:37,DV,115,55,Romania,315
-12/1/2010 9:37,BI_consultant,117,65,Romania,315
-12/1/2010 9:37,Ds,114,45,Romania,315
-12/1/2010 9:37,BI_consultant,117,39,Romania,315
-12/1/2010 9:37,Ds,114,60,Romania,315
-12/1/2010 9:37,BI_consultant,117,65,Romania,315
-12/1/2010 9:37,DA,113,30,Romania,315
-12/1/2010 9:37,DA,113,30,Romania,315
-12/1/2010 9:37,Da,113,35,Romania,315
-12/1/2010 9:37,BI_consultant,117,60,Australia,320
-12/1/2010 9:37,DA,113,40,Australia,320
-12/1/2010 9:37,Ds,114,60,Australia,320
-12/1/2010 9:37,BI_consultant,117,60,Australia,320
-12/1/2010 9:37,DA,113,45,Australia,320
-12/1/2010 9:37,Ds,114,60,Australia,320
-12/1/2010 9:37,BI_consultant,117,45,Australia,320
-12/1/2010 9:41,DA,113,45,Australia,320
-12/1/2010 9:41,BI_consultant,117,60,Australia,320
-12/1/2010 9:41,BI_consultant,117,55,Australia,320
-12/1/2010 9:41,BI_consultant,117,45,Australia,320
-12/1/2010 9:41,Ds,114,65,Australia,320
-12/1/2010 9:41,DV,115,40,Australia,320
-12/1/2010 9:41,DV,115,45,Australia,320
-12/1/2010 9:41,BI_consultant,117,50,Australia,320
-12/1/2010 9:41,BI_consultant,117,60,Australia,320
-12/1/2010 9:41,BI_consultant,117,120,Australia,320
-12/1/2010 9:41,DA,113,65,Australia,320
-12/1/2010 9:41,BI_consultant,117,120,Australia,320
-12/1/2010 9:41,FA_DA,124,55,Australia,320
-12/1/2010 9:41,DA,113,60,Australia,320
-12/1/2010 9:41,BI_consultant,117,65,Australia,320
-12/1/2010 9:41,Ds,114,100,Australia,320
-12/1/2010 9:41,BI_consultant,117,120,Australia,320
-12/1/2010 9:41,Dv,115,40,Australia,320
-12/1/2010 9:41,BI_consultant,117,55,Belgium,300
-12/1/2010 9:41,DV,115,45,Belgium,300
-12/1/2010 9:41,BI_consultant,117,50,Belgium,300
-12/1/2010 9:41,Ds,114,60,Belgium,300
-12/1/2010 9:41,Ds,114,120,Belgium,300
-12/1/2010 9:41,BA,101,80,Belgium,300
-12/1/2010 9:41,BI_consultant,117,80,Belgium,300
-12/1/2010 9:41,BI_consultant,117,55,Belgium,300
-12/1/2010 9:41,BI_DA,117,135,Belgium,300
-12/1/2010 9:41,BA,101,100,Belgium,300
-12/1/2010 9:41,DA,113,50,Belgium,300
-12/1/2010 9:41,BI_consultant,117,84,Belgium,300
-12/1/2010 9:41,Ds,114,45,Belgium,300
-12/1/2010 9:41,BI_consultant,117,60,Belgium,300
-12/1/2010 9:41,DA,113,55,Belgium,300
-12/1/2010 9:41,BA,101,40,Belgium,300
-12/1/2010 9:41,BI_DA,117,75,Belgium,300
-12/1/2010 9:41,DA,113,45,Belgium,300
-12/1/2010 9:41,DA,113,55,Belgium,300
-12/1/2010 9:45,DV,115,60,Belgium,300
-12/1/2010 9:45,DV,115,55,Belgium,300
-12/1/2010 9:45,BI_consultant,117,65,Belgium,300
-12/1/2010 9:45,BI_consultant,117,60,Belgium,300
-12/1/2010 9:45,BI_consultant,117,80,Belgium,300
-12/1/2010 9:45,BI_consultant,117,55,Belgium,300
-12/1/2010 9:45,BI_consultant,117,65,Belgium,300
+6/6/2018,BI_consultant,117,85,Ger,303
+6/6/2018,BI_consultant,117,119,Ger,303
+6/6/2018,Py_automation,101,30,Ger,303
+6/6/2018,Google_analytics,104,65,Ger,303
+6/6/2018,Excel_Expert,102,29,Ger,303
+6/6/2018,BI_VBA,103,30,Ger,303
+6/6/2018,Data_scraping,105,157,Ger,303
+6/7/2018,DA_Conversion_R,106,55,Ger,303
+6/7/2018,DA_PY_SQL_Dax,107,60,Ger,303
+7/7/2018,DA_Scraping,108,50,Ger,303
+7/7/2018,Py_DA,109,20,Ger,303
+7/7/2018,DA,113,50,Ger,303
+7/7/2018,BI_SQL_Py,117,30,Ger,303
+7/7/2018,DA,113,35,Ger,303
+7/7/2018,Marketing_DA,110,95,Ger,303
+7/8/2018,BI_Architect ,111,60,Ger,303
+7/8/2018,Py_ML,112,51,Ger,303
+7/8/2018,BI_SQL_Py,117,59,Ger,303
+7/8/2018,Py_Climate_DA,118,100,Ger,303
+8/8/2018,Py_automation,101,65,Ger,303
+8/8/2018,DA,113,40,Ger,303
+8/8/2018,BI_consultant,117,80,Ger,303
+8/8/2018,BI_Consultant,117,65,Ger,303
+8/8/2018,BI_consultant,117,80,Fra,305
+8/8/2018,DA_engineering,119,78,Fra,305
+8/9/2018,Ds,114,40,Fra,305
+8/9/2018,DA,113,59,Fra,305
+8/9/2018,DS,114,35,Fra,305
+8/9/2019,DA,113,40,Fra,305
+9/9/2019,DA,113,30,Fra,305
+9/9/2019,Ds,114,25,Fra,305
+9/9/2019,BI_consultant,117,100,Fra,305
+9/9/2019,DA,113,50,Fra,305
+9/9/2019,Py_DA,109,50,Fra,305
+9/10/2019,BI_consultant,117,20,Fra,305
+9/10/2019,BI_consultant,117,50,Fra,305
+9/10/2019,BI_consultant,117,30,Fra,305
+9/10/2019,Py_DA,109,37,Fra,305
+9/10/2019,DA,113,50,Fra,305
+10/10/2019,Ds,114,25,Fra,305
+10/10/2019,Da_Ds,120,97,Fra,305
+10/10/2019,DA,113,45,Fra,305
+10/11/2019,BI_consultant,117,50,Fra,305
+10/11/2019,BI_consultant,117,50,Fra,305
+10/11/2019,Ds,114,30,Fra,305
+10/11/2019,DA,113,45,Fra,305
+10/11/2019,Ds,114,65,Fra,305
+10/11/2019,BI_consultant,117,50,Fra,305
+10/11/2019,DA,113,40,Neth,308
+11/11/2019,BI_consultant,117,40,Neth,308
+11/12/2019,BI_consultant,117,30,Neth,308
+11/12/2019,BI_consultant,117,60,Neth,308
+11/12/2019,DA,113,75,Neth,308
+11/12/2019,Marketing_DA,110,40,Neth,308
+11/12/2019,DA_Excel,121,60,Neth,308
+11/12/2019,Ds,114,75,Neth,308
+11/12/2019,Ds,114,50,Neth,308
+11/12/2019,DA,113,30,Neth,308
+11/12/2019,Ds,114,30,Neth,308
+11/13/2019,BI_consultant,117,40,Neth,308
+11/14/2019,BI_consultant,117,100,Neth,308
+11/15/2019,BI_consultant,117,50,Neth,308
+11/16/2019,BI_consultant,117,50,Neth,308
+11/17/2019,BI_consultant,117,50,Neth,308
+11/18/2019,BI_consultant,117,25,Neth,308
+11/19/2019,Ds,114,80,Neth,308
+11/20/2019,Ds,114,80,Neth,308
+11/21/2019,DA,113,85,Neth,308
+11/22/2019,BI_consultant,117,150,Neth,308
+11/23/2019,DA,113,35,Neth,308
+11/24/2019,Ds,114,45,Neth,308
+11/25/2019,Py_DA,109,45,Neth,308
+11/26/2019,DA,113,35,Neth,308
+11/27/2019,DA_Architect,123,125,Luxembourg,310
+11/28/2019,DA,113,49,Luxembourg,310
+11/29/2019,DA,113,49,Luxembourg,310
+11/30/2019,BI_Consultant,117,80,Luxembourg,310
+12/1/2019,BI_Consultant,117,80,Luxembourg,310
+12/2/2019,DA,113,50,Luxembourg,310
+12/3/2019,PY_DA,109,35,Luxembourg,310
+12/4/2019,DA_Scraping,108,35,Luxembourg,310
+12/5/2019,DA,113,45,Luxembourg,310
+12/6/2019,BI_Consultant,117,75,Luxembourg,310
+12/7/2019,DV,115,35,Romania,315
+12/8/2019,BI_consultant,117,42,Romania,315
+12/9/2019,DA,113,45,Romania,315
+12/10/2019,DA,113,30,Romania,315
+12/11/2020,Ds,114,40,Romania,315
+1/1/2020,Py_DA,109,35,Romania,315
+1/13/2020,DV,115,55,Romania,315
+1/14/2020,BI_consultant,117,65,Romania,315
+1/15/2020,Ds,114,45,Romania,315
+1/16/2020,BI_consultant,117,39,Romania,315
+1/17/2020,Ds,114,60,Romania,315
+1/18/2020,BI_consultant,117,65,Romania,315
+1/19/2020,DA,113,30,Romania,315
+1/20/2020,DA,113,30,Romania,315
+2/21/2020,Da,113,35,Romania,315
+2/22/2020,BI_consultant,117,60,Australia,320
+2/23/2020,DA,113,40,Australia,320
+2/24/2020,Ds,114,60,Australia,320
+2/25/2020,BI_consultant,117,60,Australia,320
+2/26/2020,DA,113,45,Australia,320
+2/27/2020,Ds,114,60,Australia,320
+2/28/2020,BI_consultant,117,45,Australia,320
+2/29/2020,DA,113,45,Australia,320
+2/1/2020,BI_consultant,117,60,Australia,320
+3/2/2020,BI_consultant,117,55,Australia,320
+3/3/2020,BI_consultant,117,45,Australia,320
+3/2/2020,Ds,114,65,Australia,320
+3/3/2020,DV,115,40,Australia,320
+3/4/2020,DV,115,45,Australia,320
+3/5/2020,BI_consultant,117,50,Australia,320
+3/6/2020,BI_consultant,117,60,Australia,320
+3/7/2020,BI_consultant,117,120,Australia,320
+3/8/2020,DA,113,65,Australia,320
+4/9/2020,BI_consultant,117,120,Australia,320
+4/10/2020,FA_DA,124,55,Australia,320
+4/11/2020,DA,113,60,Australia,320
+4/12/2020,BI_consultant,117,65,Australia,320
+4/14/2020,Ds,114,100,Australia,320
+4/14/2020,BI_consultant,117,120,Australia,320
+4/15/2020,Dv,115,40,Australia,320
+4/16/2020,BI_consultant,117,55,Belgium,300
+4/17/2020,DV,115,45,Belgium,300
+4/18/2020,BI_consultant,117,50,Belgium,300
+4/19/2020,Ds,114,60,Belgium,300
+5/20/2020,Ds,114,120,Belgium,300
+5/25/2020,BA,101,80,Belgium,300
+5/22/2020,BI_consultant,117,80,Belgium,300
+5/23/2020,BI_consultant,117,55,Belgium,300
+5/24/2020,BI_DA,117,135,Belgium,300
+5/25/2020,BA,101,100,Belgium,300
+5/26/2020,DA,113,50,Belgium,300
+5/27/2020,BI_consultant,117,84,Belgium,300
+5/28/2020,Ds,114,45,Belgium,300
+5/29/2020,BI_consultant,117,60,Belgium,300
+5/30/2020,DA,113,55,Belgium,300
+5/31/2020,BA,101,40,Belgium,300
+6/1/2020,BI_DA,117,75,Belgium,300
+6/2/2020,DA,113,45,Belgium,300
+6/3/2020,DA,113,55,Belgium,300
+6/4/2020,DV,115,60,Belgium,300
+6/5/2020,DV,115,55,Belgium,300
+6/6/2020,BI_consultant,117,65,Belgium,300
+6/7/2020,BI_consultant,117,60,Belgium,300
+6/8/2020,BI_consultant,117,80,Belgium,300
+6/9/2020,BI_consultant,117,55,Belgium,300
+6/10/2020,BI_consultant,117,65,Belgium,300
