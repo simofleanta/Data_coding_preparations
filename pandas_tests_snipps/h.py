@@ -18,6 +18,8 @@ import plotly.express as px
 import datetime
 import datetime as dt
 import time
+import django.template.backends.jinja2
+
 
 # Supress Scientific notation in python
 pd.set_option('display.float_format', lambda x: '%.2f' % x)
@@ -151,9 +153,13 @@ plt.show()"""
 
 ####################################################################
 
-table=pd.crosstab(cohort['Domain'], cohort['Service_price'])
+#contingency table using jinja2
 
-#How many bi?
+hourly=['Domain', 'Country_code']
+cm=sns.light_palette("green", as_cmap=True)
+round(pd.crosstab(cohort[hourly[0]], cohort[hourly[1]], values=cohort['Service_price'], aggfunc='mean'),2).fillna(0).style.background_gradient(cmap=cm)
+print(cm)
+
 
 
 
