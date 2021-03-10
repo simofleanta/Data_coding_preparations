@@ -93,16 +93,10 @@ print(cohort_counts)
 #build retention table
 
 cohort_size=cohort_counts.iloc[:,0]
-retention=cohort_counts.divide(cohort_size, axis=0) 
-retention.round(3) *100
-print(retention)
 
-plt.figure(figsize=(15,7))
-plt.title('Retention levels on monthly cohorts')
-sns.heatmap(data=retention, annot=True, linewidth = 1.7 ,fmt='.0%', vmin=0.0, vmax=0.5, cmap='Blues')
-plt.show()
+################################################################
 
-
+#Service_px(mean)
 
 grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
 cohort_data = grouping['Service_price'].mean()
@@ -114,4 +108,19 @@ avg_q.index=avg_q.index.date
 plt.figure(figsize=(15,7))
 plt.title('Avg_q on monthly cohorts')
 sns.heatmap(data=avg_q, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='viridis')
+plt.show()
+
+
+############################################################
+
+grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
+cohort_data = grouping['Country_code'].max()
+cohort_data=cohort_data.reset_index()
+x=cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Country_code')
+x.round(2)
+x.index=x.index.date
+
+plt.figure(figsize=(15,7))
+plt.title('Avg_q on monthly cohorts')
+sns.heatmap(data=x, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='viridis')
 plt.show()
