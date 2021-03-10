@@ -21,26 +21,11 @@ import datetime as dt
 import time
 
 
-c='Online.csv'
+c='h.csv'
 cohort=pd.read_csv(c, encoding=('ISO-8859-1'), low_memory=False)
 #print(cohort.head(5))
 
 print(cohort.info())
-
-#check in missing data
-print(cohort.isnull().sum())
-
-#clean missing data
-cohort=cohort.dropna(subset=['CustomerID'])
-print(cohort.isnull().sum())
-
-#check for duplicate values and then clean
-print(cohort.duplicated().sum())
-
-#clean duplicated
-cohort=cohort.drop_duplicates()
-print(cohort.duplicated().sum())
-
 
 #describe data after cleaning nan and duplicated vals
 print(cohort.describe())
@@ -50,8 +35,8 @@ print(cohort.shape)
 
 #parse dates in index (definitely need it)
 
-cohort['InvoiceDate']=pd.to_datetime(cohort['InvoiceDate'], infer_datetime_format=True)
-indexeddf=cohort.set_index(['InvoiceDate'])
+cohort['Date']=pd.to_datetime(cohort['Date'], infer_datetime_format=True)
+indexeddf=cohort.set_index(['Date'])
 #print(indexeddf)
 
 """
@@ -69,9 +54,9 @@ Year=cohort['InvoiceDate'].dt.year"""
 def get_month(x):
     return dt.datetime (x.year, x.month, 1)
 
-cohort['InvoiceMonth']=cohort['InvoiceDate'].apply(get_month)
-grouping=cohort.groupby('CustomerID')['InvoiceMonth']
-cohort['CohortMonth']=grouping.transform('min')
+cohort['Rate_Month']=cohort['Date'].apply(get_month)
+grouping=cohort.groupby('Domain_code')['Rate_Month']
+cohort['Rate_Month']=grouping.transform('min')
 
 print(cohort.tail())
 
@@ -84,7 +69,7 @@ def get_month_int(cohortframe, column):
     return year, month, day
 #call function 
 invoice_year, invoice_month,_=get_month_int(cohort,'InvoiceMonth')
-cohort_year, cohort_month,_=get_month_int(cohort, 'CohortMonth')
+cohort_year, cohort_month,_=get_month_int(cohort, 'Rate_Month')
 
 #create year an month diffs
 year_diff=invoice_year-cohort_year
@@ -95,13 +80,13 @@ cohort['CohortIndex']=year_diff * 12 + month_diff +1
 
 #count monthly active clients from month cohorts
 
-grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
-cohort_data = grouping['CustomerID'].apply(pd.Series.nunique)
+grouping = cohort.groupby(['Rate_Month', 'CohortIndex'])
+cohort_data = grouping['Domain_code'].apply(pd.Series.nunique)
 
 
 #return number of unique vals
 cohort_data = cohort_data.reset_index()
-cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='CustomerID')
+cohort_counts = cohort_data.pivot(index='Rate_Month', columns='CohortIndex', values='Domain_code')
 print(cohort_counts)
 
 
@@ -119,20 +104,20 @@ plt.show()
 
 #mean quantity on cohorts
 
-grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
-cohort_data = grouping['Quantity'].mean()
+grouping = cohort.groupby(['Rate_Month', 'CohortIndex'])
+cohort_data = grouping['Service_price'].mean()
 cohort_data=cohort_data.reset_index()
-avg_q=cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Quantity')
+avg_q=cohort_data.pivot(index='Rate_Month', columns='CohortIndex', values='Service_price')
 avg_q.round(1)
 avg_q.index=avg_q.index.date
 
 plt.figure(figsize=(15,7))
-plt.title('Avg_q on monthly cohorts')
+plt.title('Service_price on monthly cohorts')
 sns.heatmap(data=avg_q, annot=True, vmin=0.0, vmax=20, cmap='YlOrRd')
 plt.show()
 
 #########################################################################
-
+"""
 #mean quantity on cohorts
 
 grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
@@ -145,4 +130,4 @@ avg_q.index=avg_q.index.date
 plt.figure(figsize=(15,7))
 plt.title('UnitPrice on monthly cohorts')
 sns.heatmap(data=avg_q, annot=True, vmin=0.0, vmax=20, cmap='PiYG')
-plt.show()
+plt.show()"""
