@@ -1,150 +1,150 @@
-Date	Domain	Domain_code	Service_price	Country 	Country_code
-12/1/2010 8:26	BI_consultant	117	85	Ger	303
-12/1/2010 8:26	BI_consultant	117	119	Ger	303
-12/1/2010 8:26	Py_automation	101	30	Ger	303
-12/1/2010 8:26	Google_analytics	104	65	Ger	303
-12/1/2010 8:26	Excel_Expert	102	29	Ger	303
-12/1/2010 8:26	BI_VBA	103	30	Ger	303
-12/1/2010 8:26	Data_scraping	105	157	Ger	303
-12/1/2010 8:28	DA_Conversion_R	106	55	Ger	303
-12/1/2010 8:28	DA_PY_SQL_Dax	107	60	Ger	303
-12/1/2010 8:34	DA_Scraping	108	50	Ger	303
-12/1/2010 8:34	Py_DA	109	20	Ger	303
-12/1/2010 8:34	DA	113	50	Ger	303
-12/1/2010 8:34	BI_SQL_Py	117	30	Ger	303
-12/1/2010 8:34	DA	113	35	Ger	303
-12/1/2010 8:34	Marketing_DA	110	95	Ger	303
-12/1/2010 8:34	BI_Architect 	111	60	Ger	303
-12/1/2010 8:34	Py_ML	112	51	Ger	303
-12/1/2010 8:34	BI_SQL_Py	117	59	Ger	303
-12/1/2010 8:34	Py_Climate_DA	118	100	Ger	303
-12/1/2010 8:34	Py_automation	101	65	Ger	303
-12/1/2010 8:34	DA	113	40	Ger	303
-12/1/2010 8:34	BI_consultant	117	80	Ger	303
-12/1/2010 8:34	BI_Consultant	117	65	Ger	303
-12/1/2010 8:34	BI_consultant	117	80	Fra	305
-12/1/2010 8:34	DA_engineering	119	78	Fra	305
-12/1/2010 8:35	Ds	114	40	Fra	305
-12/1/2010 8:45	DA	113	59	Fra	305
-12/1/2010 8:45	DS	114	35	Fra	305
-12/1/2010 8:45	DA	113	40	Fra	305
-12/1/2010 8:45	DA	113	30	Fra	305
-12/1/2010 8:45	Ds	114	25	Fra	305
-12/1/2010 8:45	BI_consultant	117	100	Fra	305
-12/1/2010 8:45	DA	113	50	Fra	305
-12/1/2010 8:45	Py_DA	109	50	Fra	305
-12/1/2010 8:45	BI_consultant	117	20	Fra	305
-12/1/2010 8:45	BI_consultant	117	50	Fra	305
-12/1/2010 8:45	BI_consultant	117	30	Fra	305
-12/1/2010 8:45	Py_DA	109	37	Fra	305
-12/1/2010 8:45	DA	113	50	Fra	305
-12/1/2010 8:45	Ds	114	25	Fra	305
-12/1/2010 8:45	Da_Ds	120	97	Fra	305
-12/1/2010 8:45	DA	113	45	Fra	305
-12/1/2010 8:45	BI_consultant	117	50	Fra	305
-12/1/2010 8:45	BI_consultant	117	50	Fra	305
-12/1/2010 8:45	Ds	114	30	Fra	305
-12/1/2010 8:45	DA	113	45	Fra	305
-12/1/2010 9:00	Ds	114	65	Fra	305
-12/1/2010 9:01	BI_consultant	117	50	Fra	305
-12/1/2010 9:01	DA	113	40	Neth	308
-12/1/2010 9:02	BI_consultant	117	40	Neth	308
-12/1/2010 9:02	BI_consultant	117	30	Neth	308
-12/1/2010 9:02	BI_consultant	117	60	Neth	308
-12/1/2010 9:02	DA	113	75	Neth	308
-12/1/2010 9:02	Marketing_DA	110	40	Neth	308
-12/1/2010 9:02	DA_Excel	121	60	Neth	308
-12/1/2010 9:02	Ds	114	75	Neth	308
-12/1/2010 9:02	Ds	114	50	Neth	308
-12/1/2010 9:02	DA	113	30	Neth	308
-12/1/2010 9:02	Ds	114	30	Neth	308
-12/1/2010 9:02	BI_consultant	117	40	Neth	308
-12/1/2010 9:02	BI_consultant	117	100	Neth	308
-12/1/2010 9:02	BI_consultant	117	50	Neth	308
-12/1/2010 9:02	BI_consultant	117	50	Neth	308
-12/1/2010 9:02	BI_consultant	117	50	Neth	308
-12/1/2010 9:02	BI_consultant	117	25	Neth	308
-12/1/2010 9:09	Ds	114	80	Neth	308
-12/1/2010 9:32	Ds	114	80	Neth	308
-12/1/2010 9:32	DA	113	85	Neth	308
-12/1/2010 9:32	BI_consultant	117	150	Neth	308
-12/1/2010 9:32	DA	113	35	Neth	308
-12/1/2010 9:32	Ds	114	45	Neth	308
-12/1/2010 9:32	Py_DA	109	45	Neth	308
-12/1/2010 9:32	DA	113	35	Neth	308
-12/1/2010 9:32	DA_Architect	123	125	Luxembourg	310
-12/1/2010 9:32	DA	113	49	Luxembourg	310
-12/1/2010 9:32	DA	113	49	Luxembourg	310
-12/1/2010 9:32	BI_Consultant	117	80	Luxembourg	310
-12/1/2010 9:32	BI_Consultant	117	80	Luxembourg	310
-12/1/2010 9:32	DA	113	50	Luxembourg	310
-12/1/2010 9:32	PY_DA	109	35	Luxembourg	310
-12/1/2010 9:32	DA_Scraping	108	35	Luxembourg	310
-12/1/2010 9:32	DA	113	45	Luxembourg	310
-12/1/2010 9:32	BI_Consultant	117	75	Luxembourg	310
-12/1/2010 9:32	DV	115	35	Romania	315
-12/1/2010 9:34	BI_consultant	117	42	Romania	315
-12/1/2010 9:34	DA	113	45	Romania	315
-12/1/2010 9:37	DA	113	30	Romania	315
-12/1/2010 9:37	Ds	114	40	Romania	315
-12/1/2010 9:37	Py_DA	109	35	Romania	315
-12/1/2010 9:37	DV	115	55	Romania	315
-12/1/2010 9:37	BI_consultant	117	65	Romania	315
-12/1/2010 9:37	Ds	114	45	Romania	315
-12/1/2010 9:37	BI_consultant	117	39	Romania	315
-12/1/2010 9:37	Ds	114	60	Romania	315
-12/1/2010 9:37	BI_consultant	117	65	Romania	315
-12/1/2010 9:37	DA	113	30	Romania	315
-12/1/2010 9:37	DA	113	30	Romania	315
-12/1/2010 9:37	Da	113	35	Romania	315
-12/1/2010 9:37	BI_consultant	117	60	Australia	320
-12/1/2010 9:37	DA	113	40	Australia	320
-12/1/2010 9:37	Ds	114	60	Australia	320
-12/1/2010 9:37	BI_consultant	117	60	Australia	320
-12/1/2010 9:37	DA	113	45	Australia	320
-12/1/2010 9:37	Ds	114	60	Australia	320
-12/1/2010 9:37	BI_consultant	117	45	Australia	320
-12/1/2010 9:41	DA	113	45	Australia	320
-12/1/2010 9:41	BI_consultant	117	60	Australia	320
-12/1/2010 9:41	BI_consultant	117	55	Australia	320
-12/1/2010 9:41	BI_consultant	117	45	Australia	320
-12/1/2010 9:41	Ds	114	65	Australia	320
-12/1/2010 9:41	DV	115	40	Australia	320
-12/1/2010 9:41	DV	115	45	Australia	320
-12/1/2010 9:41	BI_consultant	117	50	Australia	320
-12/1/2010 9:41	BI_consultant	117	60	Australia	320
-12/1/2010 9:41	BI_consultant	117	120	Australia	320
-12/1/2010 9:41	DA	113	65	Australia	320
-12/1/2010 9:41	BI_consultant	117	120	Australia	320
-12/1/2010 9:41	FA_DA	124	55	Australia	320
-12/1/2010 9:41	DA	113	60	Australia	320
-12/1/2010 9:41	BI_consultant	117	65	Australia	320
-12/1/2010 9:41	Ds	114	100	Australia	320
-12/1/2010 9:41	BI_consultant	117	120	Australia	320
-12/1/2010 9:41	Dv	115	40	Australia	320
-12/1/2010 9:41	BI_consultant	117	55	Belgium	300
-12/1/2010 9:41	DV	115	45	Belgium	300
-12/1/2010 9:41	BI_consultant	117	50	Belgium	300
-12/1/2010 9:41	Ds	114	60	Belgium	300
-12/1/2010 9:41	Ds	114	120	Belgium	300
-12/1/2010 9:41	BA	101	80	Belgium	300
-12/1/2010 9:41	BI_consultant	117	80	Belgium	300
-12/1/2010 9:41	BI_consultant	117	55	Belgium	300
-12/1/2010 9:41	BI_DA	117	135	Belgium	300
-12/1/2010 9:41	BA	101	100	Belgium	300
-12/1/2010 9:41	DA	113	50	Belgium	300
-12/1/2010 9:41	BI_consultant	117	84	Belgium	300
-12/1/2010 9:41	Ds	114	45	Belgium	300
-12/1/2010 9:41	BI_consultant	117	60	Belgium	300
-12/1/2010 9:41	DA	113	55	Belgium	300
-12/1/2010 9:41	BA	101	40	Belgium	300
-12/1/2010 9:41	BI_DA	117	75	Belgium	300
-12/1/2010 9:41	DA	113	45	Belgium	300
-12/1/2010 9:41	DA	113	55	Belgium	300
-12/1/2010 9:45	DV	115	60	Belgium	300
-12/1/2010 9:45	DV	115	55	Belgium	300
-12/1/2010 9:45	BI_consultant	117	65	Belgium	300
-12/1/2010 9:45	BI_consultant	117	60	Belgium	300
-12/1/2010 9:45	BI_consultant	117	80	Belgium	300
-12/1/2010 9:45	BI_consultant	117	55	Belgium	300
-12/1/2010 9:45	BI_consultant	117	65	Belgium	300
+Date,Domain,Domain_code,Service_price,Country ,Country_code
+12/1/2010 8:26,BI_consultant,117,85,Ger,303
+12/1/2010 8:26,BI_consultant,117,119,Ger,303
+12/1/2010 8:26,Py_automation,101,30,Ger,303
+12/1/2010 8:26,Google_analytics,104,65,Ger,303
+12/1/2010 8:26,Excel_Expert,102,29,Ger,303
+12/1/2010 8:26,BI_VBA,103,30,Ger,303
+12/1/2010 8:26,Data_scraping,105,157,Ger,303
+12/1/2010 8:28,DA_Conversion_R,106,55,Ger,303
+12/1/2010 8:28,DA_PY_SQL_Dax,107,60,Ger,303
+12/1/2010 8:34,DA_Scraping,108,50,Ger,303
+12/1/2010 8:34,Py_DA,109,20,Ger,303
+12/1/2010 8:34,DA,113,50,Ger,303
+12/1/2010 8:34,BI_SQL_Py,117,30,Ger,303
+12/1/2010 8:34,DA,113,35,Ger,303
+12/1/2010 8:34,Marketing_DA,110,95,Ger,303
+12/1/2010 8:34,BI_Architect ,111,60,Ger,303
+12/1/2010 8:34,Py_ML,112,51,Ger,303
+12/1/2010 8:34,BI_SQL_Py,117,59,Ger,303
+12/1/2010 8:34,Py_Climate_DA,118,100,Ger,303
+12/1/2010 8:34,Py_automation,101,65,Ger,303
+12/1/2010 8:34,DA,113,40,Ger,303
+12/1/2010 8:34,BI_consultant,117,80,Ger,303
+12/1/2010 8:34,BI_Consultant,117,65,Ger,303
+12/1/2010 8:34,BI_consultant,117,80,Fra,305
+12/1/2010 8:34,DA_engineering,119,78,Fra,305
+12/1/2010 8:35,Ds,114,40,Fra,305
+12/1/2010 8:45,DA,113,59,Fra,305
+12/1/2010 8:45,DS,114,35,Fra,305
+12/1/2010 8:45,DA,113,40,Fra,305
+12/1/2010 8:45,DA,113,30,Fra,305
+12/1/2010 8:45,Ds,114,25,Fra,305
+12/1/2010 8:45,BI_consultant,117,100,Fra,305
+12/1/2010 8:45,DA,113,50,Fra,305
+12/1/2010 8:45,Py_DA,109,50,Fra,305
+12/1/2010 8:45,BI_consultant,117,20,Fra,305
+12/1/2010 8:45,BI_consultant,117,50,Fra,305
+12/1/2010 8:45,BI_consultant,117,30,Fra,305
+12/1/2010 8:45,Py_DA,109,37,Fra,305
+12/1/2010 8:45,DA,113,50,Fra,305
+12/1/2010 8:45,Ds,114,25,Fra,305
+12/1/2010 8:45,Da_Ds,120,97,Fra,305
+12/1/2010 8:45,DA,113,45,Fra,305
+12/1/2010 8:45,BI_consultant,117,50,Fra,305
+12/1/2010 8:45,BI_consultant,117,50,Fra,305
+12/1/2010 8:45,Ds,114,30,Fra,305
+12/1/2010 8:45,DA,113,45,Fra,305
+12/1/2010 9:00,Ds,114,65,Fra,305
+12/1/2010 9:01,BI_consultant,117,50,Fra,305
+12/1/2010 9:01,DA,113,40,Neth,308
+12/1/2010 9:02,BI_consultant,117,40,Neth,308
+12/1/2010 9:02,BI_consultant,117,30,Neth,308
+12/1/2010 9:02,BI_consultant,117,60,Neth,308
+12/1/2010 9:02,DA,113,75,Neth,308
+12/1/2010 9:02,Marketing_DA,110,40,Neth,308
+12/1/2010 9:02,DA_Excel,121,60,Neth,308
+12/1/2010 9:02,Ds,114,75,Neth,308
+12/1/2010 9:02,Ds,114,50,Neth,308
+12/1/2010 9:02,DA,113,30,Neth,308
+12/1/2010 9:02,Ds,114,30,Neth,308
+12/1/2010 9:02,BI_consultant,117,40,Neth,308
+12/1/2010 9:02,BI_consultant,117,100,Neth,308
+12/1/2010 9:02,BI_consultant,117,50,Neth,308
+12/1/2010 9:02,BI_consultant,117,50,Neth,308
+12/1/2010 9:02,BI_consultant,117,50,Neth,308
+12/1/2010 9:02,BI_consultant,117,25,Neth,308
+12/1/2010 9:09,Ds,114,80,Neth,308
+12/1/2010 9:32,Ds,114,80,Neth,308
+12/1/2010 9:32,DA,113,85,Neth,308
+12/1/2010 9:32,BI_consultant,117,150,Neth,308
+12/1/2010 9:32,DA,113,35,Neth,308
+12/1/2010 9:32,Ds,114,45,Neth,308
+12/1/2010 9:32,Py_DA,109,45,Neth,308
+12/1/2010 9:32,DA,113,35,Neth,308
+12/1/2010 9:32,DA_Architect,123,125,Luxembourg,310
+12/1/2010 9:32,DA,113,49,Luxembourg,310
+12/1/2010 9:32,DA,113,49,Luxembourg,310
+12/1/2010 9:32,BI_Consultant,117,80,Luxembourg,310
+12/1/2010 9:32,BI_Consultant,117,80,Luxembourg,310
+12/1/2010 9:32,DA,113,50,Luxembourg,310
+12/1/2010 9:32,PY_DA,109,35,Luxembourg,310
+12/1/2010 9:32,DA_Scraping,108,35,Luxembourg,310
+12/1/2010 9:32,DA,113,45,Luxembourg,310
+12/1/2010 9:32,BI_Consultant,117,75,Luxembourg,310
+12/1/2010 9:32,DV,115,35,Romania,315
+12/1/2010 9:34,BI_consultant,117,42,Romania,315
+12/1/2010 9:34,DA,113,45,Romania,315
+12/1/2010 9:37,DA,113,30,Romania,315
+12/1/2010 9:37,Ds,114,40,Romania,315
+12/1/2010 9:37,Py_DA,109,35,Romania,315
+12/1/2010 9:37,DV,115,55,Romania,315
+12/1/2010 9:37,BI_consultant,117,65,Romania,315
+12/1/2010 9:37,Ds,114,45,Romania,315
+12/1/2010 9:37,BI_consultant,117,39,Romania,315
+12/1/2010 9:37,Ds,114,60,Romania,315
+12/1/2010 9:37,BI_consultant,117,65,Romania,315
+12/1/2010 9:37,DA,113,30,Romania,315
+12/1/2010 9:37,DA,113,30,Romania,315
+12/1/2010 9:37,Da,113,35,Romania,315
+12/1/2010 9:37,BI_consultant,117,60,Australia,320
+12/1/2010 9:37,DA,113,40,Australia,320
+12/1/2010 9:37,Ds,114,60,Australia,320
+12/1/2010 9:37,BI_consultant,117,60,Australia,320
+12/1/2010 9:37,DA,113,45,Australia,320
+12/1/2010 9:37,Ds,114,60,Australia,320
+12/1/2010 9:37,BI_consultant,117,45,Australia,320
+12/1/2010 9:41,DA,113,45,Australia,320
+12/1/2010 9:41,BI_consultant,117,60,Australia,320
+12/1/2010 9:41,BI_consultant,117,55,Australia,320
+12/1/2010 9:41,BI_consultant,117,45,Australia,320
+12/1/2010 9:41,Ds,114,65,Australia,320
+12/1/2010 9:41,DV,115,40,Australia,320
+12/1/2010 9:41,DV,115,45,Australia,320
+12/1/2010 9:41,BI_consultant,117,50,Australia,320
+12/1/2010 9:41,BI_consultant,117,60,Australia,320
+12/1/2010 9:41,BI_consultant,117,120,Australia,320
+12/1/2010 9:41,DA,113,65,Australia,320
+12/1/2010 9:41,BI_consultant,117,120,Australia,320
+12/1/2010 9:41,FA_DA,124,55,Australia,320
+12/1/2010 9:41,DA,113,60,Australia,320
+12/1/2010 9:41,BI_consultant,117,65,Australia,320
+12/1/2010 9:41,Ds,114,100,Australia,320
+12/1/2010 9:41,BI_consultant,117,120,Australia,320
+12/1/2010 9:41,Dv,115,40,Australia,320
+12/1/2010 9:41,BI_consultant,117,55,Belgium,300
+12/1/2010 9:41,DV,115,45,Belgium,300
+12/1/2010 9:41,BI_consultant,117,50,Belgium,300
+12/1/2010 9:41,Ds,114,60,Belgium,300
+12/1/2010 9:41,Ds,114,120,Belgium,300
+12/1/2010 9:41,BA,101,80,Belgium,300
+12/1/2010 9:41,BI_consultant,117,80,Belgium,300
+12/1/2010 9:41,BI_consultant,117,55,Belgium,300
+12/1/2010 9:41,BI_DA,117,135,Belgium,300
+12/1/2010 9:41,BA,101,100,Belgium,300
+12/1/2010 9:41,DA,113,50,Belgium,300
+12/1/2010 9:41,BI_consultant,117,84,Belgium,300
+12/1/2010 9:41,Ds,114,45,Belgium,300
+12/1/2010 9:41,BI_consultant,117,60,Belgium,300
+12/1/2010 9:41,DA,113,55,Belgium,300
+12/1/2010 9:41,BA,101,40,Belgium,300
+12/1/2010 9:41,BI_DA,117,75,Belgium,300
+12/1/2010 9:41,DA,113,45,Belgium,300
+12/1/2010 9:41,DA,113,55,Belgium,300
+12/1/2010 9:45,DV,115,60,Belgium,300
+12/1/2010 9:45,DV,115,55,Belgium,300
+12/1/2010 9:45,BI_consultant,117,65,Belgium,300
+12/1/2010 9:45,BI_consultant,117,60,Belgium,300
+12/1/2010 9:45,BI_consultant,117,80,Belgium,300
+12/1/2010 9:45,BI_consultant,117,55,Belgium,300
+12/1/2010 9:45,BI_consultant,117,65,Belgium,300
