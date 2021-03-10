@@ -1,6 +1,6 @@
 Domain	Domain_code	Service_price	Country 	Country_code
-BI_SQL_Py	117	85	Ger	303
-BI_SQL_Py	117	119	Ger	303
+BI_consultant	117	85	Ger	303
+BI_consultant	117	119	Ger	303
 Py_automation	101	30	Ger	303
 Google_analytics	104	65	Ger	303
 Excel_Expert	102	29	Ger	303
@@ -80,7 +80,7 @@ BI_Consultant	117	80	Luxembourg	310
 DA	113	50	Luxembourg	310
 PY_DA	109	35	Luxembourg	310
 DA_Scraping	108	35	Luxembourg	310
-Da	113	45	Luxembourg	310
+DA	113	45	Luxembourg	310
 BI_Consultant	117	75	Luxembourg	310
 DV	115	35	Romania	315
 BI_consultant	117	42	Romania	315
