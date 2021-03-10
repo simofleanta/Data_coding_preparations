@@ -74,6 +74,8 @@ grouping=cohort.groupby('CustomerID')['InvoiceMonth']
 cohort['CohortMonth']=grouping.transform('min')
 
 print(cohort.tail())
+print(cohort.to_csv('o.csv'))
+
 
 #extract days, months
 
