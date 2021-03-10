@@ -86,7 +86,7 @@ cohort_data = grouping['Country_code'].apply(pd.Series.nunique)
 
 #return number of unique vals
 cohort_data = cohort_data.reset_index()
-cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Client_Count')
+cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Country_code')
 print(cohort_counts)
 
 
@@ -105,9 +105,9 @@ plt.show()
 
 
 grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
-cohort_data = grouping['Out_px'].mean()
+cohort_data = grouping['Service_price'].mean()
 cohort_data=cohort_data.reset_index()
-avg_q=cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Out_px')
+avg_q=cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Service_price')
 avg_q.round(2)
 avg_q.index=avg_q.index.date
 
