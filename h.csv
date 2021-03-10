@@ -5,7 +5,7 @@ Date,Domain,Domain_code,Service_price,Country ,Country_code
 6/6/2018,Google_analytics,104,65,Ger,303
 6/6/2018,Excel_Expert,102,29,Ger,303
 6/6/2018,BI_VBA,103,30,Ger,303
-6/6/2018,DAta_scraping,105,157,Ger,303
+6/6/2018,DA,105,157,Ger,303
 6/7/2018,DA_Conversion_R,106,55,Ger,303
 6/7/2018,BI_consultant,107,60,Ger,303
 7/7/2018,DA_Scraping,108,50,Ger,303
@@ -17,7 +17,7 @@ Date,Domain,Domain_code,Service_price,Country ,Country_code
 7/8/2018,BI_Architect ,111,60,Ger,303
 7/8/2018,Py_ML,112,51,Ger,303
 7/8/2018,BI_SQL_Py,117,59,Ger,303
-7/8/2018,Py_Climate_DA,118,100,Ger,303
+7/8/2018,Data_Science,118,100,Ger,303
 8/8/2018,Py_automation,101,65,Ger,303
 8/8/2018,DA,113,40,Ger,303
 8/8/2018,BI_consultant,117,80,Ger,303
