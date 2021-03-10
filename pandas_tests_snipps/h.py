@@ -143,13 +143,21 @@ plt.title('Domain distrib on monthly cohorts')
 sns.heatmap(data=domain, annot=True, fmt='.1f',vmin='0.0', vmax=20, linewidth = 1.7, cmap='Blues')
 plt.show()"""
 
+"""x=['Domain', 'Service_price']
+cm=sns.light_palette("green", as_cmap=True)
+(pd.crosstab(cohort[cohort.Domain[0]], cohort[cohort.Service_price], values=cohort['Service_price'], aggfunc='mean')).style.background_gradient(cmap=cm)
+plt.show()"""
+
 
 ####################################################################
 
+table=pd.crosstab(cohort['Domain'], cohort['Service_price'])
+
+#How many bi?
 
 
 
-x=['Domain', 'Service_price']
-cm=sns.light_palette("green", as_cmap=True)
-(pd.crosstab(cohort[cohort.Domain[0]], cohort[cohort.Service_price], values=cohort['Service_price'], aggfunc='mean')).style.background_gradient(cmap=cm)
-plt.show()
+
+
+
+
