@@ -64,8 +64,8 @@ Year=cohort['Date'].dt.year
 
 #subsetting 
 cohort['Year']=cohort['Date'].dt.year
-cohort['Month']=cohort['Date'].dt.month_name()
-cohort['Day']=cohort['Date'].dt.day_name()
+cohort['Month']=cohort['Date'].dt.month
+cohort['Day']=cohort['Date'].dt.day
 #print(cohort)
 
 
