@@ -14,6 +14,7 @@ import stats
 import matplotlib.pyplot as plt 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.cluster import KMeans
 from sklearn.metrics import r2_score
 import plotly.express as px
 import datetime
@@ -24,9 +25,6 @@ import time
 c='Mall_Customers.csv'
 cohort=pd.read_csv(c, encoding=('ISO-8859-1'), low_memory=False)
 #print(cohort)
-
-
-
 
 
 # distribution bar
