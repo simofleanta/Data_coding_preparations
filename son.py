@@ -68,6 +68,7 @@ cohort['Month']=cohort['Date'].dt.month
 cohort['Day']=cohort['Date'].dt.day
 #print(cohort)
 
+"""
 
 # Problems_solved distribution
 
@@ -87,7 +88,7 @@ print(x.shape)
 
 from sklearn.cluster import KMeans
 
-"""wcss = []
+wcss = []
 for i in range(1, 11):
     km = KMeans(n_clusters = i, init = 'k-means++', max_iter = 300, n_init = 10, random_state = 0)
     km.fit(x)
@@ -97,7 +98,7 @@ plt.plot(range(1, 11), wcss)
 plt.title('The Elbow Method', fontsize = 20)
 plt.xlabel('No. of Clusters')
 plt.ylabel('wcss')
-plt.show()"""
+plt.show()
 
 
 km = KMeans(n_clusters = 5, init = 'k-means++', max_iter = 300, n_init = 10, random_state = 0)
@@ -117,7 +118,7 @@ plt.ylabel('Problems_solved')
 plt.legend()
 plt.grid()
 plt.show()
-
+"""
 
 
 
