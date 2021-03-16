@@ -1,4 +1,4 @@
-CustomerID,GenCountryder,Service_price,Annual Income (k$),Spending_patt
+CustomerID,Domain,Service_price,Annual Income (k$),Spending_patt
 1,BI_consultant,85,15,39
 2,BI_consultant,119,15,81
 3,Py_automation,30,16,6
