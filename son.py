@@ -54,100 +54,21 @@ cohort['Date']=pd.to_datetime(cohort['Date'], infer_datetime_format=True)
 indexeddf=cohort.set_index(['Date'])
 #print(indexeddf)
 
-"""
+
 #parsing to time format and extracting dates with 'created_at'
-x=cohort['InvoiceDate']=pd.to_datetime(cohort['InvoiceDate'], format='%y-%m-%d')
+x=cohort['Date']=pd.to_datetime(cohort['Date'], format='%y-%m-%d')
 
-Day=cohort['InvoiceDate'].dt.day_name()
-Month=cohort['InvoiceDate'].dt.month
-Year=cohort['InvoiceDate'].dt.year"""
+Day=cohort['Date'].dt.day_name()
+Month=cohort['Date'].dt.month
+Year=cohort['Date'].dt.year
 
-
-# cohort analysis start
-
-#create cohort month 
-def get_month(x):
-    return dt.datetime (x.year, x.month, 1)
-
-cohort['T_Month']=cohort['Date'].apply(get_month)
-grouping=cohort.groupby('ID')['T_Month']
-cohort['T_Month']=grouping.transform('min')
-
-print(cohort.tail())
-print(cohort.to_csv('t.csv'))
+#subsetting 
+cohort['Year']=cohort['Date'].dt.year
+cohort['Month']=cohort['Date'].dt.month_name()
+cohort['Day']=cohort['Date'].dt.day_name()
+print(cohort)
 
 
-#extract days, months
-
-def get_month_int(cohortframe, column):
-    year=cohortframe[column].dt.year
-    month=cohortframe[column].dt.month
-    day=cohortframe[column].dt.day
-    return year, month, day
-#call function 
-t_year, t_month,_=get_month_int(cohort,'T_Month')
-cohort_year, cohort_month,_=get_month_int(cohort, 'T_Month')
-
-#create year an month diffs
-year_diff=t_year-cohort_year
-month_diff=t_month-cohort_month
-
-#create cohortindex
-cohort['CohortIndex']=year_diff * 12 + month_diff +1
-
-#count monthly active clients from month cohorts
-
-grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
-cohort_data = grouping['CustomerID'].apply(pd.Series.nunique)
-
-
-#return number of unique vals
-cohort_data = cohort_data.reset_index()
-cohort_counts = cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='CustomerID')
-print(cohort_counts)
-
-
-#build retention table
-
-cohort_size=cohort_counts.iloc[:,0]
-retention=cohort_counts.divide(cohort_size, axis=0) 
-retention.round(3) *100
-print(retention)
-
-plt.figure(figsize=(15,7))
-plt.title('Retention levels on monthly cohorts')
-sns.heatmap(data=retention, annot=True, fmt='.0%', vmin=0.0, vmax=0.5, cmap='Blues')
-plt.show()
-
-#mean quantity on cohorts
-
-grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
-cohort_data = grouping['Quantity'].mean()
-cohort_data=cohort_data.reset_index()
-avg_q=cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='Quantity')
-avg_q.round(1)
-avg_q.index=avg_q.index.date
-
-plt.figure(figsize=(15,7))
-plt.title('Avg_q on monthly cohorts')
-sns.heatmap(data=avg_q, annot=True, vmin=0.0, vmax=20, cmap='YlOrRd')
-plt.show()
-
-#########################################################################
-
-#mean quantity on cohorts
-
-grouping = cohort.groupby(['CohortMonth', 'CohortIndex'])
-cohort_data = grouping['UnitPrice'].mean()
-cohort_data=cohort_data.reset_index()
-avg_q=cohort_data.pivot(index='CohortMonth', columns='CohortIndex', values='UnitPrice')
-avg_q.round(1)
-avg_q.index=avg_q.index.date
-
-plt.figure(figsize=(15,7))
-plt.title('UnitPrice on monthly cohorts')
-sns.heatmap(data=avg_q, annot=True, vmin=0.0, vmax=20, cmap='PiYG')
-plt.show()
 
 
 
