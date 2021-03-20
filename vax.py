@@ -111,4 +111,13 @@ sns.heatmap(data=avg_q, annot=True, vmin=0.0,  fmt = '.1f', vmax=20, cmap='Blues
 plt.show()
 
 
+###########################################################################################
+
+#Crosstabing 
+
+
+
+
+
+
 
