@@ -58,10 +58,33 @@ def get_month(x):
     return dt.datetime(x.year,x.month,1)
 
 ## Create ClientMonth column
-vax['ClientMonth'] = vax['date'].apply(get_month)
+vax['VaxedMonth'] = vax['date'].apply(get_month)
 
 # Group by client_id and select the ClientMonth value
-grouping = vax.groupby('iso_code')['ClientMonth']
+grouping = vax.groupby('iso_code')['VaxedMonth']
 
 ## Assign a minimum ClientMonth value to the dataset
-vax['CohortMonth'] = grouping.transform('min')
+vax['VaxedMonth'] = grouping.transform('min')
+
+# calculate time offsets
+
+def get_date_int(df, column):
+    year = df[column].dt.year
+    month = df[column].dt.month
+    return year, month
+
+# Get the integers for date parts from the `ClientMonth` column
+vaxed_year, vaxed_month = get_date_int(vax,'VaxedMonth')
+
+# Get the integers for date parts from the `CohortMonth` column
+cohort_year, cohort_month = get_date_int(vax,'VaxedMonth')
+
+# Calculate difference in years
+years_diff = vaxed_year - cohort_year
+
+# Calculate difference in months
+months_diff = vaxed_month - cohort_month
+
+# Extract the difference in months from all previous values
+vax['CohortIndex'] = years_diff * 12 + months_diff + 1
+print(vax)
