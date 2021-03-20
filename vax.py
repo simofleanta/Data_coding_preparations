@@ -61,31 +61,56 @@ def get_month(x):
 vax['VaxedMonth'] = vax['date'].apply(get_month)
 
 # Group by client_id and select the ClientMonth value
-grouping = vax.groupby('iso_code')['VaxedMonth']
+grouping = vax.groupby('daily_vaccinations')['VaxedMonth']
 
 ## Assign a minimum ClientMonth value to the dataset
 vax['VaxedMonth'] = grouping.transform('min')
 
 # calculate time offsets
 
-def get_date_int(df, column):
-    year = df[column].dt.year
-    month = df[column].dt.month
-    
-    return year, month
+def get_month_int(cohortframe, column):
+    year=cohortframe[column].dt.year
+    month=cohortframe[column].dt.month
+    day=cohortframe[column].dt.day
+    return year, month, day
 
-# Get the integers for date parts from the `ClientMonth` column
-vaxed_year, vaxed_month = get_date_int(vax,'VaxedMonth')
 
-# Get the integers for date parts from the `CohortMonth` column
-cohort_year, cohort_month = get_date_int(vax,'VaxedMonth')
+#call function 
+vaxed_year, vaxed_month,_=get_month_int(vax,'VaxedMonth')
+cohort_year, cohort_month,_=get_month_int(vax, 'VaxedMonth')
 
-# Calculate difference in years
-years_diff = vaxed_year - cohort_year
+#create year an month diffs
+year_diff=vaxed_year-cohort_year
+month_diff=vaxed_month-cohort_month
 
-# Calculate difference in months
-months_diff = vaxed_month - cohort_month
+#create cohortindex
+vax['CohortIndex']=year_diff * 12 + month_diff +1
 
-# Extract the difference in months from all previous values
-vax['CohortIndex'] = years_diff * 12 + months_diff + 1
-print(vax)
+#count monthly active clients from month cohorts
+
+grouping = vax.groupby(['VaxedMonth', 'CohortIndex'])
+cohort_data = grouping['daily_vaccinations'].apply(pd.Series.nunique)
+
+#return number of unique vals
+cohort_data = cohort_data.reset_index()
+cohort_counts = cohort_data.pivot(index='VaxedMonth', columns='CohortIndex', values='daily_vaccinations')
+print(cohort_counts)
+
+#mean quantity on cohorts
+
+grouping = vax.groupby(['VaxedMonth', 'CohortIndex'])
+cohort_data = grouping['people_fully_vaccinated'].mean()
+cohort_data=cohort_data.reset_index()
+avg_q=cohort_data.pivot(index='VaxedMonth', columns='CohortIndex', values='people_fully_vaccinated')
+avg_q.round(1)
+avg_q.index=avg_q.index.date
+
+plt.figure(figsize=(15,7))
+plt.title('people_fully_vaccinated on monthly cohorts')
+sns.heatmap(data=avg_q, annot=True, vmin=0.0, vmax=20, cmap='YlOrRd')
+plt.show()
+
+
+
+
+
