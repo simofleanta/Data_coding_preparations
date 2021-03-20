@@ -20,6 +20,7 @@ import datetime
 import datetime as dt
 import time
 
+#ein impfstoff aber, hat keiner Nationalität 
 
 # Supress Scientific notation in python
 pd.set_option('display.float_format', lambda x: '%.2f' % x)
@@ -27,10 +28,13 @@ pd.set_option('display.float_format', lambda x: '%.2f' % x)
 # Display all columns of long dataframe
 pd.set_option('display.max_columns', None)
 
-
 # open cohort
 
 vax_path='vaccinations.csv'
 vax=pd.read_csv(vax_path)
-print(vax)
+#print(vax)
 
+#parse index
+vax['date']=pd.to_datetime(vax['date'], infer_datetime_format=True)
+indexeddf=vax.set_index(['date'])
+#print(indexeddf)
