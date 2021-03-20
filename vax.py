@@ -71,6 +71,7 @@ vax['VaxedMonth'] = grouping.transform('min')
 def get_date_int(df, column):
     year = df[column].dt.year
     month = df[column].dt.month
+    
     return year, month
 
 # Get the integers for date parts from the `ClientMonth` column
