@@ -54,17 +54,14 @@ print(vax)
 
 ##################################
 
+#create cohort month 
 def get_month(x):
-    return dt.datetime(x.year,x.month,1)
+    return dt.datetime (x.year, x.month, 1)
 
-## Create ClientMonth column
-vax['VaxedMonth'] = vax['date'].apply(get_month)
+vax['VaxedMonth']=vax['date'].apply(get_month)
+grouping=vax.groupby('daily_vaccinations')['VaxedMonth']
+vax['CohortMonth']=grouping.transform('min')
 
-# Group by client_id and select the ClientMonth value
-grouping = vax.groupby('daily_vaccinations')['VaxedMonth']
-
-## Assign a minimum ClientMonth value to the dataset
-vax['VaxedMonth'] = grouping.transform('min')
 
 # calculate time offsets
 
@@ -77,7 +74,7 @@ def get_month_int(cohortframe, column):
 
 #call function 
 vaxed_year, vaxed_month,_=get_month_int(vax,'VaxedMonth')
-cohort_year, cohort_month,_=get_month_int(vax, 'VaxedMonth')
+cohort_year, cohort_month,_=get_month_int(vax, 'CohortMonth')
 
 #create year an month diffs
 year_diff=vaxed_year-cohort_year
@@ -96,6 +93,21 @@ cohort_data = cohort_data.reset_index()
 cohort_counts = cohort_data.pivot(index='VaxedMonth', columns='CohortIndex', values='daily_vaccinations')
 print(cohort_counts)
 
+
+#build retention table
+
+cohort_size=cohort_counts.iloc[:,0]
+retention=cohort_counts.divide(cohort_size, axis=0) 
+retention.round(3) *100
+print(retention)
+
+plt.figure(figsize=(15,7))
+plt.title('Retention levels on monthly cohorts')
+sns.heatmap(data=retention, annot=True, fmt='.0%', vmin=0.0, vmax=0.5, cmap='Blues')
+plt.show()
+
+
+
 #mean quantity on cohorts
 
 grouping = vax.groupby(['VaxedMonth', 'CohortIndex'])
@@ -109,8 +121,6 @@ plt.figure(figsize=(15,7))
 plt.title('people_fully_vaccinated on monthly cohorts')
 sns.heatmap(data=avg_q, annot=True, vmin=0.0, vmax=20, cmap='YlOrRd')
 plt.show()
-
-
 
 
 
