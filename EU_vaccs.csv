@@ -1,0 +1,375 @@
+country,iso_code,date,total_vaccinations,people_vaccinated,people_fully_vaccinated,daily_vaccinations_raw,daily_vaccinations,total_vaccinations_per_hundred,people_vaccinated_per_hundred,people_fully_vaccinated_per_hundred,daily_vaccinations_per_million,vaccines,source_name
+Romania,ROU,12/27/2020,965,965,0,0,0,0.01,0.01,0,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,12/28/2020,2066,2066,0,1101,1101,0.01,0.01,0,57,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,12/29/2020,2778,2778,0,712,906,0.01,0.01,0,47,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,12/30/2020,5666,5666,0,2888,1567,0.03,0.03,0,81,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,12/31/2020,10289,10289,0,4623,2331,0.05,0.05,0,121,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/1/2021,11656,11656,0,1367,2138,0.06,0.06,0,111,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/2/2021,13242,13242,0,1586,2046,0.07,0.07,0,106,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/3/2021,13596,13596,0,354,1804,0.07,0.07,0,94,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/4/2021,25508,25508,0,11912,3349,0.13,0.13,0,174,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/5/2021,41609,41609,0,16101,5547,0.22,0.22,0,288,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/6/2021,58554,58554,0,16945,7555,0.3,0.3,0,393,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/7/2021,76400,76400,0,17846,9444,0.4,0.4,0,491,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/8/2021,92706,92706,0,16306,11579,0.48,0.48,0,602,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/9/2021,102301,102301,0,9595,12723,0.53,0.53,0,661,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/10/2021,108294,108294,0,5993,13528,0.56,0.56,0,703,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/11/2021,125190,125190,0,16896,14240,0.65,0.65,0,740,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/12/2021,140447,140447,0,15257,14120,0.73,0.73,0,734,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/13/2021,154268,154268,0,13821,13673,0.8,0.8,0,711,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/14/2021,154268,154268,0,0,11124,0.8,0.8,0,578,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/15/2021,183669,183669,0,29401,12995,0.95,0.95,0,675,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/16/2021,196090,196090,0,12421,13398,1.02,1.02,0,696,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/17/2021,204185,203310,875,8095,13699,1.06,1.06,0,712,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/18/2021,235239,233289,1950,31054,15721,1.22,1.21,0.01,817,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/19/2021,270046,267425,2621,34807,18514,1.4,1.39,0.01,962,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/20/2021,308384,302571,5813,38338,22017,1.6,1.57,0.03,1144,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/21/2021,348096,338253,9843,39712,27690,1.81,1.76,0.05,1439,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/22/2021,385936,374682,11254,37840,28895,2.01,1.95,0.06,1502,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/23/2021,418885,406007,12878,32949,31828,2.18,2.11,0.07,1654,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/24/2021,446285,433130,13155,27400,34586,2.32,2.25,0.07,1798,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/25/2021,484631,459568,25063,38346,35627,2.52,2.39,0.13,1852,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/26/2021,528378,487712,40666,43747,36905,2.75,2.54,0.21,1918,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/27/2021,570704,513430,57274,42326,37474,2.97,2.67,0.3,1948,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/28/2021,609396,534347,75049,38692,37329,3.17,2.78,0.39,1940,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/29/2021,647000,554925,92075,37604,37295,3.36,2.88,0.48,1939,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/30/2021,672396,571092,101304,25396,36216,3.5,2.97,0.53,1883,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,1/31/2021,691415,585219,106196,19019,35019,3.59,3.04,0.55,1820,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/1/2021,721184,598136,123048,29769,33793,3.75,3.11,0.64,1757,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/2/2021,748732,610384,138348,27548,31479,3.89,3.17,0.72,1636,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/3/2021,772202,620177,152025,23470,28785,4.01,3.22,0.79,1496,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/4/2021,794795,629280,165515,22593,26486,4.13,3.27,0.86,1377,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/5/2021,821552,638887,182665,26757,24936,4.27,3.32,0.95,1296,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/6/2021,840812,647691,193121,19260,24059,4.37,3.37,1,1251,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/7/2021,856322,656178,200144,15510,23558,4.45,3.41,1.04,1225,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/8/2021,891348,661063,230285,35026,24309,4.63,3.44,1.2,1264,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/9/2021,930155,666943,263212,38807,25918,4.84,3.47,1.37,1347,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/10/2021,970967,671449,299518,40812,28395,5.05,3.49,1.56,1476,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/11/2021,1009421,675234,334187,38454,30661,5.25,3.51,1.74,1594,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/12/2021,1048797,679333,369464,39376,32464,5.45,3.53,1.92,1688,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/13/2021,1084096,683347,400749,35299,34755,5.64,3.55,2.08,1807,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/14/2021,1113975,686635,427340,29879,36808,5.79,3.57,2.22,1913,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/15/2021,1151112,696944,454168,37137,37109,5.98,3.62,2.36,1929,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/16/2021,1197089,715749,481340,45977,38133,6.22,3.72,2.5,1982,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/17/2021,1240408,734929,505479,43319,38492,6.45,3.82,2.63,2001,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/18/2021,1280228,753753,526475,39820,38687,6.65,3.92,2.74,2011,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/19/2021,1318355,771240,547115,38127,38508,6.85,4.01,2.84,2002,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/20/2021,1351279,788508,562771,32924,38169,7.02,4.1,2.93,1984,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/21/2021,1379223,803098,576125,27944,37893,7.17,4.17,2.99,1970,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/22/2021,1409087,819447,589640,29864,36854,7.32,4.26,3.07,1916,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/23/2021,1438432,836860,601572,29345,34478,7.48,4.35,3.13,1792,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/24/2021,1466649,855097,611552,28217,32320,7.62,4.44,3.18,1680,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/25/2021,1486907,872361,614546,20258,29526,7.73,4.53,3.19,1535,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/26/2021,1506032,890068,615964,19125,26811,7.83,4.63,3.2,1394,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/27/2021,1521736,905142,616594,15704,24351,7.91,4.71,3.21,1266,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,2/28/2021,1532872,915761,617111,11136,21950,7.97,4.76,3.21,1141,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/1/2021,1565021,946781,618240,32149,22276,8.14,4.92,3.21,1158,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/2/2021,1603179,983997,619182,38158,23535,8.33,5.11,3.22,1223,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/3/2021,1641874,1022066,619808,38695,25032,8.53,5.31,3.22,1301,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/4/2021,1685611,1058452,627159,43737,28386,8.76,5.5,3.26,1476,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/5/2021,1732964,1096911,636053,47353,32419,9.01,5.7,3.31,1685,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/6/2021,1781602,1135895,645707,48638,37124,9.26,5.9,3.36,1930,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/7/2021,1826786,1173219,653567,45184,41988,9.5,6.1,3.4,2183,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/8/2021,1870244,1211503,658741,43458,43603,9.72,6.3,3.42,2267,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/9/2021,1918443,1253801,664642,48199,45038,9.97,6.52,3.45,2341,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/10/2021,1969846,1296161,673685,51403,46853,10.24,6.74,3.5,2435,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/11/2021,2019757,1335828,683929,49911,47735,10.5,6.94,3.56,2481,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/12/2021,2069143,1374595,694548,49386,48026,10.76,7.15,3.61,2496,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/13/2021,2117865,1412636,705229,48722,48038,11.01,7.34,3.67,2497,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/14/2021,2160564,1446358,714206,42699,47683,11.23,7.52,3.71,2479,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/15/2021,2210140,1486184,723956,49576,48557,11.49,7.73,3.76,2524,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+Romania,ROU,3/16/2021,2270124,1530483,739641,59984,50240,11.8,7.96,3.84,2612,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Romania
+France,FRA,12/27/2020,13,13,0,0,0,0,0,0,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,12/28/2020,52,52,0,39,39,0,0,0,1,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,12/29/2020,138,138,0,86,62,0,0,0,1,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,12/30/2020,237,237,0,99,75,0,0,0,1,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,12/31/2020,316,316,0,79,76,0,0,0,1,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/1/2021,325,325,0,9,62,0,0,0,1,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/2/2021,367,367,0,42,59,0,0,0,1,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/3/2021,441,441,0,74,61,0,0,0,1,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/4/2021,1800,1800,0,1359,250,0,0,0,4,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/5/2021,6744,6744,0,4944,944,0.01,0.01,0,14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/6/2021,17064,17064,0,10320,2404,0.03,0.03,0,35,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/7/2021,43282,43282,0,26218,6138,0.06,0.06,0,90,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/8/2021,76022,76022,0,32740,10814,0.11,0.11,0,159,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/9/2021,86315,86315,0,10293,12278,0.13,0.13,0,180,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/10/2021,91629,91629,0,5314,13027,0.13,0.13,0,191,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/11/2021,125412,125412,0,33783,17659,0.18,0.18,0,259,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/12/2021,179119,179119,0,53707,24625,0.26,0.26,0,361,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/13/2021,235786,235786,0,56667,31246,0.35,0.35,0,459,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/14/2021,306206,306206,0,70420,37561,0.45,0.45,0,551,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/15/2021,364846,364846,0,58640,41261,0.54,0.54,0,605,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/16/2021,382326,382326,0,17480,42287,0.56,0.56,0,621,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/17/2021,391910,391910,0,9584,42897,0.58,0.58,0,629,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/18/2021,468073,468073,0,76163,48952,0.69,0.69,0,718,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/19/2021,585735,585735,0,117662,58088,0.86,0.86,0,852,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/20/2021,708973,708973,0,123238,67598,1.04,1.04,0,992,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/21/2021,850380,850380,0,141407,77739,1.25,1.25,0,1141,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/22/2021,959716,959716,0,109336,84981,1.41,1.41,0,1247,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/23/2021,995147,995147,0,35431,87546,1.46,1.46,0,1285,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/24/2021,1003968,1003968,0,8821,87437,1.47,1.47,0,1283,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/25/2021,1075045,1075045,0,71077,86710,1.58,1.58,0,1272,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/26/2021,1171264,1165852,5412,96219,83647,1.72,1.71,0.01,1227,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/27/2021,1274711,1262972,11739,103447,80820,1.87,1.85,0.02,1186,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/28/2021,1396881,1372680,24201,122170,78072,2.05,2.01,0.04,1146,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/29/2021,1494643,1453325,41318,97762,76418,2.19,2.13,0.06,1121,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/30/2021,1525377,1479909,45468,30734,75747,2.24,2.17,0.07,1112,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,1/31/2021,1533630,1486493,47137,8253,75666,2.25,2.18,0.07,1110,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/1/2021,1609072,1541079,67993,75442,76290,2.36,2.26,0.1,1119,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/2/2021,1717385,1615088,102297,108313,78017,2.52,2.37,0.15,1145,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/3/2021,1825982,1687026,138956,108597,78753,2.68,2.48,0.2,1156,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/4/2021,1962126,1772602,189524,136144,80749,2.88,2.6,0.28,1185,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/5/2021,2077037,1843763,233274,114911,83199,3.05,2.71,0.34,1221,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/6/2021,2109641,1866091,243550,32604,83466,3.1,2.74,0.36,1225,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/7/2021,2120218,1871604,248614,10577,83798,3.11,2.75,0.36,1230,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/8/2021,2216826,1922706,294120,96608,86822,3.25,2.82,0.43,1274,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/9/2021,2356862,1990860,366002,140036,91354,3.46,2.92,0.54,1341,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/10/2021,2502935,2060675,442260,146073,96708,3.67,3.02,0.65,1419,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/11/2021,2686925,2146212,540713,183990,103543,3.94,3.15,0.79,1519,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/12/2021,2839817,2225321,614496,152892,108969,4.17,3.27,0.9,1599,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/13/2021,2883456,2249685,633771,43639,110545,4.23,3.3,0.93,1622,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/14/2021,2896472,2255597,640875,13016,110893,4.25,3.31,0.94,1627,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/15/2021,3014973,2298086,716887,118501,114021,4.42,3.37,1.05,1673,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/16/2021,3174936,2357946,816990,159963,116868,4.66,3.46,1.2,1715,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/17/2021,3329201,2409831,919370,154265,118038,4.89,3.54,1.35,1732,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/18/2021,3514014,2476748,1037266,184813,118156,5.16,3.63,1.52,1734,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/19/2021,3668121,2540702,1127419,154107,118329,5.38,3.73,1.65,1736,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/20/2021,3716619,2560982,1155637,48498,119023,5.45,3.76,1.7,1747,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/21/2021,3726513,2564530,1161983,9894,118577,5.47,3.76,1.71,1740,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/22/2021,3838375,2603702,1234673,111862,117629,5.63,3.82,1.81,1726,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/23/2021,3974739,2656447,1318292,136364,114258,5.83,3.9,1.93,1677,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/24/2021,4111784,2712800,1398984,137045,111798,6.03,3.98,2.05,1641,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/25/2021,4298573,2808490,1490083,186789,112080,6.31,4.12,2.19,1645,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/26/2021,4478500,2917925,1560575,179927,115768,6.57,4.28,2.29,1699,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/27/2021,4550370,2967937,1582433,71870,119107,6.68,4.36,2.32,1748,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,2/28/2021,4560861,2974019,1586842,10491,119193,6.69,4.36,2.33,1749,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/1/2021,4675887,3036605,1639282,115026,119645,6.86,4.46,2.41,1756,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/2/2021,4839444,3133478,1705966,163557,123529,7.1,4.6,2.5,1813,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/3/2021,5016763,3245517,1771246,177319,129283,7.36,4.76,2.6,1897,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/4/2021,5232095,3392269,1839826,215332,133360,7.68,4.98,2.7,1957,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/5/2021,5484624,3581812,1902812,252529,143732,8.05,5.26,2.79,2109,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/6/2021,5692974,3772579,1920395,208350,163229,8.35,5.54,2.82,2395,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/7/2021,5807779,3881967,1925812,114805,178131,8.52,5.7,2.83,2614,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/8/2021,5972593,3996329,1976264,164814,185244,8.76,5.86,2.9,2718,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/9/2021,6197209,4164418,2032791,224616,193966,9.09,6.11,2.98,2846,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/10/2021,6427037,4337343,2089694,229828,201468,9.43,6.36,3.07,2956,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/11/2021,6722229,4569849,2152380,295192,212876,9.86,6.71,3.16,3124,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/12/2021,7058746,4853278,2205468,336517,224875,10.36,7.12,3.24,3300,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/13/2021,7292852,5072244,2220608,234106,228554,10.7,7.44,3.26,3354,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/14/2021,7359596,5135616,2223980,66744,221688,10.8,7.54,3.26,3253,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+France,FRA,3/15/2021,7552120,5295735,2256385,192524,225647,11.08,7.77,3.31,3311,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Public Health France
+Germany,DEU,12/27/2020,23569,23569,0,0,0,0.03,0.03,0,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,12/28/2020,42309,42309,0,18740,18740,0.05,0.05,0,224,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,12/29/2020,84958,84958,0,42649,30694,0.1,0.1,0,366,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,12/30/2020,142960,142960,0,58002,39797,0.17,0.17,0,475,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,12/31/2020,181577,181577,0,38617,39502,0.22,0.22,0,471,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/1/2021,206326,206326,0,24749,36551,0.25,0.25,0,436,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/2/2021,258506,258506,0,52180,39156,0.31,0.31,0,467,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/3/2021,283492,283492,0,24986,37132,0.34,0.34,0,443,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/4/2021,332176,332176,0,48684,41410,0.4,0.4,0,494,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/5/2021,384632,384632,0,52456,42811,0.46,0.46,0,511,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/6/2021,443799,443799,0,59167,42977,0.53,0.53,0,513,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/7/2021,502259,502259,0,58460,45812,0.6,0.6,0,547,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/8/2021,562703,562703,0,60444,50911,0.67,0.67,0,608,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/9/2021,620026,620026,0,57323,51646,0.74,0.74,0,616,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/10/2021,653306,653306,0,33280,52831,0.78,0.78,0,631,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/11/2021,718972,718972,0,65666,55257,0.86,0.86,0,660,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/12/2021,801056,801056,0,82084,59489,0.96,0.96,0,710,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/13/2021,900140,900140,0,99084,65192,1.07,1.07,0,778,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/14/2021,1000369,1000255,114,100229,71159,1.19,1.19,0,849,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/15/2021,1093194,1092652,542,92825,75784,1.3,1.3,0,905,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/16/2021,1150294,1149355,939,57100,75753,1.37,1.37,0,904,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/17/2021,1194801,1180251,14550,44507,77356,1.43,1.41,0.02,923,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/18/2021,1269157,1238235,30922,74356,78598,1.51,1.48,0.04,938,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/19/2021,1364557,1306406,58151,95400,80500,1.63,1.56,0.07,961,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/20/2021,1493501,1384693,108808,128944,84766,1.78,1.65,0.13,1012,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/21/2021,1589630,1445387,144243,96129,84180,1.9,1.73,0.17,1005,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/22/2021,1705239,1529639,175600,115609,87435,2.04,1.83,0.21,1044,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/23/2021,1798157,1578607,219550,92918,92552,2.15,1.88,0.26,1105,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/24/2021,1864459,1616820,247639,66302,95665,2.23,1.93,0.3,1142,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/25/2021,1962389,1675012,287377,97930,99033,2.34,2,0.34,1182,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/26/2021,2065107,1728120,336987,102718,100079,2.46,2.06,0.4,1194,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/27/2021,2178446,1782174,396272,113339,97849,2.6,2.13,0.47,1168,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/28/2021,2279041,1833756,445285,100595,98487,2.72,2.19,0.53,1175,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/29/2021,2388779,1889738,499041,109738,97649,2.85,2.26,0.6,1165,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/30/2021,2476958,1929329,547629,88179,96972,2.96,2.3,0.65,1157,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,1/31/2021,2539663,1960654,579009,62705,96458,3.03,2.34,0.69,1151,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/1/2021,2655617,2010747,644870,115954,99033,3.17,2.4,0.77,1182,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/2/2021,2783292,2068674,714618,127675,102598,3.32,2.47,0.85,1225,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/3/2021,2926106,2126681,799425,142814,106809,3.49,2.54,0.95,1275,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/4/2021,3061977,2189822,872155,135871,111848,3.65,2.61,1.04,1335,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/5/2021,3195680,2249693,945987,133703,115272,3.81,2.69,1.13,1376,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/6/2021,3299549,2298307,1001242,103869,117513,3.94,2.74,1.2,1403,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/7/2021,3358944,2331179,1027765,59395,117040,4.01,2.78,1.23,1397,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/8/2021,3465365,2385980,1079385,106421,115678,4.14,2.85,1.29,1381,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/9/2021,3590189,2445643,1144546,124824,115271,4.29,2.92,1.37,1376,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/10/2021,3740756,2520914,1219842,150567,116379,4.46,3.01,1.46,1389,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/11/2021,3884773,2592362,1292411,144017,117542,4.64,3.09,1.54,1403,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/12/2021,4043271,2672487,1370784,158498,121084,4.83,3.19,1.64,1445,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/13/2021,4153231,2735797,1417434,109960,121955,4.96,3.27,1.69,1456,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/14/2021,4220017,2775600,1444417,66786,123010,5.04,3.31,1.72,1468,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/15/2021,4346820,2846383,1500437,126803,125922,5.19,3.4,1.79,1503,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/16/2021,4483110,2927915,1555195,136290,127560,5.35,3.49,1.86,1522,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/17/2021,4632502,3022623,1609879,149392,127392,5.53,3.61,1.92,1520,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/18/2021,4778113,3116190,1661923,145611,127620,5.7,3.72,1.98,1523,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/19/2021,4928790,3213361,1715429,150677,126503,5.88,3.84,2.05,1510,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/20/2021,5041412,3288322,1753090,112622,126883,6.02,3.92,2.09,1514,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/21/2021,5126978,3344950,1782028,85566,129566,6.12,3.99,2.13,1546,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/22/2021,5279147,3444148,1834999,152169,133190,6.3,4.11,2.19,1590,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/23/2021,5439273,3548633,1890640,160126,136595,6.49,4.24,2.26,1630,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/24/2021,5614068,3665479,1948589,174795,140224,6.7,4.37,2.33,1674,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/25/2021,5793937,3792766,2001171,179869,145118,6.92,4.53,2.39,1732,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/26/2021,5989397,3929388,2060009,195460,151515,7.15,4.69,2.46,1808,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/27/2021,6136096,4037227,2098869,146699,156383,7.32,4.82,2.51,1867,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,2/28/2021,6249751,4122881,2126870,113655,160396,7.46,4.92,2.54,1914,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/1/2021,6441281,4264152,2177129,191530,166019,7.69,5.09,2.6,1982,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/2/2021,6656569,4423783,2232786,215288,173899,7.94,5.28,2.66,2076,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/3/2021,6897007,4596996,2300011,240438,183277,8.23,5.49,2.75,2187,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/4/2021,7135038,4773261,2361777,238031,191586,8.52,5.7,2.82,2287,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/5/2021,7385188,4960142,2425046,250150,199399,8.81,5.92,2.89,2380,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/6/2021,7578515,5106221,2472294,193327,206060,9.05,6.09,2.95,2459,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/7/2021,7726102,5219436,2506666,147587,210907,9.22,6.23,2.99,2517,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/8/2021,7957085,5397259,2559826,230983,216543,9.5,6.44,3.06,2585,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/9/2021,8203777,5588907,2614870,246692,221030,9.79,6.67,3.12,2638,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/10/2021,8479168,5797352,2681816,275391,226023,10.12,6.92,3.2,2698,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/11/2021,8763865,6019270,2744595,284697,232690,10.46,7.18,3.28,2777,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/12/2021,9055414,6242159,2813255,291549,238604,10.81,7.45,3.36,2848,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/13/2021,9288155,6426967,2861188,232741,244234,11.09,7.67,3.41,2915,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/14/2021,9452185,6555883,2896302,164030,246583,11.28,7.82,3.46,2943,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/15/2021,9681067,6727738,2953329,228882,246283,11.55,8.03,3.52,2940,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Germany,DEU,3/16/2021,9853966,6835216,3018750,172899,235741,11.76,8.16,3.6,2814,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Robert Koch Institut
+Luxembourg,LUX,12/30/2020,1200,1200,0,0,0,0.19,0.19,0,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,12/31/2020,0,0,0,0,62,0,0,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/1/2021,0,0,0,0,62,0,0,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/2/2021,0,0,0,0,62,0,0,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/3/2021,0,0,0,0,62,0,0,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/4/2021,0,0,0,0,62,0,0,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/5/2021,0,0,0,0,62,0,0,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/6/2021,0,0,0,0,62,0,0,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/7/2021,0,0,0,0,62,0,0,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/8/2021,0,0,0,0,62,0,0,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/9/2021,0,0,0,0,62,0,0,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/10/2021,0,0,0,0,62,0,0,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/11/2021,1943,1943,0,0,62,0.31,0.31,0,99,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/12/2021,2372,2372,0,429,114,0.38,0.38,0,182,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/13/2021,2871,2871,0,499,177,0.46,0.46,0,283,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/14/2021,3233,3233,0,362,220,0.52,0.52,0,351,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/15/2021,0,0,0,0,236,0,0,0,377,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/16/2021,0,0,0,0,252,0,0,0,403,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/17/2021,3755,3755,0,0,268,0.6,0.6,0,428,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/18/2021,4569,4569,0,814,375,0.73,0.73,0,599,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/19/2021,5294,5294,0,725,417,0.85,0.85,0,666,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/20/2021,6193,6193,0,899,475,0.99,0.99,0,759,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/21/2021,6897,6897,0,704,523,1.1,1.1,0,835,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/22/2021,0,0,0,0,558,0,0,0,891,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/23/2021,0,0,0,0,592,0,0,0,946,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/24/2021,0,0,0,0,626,0,0,0,1000,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/25/2021,8554,7309,1245,0,569,1.37,1.17,0.2,909,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/26/2021,9525,8280,1245,971,604,1.52,1.32,0.2,965,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/27/2021,10449,9107,1342,924,608,1.67,1.45,0.21,971,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/28/2021,11373,9890,1483,924,639,1.82,1.58,0.24,1021,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/29/2021,0,0,0,0,630,0,0,0,1006,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/30/2021,0,0,0,0,622,0,0,0,994,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,1/31/2021,12428,10748,1680,0,613,1.99,1.72,0.27,979,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/1/2021,13241,11336,1905,813,670,2.12,1.81,0.3,1070,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/2/2021,14252,11925,2327,1011,675,2.28,1.91,0.37,1078,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/3/2021,15407,12597,2810,1155,708,2.46,2.01,0.45,1131,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/4/2021,16419,13256,3163,1012,721,2.62,2.12,0.51,1152,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/5/2021,0,0,0,0,728,0,0,0,1163,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/6/2021,0,0,0,0,736,0,0,0,1176,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/7/2021,17628,13940,3688,0,743,2.82,2.23,0.59,1187,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/8/2021,18139,14089,4050,511,700,2.9,2.25,0.65,1118,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/9/2021,18653,14227,4426,514,629,2.98,2.27,0.71,1005,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/10/2021,19923,15052,4871,1270,645,3.18,2.4,0.78,1030,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/11/2021,21390,16131,5259,1467,710,3.42,2.58,0.84,1134,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/12/2021,0,0,0,0,724,0,0,0,1157,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/13/2021,0,0,0,0,738,0,0,0,1179,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/14/2021,22895,17257,5638,0,752,3.66,2.76,0.9,1201,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/15/2021,24024,18055,5969,1129,841,3.84,2.88,0.95,1344,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/16/2021,25918,19622,6296,1894,1038,4.14,3.13,1.01,1658,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/17/2021,27119,20605,6514,1201,1028,4.33,3.29,1.04,1642,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/18/2021,28933,21853,7080,1814,1078,4.62,3.49,1.13,1722,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/19/2021,0,0,0,0,1104,0,0,0,1764,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/20/2021,0,0,0,0,1130,0,0,0,1805,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/21/2021,30985,23259,7726,0,1156,4.95,3.72,1.23,1847,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/22/2021,31926,23685,8241,941,1129,5.1,3.78,1.32,1804,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/23/2021,33370,24508,8862,1444,1065,5.33,3.92,1.42,1701,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/24/2021,34760,25285,9475,1390,1092,5.55,4.04,1.51,1744,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/25/2021,36071,26089,9982,1311,1020,5.76,4.17,1.59,1629,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/26/2021,0,0,0,0,1004,0,0,0,1604,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/27/2021,0,0,0,0,988,0,0,0,1578,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,2/28/2021,37793,27093,10700,0,973,6.04,4.33,1.71,1554,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/1/2021,39121,27655,11466,1328,1028,6.25,4.42,1.83,1642,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/2/2021,40460,28476,11984,1339,1013,6.46,4.55,1.91,1618,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/3/2021,42118,29401,12717,1658,1051,6.73,4.7,2.03,1679,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/4/2021,44171,30723,13448,2053,1157,7.06,4.91,2.15,1848,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/5/2021,0,0,0,0,1196,0,0,0,1911,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/6/2021,0,0,0,0,1235,0,0,0,1973,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/7/2021,46709,32591,14118,0,1274,7.46,5.21,2.26,2035,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/8/2021,47515,33238,14277,806,1199,7.59,5.31,2.28,1915,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/9/2021,48961,34530,14431,1446,1214,7.82,5.52,2.31,1939,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/10/2021,51457,36693,14764,2496,1334,8.22,5.86,2.36,2131,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/11/2021,54865,39558,15307,3408,1528,8.76,6.32,2.45,2441,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/12/2021,0,0,0,0,1606,0,0,0,2566,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/13/2021,0,0,0,0,1684,0,0,0,2690,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/14/2021,59048,43479,15569,0,1763,9.43,6.95,2.49,2816,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/15/2021,60587,44735,15852,1539,1867,9.68,7.15,2.53,2983,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Luxembourg,LUX,3/16/2021,64068,47598,16470,3481,2158,10.23,7.6,2.63,3447,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Government of Luxembourg
+Netherlands,NLD,1/17/2021,77000,77000,0,0,0,0.45,0.45,0,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/18/2021,0,0,0,0,9945,0,0,0,580,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/18/2021,0,0,0,0,9945,0,0,0,580,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/19/2021,0,0,0,0,9945,0,0,0,580,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/20/2021,0,0,0,0,9945,0,0,0,580,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/21/2021,0,0,0,0,9945,0,0,0,580,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/22/2021,0,0,0,0,9945,0,0,0,580,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/23/2021,0,0,0,0,9945,0,0,0,580,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/24/2021,146612,146612,0,0,9945,0.86,0.86,0,580,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/25/2021,0,0,0,0,12543,0,0,0,732,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/26/2021,0,0,0,0,15141,0,0,0,884,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/27/2021,0,0,0,0,17739,0,0,0,1035,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/28/2021,0,0,0,0,20337,0,0,0,1187,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/29/2021,0,0,0,0,22935,0,0,0,1338,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/30/2021,0,0,0,0,25533,0,0,0,1490,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,1/31/2021,343526,327834,15692,0,28131,2,1.91,0.09,1642,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/1/2021,0,0,0,0,28757,0,0,0,1678,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/2/2021,0,0,0,0,29384,0,0,0,1715,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/3/2021,0,0,0,0,30010,0,0,0,1751,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/4/2021,0,0,0,0,30637,0,0,0,1788,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/5/2021,0,0,0,0,31264,0,0,0,1825,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/6/2021,0,0,0,0,31890,0,0,0,1861,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/7/2021,571145,504736,66409,0,32517,3.33,2.95,0.39,1898,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/8/2021,0,0,0,0,32204,0,0,0,1879,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/9/2021,0,0,0,0,31891,0,0,0,1861,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/10/2021,0,0,0,0,31579,0,0,0,1843,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/11/2021,0,0,0,0,31266,0,0,0,1825,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/12/2021,0,0,0,0,30953,0,0,0,1806,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/13/2021,0,0,0,0,30640,0,0,0,1788,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/14/2021,783438,628993,154445,0,30328,4.57,3.67,0.9,1770,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/15/2021,0,0,0,0,30701,0,0,0,1792,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/16/2021,0,0,0,0,31075,0,0,0,1814,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/17/2021,0,0,0,0,31448,0,0,0,1835,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/18/2021,0,0,0,0,31822,0,0,0,1857,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/19/2021,0,0,0,0,32196,0,0,0,1879,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/20/2021,0,0,0,0,32569,0,0,0,1901,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/21/2021,1014039,795326,218713,0,32943,5.92,4.64,1.28,1923,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/22/2021,0,0,0,0,34816,0,0,0,2032,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/23/2021,0,0,0,0,36689,0,0,0,2141,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/24/2021,0,0,0,0,38563,0,0,0,2251,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/25/2021,0,0,0,0,40436,0,0,0,2360,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/26/2021,0,0,0,0,42309,0,0,0,2469,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/27/2021,0,0,0,0,44182,0,0,0,2578,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,2/28/2021,1336428,1004757,331671,0,46056,7.8,5.86,1.94,2688,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/1/2021,0,0,0,0,45260,0,0,0,2641,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/2/2021,0,0,0,0,44465,0,0,0,2595,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/3/2021,0,0,0,0,43669,0,0,0,2549,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/4/2021,0,0,0,0,42874,0,0,0,2502,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/5/2021,0,0,0,0,42078,0,0,0,2456,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/6/2021,0,0,0,0,41283,0,0,0,2409,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/7/2021,1619839,1207904,411935,0,40487,9.45,7.05,2.4,2363,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/8/2021,0,0,0,0,40170,0,0,0,2344,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/9/2021,0,0,0,0,39854,0,0,0,2326,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/10/2021,0,0,0,0,39537,0,0,0,2307,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/11/2021,0,0,0,0,39220,0,0,0,2289,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/12/2021,0,0,0,0,38903,0,0,0,2270,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/13/2021,0,0,0,0,38586,0,0,0,2252,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
+Netherlands,NLD,3/14/2021,1887726,1394603,493123,0,38270,11.02,8.14,2.88,2233,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",National Institute for Public Health and the Environment
