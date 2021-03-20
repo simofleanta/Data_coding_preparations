@@ -59,7 +59,7 @@ def get_month(x):
     return dt.datetime (x.year, x.month, 1)
 
 vax['VaxedMonth']=vax['date'].apply(get_month)
-grouping=vax.groupby('daily_vaccinations')['VaxedMonth']
+grouping=vax.groupby('iso_code')['VaxedMonth']
 vax['CohortMonth']=grouping.transform('min')
 
 
@@ -73,38 +73,26 @@ def get_month_int(cohortframe, column):
 
 
 #call function 
-vaxed_year, vaxed_month,_=get_month_int(vax,'VaxedMonth')
-cohort_year, cohort_month,_=get_month_int(vax, 'CohortMonth')
+vaxed_year, vaxed_month, vaxed_day_=get_month_int(vax,'VaxedMonth')
+cohort_year, cohort_month,cohort_day_=get_month_int(vax,'CohortMonth')
 
 #create year an month diffs
 year_diff=vaxed_year-cohort_year
 month_diff=vaxed_month-cohort_month
+day_diff=vaxed_day_ - cohort_day_
 
 #create cohortindex
-vax['CohortIndex']=year_diff * 12 + month_diff +1
+vax['CohortIndex']=year_diff * 12 + month_diff +1 + day_diff +7
 
 #count monthly active clients from month cohorts
 
 grouping = vax.groupby(['VaxedMonth', 'CohortIndex'])
-cohort_data = grouping['daily_vaccinations'].apply(pd.Series.nunique)
+cohort_data = grouping['iso_code'].apply(pd.Series.nunique)
 
 #return number of unique vals
 cohort_data = cohort_data.reset_index()
-cohort_counts = cohort_data.pivot(index='VaxedMonth', columns='CohortIndex', values='daily_vaccinations')
+cohort_counts = cohort_data.pivot(index='VaxedMonth', columns='CohortIndex', values='iso_code')
 print(cohort_counts)
-
-
-#build retention table
-
-cohort_size=cohort_counts.iloc[:,0]
-retention=cohort_counts.divide(cohort_size, axis=0) 
-retention.round(3) *100
-print(retention)
-
-plt.figure(figsize=(15,7))
-plt.title('Retention levels on monthly cohorts')
-sns.heatmap(data=retention, annot=True, fmt='.0%', vmin=0.0, vmax=0.5, cmap='Blues')
-plt.show()
 
 
 
@@ -119,7 +107,7 @@ avg_q.index=avg_q.index.date
 
 plt.figure(figsize=(15,7))
 plt.title('people_fully_vaccinated on monthly cohorts')
-sns.heatmap(data=avg_q, annot=True, vmin=0.0, vmax=20, cmap='YlOrRd')
+sns.heatmap(data=avg_q, annot=True, vmin=0.0,  fmt = '.1f', vmax=20, cmap='Blues')
 plt.show()
 
 
