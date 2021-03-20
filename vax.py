@@ -38,3 +38,16 @@ vax=pd.read_csv(vax_path)
 vax['date']=pd.to_datetime(vax['date'], infer_datetime_format=True)
 indexeddf=vax.set_index(['date'])
 #print(indexeddf)
+
+#parsing to time format and extracting dates with 'created_at'
+x=vax['date']=pd.to_datetime(vax['date'], format='%d-%m-%y')
+
+Day=vax['date'].dt.day_name()
+Month=vax['date'].dt.month_name()
+Year=vax['date'].dt.year
+
+#subsetting 
+vax['Year']=vax['date'].dt.year
+vax['Month']=vax['date'].dt.month_name()
+vax['Day']=vax['date'].dt.day_name()
+
