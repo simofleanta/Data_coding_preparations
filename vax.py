@@ -50,4 +50,18 @@ Year=vax['date'].dt.year
 vax['Year']=vax['date'].dt.year
 vax['Month']=vax['date'].dt.month_name()
 vax['Day']=vax['date'].dt.day_name()
+print(vax)
 
+##################################
+
+def get_month(x):
+    return dt.datetime(x.year,x.month,1)
+
+## Create ClientMonth column
+vax['ClientMonth'] = vax['date'].apply(get_month)
+
+# Group by client_id and select the ClientMonth value
+grouping = vax.groupby('iso_code')['ClientMonth']
+
+## Assign a minimum ClientMonth value to the dataset
+vax['CohortMonth'] = grouping.transform('min')
