@@ -1,0 +1,7 @@
+{
+    "name": "St Patrick's Day",
+    "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
+    "background":"#FFFFFF",
+    "foreground": "#3A6108",
+    "tableAccent": "#568410"
+}
