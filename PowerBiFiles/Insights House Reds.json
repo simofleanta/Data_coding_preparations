@@ -1,0 +1,8 @@
+{
+    "name": "Insights House Reds",
+    "dataColors": ["#B73A3A", "#B73A3A", "#F8BCBD", "#A2D2F9","#368AC4"],
+    "background": "#E6E6E6",
+    "foreground": "#004677",
+    "tableAccent":"#D1E9FC"
+}
+
