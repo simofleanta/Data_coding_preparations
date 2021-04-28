@@ -2,6 +2,6 @@
     "name": "Insights House Blue",
     "dataColors": ["#004677", "#005078", "#3586B6", "#D1E9FC"],
     "background": "#E6E6E6",
-    "foreground": "#3A6108",
-    "tableAccent":"#568410"
+    "foreground": "#004677",
+    "tableAccent":"#D1E9FC"
 }
