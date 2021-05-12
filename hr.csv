@@ -1,0 +1,111 @@
+Company,Applicant_id,CV_style,Job,Job_seniority,Domain,Interview_calls,Interview_call,Region,Resume_updates,Refferences,Refferrals
+Voi Tech,A103,UK,Policy analyst,Normal,policy,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Google,A112,Berlin,Gov affairs junior,Normal,policy,No interview ,3,Berlin,Education,3,Friends working in a company
+Outfittery,A1000,New York,Data analyst,Normal,data,I had an interview ,1,Berlin,Skills,1,No referrals
+Outfittery,A1000,New York,Data Insights,Normal,data,I had an interview ,1,Berlin,Skills,1,No referrals
+Contentful,A150,Berlin,Data analyst,Normal,data,No interview ,3,Berlin,Education,3,Friends working in a company
+Contentful,A150,Europass,Senior Business Analyst,Senior,data,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Insuretech,B150,New York,Data analyst,Normal,data,I had an interview ,1,Berlin,Skills,1,No referrals
+powercloud,B150,UK,Business Intelligence,Normal,data,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Big Cloud,B150,UK,Business Intelligence,Normal,data,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Koro,A103,Berlin,Intern_entrepreneurship_dev,Intern,business development,No interview ,3,Berlin,Education,3,Friends working in a company
+Bridge_maker,A103,New York,Junior venture capital,Junior,business development,I had an interview ,1,Berlin,Skills,1,No referrals
+Everphone,A1000,New York,Business Intelligence,Normal,data intelligence,I had an interview ,1,Berlin,Skills,1,No referrals
+N26,A1000,New York,Intern opps manager,Intern,operations business,I had an interview ,1,Berlin,Skills,1,No referrals
+Accenture,A112,Berlin,Trainee business_analyst,Trainee,data,No interview ,3,Berlin,Education,3,Friends working in a company
+Accenture,A112,UK,Trainee business_analyst,Trainee,data,Waiting for interview ,2,Brussels,Certifications,2,Friends knowing company's manager
+Meltwater,A112,Berlin,Sales trainee,Trainee,sales,No interview ,3,Berlin,Education,3,Friends working in a company
+Austin Fraser,B150,Berlin,Intern Trainee,Intern,operations business,No interview ,3,Berlin,Education,3,Friends working in a company
+Tourlane,B150,UK,Junior Data visualization ,Intern,visualization,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+EIB,B150,UK,Intern data analyst,Intern,data,Waiting for interview ,2,Brussels,Certifications,2,Friends knowing company's manager
+BGFI,A150,New York,Business Intelligence,Normal,data intelligence,I had an interview ,1,Brussels,Skills,1,No referrals
+ESG,A103,Europass,Data analyst,Normal,data,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Hertie GOV,C103,New York,Policy analyst,Normal,policy,I had an interview ,1,Berlin,Skills,1,No referrals
+Delloite,C103,Europass,Intern management,Intern,operations business,Waiting for interview ,2,Brussels,Certifications,2,Friends knowing company's manager
+PwC,C103,Berlin,Intern audit,Intern,audit,No interview ,3,Bucharest,Education,3,Friends working in a company
+Wayfair,A103,Berlin,Graduate data analysis ,Graduate,data,No interview ,3,Berlin,Education,3,Friends working in a company
+Wayfair,A103,Berlin,Graduate business Intelligence,Graduate,data intelligence,No interview ,3,Berlin,Education,3,Friends working in a company
+Airbnb,C103,Europass,Graduate policy analyst,Graduate,policy,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Cognizant,C103,Europass,Data analyst,Normal,data,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Vantik,C103,Berlin,Intern entrerpeneur residence,Intern,data,No interview ,3,Berlin,Education,3,Friends working in a company
+Hello Fresh,A103,UK,Data analyst,Normal,data,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Hello fresh,A103,New York,Junior business intelligence,Junior,data intelligence,I had an interview ,1,Berlin,Skills,1,No referrals
+hello fresh,A103,UK,Strategic operations intern,Intern,operations business,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+ISS,A103,Berlin,Corporate governance research,Normal,policy,No interview ,3,Berlin,Education,3,Friends working in a company
+APCO,APCO,Berlin,Intern Public Affairs,Intern,policy,No interview ,3,Berlin,Education,3,Friends working in a company
+Accenture,A112,Europass,Intelligent Cloud Infrastructure,Graduate,data,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+efinancial,A103,Berlin,Data analyst,Normal,data,No interview ,3,Berlin,Education,3,Friends working in a company
+BKK,A103,Berlin,Data analyst,Normal,data,No interview ,3,Berlin,Education,3,Friends working in a company
+Audible,B150,UK,Data analyst,Normal,data,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Wayfair,A103,Berlin,Business strategist,Normal,business strategy,No interview ,3,Berlin,Education,3,Friends working in a company
+zalando,B150,Berlin,Data analyst,Normal,data,No interview ,3,Berlin,Education,3,Friends working in a company
+Marsh,B150,Berlin,Graduate Scheme,Graduate,operations business,No interview ,3,Brussels,Education,3,Friends working in a company
+Microsoft,B150,Berlin,Graduate Opps,Graduate,operations business,No interview ,3,Berlin,Education,3,Friends working in a company
+Accenture,A112,Europass,young graduate,Graduate,business analysis,Waiting for interview ,2,Brussels,Certifications,2,Friends knowing company's manager
+Open Society foundations,B150,Berlin,policy_analyst,Normal,policy,No interview ,3,Brussels,Education,3,Friends working in a company
+Graduate EIB,B150,Berlin,Graduate analyst,Graduate,economic policy,Waiting for interview ,2,Brussels,Certifications,2,Friends knowing company's manager
+NERA,B150,Berlin,Executive assistant,Normal,operations business,No interview ,3,Berlin,Education,3,Friends working in a company
+Brown brothers,B150,Berlin,Intern opportunities,Intern,data,No interview ,3,Luxembourg,Education,3,Friends working in a company
+Cognizant,C103,New York,Tableau data analyst,Normal,data intelligence,I had an interview ,1,Luxembourg,Skills,1,No referrals
+Wayfair,A103,Berlin,Community experience intenrship,Intern,business strategy,No interview ,3,Berlin,Education,3,Friends working in a company
+Amazon,A150,Berlin,Policy analyst,Normal,policy,No interview ,3,Berlin,Education,3,Friends working in a company
+Quintet,A150,Berlin,Business Intelligence Analyst,Normal,data intelligence,No interview ,3,Brussels,Education,3,Friends working in a company
+Growth Tribe,A150,Europass,Data analyst graduata,Graduate,data,Waiting for interview ,2,Amsterdam,Certifications,2,Friends knowing company's manager
+Growth Tribe,A150,Berlin,Manageent graduate ,Graduate,business strategy,No interview ,3,Amsterdam,Education,3,Friends working in a company
+Cognizant,C103,Europass,Junior business analyst,Junior,business analysis,Waiting for interview ,2,Brussels,Certifications,2,Friends knowing company's manager
+Jam city,A150,Berlin,Data analyst,Normal,data,No interview ,3,Berlin,Education,3,Friends working in a company
+delivery hero,A150,Europass,Junior data analyst,Junior,data,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Trust in SODA,A150,Europass,Junior business analyst,Junior,business analysis,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Celonis,A150,Berlin,Data analyst,Normal,data,No interview ,3,Berlin,Education,3,Friends working in a company
+BGFI,A150,New York,Business intelligence analyst,Normal,data intelligence,I had an interview ,1,Brussels,Skills,1,No referrals
+escent,A150,Europass,Data senior analyst,Senior,data,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+NERA ,B150 ,New York,Economic consulting internsip,Intern,economic policy,I had an interview ,1,Berlin,Skills,1,No referrals
+EIB,B150,Europass,Junior Business Analyst,Junior,business analysis,Waiting for interview ,2,Luxembourg,Certifications,2,Friends knowing company's manager
+EY,C103,Berlin,People advisory,Normal,policy,No interview ,3,Brussels,Education,3,Friends working in a company
+EY,C103,Berlin,Junior business intelligence,Junior,data intelligence,No interview ,3,Berlin,Education,3,Friends working in a company
+Temenos,D100,New York,Business analayst,Normal,business analysis,I had an interview ,1,Berlin,Skills,1,No referrals
+Impact Hub ,D100 ,Berlin,Community developer,Normal,business strategy,No interview ,3,Bucharest,Education,3,Friends working in a company
+Impact hub ,D100 ,Berlin,growth hacker,Normal,business development,No interview ,3,Berlin,Education,3,Friends working in a company
+Uberall,D100,Berlin,Intelligence Analyst,Normal,data intelligence,No interview ,3,Berlin,Job,3,Friends working in a company
+Cloudity,D100,Berlin,Junior business consultant,Junior,business analysis,No interview ,3,Berlin,Education,3,Friends working in a company
+EHI,D100,Berlin,Consultant  bi,Normal,data intelligence,No interview ,3,Berlin,Job,3,Friends working in a company
+Airbnb,C103,Berlin,Policy analyst intern,Intern,policy,No interview ,3,Berlin,Job,3,Friends working in a company
+Startup genome,D100,Berlin,Research director,Normal,policy,No interview ,3,Berlin,Job,3,Friends working in a company
+Greenman,D100,Europass,acquisition team business analyst,Normal,business analysis,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Sulzer,D100,Berlin,Business analayst,Normal,business analysis,No interview ,3,Berlin,Education,3,Friends working in a company
+Coachhub,D100,Europass,Intern business operations,Intern,operations business,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+KEYlime consultants,C103,Berlin,reporting analyst,Normal,business analysis,No interview ,3,Berlin,Education,3,Friends working in a company
+Prysmian group,D100,Europass,graduate program,Graduate,business analysis,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Xbav ag,D100,Europass,business analayst,Normal,business analysis,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+the marketing practive,D100,Europass,junior data executive,Junior,data,Waiting for interview ,2,Berlin,Job,2,Friends knowing company's manager
+Audibene,D100,Europass,data analyst,Normal,data,Waiting for interview ,2,Berlin,Job,2,Friends knowing company's manager
+Positive thinking,D100,Europass,Business analayst,Normal,business analysis,Waiting for interview ,2,Berlin,Job,2,Friends knowing company's manager
+Buildminds,D100,Europass,Junior business intelligence,Junior,data intelligence,Waiting for interview ,2,Berlin,Job,2,Friends knowing company's manager
+Serrla,D100,Europass,Customer data analyst,Normal,data,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+PwC,C103,Europass,Business anayst trainee,Normal,business analysis,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Jrd systems,C103,Berlin,Data analyst,Normal,data,No interview ,3,Berlin,Education,3,Friends working in a company
+EY ,C103,Berlin,Business analyst  insurance,Normal,business analysis,No interview ,3,Berlin,Education,3,Friends working in a company
+Groot berg,C103,Europass,business intelligence analyst,Normal,data intelligence,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Home Invest,C103,New York,Data analyst,Normal,data,I had an interview ,1,Brussels,Skills,1,No referrals
+CGI,C103,UK,Master data analyst,Normal,data,Waiting for interview ,2,Brussels,Certifications,2,Friends knowing company's manager
+Bgfi,A150,New York,Business intelligence analyst,Normal,data intelligence,I had an interview ,1,Brussels,Skills,1,No referrals
+Mayato,A150,New York,Business intelligence analyst,Normal,data intelligence,I had an interview ,1,Brussels,Job,1,No referrals
+Hays,A150,New York,Business intelligence analyst,Normal,data intelligence,I had an interview ,1,Berlin,Job,1,No referrals
+Venturi,A150,UK,Business intelligence analyst,Normal,data intelligence,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Zartis,A150,Berlin,Business intelligence consultant,Normal,data intelligence,No interview ,3,Poland,Education,3,Friends working in a company
+Star Clay,A150,New York,Business intelligence analyst,Normal,data intelligence,I had an interview ,1,Paris,Skills,1,No referrals
+Klara consulting ,A150,Europass,Business intelligence consultant,Normal,data intelligence,Waiting for interview ,2,Paris,Certifications,2,Friends knowing company's manager
+Dusseldorf,A150,New York,Business intelligence consultant,Normal,data intelligence,I had an interview ,1,Dusseldorf,Skills,1,No referrals
+Octo tech,A150,New York,Consultant data visualization,Normal,visualization,I had an interview ,1,Paris,Skills,1,No referrals
+Tremelo,A150,Berlin,Business intelligence analyst,Normal,data intelligence,No interview ,3,Paris,Education,3,Friends working in a company
+Edge tech,A150,Berlin,Intern business development,Intern,business development,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Vantage ai,A150,Berlin,Data Scientist,Normal,data Scientist,Waiting for interview ,2,Paris,Job,2,Friends knowing company's manager
+AltRaise,A150,Berlin,Internship trainee,Intern,data,Waiting for interview ,2,Paris,Certifications,2,Friends knowing company's manager
+Hello fresh ,A103 ,Berlin,Marketing business intelligence analyst,Normal,data intelligence,I had an interview ,1,Berlin,Skills,1,No referrals
+Alldus,A103 ,UK,Business intelligence analyst,Normal,data intelligence,Waiting for interview ,2,Berlin,Certifications,2,Friends knowing company's manager
+Hello fresh,A103 ,New York,Junior product analyst,Junior,business analysis,I had an interview ,1,Berlin,Skills,1,No referrals
+Sustainalytics,A103 ,UK,business analyst  insurance,Normal,business analysis,Waiting for interview ,2,Bucharest,Certifications,2,Friends knowing company's manager
+Sustainalytics,A103 ,New York,Data analyst,Normal,business analysis,I had an interview ,1,Bucharest,Skills,1,No referrals
+Square,A103 ,New York,Business analyst ,Normal,business analysis,I had an interview ,1,London,Skills,1,No referrals
+Intys,A103 ,New York,Junior business intelligence,Junior,data intelligence,I had an interview ,1,Brussels,Skills,1,No referrals
+Intys,A103 ,New York,Junior data analyst,Junior,data,I had an interview ,1,Luxembourg,Skills,1,No referrals
