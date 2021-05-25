@@ -1,0 +1,28 @@
+Pre reqs:
+
+text editor (vs code, atom, sublime, notepad)
+web browser
+
+build project
+ - folder structure
+ - add files
+ - connect files
+
+2. Navbar
+
+ - 2 links and name 
+
+3. Portfolio item grid
+
+ - images
+ - titles
+ - descriptions
+ - animations
+ - javascript
+
+4. About 
+ - images
+ - split column layout
+ - content
+
+
