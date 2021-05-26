@@ -138,7 +138,7 @@ p{
 }
 
 .row{
-    margin-top: 5%;
+    margin-top: 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -148,7 +148,7 @@ p{
     background: antiquewhite;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
+    padding: 20px 6px;
+    box-sizing:content-box;
     
 }
