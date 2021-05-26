@@ -42,11 +42,11 @@ nav img{
     font-size: 40;
 }
 
-.nav-links ul li ::after{
+.nav-links ul li a::after{
     content: '';
-    width: 100;
-    height: 2x;
-    background: aliceblue;
+    width: 0%;
+    height: 2px;
+    background: #284975;
     display: block;
     margin: auto;
 }
