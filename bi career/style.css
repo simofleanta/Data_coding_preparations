@@ -124,7 +124,7 @@ nav img{
 }
 
 h1{
-    color: aliceblue;
+    color: #284975;
     font-size: 36px;
     font-weight: 600;
 }
@@ -150,7 +150,7 @@ p{
     margin-bottom: 5%;
     padding: 20px 6px;
     box-sizing:content-box;
-    transition: 00.5s;
+    transition: 0.5s;
     
 }
 
@@ -158,7 +158,7 @@ h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
-}
+    }
 
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
@@ -168,4 +168,40 @@ h3{
         flex-direction: column;
     }
 }
+
+/*-----Global-------------*/
+
+.Go_Global{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 8%;
+    color: #284975;
+}
+.global_col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.global_col img{
+    width: 100%;
+}
+
+.layer{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(0,0,0,0.2);
+}
+
 
