@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .header{
@@ -33,5 +34,19 @@ nav img{
     display:  inline-block;
     padding: 8px 12px;
     position: relative;
+}
 
+.nav-links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 40;
+}
+
+.nav-linksul li ::after{
+    content: '';
+    width: 100;
+    height: 2x;
+    background: aliceblue;
+    display: block;
+    margin: auto;
 }
