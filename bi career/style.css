@@ -188,6 +188,7 @@ h3{
 
 .global_col img{
     width: 100%;
+    display: block;
 }
 
 .layer{
@@ -204,4 +205,21 @@ h3{
     background: rgba(0,0,0,0.2);
 }
 
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: aliceblue;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.05s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
 
