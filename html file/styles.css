@@ -88,6 +88,8 @@ body {
   }
   
   /* Portfolio Styles */
+
+  img{width: 200px;}
   
   main {
     margin-top: 98px;
