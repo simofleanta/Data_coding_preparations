@@ -21,7 +21,7 @@ nav{
 }
 
 nav img{ 
-    width: 50px;;
+    width: 50px;
 }
 
 .nav-links{
@@ -42,7 +42,7 @@ nav img{
     font-size: 40;
 }
 
-.nav-links ul li a::after{
+.nav-links ul li::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -58,7 +58,7 @@ nav img{
 
 .text-box{
     width: 40%;
-    color: aliceblue;
+    color:aliceblue;
     position: absolute;
     top: 40%;
     left: 30%;
@@ -67,12 +67,16 @@ nav img{
 }
 
 .text-box h1{
-    font-size: 22px;
+    font-size: 29px;
+}
+
+.text-box h1{
+    color: aliceblue;
 }
 
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 18;
+    font-size: 30;
     color: aliceblue;
 }
 
