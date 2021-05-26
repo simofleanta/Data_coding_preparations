@@ -75,3 +75,22 @@ nav img{
     font-size: 18;
     color: aliceblue;
 }
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    padding: 12px 30px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid #284975;
+    background: #284975;
+    transform: 1s;
+    
+}
