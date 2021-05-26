@@ -46,7 +46,12 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #284975;
+    background: aliceblue;
     display: block;
     margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
 }
