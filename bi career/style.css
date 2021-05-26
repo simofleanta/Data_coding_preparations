@@ -55,3 +55,23 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
+.text-box{
+    width: 40%;
+    color: aliceblue;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-70%-30%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 22px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 18;
+    color: aliceblue;
+}
