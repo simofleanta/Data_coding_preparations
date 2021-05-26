@@ -42,7 +42,7 @@ nav img{
     font-size: 40;
 }
 
-.nav-linksul li ::after{
+.nav-links ul li ::after{
     content: '';
     width: 100;
     height: 2x;
