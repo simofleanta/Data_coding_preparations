@@ -113,3 +113,26 @@ nav img{
         z-index: 2;
     }
 }
+
+/*----course----*/
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #284975;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
