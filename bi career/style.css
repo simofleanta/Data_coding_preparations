@@ -118,7 +118,7 @@ nav img{
     }
 }
 
-/*----course----*/
+/*----mentoring----*/
 
 .course{
     width: 80%;
@@ -202,7 +202,7 @@ h3{
     position: absolute;
     top: 0;
     left: 0;
-    transition: 0.5s;
+    
 }
 
 .layer:hover{
@@ -219,7 +219,7 @@ h3{
     transform: translateX(-50%);
     position: absolute;
     opacity: 0;
-    transition: 0.05s;
+    transition: 0.5s;
 }
 
 .layer:hover h3{
@@ -227,3 +227,86 @@ h3{
     opacity: 1;
 }
 
+/*----------------------Charts--------------*/
+.Data {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.data-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5;
+    text-align: left;
+    
+}
+
+.data-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.data-col p{
+    padding: 0;
+}
+
+.data-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/*--------------call-------*/
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/clement-helardot-95YRwf6CNw8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1{
+    color: aliceblue;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.h1{
+    color: aliceblue;
+}
+
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 24 px;
+        }
+}
+
+/*----------------------F------------*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa{
+    color: #284975;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px;
+}
+
+.fa-heart-o{
+    color: #284975;
+}
