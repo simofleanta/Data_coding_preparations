@@ -295,7 +295,7 @@ h3{
 .footer{
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .footer h4{
@@ -305,13 +305,14 @@ h3{
     color: #284975;
 }
 
-.icons{
-    color: #284975;
-    margin: 1 13px;
+.social_item{
+    margin: 3 13px;
     cursor: pointer;
-    padding: 18px 0;
+    padding: 22px 0;
 }
 
-.fa-heart-o{
-    color: #284975;
+p{
+    font-size: 10px;
 }
+
+
