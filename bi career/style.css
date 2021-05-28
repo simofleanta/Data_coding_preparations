@@ -228,6 +228,40 @@ h3{
     opacity: 1;
 }
 
+
+/*--------------------Team--------------------------------*/
+.team {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+}
+.team-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+
+}
+
+.team-col img{
+    width: 25%;
+    border-radius: 15px;
+    margin-top: 0%;
+    margin: 10%;
+    
+    
+}
+
+.team-col p{
+    padding: 70px;
+    margin: 7%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+
 /*----------------------Charts--------------*/
 .Data {
     width: 80%;
