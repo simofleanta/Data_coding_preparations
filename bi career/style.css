@@ -179,7 +179,7 @@ h3{
     width: 70%;
     margin: auto;
     text-align: center;
-    padding-top: 8%;
+    padding-top: 10%;
     color: #284975;
 }
 .global_col{
@@ -258,7 +258,7 @@ h3{
     padding: 50px;
     margin: 7%;
     margin-top: -10%;
-    margin-bottom: 18%;
+    margin-bottom: 14%;
     text-align: left;
 }
 
@@ -271,7 +271,7 @@ h3{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 20px;
 }
 .data-col{
     flex-basis: 31%;
