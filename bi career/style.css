@@ -185,7 +185,7 @@ h3{
 .global_col{
     flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 30%;
+    margin-bottom: 17%;
     position: relative;
     overflow: hidden;
 }
@@ -249,7 +249,7 @@ h3{
     border-radius: 15px;
     margin-top: 0%;
     margin: 10%;
-    display: block;
+    
     
     
 }
@@ -258,7 +258,7 @@ h3{
     padding: 50px;
     margin: 7%;
     margin-top: -10%;
-    margin-bottom: 6%;
+    margin-bottom: 18%;
     text-align: left;
 }
 
@@ -276,7 +276,7 @@ h3{
 .data-col{
     flex-basis: 31%;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     text-align: left;
 
 }
@@ -292,14 +292,14 @@ h3{
 
 .data-col h3{
     margin-top: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 15%;
     text-align: left;
 }
 
 /*--------------call-------*/
 
 .cta{
-    margin: 100px auto;
+    margin: 80px auto;
     width: 90%;
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/clement-helardot-95YRwf6CNw8-unsplash.jpg);
     background-position: bottom;
@@ -309,6 +309,12 @@ h3{
     padding: 80px 0;
     
 }
+
+
+.cta{
+    margin-bottom: 10%; 
+}
+
 
 
 
