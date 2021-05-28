@@ -249,6 +249,7 @@ h3{
     border-radius: 15px;
     margin-top: 0%;
     margin: 10%;
+    display: block;
     
     
 }
@@ -260,6 +261,46 @@ h3{
     margin-bottom: 6%;
     text-align: left;
 }
+
+.layer_jazz{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer_jazz:hover{
+    background: rgba(23, 37, 65, 0.2);
+}
+
+.layer_jazz h4{
+    width: 100%;
+    font-weight: 500;
+    color:#284975;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer_jazz h4{
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
 
 
 
