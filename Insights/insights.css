@@ -195,7 +195,69 @@ h3{
     }
 }
 
+/*-------------------------------*/
 
+.cta{
+    margin: 100px auto;
+    width: 90%;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/clement-helardot-95YRwf6CNw8-unsplash.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 80px 0;
+    
+}
+
+
+.cta{
+    margin-bottom: 10%; 
+}
+
+
+
+
+.cta h1{
+    color: aliceblue;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.h1{
+    color: aliceblue;
+}
+
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 24 px;
+        }
+}
+
+/*-----------------F------------------------*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #284975;
+}
+
+.icons .fa{
+    color: #284975;
+    margin: 0 30px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart-o{
+    color: #284975;
+}
 
 
 
