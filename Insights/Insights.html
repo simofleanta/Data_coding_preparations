@@ -4,15 +4,15 @@
     <meta name="=viewport" content="width=device-width, initial-scale=1.0">
     <title>Insights House </title>
     <link rel="stylesheet" href="insights.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
-   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <section class="header_insights"> 
         <nav>
-            <a href="Insights.html"><img src="images/logo (1).png" alt=""></a>
-            <div class="nav-links">
-                <i class="fa fa-times"></i>
+            <a href="Insights.html"><img src="images/logo (1).png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href=""> HOME </a></li>
                     <li><a href=""> About </a></li>
@@ -20,17 +20,33 @@
                     <li><a href=""> Portfolio </a></li>
                     <li><a href=""> Contact </a></li>
                 </ul>
-
+        
             </div>
-            <i class="fa fa-bars"></i>
+
+            <i class="fa fa-bars" onclick="showMeneu()"></i>
         </nav>
 
-        <div class="text-box">
-            <h1>Insights House</h1> 
-            <p> A Business Intelligence approach for startups </p>
-            <a href="" class="hero-btn">Visit us </a>
-    
+    <div class="text-box">
+        <h1>Insights House</h1>
+        <p> A Business Intelligence approach for startups </p>
+        <a href="" class="hero-btn">Visit us </a>
+         
         </div>
     
  </section>
+
+ <!------------------Java script for Toggle Menu----------------------------->
+
+ <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMeneu(){
+        navLinks.style.left ="0";
+    }
+    function hideMeneu(){
+        navLinks.style.left="-200px";
+    }
+ </script>
+</body>
+</html>
     <!------------------------------------------------------------------------------------------------------------->
