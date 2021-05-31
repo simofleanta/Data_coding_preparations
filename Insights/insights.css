@@ -259,6 +259,45 @@ h3{
     color: #284975;
 }
 
+/*-----------------Test------------------------*/
 
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
 
+.test-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-top: 5%;
+    text-align: left;
+    background: #e4ebf2;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.test-col img{
+    height: 70px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 10%;
+
+}
+
+.test-col p{
+    padding: 0;
+}
+
+.test-col h3{
+    margin-top: 15px;
+    text-align: left;
+    color: #284975;
+}
+
+.test-col .fa{
+    color: #284975;
+}
 
