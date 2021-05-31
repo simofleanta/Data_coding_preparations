@@ -387,8 +387,25 @@ h3{
 }
 
 }
+/*-----------------------Calendly....................*/
 
+/* Calendly inline widget 
+#Connect {
+  
+    margin: 60px;
+    text-align: center;
+    padding-bottom: -20%;
+  }
 
+  .section-title{
+      padding-top: 10%;
+      padding-bottom: 3%;
+      font-size: 36px;
+      text-align: center;
+      
+  }
+  
+   Calendly inline widget end */
 
 /*----------------------F------------*/
 
@@ -400,7 +417,7 @@ h3{
 
 .footer h4{
     margin-bottom: 25px;
-    margin-top: 200px;
+    margin-top: 100px;
     font-weight: 600;
     color: #284975;
 }
