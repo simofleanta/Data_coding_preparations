@@ -4,6 +4,7 @@
     <meta name="=viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo House </title>
     <link rel="stylesheet" href="photo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -37,12 +38,42 @@
         <img src="images/menu_edited.png" id="menu">
     </div>
 
+<!---------------------------------------------------Features-------------------------------------------------->
+
+<section id="feature">
+<div class="title-text">
+    <p>Features</p>
+    <h1>Why Photo House</h1>
+</div>
+<div class="feature-box">
+    <div class="features">
+        <h1>Experienced foto</h1>
+        <div class="feature-desc">
+            <div class="feature-icon">
+                    <i class="fa fa-shield"></i>
+            </div>
+                <div class="feature-text">
+                    <p> I am ....</p>
+            </div>
+        </div>
+    </div>
+    <div class="features-img">
+        <img src="images/Sjazz.jpg ">
+    </div>
+
+    
+</div>
+        
+    
+</section>
+
+
     <script>
         var manuBtn = document.getElementById("manuBtn");
         var sideNav = document.getElementById("sideNav");
         var menu = document.getElementById("menu");
 
-        sideNav.style.right="-200px";
+        
 
         manuBtn.onclick=function(){
             if(sideNav.style.right=="-250px"){
@@ -54,9 +85,10 @@
                 menu.src="images/menu_edited.jpg";
             }
         }
-    
-    
-     </script>
+
+
+</script>
+
 
 </body>
 </html>
