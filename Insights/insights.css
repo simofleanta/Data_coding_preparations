@@ -6,9 +6,9 @@
 
 
 .header_insights{
-    min-height: 60vh;
+    min-height: 90vh;
     width: 100%;
-    background-image: linear-gradient(rgba(34, 43, 78, 0.7),rgba(59, 67, 99, 0.7)),url(images/code1.jpg);
+    background-image: linear-gradient(rgba(34, 43, 78, 0.7),rgba(59, 67, 99, 0.7)),url(images/pay.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
