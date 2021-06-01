@@ -9,7 +9,7 @@
     background: linear-gradient(rgba(228, 212, 87, 0.2), #fc0),  url(images/pay.jpg);
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 100vh;
 }
 
 .logo{
