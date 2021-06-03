@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+}
+
 body{
     color: #f3f3f3;
 }
@@ -13,4 +17,38 @@ header .header-brand{
     font-size: 24px;
     font-weight: 900;
     color: #284975;
+    display: block;
+    margin: o auto;
+    text-align: center;
+    padding: 20px 0;
+
+
+}
+
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    
+    list-style: none;
+    padding: 0 14px;
+    
+    
+}
+
+header nav ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 2px;
+    color: #284975;
+    
+}
+
+header .header-cases{
+    display: none;
 }
