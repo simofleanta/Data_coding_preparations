@@ -2,9 +2,7 @@
     text-decoration: none;
 }
 
-body{
-    color: #f3f3f3;
-}
+
 
 header{
     background-color: #fff;
@@ -18,7 +16,7 @@ header .header-brand{
     font-weight: 900;
     color: #284975;
     display: block;
-    margin: o auto;
+    margin: 0 auto;
     text-align: center;
     padding: 20px 0;
 
@@ -33,10 +31,9 @@ header nav ul{
 }
 
 header nav ul li{
-    display: inline-block;
-    
+    display: inline-block;    
     list-style: none;
-    padding: 0 14px;
+    padding: 0 16px;
     
     
 }
@@ -46,6 +43,7 @@ header nav ul li a{
     font-size: 16px;
     font-weight: 2px;
     color: #284975;
+    text-transform: uppercase;
     
 }
 
@@ -53,16 +51,56 @@ header .header-cases{
     display: none;
 }
 
+@media only screen and (min-width: 1000px ){
+    header .header-brand{
+        margin: 31px o;
+        text-align: left;
+        line-height: 38px ;
+        padding: 0 20px 0 40px;
+        border-right: 3px solid #284975;
+        float: left;
+    }
+
+    header nav ul{
+        margin: 20px 0px 0px 20px ;
+        float: left;
+}
+    
+    
+    header nav ul li a{
+        line-height: 60px;
+}
+
+    header .header-cases {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-weight: 2px;
+        color: #284975;
+        text-transform: uppercase;
+        line-height: 38px;
+        border: 1px solid #284975;
+        float: right;
+        margin-right: 40px;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+
+}
+
 /* index*/
 
 .index-banner{
     width: 100%;
-    height: 60vh;
-    background-image: url('images/Business.jpg');
+    height: calc(100vh - 100px);
+    background-image: linear-gradient(rgba(194, 195, 199, 0.7),rgba(111, 111, 114, 0.7)),url('images/goran-ivos-idmvPhF8t4E-unsplash.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: table;
+    opacity: 8;
+    
     
 }
 
@@ -89,3 +127,74 @@ header .header-cases{
     color: whitesmoke;
     text-shadow: 2px 2px 8px #111;
 }
+
+
+.index-links div{
+    margin: 16px 16px 0;
+    width: calc(100%-32px);
+    height: 100px;
+    background-color: #f2f2f2;
+    
+
+}
+
+p{
+    color: #284975;
+}
+
+.index-links div h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 250;
+    color:#284975;
+    line-height: 100px;
+    
+}
+
+@media only screen and (min-width: 700px ){
+
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .index-banner{
+        
+        height: 450px;
+        
+    }
+
+    .index-banner h1{
+       display: block;
+       width: 560px;
+       margin:  0 auto;
+    }
+
+    .index-links div{
+        margin: 10px 10px 0;
+        height: 200px;
+        background-color: #f2f2f2;
+        float: left; 
+        
+    
+    }
+
+    .index-boxlink-square{
+
+        width: calc(25%-20px) !important;
+
+    }
+    .index-boxlink-rectangle{
+
+        width: calc(50%-30px) !important;
+
+    }
+}
+
+    
+
+
+/* Footer---------------------------------------------------------*/
+
+
+
