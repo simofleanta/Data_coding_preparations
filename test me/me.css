@@ -167,7 +167,7 @@ nav .fa{
 .data-col{
     flex-basis: 31%;
     border-radius: 10px;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     text-align: left;
 
 }
@@ -179,6 +179,12 @@ nav .fa{
 
 .data-col p{
     padding: 0;
+}
+
+ p{
+    color:rgb(62, 95, 124);
+    
+ 
 }
 
 .data-col h3{
