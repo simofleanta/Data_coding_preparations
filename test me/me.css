@@ -63,7 +63,7 @@ nav img{
     color:rgb(62, 109, 150);
     position: absolute;
     top: 40%;
-    left: 13%;
+    left: 14%;
     transform: translate(-70%-30%);
     text-align: left;
 }
@@ -88,6 +88,7 @@ nav img{
     clip-path: circle();
     position: relative;
     right: 15%;
+    background:linear-gradient(rgb(207, 215, 224)whitesmoke);
 }
 
 
