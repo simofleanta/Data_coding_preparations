@@ -39,12 +39,15 @@ nav img{
     display:  inline-block;
     padding: 18px 43px;
     position: relative;
+    list-style: none;
 }
 
 .nav-links ul li a{
     color: rgb(62, 95, 124);
     text-decoration: none;
     font-size: 40;
+    display: inline-flex;
+    text-decoration: none;
 }
 
 .nav-links ul li::after{
@@ -206,7 +209,7 @@ h3{
     width: 100%;
     text-align: center;
     padding: 100px 0;
-    background: whitesmoke;
+    
     
 }
 
@@ -221,7 +224,7 @@ h3{
     color: #284975;
     margin: 0 53px;
     cursor: pointer;
-    padding: 80px 0;
+    padding: 18px 0;
 }
 
 .fa-heart-o{
