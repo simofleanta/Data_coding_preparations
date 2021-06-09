@@ -81,8 +81,7 @@
 }
 
 .me{
-    width: 400px;
-    background-image: linear-gradient(rgba(34, 43, 78, 0.7),rgba(59, 67, 99, 0.7)),url(images/simo2.png);
+    width: 380px;
     align-items:left;
     clip-path: circle();
     position: relative;
