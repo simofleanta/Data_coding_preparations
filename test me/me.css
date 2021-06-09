@@ -39,7 +39,7 @@ nav img{
 }
 
 .nav-links ul li a{
-    color: aliceblue;
+    color: rgb(62, 109, 150);
     text-decoration: none;
     font-size: 40;
 }
@@ -48,7 +48,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: aliceblue;
+    background: rgb(62, 109, 150);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -60,7 +60,7 @@ nav img{
 
 .text-box{
     width: 40%;
-    color:aliceblue;
+    color:rgb(62, 109, 150);
     position: absolute;
     top: 40%;
     left: 30%;
@@ -73,21 +73,21 @@ nav img{
 }
 
 .text-box h1{
-    color: aliceblue;
+    color: rgb(62, 109, 150);
 }
 
 .text-box p{
     margin: 10px 0 40px;
     font-size: 30;
-    color: aliceblue;
+    color: rgb(62, 109, 150);
 }
 
 
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: aliceblue;
-    border: 1px solid aliceblue;
+    color: rgb(62, 109, 150);
+    border: 1px solid rgb(62, 109, 150);
     padding: 12px 30px;
     font-size: 13px;
     background: transparent;
