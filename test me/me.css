@@ -8,7 +8,7 @@
 .header_insights{
     min-height: 90vh;
     width: 100%;
-    background-color:  rgb(220, 222, 224);
+    background-color:  whitesmoke;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -63,7 +63,7 @@ nav img{
     color:rgb(62, 109, 150);
     position: absolute;
     top: 40%;
-    left: 10%;
+    left: 13%;
     transform: translate(-70%-30%);
     text-align: left;
 }
@@ -80,6 +80,14 @@ nav img{
     margin: 10px 0 40px;
     font-size: 30;
     color: rgb(62, 109, 150);
+}
+
+.me{
+    width: 400px;
+    align-items:left;
+    clip-path: circle();
+    position: relative;
+    right: 15%;
 }
 
 
