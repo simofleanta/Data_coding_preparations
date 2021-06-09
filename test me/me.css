@@ -8,7 +8,7 @@
 .header_insights{
     min-height: 90vh;
     width: 100%;
-    background-image: linear-gradient(rgba(34, 43, 78, 0.7),rgba(59, 67, 99, 0.7)),url(images/pay.jpg);
+    background-color:  rgb(220, 222, 224);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -115,7 +115,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
-        background: transparent #284975;
+        background: transparent;
         height: 100vh;
         width: 200px;
         top: 0;
