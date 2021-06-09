@@ -157,15 +157,15 @@ nav .fa{
     width: 70%;
     margin: auto;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .Data h1{
-    margin-top: 30px;
+    margin-top: 70px;
     color: rgb(62, 95, 124);
 }
 .data-col{
-    flex-basis: 31%;
+    flex-basis: 100%;
     border-radius: 10px;
     margin-bottom: 10%;
     text-align: left;
@@ -175,6 +175,7 @@ nav .fa{
 .data-col img{
     width:100%;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .data-col p{
