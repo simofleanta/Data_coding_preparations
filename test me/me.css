@@ -1,27 +1,29 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.header{
-    min-height: 87vh;
+
+.header_insights{
+    min-height: 90vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/smallpic.png);
+    background-image: linear-gradient(rgba(34, 43, 78, 0.7),rgba(59, 67, 99, 0.7)),url(images/pay.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
-
-nav{
+   
+.nav{
     display: flex;
     padding: 2% 6%;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
 nav img{ 
     width: 60px;
+    ;
 }
 
 .nav-links{
@@ -80,6 +82,7 @@ nav img{
     color: aliceblue;
 }
 
+
 .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -93,27 +96,44 @@ nav img{
 }
 
 .hero-btn:hover{
-    border: 1px transparent #284975;
-    background: #284975;
+    border: 1px transparent ;
+    background:transparent;
     transform: 1s;
 
 }
 
+nav .fa{
+    display: none;
+}
+
 @media (max-width:700px){
     .text-box h1{
-        font-size: 40px;
+        font-size: 30px;
     } 
-    .nav-links ul li{
+    .nav-links ul li{   
         display: block;
     }
-    .nav-links ul{
+    .nav-links{
         position: absolute;
-        background: transparent;
+        background: transparent #284975;
         height: 100vh;
         width: 200px;
         top: 0;
-        bottom: 0;
+        right: -200px;
         text-align: left;
         z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: aliceblue;
+        margin: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    
+    }
+    .nav-links ul{
+        padding: 30px;
+
     }
 }
