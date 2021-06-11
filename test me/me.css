@@ -105,6 +105,14 @@ nav img{
         
 }
 
+@media (max-width:700px){
+    
+.me{
+    flex-wrap: wrap;
+    align-items: right;
+}
+}
+
 
 
 .hero-btn{
