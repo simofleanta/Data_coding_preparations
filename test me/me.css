@@ -36,6 +36,12 @@ nav img{
     margin-top: -40px;
 }
 
+@media (max-width:400px){
+    img{ 
+        margin-top:20px;
+}
+}
+
 .nav-links ul li{
     list-style: none;
     display:  inline-block;
