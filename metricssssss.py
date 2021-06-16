@@ -17,7 +17,7 @@ import time
 """ Processing time series on domestic Electric energy consumption"""
 
 #open file
-e=pd.read_csv('D202.csv')
+e=pd.read_csv('metrics(1).csv')
 print(e.columns)
 e_df=DataFrame(e)
 print(e_df)
