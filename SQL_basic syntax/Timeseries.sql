@@ -59,6 +59,33 @@ select* from week_bolts;
 
 
 
+select * from ubers;
+
+
+-- change date format
+
+SELECT *,  DATE_FORMAT(dates, '%Y/%m/%d %H') as Datae FROM ubers;
+
+
+-- extract year/month/day/hour
+-- datetime for  extracting hour/minutes/secs
+select *,
+extract(year FROM dates) as year,
+extract(month FROM  dates) as month,
+extract(day FROM dates) as day,
+extract(hour FROM dates) as Hour
+from ubers;
+
+extract(year FROM dates) as year,
+extract(month FROM  dates) as month,
+extract(day FROM dates) as day,
+extract(hour FROM dates) as Hour
+from ubers;
+
+-- data is fake.
+
+
+
 
 
 
