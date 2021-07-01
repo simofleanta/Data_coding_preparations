@@ -103,13 +103,19 @@ print(e_df.columns)
 
 ##########################################################
 
-#now that we've prepared date time series, we need to rename cols 
+#now that we've prepared date time series, we need to:
 #then subset with needed columns
+#rename cols 
+
 
 metrics_columns=e_df[['Year_dates','Month_dates','n','Leak_duration ','Leak_size ','cost_of_cubic','Leak_flow','Leak_flow_cost','Leak_cost ','Leak_yearly_cost ','Leak_fixed','Building','Year_start','Month_start','Day_start','Hour_start','Minute_start', 'Year_end',
        'Month_end', 'Day_end', 'Hour_end', 'Minute_end']].copy()
 
-#print(metrics_columns.head(3))
+#rename
+
+water_m=e_df[['Year_dates','Month_dates','n','Leak_duration ','Leak_size ','cost_of_cubic','Leak_flow','Leak_flow_cost','Leak_cost ','Leak_yearly_cost ','Leak_fixed','Building','Year_start','Month_start','Day_start','Hour_start','Minute_start', 'Year_end',
+       'Month_end', 'Day_end', 'Hour_end', 'Minute_end']].copy()
+
 
 
 
