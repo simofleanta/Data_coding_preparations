@@ -113,8 +113,29 @@ metrics_columns=e_df[['Year_dates','Month_dates','n','Leak_duration ','Leak_size
 
 #rename
 
-water_m=e_df[['Year_dates','Month_dates','n','Leak_duration ','Leak_size ','cost_of_cubic','Leak_flow','Leak_flow_cost','Leak_cost ','Leak_yearly_cost ','Leak_fixed','Building','Year_start','Month_start','Day_start','Hour_start','Minute_start', 'Year_end',
-       'Month_end', 'Day_end', 'Hour_end', 'Minute_end']].copy()
+metrics_columns.columns
+
+water_m=['Year_dates','Month_dates','n','Leak_duration(days)','Leak_size(L)','cost_of_cubic','Leak_flow(L/H)','Leak_flow_cost(â‚¬/h)','Leak_cost(â‚¬)','Leak_yearly_cost(â‚¬)','Leak_fixed','Building','Year_start','Month_start','Day_start','Hour_start','Minute_start', 'Year_end',
+       'Month_end', 'Day_end', 'Hour_end', 'Minute_end']
+
+metrics_columns.columns=water_m
+#print(metrics_columns)
+
+#download to csv
+
+print(metrics_columns.to_csv('water_metrics.csv'))
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
