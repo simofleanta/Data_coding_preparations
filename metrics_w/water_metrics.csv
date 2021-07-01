@@ -1,4 +1,4 @@
-Year_dates,Month_dates,n,Leak_duration(days),Leak_size(L),cost_of_cubic,Leak_flow(L/H),Leak_flow_cost(€/h),Leak_cost(€),Leak_yearly_cost(€),Leak_fixed,Building,Year_start,Month_start,Day_start,Hour_start,Minute_start,Year_end,Month_end,Day_end,Hour_end,Minute_end
+Year_dates,Month_dates,ni,Leak_duration(days),Leak_size_l,cost_of_cubic,Leak_flow_euro_h,Leak_flow_cost_euro,Leak_cost_euro,Leak_yearly_cost_euro,Leak_fixed,Building,Year_start,Month_start,Day_start,Hour_start,Minute_start,Year_end,Month_end,Day_end,Hour_end,Minute_end
 2021,2,0,5,5659.5,5,43,0.215,28.2975,1883,TRUE,Ecole 1,2021,2,14,11,7,2021,2,19,21,56
 2021,5,1,2,12735.4,5,196,0.98,63.67700195,8585,TRUE,Ecole 1,2021,5,7,14,33,2021,5,10,7,27
 2021,5,2,90,674219.9,5,310,1.55,3371.099375,13578,FALSE,Atelier 2,2021,3,2,8,29,2021,5,31,23,56

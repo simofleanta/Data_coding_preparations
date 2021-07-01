@@ -123,7 +123,17 @@ metrics_columns.columns=water_m
 
 #download to csv
 
-print(metrics_columns.to_csv('water_metrics.csv'))
+#print(metrics_columns.to_csv('water_metrics.csv'))
+
+
+###########################################3
+
+#try another doc
+
+#open file
+e=pd.read_csv('metrics.csv')
+print(e.columns)
+
 
 
 
