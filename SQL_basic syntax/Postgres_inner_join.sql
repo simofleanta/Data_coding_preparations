@@ -11,3 +11,13 @@ select sales_c."Client_id", sales_c."Country_code",sales_c."Services",sales_c."O
 from sales_c
 inner join sales_d
 on sales_c."Country"=sales_d."Country";
+
+--create view
+
+Create view Public.mydata as
+select sales_c."Client_id", sales_c."Country_code",sales_c."Services",sales_c."Out_px",sales_c."Actual",sales_c."Target_Rev", sales_c."Compare", sales_d."Year" 
+from sales_c
+inner join sales_d
+on sales_c."Country"=sales_d."Country";
+
+-- extract date 
