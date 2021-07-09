@@ -21,3 +21,10 @@ inner join sales_d
 on sales_c."Country"=sales_d."Country";
 
 -- extract date 
+
+-- extract date from the view
+select *,
+extract(year FROM mydata."Year") as year,
+extract(month FROM  mydata."Year") as month,
+extract(day FROM mydata."Year") as day
+from Public.mydata;
