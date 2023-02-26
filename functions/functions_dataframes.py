@@ -31,3 +31,15 @@ def bloodcount(counts):
       
 
 bloodcount(counts=bo['A+'].value_counts())
+
+#--------------------------------------------------------------------------
+#f cu return
+#Function to add sales. Return tells the format in which to be printed 
+#then print the function
+
+def addsales(saleslist): 
+    return sum(saleslist) 
+sales = [100,100,100]
+ 
+      
+print(addsales(sales))
