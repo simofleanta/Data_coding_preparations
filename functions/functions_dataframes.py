@@ -15,7 +15,7 @@ s=bo['Country']
 def bloodcount(counts,country):
     print(counts,country)
     s=bo['Country']
-    typecounts=bo['O+'].head(20).value_counts()     
+    counts=bo['O+'].head(20).value_counts()     
 
 bloodcount(counts=bo['O+'].tail(2).value_counts(),country=s.tail(2)) 
 
