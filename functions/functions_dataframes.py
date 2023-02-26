@@ -18,3 +18,14 @@ def bloodcount(counts,country):
     typecounts=bo['O+'].head(20).value_counts()     
 
 bloodcount(counts=bo['O+'].tail(2).value_counts(),country=s.tail(2)) 
+
+
+#------------------------------------------------------------------------------
+
+#Function counting percentages per bloodtype (just 1 arg)
+
+def bloodcount(counts): 
+    print(counts)
+      
+
+bloodcount(counts=bo['A+'].value_counts())
