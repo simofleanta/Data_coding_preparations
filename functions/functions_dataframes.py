@@ -1,3 +1,5 @@
+#https://www.youtube.com/watch?v=WslmhWukJdM
+
 #A function that exxtracts blood type per country
 def bloodtype(mdv):
     print(mdv)
